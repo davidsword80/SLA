@@ -9,7 +9,7 @@ huntersData["song-chiyul"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e74c3c, #000)", // Dégradé rouge/noir pour le feu
     image: "Chasseurs_SR/feu/Song_chiyul/SongChiyul_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/feu/song_chiyul/talent_intact/Relic_SongChiyul_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/feu/Song_chiyul/talent_intact/Relic_SongChiyul_PortraitBig.png",
     weaponName: "Talent intact",
     fullData: {
         0: `
@@ -88,7 +88,7 @@ huntersData["choi-jongin"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Choi_jongin/choi_art.png",
-    weaponImage: "Chasseurs_SSR/feu/choi_jongin/echange_equivalent/Relic_ChoiJongIn_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Choi_jongin/echange_equivalent/Relic_ChoiJongIn_PortraitBig.png",
     weaponName: "échange équivalent",
     fullData: {
         0: `
@@ -184,7 +184,7 @@ huntersData["christopher-reed"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Christopher_reed/christopher_art.png",
-    weaponImage: "Chasseurs_SSR/feu/christopher_reed/Strategie_victorieuse/Relic_ChristopherReed_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Christopher_reed/Strategie_victorieuse/Relic_ChristopherReed_PortraitBig.png",
     weaponName: "Strategie victorieuse",
     fullData: {
         0: `
@@ -341,7 +341,7 @@ huntersData["emma-laurent"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Emma_laurent/emma_art.png",
-    weaponImage: "Chasseurs_SSR/feu/emma_laurent/pensees_nocturnes/Relic_EmmaLaurent_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Emma_laurent/pensees_nocturnes/Relic_EmmaLaurent_PortraitBig.png",
     weaponName: "Pensées nocturnes",
     fullData: {
         0: `
@@ -460,7 +460,7 @@ huntersData["esil-radir"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Esil_radir/esil_art.png",
-    weaponImage: "Chasseurs_SSR/feu/esil_radir/mort_glorieuse/Relic_EsilRadiru_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Esil_radir/mort_glorieuse/Relic_EsilRadiru_PortraitBig.png",
     weaponName: "Mort glorieuse",
     fullData: {
         0: `<h3>Passif :</h3><p>Lorsqu'Esil Radir parvient à mettre une cible en état de <span class="buff">[Bris]</span>, la durée de l'état de [Bris] augmente de <span class="stat-boost">3 seconde(s)</span>.<br>Lorsqu'elle utilise <strong>Impatience de la mort</strong> ou qu'<strong>Évasion extrême</strong> est activée, <strong>Jet de lance</strong> s'active.<br>Lorsqu'elle utilise <strong>Pics transperçants</strong> ou <strong>Gloire à la chaîne</strong>, elle reçoit l'effet <span class="buff pourpre">[Jet de lance amélioré]</span>.<br>Lorsque la compétence <strong>Jet de lance</strong> est activée, son efficacité augmente en fonction du nombre de cumuls de [Jet de lance amélioré] appliqués.<br>L'efficacité de [Bris] dans l'[Atelier de la lumière brillante] augmente de <span class="stat-boost">24 %</span>.</p><div class="detail-box"><h4>[Jet de lance]</h4><p>Esil projette une lance qui transperce les armures magiques (Dégâts: 800% de l'Attaque).<br>Inflige des dégâts de [Bris] légers et active l'effet <span class="buff ecarlate">[Proie]</span> (Max 5 fois).</p></div><div class="detail-box"><h4><span class="buff pourpre">[Jet de lance amélioré]</span></h4><p>Augmente les dégâts de Jet de lance et l'efficacité de [Bris] de <span class="stat-boost">80%</span> (cumulable 5 fois).<br>Supprimé après l'utilisation de Jet de lance.</p></div><div class="detail-box"><h4><span class="buff ecarlate">[Proie]</span></h4><p>Si la cible passe en état de [Bris], elle reçoit <span class="buff feu">[Mort aux faibles]</span> selon le nombre de cumuls de [Proie].<br>Durée: 60s (cumulable 50 fois).</p></div><div class="detail-box"><h4><span class="buff feu">[Mort aux faibles]</span></h4><p>Augmente les dégâts de feu subis de <span class="stat-boost">0.3%</span>.<br>Augmente les dégâts subis de <span class="stat-boost">0.3%</span>.<br>Durée: 60s (cumulable 50 fois).</p></div>`,
@@ -492,7 +492,7 @@ huntersData["gina"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Gina/gina_art.png",
-    weaponImage: "Chasseurs_SSR/feu/gina/glamour_et_auto_reconnaissance/Relic_Gina_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Gina/glamour_et_auto_reconnaissance/Relic_Gina_PortraitBig.png",
     weaponName: "Glamour et auto reconnaissance",
     fullData: {
         0: `
@@ -629,7 +629,7 @@ huntersData["tawata-kanae"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Tawata_kanae/tawata_art.png",
-    weaponImage: "Chasseurs_SSR/feu/tawata_kanae/la_voix_du_heros/Relic_TawataKanae_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Tawata_kanae/la_voix_du_heros/Relic_TawataKanae_PortraitBig.png",
     weaponName: "La voix du héros",
     fullData: {
         0: `
@@ -784,7 +784,7 @@ huntersData["yoo-soohyun"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Yoo_soohyun/yoo_art.png",
-    weaponImage: "Chasseurs_SSR/feu/yoo_soohyun/overdrive/Relic_YooSoohyun_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Yoo_soohyun/overdrive/Relic_YooSoohyun_PortraitBig.png",
     weaponName: "Surpuissance",
     fullData: {
         0: `
@@ -902,7 +902,7 @@ huntersData["fern"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e74c3c, #000)",
     image: "Chasseurs_SSR/collab/feu/Fern/fern_art.png",
-    weaponImage: "Chasseurs_SSR/collab/feu/fern/baton_de_fern/Relic_Fern_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/feu/Fern/baton_de_fern/Relic_Fern_PortraitBig.png",
     weaponName: "Bâton de Fern",
     fullData: {
         0: `
@@ -1098,7 +1098,7 @@ huntersData["stark"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e74c3c, #000)",
     image: "Chasseurs_SSR/collab/feu/Stark/stark_art.png",
-    weaponImage: "Chasseurs_SSR/collab/feu/stark/hache_de_stark/Relic_Stark_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/feu/Stark/hache_de_stark/Relic_Stark_PortraitBig.png",
     weaponName: "Hache de Stark",
     fullData: {
         0: `
@@ -1274,7 +1274,7 @@ huntersData["yuqi"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e74c3c, #000)",
     image: "Chasseurs_SSR/collab/feu/Yuqi/yuqi_art.png",
-    weaponImage: "Chasseurs_SSR/collab/feu/yuqi/soleil_vertueux/Relic_Yuqi_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/feu/Yuqi/soleil_vertueux/Relic_Yuqi_PortraitBig.png",
     weaponName: "Soleil vertueux",
     fullData: {
         0: `

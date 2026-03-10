@@ -9,7 +9,7 @@ huntersData["kim-sangshik"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #2ecc71, #000)", // Dégradé vert/noir pour le vent
     image: "Chasseurs_SR/vent/Kim_sangshik/KimSangshik_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/vent/kim_sangshik/la_chute_de_quelqu_un/Relic_KimSangshik_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/vent/Kim_sangshik/la_chute_de_quelqu_un/Relic_KimSangshik_PortraitBig.png",
     weaponName: "La chute de quelqu'un",
     fullData: {
         0: `
@@ -92,7 +92,7 @@ huntersData["park-beom-shik"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #2ecc71, #000)",
     image: "Chasseurs_SR/vent/Park_beom_shik/ParkBeomSik_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/vent/park_beom_shik/decisions/Relic_ParkBeomsik_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/vent/Park_beom_shik/decisions/Relic_ParkBeomsik_PortraitBig.png",
     weaponName: "Décisions",
     fullData: {
         0: `
@@ -189,7 +189,7 @@ huntersData["park-heejin"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #2ecc71, #000)",
     image: "Chasseurs_SR/vent/Park_heejin/ParkHeejin_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/vent/park_heejin/intuition/Relic_ParkHeejin_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/vent/Park_heejin/intuition/Relic_ParkHeejin_PortraitBig.png",
     weaponName: "Intuition",
     fullData: {
         0: `
@@ -271,7 +271,7 @@ huntersData["lennart-niermann"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #1e8449, #000)",
     image: "Chasseurs_SSR/vent/Lennart_niermann/lennart_art.png",
-    weaponImage: "Chasseurs_SSR/vent/lennart_niermann/le_poid_des_responsabilites/Relic_LennartNiermann_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/vent/Lennart_niermann/le_poid_des_responsabilites/Relic_LennartNiermann_PortraitBig.png",
     weaponName: "Le poid des responsabilités",
     fullData: {
         0: `
@@ -395,7 +395,7 @@ huntersData["sung-jinah"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #1e8449, #000)",
     image: "Chasseurs_SSR/vent/Sung_jinah/sung_art.png",
-    weaponImage: "Chasseurs_SSR/vent/sung_jinah/mousson_bleue/Relic_SungJinah_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/vent/Sung_jinah/mousson_bleue/Relic_SungJinah_PortraitBig.png",
     weaponName: "Mousson bleue",
     fullData: {
         0: `
@@ -547,7 +547,7 @@ huntersData["woo-jincheol"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #1e8449, #000)",
     image: "Chasseurs_SSR/vent/Woo_jincheol/woo_art.png",
-    weaponImage: "Chasseurs_SSR/vent/woo_jincheol/un_autre_niveau/Relic_WooJinChul_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/vent/Woo_jincheol/un_autre_niveau/Relic_WooJinChul_PortraitBig.png",
     weaponName: "Un autre niveau",
     fullData: {
         0: `
@@ -746,7 +746,7 @@ huntersData["han-se-mi"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #1e8449, #000)",
     image: "Chasseurs_SSR/vent/Han_se_mi/han_art.png",
-    weaponImage: "Chasseurs_SSR/vent/han_se_mi/l_age_adulte/Relic_HanSeMi_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/vent/Han_se_mi/l_age_adulte/Relic_HanSeMi_PortraitBig.png",
     weaponName: "L'âge adulte",
     fullData: {
         0: `
@@ -855,7 +855,7 @@ huntersData["goto-ryuji"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #1e8449, #000)",
     image: "Chasseurs_SSR/vent/Goto_ryuji/goto_art.png",
-    weaponImage: "Chasseurs_SSR/vent/goto_ryuji/reves_distordus/Relic_GotoRyuji_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/vent/Goto_ryuji/reves_distordus/Relic_GotoRyuji_PortraitBig.png",
     weaponName: "Rêves distordus",
     fullData: {
         0: `
@@ -967,7 +967,7 @@ huntersData["amamiya-mirei"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #1e8449, #000)",
     image: "Chasseurs_SSR/vent/Amamiya_mirei/amamiya_art.png",
-    weaponImage: "Chasseurs_SSR/vent/amamiya_mirei/lapin_bunbun/Relic_AmamiyaMirei_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/vent/Amamiya_mirei/lapin_bunbun/Relic_AmamiyaMirei_PortraitBig.png",
     weaponName: "Lapin Bunbun",
     fullData: {
         0: `
@@ -1067,7 +1067,7 @@ huntersData["soyeon"] = {
     element: "Vent",
     gradient: "linear-gradient(90deg, #2ecc71, #000)",
     image: "Chasseurs_SSR/collab/vent/Soyeon/soyeon_art.png",
-    weaponImage: "Chasseurs_SSR/collab/vent/soyeon/flash_flamboyant/Relic_Soyeon_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/vent/Soyeon/flash_flamboyant/Relic_Soyeon_PortraitBig.png",
     weaponName: "Flash flamboyant",
     fullData: {
         0: `

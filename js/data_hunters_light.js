@@ -9,7 +9,7 @@ huntersData["cho-gyuhwan"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)", // Dégradé jaune/or pour la lumière
     image: "Chasseurs_SR/lumiere/Cho_gyuhwan/ChoGyuHwan_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/lumiere/cho_gyuhwan/la_belle_vie/Relic_ChoGyuHwan_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/lumiere/Cho_gyuhwan/la_belle_vie/Relic_ChoGyuHwan_PortraitBig.png",
     weaponName: "La belle vie",
     fullData: {
         0: `
@@ -100,7 +100,7 @@ huntersData["kim-chul"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SR/lumiere/Kim_chul/KimChul_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/lumiere/kim_chul/la_volonte_du_gardien/Relic_KimChul_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/lumiere/Kim_chul/la_volonte_du_gardien/Relic_KimChul_PortraitBig.png",
     weaponName: "La volonté du gardien",
     fullData: {
         0: `
@@ -200,7 +200,7 @@ huntersData["yoo-jinho"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SR/lumiere/Yoo_jinho/YooJinho_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/lumiere/yoo_jinho/enchante/Relic_YooJinho_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/lumiere/Yoo_jinho/enchante/Relic_YooJinho_PortraitBig.png",
     weaponName: "Enchanté",
     fullData: {
         0: `
@@ -307,7 +307,7 @@ huntersData["baek-yunho"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Baek_yunho/baek_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/baek_yunho/ame_de_tigre_blanc_reprimee/Relic_BaekYoonHo_Human_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Baek_yunho/ame_de_tigre_blanc_reprimee/Relic_BaekYoonHo_Human_PortraitBig.png",
     weaponName: "Âme de tigre blanc réprimée",
     fullData: {
         0: `
@@ -412,7 +412,7 @@ huntersData["cha-hae-in"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Cha_hae_in/cha_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/cha_hae_in/epee_de_lumiere/Relic_ChaHaeIn_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Cha_hae_in/epee_de_lumiere/Relic_ChaHaeIn_PortraitBig.png",
     weaponName: "Épée de lumière",
     fullData: {
         0: `
@@ -499,7 +499,7 @@ huntersData["go-gunhee"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Go_gunhee/go_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/go_gunhee/une_conviction_et_une_vocation/Relic_GoGunhee_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Go_gunhee/une_conviction_et_une_vocation/Relic_GoGunhee_PortraitBig.png",
     weaponName: "Une conviction et une vocation",
     fullData: {
         0: `
@@ -623,7 +623,7 @@ huntersData["laura-walker"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Laura_walker/laura_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/laura_walker/eclair_dechire_nuit/Relic_LauraWalker_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Laura_walker/eclair_dechire_nuit/Relic_LauraWalker_PortraitBig.png",
     weaponName: "Éclair déchire-nuit",
     fullData: {
         0: `
@@ -787,7 +787,7 @@ huntersData["min-byeonggu"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Min_byeonggu/min_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/min_byeonggu/sommeil_eternel/Relic_MinByungGu_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Min_byeonggu/sommeil_eternel/Relic_MinByungGu_PortraitBig.png",
     weaponName: "Sommeil éternel",
     fullData: {
         0: `
@@ -875,7 +875,7 @@ huntersData["shimizu-akari"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Shimizu_akari/shimizu_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/shimizu_akari/le_prix_d_une_promesse/Relic_ShimizuAkari_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Shimizu_akari/le_prix_d_une_promesse/Relic_ShimizuAkari_PortraitBig.png",
     weaponName: "Le prix d'une promesse",
     fullData: {
         0: `<h3>Passif :</h3>Au début du combat, l'effet <span class="buff">[Investigatrice de la flamme divine]</span> est activé.<br> Lorsque la compétence <strong>Lumière de l'aube</strong> est utilisée, Dévastation devient <strong>Attaque lourde: Dévastation</strong>, qui augmente les dégâts infligés par l'utilisatrice de <span class="stat-boost">100%</span>.<br> Si l'utilisatrice est touchée lors d'une <strong>Ruée</strong>, <strong>Évasion extrême</strong> est activée, les ennemis proches subissent des dégâts, et ces derniers sont <span class="buff">[étourdis]</span>.<br> <br><div class="detail-box"><h4><span class="buff">[Investigatrice de la flamme divine]</span></h4>Lorsque les compétences Lumière de l'aube ou Attaque lourde: Dévastation touchent leur cible, elles leur appliquent l'effet <span class="buff">[Flamme divine]</span> 1 fois.<br> Durée: illimitée</div><div class="detail-box"><h4><span class="buff">[Flamme divine]</span></h4>Augmente les dégâts de lumière subis par la cible de <span class="stat-boost">1%</span> (cumulable jusqu'à 10 fois).<br> Durée: 24 seconde(s)</div><div class="detail-box"><h4><span class="buff">[étourdissement]</span></h4>Immobilise la cible.<br> Durée: 2 seconde(s)</div>`,
@@ -907,7 +907,7 @@ huntersData["thomas-andre"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Thomas_andre/thomas_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/thomas_andre/le_veritable_roi/Relic_ThomasAndre_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Thomas_andre/le_veritable_roi/Relic_ThomasAndre_PortraitBig.png",
     weaponName: "Le véritable roi",
     fullData: {
         0: `
@@ -1007,7 +1007,7 @@ huntersData["miyeon"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/collab/lumiere/Miyeon/miyeon_art.png",
-    weaponImage: "Chasseurs_SSR/collab/lumiere/miyeon/l_etoile_guide_du_champ_de_bataille/Relic_Miyeon_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/lumiere/Miyeon/l_etoile_guide_du_champ_de_bataille/Relic_Miyeon_PortraitBig.png",
     weaponName: "L'étoile guide du champ de bataille",
     fullData: {
         0: `

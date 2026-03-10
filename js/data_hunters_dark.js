@@ -9,7 +9,7 @@ huntersData["hwang-dongsuk"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)", // Dégradé violet/noir pour les ténèbres
     image: "Chasseurs_SR/tenebre/Hwang_dongsuk/HwangDongsuk_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/tenebre/hwang_dongsuk/pilleur_d_ame/Relic_HwangDongsuk_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/tenebre/Hwang_dongsuk/pilleur_d_ame/Relic_HwangDongsuk_PortraitBig.png",
     weaponName: "Pilleur d'âme",
     fullData: {
         0: `
@@ -105,7 +105,7 @@ huntersData["kang-taeshik"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SR/tenebre/Kang_taeshik/KangTaeshik_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/tenebre/kang_taeshik/frenesie_inarretable/Relic_KangTaeShik_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/tenebre/Kang_taeshik/frenesie_inarretable/Relic_KangTaeShik_PortraitBig.png",
     weaponName: "Frénésie Inarrêtable",
     fullData: {
         0: `
@@ -303,7 +303,7 @@ huntersData["charlotte"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Charlotte/charlotte_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/charlotte/farceuse/Relic_Charlotte_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Charlotte/farceuse/Relic_Charlotte_PortraitBig.png",
     weaponName: "Farceuse",
     fullData: {
         0: `
@@ -402,7 +402,7 @@ huntersData["harper"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Harper/harper_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/harper/espiegle/Relic_Harper_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Harper/espiegle/Relic_Harper_PortraitBig.png",
     weaponName: "Espiègle",
     fullData: {
         0: `
@@ -522,7 +522,7 @@ huntersData["isla-wright"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Isla_wright/isla_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/isla_wright/chance_impromptue/Relic_IslaWright_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Isla_wright/chance_impromptue/Relic_IslaWright_PortraitBig.png",
     weaponName: "Chance impromptue",
     fullData: {
         0: `
@@ -635,7 +635,7 @@ huntersData["lee-bora"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Lee_bora/lee_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/lee_bora/logique_imparable/Relic_LeeBora_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Lee_bora/logique_imparable/Relic_LeeBora_PortraitBig.png",
     weaponName: "Logique Imparable",
     fullData: {
         0: `
@@ -724,7 +724,7 @@ huntersData["lim-taegyu"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Lim_taegyu/LimTaeGyu_Portrait_Body.png",
-    weaponImage: "Chasseurs_SSR/tenebre/lim_taegyu/interception/Relic_LimTaegyu_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Lim_taegyu/interception/Relic_LimTaegyu_PortraitBig.png",
     weaponName: "Interception",
     fullData: {
         0: `
@@ -816,7 +816,7 @@ huntersData["sian-halat"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Sian_halat/sian_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/sian_halat/ombre_pourpre/Relic_SianHalat_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Sian_halat/ombre_pourpre/Relic_SianHalat_PortraitBig.png",
     weaponName: "Ombre pourpre",
     fullData: {
         0: `
@@ -975,7 +975,7 @@ huntersData["son-kihoon"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Son_kihoon/son_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/son_kihoon/determination_de_fer/Relic_SonKiHoon_PC_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Son_kihoon/determination_de_fer/Relic_SonKiHoon_PC_PortraitBig.png",
     weaponName: "Détermination de fer",
     fullData: {
         0: `
@@ -1130,7 +1130,7 @@ huntersData["sung-ilhwan"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Sung_ilhwan/sung_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/sung_ilhwan/volonte_implacable/Relic_SungIlHwan_PC_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Sung_ilhwan/volonte_implacable/Relic_SungIlHwan_PC_PortraitBig.png",
     weaponName: "Volonté implacable",
     fullData: {
         0: `
@@ -1263,7 +1263,7 @@ huntersData["minnie"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/collab/tenebre/Minnie/minnie_art.png",
-    weaponImage: "Chasseurs_SSR/collab/tenebre/minnie/reve_du_papillon_mauve/Relic_Minnie_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/tenebre/Minnie/reve_du_papillon_mauve/Relic_Minnie_PortraitBig.png",
     weaponName: "Rêve du papillon mauve",
     fullData: {
         0: `

@@ -9,7 +9,7 @@ huntersData["nam-chae-young"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SR/eau/Nam_chae_young/NamChaeYeong_Portrait_Body.png", 
-    weaponImage: "Chasseurs_SR/eau/nam_chae_young/misericorde_du_tueur/Relic_NamChaeyeong_PortraitBig.png", 
+    weaponImage: "Chasseurs_SR/eau/Nam_chae_young/misericorde_du_tueur/Relic_NamChaeyeong_PortraitBig.png", 
     weaponName: "Miséricorde du tueur",
     fullData: {
         0: `
@@ -88,7 +88,7 @@ huntersData["lee-juhee"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SR/eau/Lee_juhee/LeeJuhee_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/eau/lee_juhee/ce_qui_n_a_jamais_ete/Relic_LeeJuhee_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/eau/Lee_juhee/ce_qui_n_a_jamais_ete/Relic_LeeJuhee_PortraitBig.png",
     weaponName: "Ce qui n'a jamais été",
     fullData: {
         0: `
@@ -169,7 +169,7 @@ huntersData["han-songyi"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SR/eau/Han_songyi/HanSongI_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/eau/han_songyi/premieres_fleurs/Relic_HanSongI_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/eau/Han_songyi/premieres_fleurs/Relic_HanSongI_PortraitBig.png",
     weaponName: "Premières fleurs",
     fullData: {
         0: `
@@ -256,7 +256,7 @@ huntersData["anna-ruiz"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SR/eau/Anna_ruiz/AnnaRuiz_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/eau/anna_ruiz/vagabon_solitaire/Relic_AnnaRuiz_PortraitBig.png",
+    weaponImage: "Chasseurs_SR/eau/Anna_ruiz/vagabon_solitaire/Relic_AnnaRuiz_PortraitBig.png",
     weaponName: "Vagabon Solitaire",
     fullData: {
         0: `
@@ -353,7 +353,7 @@ huntersData["alicia-blanche"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SSR/eau/Alicia_blanche/alicia_art.png", 
-    weaponImage: "Chasseurs_SSR/eau/alicia_blanche/sorciere_des_glaces/Relic_AliciaBlanchet_PortraitBig.png", 
+    weaponImage: "Chasseurs_SSR/eau/Alicia_blanche/sorciere_des_glaces/Relic_AliciaBlanchet_PortraitBig.png", 
     weaponName: "Sorcière des glaces",
     fullData: {
         0: `<h3>Passif :</h3><p>Lorsqu'elles sont lancées, les compétences <strong>Givre éternel</strong>, <strong>Tempête hivernale</strong> ou <strong>Aiguille de glace</strong> appliquent l'effet <span class="buff">[Gel]</span> à l'utilisateur, ce qui active la modification de son <span class="buff">[Givre]</span> Attaque de noyau.<br>L'Attaque de noyau de l'utilisateur devient <strong>Lance de froid glacial</strong>.<br>L'utilisation de Lance de froid glacial consomme des instances de <span class="buff">[Givre]</span> (jusqu'à 3 instances à la fois).<br>Les dégâts de Lance de froid glacial augmentent de <span class="stat-boost">60%</span> par instance de <span class="buff">[Givre]</span> consommée (augmentant jusqu'à <span class="stat-boost">180%</span>).<br>Durée: permanent (cumulable jusqu'à 5 fois)</p>`,
@@ -377,7 +377,7 @@ huntersData["seo-jiwoo"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SSR/eau/Seo_jiwoo/seo_art.png", // Remplacer par le nom exact de ton image
-    weaponImage: "Chasseurs_SSR/eau/seo_jiwoo/bravoure_inegalee/Relic_SeoJiwoo_PortraitBig.png", // Remplacer par le nom exact de ton image
+    weaponImage: "Chasseurs_SSR/eau/Seo_jiwoo/bravoure_inegalee/Relic_SeoJiwoo_PortraitBig.png", // Remplacer par le nom exact de ton image
     weaponName: "Bravoure Inégalée",
     fullData: {
         0: `<h3>Passif :</h3><p>Lors de l'utilisation des compétences <strong>Frappe du dragon jumeau</strong>, <strong>Ruade du dragon d'eau</strong>, <strong>Coup de pied foudroyant</strong> ou de <strong>Coup de poing éclatant</strong>, l'effet <span class="buff">[Entraînement]</span> se cumule 1 fois.<br>Lorsque l'effet <span class="buff">[Entraînement]</span> se cumule 3 fois, l'effet <span class="buff">[Entraînement du dragon d'eau]</span> s'applique.<br>Lorsque l'effet <span class="buff">[Entraînement du dragon d'eau]</span> est actif, le temps de rechargement de <strong>Ruade du dragon d'eau</strong> et <strong>Coup de pied foudroyant</strong> se réinitialise, et ces compétences deviennent respectivement <strong>Attaque lourde : Ruade du dragon d'eau</strong> et <strong>Attaque lourde: Coup de pied foudroyant</strong>.<br></p><div class="detail-box"><h4><span class="buff">[Entraînement]</span></h4><p>Durée: infinie (cumulable jusqu'à 3 fois)</p></div><div class="detail-box"><h4><span class="buff">[Entraînement du dragon d'eau]</span></h4><p>Lors de l'utilisation des compétences <strong>Attaque lourde: Ruade du dragon d'eau</strong> ou <strong>Attaque lourde: Coup de pied foudroyant</strong>, l'effet se dissipe.<br>Durée: infinie</p></div>`,
@@ -409,7 +409,7 @@ huntersData["meilin-fisher"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SSR/eau/Meilin_fisher/meilin_art.png", // Remplacer par le nom exact
-    weaponImage: "Chasseurs_SSR/eau/meilin_fisher/contre_toute_attente/Relic_MeilinFisher_PortraitBig.png", // Remplacer par le nom exact
+    weaponImage: "Chasseurs_SSR/eau/Meilin_fisher/contre_toute_attente/Relic_MeilinFisher_PortraitBig.png", // Remplacer par le nom exact
     weaponName: "Contre toute attente",
     fullData: {
         0: `<h3>Passif :</h3><p>Lorsque les compétences <strong>Retour de fouet</strong> ou <strong>Ruade féline</strong> touchent leur cible, elles leur infligent l'effet <span class="buff">[Étreinte liquide]</span>.<br>Lors de l'utilisation des compétences <strong>Fouet latéral</strong> ou <strong>Au-dessus!</strong> ou si l'utilisatrice quitte le combat, l'effet <span class="buff">[Salut, miaou!]</span> s'applique à tous les membres de l'équipe.<br></p><div class="detail-box"><h4><span class="buff">[Étreinte liquide]</span></h4><p>Augmente les dégâts d'eau subis de <span class="stat-boost">8%</span>.<br>Durée: 16 seconde(s)<br></p></div><div class="detail-box"><h4><span class="buff">[Salut, miaou!]</span></h4><p>L'Attaque augmente de <span class="stat-boost">8%</span>.<br>La Défense augmente de <span class="stat-boost">8%</span>.<br>Durée: 16 seconde(s) (cumulable jusqu'à 3 fois)</p></div>`,
@@ -441,7 +441,7 @@ huntersData["meri-laine"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SSR/eau/Meri_laine/meri_art.png", 
-    weaponImage: "Chasseurs_SSR/eau/meri_laine/brise_hiver/Relic_Relic_MeriLaine_PortraitBig.png", 
+    weaponImage: "Chasseurs_SSR/eau/Meri_laine/brise_hiver/Relic_Relic_MeriLaine_PortraitBig.png", 
     weaponName: "Brise-hiver",
     fullData: {
         0: `<h3>Passif :</h3><p>L'effet <span class="buff">[Mode Pingqueen normale]</span> s'active au début du niveau.<br>La jauge de puissance de l'utilisatrice ne peut pas se remplir, mais si la jauge de <span class="buff">[Boost de Pingqueen]</span> atteint 100%, l'utilisatrice récupère 100% de sa jauge de puissance, et le temps de recharge d'<strong>Élan glacial</strong> est réinitialisé.<br>Lorsque <strong>Ruade grinçante</strong> touche sa cible, elle lui applique 1 cumuls de l'effet <span class="buff">[Froid hivernal]</span>.<br>Lorsque la compétence <strong>Claque montante</strong> touche une cible affectée par <span class="buff">[Froid hivernal]</span>, l'effet <span class="buff">[Souvenirs d'hiver]</span> est activé.<br></p><div class="detail-box"><h4><span class="buff">[Mode Pingqueen normale]</span></h4><p>Chaque fois que les compétences <strong>Claque montante</strong> ou <strong>Balayage de lame</strong> touchent leur cible, elles remplissent la jauge de <span class="buff">[Boost de Pingqueen]</span>.<br>L'utilisation de la compétence <strong>Élan glacial</strong> supprime l'effet <span class="buff">[Mode Pingqueen normale]</span> et active l'effet <span class="buff">[Mode Pingqueen boostée]</span>.<br>Durée : illimitée</p></div><div class="detail-box"><h4><span class="buff">[Mode Pingqueen boostée]</span></h4><p>La compétence <strong>Balayage de lame</strong> devient <strong>Balayage enragé</strong>, et son temps de recharge est réinitialisé.<br>L'utilisatrice peut bouger lors de l'utilisation de la compétence <strong>Balayage enragé</strong>.<br>Augmente les dégâts infligés par les compétences <strong>Balayage de lame</strong> et <strong>Élan glacial</strong> aux cibles affectées par <span class="buff">[Froid hivernal]</span> de 25%.<br>Augmente l'effet d' <span class="buff">[Accumulation élémentaire]</span> d'Eau de 5%.<br>Confère <span class="buff">[Super armure]</span> à l'utilisatrice jusqu'à la fin de l'activation.<br>Active l'effet <span class="buff">[Mode Pingqueen normale]</span> à la fin de l'activation.<br>Durée : 10 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Souvenirs d'hiver]</span></h4><p>Augmente les dégâts d'eau de 15%.<br>Augmente les dégâts des compétences <strong>Balayage de lame</strong> et <strong>Balayage enragé</strong> de 15%.<br>Durée : 30 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Froid hivernal]</span></h4><p>Inflige des dégâts équivalents à 50% des PV max de Meri Laine toutes les 3 secondes.<br>Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p></div>`,
@@ -472,7 +472,7 @@ huntersData["seo-lin"] = {
     rarity: "SSR",
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
-    image: "Chasseurs_SSR/eau/seo_lin/seo_art.png",
+    image: "Chasseurs_SSR/eau/Seo_lin/seo_art.png",
     weaponImage: "Chasseurs_SSR/eau/Seo_lin/ode_au_fer_et_au_sang/Relic_SeoLin_PC_PortraitBig.png",
     weaponName: "Ode au fer et au sang",
     fullData: {
@@ -537,7 +537,7 @@ huntersData["frieren"] = {
     element: "eau", 
     gradient: "linear-gradient(90deg, #2980b9, #000))", 
     image: "Chasseurs_SSR/collab/eau/Frieren/frieren_art.png",
-    weaponImage: "Chasseurs_SSR/collab/eau/frieren/baton_de_frieren/Relic_Frieren_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/eau/Frieren/baton_de_frieren/Relic_Frieren_PortraitBig.png",
     weaponName: "Bâton de Frieren",
     fullData: {
         0: `
@@ -686,7 +686,7 @@ huntersData["shuhua"] = {
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
     image: "Chasseurs_SSR/collab/eau/Shuhua/shuhua_art.png",
-    weaponImage: "Chasseurs_SSR/collab/eau/shuhua/sous_le_clair_de_lune/Relic_Shuhua_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/collab/eau/Shuhua/sous_le_clair_de_lune/Relic_Shuhua_PortraitBig.png",
     weaponName: "Sous le clair de lune",
     fullData: {
         0: `
