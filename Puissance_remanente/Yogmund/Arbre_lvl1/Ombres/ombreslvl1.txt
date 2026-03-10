@@ -1,0 +1,3 @@
+Niv. 1
+Attaque augmentée (Ombres)
+L'Attaque des Ombres augmente de 10 % lorsque [Puissance rémanente : Yogmund] est dans la formation.

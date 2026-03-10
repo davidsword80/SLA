@@ -1,0 +1,21 @@
+Passif :<br>Lors de l'utilisation des compétences Balle d'air, Cisaille venteuse, Bourrasque tranchante ou Vortex venteux, la jauge de puissance de l'utilisateur se remplit de 8%.<br>Réduit le temps de rechargement de Tempête venteuse de 30%.
+
+1 étoile :<br>Lorsque Heejin utilise la compétence Bourrasque tranchante, elle supprime les [débuffs] appliqués à elle et son équipe.
+
+2 étoiles :<br>Le temps de rechargement de Tempête venteuse diminue de 10%.
+
+3 étoiles :<br>Lors de l'utilisation des compétences Balle d'air, Cisaille venteuse, Bourrasque tranchante ou<br>Vortex venteux, la jauge de puissance de l'utilisateur se remplit de 10%.
+
+4 étoiles :<br>Les dégâts de la compétence Tempête venteuse augmentent de 30%.
+
+5 étoiles :<br>Au début du combat, la jauge de puissance de Heejin se remplit de 100%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

@@ -1,0 +1,1 @@
+Passif :<br>Lors de l'utilisation de la Compétence ultime, l'utilisateur bénéficie d'un Bouclier équivalent à 6% de ses PV max pendant 8 secondes.<br>La condition d'activation sera déterminée lors de l'obtention d'un noyau.

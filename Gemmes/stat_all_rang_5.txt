@@ -1,0 +1,51 @@
+Jaune : Rang 5
+precision : min -> max
+1065 / 1160 / 1260 / 1450
+
+degat crit : min -> max
+535 / 580 / 630 / 725
+
+penetration defense : min -> max
+535 / 580 / 630 / 725
+
+
+
+Violet : Rang 5
+PM supp : min -> max
+65 / 70 / 80 / 90
+
+vitesse% : min -> max
+0.28% / 0.3% / 0.32% / 0.35%
+
+baisse coup PM : min -> max
+130 / 145 / 155 / 180
+
+
+
+Vert : Rang 5
+defense supp : min -> max
+230 / 260 / 290 / 350
+
+defense% : min -> max
+3.2% / 3.4% / 3.6 / 4%
+
+reduction degat : min -> max
+140 / 150 / 160 / 180
+
+
+
+Rouge : Rang 5
+attaque supp : min -> max
+230 / 260 / 290 / 350
+
+attaque% : min -> max
+3.2% / 3.4% / 3.6 / 4%
+
+
+
+Bleu : Rang 5
+PV% : min -> max
+3.2% / 3.4% / 3.6 / 4%
+
+PV supp : min -> max
+230 / 260 / 290 / 350

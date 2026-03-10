@@ -1,0 +1,11 @@
+Passif :<br>L'effet [Super boost magique] est activé au début du combat.<br>Lors de Dérapage au marteau!, cette compétence active l'effet [London Drift].<br>[Super boost magique]<br>Lors de Dérapage au marteau!, cette compétence augmente le Taux de coup critique et les Dégâts de coup critique de 5%. (Cumulable jusqu'à 4 fois.)<br>Durée: illimitée<br>[La dérive de Londres]<br>Augmente les dégâts infligés de 20 %. Durée: 10 seconde(s)
+
+1 étoile :<br>L'utilisation de L'attendrisseur! octroie un [Bouclier] équivalent à 50% des PV de l'utilisatrice.<br>Le nombre max de coups de L'attendrisseur! augmente de 4 et les dégâts de compétence augmentent de 120%.
+
+2 étoiles :<br>L'efficacité de [Bris] augmente de 20%.
+
+3 étoiles :<br>Lors de Dérapage au marteau !, l'utilisatrice attaque instantanément les ennemis dans un rayon de 5 m.<br>[London Drift] est amélioré.<br>Mjöllnir de Harper devient Mjöllnir de Harper et Charlotte.<br>Les dégâts de compétence ultime de l'utilisatrice augmentent de 70%.<br>[La dérive de Londres]<br>Augmente les dégâts infligés de 60%. Durée: 15 seconde(s)
+
+4 étoiles :<br>La Défense et les PV de tous les membres de l'équipe augmentent de 8%.
+
+5 étoiles :<br>Petits morceaux est amélioré. [Super boost magique] devient [Super boost magique des jumelles].<br>[Petits morceaux]<br>Les dégâts de compétence ultime subis par les chasseurs d'élément Ténèbres augmentent de 2%. (Cumulable jusqu'à 16 fois.)<br>Durée: 30 seconde(s)<br>[Super boost magique des jumelles]<br>Lors de Dérapage au marteau !, la compétence augmente le Taux de coup critique et les Dégâts de coup critique de l'utilisatrice de 6%. (Cumulable jusqu'à 7 fois.)<br>Durée: illimitée

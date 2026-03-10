@@ -1,0 +1,5 @@
+0 étoile :<br>L'utilisateur attaque en ignorant 2 % de la Défense.<br>Lors de l'utilisation de la compétence Médiation de puissance, les dégâts infligés par l'utilisateur à la cible augmentent de 5% pendant 5 seconde(s) (cumulable jusqu'à 3 fois).<br>Lorsque l'ennemi entre en état de [Bris], les dégâts élémentaires de vent de toute l'équipe augmentent de 4%, à l'exception de l'utilisateur de cette compétence.<br>Durée: infinie
+
+5 étoiles :<br>L'utilisateur attaque en ignorant 6 % de la Défense.<br>Lors de l'utilisation de la compétence Médiation de puissance, les dégâts infligés par l'utilisateur à la cible augmentent de 20% pendant 5 seconde(s) (cumulable jusqu'à 3 fois).<br>Lorsque l'ennemi entre en état de [Bris], les dégâts élémentaires de vent de toute l'équipe augmentent de 12%, à l'exception de l'utilisateur de cette compétence.<br>Durée: infinie
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

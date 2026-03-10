@@ -1,0 +1,21 @@
+Passif<br>Les dégâts infligés aux cibles affectées par l'effet [Gel] augmentent de 20%.
+
+1 étoile :<br>L'efficacité de [Bris] de l'utilisateur augmente de 20%.
+
+2 étoiles :<br>Les PV de l'utilisateur augmentent de 6 %.
+
+3 étoiles :<br>Augmente les dégâts de Flèche détonatrice de 80%.
+
+4 étoiles :<br>Augmente la portée de l'explosion de K63 - Grenade de glace, Percée glaçante et Sommet de l'iceberg de 20%.
+
+5 étoiles :<br>La durée de l'effet [Gel] de K63 - Grenade de glace, Sommet de l'iceberg et Flèche détonatrice passe à 3 seconds.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

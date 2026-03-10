@@ -1,0 +1,26 @@
+Bourrasque
+Légendaire
+
+Dégâts : 1564 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Consommation de PM : 150 Inflige des dégâts élémentaires de vent. Lorsque cette compétence touche la cible, celle-ci est [renversée]. En fonction du nombre de cibles touchées avec cette compétence, augmente les dégâts infligés aux monstres de type Normal de 20 % (jusqu'à 10 cible(s)).
+
+Explosion consécutive
+Légendaire
+
+Explosion consécutive Rune de compétence En votre possession 0 Source
+
+Dégâts : 1126 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Consommation de PM : 150 Inflige des dégâts élémentaires d'eau. Lorsque cette compétence touche sa cible, elle la [renverse]. Lorsque la dernière attaque touche la cible, elle lui inflige l'effet [En l'air]. Augmente les dégâts infligés aux ennemis en état de [Bris] de 250 %.
+
+Ombres
+Légendaire
+
+Dégâts : 2454 % de l'Attaque de Jinwoo Temps de rechargement : 10 s Consommation de PM : 100 Inflige des dégâts élémentaires de ténèbres. Lorsque cette compétence touche sa cible, elle la [renverse]. Lorsque cette compétence est utilisée, elle applique un [Bouclier] équivalent à 20 % des PV de Jinwoo pendant 2 seconde(s). Lorsque cette compétence est utilisée, Jinwoo peut contre-attaquer. Inflige à la cible des dégâts équivalents à 1000 % de l'Attaque de Jinwoo et l'effet [Étourdissement] quand une contre-attaque est réussie. Active Foulée de l'ombre et réinitialise son temps de rechargement quand une contre-attaque est réussie (temps de rechargement : 20 seconde(s)).
+
+[Étourdissement] Immobilise la cible. Durée : 3 seconde(s)
+
+
+Onde croisée
+Légendaire
+
+Dégâts : 416 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Consommation de PM : 150 Inflige des dégâts élémentaires de feu. Inflige l'effet [En l'air] lorsque la compétence touche. Les dégâts infligés aux boss et aux monstres de type Élite augmentent de 120 %. Lorsque cette compétence touche sa cible, elle lui applique l'effet [Brûlure].
+
+[Brûlure] Inflige des dégâts équivalents à 50 % de l'Attaque toutes les 3 seconde(s). Durée : 30 seconde(s)

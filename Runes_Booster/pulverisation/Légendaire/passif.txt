@@ -1,0 +1,4 @@
+Passif :<br>
+Vous pulvérisez l'ennemi.<br>
+Augmente l'effet de [Bris] de 30%.<br>
+Augmente les dégâts infligés aux cibles affectées par l'effet [Bris] de 30%.

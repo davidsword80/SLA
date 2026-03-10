@@ -1,0 +1,1 @@
+Passif :<br>Lors de l'utilisation de la Compétence ultime, les Dégats de coup critique de la Compétence de base de l'utilisateur augmentent de 20% pendant 8 secondes.

@@ -1,0 +1,21 @@
+Décimation
+Légendaire
+
+Dégâts : 1628 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de feu. Inflige des dégâts de Bris tout-puissants. Inflige l'effet [En l'air] lorsque la compétence touche. Lorsque cette compétence est utilisée, elle augmente les dégâts de coup critique de 80 % pendant 5 seconde(s).
+
+Iceberg
+Légendaire
+
+Dégâts : 2046 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires d'eau. Inflige des dégâts de Bris tout-puissants. [Renverse] la cible lorsque la dernière attaque la touche. Lorsque cette compétence touche sa cible, elle lui applique l'effet [Gel].
+
+[Gel] Interrompt la cible. Durée : 2 seconde(s)
+
+Onde de vide
+Légendaire
+
+Dégâts : 560 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de vent. Inflige des dégâts de Bris tout-puissants. [Renverse] la cible lorsque la dernière attaque touche sa cible. Lorsque cette compétence touche sa cible, les dégâts subis par celle-ci augmentent de 15 % pendant 12 seconde(s). Lors de l'utilisation de cette compétence, les dégâts d'Arts verticaux augmentent de 30 % pendant 10 seconde(s).
+
+Frappe d'ombres multiples
+Légendaire
+
+Dégâts : 1312 % de l'Attaque de Jinwoo et 1312 % de la Défense de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de lumière. Inflige des dégâts de Bris tout-puissants. Lorsque la dernière attaque touche sa cible, elle la [renverse]. Cette compétence rend Jinwoo [Invincible]. Une fois utilisé, augmente la Défense de 20 % pendant 30 seconde(s) (cumulable jusqu'à 5 fois).

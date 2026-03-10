@@ -1,0 +1,11 @@
+Connexion exceptionnelle
+
+[Effet de la panoplie 2]
+
+Lorsqu'un personnage quitte le combat, l'Attaque de l'utilisateur et celle des membres de l'équipe augmentent de 12% pendant 10 seconde(s)
+
+(temps de rechargement: 20 seconde(s)).
+
+[Effet de la panoplie 4]
+
+Fait passer l'effet d'augmentation de l'Attaque à 28% et la durée à 15 seconde(s).

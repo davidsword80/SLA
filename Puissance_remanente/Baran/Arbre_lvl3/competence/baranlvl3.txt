@@ -1,0 +1,11 @@
+Évolution de compétence
+Baran : Frappe foudroyante [Palier 3]
+Compétence de soutien
+Rupture
+Baran frappe vers le bas à l'aide d'une épée géante forgée par la foudre.
+Dégâts : 7000 % de l'Attaque de Baran
+Délai d'attente préalable : 30 seconde(s)
+Utilisations disponibles : 1 fois
+Inflige des dégâts de Bris tout-puissants.
+Lorsque cette compétence touche sa cible, elle la [renverse].
+Les dégâts augmentent de 500 % dans les [étages supérieurs de la Forteresse démoniaque de l'Atelier de la lumière brillante].

@@ -1,0 +1,3 @@
+Rang : Commun<br>Les PV max de tous les membres de l'équipe augmentent de 6%.
+
+Rang : Général<br>Les PV max de tous les membres de l'équipe augmentent de 12%.

@@ -1,0 +1,23 @@
+Niv. 2
+Précision de la classe Soutien augmentée
+La Précision des chasseurs de la classe Soutien augmente de 2000 lorsque [Puissance rémanente : Rockpasa] est dans la formation.
+
+Niv. 2
+Défense de la classe Soutien augmentée
+La Défense des chasseurs de la classe Soutien augmente de 1500 lorsque [Puissance rémanente : Rockpasa] est dans la formation.
+
+Niv. 2
+PV de la classe Soutien augmentés
+Les PV des chasseurs de la classe Soutien augmentent de 1500 lorsque [Puissance rémanente : Rockpasa] est dans la formation.
+
+Niv. 2
+Attaque de la classe Soutien augmentée
+L'Attaque des chasseurs de la classe Soutien augmente de 1500 lorsque [Puissance rémanente : Rockpasa] est dans la formation.
+
+Niv. 2
+Dégâts de Surcharge de la classe Soutien augmentés
+Les Dégâts de Surcharge des chasseurs de la classe Soutien augmentent de 10 % lorsque [Puissance rémanente : Rockpasa] est dans la formation.
+
+Niv. 2
+Dégâts de la classe Soutien augmentés
+La stat Dégâts augmentés des chasseurs de la classe Soutien augmente de 6 % lorsque [Puissance rémanente : Rockpasa] est dans la formation.

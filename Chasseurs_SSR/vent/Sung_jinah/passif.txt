@@ -1,0 +1,29 @@
+Passif : Lors de l'utilisation des compétences Rapière de tempête inversée, Tourbillon convergent, Torrent, Parapluie : Rapière de tempête inversée, Parapluie : Tourbillon convergent ou Parapluie : Torrent, l'effet Vent est activé.
+
+Vent : Augmente les dégâts des compétences Rapière de tempête inversée, Tourbillon convergent, Parapluie : Rapière de tempête inversée, Parapluie : Tourbillon convergent, Sérénade tempétueuse et Sérénade : Perturbation aéro de 50 %. À 3 cumuls, octroie à toute l'équipe le maximum de cumuls de l'effet Ailes de bourrasque à l'exception de Sung Jinah. Lorsque l'utilisatrice quitte le combat, cet effet est supprimé. En mode Combat d'équipe, cet effet est supprimé toutes les 15 seconde(s). Durée : 60 seconde(s) (cumulable jusqu'à 3 fois).
+
+Ailes de bourrasque : Lors de l'utilisation de la compétence de base ou de la compétence ultime, 1 cumul de l'effet Ailes de bourrasque est supprimé et l'effet Ailes de la liberté est activé. Durée : 60 seconde(s) (cumulable jusqu'à 3 fois).
+
+Ailes de la liberté : Augmente les dégâts des compétences de base et ultime de l'utilisatrice de 10 %. Durée : 5 seconde(s) (cumulable jusqu'à 1 fois).
+
+1 étoile : Lorsque l'effet Vent est activé, l'effet Toucher du vent est appliqué à toute l'équipe.
+
+Toucher du vent : Augmente l'Attaque de l'utilisatrice de 1 %. Augmente la Défense de 1 %. Augmente les dégâts de la compétence de base de 0.5 %. Augmente en plus l'Attaque des membres de l'équipe de l'élément Vent de 1 %. Augmente en plus la Défense des membres de l'équipe de l'élément Vent de 1 %. Augmente en plus les dégâts de la compétence de base des membres de l'équipe de l'élément Vent de 0.5 %. Durée : illimitée (cumulable jusqu'à 10 fois).
+
+2 étoiles : Lorsque l'effet Ailes de bourrasque est activé, toute l'équipe récupère des PM à hauteur de 100 par cumul appliqué. L'effet Ailes de la liberté est amélioré.
+
+Ailes de la liberté (Amélioré) : Les dégâts des compétences de base et ultime de l'utilisatrice augmentent de 20 %. Les dégâts de vent de l'utilisatrice augmentent de 10 %. Durée : 10 seconde(s) (cumulable jusqu'à 1 fois).
+
+3 étoiles : Améliore l'effet Ailes de la liberté.
+
+Ailes de la liberté (Amélioré - 3 Étoiles) : Augmente les dégâts des compétences de base et ultime de l'utilisatrice de 20 %. Augmente les dégâts de vent de 10 %. Lorsque la compétence ultime de l'utilisatrice touche sa cible, elle lui applique l'effet Irrémédiable. Durée : 10 seconde(s) (cumulable jusqu'à 1 fois).
+
+Irrémédiable : La cible n'est pas en mesure de récupérer des PV. Durée : 30 seconde(s).
+
+4 étoiles : Les dégâts de vent des membres de l'équipe de l'élément Vent augmentent de 5 % par allié de l'élément Vent.
+
+5 étoiles : L'utilisation des compétences Perturbation aéro ou Sérénade : Perturbation aéro confère 1 cumul(s) de l'effet Aéro à toute l'équipe. Après l'utilisation de la compétence Sérénade tempétueuse en mode Combat d'équipe, la compétence Sérénade : Perturbation aéro peut à nouveau être utilisée. Lorsque Sung Jinah ou un membre de l'équipe quitte le combat, 1 cumuls supplémentaires de l'effet Aéro sont conférés à toute l'équipe.
+
+Sérénade : Perturbation aéro : Dégâts : inflige des dégâts équivalents à 300 % de ceux de Sérénade tempétueuse. Lors de l'utilisation de cette compétence, le temps de rechargement de la compétence Sérénade tempétueuse diminue de 60 % et l'effet Averses soudaines est réactivé sur Sung Jinah.
+
+Aéro : Augmente les dégâts de vent de 2 %. Durée : 60 seconde(s) (cumulable jusqu'à 5 fois).

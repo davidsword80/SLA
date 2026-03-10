@@ -1,0 +1,5 @@
+Passif :<br>
+Même à bout de forces, votre désir d'atteindre le sommet vous revigore et vous fait avancer.
+Si vos PM actuels sont à 60% ou moins, votre attaque augmente de 12%.
+Vous commencerez le combat avec 60% de vos PM actuels.
+Si vous obtienez l'effet [Récupération de PM], [Désir] dissipe l'effet Attaque augmentée pendant 10 seconde(s).

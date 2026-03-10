@@ -1,0 +1,48 @@
+const stars = document.querySelectorAll('.star');
+const message = document.getElementById('message');
+const messages = [
+    "5 étoiles :<br>L'Attaque de l'utilisatrice augmente de 12%.<br>Lorsque [Circulation de mana] est activé, tous les membres de l'équipe récupèrent 250 PM.<br>Lorsque [Circulation de mana] est activé, l'Attaque de tous les membres de l'équipe augmente et les dégâts de feu augmentent de 1% (cumulable jusqu'à 10 fois).<br>Durée: illimitée",
+    "10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.",
+
+];
+
+let firstStarClicked = false;  // Suivi de l'état de la première étoile
+
+stars.forEach(star => {
+    star.addEventListener('click', function () {
+        const value = parseInt(this.getAttribute('data-value'));
+
+        // Si la première étoile est cliquée et déjà activée, on réinitialise
+        if (this === stars[0] && firstStarClicked) {
+            firstStarClicked = false;
+            updateStars(0);  // Réinitialise toutes les étoiles à l'état gris
+            message.innerHTML = "0 étoile :<br>L'Attaque de l'utilisatrice augmente de 2%.<br>Lorsque [Circulation de mana] est activé, tous les membres de l'équipe récupèrent 50 PM.<br>Lorsque [Circulation de mana] est activé, l'Attaque de tous les membres de l'équipe augmente et les dégâts de feu augmentent de 1% (cumulable jusqu'à 4 fois).<br>Durée: illimitée";  // Message 0 étoile
+        } else {
+            if (this === stars[0]) firstStarClicked = true;  // Marque la première étoile comme activée
+            updateStars(value);
+            displayMessage(value);
+        }
+    });
+});
+
+// Fonction pour mettre à jour l'état des étoiles
+function updateStars(value) {
+    stars.forEach(star => {
+        const starValue = parseInt(star.getAttribute('data-value'));
+        star.classList.toggle('filled', starValue <= value);
+    });
+
+    // Si aucune étoile n'est remplie, affiche le message "Aucune sélection"
+    if (value === 0) {
+        message.innerHTML = "Aucune sélection";
+    }
+}
+
+// Fonction pour afficher le message de l'étoile sélectionnée
+function displayMessage(value) {
+    if (value === 0) {
+        message.innerHTML = "Aucune sélection";  // Message par défaut si aucune étoile n'est sélectionnée
+    } else {
+        message.innerHTML = messages[value - 1];  // Affiche le message correspondant à l'étoile cliquée
+    }
+}

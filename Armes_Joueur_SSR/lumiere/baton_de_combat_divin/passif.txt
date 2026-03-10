@@ -1,0 +1,21 @@
+Passif :<br>La compétence Frappe de l'Ordre céleste peut être chargée jusqu'au Stade 3, et lorsque chaque stade est chargé, elle active l'effet [Concentration d'énergie de mana].<br>En cas d'utilisation de Ruée pendant la charge de la compétence, le temps de rechargement de Frappe de l'Ordre céleste diminue de 18 seconde(s) et l'effet [Concentration d'énergie de mana] est supprimé.<br>[Concentration d'énergie de mana]<br>Augmente les dégâts de Frappe de l'Ordre céleste de 100% (cumulable jusqu'à 3 fois). <br>Cet effet est supprimé après une attaque avec Frappe de l'Ordre céleste.
+
+1 étoile :<br>Lors de l'utilisation de Frappe de l'Ordre céleste avec 3 cumuls de l'effet [Concentration d'énergie de mana] appliqués, l'effet [Lâché de Bâton de combat divin] est activé.<br>[Lâché de bâton de combat divin]<br>Crée un Bâton de combat divin géant qui inflige des dégâts équivalents à 800% de l'Attaque de l'utilisateur.
+
+2 étoiles :<br>Augmente les dégâts de lumière de 10%.
+
+3 étoiles :<br>La compétence Frappe de l'Ordre céleste peut être chargée jusqu'au Stade 5, et lorsque chaque stade est chargé, elle active l'effet [Concentration d'énergie de mana].<br>[Concentration d'énergie de mana] peut désormais se cumuler jusqu'à 5 fois.<br>Un effet [Bouclier] s'active lors de la charge.<br>Au bout de 5 cumuls, si l'effet [Concentration d'énergie de mana] s'est activé et si l'utilisateur est touché pendant la charge, la compétence Frappe de l'Ordre céleste est instantanément activée.<br>[Bouclier]<br>Octroie un [Bouclier] équivalent à 50% des PV max de l'utilisateur.<br>Une fois que Frappe de l'Ordre céleste a fini de se charger, cet effet est supprimé.
+
+4 étoiles :<br>Le temps de rechargement de Frappe de l'Ordre céleste diminue de 20%.
+
+5 étoiles :<br>Lorsque l'effet [Concentration d'énergie de mana] atteint 5 cumuls, les dégâts de l'effet [Lâché de bâton de combat divin] augmentent de 150%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

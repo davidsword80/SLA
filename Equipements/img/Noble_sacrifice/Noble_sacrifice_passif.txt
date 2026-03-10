@@ -1,0 +1,3 @@
+[Effet de la panoplie 2] :<br>Les PV de l'utilisateur augmentent de 8%.
+
+[Effet de la panoplie 4] :<br>L'Attaque de l'utilisateur diminue de 8%, mais l'Attaque des membres de l'équipe augmente de 8%.

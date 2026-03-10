@@ -1,0 +1,68 @@
+Passif :
+L'effet [Mode Pingqueen normale] s'active au début du niveau.
+La jauge de puissance de l'utilisatrice ne peut pas se remplir, mais si la jauge de [Boost de Pingqueen] atteint 100 %, l'utilisatrice récupère 100 % de sa jauge de puissance, et le temps de recharge d'Élan glacial est réinitialisé.
+Lorsque Ruade grinçante touche sa cible, elle lui applique 1 cumuls de l'effet [Froid hivernal].
+Lorsque la compétence Claque montante touche une cible affectée par [Froid hivernal], l'effet [Souvenirs d'hiver] est activé.
+
+[Mode Pingqueen normale]
+Chaque fois que les compétences Claque montante ou Balayage de lame touchent leur cible, elles remplissent la jauge de [Boost de Pingqueen].
+L'utilisation de la compétence Élan glacial supprime l'effet [Mode Pingqueen normale] et active l'effet [Mode Pingqueen boostée].
+Durée : illimitée
+
+[Mode Pingqueen boostée]
+La compétence Balayage de lame devient Balayage enragé, et son temps de recharge est réinitialisé.
+L'utilisatrice peut bouger lors de l'utilisation de la compétence Balayage enragé.
+Augmente les dégâts infligés par les compétences Balayage de lame et Élan glacial aux cibles affectées par [Froid hivernal] de 25 %.
+Augmente l'effet d'[Accumulation élémentaire] d'[Eau] de 5 %.
+Confère [Super armure] à l'utilisatrice jusqu'à la fin de l'activation.
+Active l'effet [Mode Pingqueen normale] à la fin de l'activation.
+Durée : 10 seconde(s)
+
+[Souvenirs d'hiver] :
+Augmente les dégâts d'eau de 15 %.
+Augmente les dégâts des compétences Balayage de lame et Balayage enragé de 15 %.
+Durée : 30 seconde(s)
+
+[Froid hivernal] :
+Inflige des dégâts équivalents à 50 % des PV max de Meri Laine toutes les 3 secondes.
+Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)
+
+1 étoile :
+Lorsque la compétence Ruade grinçante touche une cible, elle lui applique 2 cumuls de [Froid hivernal].
+Chaque fois que les compétences Balayage de lame ou Balayage enragé touchent une cible affectée par [Froid hivernal], l'effet [Gel du sang] est activé.
+Augmente considérablement la Vitesse d'attaque des compétences Balayage de lame et Balayage enragé.
+Augmente de 25 % le nombre d'utilisations possibles de la compétence Balayage enragé.
+[Gel de sang] : Augmente les dégâts d'eau subis de 0.6 %. Augmente les dégâts de Surcharge d'eau subis de 0.6 %. Durée : 30 seconde(s) (cumulable jusqu'à 70 fois).
+
+2 étoiles : Augmente l'effet d'[Accumulation élémentaire] d'eau de 20 %.
+
+3 étoiles :
+L'effet [Souvenirs d'hiver] est amélioré.
+L'utilisation de la compétence Élan glacial active l'effet [Glace façon Pingqueen].
+[Souvenirs d'hiver] : Augmente les dégâts d'eau de 30 %. Augmente les dégâts des compétences Balayage de lame et Balayage enragé de 30 %. Durée : 30 seconde(s).
+[Glace façon Pingqueen] : Augmente les dégâts infligés aux cibles affectées par [Froid hivernal] de 20 %. Augmente les dégâts de Surcharge d'eau de 10 %. Augmente l'effet d'[Accumulation élémentaire] d'[Eau] de 10 %. Durée : 30 seconde(s).
+
+4 étoiles : La Pénétration de défense des membres de l'équipe de l'élément Eau augmente de 5 % par membre de l'élément Eau présent dans le groupe.
+
+5 étoiles :
+L'effet [Mode Pingqueen boostée] est amélioré.
+L'effet [Gel de sang] est amélioré.
+Lorsque la compétence Balayage enragé touche sa cible, elle lui applique 3 cumuls de [Froid hivernal].
+
+[Mode Pingqueen boostée] (Amélioré)
+Balayage de lame devient Balayage enragé et le temps de recharge est réinitialisé.
+L'utilisatrice peut bouger pendant l'utilisation de la compétence Balayage enragé.
+Les dégâts des compétences Balayage de lame et Balayage enragé infligés aux cibles affectées par [Froid hivernal] augmentent de 50 %.
+Augmente l'effet d'[Accumulation élémentaire] d'[Eau] de 10 %.
+Confère à l'utilisatrice [Super armure] tant que l'effet est actif.
+Active l'effet [Mode Pingqueen normale] à la fin de l'effet.
+Durée : 10 seconde(s)
+
+[Gel de sang] (Amélioré)
+Augmente les dégâts d'eau subis de 1 %.
+Augmente les dégâts de Surcharge d'eau subis de 1 %.
+Durée : 45 seconde(s) (cumulable jusqu'à 70 fois)
+
+[Froid hivernal]
+Inflige des dégâts équivalents à 50 % des PV max de l'utilisatrice toutes les 3 secondes.
+Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)

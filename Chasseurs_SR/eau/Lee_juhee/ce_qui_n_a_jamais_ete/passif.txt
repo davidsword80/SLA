@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente les PV de l'utilisatrice de 2%.<br>Lorsqu'un personnage quitte le combat, l'utilisatrice et les membres de l'équipe obtiennent un [Bouclier] équivalent à 2% des PV de Lee Juhee pendant 10 seconde(s). (Temps de rechargement: 30 seconde(s))
+
+5 étoiles :<br>Augmente les PV de l'utilisatrice de 5%.<br>Lorsqu'un personnage quitte le combat, l'utilisatrice et les membres de l'équipe obtiennent un [Bouclier] équivalent à 5% des PV de Lee Juhee pendant 10 seconde(s). (Temps de rechargement: 30 seconde(s))
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente les dégâts de feu de l'utilisateur de 2%.<br>Lors de l'utilisation d'une Compétence de base ou d'une Attaque de noyau, les dégâts infligés aux monstres de type Normal augmentent de 2% pendant 10 seconde(s) (cumulable jusqu'à 5 fois).
+
+5 étoiles :<br>Augmente les dégâts de feu de l'utilisateur de 8%.<br>Lors de l'utilisation d'une Attaque de base ou de noyau, les dégâts infligés aux monstres de type Normal augmentent de 8% pendant 10 seconde(s) (cumulable jusqu'à 5 fois).
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de 15%.
