@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling Arise - Puissance Rémanente : Rockpasa</title>
+    <link rel="stylesheet" href="css/fusion.css" />
+    <link rel="shortcut icon" href="img/Icon/20x20.png" />
+    <script src="js/components.js"></script>
+    
+    <style>
+      /* --- Styles identiques au modèle Baran --- */
+      .sla-card {
+          max-width: 1000px;
+          margin: 2rem auto;
+          background-color: #101010;
+          color: #fff;
+          border: 2px solid #444;
+          box-shadow: 0 0 20px rgba(0,0,0,0.8);
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .card-header-bar {
+          background: linear-gradient(90deg, #2c3e50, #000);
+          padding: 10px 20px;
+          border-bottom: 2px solid #555;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      .card-title { font-size: 1.5rem; font-weight: bold; text-transform: uppercase; color: #fff; text-shadow: 2px 2px 0 #000; }
+      .card-rarity { color: #f1c40f; font-weight: bold; font-size: 1.2rem; text-shadow: 0 0 5px #f39c12; }
+      .card-body { display: flex; flex-wrap: wrap; padding: 0; gap: 0; }
+      .card-visual { flex: 0 0 300px; display: flex; flex-direction: column; align-items: center; padding: 20px; background-color: #0a0a0a; }
+      .card-visual img { width: 100%; border: 3px solid #333; border-radius: 5px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
+      .card-info { flex: 1; display: flex; flex-direction: column; padding: 20px; }
+      .skill-box { background-color: #1a1a1a; border: 1px solid #444; border-top: 2px solid #f39c12; margin-bottom: 20px; }
+      .skill-header { background-color: #2c2c2c; padding: 10px 15px; border-bottom: 1px solid #444; display: flex; justify-content: space-between; align-items: center; }
+      .skill-title { font-weight: bold; color: #f39c12; text-transform: uppercase; font-size: 1rem; }
+      .skill-content { padding: 20px; font-size: 0.95rem; line-height: 1.6; color: #ddd; }
+      .skill-tier { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dashed #555; width: 100%; }
+      .skill-tier:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+      .tier-badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; margin-right: 10px; margin-bottom: 5px; }
+      .tier-1 { background-color: #555; color: #fff; }
+      .tier-2 { background-color: #2980b9; color: #fff; }
+      .tier-3 { background-color: #e74c3c; color: #fff; }
+      .detail-box { background-color: #252525; margin-top: 20px; border: 1px solid #3a3a3a; padding: 15px; border-left: 4px solid #777; width: 100%; box-sizing: border-box; }
+      .detail-box h3 { margin: 0 0 15px 0; color: #fff; font-size: 1.1rem; border-bottom: 1px solid #555; padding-bottom: 8px; }
+      .stat-group { margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+      .stat-group strong { color: #f0a500; display: block; font-size: 0.9rem; text-transform: uppercase; margin-bottom: 8px; }
+      .detail-box ul, .skill-tier ul { margin: 0; padding-left: 18px; color: #ccc; width: 100%; }
+      .detail-box li, .skill-tier li { margin-bottom: 8px; font-size: 1rem; line-height: 1.5; white-space: normal; text-align: left; }
+      .border-attaquant { border-left-color: #d48df0; }
+      .border-cumulateur { border-left-color: #ff9f43; }
+      .border-soutien { border-left-color: #54a0ff; }
+      .border-general { border-left-color: #00d2d3; }
+      .border-passive { border-left-color: #feca57; }
+      .border-total { border-left-color: #e74c3c; background-color: #1a1a1a; }
+      .actions-bar { margin-bottom: 20px; text-align: right; }
+      .sla-button { background: linear-gradient(to bottom, #f39c12, #d35400); border: 1px solid #e67e22; color: white; padding: 10px 20px; font-weight: bold; text-transform: uppercase; cursor: pointer; border-radius: 4px; font-family: inherit; font-size: 0.9rem; transition: all 0.3s ease; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+      .sla-button:hover { background: linear-gradient(to bottom, #e67e22, #ba4a00); box-shadow: 0 4px 8px rgba(0,0,0,0.5); }
+      .sla-button.active { background: linear-gradient(to bottom, #c0392b, #96281b); border-color: #c0392b; }
+      .total-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+      .total-category h4 { color: #f39c12; margin-bottom: 15px; font-size: 0.9rem; text-transform: uppercase; border-bottom: 1px solid #444; padding-bottom: 5px; }
+      .highlight-stat { color: #f1c40f; font-weight: bold; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="sla-card">
+        <div class="card-header-bar">
+          <div class="card-title">Puissance Rémanente - Rockpasa</div>
+          <div class="card-rarity">LÉGENDAIRE</div>
+        </div>
+
+        <div class="card-body">
+          <div class="card-visual">
+            <img src="Puissance_remanente/Rockpasa/Rockpasa.png" alt="Puissance Rémanente Rockpasa" onerror="this.src='https://placehold.co/300x400?text=Rockpasa'"/>
+          </div>
+
+          <div class="card-info">
+            <div class="actions-bar">
+                <button id="toggleStatsBtn" class="sla-button">Voir le total des stats (Niv. 1 à 3)</button>
+            </div>
+            
+            <div id="default-view">
+                
+                <div class="skill-box">
+                  <div class="skill-header">
+                    <span class="skill-title">Compétence de Soutien : Annihilation</span>
+                    <span class="system-btn active">Évolutive</span>
+                  </div>
+                  <div class="skill-content">
+                    <div class="skill-tier">
+                        <span class="tier-badge tier-1">Palier 1</span>
+                        <p>Rockpasa saute haut dans les airs, accumule de l'énergie de mana dans son poing et assène un puissant coup vers le bas.</p>
+                        <ul>
+                            <li><strong>Dégâts :</strong> 5000 % de l'Attaque de Rockpasa</li>
+                            <li><strong>Délai d'attente préalable :</strong> 30 seconde(s)</li>
+                            <li><strong>Utilisations disponibles :</strong> 1 fois</li>
+                            <li><strong>Effet :</strong> Inflige des dégâts de Bris moyens. Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air].</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-tier">
+                        <span class="tier-badge tier-2">Palier 2</span>
+                        <p>Rockpasa saute haut dans les airs, accumule de l'énergie de mana dans son poing et assène un puissant coup vers le bas.</p>
+                        <ul>
+                             <li><strong>Dégâts :</strong> 5000 % de l'Attaque de Rockpasa</li>
+                             <li><strong>Délai d'attente préalable :</strong> 30 seconde(s)</li>
+                             <li><strong>Utilisations disponibles :</strong> 1 fois</li>
+                             <li><strong>Effet :</strong> Inflige des dégâts de Bris moyens. Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air]. Dans [Atelier de la lumière brillante : Arène de la folie], les dégâts augmentent de 500 %.</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-tier">
+                        <span class="tier-badge tier-3">Palier 3</span>
+                        <p>Rockpasa saute haut dans les airs, accumule de l'énergie de mana dans son poing et assène un puissant coup vers le bas.</p>
+                        <ul>
+                             <li><strong>Dégâts :</strong> 7000 % de l'Attaque de Rockpasa</li>
+                             <li><strong>Délai d'attente préalable :</strong> 30 seconde(s)</li>
+                             <li><strong>Utilisations disponibles :</strong> 1 fois</li>
+                             <li><strong>Effet :</strong> Inflige des dégâts de Bris tout-puissants. Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air]. Dans [Atelier de la lumière brillante : Arène de la folie], les dégâts augmentent de 500 %.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="detail-box border-attaquant">
+                  <h3>Bonus de Formation - Attaquant</h3>
+                  <div class="stat-group">
+                    <strong>Niveau 1</strong>
+                    <ul>
+                        <li>Attaque : +500 | Défense : +500 | PV : +500</li>
+                        <li>Précision : +700 | Dégâts de Surcharge : +5 % | Dégâts augmentés : +3 %</li>
+                    </ul>
+                  </div>
+                  <div class="stat-group">
+                    <strong>Niveau 2</strong>
+                    <ul>
+                        <li>Attaque : +1500 | Défense : +1500 | PV : +1500</li>
+                        <li>Précision : +2000 | Dégâts de Surcharge : +10 % | Dégâts augmentés : +6 %</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="detail-box border-cumulateur">
+                  <h3>Bonus de Formation - Cumulateur élémentaire</h3>
+                  <div class="stat-group">
+                    <strong>Niveau 1</strong>
+                    <ul>
+                        <li>Attaque : +500 | Défense : +500 | PV : +500</li>
+                        <li>Précision : +700 | Dégâts de Surcharge : +5 % | Dégâts augmentés : +3 %</li>
+                    </ul>
+                  </div>
+                  <div class="stat-group">
+                    <strong>Niveau 2</strong>
+                    <ul>
+                        <li>Attaque : +1500 | Défense : +1500 | PV : +1500</li>
+                        <li>Précision : +2000 | Dégâts de Surcharge : +10 % | Dégâts augmentés : +6 %</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="detail-box border-soutien">
+                  <h3>Bonus de Formation - Soutien</h3>
+                  <div class="stat-group">
+                    <strong>Niveau 1</strong>
+                    <ul>
+                        <li>Attaque : +500 | Défense : +500 | PV : +500</li>
+                        <li>Précision : +700 | Dégâts de Surcharge : +5 % | Dégâts augmentés : +3 %</li>
+                    </ul>
+                  </div>
+                  <div class="stat-group">
+                    <strong>Niveau 2</strong>
+                    <ul>
+                        <li>Attaque : +1500 | Défense : +1500 | PV : +1500</li>
+                        <li>Précision : +2000 | Dégâts de Surcharge : +10 % | Dégâts augmentés : +6 %</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="detail-box border-general">
+                  <h3>Bonus de Combat Généraux (Tous)</h3>
+                  <div class="stat-group">
+                    <strong>Niveau 1</strong>
+                    <ul>
+                        <li>Dégâts de compétence de base : +2 %</li>
+                        <li>Dégâts de compétence QTE : +2 %</li>
+                        <li>Dégâts de compétence ultime : +2 %</li>
+                    </ul>
+                  </div>
+                  <div class="stat-group">
+                    <strong>Niveau 2</strong>
+                    <ul>
+                        <li>Dégâts de compétence de base : +5 %</li>
+                        <li>Dégâts de compétence QTE : +5 %</li>
+                        <li>Dégâts de compétence ultime : +5 %</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="detail-box border-passive">
+                  <h3>Bonus pour Sung et ses ombres</h3>
+                  <div class="stat-group">
+                    <strong>Niveau 1</strong>
+                    <ul>
+                        <li>Attaque de Sung Jinwoo : +500</li>
+                        <li>Attaque des Ombres : +10 %</li>
+                    </ul>
+                  </div>
+                  <div class="stat-group">
+                    <strong>Niveau 2</strong>
+                    <ul>
+                        <li>Attaque de Sung Jinwoo : +1000</li>
+                        <li>Attaque des Ombres : +20 %</li>
+                    </ul>
+                  </div>
+                  <div class="stat-group">
+                    <strong>Niveau 3</strong>
+                    <ul>
+                        <li>Attaque de Sung Jinwoo : +1500</li>
+                        <li>Attaque des Ombres : +40 %</li>
+                    </ul>
+                  </div>
+                </div>
+
+            </div>
+
+            <div id="total-view" style="display: none;">
+                <div class="skill-box">
+                    <div class="skill-header">
+                      <span class="skill-title">Compétence de Soutien : Annihilation (MAX)</span>
+                      <span class="system-btn active" style="background-color: #e74c3c;">Palier 3</span>
+                    </div>
+                    <div class="skill-content">
+                      <p>Rockpasa saute haut dans les airs, accumule de l'énergie de mana dans son poing et assène un puissant coup vers le bas.</p>
+                      <ul>
+                        <li><strong>Dégâts :</strong> <span class="highlight-stat">7000 %</span> de l'Attaque de Rockpasa</li>
+                        <li><strong>Délai d'attente préalable :</strong> 30 seconde(s)</li>
+                        <li><strong>Utilisations disponibles :</strong> 1 fois</li>
+                        <li><strong>Effet :</strong> Inflige des dégâts de Bris tout-puissants. Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air]. Dans [Atelier de la lumière brillante : Arène de la folie], les dégâts augmentent de 500 %.</li>
+                      </ul>
+                    </div>
+                </div>
+
+                <div class="detail-box border-total">
+                    <h3>Résumé Total des Stats (Cumul Niv. 1 à 3)</h3>
+                    <div class="total-grid">
+                        <div class="total-category">
+                            <h4>Bonus pour les classes : Attaquant / Cumulateur / Soutien</h4>
+                            <ul>
+                                <li>Attaque : <span class="highlight-stat">+2000</span></li>
+                                <li>Défense : <span class="highlight-stat">+2000</span></li>
+                                <li>PV : <span class="highlight-stat">+2000</span></li>
+                                <li>Précision : <span class="highlight-stat">+2700</span></li>
+                                <li>Dégâts de Surcharge : <span class="highlight-stat">+15 %</span></li>
+                                <li>Dégâts augmentés : <span class="highlight-stat">+9 %</span></li>
+                            </ul>
+                        </div>
+                        <div class="total-category">
+                            <h4>Bonus Généraux</h4>
+                            <ul>
+                                <li>Dégâts Compétence de Base : <span class="highlight-stat">+7 %</span></li>
+                                <li>Dégâts Compétence QTE : <span class="highlight-stat">+7 %</span></li>
+                                <li>Dégâts Compétence Ultime : <span class="highlight-stat">+7 %</span></li>
+                            </ul>
+                        </div>
+                        <div class="total-category">
+                            <h4>Bonus pour Sung et ses ombres</h4>
+                            <ul>
+                                <li>Attaque de Sung Jinwoo : <span class="highlight-stat">+3000</span></li>
+                                <li>Attaque des Ombres : <span class="highlight-stat">+70 %</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btn = document.getElementById('toggleStatsBtn');
+            const defaultView = document.getElementById('default-view');
+            const totalView = document.getElementById('total-view');
+            
+            btn.addEventListener('click', function() {
+                if (defaultView.style.display !== 'none') {
+                    defaultView.style.display = 'none';
+                    totalView.style.display = 'block';
+                    btn.textContent = "Retour aux détails par niveau";
+                    btn.classList.add('active');
+                } else {
+                    totalView.style.display = 'none';
+                    defaultView.style.display = 'block';
+                    btn.textContent = "Voir le total des stats (Niv. 1 à 3)";
+                    btn.classList.remove('active');
+                }
+            });
+        });
+    </script>
+  </body>
+</html>

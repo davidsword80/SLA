@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling Arise - Compétences de Sung Jinwoo</title>
+    <link rel="stylesheet" href="css/fusion.css" />
+    <link rel="shortcut icon" href="img/Icon/20x20.png" />
+    <script src="js/components.js"></script>
+    <script src="js/data_skills.js"></script> 
+    <style>
+      .popup {
+          background-color: rgba(0, 0, 0, 0.9);
+          overflow-y: auto;
+      }
+      .popup-content {
+          width: 100%;
+          min-height: 100vh;
+          height: auto;
+          max-width: none;
+          border-radius: 0;
+          overflow-y: visible;
+          padding: 50px 20px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: #f4f4f4;
+      }
+      .close {
+          font-size: 50px;
+          top: 20px;
+          right: 40px;
+          position: fixed;
+          z-index: 1001;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <input type="text" id="search" placeholder="Rechercher une compétence..." oninput="applyFilters()" />
+      <div class="filter-section" id="filters">
+        <div class="buttons">
+          <strong>Catégorie :</strong>
+          <button class="filter-btn active" onclick="filterItems('all', this)">Toutes</button>
+          <button class="filter-btn" onclick="filterItems('basique', this)">Basiques</button>
+          <button class="filter-btn" onclick="filterItems('qte', this)">QTE</button>
+          <button class="filter-btn" onclick="filterItems('ultime', this)">Ultime</button>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="item-list">
+        
+        <div class="item competence-card basique" onclick="openSkillPopup('arts_verticaux')">
+            <img src="Competence_sung/Arts_verticaux/SungJinWoo_03_Rune.png" alt="Arts verticaux" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Arts verticaux</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('bris_d_armure')">
+            <img src="Competence_sung/Bris_d_armure/SungJinWoo_07_Rune.png" alt="Bris d'armure" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Bris d'armure</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('coup_devastateur')">
+            <img src="Competence_sung/Coup_devastateur/SungJinWoo_14_Rune.png" alt="Coup dévastateur" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Coup dévastateur</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('danse_de_la_mort')">
+            <img src="Competence_sung/Danse_de_la_mort/SungJinWoo_06_Rune.png" alt="Danse de la mort" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Danse de la mort</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('double_entaille')">
+            <img src="Competence_sung/Double_entaille/SungJinWoo_01_Rune.png" alt="Double entaille" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Double entaille</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('flot_sonique')">
+            <img src="Competence_sung/Flot_sonique/SungJinWoo_15_Rune.png" alt="Flot sonique" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Flot sonique</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('frappe_fantome')">
+            <img src="Competence_sung/Frappe_fantome/SungJinWoo_19_Rune.png" alt="Frappe fantôme" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Frappe fantôme</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('frappe_vitale')">
+            <img src="Competence_sung/Frappe_vitale/SungJinWoo_09_Rune.png" alt="Frappe vitale" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Frappe vitale</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('frappes_multiples')">
+            <img src="Competence_sung/Frappes_multiples/SungJinWoo_12_Rune.png" alt="Frappes multiples" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Frappes multiples</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('lancer_de_dague')">
+            <img src="Competence_sung/Lancer_de_dague/SungJinWoo_13_Rune.png" alt="Lancer de dague" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Lancer de dague</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('mutilation')">
+            <img src="Competence_sung/Mutilation/SungJinWoo_04_Rune.png" alt="Mutilation" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Mutilation</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('poussee_perforante')">
+            <img src="Competence_sung/Poussee_perforante/SungJinWoo_18_Rune.png" alt="Poussée perforante" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Poussée perforante</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('ruee_aceree')">
+            <img src="Competence_sung/Ruee_aceree/SungJinWoo_02_Rune.png" alt="Ruée acérée" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Ruée acérée</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('ruee_de_dague')">
+            <img src="Competence_sung/Ruee_de_dague/SungJinWoo_16_Rune.png" alt="Ruée de dague" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Ruée de dague</h4></div>
+        </div>
+
+        <div class="item competence-card basique" onclick="openSkillPopup('toucher_du_maitre')">
+            <img src="Competence_sung/Toucher_du_maitre/SpiritSungJinWoo_LongSword_03_Rune.png" alt="Toucher du maître" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Toucher du maître</h4></div>
+        </div>
+
+        <div class="item competence-card ultime" onclick="openSkillPopup('verite_mutilation')">
+            <img src="Competence_sung/ultime/Verite_mutilation/SungJinWoo_ultimate_Rune.png" alt="Vérité : Mutilation" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Vérité : Mutilation</h4></div>
+        </div>
+
+        <div class="item competence-card ultime" onclick="openSkillPopup('ombre_tragedie')">
+            <img src="Competence_sung/ultime/Ombre_tragedie/SungJinWoo_CRank_ultimate_Rune.png" alt="Ombre : Tragédie" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Ombre : Tragédie</h4></div>
+        </div>
+
+        <div class="item competence-card ultime" onclick="openSkillPopup('domaine_du_roi')">
+            <img src="Competence_sung/ultime/Domaine_du_roi/SungJinWoo_ultimate_03_Rune.png" alt="Domaine du roi" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Domaine du roi</h4></div>
+        </div>
+
+        <div class="item competence-card qte" onclick="openSkillPopup('effondrement')">
+            <img src="Competence_sung/QTE/Effondrement/SungJinWoo_qte_02_Rune.png" alt="Effondrement" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Effondrement</h4></div>
+        </div>
+
+        <div class="item competence-card qte" onclick="openSkillPopup('foulee_de_l_ombre')">
+            <img src="Competence_sung/QTE/Foulee_de_l_ombre/SungJinWoo_qte_03_Rune.png" alt="Foulée de l'ombre" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Foulée de l'ombre</h4></div>
+        </div>
+
+        <div class="item competence-card qte" onclick="openSkillPopup('mort')">
+            <img src="Competence_sung/QTE/Mort/SungJinWoo_qte_01_Rune.png" alt="Mort" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Mort</h4></div>
+        </div>
+        
+        <div class="item competence-card basique" onclick="openSkillPopup('frappe_fantome')">
+            <img src="Competence_sung/Frappe_fantome/SungJinWoo_19_Rune.png" alt="Frappe fantôme" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Frappe fantôme</h4></div>
+        </div>                
+      </div>
+    </main>
+
+    <div id="generic_skill_popup" class="popup" style="display: none;">
+        <div class="popup-content" style="justify-content: center;">
+            <span class="close" onclick="closeSkillPopup()">&times;</span>
+            <h2 id="dynamic-skill-title" style="color: #333; margin-top: 0; margin-bottom: 20px;">Titre</h2>
+            
+            <div id="dynamic-skills-container" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; width: 98%; max-width: 1600px; margin-top: 0;">
+            </div>
+        </div>
+    </div>
+    <script>
+        function openSkillPopup(skillId) {
+            const skill = skillsData[skillId];
+            if (!skill) {
+                console.error("Compétence non trouvée dans la base de données.");
+                return;
+            }
+
+            // 1. Changer le titre global
+            document.getElementById('dynamic-skill-title').textContent = skill.title;
+
+            // 2. Transformer le conteneur en Flexbox (au lieu de Grid) pour centrer dynamiquement
+            const container = document.getElementById('dynamic-skills-container');
+            container.innerHTML = ''; 
+            container.style.display = 'flex';
+            container.style.flexWrap = 'wrap';
+            container.style.justifyContent = 'center';
+
+            // NOUVEAU : Calcul de la largeur des cartes selon leur nombre
+            const variantCount = skill.variants.length;
+            let itemWidth = "calc(25% - 15px)"; // 4 par ligne par défaut
+
+            if (variantCount === 5) {
+                itemWidth = "calc(33.333% - 15px)"; // 3 sur la 1ère ligne, 2 centrées sur la 2ème
+            } else if (variantCount < 4) {
+                itemWidth = "calc(33.333% - 15px)"; // Évite que les compétences uniques (comme les ultimes) soient minuscules
+            }
+
+            // 3. Injecter les variantes de la base de données
+            skill.variants.forEach(variant => {
+                const customImgStyle = variant.style ? variant.style : '';
+
+                const variantHTML = `
+                    <div class="skill-variant" style="box-sizing: border-box; width: ${itemWidth}; min-width: 260px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; border: 2px solid ${variant.color};">
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 15px;">
+                            <img src="${variant.image}" alt="${variant.name}" style="width: 70px; border-radius: 5px; border: 2px solid ${variant.color}; margin-bottom: 10px; ${customImgStyle}">
+                            <h3 style="margin: 0; color: ${variant.color}; font-size: 1.1rem;">${variant.name}</h3>
+                        </div>
+                        <div class="passive-box" style="border-left: 5px solid ${variant.color}; background: ${variant.bgColor}; padding: 10px; margin: 0; flex-grow: 1; font-size: 0.85rem; overflow-y: auto;">
+                            <div class="passive-content active" style="display: block;">
+                                ${variant.description}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += variantHTML;
+            });
+
+            // 4. Afficher la popup et bloquer le scroll de fond
+            document.getElementById('generic_skill_popup').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSkillPopup() {
+            document.getElementById('generic_skill_popup').style.display = 'none';
+            document.body.style.overflow = '';
+        }
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
