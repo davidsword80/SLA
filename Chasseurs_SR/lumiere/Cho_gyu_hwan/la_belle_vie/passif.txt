@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente l'Attaque de l'utilisateur de 2%. <br>Si les PM de l'utilisateur sont à 50% ou au-dessus, les dégâts de son Attaque de noyau, de sa Compétence de base et de sa Compétence QTE augmentent de 10%.
-
-5 étoiles :<br>Augmente l'Attaque de l'utilisateur de 8%.<br>Si les PM de l'utilisateur sont à 50% ou au-dessus, les dégâts de son Attaque de noyau, de sa Compétence de base et de sa Compétence QTE augmentent de 40 %.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de 15%.
