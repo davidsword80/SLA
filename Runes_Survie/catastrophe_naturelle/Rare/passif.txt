@@ -1,3 +1,0 @@
-Passif :<br>
-Les bêtes magiques ne sont pas les seules à troubler la tranquillité du donjon.
-Dans le mode [Combat d'équipe], les dégâts subis par les coéquipiers diminuent de 3%.

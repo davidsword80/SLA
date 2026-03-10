@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente l'Attaque de l'utilisateur de 2.5%.<br>Lorsque la compétence Pluie venimeuse touche sa cible, sa Défense diminue de 2.5% pendant 5 seconde(s).
-
-5 étoiles :<br>Augmente l'Attaque de l'utilisateur de 10%.<br>Lorsque la compétence Pluie venimeuse touche sa cible, sa Défense diminue de 10% pendant 5 seconde(s).
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de 15%.

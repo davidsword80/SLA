@@ -1,3 +1,0 @@
-Passif :<br>
-Des chaînes ensanglantées vous étreignent.
-Les dégâts de vos attaques augmentent à hauteur de 18% des PV perdus, mais les dégâts subis augmentent de 10%.

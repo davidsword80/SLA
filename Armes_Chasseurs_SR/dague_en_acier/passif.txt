@@ -1,5 +1,0 @@
-0 étoile :<br>Les dégâts de vos attaques de base augmentent de 6%.
-
-5 étoiles :<br>Augmente les dégâts de l'Attaque de base de l'utilisateur de 16%.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 10%.

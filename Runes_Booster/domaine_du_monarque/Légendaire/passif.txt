@@ -1,5 +1,0 @@
-Passif :<br>
-Lorsque vous invoquez une ombre, [Domaine du monarque] s'active.<br>
-L'Attaque de l'ombre dans le domaine augmente de 100%.<br>
-L'ombre inflige également des dégâts équivalents à 100% de votre Attaque toutes les secondes aux ennemis à l'intérieur du domaine.<br>
-Durée: 8 secondes

@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les dégâts de ténèbres de l'utilisateur de 4%.<br>Lors de l'utilisation d'une Attaque de base moins de 10 seconde(s) après l'utilisation de Attaque rapide: Typhon ardent, l'Attaque de l'utilisateur augmente de 8% pendant 30 seconde(s) (cumulable jusqu'à 2 fois).
-
-5 étoiles :<br>Augmente les dégâts de ténèbres de l'utilisateur de 12%.<br>Lors de l'utilisation d'une Attaque de base moins de 10 seconde(s) après l'utilisation de Attaque rapide: Typhon ardent, l'Attaque de l'utilisateur augmente de 8% pendant 30 seconde(s) (cumulable jusqu'à 8 fois).
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

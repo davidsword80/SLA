@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les dégâts des attaques dans le dos de l'utilisateur de 2.5 %.<br>Les dégâts de Kang Taeshik face aux cibles affectées par [Hémorragie] augmentent de 2.5%.
-
-5 étoiles :<br>Augmente les dégâts des attaques dans le dos de l'utilisateur de 10%.<br>Les dégâts de Kang Taeshik face aux cibles affectées par [Hémorragie] augmentent de 10%.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

@@ -1,8 +1,0 @@
-0 étoile :<br>
-L'Attaque de l'ombre augmente de 4%.
-Les dégâts de la compétence de base de l'ombre augmentent de 2.5%.
-
-
-5 étoiles :<br>
-L'Attaque de l'ombre augmente de 24%.
-Les dégâts de la compétence de base de l'ombre augmentent de 15%.

@@ -1,3 +1,0 @@
-Passif :<br>
-Vous faites preuve d'une grande ténacité.
-Les dégâts que vous subissez sont réduits de 20% et votre Défense augmente de 20% lorsque vos PV sont à 30% ou moins.

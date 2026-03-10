@@ -1,3 +1,0 @@
-Passif :<br>
-Vous vous spécialisez dans la chasse aux boss.
-Les dégâts que vous infligez aux boss augmentent de 12%, mais le temps de rechargement de Ruée augmente de 20%.

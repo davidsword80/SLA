@@ -1,1 +1,0 @@
-Passif :<br>Diminue le Taux de récupération de PM de 10% et la Consommation de PM des compétences de base de 6%

@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente l'Attaque de l'utilisateur de 2.5%.<br>Lorsque l'utilisateur touche des cibles avec Talisman de renforcement, ses Dégâts de coup critique et son Taux de coup critique augmentent de 2.5% pendant 10 seconde(s) face à celles-ci.
-
-5 étoiles :<br>Augmente l'Attaque de l'utilisateur de 10%.<br>Les Dégâts de coup critique et le Taux de coup critique augmentent de 10% pendant 10 seconde(s) face aux cibles touchées par Talisman de renforcement.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de 15%.

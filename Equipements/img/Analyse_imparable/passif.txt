@@ -1,2 +1,0 @@
-[Effet de la panoplie 2] :<br>L'efficacité de [Bris] est augmentée de 15%.
-<br>[Effet de la panoplie 4] :<br>Augmente l'effet de [Bris] de 30% en attaquant des ennemis dotés d'une faiblesse élémentaire.

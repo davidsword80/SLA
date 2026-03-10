@@ -1,4 +1,0 @@
-Passif :<br>
-L'effet Écailles de Kasaka rend votre corps dur comme l'acier.
-Les dégâts subis sont réduits de 9%.
-Augmente l'effet des Boucliers reçus de 9%.

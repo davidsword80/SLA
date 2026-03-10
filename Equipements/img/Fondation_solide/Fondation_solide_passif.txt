@@ -1,3 +1,0 @@
-[Effet de la panoplie 2] :<br>Augmente les dégâts des Attaques de base de l'utilisateur de 18%.
-
-[Effet de la panoplie 4] :<br>Augmente les dégâts des Attaques de noyau de l'utilisateur 18% et lorsqu'une attaque touche sa cible, la jauge de noyau de l'utilisateur se remplit de 60.

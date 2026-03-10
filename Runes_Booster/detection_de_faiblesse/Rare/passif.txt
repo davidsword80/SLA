@@ -1,3 +1,0 @@
-Passif :<br>
-Vous pouvez distinguer les faiblesses de votre ennemi.
-Les dégâts que vous infligez aux cibles dotées d'une faiblesse élémentaire augmentent de 8%.

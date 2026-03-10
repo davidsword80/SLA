@@ -1,3 +1,0 @@
-Passif :<br>
-Vous pouvez achever rapidement vos ennemis avec un coup fatal.
-La jauge de [Bris] diminue instantanément de 2% en cas de coup critique réussi (Temps de rechargement : 2 seconde(s)).

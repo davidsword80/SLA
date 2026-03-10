@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les dégâts infligés aux cibles affectées par l'effet [Bris] de 4%.<br>Lorsque l'effet [Absorption de chaleur] s'active, les dégâts infligés par l'utilisateur augmentent de 1.5% (cumulable jusqu'à 4 fois).
-
-5 étoiles :<br>Les dégâts infligés aux cibles avec le statut [Bris] augmentent de 12%.<br>Lorsque l'effet [Absorption de chaleur] s'active, les dégâts infligés par l'utilisateur augmentent de 1.5% (cumulable jusqu'à 15 fois).
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

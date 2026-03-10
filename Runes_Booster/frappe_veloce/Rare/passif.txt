@@ -1,3 +1,0 @@
-Passif :<br>
-L'utilisation d'Évasion extrême améliore vos capacités.
-Lorsque vous réussissez à utiliser Évasion extrême, vos dégâts augmentent de 7% pendant 5 seconde(s) (temps de rechargement: 10 seconde(s)).
