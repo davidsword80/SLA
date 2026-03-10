@@ -1,0 +1,22 @@
+Passif :
+Lorsque la compétence Énergie d'épée à 3 millions de wons est utilisée, l'effet [Un nouveau départ] s'applique.
+[Un nouveau départ]
+La Vitesse d'attaque et la Vitesse de l'utilisateur augmentent de 12 %.
+Durée : 8 seconde(s)
+
+1 étoile :
+Lorsque les PV de l'utilisateur sont supérieurs à 70 %, applique l'effet [Taux de coup critique augmenté].
+[Taux de coup critique augmenté]
+Augmente le Taux de coup critique de 8 %.
+
+2 étoiles :
+Vos dégâts de vent augmentent de 6 %.
+
+3 étoiles :
+Lorsque l'effet [Un nouveau départ] est appliqué, un [Bouclier] équivalent à 50 % de la Défense de l'utilisateur est créé.
+
+4 étoiles :
+Réduit le temps de rechargement de la compétence Énergie d'épée à 3 millions de wons de 10 %.
+
+5 étoiles :
+Lorsque l'effet [Un nouveau départ] est appliqué, les dégâts des Attaques de base et de noyau augmentent de 50 %.

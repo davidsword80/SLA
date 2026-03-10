@@ -1,0 +1,31 @@
+À point
+Légendaire
+
+Dégâts : 1674 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Consommation de PM : 150 Inflige des dégâts élémentaires d'eau. Lorsque la dernière attaque touche sa cible, elle la [renverse]. Lorsque cette compétence est utilisée, un [Bouclier] est appliqué.
+
+[Bouclier]
+
+Crée un [Bouclier] équivalent à 10 % des PV max de l'utilisateur.
+
+Durée : 12 seconde(s)
+
+Extermination
+Légendaire
+
+Dégâts : 1938 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Consommation de PM : 150 L'Attaque de Jinwoo augmente de 15 % pendant 12 seconde(s) après utilisation.
+
+Lésion interne
+Légendaire
+
+Dégâts : 2120 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Consommation de PM : 150 Lorsque la dernière attaque touche la cible, elle lui inflige l'effet [En l'air]. Lorsque cette compétence touche sa cible, elle lui inflige l'effet [Défense réduite].
+
+[Défense réduite]
+
+Réduit la Défense de la cible de 20 %.
+
+Durée : 12 seconde(s)
+
+Plantage
+Légendaire
+
+Dégâts : 1350 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Consommation de PM : 150 Les dégâts infligés aux boss et aux monstres de type Élite augmentent de 120 %.

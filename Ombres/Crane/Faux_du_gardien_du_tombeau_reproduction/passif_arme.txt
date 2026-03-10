@@ -1,0 +1,13 @@
+passif :
+Faux du gardien du tombeau : Reproduction (Ombre - Niveau inférieur)
+Attaque supplémentaire : 400 Précision : 500
+Effet
+Armement d'ombre exclusif pour Crâne
+Lors d'une attaque avec la compétence [Flamme de la mort] de Crâne, les dégâts infligés par l'utilisateur augmentent de 4 % pendant 10 seconde(s).
+
+passif 5 star :
+Faux du gardien du tombeau : Reproduction (Ombre - Niveau supérieur)
+Attaque supplémentaire : 2400 Précision : 3000
+Effet
+Armement d'ombre exclusif pour Crâne
+Lors d'une attaque avec la compétence [Flamme de la mort] de Crâne, les dégâts infligés par l'utilisateur augmentent de 24 % pendant 10 seconde(s).

@@ -1,0 +1,9 @@
+Champion de la bataille
+
+[Effet de la panoplie 2]
+
+Augmente l'Attaque de l'utilisateur de 8% pendant 8 seconde(s) en cas de coup critique réussi (temps de rechargement: 0.8 seconde(s)).
+
+[Effet de la panoplie 4]
+
+Le cumul maximal de l'effet d'Attaque augmentée passe à 6 instances.

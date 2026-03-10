@@ -1,0 +1,3 @@
+Rang : Commun<br>Les dégâts de ténèbres de toute l'équipe augmentent de 5 %.
+
+Rang : Général<br>Les dégâts de ténèbres de toute l'équipe augmentent de 9 %.

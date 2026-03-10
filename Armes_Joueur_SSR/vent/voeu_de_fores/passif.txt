@@ -1,0 +1,57 @@
+Passif :<br>
+Lorsque l'attaque de noyau touche sa cible, l'utilisateur reçoit l'effet [Vœu].
+
+[Vœu]
+Augmente les dégâts infligés de 20%.
+Lorsque la compétence Chant de l'arbre du vent touche sa cible, l'effet [Vœu] est supprimé.
+Durée: 20 seconde(s)
+
+
+1 étoile :<br>
+Lorsque l'utilisateur rejoint un niveau, sa jauge de noyau est chargée à 100%.
+Améliore l'effet [Vœu].
+Lorsque la compétence Chant de l'arbre du vent touche sa cible, l'utilisateur reçoit l'effet [Détachement].
+
+[Vœu]
+Augmente les dégâts infligés de 20%.
+Lorsque la compétence Chant de l'arbre du vent touche sa cible, l'utilisateur a 100% de chances d'activer son attaque de noyau (temps de rechargement: 20 seconde(s)).
+Lorsque la compétence Chant de l'arbre du vent touche sa cible, l'effet [Vœu] est supprimé.
+Durée: 20 seconde(s)
+
+[Détachement]
+Lorsque l'attaque de noyau de l'utilisateur touche sa cible, le temps de rechargement de Chant de l'arbre du vent est réinitialisé (temps de rechargement: 20 seconde(s)).
+Lorsque l'attaque de noyau de l'utilisateur touche sa cible, l'effet [Détachement] est supprimé.
+Durée: 20 seconde(s)
+
+
+2 étoiles :<br>
+Les dégâts élémentaires de vent de l'utilisateur augmentent de 10%.
+
+
+3 étoiles :<br>
+L'effet [Vœu] est amélioré.
+L'attaque de noyau de l'utilisateur inflige des dégâts supplémentaires équivalents à 500%
+de son Attaque à la première cible.
+
+[Vœu]
+Augmente les dégâts infligés de 40%.
+Lorsque Chant de l'arbre du vent touche sa cible, l'effet [Dispersion racinaire] s'active et inflige des dégâts supplémentaires équivalents à 100% de l'Attaque de l'utilisateur aux cibles se trouvant dans une large zone.
+Lorsque [Dispersion racinaire] s'active, l'effet [Poison] est appliqué à la cible touchée.
+Lorsque Chant de l'arbre du vent touche sa cible, l'utilisateur a 100% de chances d'activer son attaque de noyau (temps de rechargement: 20 seconde(s)).
+Lorsque Chant de l'arbre du vent touche sa cible, l'effet [Vœu] est supprimé.
+Durée: 20 seconde(s)
+
+[Empoisonnement]
+Inflige des dégâts équivalents à 50% de
+l'Attaque de l'utilisateur toutes les 3 seconde(s).
+Diminue le Taux de récupération de la cible de 70%.
+Durée: 30 seconde(s)
+
+
+4 étoiles :<br>
+Le temps de rechargement de Chant de l'arbre du vent diminue de 20%.
+
+
+5 étoiles :<br>
+Les dégâts de Chant de l'arbre du vent augmentent de 50%.
+Les dégâts de [Dispersion racinaire] augmentent de 150%.

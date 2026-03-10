@@ -1,0 +1,42 @@
+Passif :<br>
+Lorsque la compétence de base de l'utilisateur touche sa cible, ce dernier récupère 50 PM.
+Le Taux de coup critique de l'utilisateur augmente à hauteur de 20% de ses Dégâts de coup critique.
+Lorsque l'effet [Exorcisme] atteint 5 cumuls, il déclenche l'effet [Arrogance] sur tous les membres de l'équipe de l'élément [Vent]. 
+
+[Arrogance]
+Augmente les Dégâts de coup critique de 20%.
+Les dégâts de la compétence de base de l'utilisateur augmentent de 20 %.
+La Consommation de mana des compétences de l'utilisateur augmente de 33%.
+Durée: 20 seconde(s)
+
+
+1 étoiles :<br>
+Si Goto Ryuji ou un allié parvient à mettre un ennemi en état de [Bris], la durée de l'état de [Bris] augmente de 3 seconde(s). 
+L'effet [Voie du tyran] est appliqué aux alliés à l'arrivée dans un niveau. Lorsque l'effet [Exorcisme] atteint 5 cumuls, il déclenche l'effet [Âme démonique]. 
+Lorsque Goto utilise Bourrasque mortelle, les dégâts de vent des compétences Tempête 'inversée et Lame tempête augmentent de 10% pendant 10 seconde(s). 
+
+[Voie du tyran]
+Augmente les dégâts infligés aux cibles en état de [Bris] de 12%. 
+Durée: illimitée
+
+[Âme démonique].
+Tempête inversée devient Lame tempête, ce qui augmente ses dégâts de 50%. 
+Durée: 10 seconde(s)
+
+
+2 étoiles :<br>
+L'efficacité de [Bris] de l'utilisateur augmente de 20%.
+
+
+3 étoiles :<br>
+L'utilisation des compétences Vent divin et Dévastation de proie augmente les Dégâts de coup critique de l'utilisateur de 20% pendant 12 seconde(s).
+
+
+4 étoiles : <br>
+Les dégâts du troisième chasseur de l'équipe augmentent de 24%, mais les dégâts qu'il subit augmentent aussi de 12%.
+
+
+5 étoiles :<br>
+Les compétences Ouragan céleste fantomatique, Tempête inversée et Lame tempête peuvent toucher la cible 2 fois de plus, et chaque attaque inflige des dégâts supplémentaires de 10%.
+Les compétences Ouragan céleste fantomatique, Tempête inversée et Lame tempête peuvent être utilisées 2 fois supplémentaires.
+Lorsque le ratio de PV de Goto Ryuji est supérieur à celui de l'ennemi, les dégâts de la compétence Dévastation de proie et les Dégâts de coup critique augmentent de 60%.

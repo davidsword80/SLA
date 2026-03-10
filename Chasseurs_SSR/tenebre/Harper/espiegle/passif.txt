@@ -1,0 +1,5 @@
+0 étoile :<br>Les PV de l'utilisatrice augmentent de 4%. <br>Lors de l'utilisation de la Compétence ultime, les dégâts de ténèbres des membres de son équipe augmentent de 4% pendant 30 seconde(s).
+
+5 étoiles :<br>Les PV de l'utilisatrice augmentent de 12%.<br>Lors de l'utilisation de la Compétence ultime, les dégâts de ténèbres des membres de son équipe augmentent de 12% pendant 30 seconde(s).
+
+10 étoiles :<br>L'Attaque, la Défense et les PV de l'utilisatrice augmentent de 15%.

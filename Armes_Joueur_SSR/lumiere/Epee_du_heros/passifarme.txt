@@ -1,0 +1,11 @@
+Passif : L'effet [Détermination inébranlable] s'active lorsque l'utilisateur arrive dans un niveau. Lorsque la compétence Épée porte-paix touche sa cible, les dégâts de compétence d'arme de l'élément Lumière augmentent de 45 % pendant 15 seconde(s). Détermination inébranlable : Augmente les dégâts de lumière de 25 %. Réduit la Consommation de mana pour les compétences de 20 %. Durée : illimitée.
+
+1 étoile : Lorsque l'utilisateur arrive dans le niveau, l'effet [Perception extraordinaire] s'active. Perception extraordinaire : Augmente la Précision de 5 %. Augmente le Taux de coup critique de 5 %. Augmente les Dégâts de coup critique de 60 %. Durée : illimitée.
+
+2 étoiles : Augmente les dégâts de lumière de 10 %.
+
+3 étoiles : L'effet [Volonté du héros] s'active lorsque l'utilisateur arrive dans un niveau. Lorsque la compétence Épée porte-paix touche une cible bénéficiant d'un [Bouclier], les dégâts qu'elle inflige augmentent de 20 % pendant 15 seconde(s). Volonté du héros : Lorsque la compétence Épée porte-paix touche sa cible, elle inflige des dégâts de Bris lourds. L'utilisateur bénéficie de [Super armure] lors de l'utilisation de la compétence Épée porte-paix. Durée : illimitée.
+
+4 étoiles : Diminue le temps de rechargement de la compétence Épée porte-paix de 20 %.
+
+5 étoiles : L'utilisation de la compétence Épée porte-paix ralentit le temps pendant 2 seconde(s) et active l'effet [Épée démono-régicide]. Épée démono-régicide : Augmente les dégâts infligés aux boss de 50 %. Augmente les dégâts de lumière de 35 %. Augmente les dégâts de compétence ultime de 50 %. Durée : 8 seconde(s).

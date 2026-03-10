@@ -1,0 +1,21 @@
+Passif :<br>Chaque fois que la flèche d'Éclat de lumière pénètre une cible, les dégâts infligés par l'utilisateur augmentent de 4% (cumulable jusqu'à 20 fois).
+
+1 étoile :<br>Lorsque la compétence Éclat de lumière est utilisée, la Défense de la cible est ignorée à hauteur de 50%.
+
+2 étoiles : <br>Vos dégâts de lumière augmentent de 8%.
+
+3 étoiles :<br>Modification des effets de la compétence Éclat de lumière:<br>Lorsque les cibles sont touchées par l'onde de choc d'Éclat de lumière, elles sont repoussées de 3m et subissent l'effet [Étourdissement].<br>[Étourdissement]<br>Cet effet immobilise la cible. Durée: 2 seconde(s)
+
+4 étoiles :<br>Le temps de rechargement d'Éclat de lumière diminue de 15%.
+
+5 étoiles :<br>Augmente les dégâts de toutes les attaques de 25% sur les cibles [étourdies].
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

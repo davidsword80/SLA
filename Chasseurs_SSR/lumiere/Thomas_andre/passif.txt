@@ -1,0 +1,11 @@
+Passif :<br>Lorsque les compétences Démolition absolue, Écrasement colossal, Coup de marteau géant ou Coup à la volée sont utilisées, elles activent l'effet [Puissance écrasante].<br>La jauge de puissance de l'utilisateur ne se remplira pas et il n'y aura plus de temps de rechargement. À la place, Jugement du chef sera disponible au bout de 5 cumuls de [Puissance écrasante] (temps de rechargement: 36 seconde(s)).<br>En mode [Combat d'équipe], les dégâts infligés par l'utilisateur augmentent de 24 %.<br>[Puissance écrasante]<br>Augmente la Défense de l'utilisateur de 10%.<br>Augmente les probabilités d'acquisition de bouclier de l'utilisateur de 2%. Durée: 25 seconde(s) (cumulable jusqu'à 5 fois)
+
+1 étoile :<br>Lorsque l'utilisateur bénéficie d'un effet [Bouclier], l'effet [Puissance écrasante] est activé.
+
+2 étoiles :<br>Augmente les probabilités d'acquisition de bouclier de 8%.<br>Lorsqu'un effet [Bouclier] est actif, les Dégâts de coup critique et le Taux de coup critique de l'utilisateur augmentent de 10%.
+
+3 étoiles :<br>L'effet [Surcroissance] est appliqué lorsqu'un effet [Bouclier] est actif. (temps de rechargement: 0,5 seconde)<br>Si le dernier coup de la compétence Écrasement colossal touche sa cible pendant que l'effet<br>[Tyran d'acier] est actif, l'effet [Surcroissance] est activé.<br>[Surcroissance]<br>Le Bouclier de l'utilisateur vole en éclats de mana qui infligent des dégâts de zone de lumière équivalents à 200 % de la Défense de Thomas André..<br>Pour chaque tranche de 1.000 points d'effet de<br>[Bouclier] appliqués, les dégâts de Surcroissance augmentent de 100% (cumulable jusqu'à 1000%).
+
+4 étoiles :<br>Augmente la Défense de 16%.
+
+5 étoiles :<br>Lorsque l'effet [Tyran d'acier] est actif, il augmente les dégâts de Collision de trou noir de 125%.

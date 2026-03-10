@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente l'Attaque de l'utilisateur de 5%.<br>Lorsque des cibles affectées par l'effet [Brûlure] de Choi Jongin sont attaquées, leur Défense diminue de 7% pendant 5 seconde(s).
+
+5 étoiles :<br>Augmente l'Attaque de l'utilisateur de 20%.<br>Lorsque des cibles affectées par l'effet [Brûlure] de Choi Jongin sont attaquées, leur Défense diminue de 20% pendant 5 seconde(s).
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de 15%.

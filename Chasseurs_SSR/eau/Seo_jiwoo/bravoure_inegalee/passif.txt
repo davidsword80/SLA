@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente les dégâts de coup critique de l'utilisateur de 5%.<br>Lorsque l'utilisatrice lance Ruade du dragon d'eau, Coup de pied foudroyant, Attaque lourde: Ruade du dragon d'eau ou Attaque lourde: Coup de pied foudroyant, augmente les dégâts de coup critique de 1% (cumulable jusqu'à 20 fois).
+
+5 étoiles :<br>Augmente les dégâts de coup critique de l'utilisatrice de 20%.<br>Lorsque l'utilisatrice lance Ruade du dragon d'eau, Coup de pied foudroyant, Attaque lourde: Ruade du dragon d'eau ou Attaque lourde: Coup de pied foudroyant, augmente les dégâts de coup critique de 6 % (cumulable jusqu'à 20 fois).
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15%.

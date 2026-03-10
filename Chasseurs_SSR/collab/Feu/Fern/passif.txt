@@ -1,0 +1,39 @@
+Passif : L'utilisation de l'attaque de base initie les attaques de niveau 1, 2 et 3 à la suite. L'utilisation de l'attaque de base de niveau 3 active l'attaque de noyau de l'utilisatrice une fois. Les effets [Prodige magique et Recherche d'énergie de mana] s'activent lorsque l'utilisatrice arrive dans un niveau.
+
+[Prodige magique] Augmente l'Attaque de 10 %. Lorsque l'utilisatrice a 50 % de PM ou plus, son Attaque augmente de 10 %. Réduit la Consommation de mana pour les compétences de 5 %. Durée : illimitée
+
+[Recherche d'énergie de mana] Augmente les dégâts infligés aux boss par l'utilisatrice de 30 %. Augmente la Précision de l'utilisatrice de 5 %. Durée : illimitée
+
+1 étoile : L'effet [Coup rapide de base] s'active lorsque l'utilisatrice arrive dans un niveau. L'utilisation de ses compétences de base 1 ou 2 active l'effet [Concentration de base]. Les effets [Prodige magique et Recherche d'énergie de mana] sont améliorés.
+
+[Coup rapide de base] Augmente la Vitesse d'attaque de l'attaque de base, de l'attaque de noyau et des compétences de base 1 et 2. L'utilisation des compétences de base 1 ou 2 active l'attaque de noyau de l'utilisatrice une fois. L'utilisation de l'attaque de noyau diminue le temps de rechargement des compétences de base 1 et 2 de 25 %. L'utilisation de la compétence de base 1 diminue le temps de rechargement des compétences de base 1 et 2 de 25 %. L'utilisation de la compétence de base 2 réduit le temps de rechargement des compétences de base 1 et 2 de 25 %. Durée : illimitée
+
+[Concentration de base] L'utilisation des compétences de base 1 ou 2 augmente la consommation de PM de 12 %. L'utilisation des compétences de base 1 ou 2 augmente les dégâts de la compétence de base de 25 %. Durée : 20 seconde(s) (cumulable jusqu'à 4 fois)
+
+[Prodige magique] Augmente l'Attaque de 20 %. Lorsque l'utilisatrice a 50 % de ses PM ou plus, son Attaque augmente de 20 %. Réduit la Consommation de mana pour ses compétences de 10 %. Durée : illimitée
+
+[Recherche d'énergie de mana] Augmente les dégâts infligés aux boss de 60 %. Augmente la Précision de 10 % Durée : illimitée
+
+2 étoiles : Augmente les dégâts de feu de l'utilisatrice de 20 %. Chaque fois que sa compétence de base 2 touche une cible, applique l'effet [Dégâts de feu subis augmentés].
+
+[Dégâts de feu subis augmentés] Augmente les dégâts de feu subis de 0.3 %. Durée : 30 seconde(s) (cumulable jusqu'à 60 fois)
+
+3 étoiles : L'effet [Vision véritable] s'active lorsque l'utilisatrice arrive dans un niveau. Les effets [Magie de dissipation et Magie défensive] s'activent lorsque l'utilisatrice [rejoint le combat] (temps de rechargement : 10 seconde(s)).
+
+[Vision véritable] Augmente le Taux de coup critique de 5 % et les Dégâts de coup critique de 10 %. Durée : illimitée
+
+[Magie de dissipation] Supprime les débuffs de toute l'équipe.
+
+[Magie défensive] Confère un [Bouclier] équivalent à 20 % de l'Attaque de Fern. Diminue les dégâts subis de 20 %. Durée : 20 seconde(s)
+
+4 étoiles : Le Taux de coup critique de l'utilisatrice augmente de 10 %, et ses Dégâts de coup critique de 20 %. L'effet [Dégâts de feu subis augmentés], qui est appliqué chaque fois que la compétence de base 2 de l'utilisatrice touche une cible, change de 0.3 % à 0.5 %.
+
+[Dégâts de feu subis augmentés] Augmente les dégâts de feu subis de 0.5 %. Durée : 30 seconde(s) (cumulable jusqu'à 60 fois)
+
+5 étoiles : Lorsque la compétence ultime de l'utilisatrice touche sa cible, les dégâts de faiblesse élémentaire de feu de l'utilisatrice la touchent également, quel que soit son élément. L'effet [Vision véritable] est amélioré.
+
+[Vision véritable] Augmente le Taux de coup critique de 10 % et les Dégâts de coup critique de 20 %. Lorsque la compétence de base 1 ou 2 de l'utilisatrice touche sa cible, l'effet [Alerte sismique] s'active (uniquement une fois à l'impact). Durée : illimitée
+
+[Alerte sismique] Augmente les dégâts de feu de 10 %. L'effet [Regard de la chercheuse] s'active lorsqu'il atteint le maximum de cumuls. Durée : 5 seconde(s) (cumulable jusqu'à 6 fois)
+
+[Regard de la chercheuse] L'effet [Alerte sismique] est supprimé et ne peut plus être activé. Augmente les dégâts de feu de 60 %. Augmente la Pénétration de défense de 10 %. Durée : 20 seconde(s)

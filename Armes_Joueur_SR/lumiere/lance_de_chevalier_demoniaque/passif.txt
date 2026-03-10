@@ -1,0 +1,21 @@
+Passif :<br>Lors de l'utilisation de la compétence Lance sacrée, l'utilisateur applique l'effet [Esprit corrompu].<br>[Esprit corrompu]<br>Supprime le temps de rechargement de la compétence Lance sacrée.<br> Durée: 3 seconde(s)
+
+1 étoile :<br>Lorsque Lance sacrée touche sa cible, l'utilisateur récupère 1% de ses PM.
+
+2 étoiles :<br>Vos dégâts de lumière augmentent de 8%.
+
+3 étoiles :<br>Lorsque la compétence Lance sacrée est utilisée, la durée de l'effet [Esprit corrompu] augmente de 4 seconde(s).
+
+4 étoiles :<br>Le temps de rechargement de la compétence Lance sacrée diminue de 15%.
+
+5 étoiles :<br>Pendant que l'effet [Esprit corrompu] est actif, la Vitesse d'attaque de l'utilisateur augmente de 10%. <br>Les dégâts de la compétence Lance sacrée augmentent de 10%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

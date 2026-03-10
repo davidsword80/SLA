@@ -1,0 +1,4 @@
+Passif :<br>
+La course à pied a renforcé vos jambes.<br>
+Votre Vitesse augmente de 20%.<br>
+Le temps de rechargement de Ruée est réduit de 20%.

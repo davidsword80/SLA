@@ -1,0 +1,3 @@
+Niv. 3
+Attaque augmentée (Ombres)
+L'Attaque des Ombres augmente de 40 % lorsque [Puissance rémanente : Rockpasa] est dans la formation.

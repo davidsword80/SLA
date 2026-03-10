@@ -1,0 +1,5 @@
+[Effet de la panoplie 2] :<br>Applique l'effet [Malédiction].<br>Augmente les dégâts subis de 20%.<br>Augmente les dégâts infligés de 10% et augmente les dégâts infligés de 0.1% toutesles 1 seconde(s) (cumulable jusqu'à 100 fois).<br>Durée: permanent
+
+[Effet de la panoplie 4] :<br>L'effet [Malédiction] devient [Malédiction améliorée].<br>Augmente les dégâts subis par l'utilisateur de 20%.<br>Augmente les dégâts infligés par l'utilisateur de 20% et augmente les dégâts infligés de 0.1% toutes les 1 seconde(s) (cumulable jusqu'à 100 fois).<br>Rend impossible l'activation de l'effet [Malédiction].<br>Durée: permanent<br>Applique l'effet [Sauvetage].<br>Si les PV de l'utilisateur sont à 25% ou en dessous, il en récupère 25%.<br>Ne s'active qu'une fois par donjon.
+
+[Effet de la panoplie 8] :<br>L'effet [Malédiction améliorée] devient [Malédiction ardente].<br>Augmente les dégâts subis par l'utilisateur de 20%.<br>Augmente les dégâts infligés par l'utilisateur de 30% et augmente les dégâts infligés de 0.2% toutes les 1 seconde(s) (cumulable jusqu'à 100 fois).<br>Rend impossible l'activation des effets [Malédiction] et [Malédiction améliorée].<br>Durée: permanent

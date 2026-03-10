@@ -1,0 +1,21 @@
+Passif :<br>Augmente les PV de l'utilisateur et des membres de l'équipe de 8%.
+
+1 étoile :<br>Le Taux de récupération des PV reçus de Juhee augmente de 20%.
+
+2 étoiles :<br>Les PV de l'utilisateur augmentent de 6 %.
+
+3 étoiles :<br>Juhee et ses coéquipiers récupèrent 400 de leur mana lorsque Juhee utilise Cercle de guérison.
+
+4 étoiles :<br>Augmente le Taux de récupération naturel du mana de 50%.
+
+5 étoiles :<br>Cercle de guérison s'active lorsque Juhee quitte le combat et son temps de rechargement se réinitialise (temps de rechargement: 35 seconde(s)).
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

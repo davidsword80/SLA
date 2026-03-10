@@ -1,0 +1,1 @@
+Passif :<br>Lors de l'utilisation de la Compétence ultime, l'utilisateur récupère des PM équivalent à 5% de ses PM max (temps de rechargement : 20 secondes).

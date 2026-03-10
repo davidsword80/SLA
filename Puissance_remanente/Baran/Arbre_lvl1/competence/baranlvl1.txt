@@ -1,0 +1,10 @@
+Évolution de compétence
+Baran : Frappe foudroyante [Palier 1]
+Compétence de soutien
+Rupture
+Baran frappe vers le bas à l'aide d'une épée géante forgée par la foudre.
+Dégâts : 5000 % de l'Attaque de Baran
+Délai d'attente préalable : 30 seconde(s)
+Utilisations disponibles : 1 fois
+Inflige des dégâts de Bris moyens.
+Lorsque cette compétence touche sa cible, elle la [renverse].

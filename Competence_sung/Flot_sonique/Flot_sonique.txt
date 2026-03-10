@@ -1,0 +1,25 @@
+Double attaque descendante
+Légendaire
+
+Dégâts : 1332 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de lumière. Inflige l'effet [En l'air] lorsque la dernière attaque touche. Lorsque votre attaque touche un ennemi sans jauge de bris, elle augmente les dégâts de Double attaque descendante de 240 % pendant 7 seconde(s).
+
+Entailles croissantes
+Légendaire
+
+Dégâts : 390 % de l'Attaque de l'utilisateur Temps de rechargement : 20 s Consommation de PM : 100 Inflige des dégâts élémentaires de ténèbres. Lorsque cette compétence est utilisée après Entailles croissantes ou au bon moment après une Ruée, les dégâts de la compétence Entailles croissantes augmentent de 250 % pendant 3 seconde(s) (cumulable jusqu'à 2 fois). Lorsque la compétence Entailles croissantes et une autre compétence sont utilisées l'une après l'autre, l'utilisateur récupère 200 PM.
+
+Explosion sonique
+Légendaire
+
+Dégâts : 2295 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de feu. Inflige l'effet [En l'air] lorsque la dernière attaque touche. Lorsque la dernière attaque touche sa cible, la jauge de noyau passe à 100 %. Lorsque la dernière attaque touche sa cible, les dégâts de l'Attaque de noyau de Sung Jinwoo augmentent de 240 % pendant 7 seconde(s).
+
+Voile venteux
+Légendaire
+
+Dégâts : 1162 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de vent. Applique l'effet [Courant du vent] à chaque coup porté. [Voile venteux] s'active pour chaque petite lame lancée à la suite et qui touche sa cible, ce qui permet d'augmenter les dégâts de la dernière lame de 50 %. Durée : 5 seconde(s) (cumulable jusqu'à 6 fois)
+
+[Courant du vent]
+
+Augmente l'Attaque de 3 %.
+
+Durée : 10 seconde(s) (cumulable jusqu'à 10 fois).

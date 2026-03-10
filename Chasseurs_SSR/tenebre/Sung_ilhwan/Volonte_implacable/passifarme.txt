@@ -1,0 +1,13 @@
+passif :
+Augmente I'Attaque de l'utilisateur de 5 %.
+Augmente les Dégats de coup critique de
+l'utilisateur de 5 %.
+
+passif 5 star :
+Augmente I'Attaque de l'utilisateur de 30 %.
+Augmente les Dégats de coup critique de
+l'utilisateur de 30 %.
+
+passif 10 star :
+Augmente I'Attaque, la Défense et les PV de
+l'utilisateur de 15 %.

@@ -1,0 +1,24 @@
+Passif :<br>Après l'utilisation de Fleur de prunier : Vol prompt, l'effet [Fleur de prunier] s'applique.<br> Lorsque l'utilisateur réussit une Ruée suivie de Fleur de prunier: Vol prompt, l'effet [Éclosion] s'applique.<br>[Fleur de prunier]<br>Augmente les dégâts de coup critique de 12% (cumulable jusqu'à 3 fois). <br>Durée: illimitée<br>[Éclosion]<br>Augmente également la vitesse d'utilisation de Fleur de prunier : Vol prompt de 20%.<br>L'Attaque de l'utilisateur augmente de 4%.<br> Le Taux de coup critique de l'utilisateur augmente de 4%. <br>Durée: 8 seconde(s)
+
+1 étoile :<br>Lorsque l'utilisateur rengaine après avoir utilisé la compétence Fleur de prunier: Vol prompt, l'effet [Tirage amplificateur] s'applique. <br>[Tirage amplificateur]<br>Augmente les chances de l'utilisateur de porter un coup critique à la prochaine attaque de 32 %.<br>Augmente les dégâts de compétence de 32%.<br>Durée: 3 seconde(s)
+
+2 étoiles :<br>Vos dégâts de ténèbres augmentent de 10%.
+
+3 étoiles :<br>Lors de l'utilisation de Ruée, [Tirage amplificateur] dure 5 seconde(s) et les Dégâts de coup critique augmentent de 32%.
+
+4 étoiles :<br>Le temps de rechargement de Fleur de prunier: Vol prompt est réduit de 20%.
+
+5 étoiles :<br>Ajoute l'effet [Fleur de prunier].<br>Les dégâts de ténèbres de l'utilisateur augmentent de 5%.<br>Applique 2 cumuls de [Fleur De Prunier] au début du niveau (cumulable jusqu'à 5 fois).
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+
+

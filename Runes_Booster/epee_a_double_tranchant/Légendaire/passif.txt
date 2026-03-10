@@ -1,0 +1,3 @@
+Passif :<br>
+Le danger grandit en même temps que votre Attaque.<br>
+Lorsque vos attaques touchent leur cible, votre Attaque augmente de 4% pendant 10 seconde(s), mais l'Attaque de la cible augmente également de 3% (cumulable jusqu'à 4 fois).

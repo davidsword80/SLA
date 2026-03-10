@@ -1,0 +1,5 @@
+8 cases /Branche : Vert -> defense supp
+8 cases /Branche : Jaune -> precision
+8 cases /Branche : Rouge -> attaque% / attaqe supp
+8 cases /Branche : Violet -> reduction de PM
+8 cases /Branche : Bleu -> PV% / PV supp
