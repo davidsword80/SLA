@@ -87,8 +87,8 @@ huntersData["lee-juhee"] = {
     rarity: "SR",
     element: "Eau",
     gradient: "linear-gradient(90deg, #2980b9, #000)",
-    image: "Chasseurs_SR/eau/Lee_juhee/LeeJuhee_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/eau/Lee_juhee/ce_qui_n_a_jamais_ete/Relic_LeeJuhee_PortraitBig.png",
+    image: "Chasseurs_SR/eau/Lee_juhee/LeeJuHee_Portrait_Body.png",
+    weaponImage: "Chasseurs_SR/eau/Lee_juhee/ce_qui_n_a_jamais_ete/Relic_LeeJuHee_PortraitBig.png",
     weaponName: "Ce qui n'a jamais été",
     fullData: {
         0: `

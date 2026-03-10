@@ -199,8 +199,8 @@ huntersData["yoo-jinho"] = {
     rarity: "SR",
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
-    image: "Chasseurs_SR/lumiere/Yoo_jinho/YooJinho_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/lumiere/Yoo_jinho/enchante/Relic_YooJinho_PortraitBig.png",
+    image: "Chasseurs_SR/lumiere/Yoo_jinho/YooJinHo_Portrait_Body.png",
+    weaponImage: "Chasseurs_SR/lumiere/Yoo_jinho/enchante/Relic_YooJinHo_PortraitBig.png",
     weaponName: "Enchanté",
     fullData: {
         0: `
@@ -499,7 +499,7 @@ huntersData["go-gunhee"] = {
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)",
     image: "Chasseurs_SSR/lumiere/Go_gunhee/go_art.png",
-    weaponImage: "Chasseurs_SSR/lumiere/Go_gunhee/une_conviction_et_une_vocation/Relic_GoGunhee_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/lumiere/Go_gunhee/une_conviction_et_une_vocation/Relic_GoGunHee_PortraitBig.png",
     weaponName: "Une conviction et une vocation",
     fullData: {
         0: `

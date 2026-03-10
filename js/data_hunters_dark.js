@@ -8,8 +8,8 @@ huntersData["hwang-dongsuk"] = {
     rarity: "SR",
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)", // Dégradé violet/noir pour les ténèbres
-    image: "Chasseurs_SR/tenebre/Hwang_dongsuk/HwangDongsuk_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/tenebre/Hwang_dongsuk/pilleur_d_ame/Relic_HwangDongsuk_PortraitBig.png",
+    image: "Chasseurs_SR/tenebre/Hwang_dongsuk/HwangDongSuk_Portrait_Body.png",
+    weaponImage: "Chasseurs_SR/tenebre/Hwang_dongsuk/pilleur_d_ame/Relic_HwangDongSuk_PortraitBig.png",
     weaponName: "Pilleur d'âme",
     fullData: {
         0: `
@@ -104,7 +104,7 @@ huntersData["kang-taeshik"] = {
     rarity: "SR",
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
-    image: "Chasseurs_SR/tenebre/Kang_taeshik/KangTaeshik_Portrait_Body.png",
+    image: "Chasseurs_SR/tenebre/Kang_taeshik/KangTaeShik_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/tenebre/Kang_taeshik/frenesie_inarretable/Relic_KangTaeShik_PortraitBig.png",
     weaponName: "Frénésie Inarrêtable",
     fullData: {
@@ -635,7 +635,7 @@ huntersData["lee-bora"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Lee_bora/lee_art.png",
-    weaponImage: "Chasseurs_SSR/tenebre/Lee_bora/logique_imparable/Relic_LeeBora_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Lee_bora/logique_imparable/Relic_LeeBoRa_PortraitBig.png",
     weaponName: "Logique Imparable",
     fullData: {
         0: `
@@ -724,7 +724,7 @@ huntersData["lim-taegyu"] = {
     element: "Ténèbres",
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Chasseurs_SSR/tenebre/Lim_taegyu/LimTaeGyu_Portrait_Body.png",
-    weaponImage: "Chasseurs_SSR/tenebre/Lim_taegyu/interception/Relic_LimTaegyu_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/tenebre/Lim_taegyu/interception/Relic_LimTaeGyu_PortraitBig.png",
     weaponName: "Interception",
     fullData: {
         0: `

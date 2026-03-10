@@ -8,8 +8,8 @@ huntersData["song-chiyul"] = {
     rarity: "SR",
     element: "Feu",
     gradient: "linear-gradient(90deg, #e74c3c, #000)", // Dégradé rouge/noir pour le feu
-    image: "Chasseurs_SR/feu/Song_chiyul/SongChiyul_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/feu/Song_chiyul/talent_intact/Relic_SongChiyul_PortraitBig.png",
+    image: "Chasseurs_SR/feu/Song_chiyul/SongChiYul_Portrait_Body.png",
+    weaponImage: "Chasseurs_SR/feu/Song_chiyul/talent_intact/Relic_SongChiYul_PortraitBig.png",
     weaponName: "Talent intact",
     fullData: {
         0: `
@@ -184,7 +184,7 @@ huntersData["christopher-reed"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Christopher_reed/christopher_art.png",
-    weaponImage: "Chasseurs_SSR/feu/Christopher_reed/Strategie_victorieuse/Relic_ChristopherReed_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Christopher_reed/strategie_victorieuse/Relic_ChristopherReed_PortraitBig.png",
     weaponName: "Strategie victorieuse",
     fullData: {
         0: `
@@ -784,7 +784,7 @@ huntersData["yoo-soohyun"] = {
     element: "Feu",
     gradient: "linear-gradient(90deg, #e67e22, #000)",
     image: "Chasseurs_SSR/feu/Yoo_soohyun/yoo_art.png",
-    weaponImage: "Chasseurs_SSR/feu/Yoo_soohyun/overdrive/Relic_YooSoohyun_PortraitBig.png",
+    weaponImage: "Chasseurs_SSR/feu/Yoo_soohyun/overdrive/Relic_YooSooHyun_PortraitBig.png",
     weaponName: "Surpuissance",
     fullData: {
         0: `

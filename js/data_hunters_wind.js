@@ -8,8 +8,8 @@ huntersData["kim-sangshik"] = {
     rarity: "SR",
     element: "Vent",
     gradient: "linear-gradient(90deg, #2ecc71, #000)", // Dégradé vert/noir pour le vent
-    image: "Chasseurs_SR/vent/Kim_sangshik/KimSangshik_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/vent/Kim_sangshik/la_chute_de_quelqu_un/Relic_KimSangshik_PortraitBig.png",
+    image: "Chasseurs_SR/vent/Kim_sangshik/KimSangShik_Portrait_Body.png",
+    weaponImage: "Chasseurs_SR/vent/Kim_sangshik/la_chute_de_quelqu_un/Relic_KimSangShik_PortraitBig.png",
     weaponName: "La chute de quelqu'un",
     fullData: {
         0: `
