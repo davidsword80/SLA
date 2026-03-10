@@ -188,7 +188,7 @@ huntersData["park-heejin"] = {
     rarity: "SR",
     element: "Vent",
     gradient: "linear-gradient(90deg, #2ecc71, #000)",
-    image: "Chasseurs_SR/vent/Park_heejin/ParkHeejin_Portrait_Body.png",
+    image: "Chasseurs_SR/vent/Park_heejin/ParkHeeJin_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/vent/Park_heejin/intuition/Relic_ParkHeejin_PortraitBig.png",
     weaponName: "Intuition",
     fullData: {
