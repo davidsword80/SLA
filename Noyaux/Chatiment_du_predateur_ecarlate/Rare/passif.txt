@@ -1,0 +1,1 @@
+Passif :<br>Lorsque les PM de l'utilisateur sont à 20% ou moins, il récupère l'équivalent de 20% de ses PM max. <br>Cet effet ne s'active qu'une fois par combat 

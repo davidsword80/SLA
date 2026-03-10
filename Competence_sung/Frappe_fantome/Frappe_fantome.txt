@@ -1,0 +1,29 @@
+Frappe blitz
+
+Dégâts : 613 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de lumière.
+Applique de l'Accumulation élémentaire moyenne. Lorsque cette compétence touche sa cible, elle lui inflige l'effet [En l'air].
+Les dégâts de Surcharge de la compétence de base de lumière augmentent de 25 % pendant 15 seconde(s).
+
+Flash coupant
+
+Dégâts : 753 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de feu.
+Applique de l'Accumulation élémentaire moyenne. Lorsque cette compétence touche sa cible, elle lui inflige l'effet [En l'air].
+Augmente les dégâts de Surcharge de la compétence d'arme de feu de l'utilisateur de 40 % pendant 15 seconde(s).
+
+Frappe rapide
+
+Dégâts : 993 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de vent.
+Applique de l'Accumulation élémentaire moyenne. Lorsque cette compétence touche sa cible, elle lui inflige l'effet [En l'air].
+Les dégâts infligés par Frappe rapide aux cibles affectées par la [Surcharge] de [Vent] augmentent de 45 %.
+
+Frappe silencieuse
+
+Dégâts : 602 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de ténèbres.
+Applique de l'Accumulation élémentaire moyenne. Lorsque cette compétence touche sa cible, elle lui inflige l'effet [En l'air].
+Les dégâts de l'attaque de noyau de ténèbres de l'utilisateur augmentent de 135 % pendant 15 seconde(s).
+
+Frappe voilée
+
+Dégâts : 889 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires d'eau.
+Applique de l'Accumulation élémentaire moyenne. Lorsque cette compétence touche sa cible, elle lui inflige l'effet [En l'air].
+Les Dégâts de coup critique d'eau de l'utilisateur augmentent de 35 % pendant 15 seconde(s).

@@ -1,0 +1,7 @@
+Priorité :
+- Débloquer toute les cases 
+- LVL-UP toute les cases petit à petit, ne pas up une seule case au max 
+- LVL : 1 à 3 = petit sablier
+- LVL : 3 à 7 = gros sablier 
+
+5 pilliers sur chaque page donc 10 armes a mettre 

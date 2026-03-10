@@ -1,0 +1,11 @@
+Passif :<br>Lors de l'utilisation d'Explosion aérienne, l'utilisateur applique l'effet [Boost magique]. <br>[Boost magique]<br>Lorsque la compétence touche sa cible, l'utilisateur tire 3 flèches magiques.<br>Lorsque l'Attaque de base de l'utilisateur touche sa cible, 2 flèches magiques sont tirées.<br>Dégâts: inflige des dégâts équivalents à 120 % de l'Attaque de l'utilisateur par flèche.<br>Les dégâts des Attaques de noyau, de Typhon ardent et d'Attaque rapide :<br>Typhon ardent augmentent de 30%.<br>Durée: 15 seconde(s)
+
+1 étoile :<br>Améliore l'effet de compétence Manœuvre de tir.<br>La vitesse et les dégâts de compétence de Butilisateur augmentent de 25%, et l'effét est utilisable jusqu'à 3 fois.
+
+2 étoiles :<br>Augmente l'efficacité de Bris de l'utilisateur de 20%
+
+3 étoiles :<br>Lorsque l'effet Boost magique est actif, les effets des Attaques de noyau, de Typhon ardent et d'Attaque rapide: Typhon ardent augmentent de 50%.<br>Lors de l'utilisation de Manœuvre de tir, l'effet [Boost magique) s'applique (temps de rechargement: 20 seconde(s)).
+
+4 étoiles :<br>Augmente l'Attaque de l'utilisateur de 12%.
+
+5 étoiles :<br>Chaque fois quel Attaque de noyau de P'utilisateur touche sa cible, l'Attaque augmente de 4% (cumulable jusqu'à 10 fois). Durée:infinie

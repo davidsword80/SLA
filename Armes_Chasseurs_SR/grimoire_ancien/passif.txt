@@ -1,0 +1,5 @@
+0 étoile :<br>Le taux de remplissage de la jauge de puissance augmente de 12%.
+
+5 étoiles :<br>Augmente le taux de remplissage de la jauge de puissance de 32%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 10%.

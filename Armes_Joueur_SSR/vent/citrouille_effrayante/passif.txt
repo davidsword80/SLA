@@ -1,0 +1,21 @@
+Passif :<br>Lors de l'utilisation de Farce et attaque, 1 à 10 cumuls de l'effet [Bonbon citrouille] sont appliqués.<br>Lorsque l'attaque de base Stade 3 de l'arme Citrouille effrayante touche sa cible, elle applique 2 cumuls de l'effet [Bonbon citrouille].<br> Dès lors que 10 cumuls de l'effet [Bonbon citrouille] ont été appliqués, l'effet [Des bonbons ou un sort!] est appliqué. <br>[Bonbon citrouille]<br>Augmente les dégâts élémentaires de vent de 1%.<br>Durée: illimitée (cumulable jusqu'à 10 fois)<br>[Des bonbons ou un sort!]<br>Supprime les cumuls de l'effet [Bonbon citrouille] et empêche la cible d'en recevoir de nouveaux.<br>Augmente les dégâts élémentaires de vent de l'utilisateur de 10%. <br>Augmente les dégâts infligés de 10%. <br>Durée: 10 seconde(s)
+
+1 étoile :<br>Lors de l'utilisation de Farce et attaque, l'attaque de noyau a 50% de chances de s'activer. <br>Lorsque l'attaque de noyau touche sa cible, elle active 2 cumuls pour l'effet [Bonbon citrouille].
+
+2 étoiles :<br>Les dégâts élémentaires de vent de l'utilisateur augmentent de 10%.
+
+3 étoiles :<br>Lors de l'utilisation de Farce et attaque, 3 cumuls supplémentaires de l'effet [Bonbon citrouille] sont activés.<br>L'effet [Des bonbons ou un sort!] est également amélioré.<br>[Des bonbons ou un sort!]<br>Supprime les cumuls de l'effet [Bonbon citrouille] et empêche la cible d'en recevoir de nouveaux.<br>Augmente les dégâts élémentaires de vent de l'utilisateur de 20 %.<br>Augmente les dégâts infligés de 20%.<br>Durée: 10 seconde(s)
+
+4 étoiles :<br>Le temps de rechargement de Farce et attaque diminue de 20%.
+
+5 étoiles :<br>Lors de l'utilisation de Farce et attaque, l'attaque de noyau a 100% de chances de s'activer.<br>Lorsque l'attaque de base Stade 3 de l'arme<br>Citrouille effrayante touche sa cible, le temps de rechargement de Farce et attaque diminue de 2 seconde(s).<br>Lorsque l'attaque de noyau de l'arme Citrouille effrayante touche sa cible, le temps de rechargement de Farce et attaque diminue de 2 seconde(s).
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

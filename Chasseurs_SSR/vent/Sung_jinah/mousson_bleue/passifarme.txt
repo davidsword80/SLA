@@ -1,0 +1,20 @@
+passif :
+Augmente la Défense de 2 %.
+Lors de l'utilisation des compétences Rapiére de
+tempéte inversée ou Parapluie: Rapiére de
+tempéte inversée, les dégats de compétence de
+base des membres de I'équipe augmentent de
+0.5 %.
+
+passif 5 star:
+Augmente la Défense de 12 %.
+Lors de l'utilisation des compétences Rapiére de
+tempéte inversée ou Parapluie: Rapiere de
+tempéte inversée, les dégats de compétence de
+base des membres de I'équipe augmentent de
+2%.
+Durée: illimitée (cumulable jusqu'a 5 fois)
+
+passif 10 star :
+Augmente 'Attaque, la Défense et les PV de
+I'utilisatrice de 15 %.

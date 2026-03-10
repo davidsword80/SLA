@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences de Base</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .left-panel {
+            flex: 1;
+        }
+
+        .header {
+            background: #1a1a1a;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: #4dd9e8;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #1a1a1a;
+            border: 2px solid #333;
+            padding: 20px;
+            cursor: pointer;
+        }
+
+        .skill-card:hover {
+            border-color: #4dd9e8;
+        }
+
+        .skill-card.active {
+            border-color: #f4c430;
+            background: #222;
+        }
+
+        .skill-icon {
+            font-size: 60px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .skill-name {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .skill-level {
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .skill-dots {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #333;
+            border: 1px solid #555;
+        }
+
+        .dot.active {
+            background: #4dd9e8;
+        }
+
+        .sub-skills {
+            margin-top: 15px;
+            display: none;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .sub-skills.show {
+            display: grid;
+        }
+
+        .sub-skill {
+            background: #2a2a2a;
+            border: 1px solid #f4c430;
+            padding: 15px 10px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .sub-skill:hover {
+            background: #333;
+            border-color: #4dd9e8;
+        }
+
+        .sub-skill.selected {
+            background: #333;
+            border-color: #4dd9e8;
+            border-width: 2px;
+        }
+
+        .sub-skill-icon {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        .sub-skill-label {
+            font-size: 11px;
+            color: #ccc;
+        }
+
+        .right-panel {
+            flex: 0 0 400px;
+        }
+
+        .description-card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 25px;
+            min-height: 400px;
+        }
+
+        .description-header {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .description-icon {
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .description-title h2 {
+            font-size: 22px;
+            color: #f4c430;
+            margin-bottom: 8px;
+        }
+
+        .description-level {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .description-content {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .description-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .stat-item {
+            background: #0a0a0a;
+            padding: 12px;
+            border: 1px solid #222;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #4dd9e8;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #555;
+        }
+
+        .empty-state-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .empty-state-text {
+            font-size: 16px;
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                flex-direction: column;
+            }
+            .right-panel {
+                flex: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .sub-skills {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="header">
+                <h1>Compétences de Base</h1>
+            </div>
+
+            <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+
+        <div class="right-panel">
+            <div class="description-card" id="descriptionCard">
+                <div class="empty-state">
+                    <div class="empty-state-icon">🎯</div>
+                    <div class="empty-state-text">Sélectionnez une compétence pour voir les détails</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const skillsData = [
+            {
+                id: 1,
+                name: "Tornade Cyclonique",
+                icon: "🌪️",
+                level: 22,
+                dots: 3,
+                activeDots: 2,
+                description: "Invoque une puissante tornade qui balaye tous les ennemis sur son passage.",
+                stats: { power: "450%", cooldown: "8s", range: "12m", duration: "4s" },
+                subSkills: [
+                    { 
+                        icon: "🌀", 
+                        label: "E",
+                        name: "Tornade - Enhanced",
+                        description: "Version améliorée qui aspire les ennemis vers le centre de la tornade avant de les projeter violemment.",
+                        stats: { power: "500%", cooldown: "8s", range: "15m", vacuum: "Yes" }
+                    },
+                    { 
+                        icon: "🌀", 
+                        label: "Basic",
+                        name: "Tornade - Basic",
+                        description: "Version de base de la tornade. Dégâts standards sur une zone moyenne.",
+                        stats: { power: "450%", cooldown: "8s", range: "12m", duration: "4s" }
+                    },
+                    { 
+                        icon: "🌀", 
+                        label: "Advanced",
+                        name: "Tornade - Advanced",
+                        description: "La tornade laisse une traînée qui inflige des dégâts continus pendant 3 secondes supplémentaires.",
+                        stats: { power: "450%", cooldown: "7s", range: "12m", dot: "50%/s" }
+                    },
+                    { 
+                        icon: "🌀", 
+                        label: "Master",
+                        name: "Tornade - Master",
+                        description: "Crée deux tornades secondaires qui orbitent autour de la principale pour des dégâts massifs.",
+                        stats: { power: "600%", cooldown: "8s", range: "12m", tornados: "3" }
+                    }
+                ]
+            },
+            {
+                id: 2,
+                name: "Éclair Foudroyant",
+                icon: "⚡",
+                level: 21,
+                dots: 3,
+                activeDots: 2,
+                description: "Lance un éclair dévastateur qui traverse plusieurs ennemis.",
+                stats: { power: "320%", cooldown: "6s", range: "15m", pierce: "5" },
+                subSkills: [
+                    { 
+                        icon: "⚡", 
+                        label: "Base",
+                        name: "Éclair - Base",
+                        description: "Éclair basique qui traverse jusqu'à 5 ennemis avec bonus de dégâts progressifs (+15% par ennemi).",
+                        stats: { power: "320%", cooldown: "6s", range: "15m", pierce: "5" }
+                    },
+                    { 
+                        icon: "💫", 
+                        label: "Enhanced",
+                        name: "Éclair - Enhanced",
+                        description: "L'éclair se divise en 3 branches au premier impact, touchant des cibles multiples simultanément.",
+                        stats: { power: "280%", cooldown: "6s", range: "15m", split: "3" }
+                    }
+                ]
+            },
+            {
+                id: 3,
+                name: "Griffes Spectrales",
+                icon: "👻",
+                level: 22,
+                dots: 3,
+                activeDots: 3,
+                description: "Matérialise des griffes fantomatiques qui lacèrent les ennemis proches.",
+                stats: { power: "280%", cooldown: "12s", range: "8m", dot: "40%/s" },
+                subSkills: [
+                    { 
+                        icon: "👻", 
+                        label: "Phase 1",
+                        name: "Griffes - Phase Spectrale",
+                        description: "Les griffes ignorent 30% de l'armure ennemie et infligent des saignements spectraux qui durent 6 secondes.",
+                        stats: { power: "280%", cooldown: "12s", range: "8m", armorPen: "30%" }
+                    },
+                    { 
+                        icon: "💀", 
+                        label: "Phase 2",
+                        name: "Griffes - Phase Mortelle",
+                        description: "Chaque attaque a 20% de chance de terrifier l'ennemi pendant 2 secondes, le rendant incapable d'agir.",
+                        stats: { power: "350%", cooldown: "12s", range: "8m", fear: "20%" }
+                    }
+                ]
+            },
+            {
+                id: 4,
+                name: "Lames Tourbillonnantes",
+                icon: "🗡️",
+                level: 21,
+                dots: 3,
+                activeDots: 2,
+                description: "Fait tournoyer des lames d'énergie autour du lanceur.",
+                stats: { power: "380%", cooldown: "10s", range: "6m", knockback: "High" },
+                subSkills: [
+                    { 
+                        icon: "🗡️", 
+                        label: "Spin",
+                        name: "Lames - Tourbillon",
+                        description: "Rotation rapide qui repousse tous les ennemis à 10m de distance, parfait pour créer de l'espace.",
+                        stats: { power: "380%", cooldown: "10s", range: "6m", knockback: "10m" }
+                    },
+                    { 
+                        icon: "⚔️", 
+                        label: "Fury",
+                        name: "Lames - Furie",
+                        description: "Double le nombre de lames et augmente la vitesse de rotation de 50% pour des dégâts dévastateurs.",
+                        stats: { power: "520%", cooldown: "10s", range: "6m", blades: "x2" }
+                    },
+                    { 
+                        icon: "🌟", 
+                        label: "Ultimate",
+                        name: "Lames - Ultime",
+                        description: "Les lames explosent à la fin, infligeant des dégâts massifs dans une zone élargie de 10m.",
+                        stats: { power: "700%", cooldown: "12s", range: "10m", explosion: "Yes" }
+                    }
+                ]
+            },
+            {
+                id: 5,
+                name: "Croix Arcanique",
+                icon: "✖️",
+                level: 22,
+                dots: 3,
+                activeDots: 2,
+                description: "Projette une croix d'énergie magique qui explose au contact.",
+                stats: { power: "500%", cooldown: "15s", range: "20m", aoe: "8m" },
+                subSkills: [
+                    { 
+                        icon: "✖️", 
+                        label: "Cross",
+                        name: "Croix - Standard",
+                        description: "Croix explosive standard avec propagation de dégâts aux ennemis adjacents dans un rayon de 8m.",
+                        stats: { power: "500%", cooldown: "15s", range: "20m", aoe: "8m" }
+                    },
+                    { 
+                        icon: "💥", 
+                        label: "Explosion",
+                        name: "Croix - Explosion Massive",
+                        description: "Triple la zone d'explosion (15m) mais réduit la portée de lancement à 12m. Dégâts de zone maximaux.",
+                        stats: { power: "550%", cooldown: "15s", range: "12m", aoe: "15m" }
+                    },
+                    { 
+                        icon: "🌠", 
+                        label: "Chain",
+                        name: "Croix - Réaction en Chaîne",
+                        description: "Chaque ennemi touché tire une mini-croix (50% des dégâts) vers un autre ennemi proche. Max 3 rebonds.",
+                        stats: { power: "400%", cooldown: "13s", range: "20m", chain: "3" }
+                    }
+                ]
+            },
+            {
+                id: 6,
+                name: "Ombre Furtive",
+                icon: "🌑",
+                level: 21,
+                dots: 3,
+                activeDots: 1,
+                description: "Vous transforme en ombre, augmentant votre vitesse.",
+                stats: { power: "0%", cooldown: "20s", duration: "3s", speed: "+60%" },
+                subSkills: [
+                    { 
+                        icon: "🌑", 
+                        label: "Stealth",
+                        name: "Ombre - Furtivité Totale",
+                        description: "Immunité complète aux dégâts et bonus de vitesse de 60% pendant 3 secondes. Parfait pour esquiver les attaques fatales ou repositionner.",
+                        stats: { power: "0%", cooldown: "20s", duration: "3s", immune: "Yes" }
+                    }
+                ]
+            },
+            {
+                id: 7,
+                name: "Salve Stellaire",
+                icon: "✨",
+                level: 22,
+                dots: 3,
+                activeDots: 3,
+                description: "Tire une rafale d'étoiles filantes à guidage automatique.",
+                stats: { power: "220%", cooldown: "5s", range: "18m", projectiles: "8" },
+                subSkills: [
+                    { 
+                        icon: "✨", 
+                        label: "Basic",
+                        name: "Salve - Basique",
+                        description: "8 projectiles à guidage automatique vers les cibles les plus proches. Parfait pour nettoyer les groupes.",
+                        stats: { power: "220%", cooldown: "5s", range: "18m", projectiles: "8" }
+                    },
+                    { 
+                        icon: "⭐", 
+                        label: "Seeking",
+                        name: "Salve - Traqueur Parfait",
+                        description: "Les projectiles suivent leur cible jusqu'à impact garanti. +50% de portée (27m) mais légèrement moins de dégâts.",
+                        stats: { power: "200%", cooldown: "5s", range: "27m", tracking: "100%" }
+                    },
+                    { 
+                        icon: "💫", 
+                        label: "Nova",
+                        name: "Salve - Nova Stellaire",
+                        description: "Tire 16 projectiles au lieu de 8 pour une couverture maximale, mais avec des dégâts individuels réduits.",
+                        stats: { power: "140%", cooldown: "5s", range: "18m", projectiles: "16" }
+                    }
+                ]
+            },
+            {
+                id: 8,
+                name: "Frappe Éclair",
+                icon: "⚡",
+                level: 22,
+                dots: 3,
+                activeDots: 2,
+                description: "Dash rapide qui traverse les ennemis.",
+                stats: { power: "340%", cooldown: "7s", range: "10m", reset: "Yes" },
+                subSkills: [
+                    { 
+                        icon: "⚡", 
+                        label: "Dash",
+                        name: "Frappe - Dash Électrique",
+                        description: "Traverse rapidement 10m avec dégâts électriques. Se réinitialise instantanément si vous éliminez un ennemi.",
+                        stats: { power: "340%", cooldown: "7s", range: "10m", reset: "Kill" }
+                    },
+                    { 
+                        icon: "💨", 
+                        label: "Speed",
+                        name: "Frappe - Vélocité",
+                        description: "Augmente votre vitesse de déplacement de 30% pendant 3 secondes après utilisation. Mobilité maximale.",
+                        stats: { power: "300%", cooldown: "6s", range: "10m", speedBuff: "+30%" }
+                    },
+                    { 
+                        icon: "🔆", 
+                        label: "Power",
+                        name: "Frappe - Puissance Brute",
+                        description: "Dégâts doublés (680%) mais cooldown augmenté et pas de réinitialisation. Pure puissance destructrice.",
+                        stats: { power: "680%", cooldown: "12s", range: "10m", reset: "No" }
+                    }
+                ]
+            },
+            {
+                id: 9,
+                name: "Éruption Volcanique",
+                icon: "🌋",
+                level: 22,
+                dots: 3,
+                activeDots: 2,
+                description: "Fait jaillir des geysers de lave du sol.",
+                stats: { power: "400%", cooldown: "18s", range: "10m", duration: "8s" },
+                subSkills: [
+                    { 
+                        icon: "🌋", 
+                        label: "Eruption",
+                        name: "Éruption - Standard",
+                        description: "Geysers de lave qui créent une zone de déni pendant 8 secondes. Excellent pour le contrôle de zone.",
+                        stats: { power: "400%", cooldown: "18s", range: "10m", duration: "8s" }
+                    },
+                    { 
+                        icon: "🔥", 
+                        label: "Inferno",
+                        name: "Éruption - Inferno Éternel",
+                        description: "Les geysers persistent 12 secondes et infligent +50% de dégâts mais le cooldown est augmenté à 24s.",
+                        stats: { power: "600%", cooldown: "24s", range: "10m", duration: "12s" }
+                    }
+                ]
+            },
+            {
+                id: 10,
+                name: "Tempête de Lames",
+                icon: "⚔️",
+                level: 22,
+                dots: 3,
+                activeDots: 3,
+                description: "Conjure des dizaines de lames spectrales.",
+                stats: { power: "180%", cooldown: "14s", range: "15m", hits: "20" },
+                subSkills: [
+                    { 
+                        icon: "⚔️", 
+                        label: "Storm",
+                        name: "Tempête - Standard",
+                        description: "20 lames frappent aléatoirement dans une zone de 15m. Effet dévastateur contre les groupes.",
+                        stats: { power: "180%", cooldown: "14s", range: "15m", hits: "20" }
+                    },
+                    { 
+                        icon: "🗡️", 
+                        label: "Fury",
+                        name: "Tempête - Furie Concentrée",
+                        description: "35 lames dans une zone plus réduite (10m) pour des dégâts concentrés maximaux sur une cible.",
+                        stats: { power: "160%", cooldown: "14s", range: "10m", hits: "35" }
+                    },
+                    { 
+                        icon: "⚡", 
+                        label: "Thunder",
+                        name: "Tempête - Foudre",
+                        description: "Les lames infligent des dégâts électriques qui se propagent aux ennemis adjacents dans un rayon de 3m.",
+                        stats: { power: "200%", cooldown: "16s", range: "15m", chain: "Yes" }
+                    }
+                ]
+            },
+            {
+                id: 11,
+                name: "Nova Glaciale",
+                icon: "❄️",
+                level: 22,
+                dots: 3,
+                activeDots: 2,
+                description: "Libère une explosion de glace dévastatrice.",
+                stats: { power: "520%", cooldown: "16s", range: "12m", freeze: "3s" },
+                subSkills: [
+                    { 
+                        icon: "❄️", 
+                        label: "Frost",
+                        name: "Nova - Givre Ralentissant",
+                        description: "Ralentit les ennemis de 50% pendant 5 secondes au lieu de les geler. Cooldown réduit à 12s.",
+                        stats: { power: "450%", cooldown: "12s", range: "14m", slow: "50%" }
+                    },
+                    { 
+                        icon: "🧊", 
+                        label: "Freeze",
+                        name: "Nova - Gel Absolu",
+                        description: "Gel complet pendant 3 secondes. Les ennemis gelés prennent +30% de dégâts de toutes sources.",
+                        stats: { power: "520%", cooldown: "16s", range: "12m", vulnerability: "+30%" }
+                    },
+                    { 
+                        icon: "💎", 
+                        label: "Shatter",
+                        name: "Nova - Fracas Explosif",
+                        description: "Les ennemis gelés explosent quand ils dégèlent, infligeant 200% de dégâts de zone aux alliés proches.",
+                        stats: { power: "420%", cooldown: "16s", range: "12m", shatter: "200%" }
+                    }
+                ]
+            },
+            {
+                id: 12,
+                name: "Impulsion Cosmique",
+                icon: "🌟",
+                level: 22,
+                dots: 3,
+                activeDots: 3,
+                description: "Concentre l'énergie cosmique pour une onde de choc.",
+                stats: { power: "600%", cooldown: "22s", range: "25m", charge: "3s" },
+                subSkills: [
+                    { 
+                        icon: "🌟", 
+                        label: "Pulse",
+                        name: "Impulsion - Pulse Instantané",
+                        description: "Version instantanée sans temps de charge mais avec des dégâts réduits. Cooldown raccourci à 15s.",
+                        stats: { power: "400%", cooldown: "15s", range: "25m", charge: "0s" }
+                    },
+                    { 
+                        icon: "💫", 
+                        label: "Charge",
+                        name: "Impulsion - Charge Maximale",
+                        description: "Temps de charge de 3 secondes pour des dégâts dévastateurs de 900%. La puissance ultime.",
+                        stats: { power: "900%", cooldown: "22s", range: "25m", charge: "3s" }
+                    },
+                    { 
+                        icon: "✨", 
+                        label: "Release",
+                        name: "Impulsion - Libération Rapide",
+                        description: "Charge rapide (1.5s) avec explosion secondaire qui inflige 50% des dégâts initiaux. Bon compromis.",
+                        stats: { power: "600%", cooldown: "18s", range: "25m", echo: "50%" }
+                    }
+                ]
+            }
+        ];
+
+        function createSkillCards() {
+            const grid = document.getElementById('skillsGrid');
+            
+            skillsData.forEach(skill => {
+                const card = document.createElement('div');
+                card.className = 'skill-card';
+                card.dataset.skillId = skill.id;
+                
+                const dots = Array.from({ length: skill.dots }, (_, i) => 
+                    `<div class="dot ${i < skill.activeDots ? 'active' : ''}"></div>`
+                ).join('');
+                
+                card.innerHTML = `
+                    <div class="skill-icon">${skill.icon}</div>
+                    <div class="skill-name">${skill.name}</div>
+                    <div class="skill-level">Niv. ${skill.level}</div>
+                    <div class="skill-dots">${dots}</div>
+                    <div class="sub-skills" id="subSkills${skill.id}">
+                        ${skill.subSkills.map((sub, index) => `
+                            <div class="sub-skill" data-skill-id="${skill.id}" data-sub-index="${index}">
+                                <div class="sub-skill-icon">${sub.icon}</div>
+                                <div class="sub-skill-label">${sub.label}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                
+                card.addEventListener('click', (e) => {
+                    if (!e.target.closest('.sub-skill')) {
+                        toggleSkill(skill.id);
+                    }
+                });
+                
+                grid.appendChild(card);
+            });
+
+            document.querySelectorAll('.sub-skill').forEach(subSkill => {
+                subSkill.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const skillId = parseInt(subSkill.dataset.skillId);
+                    const subIndex = parseInt(subSkill.dataset.subIndex);
+                    
+                    // Remove selected class from all sub-skills
+                    document.querySelectorAll('.sub-skill').forEach(s => s.classList.remove('selected'));
+                    // Add selected class to clicked sub-skill
+                    subSkill.classList.add('selected');
+                    
+                    showSubSkillDescription(skillId, subIndex);
+                });
+            });
+        }
+
+        function toggleSkill(skillId) {
+            const card = document.querySelector(`[data-skill-id="${skillId}"]`);
+            const subSkills = document.getElementById(`subSkills${skillId}`);
+            const allCards = document.querySelectorAll('.skill-card');
+            const allSubSkills = document.querySelectorAll('.sub-skills');
+            
+            if (card.classList.contains('active')) {
+                card.classList.remove('active');
+                subSkills.classList.remove('show');
+                document.querySelectorAll('.sub-skill').forEach(s => s.classList.remove('selected'));
+                showEmptyState();
+            } else {
+                allCards.forEach(c => c.classList.remove('active'));
+                allSubSkills.forEach(s => s.classList.remove('show'));
+                document.querySelectorAll('.sub-skill').forEach(s => s.classList.remove('selected'));
+                
+                card.classList.add('active');
+                subSkills.classList.add('show');
+                
+                showSkillDescription(skillId);
+            }
+        }
+
+        function showSkillDescription(skillId) {
+            const skill = skillsData.find(s => s.id === skillId);
+            const descCard = document.getElementById('descriptionCard');
+            
+            descCard.innerHTML = `
+                <div class="description-header">
+                    <div class="description-icon">${skill.icon}</div>
+                    <div class="description-title">
+                        <h2>${skill.name}</h2>
+                        <div class="description-level">Niveau ${skill.level}</div>
+                    </div>
+                </div>
+                <div class="description-content">
+                    ${skill.description}
+                </div>
+                <div class="description-stats">
+                    ${Object.entries(skill.stats).map(([key, value]) => `
+                        <div class="stat-item">
+                            <div class="stat-label">${key}</div>
+                            <div class="stat-value">${value}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function showSubSkillDescription(skillId, subIndex) {
+            const skill = skillsData.find(s => s.id === skillId);
+            const subSkill = skill.subSkills[subIndex];
+            const descCard = document.getElementById('descriptionCard');
+            
+            descCard.innerHTML = `
+                <div class="description-header">
+                    <div class="description-icon">${subSkill.icon}</div>
+                    <div class="description-title">
+                        <h2>${subSkill.name}</h2>
+                        <div class="description-level">Passif - ${skill.name}</div>
+                    </div>
+                </div>
+                <div class="description-content">
+                    ${subSkill.description}
+                </div>
+                <div class="description-stats">
+                    ${Object.entries(subSkill.stats).map(([key, value]) => `
+                        <div class="stat-item">
+                            <div class="stat-label">${key}</div>
+                            <div class="stat-value">${value}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function showEmptyState() {
+            const descCard = document.getElementById('descriptionCard');
+            descCard.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">🎯</div>
+                    <div class="empty-state-text">Sélectionnez une compétence pour voir les détails</div>
+                </div>
+            `;
+        }
+
+        createSkillCards();
+    </script>
+</body>
+</html>

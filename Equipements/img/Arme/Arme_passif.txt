@@ -1,0 +1,2 @@
+[Effet de la panoplie 2] :<br>Augmente l'Attaque de l'utilisateur de 5%.
+<br>[Effet de la panoplie 4] :<br>En attaquant, l'utilisateur ignore 18% de la Défense de la cible.

@@ -1,0 +1,23 @@
+Niv. 2
+Dégâts de compétence de base de la classe Attaquante augmentés
+Les dégâts de la compétence de base des chasseurs de la classe Attaquante augmentent de 8 % lorsque [Puissance rémanente : Yogmund] est dans la formation.
+
+Niv. 2
+Réduction de la consommation de PM de la classe Attaquant augmentée
+La Réduction de la consommation de PM des chasseurs de la classe Attaquante augmente de 250 lorsque [Puissance rémanente : Yogmund] est dans la formation.
+
+Niv. 2
+Précision de la classe Attaquant augmentée
+La Précision des chasseurs de la classe Attaquante augmente de 2000 lorsque [Puissance rémanente : Yogmund] est dans la formation.
+
+Niv. 2
+PV de la classe Attaquant augmentés
+Les PV des chasseurs de la classe Attaquante augmentent de 1500 lorsque [Puissance rémanente : Yogmund] est dans la formation.
+
+Niv. 2
+Attaque de la classe Attaquant augmentée
+L'Attaque des chasseurs de la classe Attaquante augmente de 1500 lorsque [Puissance rémanente : Yogmund] est dans la formation.
+
+Niv. 2
+Défense de la classe Attaquant augmentée
+La Défense des chasseurs de la classe Attaquante augmente de 1500 lorsque [Puissance rémanente : Yogmund] est dans la formation.

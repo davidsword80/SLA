@@ -1,0 +1,12 @@
+0 étoile :<br>
+Augmente l'Attaque de l'utilisateur de 4%.
+Augmente les Dégâts de coup critique de l'utilisateur de 4%.
+
+
+5 étoiles :<br>
+Augmente l'Attaque de l'utilisateur de 10%.
+Augmente les Dégâts de coup critique de l'utilisateur de 15%.
+
+
+10 étoiles :<br>
+Augmente l'Attaque, la Défense et les PV de l'utilisateur de 10%.

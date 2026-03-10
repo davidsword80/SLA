@@ -1,0 +1,5 @@
+Rang 5 :
+Rang 4 : 3%
+Rang 3 : 2.25%
+Rang 2 : 1.75%
+Rang 1 :

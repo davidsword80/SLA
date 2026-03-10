@@ -1,0 +1,50 @@
+Passif
+L'utilisation de la compétence [Apocalypse] active [Rechargement rotatif].
+
+[Rechargement rotatif]
+Active l'attaque de noyau de l'utilisateur.
+Transforme l'attaque de noyau de Winchester Roke en Condamnation et augmente ses dégâts de 20 %.
+L'effet [Rechargement rotatif] ne peut être appliqué qu'avec un maximum de 2 utilisations de Condamnation.
+Durée : 4 seconde(s)
+
+Évolution
+1 étoile :
+Augmente les dégâts de la compétence [Apocalypse] de l'utilisateur de 100 % face aux cibles se trouvant à une portée de 5 m.
+Améliore l'effet [Rechargement rotatif].
+
+[Rechargement rotatif]
+Active l'attaque de noyau de l'utilisateur.
+Transforme l'attaque de noyau de Winchester Roke en Condamnation et augmente ses dégâts de 40 %.
+L'effet [Rechargement rotatif] ne peut être appliqué qu'avec un maximum de 3 utilisations de Condamnation.
+Durée : 5 seconde(s)
+
+2 étoiles :
+Les dégâts de ténèbres infligés par l'utilisateur augmentent de 10 %.
+
+3 étoiles :
+L'utilisation de la compétence [Apocalypse] active [Prêt ou non].
+
+[Prêt ou non]
+Augmente les dégâts de ténèbres de la compétence Condamnation de 15 %.
+Augmente les Dégâts de coup critique de la compétence Condamnation de 30 %.
+Confère à l'utilisateur [Super armure].
+Durée : 6 seconde(s)
+
+4 étoiles :
+Le temps de rechargement de la compétence [Apocalypse] diminue de 20 %.
+
+5 étoiles :
+Les compétences [Rechargement rotatif et Prêt ou non] sont améliorées.
+
+[Rechargement rotatif]
+Active l'attaque de noyau de l'utilisateur.
+Transforme l'attaque de noyau de Winchester Roke en Condamnation, et ses dégâts augmentent de 80 %.
+Augmente les dégâts de Surcharge de Condamnation de 70 %.
+L'effet [Rechargement rotatif] ne peut être appliqué qu'avec un maximum de 4 utilisations de Condamnation.
+Durée : 6 seconde(s)
+
+[Prêt ou non]
+Augmente les dégâts de ténèbres de Condamnation de 30 %.
+Augmente les Dégâts de coup critique de la compétence Condamnation de 60 %.
+Confère à l'utilisateur [Super armure].
+Durée : 6 seconde(s)

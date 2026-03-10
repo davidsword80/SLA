@@ -1,0 +1,5 @@
+0 étoile :<br>Réduit les dégâts infligés par les boss de 4.5%.
+
+5 étoiles :<br>Réduit les dégâts infligés par les boss de 12%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 10%.

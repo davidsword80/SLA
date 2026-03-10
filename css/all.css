@@ -1,0 +1,316 @@
+/* =========================================
+   1. STYLES GLOBAUX (Base du site)
+   ========================================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+header {
+    background-color: #343a40;
+    color: red;
+    padding: 4rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #343a40;
+    color: red;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* --- Éléments de recherche et filtres --- */
+#search {
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem 0;
+    margin-left: 22rem; /* Selon ton style d'origine */
+    box-sizing: border-box;
+}
+
+#filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.filter-btn {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.filter-btn:hover { background-color: red; }
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.item img {
+    width: 100%;
+    border-bottom: 1px solid red;
+    margin-bottom: 1rem;
+}
+
+/* Titres globaux en rouge (surchargés dans la carte SLA) */
+h4 { color: red; } 
+
+
+/* =========================================
+   2. STYLE SPÉCIFIQUE CARTE PERSONNAGE (SLA Dark)
+   ========================================= */
+
+/* Carte Principale (sla-card) */
+.sla-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #101010; /* Fond sombre */
+    color: #fff; /* Texte blanc */
+    border: 2px solid #444;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Remet le texte à gauche dans la carte */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* En-tête de la carte */
+.card-header-bar {
+    background: linear-gradient(90deg, #2c3e50, #000);
+    padding: 10px 20px;
+    border-bottom: 2px solid #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.card-rarity {
+    color: #f1c40f;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 0 0 5px #f39c12;
+}
+
+/* Corps de la carte */
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 25px;
+}
+
+/* Image */
+.card-visual {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-visual img {
+    width: 100%;
+    border: 3px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+/* Infos */
+.card-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Conteneur Étoiles */
+.stars-container {
+    background-color: #222;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #444;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.stars-label {
+    font-weight: bold;
+    color: #bbb;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.stars {
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    line-height: 1;
+    display: flex;
+}
+.star {
+    color: #444;
+    transition: transform 0.1s, color 0.2s;
+    margin-right: 3px;
+}
+.star.filled {
+    color: #f1c40f;
+    text-shadow: 0 0 8px rgba(243, 156, 18, 0.6);
+}
+.star:hover { transform: scale(1.2); }
+
+/* Boite de Compétence */
+.skill-box {
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+    border-top: 2px solid #f39c12;
+    min-height: 350px;
+}
+
+.skill-header {
+    background-color: #2c2c2c;
+    padding: 8px 15px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-title {
+    font-weight: bold;
+    color: #f39c12;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/* Bouton Système (system-btn) */
+.system-btn {
+    background-color: #444;
+    color: #ccc;
+    border: 1px solid #666;
+    padding: 3px 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.system-btn:hover {
+    background-color: #555;
+    color: #fff;
+    border-color: #f39c12;
+}
+.system-btn.active {
+    background-color: #f39c12;
+    color: #000;
+    border-color: #f39c12;
+}
+
+/* Contenu du texte */
+.skill-content {
+    padding: 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.skill-content h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+    color: #f1c40f;
+    font-size: 1.1rem;
+}
+
+/* Buffs et Couleurs */
+.buff { font-weight: bold; padding: 0 2px; }
+.buff.pourpre { color: #d48df0; } 
+.buff.ecarlate { color: #ff6b6b; } 
+.buff.feu { color: #ff9f43; }      
+.buff.instinct { color: #54a0ff; }
+.buff.sixieme { color: #feca57; }
+.stat-boost { color: #2ecc71; font-weight: bold; }
+
+/* Détails (Boites colorées) */
+.detail-box {
+    background-color: #252525;
+    margin-top: 15px;
+    border: 1px solid #3a3a3a;
+    padding: 12px;
+    border-left: 3px solid #777;
+}
+.detail-box:nth-of-type(1) { border-left-color: #d48df0; }
+.detail-box:nth-of-type(2) { border-left-color: #ff6b6b; }
+.detail-box:nth-of-type(3) { border-left-color: #ff9f43; }
+
+/* Override du h4 rouge global pour le mettre en blanc dans la carte */
+.sla-card h4 {
+    color: #fff; 
+    margin: 0 0 5px 0;
+    font-size: 1em;
+}
+
+.detail-box p { margin: 0; font-size: 0.9em; color: #ccc;}
+.detail-box small { display: block; margin-top: 8px; color: #777; font-size: 0.8em; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-body { flex-direction: column; }
+    .card-visual { flex: auto; width: 100%; }
+}

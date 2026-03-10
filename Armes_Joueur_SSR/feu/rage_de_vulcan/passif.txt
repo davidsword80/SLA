@@ -1,0 +1,21 @@
+Passif :<br>Lors de l'utilisation de Feu destructeur, l'effet [Bénédiction de Vulcan] s'applique.<br>[Bénédiction de Vulcan]<br>Cet effet crée un [Bouclier] équivalent à 10% de l'Attaque de l'utilisateur et applique l'effet [Concentration] à chaque Attaque de base et de noyau que subit l'ennemi.<br>Durée: 10 seconde(s)<br>[Concentration]<br>Si l'effet expire ou est dissipé, [Bénédiction de Vulcan] explose et inflige des dégâts équivalents à 400% de l'Attaque de l'utilisateur (cumulable jusqu'à 20 fois).<br>L'explosion inflige 20% de dégâts supplémentaires par cumul de [Concentration].<br>En explosant, [Bénédiction de Vulcan] supprime toutes les instances de l'effet [Concentration].<br>À 20 cumuls de l'effet [Concentration], [Bénédiction de Vulcan] explose instantanément et recrée un [Bouclier] équivalent à 10% de l'Attaque de l'utilisateur.<br>Durée: illimitée
+
+1 étoile :<br>Lorsque l'effet [Bénédiction de Vulcan] provoque l'explosion, il applique l'effet [Rage]. <br>[Rage]<br>Augmente l'Attaque de l'utilisateur de 12%. <br>Augmente la Vitesse d'attaque de 6%.<br>Durée: 15 seconde(s)
+
+2 étoiles :<br>Vos dégâts de feu augmentent de 10%.
+
+3 étoiles :<br>Améliore l'effet [Rage].<br>[Rage]<br>S'applique même lors de l'utilisation de Feu destructeur.<br>Augmente l'Attaque de l'utilisateur de 20%.<br>Augmente la Vitesse d'attaque de 10%.<br>Durée: 15 seconde(s)
+
+4 étoiles :<br>Le temps de rechargement de Feu destructeur diminue de 20%.
+
+5 étoiles :<br>Pendant que l'effet [Bouclier] est actif, les dégâts de la compétence Feu destructeur augmentent de 50%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

@@ -1,0 +1,23 @@
+passif :
+L'Attaque de l'utilisatrice augmente de 5 %.
+Lorsque les compétences Tempo double ou
+Rythme intense touchent leur cible, les dégats de
+Catharsis en harmonie augmentent de 5%
+(cumulable jusqu'a 10 fois).
+Lorsque Catharsis en harmonie s'estompe, tous
+les cumuls de L'effet sont supprimés.
+Durée: 30 seconde(s)
+
+passif 5 star :
+L'Attaque de l'utilisatrice augmente de 12 %.
+Lorsque les compétences Tempo double ou
+Rythme intense touchent leur cible, les dégats de
+Catharsis en harmonie augmentent de 30 %
+(cumulable jusqu'a 10 fois).
+Lorsque Catharsis en harmonie s'estompe, tous
+les cumuls de I'effet sont supprimés.
+Durée: 30 seconde(s)
+
+passif 10 star :
+Augmente L'attaque, la Défense et les PV de
+L'utilisatrice de 15 %.

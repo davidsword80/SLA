@@ -1,0 +1,4 @@
+Passif :<br>
+Lorsqu'un puissant éclair s'abat sur vous, vous disparaissez et récupérez aussi vite.
+Lorsque vous subissez des dégâts équivalents à au moins 5% de vos PV max, vous vous camouflez pendant 3 seconde(s) et récupérez 3% de PV toutes les 1 seconde(s).
+(Temps de rechargement: 30 seconde(s))

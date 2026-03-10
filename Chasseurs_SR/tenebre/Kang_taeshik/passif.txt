@@ -1,0 +1,21 @@
+Passif :<br>Lorsque les compétences Lancer de dague, Recherche ou Assaut touchent leurs cibles, elles leur appliquent l'effet [Hémorragie].<br>[Hémorragie]<br>L'utilisateur inflige des dégâts équivalents à 0.6% des PV actuels de la cible toutes les 3 seconde(s).<br>Durée: 30 seconde(s)
+
+1 étoile :<br>Augmente l'Attaque face aux cibles affectées par [Hémorragie].<br>[Attaque augmentée]<br>Augmente l'Attaque de l'utilisateur de 15%.<br>Durée: 10 seconde(s)
+
+2 étoiles :<br>Augmente l'Attaque de l'utilisateur de 5%.
+
+3 étoiles :<br>Lorsque la compétence Recherche touche une cible affectée par [Hémorragie], elle lui applique l'effet Augmentation des dégâts subis.<br>[Dégâts subis augmentés]<br>Les dégâts subis par la cible augmentent de 15%.<br>Durée: 10 seconde(s)
+
+4 étoiles :<br>Le temps de rechargement des compétences de Taeshik diminue de 10%.
+
+5 étoiles :<br>Lorsque Taeshik utilise Camouflage face à une cible affectée par [Hémorragie), les dégâts augmentent de 100%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de *l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

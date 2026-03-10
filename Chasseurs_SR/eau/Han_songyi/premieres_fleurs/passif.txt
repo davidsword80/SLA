@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente les dégâts d'eau infligés par l'utilisatrice de 2.5%.<br>Lorsque l'utilisatrice place une arme d'ombre, à l'exception de celles placées à l'aide de Récupération, l'effet [Assassinat prêt] s'active.<br>Lorsque l'effet [Assassinat prêt] s'active, les dégâts de Récupération augmentent à hauteur de 10% par cumul pendant 15 seconde(s) (cumulable jusqu'à 3 fois).
+
+5 étoiles :<br>Augmente les dégâts d'eau infligés par l'utilisatrice de 10%.<br>Lorsque l'utilisatrice place une arme d'ombre, à l'exception de celles placées à l'aide de Récupération, l'effet [Assassinat prêt] s'active.<br>Lorsque l'effet [Assassinat prêt] s'active, les dégâts de Récupération augmentent à hauteur de 20% par cumul pendant 15 seconde(s) (cumulable jusqu'à 3 fois).
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15%.

@@ -1,0 +1,29 @@
+Passif : Tout l'équipe reçoit l'effet [FOREVER] en arrivant dans les modes Mission Rappel et Donjon éphémère. L'utilisation de la compétence Iris réduit le temps de rechargement de la compétence Edelweiss de 25 seconde(s) et remplit la jauge de puissance de l'utilisatrice de 100 % (temps de rechargement : 20 seconde(s)). Lorsque la compétence Iris touche sa cible, elle applique l'effet [Lis araignée rouge]. L'utilisation de la compétence Edelweiss active l'effet [Papillon mauve] et confère 3 [Pétales fanés]. Lorsque l'utilisatrice [quitte le combat], l'effet [Papillon mauve] est supprimé.
+
+[FOREVER] Augmente les dégâts infligés de 5 %. Durée : illimitée (cumulable jusqu'à 3 fois)
+
+[Lis araignée rouge] Augmente les dégâts de ténèbres infligés par MINNIE de 30 %. Durée : 20 seconde(s)
+
+[Papillon mauve] Active l'attaque de noyau 1 fois. Lorsque les compétences Iris, Acacia ou Allium touchent leur cible, elles infligent des dégâts supplémentaires équivalents à 50 % des dégâts de base. L'utilisation des compétences Iris, Acacia ou Allium supprime 1 cumul de [Pétales fanés]. Confère [Super armure] lors de l'utilisation des compétences Iris, Acacia ou Allium. Lorsque l'effet est supprimé, les effets [Papillon mauve, Pétales fanés, Floraison et Floraison totale] sont supprimés. Durée : 20 seconde(s)
+
+[Pétales fanés] Lorsque les effets sont supprimés, les temps de rechargement des compétences Acacia et Allium sont réinitialisés. Durée : illimitée (cumulable jusqu'à 5 fois)
+
+1 étoile : Lorsque l'utilisatrice rejoint le niveau, sa jauge de puissance se remplit de 100 % de sa charge maximale. L'effet [Pétales fanés] est amélioré.
+
+[Pétales fanés] Lorsque cet effet est supprimé, il réinitialise le temps de rechargement des compétences Acacia et Allium. Lorsque cet effet est supprimé, il active l'effet [Message des fleurs : Fragment de souvenirs]. Durée : illimitée (cumulable jusqu'à 5 fois)
+
+[Message des fleurs : Fragment de souvenirs] Augmente la Défense de 10 %. Augmente les Dégâts de coup critique de 10 %. Durée : 20 seconde(s) (cumulable jusqu'à 3 fois)
+
+2 étoiles : La Défense de l'utilisatrice augmente de 15 %.
+
+3 étoiles : L'effet [Lis araignée rouge] est amélioré. L'utilisation de la compétence Acacia active l'effet [Taux de coup critique augmenté], que l'utilisatrice réussisse ou non une Contre-attaque.
+
+[Lis araignée rouge] Augmente les dégâts de ténèbres infligés par MINNIE de 50 %. Durée : 20 seconde(s)
+
+[Taux de coup critique augmenté] Augmente le taux de coup critique de 30 %. Durée : 20 seconde(s)
+
+4 étoiles : Les dégâts de compétence de base de l'utilisatrice augmentent de 20 %.
+
+5 étoiles : L'utilisation de la compétence Edelweiss confère désormais 5 [Pétales fanés]. L'effet [Message des fleurs : Fragment de souvenirs] est amélioré.
+
+[Message des fleurs : Fragment de souvenirs] Augmente la Défense de 20 %. Augmente les Dégâts de coup critique de 20 %. Durée : 20 seconde(s) (cumulable jusqu'à 3 fois)

@@ -1,0 +1,5 @@
+0 étoile :<br>Lorsque vous utilisez la compétence QTE, votre jauge de puissance se charge de 4.5%.
+
+5 étoiles :<br>Lors de l'utilisation d'une compétence QTE, la jauge de puissance se charge de 12%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 10%.

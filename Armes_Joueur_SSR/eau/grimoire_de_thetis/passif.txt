@@ -1,0 +1,21 @@
+Passif :<br>Lorsque la compétence Jet d'eau touche sa cible, elle a 100% de chances de lui appliquer l'effet [Glace gelée].<br>Glace gelée]<br>Applique l'effet [Gel] à la cible et l'interrompt.<br>Lorsque cet effet expire, il inflige des dégâts supplémentaires équivalents à 10% des dégâts subis pendant la durée de l'effet.<br>Durée: 4 seconde(s)
+
+1 étoile :<br>L'effet [Erosion profonde] s'applique également aux cibles affectées par l'effet [Glace gelée].<br>[Érosion profonde]<br>Augmente les dégâts de Faiblesse élémentaire subis par l'ennemi de 24%. <br>Durée: 15 seconde(s)
+
+2 étoiles :<br>Vos dégâts d'eau augmentent de 10%.
+
+3 étoiles :<br>Lorsque l'effet [Glace gelée] expire, les dégâts supplémentaires de l'utilisateur passent à 20%.
+
+4 étoiles :<br>Le temps de rechargement de Jet d'eau diminue de 20%.
+
+5 étoiles :<br>Les dégâts infligés aux cibles affectées par [Gel] augmentent de 50%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

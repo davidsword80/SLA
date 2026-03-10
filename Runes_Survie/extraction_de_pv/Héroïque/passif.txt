@@ -1,0 +1,4 @@
+Passif :<br>
+La capacité Monarque des ombres permet d'utiliser des capacités d'extraction de PV des ennemis.
+Vous récupérez 1.2% de vos PV en vainquant un ennemi.
+Vous récupérez 3% de vos PV en frappant des monstres d'Élite ou supérieurs (temps de rechargement: 30 seconde(s)).

@@ -1,0 +1,25 @@
+Passif : La Précision augmente de 0.5 % par tranche de 20 point(s) d'Intelligence de Sung Jinwoo (jusqu'à 5 %). L'utilisation de Tempête de dominion confère un Bouclier et active l'effet Marée roulante. Lorsque la compétence Tempête de dominion touche sa cible, elle lui applique l'effet Maelstrom.
+
+Bouclier : Confère un Bouclier équivalent à 10 des PV max. Durée : 10 seconde(s).
+
+Marée roulante : Augmente les dégâts infligés de 10 %. Augmente les dégâts d'eau de 10 %. Durée : 20 seconde(s).
+
+Maelstrom : Augmente les dégâts d'eau subis de 8 %. Durée : 20 seconde(s).
+
+1 étoile : Les dégâts d'eau augmentent de 1 % par tranche de 10 point(s) d'Intelligence de Sung Jinwoo (jusqu'à 20 %). Si la stat Intelligence de Sung Jinwoo est à 200 ou plus, l'effet Dérive lunaire s'active.
+
+Dérive lunaire : Si les PM de l'utilisateur sont à 41 % ou plus, les dégâts d'eau augmentent de 20 %. Si les PM de l'utilisateur sont à 41 % ou plus, les dégâts des compétences d'arme de l'élément Eau augmentent de 30 %. Durée : illimitée.
+
+2 étoiles : Les dégâts d'eau de l'utilisateur augmentent de 10 %.
+
+3 étoiles : Améliore l'effet Marée roulante. Améliore l'effet Maelstrom.
+
+Marée roulante (Amélioré) : Augmente les dégâts infligés de 20 %. Augmente les dégâts d'eau de 20 %. Lorsqu'une compétence d'arme de l'élément Eau touche sa cible, elle lui applique l'effet Maelstrom. Durée : 20 seconde(s).
+
+Maelstrom (Amélioré) : Augmente les dégâts d'eau subis de 8 %. Durée : 20 seconde(s) (cumulable jusqu'à 4 fois).
+
+4 étoiles : Diminue le temps de rechargement de Tempête de dominion de 20 %.
+
+5 étoiles : Transforme Dérive lunaire en Marée montante. Lorsque les armes équipées par l'utilisateur sont des armes de l'élément Eau, son Taux de coup critique augmente de 10 %.
+
+Marée montante : Augmente les dégâts d'eau de l'utilisateur de 15 %. Augmente les dégâts des compétences d'arme de l'élément Eau de 60 %. Durée : illimitée.

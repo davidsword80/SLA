@@ -1,0 +1,21 @@
+Passif :<br>Lorsque l'utilisateur applique Éclatement, les effets [Insufflation de points de mana] ou [Récupération de points de mana] s'appliquent selon la quantité de PM restante.<br>[Insufflation de points de mana]<br>Si les PM de l'utilisateur sont de 51% ou plus, l'effet est activé.<br>Lorsque l'utilisateur applique Éclatement, ses dégâts de compétence augmentent de 30%, mais 10% de ses PM max sont consommés.<br>[Récupération de points de mana]<br>Si les PM de l'utilisateur sont de 50% ou moins, l'effet est activé.<br>L'utilisateur récupère 5% de ses PM pour chaque cible touchée par Éclatement.
+
+1 étoile :<br>Lors de l'utilisation de la compétence Éclatement, l'effet Éclatement s'active à nouveau à l'emplacement de la première explosion.
+
+2 étoiles :<br>Augmente les dégâts de feu de 8%.
+
+3 étoiles :<br>Lorsque les PM de l'utilisateur sont supérieurs à 51%, son Attaque augmente à hauteur de 60% de ses PM.
+
+4 étoiles :<br>Réduit le temps de rechargement d'Éclatement de 15%.
+
+5 étoiles :<br>Augmente les PM max de 400.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

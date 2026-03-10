@@ -1,0 +1,3 @@
+Passif :<br>
+<<< Je refuse de mourir dans un endroit pareil ! >>>
+Quand vous entrez dans un niveau, vous gagnez un [Bouclier] équivalent à 10% de vos PV max pendant 60 seconde(s).

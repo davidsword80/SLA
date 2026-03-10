@@ -1,0 +1,60 @@
+Passif :<br>
+Lorsque l'utilisateur a équipé la Pierre de bénédiction [Titre: Massacreur de lycans], l'effet [Isolation] s'active.
+Si la jauge de puissance de l'utilisateur est à 30% ou plus lors de l'utilisation d'Ombre du loup, Ombre du loup devient Sillage du loup pendant 3 seconde(s).
+
+[Sillage du loup]
+Dégâts: identiques à ceux d'Ombre du loup
+Consommation de la jauge de puissance: 30%
+Lorsqu'elle utilise cette compétence, l'utilisatrice gagne [Super armure].
+L'utilisateur assène un puissant coup de faux qui renvoie des loups fantomatiques sur le champ de bataille.
+
+[Isolement]
+Augmente les dégâts infligés de 30%.
+Augmente les dégâts de coup critique de 30%.
+Durée: illimitée
+
+
+1 étoile :<br>
+Lors de l'utilisation de Sillage du loup, la compétence Sillage du loup devient Nuit du loup blanc pendant 3 seconde(s).
+Lors de l'utilisation d'une compétence de l'élément Eau, la jauge de puissance de l'utilisateur se remplit de 10% (temps de rechargement: 1 seconde(s)).
+Lorsque les compétences Ombre du loup ou Sillage du loup touchent leur cible, l'effet [Marquage d'argent] est appliqué à la cible (temps de rechargement: 0.5 seconde(s)).
+Lorsque l'utilisateur est touché dans les airs pendant l'utilisation de Nuit du loup blanc, Évasion extrême s'active.
+Nuit du loup blanc
+Dégâts: identiques à ceux d'Ombre du loup L'utilisateur apparaît pour frapper l'ennemi en un éclair.
+
+[Marquage d'argent]
+Augmente les dégâts de Nuit du loup blanc de 55%.
+Lorsqu'elle utilise cette compétence, l'utilisatrice gagne [Super armure].
+Durée: 3 seconde(s)
+
+
+2 étoiles :<br>
+Les dégâts d'eau de l'utilisateur augmentent de 10%.
+
+
+3 étoiles :<br>
+Lorsque l'utilisateur rejoint le niveau, sa jauge de puissance se remplit de 50%.
+L'utilisation des compétences Ombre du loup ou Sillage du loup active l'effet [Crépuscule].
+
+[Crépuscule]
+Augmente le Taux de coup critique d'Ombre du loup, de Sillage du loup et de Nuit du loup blanc de 15%.
+Augmente les Dégâts de coup critique d'Ombre du loup, de Sillage du loup et de Nuit du loup blanc de 40%.
+Durée: 3 seconde(s)
+
+
+4 étoiles :<br>
+Le temps de rechargement de la compétence Ombre du loup diminue de 20%.
+
+
+5 étoiles: <br>
+Les effets [Crépuscule et Marquage d'argent] sont améliorés.
+
+[Crépuscule]
+Augmente le Taux de coup critique d'Ombre du loup, de Sillage du loup et de Nuit du loup blanc de 25%.
+Augmente les Dégâts de coup critique d'Ombre du loup, de Sillage du loup et de Nuit du loup blanc de 80%.
+Augmente les dégâts élémentaires d'eau d'Ombre du loup, de Sillage du loup et de Nuit du loup blanc de 80%.
+Durée: 3 seconde(s)
+
+[Marquage d'argent]
+Augmente les dégâts de Nuit du loup blanc de 55%.
+Durée: 3 seconde(s) (cumulable jusqu'à 2 fois)
