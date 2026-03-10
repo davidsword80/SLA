@@ -1,3 +1,0 @@
-Rang : Commun<br>Les PM de toute l'équipe augmentent de 6 %. La consommation de mana des compétences de toute l'équipe diminue de 5 %.
-
-Rang : Général<br>Les PM de toute l'équipe augmentent de 12 %. La consommation de mana des compétences de toute l'équipe diminue de 5 %.

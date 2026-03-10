@@ -1,9 +1,0 @@
-Concentration de puissance de feu
-
-[Effet de la panoplie 2]
-
-La consommation de PM des compétences de l'utilisateur augmente de 20%, mais les dégâts infligés par l'utilisateur augmentent de 5% et le temps de rechargement des compétences de base de l'utilisateur diminue de 5%.
-
-[Effet de la panoplie 4]
-
-Fait passer l'effet de contournement de la Défense à 18% et l'effet de Diminution du temps de rechargement des compétences de base à 18%.

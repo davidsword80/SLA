@@ -1,3 +1,0 @@
-Rang : Commun<br>Augmente l'Attaque de toute l'équipe de 3 % et les Probabilités d'acquisition de bouclier de 5 %.
-
-Rang : Général<br>Augmente l'Attaque de toute l'équipe de 5 % et les Probabilités d'acquisition de bouclier de 13 %.

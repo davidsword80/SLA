@@ -1,3 +1,0 @@
-Rang : Commun<br>L'attaque et les dégâts de coup critique de toute l'équipe augmentent de 3%
-
-Rang : Général<br>L'attaque et les dégâts de coup critique de toute l'équipe augmentent de 5%

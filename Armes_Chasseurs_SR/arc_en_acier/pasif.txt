@@ -1,5 +1,0 @@
-0 étoile :<br>Les dégâts de coup critique de l'utilisatrice augmentent de 9%.
-
-5 étoiles :<br>Augmente les dégâts de coup critique de l'utilisateur de 24%.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 10%.

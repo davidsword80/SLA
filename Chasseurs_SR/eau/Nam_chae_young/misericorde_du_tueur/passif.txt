@@ -1,5 +1,0 @@
-0 étoile :<br>S'il n'y a aucun ennemi dans un rayon de 5 m, les dégâts de l'utilisatrice augmentent de 2.5%.<br>Lorsque Nam Chae-Young attaque une cible affectée par [Gel], la Défense de la cible diminue de 5% pendant 5 seconde(s).
-
-5 étoiles :<br>S'il n'y a aucun ennemi dans un rayon de 5 m, les dégâts de l'utilisatrice augmentent de 10%.<br>Lorsque Nam Chae-Young attaque une cible affectée par [Gel], la Défense de la cible diminue de 20 % pendant 5 seconde(s).
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

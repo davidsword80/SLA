@@ -1,9 +1,0 @@
-Exécuteur
-
-[Effet de la panoplie 2]
-
-Lorsque les PV sont à 40% ou en dessous en attaquant des ennemis, les dégâts infligés par l'utilisateur augmentent de 30%.
-
-[Effet de la panoplie 4]
-
-La condition concernant les PV est passée à 70% et l'effet d'augmentation des dégâts passe à 60%.

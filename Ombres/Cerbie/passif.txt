@@ -1,3 +1,0 @@
-Rang : Commun<br>Le Taux de coup critique de tous les membres de l'équipe augmente de 4%.
-
-Rang : Général<br>Le Taux de coup critique de tous les membres de l'équipe augmente de 8%.

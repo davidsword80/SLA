@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les PV de l'utilisateur de 2.5%.<br>Lorsque l'utilisateur lance Bénédiction céleste, les dégâts infligés par l'utilisateur et les membres de l'équipe augmentent de 4% pendant 16 seconde(s)
-
-5 étoiles :<br>Augmente les PV de l'utilisateur de 10%.<br>Lorsque l'utilisateur lance Bénédiction céleste, les dégâts infligés par l'utilisateur et les membres de l'équipe augmentent de 16% pendant 16 seconde(s)
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

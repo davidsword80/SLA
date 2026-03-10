@@ -1,1 +1,0 @@
-Passif :<br>Si vos PV sont à 1 ou moins, vous bénéficiez de l'effet [Immortel] pendant 4 seconde(s). <br>Lorsque l'effet [Immortel] se dissipe, vous récupérez 2000 de vos PV, ainsi que 16% de vos PV max.<br>Cet effet ne s'activera qu'une fois au combat.

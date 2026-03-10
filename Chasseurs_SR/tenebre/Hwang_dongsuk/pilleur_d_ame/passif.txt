@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les PV de l'utilisateur de 2%.<br>Lorsque l'utilisateur arrive dans un niveau, sa jauge de puissance se remplit de 25%.<br>Lorsqu'Attaque redoutable touche sa cible, les dégâts de ténèbres subis par la cible augmentent de 1% pendant 15 seconde(s) (cumulable jusqu'à 2 fois).
-
-5 étoiles :<br>Augmente les PV de l'utilisateur de 8 %.<br>Lorsque l'utilisateur arrive dans un niveau, sa jauge de puissance se remplit de 100%.<br>Lorsqu'Attaque redoutable touche sa cible, les dégâts de ténèbres subis par la cible augmentent de 6 % pendant 15 seconde(s) (cumulable jusqu'à 2 fois).
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

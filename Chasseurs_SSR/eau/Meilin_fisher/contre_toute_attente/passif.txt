@@ -1,5 +1,0 @@
-0 étoile :<br>Lors de l'utilisation de la compétence Fouet latéral, les dégâts du membre de l'équipe ayant l'Attaque la plus élevée augmentent de 1% tous les 2000 de PV max de Meilin Fisher pendant 12 seconde(s) (avec un taux d'augmentation maximal des dégâts de 6 %).<br>Réduit le temps de rechargement de la Compétence ultime de 5%.
-
-5 étoiles :<br>Lors de l'utilisation de la compétence Fouet latéral, les dégâts du membre de l'équipe ayant l'Attaque la plus élevée augmentent de 1% tous les 2000 de PV max de Meilin Fisher pendant 12 seconde(s) (avec un taux d'augmentation maximal des dégâts de 16%).<br>Réduit le temps de rechargement de la Compétence ultime de 20 %.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

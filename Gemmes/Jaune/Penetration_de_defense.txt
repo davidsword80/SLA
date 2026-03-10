@@ -1,5 +1,0 @@
-Rang 5 :
-Rang 4 : 485
-Rang 3 : 345
-Rang 2 : 290
-Rang 1 :
