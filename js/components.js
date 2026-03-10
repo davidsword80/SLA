@@ -12,7 +12,7 @@ const headerHTML = `
       <li><a href="chasseurs.html">Chasseurs</a></li>
       <li><a href="armes_chasseur.html">Armes Chasseur</a></li>
       <li><a href="ombre.html">Ombre</a></li>
-      <li><a href="puissance_remanante.html">Puissance rémanante</a></li>
+      <li><a href="Puissance_remanante.html">Puissance rémanante</a></li>
       <li><a href="competence.html">Competence</a></li>
       <li><a href="actu.html">Actu</a></li>
     </ul>
