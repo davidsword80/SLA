@@ -8,8 +8,8 @@ huntersData["cho-gyuhwan"] = {
     rarity: "SR",
     element: "Lumière",
     gradient: "linear-gradient(90deg, #f1c40f, #000)", // Dégradé jaune/or pour la lumière
-    image: "Chasseurs_SR/lumiere/Cho_gyuHwan/ChoGyuHwan_Portrait_Body.png",
-    weaponImage: "Chasseurs_SR/lumiere/Cho_gyuhwan/la_belle_vie/Relic_ChoGyuHwan_PortraitBig.png",
+    image: "Chasseurs_SR/lumiere/Cho_gyu_hwan/ChoGyuHwan_Portrait_Body.png",
+    weaponImage: "Chasseurs_SR/lumiere/Cho_gyu_hwan/la_belle_vie/Relic_ChoGyuHwan_PortraitBig.png",
     weaponName: "La belle vie",
     fullData: {
         0: `
