@@ -2,6 +2,169 @@ if (typeof huntersData === 'undefined') {
     var huntersData = {}; 
 }
 
+// --- SUGIMOTO REIJI ---
+huntersData["sugimoto-reiji"] = {
+    name: "Sugimoto Reiji",
+    rarity: "SSR",
+    element: "Vent",
+    gradient: "linear-gradient(90deg, #2ecc71, #000)",
+    image: "Chasseurs_SSR/vent/Sugimoto_reiji/SugimotoReiji_Portrait_Body.png",
+    weaponImage: "Chasseurs_SSR/vent/Sugimoto_reiji/gravee_dans_la_chair/Relic_SugimotoReiji_PortraitBig.png",
+    weaponName: "Gravée dans la chair",
+    fullData: {
+        0: `
+        <div class="passif-content passif-block">
+        <h3>Passif :</h3>
+        <p>L'effet <span class="buff">[Combat à l'épée]</span> reste actif et l'état <span class="buff">[Combat à l'épée]</span> se divise en trois phases : <span class="buff">[Initiation, Accélération, Finalité]</span>.<br>
+        <span class="buff">[Initiation]</span> s'active lorsque l'utilisateur entre dans un niveau.<br>
+        L'utilisation des compétences <strong>Éclair d'acier</strong>, <strong>Retour de fil</strong> et <strong>Renvoi de fil</strong> active l'effet <span class="buff">[Dégainage éclair]</span>.<br>
+        L'utilisation de la compétence <strong>Concentration inébranlable</strong> active l'effet <span class="buff">[Danse de l'épée]</span>.<br>
+        Lorsque la compétence <strong>Vengeur</strong> touche sa cible, elle lui applique l'effet <span class="buff">[Fil de l'hiver]</span>.<br>
+        Lorsque les compétences <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> touchent leur cible, elles lui appliquent 2 cumuls de l'effet <span class="buff">[Fil de l'hiver]</span>.<br></p>
+
+        <div class="detail-box">
+            <h4><span class="buff">[Dégainage éclair]</span></h4>
+            <p>Les compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> et <strong>Lame d'extinction</strong> deviennent disponibles et suppriment 1 cumul de <span class="buff">[Dégainage éclair]</span> lors de leur utilisation.<br>
+            Durée : illimitée (cumulable jusqu'à 3 fois)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Initiation]</span></h4>
+            <p>L'utilisation de la compétence <strong>Vengeur</strong> supprime l'effet <span class="buff">[Initiation]</span> et fait passer à la phase <span class="buff">[Accélération]</span>.<br>
+            Durée : illimitée</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Accélération]</span></h4>
+            <p>Transforme <strong>Éclair d'acier</strong> en <strong>Retour de fil</strong> et augmente ses dégâts de <span class="stat-boost">50 %</span>.<br>
+            Transforme <strong>Vengeur</strong> en <strong>Entaille éclipse</strong> et augmente ses dégâts de <span class="stat-boost">50 %</span>.<br>
+            L'utilisation de <strong>Entaille éclipse</strong> supprime l'effet <span class="buff">[Accélération]</span> et fait passer à la phase <span class="buff">[Finalité]</span>.<br>
+            Durée : illimitée</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Finalité]</span></h4>
+            <p>Transforme <strong>Retour de fil</strong> en <strong>Renvoi de fil</strong> et augmente ses dégâts de <span class="stat-boost">100 %</span>.<br>
+            Transforme <strong>Entaille éclipse</strong> en <strong>Lame d'extinction</strong> et augmente ses dégâts de <span class="stat-boost">100 %</span>.<br>
+            L'utilisation de <strong>Lame d'extinction</strong> refait passer de la phase <span class="buff">[Finalité]</span> à la phase <span class="buff">[Initiation]</span>.<br>
+            Durée : illimitée</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Danse de l'épée]</span></h4>
+            <p>L'utilisation de <strong>Vivelame - Origine</strong> remplit la jauge de noyau deux fois plus vite.<br>
+            Lorsque la compétence <span class="buff">[Évasion extrême]</span> est activée, l'attaque de noyau est activée.<br>
+            Durée : 15 seconde(s)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Fil de l'hiver]</span></h4>
+            <p>Inflige des dégâts équivalents à <span class="stat-boost">50 %</span> des PV max de l'utilisateur toutes les 3 secondes.<br>
+            Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p>
+        </div>
+        </div>
+        `,
+        1: `
+        <div class="passif-content star-block">
+        <h3>1 étoile :</h3>
+        <p>L'utilisation des compétences <strong>Concentration inébranlable</strong> ou <strong>Vivelame - Oubli</strong> active l'effet <span class="buff">[Dégainage éclair]</span> ainsi que l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur.<br>
+        La consommation de l'effet <span class="buff">[Dégainage éclair]</span> réduit le temps de rechargement de <strong>Vivelame - Oubli</strong> de <span class="stat-boost">10 seconde(s)</span> et restaure <span class="stat-boost">35 %</span> de la jauge de puissance de l'utilisateur.<br></p>
+        </div>
+        `,
+        2: `
+        <div class="passif-content star-block">
+        <h3>2 étoiles :</h3>
+        <p>L'efficacité d'<span class="buff">[Accumulation élémentaire]</span> de <span class="element-vent">Vent</span> augmente de <span class="stat-boost">20 %</span>.<br></p>
+        </div>
+        `,
+        3: `
+        <div class="passif-content star-block">
+        <h3>3 étoiles :</h3>
+        <p>Lorsque Sugimoto Reiji ou un allié parvient à infliger une Surcharge de vent, l'effet <span class="buff">[Lame tempête]</span> est appliqué à Sung Jinwoo et aux membres de l'équipe de l'élément <span class="element-vent">Vent</span>.<br></p>
+        <div class="detail-box">
+            <h4><span class="buff">[Lame tempête]</span></h4>
+            <p>Augmente la Pénétration de défense de <span class="stat-boost">18 %</span>.<br>
+            Augmente les dégâts de Surcharge de vent de <span class="stat-boost">45 %</span>.<br>
+            Augmente les dégâts de compétence QTE de vent de <span class="stat-boost">100 %</span>.<br>
+            Durée : 15 seconde(s)</p>
+        </div>
+        </div>
+        `,
+        4: `
+        <div class="passif-content star-block">
+        <h3>4 étoiles :</h3>
+        <p>Les Dégâts de coup critique des membres de l'équipe de l'élément <span class="element-vent">Vent</span> augmentent de <span class="stat-boost">10 %</span> par allié de l'élément <span class="element-vent">Vent</span> présent dans l'équipe.<br></p>
+        </div>
+        `,
+        5: `
+        <div class="passif-content star-block">
+        <h3>5 étoiles :</h3>
+        <p>L'utilisation de la compétence <strong>Vivelame - Oubli</strong> active l'effet <span class="buff">[Éclair tempétueux]</span>.<br>
+        L'effet <span class="buff">[Danse de l'épée]</span> est amélioré.<br></p>
+        <div class="detail-box">
+            <h4><span class="buff">[Danse de l'épée]</span> (amélioré)</h4>
+            <p>L'utilisation de <strong>Vivelame - Origine</strong> recharge la jauge de noyau deux fois plus vite.<br>
+            Lors de l'utilisation des compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> et de l'activation d'<span class="buff">[Évasion extrême]</span>, l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur se déclenche.<br>
+            Les dégâts de l'<span class="keyword-orange">attaque de noyau</span> augmentent de <span class="stat-boost">100 %</span>.<br>
+            Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> de <span class="element-vent">Vent</span> de <span class="stat-boost">20 %</span>.<br>
+            Durée : 15 seconde(s)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Éclair tempétueux]</span></h4>
+            <p>Les dégâts des compétences <strong>Lame d'extinction</strong> et <strong>Chute de fleur</strong> augmentent de <span class="stat-boost">300 %</span>.<br>
+            Durée : 30 seconde(s)</p>
+        </div>
+        </div>
+        `
+    },
+    summaryData: {
+        0: `
+        <h3>Passif : Combat à l'épée</h3>
+        <p>3 phases : <span class="buff">[Initiation → Accélération → Finalité]</span>.<br>
+        Éclair d'acier/Retour/Renvoi de fil = <span class="buff">[Dégainage éclair]</span> (x3 max).<br>
+        Concentration inébranlable = <span class="buff">[Danse de l'épée]</span> (15s).<br>
+        Vengeur = <span class="buff">[Fil de l'hiver]</span> (x1) | Entaille éclipse/Lame extinction = (x2).<br>
+        <span class="buff">[Fil de l'hiver]</span> : <span class="stat-boost">50%</span> PV max / 3s (30s, cumulable x10).</p>
+        `,
+        1: `
+        <h3>1 étoile</h3>
+        <p>Concentration/Vivelame Oubli = <span class="buff">[Dégainage éclair]</span> + Attaque Noyau.<br>
+        Consommation <span class="buff">[Dégainage éclair]</span> : CD Vivelame Oubli <span class="stat-boost">-10s</span> + Jauge Puissance <span class="stat-boost">+35%</span>.</p>
+        `,
+        2: `
+        <h3>2 étoiles</h3>
+        <p>Accumulation élémentaire <span class="element-vent">Vent</span> <span class="stat-boost">+20%</span>.</p>
+        `,
+        3: `
+        <h3>3 étoiles</h3>
+        <p>Surcharge vent = <span class="buff">[Lame tempête]</span> sur équipe <span class="element-vent">Vent</span>.<br>
+        Pénétration Déf <span class="stat-boost">+18%</span>, Dégâts Surcharge vent <span class="stat-boost">+45%</span>, QTE vent <span class="stat-boost">+100%</span> (15s).</p>
+        `,
+        4: `
+        <h3>4 étoiles</h3>
+        <p>Dégâts Crit équipe <span class="element-vent">Vent</span> <span class="stat-boost">+10%</span> par allié <span class="element-vent">Vent</span>.</p>
+        `,
+        5: `
+        <h3>5 étoiles</h3>
+        <p>Vivelame Oubli = <span class="buff">[Éclair tempétueux]</span> : Lame extinction/Chute de fleur <span class="stat-boost">+300%</span> (30s).<br>
+        <span class="buff">[Danse de l'épée]</span> amélioré : Attaque Noyau <span class="stat-boost">+100%</span>, Accumulation Vent <span class="stat-boost">+20%</span>.</p>
+        `
+    },
+    weaponData: {
+        0: `
+        <h3>Avancement 0 :</h3>
+        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">5 %</span>.<br>
+        L'utilisation des compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> augmente les dégâts de Surcharge de toute l'équipe de <span class="stat-boost">5 %</span>.<br>
+        Durée : 30 seconde(s) (cumulable jusqu'à 3 fois)</p>
+        `,
+        1: `
+        <h3>Avancement 5 étoiles :</h3>
+        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">12 %</span>.<br>
+        L'utilisation des compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> augmente les dégâts de Surcharge de toute l'équipe de <span class="stat-boost">10 %</span>.<br>
+        Durée : 30 seconde(s) (cumulable jusqu'à 3 fois)</p>
+        `,
+        2: `
+        <h3>Avancement 10 étoiles :</h3>
+        <p>Augmente l'Attaque, la Défense et les PV de <span class="stat-boost">15 %</span>.<br></p>
+        `
+    }
+};
+
 // --- KIM SANGSHIK ---
 huntersData["kim-sangshik"] = {
     name: "Kim Sangshik",

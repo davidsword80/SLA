@@ -1,0 +1,18 @@
+passif :
+Les PV de l'utilisateur augmentent de 5 %.
+L'utilisation des compétences Vengeur, Entaille
+éclipse ou Lame d'extinction augmente les
+dégats de Surcharge de de toute L'équipe
+de 5 %.
+
+Durée: 30 seconde(s) (cumulable jusqu'a 3 fois)
+5 étoile : 
+Les PV de l'utilisateur augmentent de 12 %.
+L'utilisation des compétences Vengeur, Entaille
+eclipse ou Lame d'extinction augmente les
+dégats de Surcharge de de toute L'équipe
+de 10 %.
+Durée: 30 seconde(s) (cumulable jusqu'à 3 fois)
+
+10 étoile : 
+Augmente L'attaque, la Défense et les PV de 15 %.
