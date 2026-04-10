@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les PV de l'utilisatrice de 4%.<br> Lorsque l'effet [Écho de lumière] est activé sur les coéquipiers de type Lumière, augmente les dégâts de lumière de tous les membres de l'équipe de 2% pendant 8 seconde(s).
-
-5 étoiles :<br>Augmente les PV de l'utilisatrice de 12%.<br>Lorsque l'effet [Écho de lumière] est activé sur les coéquipiers de type Lumière, augmente les dégâts de lumière de tous les membres de l'équipe de 8% pendant 8 seconde(s).
-
-10 étoiles :<br>Augmente l'attaque, la défense et les PV de l'utilisatrice de 15%.

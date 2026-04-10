@@ -1,5 +1,0 @@
-0 étoile :<br>Lorsque l'utilisatrice entre dans un niveau, sa jauge de puissance se remplit de 10%.<br>Le Taux de coup critique et les Dégâts de coup critique des compétences Technique à l'épée de Kuroha type 3: Ailes de la nuit et Technique à l'épée de Kuroha type 4: Cri de la corneille augmentent de 5%.
-
-5 étoiles :<br>Lorsque l'utilisatrice entre dans un niveau, sa jauge de puissance se remplit de 60%.<br>Le Taux de coup critique et les Dégâts de coup critique des compétences Technique à l'épée de Kuroha type 3: Ailes de la nuit et Technique à l'épée de Kuroha type 4: Cri de la corneille augmentent de 30%.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de 15%.

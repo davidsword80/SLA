@@ -1,4 +1,0 @@
-Passif :<br>
-Vous avez obtenu le Titre : Chasseur de démons.<br>
-Augmente les PM totaux de 1200.<br>
-Vous récupérez 5 PM par seconde.

@@ -1,3 +1,0 @@
-[Effet de la panoplie 2] :<br>Augmente l'Attaque et la Défense de l'utilisateur de 4%.
-
-<br>[Effet de la panoplie 4] : <br>Lorsque les attaques de l'utilisateur touchent leur cible, l'Attaque et la Défense de ce dernier augmentent de 3% pendant 8 seconde(s) (cumulable jusqu'à 8 fois) (temps de rechargement: 0.5 seconde(s)).

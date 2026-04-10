@@ -1,1 +1,0 @@
-Passif :<br>Lorsque l'Attaque de base de l'utilisateur touche sa cible 3 fois, sa jauge de puissance se remplit de 3% (temps de rechargement : 10 secondes).<br>La condition d'activation sera déterminée lors de l'obtention d'un noyau.

@@ -1,3 +1,0 @@
-Passif :<br>
-L'usage récurrent de dagues vous a permis de les manier plus efficacement.
-Lorsque vous attaquez un ennemi dont les PV sont à 70% ou moins, les dégâts infligés augmentent de 5.6%.

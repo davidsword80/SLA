@@ -1,5 +1,0 @@
-0 étoile :<br>Les dégâts de faiblesse élémentaire augmentent de 4.5%.
-
-5 étoiles :<br>Augmente de 12% les dégâts infligés par l'utilisateur aux ennemis dotés d'une faiblesse élémentaire.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 10%.

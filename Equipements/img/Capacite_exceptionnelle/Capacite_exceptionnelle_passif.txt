@@ -1,9 +1,0 @@
-Capacité exceptionnelle
-
-[Effet de la panoplie 2]
-
-Lorsque les PM de l'utilisateur sont à 70% ou au-dessus, les dégâts infligés augmentent de 30%.
-
-[Effet de la panoplie 4]
-
-L'effet d'augmentation des dégâts infligés s'élève à 60% et il se déclenche dès que les PM de l'utilisateur sont à 40% ou au-dessus.

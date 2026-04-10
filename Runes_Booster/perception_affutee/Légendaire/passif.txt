@@ -1,3 +1,0 @@
-Passif :<br>
-L'intuition que vous avez développée en tant que chasseur de rang inférieur vous permet de trouver les points faibles de votre adversaire.<br>
-Votre Taux de coup critique augmente de 3% pendant 8 seconde(s) lorsque vos attaques touchent vos cibles (cumulable 6 fois).

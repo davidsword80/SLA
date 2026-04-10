@@ -1,4 +1,0 @@
-Passif :<br>
-Les difficultés d'aujourd'hui ne sont que des étapes vers les succès de demain.
-L'Attaque de Jinwoo diminue de 10% pendant 180 seconde(s).
-Ensuite, son Attaque augmente de 40% pendant 120 seconde(s).

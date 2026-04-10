@@ -1,5 +1,0 @@
-0 étoile :<br>Les dégâts de l'Attaque de noyau de l'utilisateur augmentent de 10%.<br>Lorsque l'effet [Armure de givre] s'active, les dégâts d'eau augmentent de 5% pendant 20 seconde(s). <br>(Temps de rechargement: 30 seconde(s))
-
-5 étoiles :<br>Les dégâts de l'Attaque de noyau de l'utilisateur augmentent de 40%.<br>Lorsque l'effet [Armure de givre] s'active, les dégâts d'eau augmentent de 20% pendant 20 seconde(s). <br>(Temps de rechargement: 30 seconde(s))
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

@@ -1,3 +1,0 @@
-Passif :<br>
-Le truc, c'est d'asséner un coup de poing plus vif et plus précis.
-Votre Attaque augmente de 6 par tranche de 1 points d'Agilité appliqués (pour un buff maximal de 1200).

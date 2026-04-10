@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente la Défense de 4%.<br>Augmente les probabilités d'acquisition de bouclier de 6%.
-
-5 étoiles :<br>Augmente la Défense de 16%.<br>Augmente les probabilités d'acquisition de bouclier de 24%.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.
