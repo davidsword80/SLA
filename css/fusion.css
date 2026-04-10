@@ -370,25 +370,42 @@ h4 { color: red; }
     font-size: 1.1rem;
 }
 
-.buff { font-weight: bold; padding: 0 2px; }
-.buff.pourpre  { color: #d48df0; }
-.buff.ecarlate { color: #ff6b6b; }
-.buff.feu      { color: #ff9f43; }
-.buff.instinct { color: #54a0ff; }
-.buff.sixieme  { color: #feca57; }
-.stat-boost    { color: #2ecc71; font-weight: bold; }
-
-.detail-box {
-    background-color: #252525;
-    margin-top: 15px;
-    border: 1px solid #3a3a3a;
-    padding: 12px;
-    border-left: 3px solid #777;
+/* ── Noms d'effets [entre crochets] — même couleur que kw-green de Sung ── */
+.buff {
+    color: #22c55e;
+    font-weight: 700;
+    padding: 0 2px;
 }
 
-.detail-box:nth-of-type(1) { border-left-color: #d48df0; }
-.detail-box:nth-of-type(2) { border-left-color: #ff6b6b; }
-.detail-box:nth-of-type(3) { border-left-color: #ff9f43; }
+/* Sous-classes de couleur conservées pour compatibilité */
+.buff.pourpre  { color: #c084fc; }
+.buff.ecarlate { color: #f87171; }
+.buff.feu      { color: #f97316; }
+.buff.instinct { color: #4dd9e8; }
+.buff.sixieme  { color: #fde047; }
+
+/* ── Valeurs numériques / boosts — même couleur que kw-gold de Sung ── */
+.stat-boost {
+    color: #f59e0b;
+    font-weight: 700;
+}
+
+/* ── Boîte de détail d'effet — même style que .effect-box de Sung ── */
+.detail-box {
+    background: rgba(34, 197, 94, 0.06);
+    border: 1px solid rgba(34, 197, 94, 0.25);
+    border-left: 3px solid rgba(34, 197, 94, 0.6);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 10px;
+}
+
+/* On retire les couleurs de bordure nth-of-type qui écrasaient le style précédent */
+.detail-box:nth-of-type(1),
+.detail-box:nth-of-type(2),
+.detail-box:nth-of-type(3) {
+    border-left: 3px solid rgba(34, 197, 94, 0.6);
+}
 
 .sla-card h4 {
     color: #fff;
@@ -396,8 +413,89 @@ h4 { color: red; }
     font-size: 1em;
 }
 
-.detail-box p     { margin: 0; font-size: 0.9em; color: #ccc; }
+.detail-box h4 {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 0.85em;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+}
+
+.detail-box p     { margin: 0; font-size: 0.88em; color: rgba(255,255,255,0.75); line-height: 1.65; }
 .detail-box small { display: block; margin-top: 8px; color: #777; font-size: 0.8em; }
+
+/* ── Bloc Passif (niveau 0) — bordure violette ── */
+.passif-block {
+    background: rgba(192, 132, 252, 0.06);
+    border: 1px solid rgba(192, 132, 252, 0.25);
+    border-left: 3px solid rgba(192, 132, 252, 0.6);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+}
+
+/* ── Blocs d'étoiles (niveaux 1–5) — bordure dorée ── */
+.star-block {
+    background: rgba(245, 158, 11, 0.05);
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    border-left: 3px solid rgba(245, 158, 11, 0.5);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+}
+
+/* ── Titres de section (h3) dans les blocs passifs — même style que Sung ── */
+.passif-block h3,
+.star-block h3,
+.skill-content h3 {
+    margin: 0 0 6px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.passif-block h3 { color: #c084fc; border-bottom-color: rgba(192,132,252,0.2); }
+.star-block h3   { color: #f59e0b; border-bottom-color: rgba(245,158,11,0.2); }
+.skill-content h3 { color: #f1c40f; }
+
+/* ── Texte p dans les blocs ── */
+.passif-block p,
+.star-block p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.82);
+    line-height: 1.75;
+}
+
+/* Noms de compétences dans les blocs passif/étoiles → orange doré comme dans le jeu */
+.passif-block strong,
+.star-block strong {
+    color: #f59e0b;
+    font-weight: 700;
+}
+
+/* ── Noms d'éléments colorés selon leur type ── */
+.element-name         { font-weight: 700; }          /* base */
+.element-vent         { color: #22c55e; font-weight: 700; }   /* vert */
+.element-eau          { color: #38bdf8; font-weight: 700; }   /* bleu ciel */
+.element-feu          { color: #f97316; font-weight: 700; }   /* orange feu */
+.element-lumiere      { color: #fde047; font-weight: 700; }   /* jaune soleil */
+.element-tenebre      { color: #c084fc; font-weight: 700; }   /* violet ténèbres */
+
+/* Termes spéciaux en orange (ex: compétence de base, attaque de noyau...) */
+.keyword-orange {
+    color: #f59e0b;
+    font-weight: 700;
+}
+
+/* ── Conteneur global passif-content ── */
+.passif-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
 
 /* =========================================
    6. RESPONSIVE
@@ -489,9 +587,10 @@ h4 { color: red; }
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 50px;
-    height: auto;
+    height: 25px; 
+    width: auto;  
     z-index: 10;
+    border-bottom: none; /* Annule le trait rouge hérité */
 }
 
 /* LE NOM : Hauteur fixe pour aligner toutes les cartes */
@@ -588,9 +687,10 @@ h4 { color: red; }
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 50px;
-    height: auto;
+    height: 25px; 
+    width: auto;  
     z-index: 10;
+    border-bottom: none; /* Annule le trait rouge hérité */
 }
 
 /* LE NOM : Hauteur fixe pour aligner toutes les cartes */
@@ -1133,10 +1233,10 @@ h4 { color: red; }
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 50px;
-    height: auto;
+    height: 25px; /* Fixe la hauteur pour que les lettres aient la même taille */
+    width: auto;  /* Laisse la largeur s'adapter (SSR sera plus large que R) */
     z-index: 10;
-    border-bottom: none;
+    border-bottom: none; /* Annule le trait rouge hérité */
 }
 
 /* L'ÉLÉMENT : Fixé en haut à gauche de la carte */
@@ -1217,4 +1317,47 @@ h4 { color: red; }
     white-space: normal; 
     line-height: 1.2;
     width: 100%;
+}
+
+/* Modification pour placer l'icône en bas à droite de l'image de l'arme */
+
+
+/* Positionnement des icônes d'armes/chasseurs en bas à droite de l'image (au-dessus du nom) */
+
+/* 1. On s'assure que le conteneur du nom peut servir de repère */
+.item.weapon-card .card-name-container,
+.item.arme-chasseur-card .card-name-container {
+    position: relative; /* Indispensable pour positionner l'icône par rapport à ce bloc */
+}
+
+/* 2. Icône pour les armes du joueur */
+.item.weapon-card .card-name-container::before {
+    content: "";
+    position: absolute;
+    bottom: 100%; /* Place l'icône juste AU-DESSUS du bandeau de nom */
+    right: 5px;   /* Aligné à droite avec une petite marge */
+    width: 500px;  /* Largeur de tes icônes bannières */
+    height: 15px; /* Hauteur de tes icônes bannières */
+    background-image: url('../img/Icon/WeaponSymbol_SJW.png'); /* Chemin mis à jour */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center; /* Aligne l'image à droite dans son bloc */
+    z-index: 15; /* S'assure qu'elle passe au-dessus du reste */
+    margin-bottom: 5px; /* Un petit espace entre l'icône et le bandeau noir */
+}
+
+/* 3. Icône pour les armes de chasseurs */
+.item.arme-chasseur-card .card-name-container::before {
+    content: "";
+    position: absolute;
+    bottom: 100%; /* Place l'icône juste AU-DESSUS du bandeau de nom */
+    right: 5px;   /* Aligné à droite avec une petite marge */
+    width: 500px;
+    height: 15px;
+    background-image: url('../img/Icon/WeaponSymbol_Hunter_All.png'); /* Chemin mis à jour */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    z-index: 15;
+    margin-bottom: 5px;
 }

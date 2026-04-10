@@ -13,28 +13,40 @@ huntersData["song-chiyul"] = {
     weaponName: "Talent intact",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Lorsque la compétence <strong>Iaido de type 4: Fleur de lotus rouge</strong> touche sa cible, les dégâts d'<strong>Incinération</strong> augmentent de <span class="stat-boost">20%</span> pendant 10 seconde(s) (cumulable jusqu'à 3 fois) et la jauge de noyau se charge à <span class="stat-boost">100%</span>.<br></p>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>La consommation de PM de Chiyul augmente de <span class="stat-boost">50%</span>, mais les dégâts qu'il inflige aux monstres de type Normal augmentent de <span class="stat-boost">50%</span>.<br></p>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Augmente les PM de l'utilisateur de <span class="stat-boost">20 %</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
-        <p>La portée et la durée du tourbillon de flammes de la compétence <strong>Feu de l'enfer</strong> augmentent de <span class="stat-boost">50%</span>.<br></p>
+        <p>La portée et la durée du tourbillon de flammes de la compétence <strong><span class="element-feu">Feu</span> de l'enfer</strong> augmentent de <span class="stat-boost">50%</span>.<br></p>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Les dégâts d'<strong>Incinération</strong> augmentent de <span class="stat-boost">20%</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Les dégâts infligés par l'utilisateur augmentent de <span class="stat-boost">50%</span> lorsqu'il utilise la compétence <strong>Incinération</strong> sur des cibles affectées par <span class="buff">[Brûlure]</span>.<br></p>
+        </div>
     `
     },
     summaryData: {
@@ -52,7 +64,7 @@ huntersData["song-chiyul"] = {
     `,
         3: `
         <h3>3 étoiles</h3>
-        <p>Feu de l'enfer : Portée/Durée <span class="stat-boost">+50%</span>.<br></p>
+        <p><span class="element-feu">Feu</span> de l'enfer : Portée/Durée <span class="stat-boost">+50%</span>.<br></p>
     `,
         4: `
         <h3>4 étoiles</h3>
@@ -67,7 +79,7 @@ huntersData["song-chiyul"] = {
         0: `
         <h3>Avancement 0 :</h3>
         <p>Augmente les dégâts de feu de l'utilisateur de <span class="stat-boost">2%</span>.<br>
-        Lors de l'utilisation d'une Compétence de base ou d'une Attaque de noyau, les dégâts infligés aux monstres de type Normal augmentent de <span class="stat-boost">2%</span> pendant 10 seconde(s) (cumulable jusqu'à 5 fois).<br></p>
+        Lors de l'utilisation d'une <span class="keyword-orange">compétence de base</span> ou d'une <span class="keyword-orange">attaque de noyau</span>, les dégâts infligés aux monstres de type Normal augmentent de <span class="stat-boost">2%</span> pendant 10 seconde(s) (cumulable jusqu'à 5 fois).<br></p>
     `,
         1: `
         <h3>Avancement 5 étoiles :</h3>
@@ -92,6 +104,7 @@ huntersData["choi-jongin"] = {
     weaponName: "échange équivalent",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Choi Jongin ne peut pas infliger de coups critiques, mais son Attaque augmente de <span class="stat-boost">50%</span>.<br>
         Lorsque l'utilisateur lance <strong>Fin des temps</strong>, applique l'effet <span class="buff feu">[L'Arme Ultime]</span>.</p>
@@ -102,28 +115,39 @@ huntersData["choi-jongin"] = {
             Augmente l'Attaque et la Pénétration de défense de l'utilisateur de <span class="stat-boost">20%</span>.<br>
             Durée: 15 seconde(s)</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Les dégâts de <strong>Pluie de flammes</strong> triplent pendant la durée de <span class="buff feu">[L'Arme Ultime]</span>, et la compétence devient <strong>Méga cratère</strong>.</p>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">12%</span>.</p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Augmente les dégâts de <strong>Fin des temps</strong> de <span class="stat-boost">60%</span>.</p>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Augmente les dégâts de <span class="buff ecarlate">[Brûlure]</span> de l'utilisateur de <span class="stat-boost">100%</span>.<br>
         Augmente les dégâts de feu infligés par l'utilisateur de <span class="stat-boost">16%</span>.</p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Lorsqu'un personnage <span class="buff">[quitte le combat]</span>, le temps de rechargement de la compétence <strong>Fin des temps</strong> est divisé par 3 et la jauge de puissance se charge de <span class="stat-boost">0.8%</span> toutes les secondes.<br>
         En mode Combat d'équipe, le temps de rechargement de <strong>Fin des temps</strong>, <strong>Pluie de flammes</strong> et <strong>Lance de feu</strong> est divisé par 2 et la jauge de puissance se charge de <span class="stat-boost">0.4%</span> toutes les secondes.</p>
+        </div>
     `
     },
     summaryData: {
@@ -151,7 +175,7 @@ huntersData["choi-jongin"] = {
     `,
         4: `
         <h3>4 étoiles</h3>
-        <p>Dégâts Brûlure <span class="stat-boost">+100%</span>. Dégâts Feu <span class="stat-boost">+16%</span>.</p>
+        <p>Dégâts Brûlure <span class="stat-boost">+100%</span>. Dégâts <span class="element-feu">Feu</span> <span class="stat-boost">+16%</span>.</p>
     `,
         5: `
         <h3>5 étoiles</h3>
@@ -188,11 +212,12 @@ huntersData["christopher-reed"] = {
     weaponName: "Strategie victorieuse",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>L'utilisation des compétences <strong>Étoile montante</strong>, <strong>Passe offensive</strong>, <strong>Coup de pied nitro</strong> ou <strong>Faute de jeu</strong> remplit la jauge d'<span class="buff">[Apparition de corps spirituel]</span> de l'utilisateur.<br>
         L'utilisation de la compétence <strong>0 à 100</strong> vide la jauge d'<span class="buff">[Apparition de corps spirituel]</span>.<br>
-        Lorsque la jauge d'<span class="buff">[Apparition de corps spirituel]</span> atteint 100 %, elle active l'attaque de noyau spéciale de l'utilisateur.<br>
-        L'utilisation de l'attaque de noyau spéciale active l'effet <span class="buff">[Apparition de corps spirituel]</span>.<br>
+        Lorsque la jauge d'<span class="buff">[Apparition de corps spirituel]</span> atteint 100 %, elle active l'<span class="keyword-orange">attaque de noyau</span> spéciale de l'utilisateur.<br>
+        L'utilisation de l'<span class="keyword-orange">attaque de noyau</span> spéciale active l'effet <span class="buff">[Apparition de corps spirituel]</span>.<br>
         La compétence <strong>Interception décisive</strong> devient disponible en cas d'Évasion extrême réussie.<br>
         Lorsque les compétences <strong>Performance montante</strong>, <strong>Coup de pied rapide</strong> ou <strong>0 à 100</strong> touchent leur cible, elles lui appliquent l'effet <span class="buff">[Brûlure]</span>.<br>
         L'utilisation des compétences <strong>Coup de pied nitro</strong> ou <strong>Faute de jeu</strong> dans le mode <span class="buff">[Combat d'équipe]</span> active l'effet <span class="buff">[Touchdown]</span>.<br></p>
@@ -202,14 +227,14 @@ huntersData["christopher-reed"] = {
             <p>L'utilisateur attrape un ballon devant l'ennemi et le frappe au sol pour faire un touchdown.<br>
             Inflige des dégâts élémentaires de feu équivalents à <span class="stat-boost">1500 %</span> de la Défense de l'utilisateur.<br>
             L'utilisation de cette compétence active l'effet <span class="buff">[Touchdown]</span>.<br>
-            Compte comme une compétence de base. (temps de rechargement : 15 seconde(s)).</p>
+            Compte comme une <span class="keyword-orange">compétence de base</span>. (temps de rechargement : 15 seconde(s)).</p>
         </div>
 
         <div class="detail-box">
             <h4><span class="buff">[Apparition de corps spirituel]</span></h4>
-            <p>Transforme l'attaque de base, l'attaque de noyau et la compétence de base de l'utilisateur en versions améliorées, et les temps de rechargement de ces compétences sont réinitialisés.<br>
+            <p>Transforme l'attaque de base, l'<span class="keyword-orange">attaque de noyau</span> et la <span class="keyword-orange">compétence de base</span> de l'utilisateur en versions améliorées, et les temps de rechargement de ces compétences sont réinitialisés.<br>
             Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> de feu de <span class="stat-boost">25 %</span>.<br>
-            Augmente les dégâts de l'attaque de base, de l'attaque de noyau et de la compétence de base de <span class="stat-boost">150 %</span>.<br>
+            Augmente les dégâts de l'attaque de base, de l'<span class="keyword-orange">attaque de noyau</span> et de la <span class="keyword-orange">compétence de base</span> de <span class="stat-boost">150 %</span>.<br>
             L'utilisation de la compétence <strong>0 à 100</strong> supprime l'effet.<br>
             Durée : 30 seconde(s)</p>
         </div>
@@ -226,18 +251,24 @@ huntersData["christopher-reed"] = {
             <p>Inflige des dégâts équivalents à <span class="stat-boost">200 %</span> de la Défense de l'utilisateur toutes les 3 secondes.<br>
             Durée : 30 seconde(s)</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Augmente l'effet de l'<span class="buff">[Accumulation élémentaire]</span> de feu de <span class="stat-boost">20 %</span>.<br></p>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Si l'effet <span class="buff">[Immunité contre l'Accumulation élémentaire]</span> de feu est actif sur la cible lorsque l'utilisateur porte une attaque, sa jauge d'<span class="buff">[Apparition de corps spirituel]</span> se remplit (temps de rechargement : 15 seconde(s)).<br>
-        Lorsque des membres de l'équipe de l'élément Feu, y compris l'utilisateur, utilisent leurs compétences de base ou ultime, la jauge d'<span class="buff">[Apparition de corps spirituel]</span> de l'utilisateur se remplit.<br>
+        Lorsque des membres de l'équipe de l'élément <span class="element-feu">Feu</span>, y compris l'utilisateur, utilisent leurs <span class="keyword-orange">compétences de base</span> ou ultime, la jauge d'<span class="buff">[Apparition de corps spirituel]</span> de l'utilisateur se remplit.<br>
         Augmente les dégâts de la compétence <strong>Interception décisive</strong> de <span class="stat-boost">25 %</span> contre les cibles affectées par <span class="buff">[Brûlure]</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Lorsque l'effet <span class="buff">[Apparition de corps spirituel]</span> est activé, l'utilisateur récupère <span class="stat-boost">30 %</span> de ses PV et reçoit un <span class="buff">[Bouclier]</span>.<br>
         Lorsque l'attaque de l'utilisateur touche une cible affectée par <span class="buff">[Brûlure]</span>, l'utilisateur reçoit l'effet <span class="buff">[Esprit de compétition]</span> (temps de rechargement : 2 seconde(s)).<br></p>
@@ -254,12 +285,16 @@ huntersData["christopher-reed"] = {
             <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">100 %</span> de la Défense de l'utilisateur.<br>
             Durée : 20 seconde(s)</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
-        <p>Les dégâts de feu des membres de l'équipe de l'élément Feu augmentent de <span class="stat-boost">5 %</span> par allié de l'élément Feu présent dans le groupe.<br></p>
+        <p>Les dégâts de feu des membres de l'équipe de l'élément <span class="element-feu">Feu</span> augmentent de <span class="stat-boost">5 %</span> par allié de l'élément <span class="element-feu">Feu</span> présent dans le groupe.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Lorsque Christopher Reed ou un allié parvient à déclencher l'effet <span class="buff">[Surcharge]</span> de feu, sa jauge de puissance se remplit de <span class="stat-boost">20 %</span> et le temps de rechargement de la compétence <strong>0 à 100</strong> est réinitialisé (temps de rechargement : 30 seconde(s)).<br>
         Lorsqu'une attaque de Christopher Reed touche une cible affectée par l'effet <span class="buff">[Surcharge]</span> de feu, elle lui applique <span class="buff">[Choc flamboyant]</span> (temps de rechargement : 30 seconde(s)).<br>
@@ -279,11 +314,12 @@ huntersData["christopher-reed"] = {
             (Les compétences QTE des alliés ne peuvent pas être utilisées automatiquement en <span class="buff">[Mode Chasseur]</span> pendant 25 seconde(s).)<br>
             Durée : 60 seconde(s)</p>
         </div>
+        </div>
     `
     },
     summaryData: {
         0: `
-        <h3>Passif : Esprit du Feu</h3>
+        <h3>Passif : Esprit du <span class="element-feu">Feu</span></h3>
         <p>Compétences = Charge la jauge <span class="buff">[Apparition]</span>.<br>
         Jauge 100% = Attaque Noyau Spéciale qui active <span class="buff">[Apparition de corps spirituel]</span>.<br>
         <strong>[Apparition]</strong> : Reset CD, Dégâts Compétences <span class="stat-boost">+150%</span>, Accumulation <span class="stat-boost">+25%</span>.<br>
@@ -301,11 +337,11 @@ huntersData["christopher-reed"] = {
         3: `
         <h3>3 étoiles</h3>
         <p>Activation [Apparition] = Soin <span class="stat-boost">30%</span> + <span class="buff">[Bouclier]</span>.<br>
-        Toucher cible Brûlée = <span class="buff">[Esprit de compétition]</span> (Dégâts Feu <span class="stat-boost">+165%</span>).</p>
+        Toucher cible Brûlée = <span class="buff">[Esprit de compétition]</span> (Dégâts <span class="element-feu">Feu</span> <span class="stat-boost">+165%</span>).</p>
     `,
         4: `
         <h3>4 étoiles</h3>
-        <p>Dégâts Feu équipe <span class="stat-boost">+5%</span> par allié Feu.<br></p>
+        <p>Dégâts <span class="element-feu">Feu</span> équipe <span class="stat-boost">+5%</span> par allié <span class="element-feu">Feu</span>.<br></p>
     `,
         5: `
         <h3>5 étoiles</h3>
@@ -345,12 +381,13 @@ huntersData["emma-laurent"] = {
     weaponName: "Pensées nocturnes",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>L'effet <span class="buff feu">[Absorption de chaleur]</span> s'applique pour chaque action spécifique.<br>
         Lorsque l'utilisatrice lance <strong>Rapière de feu</strong>, applique l'effet <span class="buff ecarlate">[Radiation de chaleur]</span> en fonction du nombre de cumuls d'[Absorption de chaleur].</p>
         <ul>
             <li>Attaque de base ou Dégâts subis : <strong>+2 cumuls</strong> [Absorption].</li>
-            <li>Compétences (Attaque de noyau, Traînée brûlante, Jugement incandescent, Évasion) : <strong>+5 cumuls</strong> [Absorption].</li>
+            <li>Compétences (<span class="keyword-orange">attaque de noyau</span>, Traînée brûlante, Jugement incandescent, Évasion) : <strong>+5 cumuls</strong> [Absorption].</li>
             <li>Fierté incandescente : <strong>+10 cumuls</strong> [Absorption].</li>
         </ul>
         <p>Lorsque l'effet [Radiation de chaleur] est activé, l'effet [Absorption de chaleur] appliqué est consumé.</p>
@@ -369,26 +406,36 @@ huntersData["emma-laurent"] = {
             <strong>15 cumuls :</strong> Dégâts de feu de l'équipe <span class="stat-boost">+7.77%</span>.<br>
             Durée: 20s</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Augmente les dégâts de Bris de <strong>Traînée brûlante</strong> de <span class="stat-boost">77.77%</span>.</p>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>L'efficacité de <span class="buff">[Bris]</span> de l'utilisateur augmente de <span class="stat-boost">10%</span>.<br>
         Augmente les dégâts infligés aux cibles avec le statut [Bris] de <span class="stat-boost">20%</span>.</p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>L'effet <span class="buff feu">[Absorption de chaleur]</span> s'applique aux membres de l'équipe.<br>
         Applique 5 cumuls d'[Absorption de chaleur] à l'arrivée dans le niveau.</p>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">10%</span>.</p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Lorsque la cible entre en état de <span class="buff">[Bris]</span> :<br>
         - Réinitialise le temps de rechargement de toutes les compétences.<br>
@@ -397,6 +444,7 @@ huntersData["emma-laurent"] = {
         <div class="detail-box">
             <h4><span class="buff ecarlate">[Augmentation des dégâts]</span></h4>
             <p>Augmente les dégâts de <span class="stat-boost">77.77%</span>.<br>Durée: 15s</p>
+        </div>
         </div>
     `
     },
@@ -411,7 +459,7 @@ huntersData["emma-laurent"] = {
         </div>
         <div class="detail-box">
             <h4><span class="buff ecarlate">[Radiation]</span> (Max 15)</h4>
-            <p>Pen Def, Dégâts Feu Perso/Équipe (7.77%).</p>
+            <p>Pen Def, Dégâts <span class="element-feu">Feu</span> Perso/Équipe (7.77%).</p>
         </div>
     `,
         1: `
@@ -471,11 +519,11 @@ huntersData["esil-radir"] = {
         5: `<h3>5 étoiles :</h3><p>Lors de l'utilisation de la compétence <strong>Impatience de la mort améliorée</strong>, la compétence <strong>Jet de lance</strong> est activée une fois de plus.<br>Lorsque Jet de lance touche une cible en état de [Bris] dans les 10s, l'effet <span class="buff feu">[Mort aux faibles]</span> est déclenché au lieu de l'effet [Proie].</p><div class="detail-box"><h4><span class="buff feu">[Mort aux faibles] (Amélioré)</span></h4><p>Augmente les dégâts de feu subis de <span class="stat-boost">0.3%</span>.<br>Augmente les dégâts subis de <span class="stat-boost">0.3%</span>.<br>Durée: 90s (cumulable 100 fois).</p></div>`
     },
     summaryData: {
-        0: `<h3>Passif : Esil</h3><p>Met en [Bris] = durée [Bris] <span class="stat-boost">+3s</span>.<br>Actions spécifiques activent <strong>Jet de lance</strong>.<br><strong>Jet de lance</strong> inflige [Bris] et applique <span class="buff ecarlate">[Proie]</span>.</p><div class="detail-box"><h4><span class="buff pourpre">[Jet de lance amélioré]</span></h4><p>Dégâts et efficacité [Bris] <span class="stat-boost">+80%</span> (Max 5).</p></div><div class="detail-box"><h4><span class="buff ecarlate">[Proie]</span> / <span class="buff feu">[Mort aux faibles]</span></h4><p>Si cible [Bris], convertit [Proie] en [Mort aux faibles] : Dégâts subis/Feu <span class="stat-boost">+0.3%</span> par cumul.</p></div>`,
+        0: `<h3>Passif : Esil</h3><p>Met en [Bris] = durée [Bris] <span class="stat-boost">+3s</span>.<br>Actions spécifiques activent <strong>Jet de lance</strong>.<br><strong>Jet de lance</strong> inflige [Bris] et applique <span class="buff ecarlate">[Proie]</span>.</p><div class="detail-box"><h4><span class="buff pourpre">[Jet de lance amélioré]</span></h4><p>Dégâts et efficacité [Bris] <span class="stat-boost">+80%</span> (Max 5).</p></div><div class="detail-box"><h4><span class="buff ecarlate">[Proie]</span> / <span class="buff feu">[Mort aux faibles]</span></h4><p>Si cible [Bris], convertit [Proie] en [Mort aux faibles] : Dégâts subis/<span class="element-feu">Feu</span> <span class="stat-boost">+0.3%</span> par cumul.</p></div>`,
         1: `<h3>1 étoile</h3><p>Sous <strong>Victoire annoncée</strong> : Dégâts Jet de lance <span class="stat-boost">+100%</span>.<br>Applique <span class="buff ecarlate">[Proie]</span> x2 (Max 10 cumuls).</p>`,
-        2: `<h3>2 étoiles</h3><p>Attaque équipe <span class="stat-boost">+3%</span> par allié Feu (Max 3).</p>`,
+        2: `<h3>2 étoiles</h3><p>Attaque équipe <span class="stat-boost">+3%</span> par allié <span class="element-feu">Feu</span> (Max 3).</p>`,
         3: `<h3>3 étoiles</h3><p>Début combat : Jauge Puissance <span class="stat-boost">100%</span>.<br>Jet de lance : Puissance +1%, CD Victoire annoncée -1s.<br>Victoire annoncée : [Bris] instantané si jauge ≤ 10%.</p>`,
-        4: `<h3>4 étoiles</h3><p>Pénétration Défense équipe <span class="stat-boost">+4%</span> par allié Feu (Max 3).</p>`,
+        4: `<h3>4 étoiles</h3><p>Pénétration Défense équipe <span class="stat-boost">+4%</span> par allié <span class="element-feu">Feu</span> (Max 3).</p>`,
         5: `<h3>5 étoiles</h3><p>Impatience de la mort améliorée active Jet de lance supplémentaire.<br>Sur cible [Bris] : Applique directement <span class="buff feu">[Mort aux faibles]</span> (Max 100 cumuls, durée 90s).</p>`
     },
     weaponData: {
@@ -496,6 +544,7 @@ huntersData["gina"] = {
     weaponName: "Glamour et auto reconnaissance",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Lors de l'utilisation de <strong>Descente forcée</strong>, <strong>Masse gravitationnelle</strong> ou <strong>Voie d'extinction</strong>, l'effet <span class="buff ecarlate">[Contre-courant]</span> est appliqué.<br>
         Lorsque [Contre-courant] atteint son maximum, l'effet <span class="buff feu">[Circulation de mana]</span> est appliqué à toute l'équipe.<br>
@@ -518,8 +567,10 @@ huntersData["gina"] = {
             La jauge de puissance de l'équipe se remplit de <span class="stat-boost">2%</span> toutes les 3s.<br>
             Durée: 15s</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Lorsque l'effet <span class="buff feu">[Circulation de mana]</span> s'active, l'effet <span class="buff instinct">[Transformation de mana]</span> est également appliqué à tous les membres de l'équipe.</p>
         <div class="detail-box">
@@ -529,13 +580,17 @@ huntersData["gina"] = {
             Réduit les dégâts subis de <span class="stat-boost">12%</span>.<br>
             Durée: 20s</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Augmente la valeur du [Bouclier] appliqué à l'équipe de <span class="stat-boost">20%</span>.<br>
         Lorsqu'un [Bouclier] est appliqué à un membre de l'équipe, ses dégâts augmentent de <span class="stat-boost">10%</span>.</p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Lors de l'utilisation de <strong>Masse gravitationnelle</strong>, un <span class="buff pourpre">[Champ gravitationnel]</span> est créé.<br>
         Applique l'effet <span class="buff ecarlate">[Boost gravitationnel]</span> aux cibles touchées.</p>
@@ -550,13 +605,17 @@ huntersData["gina"] = {
             <p>Augmente les dégâts de feu subis par la cible de <span class="stat-boost">10%</span>.<br>
             Durée: 20s</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>La Pénétration de défense de tous les membres de l'équipe augmente de <span class="stat-boost">4%</span>.<br>
-        La Pénétration de défense des membres de l'équipe de l'élément Feu augmente de <span class="stat-boost">4%</span> supplémentaires.</p>
+        La Pénétration de défense des membres de l'équipe de l'élément <span class="element-feu">Feu</span> augmente de <span class="stat-boost">4%</span> supplémentaires.</p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Lorsqu'un [Champ gravitationnel] est créé, l'effet <span class="buff feu">[Singularité spatio-temporelle]</span> est appliqué.</p>
         <div class="detail-box">
@@ -566,13 +625,14 @@ huntersData["gina"] = {
             Consumé après utilisation.<br>
             Durée: 10s</p>
         </div>
+        </div>
     `
     },
     summaryData: {
         0: `
         <h3>Passif : Support Gravitationnel</h3>
         <p>Compétences = <span class="buff ecarlate">[Contre-courant]</span>.<br>
-        Max [Contre-courant] = <span class="buff feu">[Circulation de mana]</span> (Buff Atk/Feu Équipe).<br>
+        Max [Contre-courant] = <span class="buff feu">[Circulation de mana]</span> (Buff Atk/<span class="element-feu">Feu</span> Équipe).<br>
         [Champ Gravitationnel] = <span class="buff pourpre">[Rétrogradation]</span> (Soin/Jauge Équipe).</p>
     `,
         1: `
@@ -588,11 +648,11 @@ huntersData["gina"] = {
         3: `
         <h3>3 étoiles</h3>
         <p>Masse gravitationnelle crée une zone [Halte] (Interruption).<br>
-        Cibles touchées : Dégâts Feu subis <span class="stat-boost">+10%</span>.</p>
+        Cibles touchées : Dégâts <span class="element-feu">Feu</span> subis <span class="stat-boost">+10%</span>.</p>
     `,
         4: `
         <h3>4 étoiles</h3>
-        <p>Pénétration Défense Équipe <span class="stat-boost">+4%</span> (+4% si Feu).</p>
+        <p>Pénétration Défense Équipe <span class="stat-boost">+4%</span> (+4% si <span class="element-feu">Feu</span>).</p>
     `,
         5: `
         <h3>5 étoiles</h3>
@@ -633,31 +693,34 @@ huntersData["tawata-kanae"] = {
     weaponName: "La voix du héros",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>L'utilisatrice reçoit l'effet <span class="buff pourpre">[Pourpre]</span> lorsqu'elle utilise Munechika.<br>
-        L'utilisatrice reçoit l'effet <span class="buff ecarlate">[Écarlate]</span> lorsqu'elle utilise son attaque de noyau améliorée.<br>
-        Lorsque les effets <span class="buff pourpre">[Pourpre]</span>, <span class="buff ecarlate">[Écarlate]</span> ou <span class="buff feu">[Feu]</span> sont appliqués, les compétences Kamaitachi de l'utilisatrice deviennent sa compétence ultime.<br>
+        L'utilisatrice reçoit l'effet <span class="buff ecarlate">[Écarlate]</span> lorsqu'elle utilise son <span class="keyword-orange">attaque de noyau</span> améliorée.<br>
+        Lorsque les effets <span class="buff pourpre">[Pourpre]</span>, <span class="buff ecarlate">[Écarlate]</span> ou <span class="buff feu">[<span class="element-feu">Feu</span>]</span> sont appliqués, les compétences Kamaitachi de l'utilisatrice deviennent sa <span class="keyword-orange">compétence ultime</span>.<br>
         Les dégâts infligés par l'utilisatrice aux cibles en état de [Bris] augmentent de <span class="stat-boost">24 %</span>.</p>
         
         <div class="detail-box">
             <h4><span class="buff pourpre">[Pourpre]</span></h4>
-            <p>Lorsqu'elle utilise Kamaitachi, l'utilisatrice active automatiquement son attaque de noyau améliorée, aux dégâts bonus équivalents à 50% des dégâts infligés par la compétence.</p>
+            <p>Lorsqu'elle utilise Kamaitachi, l'utilisatrice active automatiquement son <span class="keyword-orange">attaque de noyau</span> améliorée, aux dégâts bonus équivalents à 50% des dégâts infligés par la compétence.</p>
             <small>Durée: illimitée</small>
         </div>
         <div class="detail-box">
             <h4><span class="buff ecarlate">[Écarlate]</span></h4>
-            <p>Lors de l'utilisation de Kamaitachi, l'effet <span class="buff feu">[Feu]</span> est activé.</p>
+            <p>Lors de l'utilisation de Kamaitachi, l'effet <span class="buff feu">[<span class="element-feu">Feu</span>]</span> est activé.</p>
             <small>Durée: illimitée</small>
         </div>
         <div class="detail-box">
-            <h4><span class="buff feu">[Feu]</span></h4>
+            <h4><span class="buff feu">[<span class="element-feu">Feu</span>]</span></h4>
             <p>Augmente les dégâts de Tsuchigumo de 70%.<br>
             L'utilisatrice reçoit [Super armure] lors de l'utilisation de Kamaitachi.<br>
-            L'utilisation de Kamaitachi supprime les effets [Pourpre], [Écarlate] et [Feu].</p>
+            L'utilisation de Kamaitachi supprime les effets [Pourpre], [Écarlate] et [<span class="element-feu">Feu</span>].</p>
             <small>Durée: illimitée</small>
+        </div>
         </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Lorsqu'un ennemi meurt près de l'utilisatrice, celle-ci reçoit 1 cumuls de l'effet <span class="buff instinct">[Instinct]</span>. <br>
         Lorsqu'elle met une cible en état de [Bris], elle reçoit 5 cumuls de l'effet <span class="buff instinct">[Instinct]</span>.</p>
@@ -673,21 +736,29 @@ huntersData["tawata-kanae"] = {
             Si les PM de l'utilisatrice tombent à 20% ou moins, sa Consommation de PM diminue de 40 %.</p>
             <small>Durée: illimitée</small>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Les dégâts de coup critique de l'utilisatrice augmentent de <span class="stat-boost">16%</span>.</p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Lors de l'utilisation de Munechika, l'utilisatrice reçoit l'effet [Super armure] pendant 5 seconde(s).<br>
-        L'utilisation de Feu: Kamaitachi réduit le temps de rechargement de Munechika de 5 seconde(s).</p>
+        L'utilisation de <span class="element-feu">Feu</span>: Kamaitachi réduit le temps de rechargement de Munechika de 5 seconde(s).</p>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
-        <p>Les dégâts de feu de Tawata Kanae augmentent de <span class="stat-boost">12%</span> par chasseur de l'élément Feu présent dans le groupe (cumulable jusqu'à 3 fois).</p>
+        <p>Les dégâts de feu de Tawata Kanae augmentent de <span class="stat-boost">12%</span> par chasseur de l'élément <span class="element-feu">Feu</span> présent dans le groupe (cumulable jusqu'à 3 fois).</p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Les effets <span class="buff instinct">[Instinct]</span> et <span class="buff sixieme">[Sixième sens]</span> sont améliorés.</p>
         <div class="detail-box">
@@ -704,6 +775,7 @@ huntersData["tawata-kanae"] = {
             Si les PM de l'utilisatrice tombent à 30% ou moins, sa Consommation de PM diminue de 50%.</p>
             <small>Durée: illimitée</small>
         </div>
+        </div>
     `
     },
     summaryData: {
@@ -714,10 +786,10 @@ huntersData["tawata-kanae"] = {
         Dégâts sur [Bris] <span class="stat-boost">+24%</span>.</p>
         <div class="detail-box">
             <h4><span class="buff pourpre">[Pourpre]</span> / <span class="buff ecarlate">[Écarlate]</span></h4>
-            <p>Active Atq Noyau (Bonus 50%) ou l'effet <span class="buff feu">[Feu]</span>.</p>
+            <p>Active Atq Noyau (Bonus 50%) ou l'effet <span class="buff feu">[<span class="element-feu">Feu</span>]</span>.</p>
         </div>
         <div class="detail-box">
-            <h4><span class="buff feu">[Feu]</span></h4>
+            <h4><span class="buff feu">[<span class="element-feu">Feu</span>]</span></h4>
             <p>Dégâts Tsuchigumo <span class="stat-boost">+70%</span> + [Super Armure]. Consomme les effets.</p>
         </div>
     `,
@@ -744,7 +816,7 @@ huntersData["tawata-kanae"] = {
     `,
         4: `
         <h3>4 étoiles</h3>
-        <p>Dégâts Feu <span class="stat-boost">+12%</span> par allié Feu (Max 3).</p>
+        <p>Dégâts <span class="element-feu">Feu</span> <span class="stat-boost">+12%</span> par allié <span class="element-feu">Feu</span> (Max 3).</p>
     `,
         5: `
         <h3>5 étoiles</h3>
@@ -788,6 +860,7 @@ huntersData["yoo-soohyun"] = {
     weaponName: "Surpuissance",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Lors de l'utilisation de <strong>Tir astucieux</strong> ou <strong>Nuée embrasée</strong>, l'effet <span class="buff pourpre">[Projecteur]</span> s'applique à l'utilisatrice.<br>
         Lors de l'utilisation de <strong>Nuée embrasée</strong> ou <strong>Souffle de précision</strong>, l'effet <span class="buff ecarlate">[Arme à feu magique]</span> s'applique.</p>
@@ -809,24 +882,30 @@ huntersData["yoo-soohyun"] = {
             Réduit le Taux de récupération de la cible de <span class="stat-boost">4%</span>.<br>
             Durée: 60s (cumulable jusqu'à 20 fois)</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
-        <p>Utiliser <strong>Tir mortel</strong> active l'Attaque de noyau et augmente ses dégâts de <span class="stat-boost">40%</span> (6s).<br>
-        Utiliser l'Attaque de noyau octroie l'effet <span class="buff ecarlate">[Folie]</span>.</p>
+        <p>Utiliser <strong>Tir mortel</strong> active l'<span class="keyword-orange">attaque de noyau</span> et augmente ses dégâts de <span class="stat-boost">40%</span> (6s).<br>
+        Utiliser l'<span class="keyword-orange">attaque de noyau</span> octroie l'effet <span class="buff ecarlate">[Folie]</span>.</p>
         <div class="detail-box">
             <h4><span class="buff ecarlate">[Folie]</span></h4>
             <p>Réinitialise le CD de Tir mortel.<br>
-            Tir mortel devient <strong>Feu de l'enfer</strong> (Dégâts +40% + [Super Super Armure]).<br>
-            Utiliser Feu de l'enfer applique [Arme à feu magique] et annule [Folie].<br>
+            Tir mortel devient <strong><span class="element-feu">Feu</span> de l'enfer</strong> (Dégâts +40% + [Super Super Armure]).<br>
+            Utiliser <span class="element-feu">Feu</span> de l'enfer applique [Arme à feu magique] et annule [Folie].<br>
             Durée: 6s</p>
+        </div>
         </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>La Pénétration de défense de l'utilisatrice augmente de <span class="stat-boost">12%</span>.</p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Lorsque <strong>Tir astucieux</strong> est utilisé, l'effet <span class="buff instinct">[Attaque augmentée]</span> s'applique.</p>
         <div class="detail-box">
@@ -834,31 +913,36 @@ huntersData["yoo-soohyun"] = {
             <p>Augmente l'Attaque de l'utilisatrice de <span class="stat-boost">24%</span>.<br>
             Durée: 12s</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Augmente l'Attaque de l'utilisatrice de <span class="stat-boost">12%</span>.</p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
-        <p>Augmente les dégâts de <strong>Tir mortel</strong> et <strong>Feu de l'enfer</strong> de <span class="stat-boost">6%</span> par cumul de [Réaction magique] sur la cible (Max <span class="stat-boost">120%</span>).</p>
+        <p>Augmente les dégâts de <strong>Tir mortel</strong> et <strong><span class="element-feu">Feu</span> de l'enfer</strong> de <span class="stat-boost">6%</span> par cumul de [Réaction magique] sur la cible (Max <span class="stat-boost">120%</span>).</p>
+        </div>
     `
     },
     summaryData: {
         0: `
         <h3>Passif : Arsenal Magique</h3>
         <p>Skills = <span class="buff pourpre">[Projecteur]</span> (Pen. Def) ou <span class="buff ecarlate">[Arme Magique]</span> (Dégâts Auto).<br>
-        Armes Magiques appliquent <span class="buff feu">[Réaction]</span> (Debuff Feu/Soin).</p>
+        Armes Magiques appliquent <span class="buff feu">[Réaction]</span> (Debuff <span class="element-feu">Feu</span>/Soin).</p>
         <div class="detail-box">
             <h4><span class="buff feu">[Réaction magique]</span> (Max 20)</h4>
-            <p>Dégâts Feu subis <span class="stat-boost">+1%</span> / Soin <span class="stat-boost">-4%</span> par cumul.</p>
+            <p>Dégâts <span class="element-feu">Feu</span> subis <span class="stat-boost">+1%</span> / Soin <span class="stat-boost">-4%</span> par cumul.</p>
         </div>
     `,
         1: `
         <h3>1 étoile</h3>
         <p>Tir mortel boost Atq Noyau.<br>
         Atq Noyau = <span class="buff ecarlate">[Folie]</span> (Reset CD Tir mortel).<br>
-        [Folie] transforme Tir mortel en <strong>Feu de l'enfer</strong> (Dégâts <span class="stat-boost">+40%</span> + Super Armure).</p>
+        [Folie] transforme Tir mortel en <strong><span class="element-feu">Feu</span> de l'enfer</strong> (Dégâts <span class="stat-boost">+40%</span> + Super Armure).</p>
     `,
         2: `
         <h3>2 étoiles</h3>
@@ -874,19 +958,19 @@ huntersData["yoo-soohyun"] = {
     `,
         5: `
         <h3>5 étoiles</h3>
-        <p>Tir mortel / Feu de l'enfer : Dégâts <span class="stat-boost">+6%</span> par cumul de [Réaction] (Max 120%).</p>
+        <p>Tir mortel / <span class="element-feu">Feu</span> de l'enfer : Dégâts <span class="stat-boost">+6%</span> par cumul de [Réaction] (Max 120%).</p>
     `
     },
     weaponData: {
         0: `
         <h3>Avancement 0 :</h3>
         <p>Augmente la Pénétration de défense de l'utilisatrice de <span class="stat-boost">4%</span>.<br>
-        Augmente les dégâts de Tir mortel, Attaque de noyau et Feu de l'enfer de <span class="stat-boost">8%</span>.</p>
+        Augmente les dégâts de Tir mortel, <span class="keyword-orange">attaque de noyau</span> et <span class="element-feu">Feu</span> de l'enfer de <span class="stat-boost">8%</span>.</p>
     `,
         1: `
         <h3>Avancement 5 étoiles :</h3>
         <p>Augmente la Pénétration de défense de l'utilisatrice de <span class="stat-boost">12%</span>.<br>
-        Augmente les dégâts de Tir mortel, Attaque de noyau et Feu de l'enfer de <span class="stat-boost">24%</span>.</p>
+        Augmente les dégâts de Tir mortel, <span class="keyword-orange">attaque de noyau</span> et <span class="element-feu">Feu</span> de l'enfer de <span class="stat-boost">24%</span>.</p>
     `,
         2: `
         <h3>Avancement 10 étoiles :</h3>
@@ -906,9 +990,10 @@ huntersData["fern"] = {
     weaponName: "Bâton de Fern",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>L'utilisation de l'attaque de base initie les attaques de niveau 1, 2 et 3 à la suite.<br>
-        L'utilisation de l'attaque de base de niveau 3 active l'attaque de noyau de l'utilisatrice une fois.<br>
+        L'utilisation de l'attaque de base de niveau 3 active l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice une fois.<br>
         Les effets <span class="buff">[Prodige magique]</span> et <span class="buff">[Recherche d'énergie de mana]</span> s'activent lorsque l'utilisatrice arrive dans un niveau.<br></p>
         
         <div class="detail-box">
@@ -925,27 +1010,29 @@ huntersData["fern"] = {
             Augmente la Précision de l'utilisatrice de <span class="stat-boost">5 %</span>.<br>
             Durée : illimitée</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>L'effet <span class="buff">[Coup rapide de base]</span> s'active lorsque l'utilisatrice arrive dans un niveau.<br>
-        L'utilisation de ses compétences de base 1 ou 2 active l'effet <span class="buff">[Concentration de base]</span>.<br>
+        L'utilisation de ses <span class="keyword-orange">compétences de base</span> 1 ou 2 active l'effet <span class="buff">[Concentration de base]</span>.<br>
         Les effets <span class="buff">[Prodige magique]</span> et <span class="buff">[Recherche d'énergie de mana]</span> sont améliorés.<br></p>
 
         <div class="detail-box">
             <h4><span class="buff">[Coup rapide de base]</span></h4>
-            <p>Augmente la Vitesse d'attaque de l'attaque de base, de l'attaque de noyau et des compétences de base 1 et 2.<br>
-            L'utilisation des compétences de base 1 ou 2 active l'attaque de noyau de l'utilisatrice une fois.<br>
-            L'utilisation de l'attaque de noyau diminue le temps de rechargement des compétences de base 1 et 2 de <span class="stat-boost">25 %</span>.<br>
-            L'utilisation de la compétence de base 1 diminue le temps de rechargement des compétences de base 1 et 2 de <span class="stat-boost">25 %</span>.<br>
-            L'utilisation de la compétence de base 2 réduit le temps de rechargement des compétences de base 1 et 2 de <span class="stat-boost">25 %</span>.<br>
+            <p>Augmente la Vitesse d'attaque de l'attaque de base, de l'<span class="keyword-orange">attaque de noyau</span> et des <span class="keyword-orange">compétences de base</span> 1 et 2.<br>
+            L'utilisation des <span class="keyword-orange">compétences de base</span> 1 ou 2 active l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice une fois.<br>
+            L'utilisation de l'<span class="keyword-orange">attaque de noyau</span> diminue le temps de rechargement des <span class="keyword-orange">compétences de base</span> 1 et 2 de <span class="stat-boost">25 %</span>.<br>
+            L'utilisation de la <span class="keyword-orange">compétence de base</span> 1 diminue le temps de rechargement des <span class="keyword-orange">compétences de base</span> 1 et 2 de <span class="stat-boost">25 %</span>.<br>
+            L'utilisation de la <span class="keyword-orange">compétence de base</span> 2 réduit le temps de rechargement des <span class="keyword-orange">compétences de base</span> 1 et 2 de <span class="stat-boost">25 %</span>.<br>
             Durée : illimitée</p>
         </div>
 
         <div class="detail-box">
             <h4><span class="buff">[Concentration de base]</span></h4>
-            <p>L'utilisation des compétences de base 1 ou 2 augmente la consommation de PM de <span class="stat-boost">12 %</span>.<br>
-            L'utilisation des compétences de base 1 ou 2 augmente les dégâts de la compétence de base de <span class="stat-boost">25 %</span>.<br>
+            <p>L'utilisation des <span class="keyword-orange">compétences de base</span> 1 ou 2 augmente la consommation de PM de <span class="stat-boost">12 %</span>.<br>
+            L'utilisation des <span class="keyword-orange">compétences de base</span> 1 ou 2 augmente les dégâts de la <span class="keyword-orange">compétence de base</span> de <span class="stat-boost">25 %</span>.<br>
             Durée : 20 seconde(s) (cumulable jusqu'à 4 fois)</p>
         </div>
 
@@ -963,19 +1050,23 @@ huntersData["fern"] = {
             Augmente la Précision de <span class="stat-boost">10 %</span>.<br>
             Durée : illimitée</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Augmente les dégâts de feu de l'utilisatrice de <span class="stat-boost">20 %</span>.<br>
-        Chaque fois que sa compétence de base 2 touche une cible, applique l'effet <span class="buff">[Dégâts de feu subis augmentés]</span>.<br></p>
+        Chaque fois que sa <span class="keyword-orange">compétence de base</span> 2 touche une cible, applique l'effet <span class="buff">[Dégâts de feu subis augmentés]</span>.<br></p>
 
         <div class="detail-box">
             <h4><span class="buff">[Dégâts de feu subis augmentés]</span></h4>
             <p>Augmente les dégâts de feu subis de <span class="stat-boost">0.3 %</span>.<br>
             Durée : 30 seconde(s) (cumulable jusqu'à 60 fois)</p>
         </div>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>L'effet <span class="buff">[Vision véritable]</span> s'active lorsque l'utilisatrice arrive dans un niveau.<br>
         Les effets <span class="buff">[Magie de dissipation]</span> et <span class="buff">[Magie défensive]</span> s'activent lorsque l'utilisatrice rejoint le combat (temps de rechargement : 10 seconde(s)).<br></p>
@@ -997,27 +1088,31 @@ huntersData["fern"] = {
             Diminue les dégâts subis de <span class="stat-boost">20 %</span>.<br>
             Durée : 20 seconde(s)</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Le Taux de coup critique de l'utilisatrice augmente de <span class="stat-boost">10 %</span>, et ses Dégâts de coup critique de <span class="stat-boost">20 %</span>.<br>
-        L'effet <span class="buff">[Dégâts de feu subis augmentés]</span>, qui est appliqué chaque fois que la compétence de base 2 de l'utilisatrice touche une cible, change de 0.3 % à 0.5 %.<br></p>
+        L'effet <span class="buff">[Dégâts de feu subis augmentés]</span>, qui est appliqué chaque fois que la <span class="keyword-orange">compétence de base</span> 2 de l'utilisatrice touche une cible, change de 0.3 % à 0.5 %.<br></p>
 
         <div class="detail-box">
             <h4><span class="buff">[Dégâts de feu subis augmentés]</span></h4>
             <p>Augmente les dégâts de feu subis de <span class="stat-boost">0.5 %</span>.<br>
             Durée : 30 seconde(s) (cumulable jusqu'à 60 fois)</p>
         </div>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
-        <p>Lorsque la compétence ultime de l'utilisatrice touche sa cible, les dégâts de faiblesse élémentaire de feu de l'utilisatrice la touchent également, quel que soit son élément.<br>
+        <p>Lorsque la <span class="keyword-orange">compétence ultime</span> de l'utilisatrice touche sa cible, les dégâts de faiblesse élémentaire de feu de l'utilisatrice la touchent également, quel que soit son élément.<br>
         L'effet <span class="buff">[Vision véritable]</span> est amélioré.<br></p>
 
         <div class="detail-box">
             <h4>Amélioration <span class="buff">[Vision véritable]</span></h4>
             <p>Augmente le Taux de coup critique de <span class="stat-boost">10 %</span> et les Dégâts de coup critique de <span class="stat-boost">20 %</span>.<br>
-            Lorsque la compétence de base 1 ou 2 de l'utilisatrice touche sa cible, l'effet <span class="buff">[Alerte sismique]</span> s'active (uniquement une fois à l'impact).<br>
+            Lorsque la <span class="keyword-orange">compétence de base</span> 1 ou 2 de l'utilisatrice touche sa cible, l'effet <span class="buff">[Alerte sismique]</span> s'active (uniquement une fois à l'impact).<br>
             Durée : illimitée</p>
         </div>
 
@@ -1035,6 +1130,7 @@ huntersData["fern"] = {
             Augmente la Pénétration de défense de <span class="stat-boost">10 %</span>.<br>
             Durée : 20 seconde(s)</p>
         </div>
+        </div>
     `
     },
     summaryData: {
@@ -1051,8 +1147,8 @@ huntersData["fern"] = {
     `,
         2: `
         <h3>2 étoiles</h3>
-        <p>Dégâts Feu <span class="stat-boost">+20%</span>.<br>
-        Compétence 2 applique Débuff <span class="buff">[Dégâts Feu subis +0.3%]</span> (Max 18%).</p>
+        <p>Dégâts <span class="element-feu">Feu</span> <span class="stat-boost">+20%</span>.<br>
+        Compétence 2 applique Débuff <span class="buff">[Dégâts <span class="element-feu">Feu</span> subis +0.3%]</span> (Max 18%).</p>
     `,
         3: `
         <h3>3 étoiles</h3>
@@ -1062,13 +1158,13 @@ huntersData["fern"] = {
         4: `
         <h3>4 étoiles</h3>
         <p>Crit Rate +10%, Crit Dmg +20%.<br>
-        Débuff Feu amélioré à <span class="stat-boost">0.5%</span> (Max 30%).</p>
+        Débuff <span class="element-feu">Feu</span> amélioré à <span class="stat-boost">0.5%</span> (Max 30%).</p>
     `,
         5: `
         <h3>5 étoiles</h3>
-        <p>Ultime tape toujours en Faiblesse Feu.<br>
-        Améliore <span class="buff">[Vision]</span>. Compétences stack <span class="buff">[Alerte]</span> (Dégâts Feu).<br>
-        Max stack = <span class="buff">[Regard]</span> (Dégâts Feu <span class="stat-boost">+60%</span>, Pénétration <span class="stat-boost">+10%</span>).</p>
+        <p>Ultime tape toujours en Faiblesse <span class="element-feu">Feu</span>.<br>
+        Améliore <span class="buff">[Vision]</span>. Compétences stack <span class="buff">[Alerte]</span> (Dégâts <span class="element-feu">Feu</span>).<br>
+        Max stack = <span class="buff">[Regard]</span> (Dégâts <span class="element-feu">Feu</span> <span class="stat-boost">+60%</span>, Pénétration <span class="stat-boost">+10%</span>).</p>
     `
     },
     weaponData: {
@@ -1102,6 +1198,7 @@ huntersData["stark"] = {
     weaponName: "Hache de Stark",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>L'utilisateur reçoit l'effet <span class="buff">[Timidité]</span> à l'arrivée dans le niveau.<br>
         Lorsque Stark ou un allié parvient à mettre un ennemi en état de Bris, la durée de l'état de Bris augmente de 3 secondes.<br>
@@ -1138,8 +1235,10 @@ huntersData["stark"] = {
             Active l'effet <span class="buff">[Timidité]</span> lorsque cet effet est supprimé.<br>
             Durée : 5 seconde(s).</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>L'effet <span class="buff">[Esprit combatif]</span> s'active lorsque l'utilisateur arrive dans un combat d'histoire.<br>
         Lorsque la compétence <strong>Frappe tourbillonnante</strong> touche sa cible, elle lui applique l'effet <span class="buff">[Aura du guerrier]</span>.<br>
@@ -1160,16 +1259,20 @@ huntersData["stark"] = {
 
         <div class="detail-box">
             <h4><span class="buff">[Détermination]</span> (Amélioré)</h4>
-            <p>Les dégâts de la compétence de base augmentent de <span class="stat-boost">15 %</span>.<br>
+            <p>Les dégâts de la <span class="keyword-orange">compétence de base</span> augmentent de <span class="stat-boost">15 %</span>.<br>
             Le Taux de coup critique augmente de <span class="stat-boost">15 %</span>.<br>
             Durée : 10 seconde(s).</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">15 %</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>L'effet <span class="buff">[Aura du guerrier]</span> est amélioré.<br>
         Augmente la Pénétration de défense de toute l'équipe à hauteur de <span class="stat-boost">20 %</span> de la stat augmentée de Pénétration de défense de Stark.<br></p>
@@ -1179,12 +1282,16 @@ huntersData["stark"] = {
             <p>Augmente les dégâts infligés par Stark de <span class="stat-boost">30 %</span>.<br>
             Durée : 15 seconde(s).</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>L'efficacité de Bris de l'utilisateur augmente de <span class="stat-boost">36 %</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Les effets <span class="buff">[Confiance]</span> et <span class="buff">[Courage]</span> sont améliorés.<br>
         L'utilisation de <strong>Frappe spiralée</strong> active l'effet <span class="buff">[Détermination]</span>.<br>
@@ -1212,13 +1319,14 @@ huntersData["stark"] = {
             <h4><span class="buff">[Talent du guerrier]</span></h4>
             <p>Inflige des dégâts équivalents à <span class="stat-boost">1000 %</span> des PV max de l'utilisateur.</p>
         </div>
+        </div>
     `
     },
     summaryData: {
         0: `
         <h3>Passif : Guerrier Timide</h3>
         <p>Entrée : <span class="buff">[Timidité]</span>. Jauge Puissance bloquée sauf sous <span class="buff">[Courage]</span>.<br>
-        Compétences activent <span class="buff">[Confiance]</span> (Stats Feu/Péné +3%/stack).<br>
+        Compétences activent <span class="buff">[Confiance]</span> (Stats <span class="element-feu">Feu</span>/Péné +3%/stack).<br>
         Max <span class="buff">[Confiance]</span> = <span class="buff">[Courage]</span> (Stats +20%, Jauge 100%, supprime Timidité).</p>
     `,
         1: `
@@ -1278,6 +1386,7 @@ huntersData["yuqi"] = {
     weaponName: "Soleil vertueux",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Toute l'équipe reçoit l'effet <span class="buff">[FOREVER]</span> en arrivant dans les modes Mission Rappel et Donjon éphémère.<br>
         Lorsque YUQI ou un allié parvient à mettre un ennemi en état de <span class="buff">[Bris]</span>, la durée de l'état de <span class="buff">[Bris]</span> augmente de 3 seconde(s).<br>
@@ -1306,8 +1415,10 @@ huntersData["yuqi"] = {
             Confère <span class="buff">[Super armure]</span> tant que l'effet est actif. Tant que l'effet est actif, l'effet <span class="buff">[Tempo]</span> est supprimé et ne peut plus être activé.<br>
             Durée : 10 seconde(s)</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Le taux de recharge de la jauge <span class="buff">[Éclatement total]</span> augmente de <span class="stat-boost">100%</span>.<br>
         Lorsque les compétences <strong>Fracas d'ampli</strong>, <strong>Cri crescendo</strong>, <strong>Coup de pied rotatif montant</strong> ou <strong>Cri sans limite</strong> touchent leur cible, elles leur appliquent l'effet <span class="buff">[Distorsion]</span>.<br>
@@ -1325,12 +1436,16 @@ huntersData["yuqi"] = {
             Augmente les dégâts de feu subis de <span class="stat-boost">20 %</span>. L'effet <span class="buff">[Distorsion]</span> est supprimé et ne peut plus être activé tant que cet effet est actif.<br>
             Durée : 20 seconde(s)</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>L'efficacité de <span class="buff">[Bris]</span> augmente de <span class="stat-boost">20 %</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>L'effet <span class="buff">[Éclatement total]</span> est amélioré. L'utilisation de l'effet <strong>Bête de scène</strong> active l'effet <span class="buff">[Postluminescence]</span> sur toute l'équipe.<br></p>
 
@@ -1347,15 +1462,19 @@ huntersData["yuqi"] = {
         <div class="detail-box">
             <h4><span class="buff">[Postluminescence]</span></h4>
             <p>Augmente les dégâts infligés aux cibles en état de <span class="buff">[Bris]</span> de <span class="stat-boost">12 %</span>.<br>
-            Augmente les dégâts de compétence de base et de compétence ultime de <span class="stat-boost">15 %</span>.<br>
+            Augmente les dégâts de <span class="keyword-orange">compétence de base</span> et de <span class="keyword-orange">compétence ultime</span> de <span class="stat-boost">15 %</span>.<br>
             Augmente les Dégâts de coup critique de <span class="stat-boost">15 %</span>. Durée : 20 seconde(s)</p>
+        </div>
         </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
-        <p>Les dégâts de feu des membres de l'équipe de l'élément Feu augmentent de <span class="stat-boost">5 %</span> par allié de l'élément Feu présent dans le groupe.<br></p>
+        <p>Les dégâts de feu des membres de l'équipe de l'élément <span class="element-feu">Feu</span> augmentent de <span class="stat-boost">5 %</span> par allié de l'élément <span class="element-feu">Feu</span> présent dans le groupe.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Les effets <span class="buff">[Distorsion]</span>, <span class="buff">[Craquage]</span> et <span class="buff">[Postluminescence]</span> sont améliorés.<br></p>
 
@@ -1376,8 +1495,9 @@ huntersData["yuqi"] = {
         <div class="detail-box">
             <h4><span class="buff">[Postluminescence]</span> (Amélioré)</h4>
             <p>Augmente les dégâts subis par une cible en état de <span class="buff">[Bris]</span> de <span class="stat-boost">12 %</span>.<br>
-            Augmente les dégâts de compétence de base et de compétence ultime de <span class="stat-boost">30 %</span>.<br>
+            Augmente les dégâts de <span class="keyword-orange">compétence de base</span> et de <span class="keyword-orange">compétence ultime</span> de <span class="stat-boost">30 %</span>.<br>
             Augmente les Dégâts de coup critique de <span class="stat-boost">20 %</span>. Durée : 30 seconde(s)</p>
+        </div>
         </div>
     `
     },
@@ -1392,7 +1512,7 @@ huntersData["yuqi"] = {
         <h3>1 étoile</h3>
         <p>Recharge Jauge +100%.<br>
         Compétences appliquent <span class="buff">[Distorsion]</span> (Dégâts subis +3%).<br>
-        Bête de scène applique <span class="buff">[Craquage]</span> (Dégâts subis +15%, Feu +20%).</p>
+        Bête de scène applique <span class="buff">[Craquage]</span> (Dégâts subis +15%, <span class="element-feu">Feu</span> +20%).</p>
     `,
         2: `
         <h3>2 étoiles</h3>
@@ -1405,11 +1525,11 @@ huntersData["yuqi"] = {
     `,
         4: `
         <h3>4 étoiles</h3>
-        <p>Dégâts Feu équipe <span class="stat-boost">+5%</span> par allié Feu.<br></p>
+        <p>Dégâts <span class="element-feu">Feu</span> équipe <span class="stat-boost">+5%</span> par allié <span class="element-feu">Feu</span>.<br></p>
     `,
         5: `
         <h3>5 étoiles</h3>
-        <p>Améliore <span class="buff">[Distorsion]</span> (Dégâts infligés +6%) et <span class="buff">[Craquage]</span> (Dégâts infligés +20%, Feu +25%).<br>
+        <p>Améliore <span class="buff">[Distorsion]</span> (Dégâts infligés +6%) et <span class="buff">[Craquage]</span> (Dégâts infligés +20%, <span class="element-feu">Feu</span> +25%).<br>
         Améliore <span class="buff">[Postluminescence]</span> (Bonus Skill Dmg +30%, Crit Dmg +20%).</p>
     `
     },

@@ -10,16 +10,16 @@ shadowsData["ber"] = {
     shadowImage: "Ombres/Ber/Ber.png",
     shadowGradient: "linear-gradient(90deg, #8e44ad, #000)",
     shadowData: {
-        0: `<h3>Rang : Commun</h3><p>L'attaque et les dégâts de coup critique de toute l'équipe augmentent de <span class="stat-boost">3%</span>.<br></p>`,
-        1: `<h3>Rang : Général</h3><p>L'attaque et les dégâts de coup critique de toute l'équipe augmentent de <span class="stat-boost">5%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Rang : Commun</h3><p>L'attaque et les dégâts de coup critique de toute l'équipe augmentent de <span class="stat-boost">3%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Rang : Général</h3><p>L'attaque et les dégâts de coup critique de toute l'équipe augmentent de <span class="stat-boost">5%</span>.<br></p></div>`
     },
     weaponName: "Arme : Faux de l'ombre (Reproduction)",
     weaponRarity: "Arme d'ombre",
     weaponImage: "Ombres/Ber/faux_de_l_ombre_reproduction/faux_de_l_ombre_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>Les soins prodigués à l'ombre augmentent de <span class="stat-boost">15%</span> et sa Pénétration de défense de <span class="stat-boost">2.5%</span>.<br></p>`,
-        1: `<h3>Passif (Max) :</h3><p>Les soins prodigués à l'ombre augmentent de <span class="stat-boost">30%</span> et sa Pénétration de défense de <span class="stat-boost">5%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>Les soins prodigués à l'ombre augmentent de <span class="stat-boost">15%</span> et sa Pénétration de défense de <span class="stat-boost">2.5%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Max) :</h3><p>Les soins prodigués à l'ombre augmentent de <span class="stat-boost">30%</span> et sa Pénétration de défense de <span class="stat-boost">5%</span>.<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Passif : Armement Ombre</h3><p>Soins <span class="stat-boost">+15%</span>, Pén. Déf <span class="stat-boost">+2.5%</span>.</p>`,
@@ -34,16 +34,16 @@ shadowsData["beste"] = {
     shadowImage: "Ombres/Beste/Beste.png",
     shadowGradient: "linear-gradient(90deg, #8e44ad, #000)",
     shadowData: {
-        0: `<h3>Rang : Commun</h3><p>La Pénétration de défense de toute l'équipe augmente de <span class="stat-boost">4%</span>.<br></p>`,
-        1: `<h3>Rang : Général</h3><p>La Pénétration de défense de toute l'équipe augmente de <span class="stat-boost">8%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Rang : Commun</h3><p>La Pénétration de défense de toute l'équipe augmente de <span class="stat-boost">4%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Rang : Général</h3><p>La Pénétration de défense de toute l'équipe augmente de <span class="stat-boost">8%</span>.<br></p></div>`
     },
     weaponName: "Arme : Grimoire de Thétis (Reproduction)",
     weaponRarity: "Arme d'ombre",
     weaponImage: "Ombres/Beste/grimoire_de_thetis_reproduction/grimoire_de_thetis_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">4%</span>.<br>Les dégâts de la compétence de base de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p>`,
-        1: `<h3>Passif (Élévation cliquée) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">4%</span>.<br>Les dégâts de la compétence de base de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">4%</span>.<br>Les dégâts de la compétence de base de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Élévation cliquée) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">4%</span>.<br>Les dégâts de la compétence de base de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>Atk ombre <span class="stat-boost">+4%</span>, Dégâts Compétence base <span class="stat-boost">+2.5%</span>.</p>`,
@@ -96,8 +96,8 @@ shadowsData["cerbie"] = {
     weaponImage: "Ombres/Cerbie/chasseur_de_lycans_reproduction/chasseur_de_lycans_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>Lorsque Cerbie atteint une cible avec l'effet <span class="buff">[Combustion]</span> appliqué, les dégâts de ses compétences augmentent de <span class="stat-boost">8%</span> pendant 10 seconde(s).<br></p>`,
-        1: `<h3>Passif (Max) :</h3><p>Lorsque Cerbie atteint une cible avec l'effet <span class="buff">[Combustion]</span> appliqué, les dégâts de ses compétences augmentent de <span class="stat-boost">8%</span> pendant 10 seconde(s).<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>Lorsque Cerbie atteint une cible avec l'effet <span class="buff">[Combustion]</span> appliqué, les dégâts de ses compétences augmentent de <span class="stat-boost">8%</span> pendant 10 seconde(s).<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Max) :</h3><p>Lorsque Cerbie atteint une cible avec l'effet <span class="buff">[Combustion]</span> appliqué, les dégâts de ses compétences augmentent de <span class="stat-boost">8%</span> pendant 10 seconde(s).<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>Cible [Combustion] : Dégâts compétences <span class="stat-boost">+8%</span> (10s).</p>`,
@@ -154,8 +154,8 @@ shadowsData["croc"] = {
     weaponImage: "Ombres/Croc/orbe_d_avarice_reproduction/orbe_d_avarice_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>Les ennemis ayant <span class="stat-boost">50% de PV ou moins</span> subissent <span class="stat-boost">8%</span> de dégâts en plus lorsqu'ils sont touchés par l'ombre.<br></p>`,
-        1: `<h3>Passif (Max) :</h3><p>Les ennemis ayant <span class="stat-boost">50% de PV ou moins</span> subissent <span class="stat-boost">8%</span> de dégâts en plus lorsqu'ils sont touchés par l'ombre.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>Les ennemis ayant <span class="stat-boost">50% de PV ou moins</span> subissent <span class="stat-boost">8%</span> de dégâts en plus lorsqu'ils sont touchés par l'ombre.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Max) :</h3><p>Les ennemis ayant <span class="stat-boost">50% de PV ou moins</span> subissent <span class="stat-boost">8%</span> de dégâts en plus lorsqu'ils sont touchés par l'ombre.<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>PV cible < 50% : Dégâts ombre <span class="stat-boost">+8%</span>.</p>`,
@@ -180,8 +180,8 @@ shadowsData["igrit"] = {
     weaponImage: "Ombres/Igrit/glaive_du_roi_des_demons_reproduction/glaive_du_roi_des_demons_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>Le Taux de coup critique et les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p>`,
-        1: `<h3>Passif (Élévation cliquée) :</h3><p>Le Taux de coup critique et les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>Le Taux de coup critique et les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Élévation cliquée) :</h3><p>Le Taux de coup critique et les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">2.5%</span>.<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>Taux Crit / Dégâts Crit ombre <span class="stat-boost">+2.5%</span>.</p>`,
@@ -268,8 +268,8 @@ shadowsData["kaisel"] = {
     weaponImage: "Ombres/Kaisel/skadi_reproduction/skadi_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>Les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">4%</span> et les dégâts qu'elle inflige aux boss augmentent de <span class="stat-boost">5%</span>.<br></p>`,
-        1: `<h3>Passif (Élévation cliquée) :</h3><p>Les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">4%</span> et les dégâts qu'elle inflige aux boss augmentent de <span class="stat-boost">5%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>Les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">4%</span> et les dégâts qu'elle inflige aux boss augmentent de <span class="stat-boost">5%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Élévation cliquée) :</h3><p>Les Dégâts de coup critique de l'ombre augmentent de <span class="stat-boost">4%</span> et les dégâts qu'elle inflige aux boss augmentent de <span class="stat-boost">5%</span>.<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>Dégâts Crit ombre <span class="stat-boost">+4%</span>, Dégâts Boss <span class="stat-boost">+5%</span>.</p>`,
@@ -294,8 +294,8 @@ shadowsData["lames"] = {
     weaponImage: "Ombres/Lames/surin_de_baruka_reproduction/surin_de_baruka_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">2.5%</span> et sa Pénétration de défense de <span class="stat-boost">2.5%</span>.<br></p>`,
-        1: `<h3>Passif (Élévation cliquée) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">2.5%</span> et sa Pénétration de défense de <span class="stat-boost">2.5%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">2.5%</span> et sa Pénétration de défense de <span class="stat-boost">2.5%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Élévation cliquée) :</h3><p>L'Attaque de l'ombre augmente de <span class="stat-boost">2.5%</span> et sa Pénétration de défense de <span class="stat-boost">2.5%</span>.<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>Atk ombre <span class="stat-boost">+2.5%</span>, Pén. Déf <span class="stat-boost">+2.5%</span>.</p>`,
@@ -310,16 +310,16 @@ shadowsData["tank"] = {
     shadowImage: "Ombres/Tank/Tank.png",
     shadowGradient: "linear-gradient(90deg, #8e44ad, #000)",
     shadowData: {
-        0: `<h3>Rang : Commun</h3><p>La Défense de tous les membres de l'équipe augmente de <span class="stat-boost">6%</span>.<br></p>`,
-        1: `<h3>Rang : Général</h3><p>La Défense de tous les membres de l'équipe augmente de <span class="stat-boost">12%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Rang : Commun</h3><p>La Défense de tous les membres de l'équipe augmente de <span class="stat-boost">6%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Rang : Général</h3><p>La Défense de tous les membres de l'équipe augmente de <span class="stat-boost">12%</span>.<br></p></div>`
     },
     weaponName: "Arme : Fauchon gelé (Reproduction)",
     weaponRarity: "Arme d'ombre",
     weaponImage: "Ombres/Tank/fauchon_gele_reproduction/fauchon_gele_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>La Pénétration de défense de l'ombre augmente de <span class="stat-boost">2.5%</span>.<br>Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de <span class="stat-boost">8%</span>.<br></p>`,
-        1: `<h3>Passif (Élévation cliquée) :</h3><p>La Pénétration de défense de l'ombre augmente de <span class="stat-boost">2.5%</span>.<br>Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de <span class="stat-boost">8%</span>.<br></p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>La Pénétration de défense de l'ombre augmente de <span class="stat-boost">2.5%</span>.<br>Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de <span class="stat-boost">8%</span>.<br></p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (Élévation cliquée) :</h3><p>La Pénétration de défense de l'ombre augmente de <span class="stat-boost">2.5%</span>.<br>Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de <span class="stat-boost">8%</span>.<br></p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>Pén. Déf ombre <span class="stat-boost">+2.5%</span>, Dégâts Monstres Normaux <span class="stat-boost">+8%</span>.</p>`,
@@ -334,16 +334,16 @@ shadowsData["uros"] = {
     shadowImage: "Ombres/Uros/Uros.png",
     shadowGradient: "linear-gradient(90deg, #8e44ad, #000)",
     shadowData: {
-        0: `<h3>Rang : Commun</h3><p>Les dégâts de ténèbres de toute l'équipe augmentent de <span class="stat-boost">5%</span>.</p>`,
-        1: `<h3>Rang : Général</h3><p>Les dégâts de ténèbres de toute l'équipe augmente de <span class="stat-boost">9%</span>.</p>`
+        0: `<div class="passif-content passif-block"><h3>Rang : Commun</h3><p>Les dégâts de ténèbres de toute l'équipe augmentent de <span class="stat-boost">5%</span>.</p></div>`,
+        1: `<div class="passif-content star-block"><h3>Rang : Général</h3><p>Les dégâts de ténèbres de toute l'équipe augmente de <span class="stat-boost">9%</span>.</p></div>`
     },
     weaponName: "Arme : Fragment de Zeke (Reproduction)",
     weaponRarity: "Arme d'ombre",
     weaponImage: "Ombres/Uros/fragment_de_zeke_reproduction/fragment_de_zeke_reproduction.png",
     weaponGradient: "linear-gradient(90deg, #9b59b6, #000)",
     weaponFullData: {
-        0: `<h3>Passif (Base) :</h3><p>Armement d'ombre exclusif pour Uros.<br>La Pénétration de défense de l'utilisateur augmente de <span class="stat-boost">4%</span>.</p>`,
-        1: `<h3>Passif (5 Étoiles) :</h3><p>Armement d'ombre exclusif pour Uros.<br>La Pénétration de défense de l'utilisateur augmente de <span class="stat-boost">24%</span>.</p>`
+        0: `<div class="passif-content passif-block"><h3>Passif (Base) :</h3><p>Armement d'ombre exclusif pour Uros.<br>La Pénétration de défense de l'utilisateur augmente de <span class="stat-boost">4%</span>.</p></div>`,
+        1: `<div class="passif-content star-block"><h3>Passif (5 Étoiles) :</h3><p>Armement d'ombre exclusif pour Uros.<br>La Pénétration de défense de l'utilisateur augmente de <span class="stat-boost">24%</span>.</p></div>`
     },
     weaponSummaryData: {
         0: `<h3>Résumé : Base</h3><p>Pénétration de défense <span class="stat-boost">+4%</span>.</p>`,

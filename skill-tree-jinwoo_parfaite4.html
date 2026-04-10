@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Solo Leveling Arise – Compétences de Sung Jinwoo</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600;700;900&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #0a0f1e;
+  --border: rgba(100,140,200,0.18);
+  --blue: #4dd9e8;
+  --purple: #c084fc;
+  --gold: #f59e0b;
+  --red: #ef4444;
+  --green: #22c55e;
+  --hex: 82px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: #fff;
+  font-family: 'Exo 2', sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body::before {
+  content: '';
+  position: fixed; inset: 0; z-index: -1;
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 100%, rgba(100,60,200,0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 80% 60% at 50% 50%, rgba(10,20,50,1) 0%, rgba(5,8,18,1) 100%);
+}
+
+/* HEADER */
+header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 20px;
+  background: rgba(6,10,22,0.95);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0; z-index: 50;
+}
+.hdr-left { display: flex; align-items: center; gap: 10px; }
+.hdr-icon {
+  width: 34px; height: 34px;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center; font-size: 16px;
+}
+.hdr-title { font-family:'Rajdhani',sans-serif; font-size:1.15rem; font-weight:700; letter-spacing:2px; text-transform:uppercase; }
+.hdr-title span { color: var(--blue); }
+#search {
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(77,217,232,0.25);
+  color: #fff; border-radius: 16px; padding: 6px 14px;
+  font-family:'Exo 2',sans-serif; font-size:0.8rem; width:180px; outline:none;
+}
+#search:focus { border-color: var(--blue); }
+#search::placeholder { color: rgba(255,255,255,0.3); }
+
+/* FILTER BAR */
+.filter-bar {
+  display: flex; align-items: center; gap: 6px;
+  padding: 7px 20px;
+  background: rgba(5,8,18,0.9);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.f-label { font-size:0.65rem; color:rgba(255,255,255,0.35); text-transform:uppercase; letter-spacing:1.5px; font-weight:600; margin-right:2px; }
+.fbtn {
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5); border-radius:14px; padding:4px 13px;
+  font-family:'Exo 2',sans-serif; font-size:0.72rem; font-weight:600;
+  cursor:pointer; transition:all .15s; text-transform:uppercase; letter-spacing:0.4px;
+}
+.fbtn:hover { border-color:var(--blue); color:var(--blue); }
+.fbtn.active { background:rgba(77,217,232,0.12); border-color:var(--blue); color:var(--blue); }
+.fbtn.fu.active { background:rgba(192,132,252,0.12); border-color:var(--purple); color:var(--purple); }
+.fbtn.fq.active { background:rgba(245,158,11,0.12); border-color:var(--gold); color:var(--gold); }
+
+/* 3-COL LAYOUT */
+.main-layout {
+  display: grid;
+  grid-template-columns: 380px 1fr 420px;
+  flex: 1; overflow: hidden; min-height: 0;
+}
+
+/* LEFT */
+.col-left {
+  border-right: 1px solid var(--border);
+  overflow-y: auto; overflow-x: hidden;
+  padding: 14px 10px 20px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(77,217,232,0.2) transparent;
+}
+.col-left::-webkit-scrollbar { width:4px; }
+.col-left::-webkit-scrollbar-thumb { background:rgba(77,217,232,0.2); border-radius:4px; }
+
+.sec-title {
+  font-family:'Rajdhani',sans-serif; font-size:0.72rem; font-weight:700;
+  text-transform:uppercase; letter-spacing:2.5px; color:rgba(255,255,255,0.35);
+  padding:4px 6px 8px; margin-bottom:6px;
+  display:flex; align-items:center; gap:8px;
+}
+.sec-title::before { content:''; display:block; width:3px; height:12px; border-radius:2px; }
+.sec-b .sec-title::before { background:var(--blue); }
+.sec-u .sec-title::before { background:var(--purple); }
+.sec-q .sec-title::before { background:var(--gold); }
+
+.hex-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px 4px;
+  margin-bottom: 18px;
+}
+
+.hcard {
+  display:flex; flex-direction:column; align-items:center;
+  cursor:pointer; transition:transform .15s, filter .15s;
+  padding:2px; border-radius:4px;
+}
+.hcard:hover { transform:translateY(-3px); filter:brightness(1.2); }
+.hcard.hidden { display:none !important; }
+.hcard.active-card .hex-shape { filter: drop-shadow(0 0 12px #f59e0b) brightness(1.15); }
+.hcard.active-card .hex-ring { background: rgba(245,158,11,1) !important; }
+.hcard.active-card {
+  background: rgba(245,158,11,0.08);
+  border-radius: 6px;
+  outline: 2px solid rgba(245,158,11,0.85);
+  outline-offset: 3px;
+  box-shadow: 0 0 18px rgba(245,158,11,0.45), inset 0 0 10px rgba(245,158,11,0.06);
+}
+
+.hex-wrap { position:relative; width:var(--hex); height:calc(var(--hex)*1.155); }
+.hex-ring {
+  position:absolute; inset:-2px;
+  clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  z-index:0;
+}
+.hcard.basique .hex-ring { background:rgba(77,217,232,0.3); }
+.hcard.ultime  .hex-ring { background:rgba(192,132,252,0.4); }
+.hcard.qte     .hex-ring { background:rgba(245,158,11,0.35); }
+.hcard.basique:hover .hex-ring { background:rgba(77,217,232,0.7); }
+.hcard.ultime:hover  .hex-ring { background:rgba(192,132,252,0.8); }
+.hcard.qte:hover     .hex-ring { background:rgba(245,158,11,0.7); }
+
+.hex-shape {
+  position:relative; z-index:1;
+  width:var(--hex); height:calc(var(--hex)*1.155);
+  clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  background:linear-gradient(160deg,#1b2a45,#0c1628);
+  display:flex; align-items:center; justify-content:center; overflow:hidden;
+}
+.hex-shape img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; /* Tu peux mettre 'cover' si tu veux que l'image touche tous les bords sans laisser de vide */
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.8)); 
+}
+.hex-dots { display:flex; flex-direction:row; gap:3px; justify-content:center; margin-top:3px; }
+.hdot {
+  width:5px; height:5px; border-radius:50%;
+  background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.12);
+}
+.hdot.on { background:var(--blue); border-color:var(--blue); box-shadow:0 0 4px var(--blue); }
+.ultime .hdot.on { background:var(--purple); border-color:var(--purple); box-shadow:0 0 4px var(--purple); }
+.qte    .hdot.on { background:var(--gold); border-color:var(--gold); box-shadow:0 0 4px var(--gold); }
+
+.hlevel { font-family:'Rajdhani',sans-serif; font-size:0.68rem; font-weight:600; color:rgba(255,255,255,0.5); text-align:center; margin-top:3px; }
+.hlevel b { color:#fff; font-weight:700; }
+.hname { font-size:0.55rem; font-weight:600; color:rgba(255,255,255,0.6); text-align:center; margin-top:2px; line-height:1.2; max-width:82px; padding:0 2px; }
+
+/* CENTER */
+.col-center {
+  display:flex; flex-direction:column; align-items:center; justify-content:flex-end;
+  position:relative; overflow:hidden;
+  background:radial-gradient(ellipse 70% 80% at 50% 90%, rgba(80,40,160,0.18) 0%, transparent 70%);
+}
+.col-center::before {
+  content:''; position:absolute; bottom:0; left:50%; transform:translateX(-50%);
+  width:80%; height:40%;
+  background:radial-gradient(ellipse, rgba(120,60,220,0.15) 0%, transparent 70%);
+  border-radius:50%; pointer-events:none;
+}
+.char-img {
+  width:100%; height:100%;
+  object-fit:contain; object-position:center bottom;
+  display:block;
+  filter:drop-shadow(0 0 40px rgba(120,60,220,0.3));
+}
+
+/* RIGHT */
+.col-right {
+  border-left: 1px solid var(--border);
+  display:flex; flex-direction:column;
+  overflow:hidden;
+  background:rgba(6,10,22,0.7);
+}
+
+.detail-header {
+  padding:16px 18px 12px;
+  border-bottom:1px solid var(--border);
+  flex-shrink:0;
+}
+.detail-label { font-size:0.62rem; color:rgba(255,255,255,0.3); text-transform:uppercase; letter-spacing:2px; font-weight:600; margin-bottom:10px; }
+.detail-skill-row { display:flex; align-items:center; gap:12px; }
+
+.d-hex-wrap { position:relative; width:72px; height:83px; flex-shrink:0; }
+.d-hex-ring {
+  position:absolute; inset:-2px;
+  clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+}
+.d-hex {
+  position:relative; z-index:1;
+  width:72px; height:83px;
+  clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  background:linear-gradient(160deg,#1b2a45,#0c1628);
+  display:flex; align-items:center; justify-content:center;
+}
+.d-hex img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; /* ou 'cover' selon le rendu que tu préfères */
+}
+
+.d-info { flex:1; min-width:0; }
+.d-level { font-family:'Rajdhani',sans-serif; font-size:0.75rem; color:rgba(255,255,255,0.45); font-weight:600; margin-bottom:2px; }
+.d-level span { color:var(--blue); font-weight:700; }
+.d-name { font-family:'Rajdhani',sans-serif; font-size:1.3rem; font-weight:700; color:#fff; letter-spacing:0.5px; line-height:1.1; }
+
+/* Tabs */
+.detail-tabs { display:flex; gap:6px; padding:10px 14px; border-bottom:1px solid var(--border); flex-shrink:0; }
+.dtab {
+  flex:1; padding:6px 8px; border-radius:6px; text-align:center;
+  font-size:0.7rem; font-weight:700; font-family:'Exo 2',sans-serif;
+  cursor:pointer; transition:all .15s; border:1px solid transparent;
+}
+.dtab-on-b { background:rgba(77,217,232,0.12); border-color:var(--blue); color:var(--blue); }
+.dtab-on-o { background:rgba(245,158,11,0.18); border-color:var(--gold); color:var(--gold); }
+.dtab-off  { background:rgba(255,255,255,0.05); color:rgba(255,255,255,0.4); }
+
+/* Variant selector (droite — caché, conservé pour compatibilité) */
+.variant-selector { display:none !important; }
+.vsb {
+  width:58px; height:67px;
+  clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  cursor:pointer; display:flex; align-items:center; justify-content:center;
+  transition:all .15s;
+}
+.vsb:hover { filter:brightness(1.3); }
+.vsb img { width:80%; height:80%; object-fit:contain; pointer-events:none; }
+.vsb.vs-active { outline:2px solid var(--gold); outline-offset:2px; filter:brightness(1.15); }
+.vs-lbl {
+  position:absolute; top:2px; right:1px;
+  font-size:8px; font-weight:900; color:var(--gold);
+  background:rgba(0,0,0,0.8); border-radius:3px; padding:1px 3px; line-height:1;
+  pointer-events:none;
+}
+
+/* Popup variantes sous la carte (colonne gauche) */
+.card-variant-popup {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 8px 8px;
+  background: rgba(8,14,30,0.97);
+  border: 2px solid rgba(245,158,11,0.65);
+  border-radius: 10px;
+  margin-top: 4px;
+  position: relative;
+  box-shadow:
+    0 0 18px rgba(245,158,11,0.22),
+    0 4px 24px rgba(0,0,0,0.7),
+    inset 0 0 12px rgba(245,158,11,0.04);
+  animation: popupIn .18s ease;
+}
+/* Petite flèche vers le haut reliant le popup à la carte */
+.card-variant-popup::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: var(--arrow-pos, 50%);
+  transform: translateX(-50%);
+  width: 14px; height: 8px;
+  background: rgba(245,158,11,0.65);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.card-variant-popup::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: var(--arrow-pos, 50%);
+  transform: translateX(-50%);
+  width: 10px; height: 5px;
+  background: rgba(8,14,30,0.97);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+@keyframes popupIn {
+  from { opacity:0; transform:translateY(-6px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+.card-variant-popup .vsb-wrap { position:relative; display:inline-block; }
+.card-variant-popup .cvb {
+  width: 64px; /* <-- Agrandi (au lieu de 52px) */
+  height: 74px; /* <-- Agrandi (au lieu de 60px) */
+  clip-path:polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  cursor:pointer; display:flex; align-items:center; justify-content:center;
+  transition:all .15s;
+}
+.card-variant-popup .cvb:hover { filter:brightness(1.35); }
+.card-variant-popup .cvb img {
+  width: 100%; /* <-- Modifié pour prendre toute la place */
+  height: 100%; /* <-- Modifié pour prendre toute la place */
+  object-fit: cover; /* <-- Passe de 'contain' à 'cover' pour bien remplir les angles si besoin */
+  pointer-events: none;
+}
+.card-variant-popup .cvb.cv-active {
+  outline: 2.5px solid var(--gold);
+  outline-offset: 3px;
+  filter: brightness(1.28);
+  box-shadow: 0 0 10px rgba(245,158,11,0.55);
+}
+.card-variant-popup .elem-badge {
+  position: absolute; 
+  top: 0px; /* <-- Ajusté pour bien caler le plus gros badge */
+  left: 0px; /* <-- Ajusté pour bien caler le plus gros badge */
+  width: 24px; /* <-- Agrandi (au lieu de 14px) */
+  height: 24px; /* <-- Agrandi (au lieu de 14px) */
+  pointer-events: none; 
+  z-index: 10;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.8));
+}.card-variant-popup .break-badge {
+  position: absolute; 
+  bottom: 0px; /* <-- Ajusté pour bien caler le plus gros badge */
+  left: 0px; /* <-- Ajusté pour bien caler le plus gros badge */
+  width: 24px; /* <-- Agrandi (au lieu de 14px) */
+  height: 24px; /* <-- Agrandi (au lieu de 14px) */
+  pointer-events: none; 
+  z-index: 10;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.8));
+  display: none;
+}
+
+/* Detail body */
+.detail-body {
+  flex:1; overflow-y:auto; padding:14px 16px;
+  scrollbar-width:thin; scrollbar-color:rgba(77,217,232,0.2) transparent;
+  display:flex; flex-direction:column; gap:12px;
+}
+.detail-body::-webkit-scrollbar { width:3px; }
+.detail-body::-webkit-scrollbar-thumb { background:rgba(77,217,232,0.2); border-radius:3px; }
+
+.vtitle-row { display:flex; align-items:center; gap:8px; }
+.vbar { width:3px; height:18px; border-radius:2px; flex-shrink:0; }
+.vtitle { font-family:'Rajdhani',sans-serif; font-size:0.95rem; font-weight:700; letter-spacing:0.5px; }
+
+.desc-text {
+  font-size:0.75rem; line-height:1.75; color:rgba(255,255,255,0.7);
+  background:rgba(255,255,255,0.03); border-radius:6px; padding:10px 12px;
+  border-left:2px solid rgba(255,255,255,0.08);
+}
+.kw-blue   { color:#60d8f0; font-weight:600; }
+.kw-gold   { color:var(--gold); font-weight:600; }
+.kw-green  { color:var(--green); font-weight:600; }
+.kw-red    { color:#f87171; font-weight:600; }
+.kw-orange { color:#f97316; font-weight:700; }
+
+/* Couleurs des éléments */
+.elem-dark  { color:#c084fc; font-weight:700; text-shadow:0 0 6px rgba(192,132,252,0.4); }
+.elem-fire  { color:#f97316; font-weight:700; text-shadow:0 0 6px rgba(249,115,22,0.4); }
+.elem-light { color:#fde047; font-weight:700; text-shadow:0 0 6px rgba(253,224,71,0.4); }
+.elem-water { color:#38bdf8; font-weight:700; text-shadow:0 0 6px rgba(56,189,248,0.4); }
+.elem-wind  { color:#4ade80; font-weight:700; text-shadow:0 0 6px rgba(74,222,128,0.4); }
+
+/* Stat block */
+.stat-block {
+  background: rgba(255,255,255,0.03);
+  border-radius: 6px;
+  padding: 8px 12px;
+  display: flex; flex-direction: column; gap: 1px;
+  border-left: 2px solid rgba(255,255,255,0.08);
+}
+.stat-line {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  line-height: 1.65;
+}
+.stat-key { color: #fff; font-weight: 700; }
+
+/* Desc text */
+.desc-text {
+  font-size: 0.78rem;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.85);
+  display: flex; flex-direction: column; gap: 1px;
+}
+.desc-line { line-height: 1.75; }
+
+/* Effect boxes */
+.effect-box {
+  background: rgba(34,197,94,0.04);
+  border: 1px solid rgba(34,197,94,0.2);
+  border-left: 3px solid rgba(34,197,94,0.5);
+  border-radius: 6px; padding: 10px 12px;
+  display: flex; align-items: flex-start; gap: 10px;
+}
+.eff-img-wrap {
+  width: 34px; height: 34px; flex-shrink: 0;
+  border-radius: 6px;
+  background: rgba(34,197,94,0.1);
+  border: 1px solid rgba(34,197,94,0.3);
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.eff-img { width: 100%; height: 100%; object-fit: contain; }
+.eff-icon-fallback { font-size: 16px; color: var(--green); }
+.eff-icon {
+  width:28px; height:28px; border-radius:4px;
+  background:rgba(245,158,11,0.15); border:1px solid rgba(245,158,11,0.3);
+  display:flex; align-items:center; justify-content:center; font-size:14px; flex-shrink:0;
+}
+.eff-name { font-size:0.8rem; font-weight:700; margin-bottom:4px; }
+.eff-desc { font-size:0.75rem; color:rgba(255,255,255,0.75); line-height:1.6; }
+.eff-line { line-height: 1.7; }
+.eff-desc span { color:var(--gold); font-weight:600; }
+
+/* Footer */
+.detail-footer {
+  display:flex; gap:8px; padding:12px 14px;
+  border-top:1px solid var(--border); flex-shrink:0;
+}
+.btn-save {
+  flex:1; padding:9px; border-radius:6px;
+  font-family:'Exo 2',sans-serif; font-size:0.78rem; font-weight:700; cursor:pointer;
+  background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15);
+  color:rgba(255,255,255,0.7); transition:all .15s;
+}
+.btn-save:hover { background:rgba(255,255,255,0.12); }
+.btn-max {
+  flex:1.4; padding:9px; border-radius:6px;
+  font-family:'Exo 2',sans-serif; font-size:0.78rem; font-weight:700; cursor:pointer;
+  background:linear-gradient(135deg,#c08010,#f0a820); border:none;
+  color:#000; transition:filter .15s;
+}
+.btn-max:hover { filter:brightness(1.15); }
+
+/* Empty state */
+.detail-empty {
+  flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:10px; color:rgba(255,255,255,0.2); padding:40px 20px; text-align:center;
+}
+.empty-icon { font-size:36px; opacity:0.3; }
+.detail-empty p { font-size:0.78rem; line-height:1.6; }
+
+/* Badge élément sur le grand hexagone header */
+.d-elem-badge {
+  position:absolute; top:0px; left:0px; /* Ajusté pour coller au bord */
+  width:28px; height:28px; /* Agrandi */
+  pointer-events:none; z-index:10;
+  filter:drop-shadow(0 1px 4px rgba(0,0,0,0.9));
+}
+
+/* Badge Break sur le grand hexagone header */
+.d-break-badge {
+  position:absolute; bottom:0px; left:0px; /* Ajusté pour coller au bord */
+  width:28px; height:28px; /* Agrandi */
+  pointer-events:none; z-index:10;
+  filter:drop-shadow(0 1px 4px rgba(0,0,0,0.9));
+  display:none;
+}
+
+/* Badge élément sur variants */
+.elem-badge {
+  position:absolute; top:2px; left:2px;
+  width:16px; height:16px;
+  pointer-events:none; z-index:10;
+  filter:drop-shadow(0 1px 3px rgba(0,0,0,0.8));
+}
+
+/* Badge Break sur variants */
+.break-badge {
+  position:absolute; bottom:2px; left:2px;
+  width:16px; height:16px;
+  pointer-events:none; z-index:10;
+  filter:drop-shadow(0 1px 3px rgba(0,0,0,0.8));
+  display:none;
+}
+.vsb-wrap { position:relative; display:inline-block; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr-left">
+    <div class="hdr-icon">⚔</div>
+    <div class="hdr-title">Sung <span>Jin-Woo</span></div>
+  </div>
+  <input type="text" id="search" placeholder="Rechercher…" oninput="applyFilters()"/>
+</header>
+
+<div class="filter-bar">
+  <span class="f-label">Catégorie</span>
+  <button class="fbtn active" onclick="filterItems('all',this)">Toutes</button>
+  <button class="fbtn fb" onclick="filterItems('basique',this)">Basiques</button>
+  <button class="fbtn fu" onclick="filterItems('ultime',this)">Ultimes</button>
+  <button class="fbtn fq" onclick="filterItems('qte',this)">QTE</button>
+</div>
+
+<div class="main-layout">
+
+  <!-- LEFT -->
+  <div class="col-left" id="col-left">
+
+    <div class="sec-b" id="sec-basique">
+      <div class="sec-title">Compétences de base</div>
+      <div class="hex-grid" id="grid-basique">
+
+        <div class="hcard basique" data-id="double_entaille" data-name="double entaille" onclick="selectSkill(this,'double_entaille')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Double_entaille/SungJinWoo_01_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Double entaille</div>
+        </div>
+
+        <div class="hcard basique" data-id="coup_devastateur" data-name="coup devastateur" onclick="selectSkill(this,'coup_devastateur')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Coup_devastateur/SungJinWoo_14_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Coup dévastateur</div>
+        </div>
+
+        <div class="hcard basique" data-id="lancer_de_dague" data-name="lancer de dague" onclick="selectSkill(this,'lancer_de_dague')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Lancer_de_dague/SungJinWoo_13_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Lancer de dague</div>
+        </div>
+
+        <div class="hcard basique" data-id="frappes_multiples" data-name="frappes multiples" onclick="selectSkill(this,'frappes_multiples')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Frappes_multiples/SungJinWoo_12_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Frappes multiples</div>
+        </div>
+
+        <div class="hcard basique" data-id="arts_verticaux" data-name="arts verticaux" onclick="selectSkill(this,'arts_verticaux')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Arts_verticaux/SungJinWoo_03_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Arts verticaux</div>
+        </div>
+
+        <div class="hcard basique" data-id="ruee_aceree" data-name="ruee aceree" onclick="selectSkill(this,'ruee_aceree')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Ruee_aceree/SungJinWoo_02_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Ruée acérée</div>
+        </div>
+
+        <div class="hcard basique" data-id="frappe_vitale" data-name="frappe vitale" onclick="selectSkill(this,'frappe_vitale')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Frappe_vitale/SungJinWoo_09_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Frappe vitale</div>
+        </div>
+
+        <div class="hcard basique" data-id="mutilation" data-name="mutilation" onclick="selectSkill(this,'mutilation')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Mutilation/SungJinWoo_04_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Mutilation</div>
+        </div>
+
+        <div class="hcard basique" data-id="danse_de_la_mort" data-name="danse de la mort" onclick="selectSkill(this,'danse_de_la_mort')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Danse_de_la_mort/SungJinWoo_06_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Danse de la mort</div>
+        </div>
+
+        <div class="hcard basique" data-id="frappe_fantome" data-name="frappe fantome" onclick="selectSkill(this,'frappe_fantome')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Frappe_fantome/SungJinWoo_19_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Frappe fantôme</div>
+        </div>
+
+        <div class="hcard basique" data-id="toucher_du_maitre" data-name="toucher du maitre" onclick="selectSkill(this,'toucher_du_maitre')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Toucher_du_maitre/SpiritSungJinWoo_LongSword_03_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Toucher du maître</div>
+        </div>
+
+        <div class="hcard basique" data-id="bris_d_armure" data-name="bris d armure" onclick="selectSkill(this,'bris_d_armure')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Bris_d_armure/SungJinWoo_07_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Bris d'armure</div>
+        </div>
+
+        <div class="hcard basique" data-id="flot_sonique" data-name="flot sonique" onclick="selectSkill(this,'flot_sonique')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Flot_sonique/SungJinWoo_15_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Flot sonique</div>
+        </div>
+
+        <div class="hcard basique" data-id="ruee_de_dague" data-name="ruee de dague" onclick="selectSkill(this,'ruee_de_dague')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Ruee_de_dague/SungJinWoo_16_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Ruée de dague</div>
+        </div>
+
+        <div class="hcard basique" data-id="poussee_perforante" data-name="poussee perforante" onclick="selectSkill(this,'poussee_perforante')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/Poussee_perforante/SungJinWoo_18_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Poussée perforante</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sec-q" id="sec-qte">
+      <div class="sec-title">Compétences QTE</div>
+      <div class="hex-grid" id="grid-qte">
+
+        <div class="hcard qte" data-id="foulee_de_l_ombre" data-name="foulee de l ombre" onclick="selectSkill(this,'foulee_de_l_ombre')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/QTE/Foulee_de_l_ombre/SungJinWoo_qte_03_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Foulée de l'ombre</div>
+        </div>
+
+        <div class="hcard qte" data-id="effondrement" data-name="effondrement" onclick="selectSkill(this,'effondrement')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/QTE/Effondrement/SungJinWoo_qte_02_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Effondrement</div>
+        </div>
+
+        <div class="hcard qte" data-id="mort" data-name="mort" onclick="selectSkill(this,'mort')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/QTE/Mort/SungJinWoo_qte_01_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>22</b></div><div class="hname">Mort</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sec-u" id="sec-ultime">
+      <div class="sec-title">Compétences ultimes</div>
+      <div class="hex-grid" id="grid-ultime">
+
+        <div class="hcard ultime" data-id="verite_mutilation" data-name="verite mutilation" onclick="selectSkill(this,'verite_mutilation')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/ultime/Verite_mutilation/SungJinWoo_ultimate_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>10</b></div><div class="hname">Vérité : Mutilation</div>
+        </div>
+
+        <div class="hcard ultime" data-id="ombre_tragedie" data-name="ombre tragedie" onclick="selectSkill(this,'ombre_tragedie')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/ultime/Ombre_tragedie/SungJinWoo_CRank_ultimate_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>10</b></div><div class="hname">Ombre : Tragédie</div>
+        </div>
+
+        <div class="hcard ultime" data-id="domaine_du_roi" data-name="domaine du roi" onclick="selectSkill(this,'domaine_du_roi')">
+          <div class="hex-wrap"><div class="hex-ring"></div><div class="hex-shape"><img src="Competence_sung/ultime/Domaine_du_roi/SungJinWoo_ultimate_03_Rune.png" alt=""/></div></div>
+          <div class="hex-dots"><div class="hdot on"></div><div class="hdot on"></div><div class="hdot on"></div><div class="hdot"></div><div class="hdot"></div></div>
+          <div class="hlevel">Niv. <b>25</b></div><div class="hname">Domaine du roi</div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CENTER -->
+  <div class="col-center">
+    <img class="char-img" src="img/306b8e7c848b449f87c3571b56670cbf_1770809650935.png" alt="Sung Jin-Woo"/>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="col-right" id="col-right">
+
+    <div id="detail-empty" class="detail-empty">
+      <div class="empty-icon">⚔</div>
+      <p>Sélectionne une compétence<br/>pour voir ses détails</p>
+    </div>
+
+    <div id="detail-filled" style="display:none;flex-direction:column;height:100%;overflow:hidden;">
+
+      <div class="detail-header">
+        <div class="detail-label">Détails de compétence</div>
+        <div class="detail-skill-row">
+          <div class="d-hex-wrap">
+            <div class="d-hex-ring" id="d-hex-ring"></div>
+            <div class="d-hex"><img id="d-hex-img" src="" alt=""/></div>
+            <img id="d-elem-badge" src="" alt="" class="d-elem-badge"/>
+            <img id="d-break-badge" src="img/Icon/Icon_Break.png" alt="" class="d-break-badge"/>
+          </div>
+          <div class="d-info">
+            <div class="d-level" id="d-level">Niv. <span>22</span></div>
+            <div class="d-name" id="d-name">—</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="detail-tabs">
+        <div class="dtab dtab-on-b" id="tab-comp">Compétences de base</div>
+      </div>
+
+      <div class="variant-selector" id="d-vs"></div>
+
+      <div class="detail-body" id="d-body"></div>
+
+
+
+    </div>
+  </div>
+
+</div>
+
+<script src="js/data_skills.js"></script>
+<script>
+// ── Bridge : convertit skillsData → SD en récupérant type/level depuis le DOM ──
+const SD = {};
+
+// Récupère type et level depuis les cartes HTML
+function buildSDFromSkillsData() {
+  document.querySelectorAll('.hcard[data-id]').forEach(card => {
+    const id = card.dataset.id;
+    if (!skillsData[id]) return;
+
+    // type : classe CSS basique / ultime / qte
+    const type = ['basique','ultime','qte'].find(t => card.classList.contains(t)) || 'basique';
+
+    // level : contenu du <b> dans .hlevel
+    const bEl = card.querySelector('.hlevel b');
+    const level = bEl ? parseInt(bEl.textContent) : 1;
+
+    const src = skillsData[id];
+    SD[id] = {
+      title: src.title,
+      type,
+      level,
+      variants: src.variants.map(v => ({
+        name:  v.name,
+        color: v.color,
+        img:   v.image,       // skillsData → "image", SD attend "img"
+        desc:  v.description  // skillsData → "description", SD attend "desc"
+      }))
+    };
+
+    // Rebuild hdots: number = variant count, only first dot lit by default
+    const dotsEl = card.querySelector('.hex-dots');
+    if (dotsEl) {
+      const count = SD[id].variants.length;
+      dotsEl.innerHTML = Array.from({length: count}, (_, i) =>
+        `<div class="hdot${i === 0 ? ' on' : ''}"></div>`
+      ).join('');
+    }
+  });
+}
+
+// Sera appelé après le DOM
+document.addEventListener('DOMContentLoaded', buildSDFromSkillsData);
+
+
+/* ── UI ── */
+const TC = {basique:'#4dd9e8',ultime:'#c084fc',qte:'#f59e0b'};
+const TL = {basique:'Compétences de base',ultime:'Compétence ultime',qte:'Compétence QTE'};
+let activeFilter='all', curCard=null;
+
+function filterItems(type,btn){
+  activeFilter=type;
+  document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
+}
+function applyFilters(){
+  const q=document.getElementById('search').value.toLowerCase();
+  ['basique','ultime','qte'].forEach(t=>{
+    const s=document.getElementById('sec-'+t);
+    if(s) s.style.display=(activeFilter==='all'||activeFilter===t)?'':'none';
+  });
+  document.querySelectorAll('.hcard').forEach(c=>{
+    const type=[...c.classList].find(cl=>['basique','ultime','qte'].includes(cl))||'';
+    const ok=(activeFilter==='all'||type===activeFilter)&&(c.dataset.name||'').includes(q);
+    c.classList.toggle('hidden',!ok);
+  });
+}
+
+// Retire le popup injecté dans la grille
+function removeCardPopup() {
+  const old = document.querySelector('.card-variant-popup');
+  if (old) old.remove();
+}
+
+function selectSkill(el, id) {
+  const skill = SD[id]; if (!skill) return;
+
+  // Si on reclique la même carte active → ferme popup et déselectionne
+  if (curCard === el && el.classList.contains('active-card')) {
+    el.classList.remove('active-card');
+    curCard = null;
+    removeCardPopup();
+    document.getElementById('detail-empty').style.display = 'flex';
+    document.getElementById('detail-filled').style.display = 'none';
+    return;
+  }
+
+  if (curCard) curCard.classList.remove('active-card');
+  el.classList.add('active-card'); curCard = el;
+
+  document.getElementById('detail-empty').style.display = 'none';
+  const f = document.getElementById('detail-filled');
+  f.style.display = 'flex';
+
+  const leftImg = el.querySelector('.hex-shape img').src;
+  document.getElementById('d-hex-img').src = leftImg;
+  document.getElementById('d-elem-badge').src = getElemImg(skill.variants[0].desc);
+  document.getElementById('d-break-badge').style.display = hasBris(skill.variants[0].desc) ? 'block' : 'none';
+  document.getElementById('d-hex-ring').style.background = TC[skill.type] + '66';
+  document.getElementById('d-level').innerHTML = `Niv. <span>${skill.level} (10+${skill.level-10})</span>`;
+  document.getElementById('d-name').textContent = skill.title;
+  document.getElementById('tab-comp').textContent = TL[skill.type];
+
+  removeCardPopup();
+  buildCardPopup(el, skill);
+  renderV(skill, 0);
+  updateCardDots(el, 0);
+}
+
+function getElemImg(desc){
+  // Détecte l'élément depuis la description
+  const d = desc || '';
+  if(/ténèbres/.test(d)) return 'img/Element/Dark_Element.png';
+  if(/feu/.test(d))      return 'img/Element/Fire_Element.png';
+  if(/lumière/.test(d))  return 'img/Element/Light_Element.png';
+  if(/eau/.test(d))      return 'img/Element/Water_Element.png';
+  if(/vent/.test(d))     return 'img/Element/Wind_Element.png';
+  return 'img/Element/No_Element.png';
+}
+
+function hasBris(desc){
+  // Détecte si la compétence inflige des dégâts de Bris
+  return /dégâts de Bris|Bris\s+(?:tout-puissants?|moyens?|légers?|lourds?)/i.test(desc || '');
+}
+
+function buildVS(skill) {
+  // Conservé vide — le sélecteur est maintenant dans buildCardPopup
+  const sel = document.getElementById('d-vs');
+  if (sel) sel.innerHTML = '';
+}
+
+// ── Met à jour les hdots d'une carte selon la variante sélectionnée ──
+function updateCardDots(cardEl, activeIdx) {
+  const dots = cardEl.querySelectorAll('.hdot');
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('on', i === activeIdx);
+  });
+}
+
+// ── Popup variantes sous la carte cliquée ──
+function buildCardPopup(cardEl, skill) {
+  if (skill.variants.length <= 1) return;
+
+  const leftImg = cardEl.querySelector('.hex-shape img').src;
+  const grid = cardEl.closest('.hex-grid');
+  if (!grid) return;
+
+  const popup = document.createElement('div');
+  popup.className = 'card-variant-popup';
+
+  // Calcule la position horizontale de la carte dans la grille pour orienter la flèche
+  const gridCells = [...grid.querySelectorAll('.hcard:not(.hidden)')];
+  const cardIndex = gridCells.indexOf(cardEl);
+  const col = cardIndex % 3; // 0=gauche, 1=centre, 2=droite
+  const arrowPos = col === 0 ? '18%' : col === 1 ? '50%' : '82%';
+  popup.style.setProperty('--arrow-pos', arrowPos);
+
+  // Trouver la dernière carte visible de la ligne → insérer le popup après elle
+  // Ainsi les cartes à droite de la carte cliquée restent visibles au-dessus
+  const rowStart = cardIndex - col;
+  const rowLastIndex = Math.min(rowStart + 2, gridCells.length - 1);
+  const lastCardInRow = gridCells[rowLastIndex];
+
+  // Taille adaptive selon le nombre de variantes
+  const count = skill.variants.length;
+  const hexW = count <= 3 ? 64 : count === 4 ? 56 : 48;
+  const hexH = Math.round(hexW * 1.155);
+
+  skill.variants.forEach((v, i) => {
+    const w = document.createElement('div');
+    w.className = 'vsb-wrap';
+
+    const b = document.createElement('div');
+    b.className = 'cvb' + (i === 0 ? ' cv-active' : '');
+    b.style.background = i === 0 ? v.color + '44' : 'rgba(255,255,255,0.08)';
+    b.style.width = hexW + 'px';
+    b.style.height = hexH + 'px';
+    b.innerHTML = `<img src="${leftImg}" alt=""/>`;
+
+    b.onclick = () => {
+      popup.querySelectorAll('.cvb').forEach(x => {
+        x.classList.remove('cv-active');
+        x.style.background = 'rgba(255,255,255,0.08)';
+      });
+      b.classList.add('cv-active');
+      b.style.background = v.color + '44';
+      renderV(skill, i);
+      document.getElementById('d-hex-img').src = leftImg;
+      document.getElementById('d-elem-badge').src = getElemImg(v.desc);
+      document.getElementById('d-break-badge').style.display = hasBris(v.desc) ? 'block' : 'none';
+      // Update hdots: only dot at index i is lit
+      updateCardDots(cardEl, i);
+    };
+
+    const eb = document.createElement('img');
+    eb.className = 'elem-badge'; eb.src = getElemImg(v.desc); eb.alt = '';
+
+    const bb = document.createElement('img');
+    bb.className = 'break-badge'; bb.src = 'img/Icon/Icon_Break.png'; bb.alt = '';
+    bb.style.display = hasBris(v.desc) ? 'block' : 'none';
+
+    w.appendChild(b); w.appendChild(eb); w.appendChild(bb);
+    popup.appendChild(w);
+  });
+
+  // Insère le popup après la dernière carte de la ligne (pas après la carte cliquée)
+  lastCardInRow.insertAdjacentElement('afterend', popup);
+}
+
+// ── Colorise une ligne de texte ──
+function colorizeLine(line) {
+  if (!line) return '';
+  let out = line;
+  out = out.replace(/\[([^\]]+)\]/g, `<span class="kw-green">[$1]</span>`);
+  out = out.replace(/(Bris\s+(?:tout-puissants?|moyens?|légers?|lourds?))/g, `<span class="kw-orange">$1</span>`);
+  out = out.replace(/(\d[\d.,]*\s*(?:%|seconde\(s\)|fois)(?=[\s,.)']|$))/g, m => `<span class="kw-gold">${m}</span>`);
+  // ── Colorisation des éléments ──
+  out = out.replace(/\b(ténèbres?)\b/gi, `<span class="elem-dark">$1</span>`);
+  out = out.replace(/\b(feu)\b/gi,       `<span class="elem-fire">$1</span>`);
+  out = out.replace(/\b(lumière)\b/gi,   `<span class="elem-light">$1</span>`);
+  out = out.replace(/\b(eau)\b/gi,       `<span class="elem-water">$1</span>`);
+  out = out.replace(/\b(vent)\b/gi,      `<span class="elem-wind">$1</span>`);
+  return out;
+}
+
+// ── Parse et rend une variante de compétence ──
+function renderV(skill, idx) {
+  const v = skill.variants[idx];
+  const body = document.getElementById('d-body');
+  body.innerHTML = '';
+
+  // Titre variante
+  const tr = document.createElement('div');
+  tr.className = 'vtitle-row';
+  tr.innerHTML = `<div class="vbar" style="background:${v.color}"></div><div class="vtitle" style="color:${v.color}">${v.name}</div>`;
+  body.appendChild(tr);
+
+  // ── 1. Découpage en "paragraphes" (séparés par <br><br> ou <br> seul) ──
+  // On normalise d'abord : remplacer <br><br> par un marqueur §§
+  const normalized = v.desc
+    .replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '§§')
+    .replace(/<br\s*\/?>/gi, '\n');
+
+  // Paragraphes = blocs séparés par §§
+  const paragraphs = normalized.split('§§').map(p => p.trim()).filter(Boolean);
+
+  // ── 2. On saute le 1er paragraphe (nom + rareté) ──
+  let pStart = 1;
+  // Si le 2ème paragraphe commence par une clé de stat, c'est le bloc stats
+  const statKeys = ['Dégâts', 'Temps de rechargement', "Condition d'utilisation", 'Consommation', 'Élément'];
+
+  // ── 3. Bloc stats : le paragraphe juste après le titre (lignes de stats) ──
+  let statsBlock = null;
+  let bodyStart = pStart;
+
+  if (paragraphs[pStart]) {
+    const lines = paragraphs[pStart].split('\n').map(l => l.trim()).filter(Boolean);
+    const allStats = lines.every(l => statKeys.some(k => l.startsWith(k)) || /^Inflige des dégâts/.test(l));
+    // Détection souple : au moins la 1ère ligne est une stat
+    if (lines.length > 0 && statKeys.some(k => lines[0].startsWith(k))) {
+      statsBlock = lines;
+      bodyStart = pStart + 1;
+    }
+  }
+
+  if (statsBlock) {
+    const sb = document.createElement('div');
+    sb.className = 'stat-block';
+    sb.innerHTML = statsBlock.map(l => {
+      let out = colorizeLine(l);
+      // Mettre le label en gras jusqu'au ":"
+      out = out.replace(/^([^:：]+[:：])/, (m, key) => `<span class="stat-key">${key}</span>`);
+      return `<div class="stat-line">${out}</div>`;
+    }).join('');
+    body.appendChild(sb);
+  }
+
+  // ── 4. Paragraphes de description + blocs d'effet ──
+  let mainDescLines = [];
+
+  for (let pi = bodyStart; pi < paragraphs.length; pi++) {
+    const para = paragraphs[pi].trim();
+    if (!para) continue;
+
+    const lines = para.split('\n').map(l => l.trim()).filter(Boolean);
+
+    // Détection bloc d'effet : 1ère ligne = [Keyword] seul
+    if (lines.length >= 1 && /^\[.+\]$/.test(lines[0])) {
+      // Flush les lignes de description en attente
+      if (mainDescLines.length > 0) {
+        const d = document.createElement('div');
+        d.className = 'desc-text';
+        d.innerHTML = mainDescLines.map(l => `<div class="desc-line">${colorizeLine(l)}</div>`).join('');
+        body.appendChild(d);
+        mainDescLines = [];
+      }
+
+      const headerName = lines[0].replace(/^\[|\]$/g, '');
+      const contentLines = lines.slice(1);
+
+      // Peut-être que la suite du bloc est dans le paragraphe suivant
+      // (cas : [Effet]<br><br>contenu<br><br>Durée : X)
+      // On collecte les paragraphes suivants jusqu'à un autre [Effet] ou fin
+      let allEffLines = [...contentLines];
+      while (pi + 1 < paragraphs.length) {
+        const nextPara = paragraphs[pi + 1].trim();
+        const nextLines = nextPara.split('\n').map(l => l.trim()).filter(Boolean);
+        // Si le paragraphe suivant est un autre bloc d'effet, on s'arrête
+        if (nextLines.length >= 1 && /^\[.+\]$/.test(nextLines[0])) break;
+        // Si c'est une ligne de "description normale" non-effect → on s'arrête aussi
+        // mais si c'est Durée ou une continuation d'effet → on l'inclut
+        const looksLikeEffectContent = nextLines.every(l =>
+          l.startsWith('Durée') || l.startsWith('Inflige') || l.startsWith('Augmente') ||
+          l.startsWith('Réduit') || l.startsWith('Interrompt') || l.startsWith('Lorsque') ||
+          /^\d/.test(l) || l.startsWith('Crée') || l.startsWith('Immobilise') || l.startsWith('Dissipe') ||
+          l.startsWith('Active') || l.startsWith('est dissipé')
+        );
+        if (looksLikeEffectContent) {
+          allEffLines.push(...nextLines);
+          pi++;
+        } else {
+          break;
+        }
+      }
+
+      const ef = document.createElement('div');
+      ef.className = 'effect-box';
+      const effBody = allEffLines.map(l => `<div class="eff-line">${colorizeLine(l)}</div>`).join('');
+      ef.innerHTML = `
+        <div class="eff-img-wrap"><div class="eff-icon-fallback">✦</div></div>
+        <div style="flex:1">
+          <div class="eff-name kw-green">[${headerName}]</div>
+          <div class="eff-desc">${effBody}</div>
+        </div>`;
+      body.appendChild(ef);
+
+    } else {
+      // Lignes de description normales
+      mainDescLines.push(...lines);
+    }
+  }
+
+  // Flush des lignes restantes
+  if (mainDescLines.length > 0) {
+    const d = document.createElement('div');
+    d.className = 'desc-text';
+    d.innerHTML = mainDescLines.map(l => `<div class="desc-line">${colorizeLine(l)}</div>`).join('');
+    body.appendChild(d);
+  }
+
+  if (v.effect) {
+    const ef = document.createElement('div');
+    ef.className = 'effect-box';
+    ef.innerHTML = `<div class="eff-icon">${v.effect.icon}</div><div><div class="eff-name">${v.effect.name}</div><div class="eff-desc">${v.effect.desc}</div></div>`;
+    body.appendChild(ef);
+  }
+}
+</script>
+</body>
+</html>

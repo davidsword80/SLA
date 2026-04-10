@@ -13,28 +13,40 @@ huntersData["nam-chae-young"] = {
     weaponName: "Miséricorde du tueur",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Les dégâts infligés aux cibles affectées par l'effet <span class="buff">[Gel]</span> augmentent de <span class="stat-boost">20%</span>.<br></p>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>L'efficacité de <span class="buff">[Bris]</span> de l'utilisateur augmente de <span class="stat-boost">20%</span>.<br></p>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">6 %</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Augmente les dégâts de <strong>Flèche détonatrice</strong> de <span class="stat-boost">80%</span>.<br></p>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Augmente la portée de l'explosion de <strong>K63 - Grenade de glace</strong>, <strong>Percée glaçante</strong> et <strong>Sommet de l'iceberg</strong> de <span class="stat-boost">20%</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>La durée de l'effet <span class="buff">[Gel]</span> de <strong>K63 - Grenade de glace</strong>, <strong>Sommet de l'iceberg</strong> et <strong>Flèche détonatrice</strong> passe à 3 seconds.<br></p>
+        </div>
     `
     },
     summaryData: {
@@ -92,28 +104,40 @@ huntersData["lee-juhee"] = {
     weaponName: "Ce qui n'a jamais été",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Augmente les PV de l'utilisateur et des membres de l'équipe de <span class="stat-boost">8%</span>.<br></p>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Le Taux de récupération des PV reçus de Juhee augmente de <span class="stat-boost">20%</span>.<br></p>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">6 %</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Juhee et ses coéquipiers récupèrent 400 de leur mana lorsque Juhee utilise <strong>Cercle de guérison</strong>.<br></p>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Augmente le Taux de récupération naturel du mana de <span class="stat-boost">50%</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p><strong>Cercle de guérison</strong> s'active lorsque Juhee quitte le combat et son temps de rechargement se réinitialise (temps de rechargement: 35 seconde(s)).<br></p>
+        </div>
     `
     },
     summaryData: {
@@ -173,10 +197,13 @@ huntersData["han-songyi"] = {
     weaponName: "Premières fleurs",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Les dégâts de l'arme de l'ombre récupérée augmentent de <span class="stat-boost">30%</span> lorsque Songyi utilise la compétence <strong>Récupération</strong> sur les cibles <span class="buff">[empoisonnées]</span>.<br></p>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Lors de l'utilisation de la compétence <strong>Récupération</strong>, un <span class="buff">[Bouclier]</span> est appliqué.<br></p>
         <div class="detail-box">
@@ -184,23 +211,32 @@ huntersData["han-songyi"] = {
             <p>Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">15%</span> de l'Attaque de l'utilisateur.<br>
             Durée: 3 seconde(s)</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Le Taux de coup critique et les Dégâts de coup critique de Songyi augmentent de <span class="stat-boost">5%</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Modification des effets de la compétence <strong>Vol prompt</strong>.<br>
         Le nombre d'armes de l'ombre lancées augmente de 3.<br></p>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">6%</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Le temps de rechargement des compétences <strong>Vol prompt</strong> et <strong>Récupération</strong> se réinitialise en utilisant <strong>Rakshasa</strong>.<br></p>
+        </div>
     `
     },
     summaryData: {
@@ -260,6 +296,7 @@ huntersData["anna-ruiz"] = {
     weaponName: "Vagabon Solitaire",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Lorsque l'une des compétences d'Anna touche sa cible, a 6% de chances d'infliger <span class="buff">[Poison corrosif]</span>.<br></p>
         <div class="detail-box">
@@ -268,8 +305,10 @@ huntersData["anna-ruiz"] = {
             Inflige des dégâts équivalents à <span class="stat-boost">30%</span> de l'Attaque toutes les 3 seconde(s) (cumulable jusqu'à 10 fois).<br>
             Durée: 30 seconde(s)</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Les ennemis se trouvant dans la <span class="buff">[Zone toxique]</span> se voient infliger l'effet <span class="buff">[Entrave]</span> 1 fois.<br></p>
         <div class="detail-box">
@@ -277,12 +316,16 @@ huntersData["anna-ruiz"] = {
             <p>Immobilise la cible.<br>
             Durée: 1.5 seconde(s)</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>Augmente les dégâts de Bris de l'utilisateur de <span class="stat-boost">10%</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Applique <span class="buff">[Poison corrosif amélioré]</span> et réduit la Défense de la cible.<br></p>
         <div class="detail-box">
@@ -292,14 +335,19 @@ huntersData["anna-ruiz"] = {
             Réduit la défense de <span class="stat-boost">1%</span> (cumulable jusqu'à 10 fois).<br>
             Durée: 30 seconde(s)</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">10%</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Augmente les dégâts de <strong>Vague venimeuse</strong> de <span class="stat-boost">100%</span>.<br></p>
+        </div>
     `
     },
     summaryData: {
@@ -356,16 +404,16 @@ huntersData["alicia-blanche"] = {
     weaponImage: "Chasseurs_SSR/eau/Alicia_blanche/sorciere_des_glaces/Relic_AliciaBlanchet_PortraitBig.png", 
     weaponName: "Sorcière des glaces",
     fullData: {
-        0: `<h3>Passif :</h3><p>Lorsqu'elles sont lancées, les compétences <strong>Givre éternel</strong>, <strong>Tempête hivernale</strong> ou <strong>Aiguille de glace</strong> appliquent l'effet <span class="buff">[Gel]</span> à l'utilisateur, ce qui active la modification de son <span class="buff">[Givre]</span> Attaque de noyau.<br>L'Attaque de noyau de l'utilisateur devient <strong>Lance de froid glacial</strong>.<br>L'utilisation de Lance de froid glacial consomme des instances de <span class="buff">[Givre]</span> (jusqu'à 3 instances à la fois).<br>Les dégâts de Lance de froid glacial augmentent de <span class="stat-boost">60%</span> par instance de <span class="buff">[Givre]</span> consommée (augmentant jusqu'à <span class="stat-boost">180%</span>).<br>Durée: permanent (cumulable jusqu'à 5 fois)</p>`,
-        1: `<h3>Avancement 1 étoile :</h3><p>Le taux de coup critique de <strong>Lance de froid glacial</strong> augmente de <span class="stat-boost">10%</span>.<br>Lorsque l'utilisateur touche sa cible avec <strong>Lance de froid glacial</strong>, les dégâts de l'Attaque de noyau augmentent de <span class="stat-boost">5%</span> pendant 15 seconde(s) (cumulable jusqu'à 4 fois).</p>`,
+        0: `<h3>Passif :</h3><p>Lorsqu'elles sont lancées, les compétences <strong>Givre éternel</strong>, <strong>Tempête hivernale</strong> ou <strong>Aiguille de glace</strong> appliquent l'effet <span class="buff">[Gel]</span> à l'utilisateur, ce qui active la modification de son <span class="buff">[Givre]</span> <span class="keyword-orange">attaque de noyau</span>.<br>L'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur devient <strong>Lance de froid glacial</strong>.<br>L'utilisation de Lance de froid glacial consomme des instances de <span class="buff">[Givre]</span> (jusqu'à 3 instances à la fois).<br>Les dégâts de Lance de froid glacial augmentent de <span class="stat-boost">60%</span> par instance de <span class="buff">[Givre]</span> consommée (augmentant jusqu'à <span class="stat-boost">180%</span>).<br>Durée: permanent (cumulable jusqu'à 5 fois)</p>`,
+        1: `<h3>Avancement 1 étoile :</h3><p>Le taux de coup critique de <strong>Lance de froid glacial</strong> augmente de <span class="stat-boost">10%</span>.<br>Lorsque l'utilisateur touche sa cible avec <strong>Lance de froid glacial</strong>, les dégâts de l'<span class="keyword-orange">attaque de noyau</span> augmentent de <span class="stat-boost">5%</span> pendant 15 seconde(s) (cumulable jusqu'à 4 fois).</p>`,
         2: `<h3>Avancement 2 étoiles :</h3><p>Les dégâts d'eau augmentent de <span class="stat-boost">10%</span>.<br></p>`,
         3: `<h3>Avancement 3 étoiles :</h3><p>Lorsque l'effet <span class="buff">[Armure de givre]</span> est activé, l'utilisateur récupère <span class="stat-boost">5%</span> de ses PM max.<br>L'Attaque augmente de <span class="stat-boost">10%</span> tant que l'effet <span class="buff">[Armure de givre]</span> est actif.</p>`,
-        4: `<h3>Avancement 4 étoiles :</h3><p>Les dégâts de l'attaque de noyau augmentent de <span class="stat-boost">15%</span>.<br></p>`,
+        4: `<h3>Avancement 4 étoiles :</h3><p>Les dégâts de l'<span class="keyword-orange">attaque de noyau</span> augmentent de <span class="stat-boost">15%</span>.<br></p>`,
         5: `<h3>Avancement 5 étoiles :</h3><p>Augmente le nombre maximum de cumuls de <span class="buff">[Givre]</span> de 2.<br>Lorsque l'effet <span class="buff">[Armure de givre]</span> est activé, les dégâts d'eau augmentent de <span class="stat-boost">20%</span> pendant 20 seconde(s).</p>`
     },
     weaponData: {
-        0: `<h3>Effet de l'arme :</h3><p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">2%</span>.<br>Lorsque l'utilisateur touche sa cible avec une Attaque de noyau, les dégâts de l'Attaque de noyau augmentent de <span class="stat-boost">5%</span> pendant 20 seconde(s) (Temps de rechargement: 30 seconde(s))</p>`,
-        1: `<h3>Avancement 5 étoiles (Arme) :</h3><p>Les dégâts de l'Attaque de noyau de l'utilisateur augmentent de <span class="stat-boost">40%</span>.<br>Lorsque l'effet <span class="buff">[Armure de givre]</span> s'active, les dégâts d'eau augmentent de <span class="stat-boost">20%</span> pendant 20 seconde(s).<br>(Temps de rechargement: 30 seconde(s))</p>`,
+        0: `<h3>Effet de l'arme :</h3><p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">2%</span>.<br>Lorsque l'utilisateur touche sa cible avec une <span class="keyword-orange">attaque de noyau</span>, les dégâts de l'<span class="keyword-orange">attaque de noyau</span> augmentent de <span class="stat-boost">5%</span> pendant 20 seconde(s) (Temps de rechargement: 30 seconde(s))</p>`,
+        1: `<h3>Avancement 5 étoiles (Arme) :</h3><p>Les dégâts de l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur augmentent de <span class="stat-boost">40%</span>.<br>Lorsque l'effet <span class="buff">[Armure de givre]</span> s'active, les dégâts d'eau augmentent de <span class="stat-boost">20%</span> pendant 20 seconde(s).<br>(Temps de rechargement: 30 seconde(s))</p>`,
         2: `<h3>Avancement 10 étoiles :</h3><p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>`
     }
 };
@@ -413,23 +461,23 @@ huntersData["meilin-fisher"] = {
     weaponName: "Contre toute attente",
     fullData: {
         0: `<h3>Passif :</h3><p>Lorsque les compétences <strong>Retour de fouet</strong> ou <strong>Ruade féline</strong> touchent leur cible, elles leur infligent l'effet <span class="buff">[Étreinte liquide]</span>.<br>Lors de l'utilisation des compétences <strong>Fouet latéral</strong> ou <strong>Au-dessus!</strong> ou si l'utilisatrice quitte le combat, l'effet <span class="buff">[Salut, miaou!]</span> s'applique à tous les membres de l'équipe.<br></p><div class="detail-box"><h4><span class="buff">[Étreinte liquide]</span></h4><p>Augmente les dégâts d'eau subis de <span class="stat-boost">8%</span>.<br>Durée: 16 seconde(s)<br></p></div><div class="detail-box"><h4><span class="buff">[Salut, miaou!]</span></h4><p>L'Attaque augmente de <span class="stat-boost">8%</span>.<br>La Défense augmente de <span class="stat-boost">8%</span>.<br>Durée: 16 seconde(s) (cumulable jusqu'à 3 fois)</p></div>`,
-        1: `<h3>1 étoile :</h3><p>Augmente les dégâts de la compétence <strong>Au-dessus!</strong> de <span class="stat-boost">64%</span>.<br>Lors de l'utilisation de la compétence <strong>Au-dessus!</strong>, l'effet <span class="buff">[Serviteur félin]</span> s'applique à l'allié ayant l'Attaque la plus élevée.<br>Amélioration de l'effet <span class="buff">[Trop mignon!]</span><br></p><div class="detail-box"><h4><span class="buff">[Serviteur félin]</span></h4><p>Meilin Fisher encaisse <span class="stat-boost">64%</span> de dégâts lorsque l'utilisateur subit directement des dégâts.<br>Octroie l'effet <span class="buff">[Super armure]</span>.<br>Durée: 8 seconde(s)<br>([Serviteur félin] ne peut s'appliquer à Sung Jinwoo et Meilin Fisher ne subit pas de dégâts continus ou de dégâts dus à certains effets d'autres membres de l'équipe.)<br></p></div><div class="detail-box"><h4><span class="buff">[Trop mignon!]</span></h4><p>Augmente les dégâts des Attaques de noyau de <span class="stat-boost">32%</span>.<br>Durée: 8 seconde(s)</p></div>`,
-        2: `<h3>2 étoiles :</h3><p>L'Attaque et la Défense de tous les membres de l'équipe augmentent de <span class="stat-boost">8%</span>.<br>L'Attaque et la Défense de tous les membres de l'équipe de l'élément Eau augmentent de <span class="stat-boost">8%</span>.<br></p>`,
+        1: `<h3>1 étoile :</h3><p>Augmente les dégâts de la compétence <strong>Au-dessus!</strong> de <span class="stat-boost">64%</span>.<br>Lors de l'utilisation de la compétence <strong>Au-dessus!</strong>, l'effet <span class="buff">[Serviteur félin]</span> s'applique à l'allié ayant l'Attaque la plus élevée.<br>Amélioration de l'effet <span class="buff">[Trop mignon!]</span><br></p><div class="detail-box"><h4><span class="buff">[Serviteur félin]</span></h4><p>Meilin Fisher encaisse <span class="stat-boost">64%</span> de dégâts lorsque l'utilisateur subit directement des dégâts.<br>Octroie l'effet <span class="buff">[Super armure]</span>.<br>Durée: 8 seconde(s)<br>([Serviteur félin] ne peut s'appliquer à Sung Jinwoo et Meilin Fisher ne subit pas de dégâts continus ou de dégâts dus à certains effets d'autres membres de l'équipe.)<br></p></div><div class="detail-box"><h4><span class="buff">[Trop mignon!]</span></h4><p>Augmente les dégâts des <span class="keyword-orange">attaques de noyau</span> de <span class="stat-boost">32%</span>.<br>Durée: 8 seconde(s)</p></div>`,
+        2: `<h3>2 étoiles :</h3><p>L'Attaque et la Défense de tous les membres de l'équipe augmentent de <span class="stat-boost">8%</span>.<br>L'Attaque et la Défense de tous les membres de l'équipe de l'élément <span class="element-eau">Eau</span> augmentent de <span class="stat-boost">8%</span>.<br></p>`,
         3: `<h3>3 étoiles :</h3><p>Lorsque <strong>Retour de fouet</strong> touche sa cible, les jauges de puissance de tous les membres de l'équipe se remplissent de <span class="stat-boost">8%</span>.<br>Lorsque <strong>Retour de fouet</strong> touche un monstre Élite ou supérieur, les jauges de puissance de tous les membres de l'équipe se remplissent de <span class="stat-boost">8%</span>.<br></p>`,
         4: `<h3>4 étoiles :</h3><p>Les PV de l'utilisatrice augmentent de <span class="stat-boost">8%</span>.<br></p>`,
-        5: `<h3>5 étoiles :</h3><p>Amélioration des effets de <span class="buff">[Remonté à bloc!]</span><br></p><div class="detail-box"><h4><span class="buff">[Remonté à bloc !]</span></h4><p>Augmente l'Attaque de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Augmente la Défense de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Augmente le Taux de coup critique de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Augmente les dégâts des Attaques de noyau de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Réduit les dégâts subis par l'utilisatrice de <span class="stat-boost">16%</span>.<br>Durée: 24 seconde(s).<br></p></div>`
+        5: `<h3>5 étoiles :</h3><p>Amélioration des effets de <span class="buff">[Remonté à bloc!]</span><br></p><div class="detail-box"><h4><span class="buff">[Remonté à bloc !]</span></h4><p>Augmente l'Attaque de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Augmente la Défense de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Augmente le Taux de coup critique de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Augmente les dégâts des <span class="keyword-orange">attaques de noyau</span> de l'utilisatrice de <span class="stat-boost">16%</span>.<br>Réduit les dégâts subis par l'utilisatrice de <span class="stat-boost">16%</span>.<br>Durée: 24 seconde(s).<br></p></div>`
     },
     summaryData: {
-        0: `<h3>Passif : Soutien Félin</h3><p>Compétences offensives = <span class="buff">[Étreinte liquide]</span> (Cible : Dégâts Eau +8%).<br>Soutien / Switch = <span class="buff">[Salut, miaou!]</span> (Équipe : Atk/Def +8%).</p>`,
+        0: `<h3>Passif : Soutien Félin</h3><p>Compétences offensives = <span class="buff">[Étreinte liquide]</span> (Cible : Dégâts <span class="element-eau">Eau</span> +8%).<br>Soutien / Switch = <span class="buff">[Salut, miaou!]</span> (Équipe : Atk/Def +8%).</p>`,
         1: `<h3>1 étoile</h3><p>Au-dessus! : Dégâts <span class="stat-boost">+64%</span> + <span class="buff">[Serviteur félin]</span> sur DPS (Partage dégâts + Super Armure).<br>[Trop mignon!] : Dégâts Attaque Noyau <span class="stat-boost">+32%</span>.</p>`,
-        2: `<h3>2 étoiles</h3><p>Atk/Def Équipe <span class="stat-boost">+8%</span> (Doublé si élément Eau).</p>`,
+        2: `<h3>2 étoiles</h3><p>Atk/Def Équipe <span class="stat-boost">+8%</span> (Doublé si élément <span class="element-eau">Eau</span>).</p>`,
         3: `<h3>3 étoiles</h3><p>Retour de fouet : Remplissage Jauge Puissance Équipe <span class="stat-boost">+8%</span> (ou plus sur Élite).</p>`,
         4: `<h3>4 étoiles</h3><p>PV <span class="stat-boost">+8%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>[Remonté à bloc!] amélioré : Boost complet stats perso (Atk, Def, Crit, Noyau, Res) de <span class="stat-boost">16%</span>.</p>`
     },
     weaponData: {
-        0: `<h3>Avancement 0 :</h3><p>Lors de l'utilisation de la compétence <strong>Fouet latéral</strong>, les dégâts du membre de l'équipe ayant l'Attaque la plus élevée augmentent de <span class="stat-boost">1%</span> tous les 2000 de PV max de Meilin Fisher pendant 12 seconde(s) (avec un taux d'augmentation maximal des dégâts de <span class="stat-boost">6 %</span>).<br>Réduit le temps de rechargement de la Compétence ultime de <span class="stat-boost">5%</span>.<br></p>`,
-        1: `<h3>Avancement 5 étoiles :</h3><p>Lors de l'utilisation de la compétence <strong>Fouet latéral</strong>, les dégâts du membre de l'équipe ayant l'Attaque la plus élevée augmentent de <span class="stat-boost">1%</span> tous les 2000 de PV max de Meilin Fisher pendant 12 seconde(s) (avec un taux d'augmentation maximal des dégâts de <span class="stat-boost">16%</span>).<br>Réduit le temps de rechargement de la Compétence ultime de <span class="stat-boost">20 %</span>.<br></p>`,
+        0: `<h3>Avancement 0 :</h3><p>Lors de l'utilisation de la compétence <strong>Fouet latéral</strong>, les dégâts du membre de l'équipe ayant l'Attaque la plus élevée augmentent de <span class="stat-boost">1%</span> tous les 2000 de PV max de Meilin Fisher pendant 12 seconde(s) (avec un taux d'augmentation maximal des dégâts de <span class="stat-boost">6 %</span>).<br>Réduit le temps de rechargement de la <span class="keyword-orange">compétence ultime</span> de <span class="stat-boost">5%</span>.<br></p>`,
+        1: `<h3>Avancement 5 étoiles :</h3><p>Lors de l'utilisation de la compétence <strong>Fouet latéral</strong>, les dégâts du membre de l'équipe ayant l'Attaque la plus élevée augmentent de <span class="stat-boost">1%</span> tous les 2000 de PV max de Meilin Fisher pendant 12 seconde(s) (avec un taux d'augmentation maximal des dégâts de <span class="stat-boost">16%</span>).<br>Réduit le temps de rechargement de la <span class="keyword-orange">compétence ultime</span> de <span class="stat-boost">20 %</span>.<br></p>`,
         2: `<h3>Avancement 10 étoiles :</h3><p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>`
     }
 };
@@ -444,19 +492,19 @@ huntersData["meri-laine"] = {
     weaponImage: "Chasseurs_SSR/eau/Meri_laine/brise_hiver/Relic_Relic_MeriLaine_PortraitBig.png", 
     weaponName: "Brise-hiver",
     fullData: {
-        0: `<h3>Passif :</h3><p>L'effet <span class="buff">[Mode Pingqueen normale]</span> s'active au début du niveau.<br>La jauge de puissance de l'utilisatrice ne peut pas se remplir, mais si la jauge de <span class="buff">[Boost de Pingqueen]</span> atteint 100%, l'utilisatrice récupère 100% de sa jauge de puissance, et le temps de recharge d'<strong>Élan glacial</strong> est réinitialisé.<br>Lorsque <strong>Ruade grinçante</strong> touche sa cible, elle lui applique 1 cumuls de l'effet <span class="buff">[Froid hivernal]</span>.<br>Lorsque la compétence <strong>Claque montante</strong> touche une cible affectée par <span class="buff">[Froid hivernal]</span>, l'effet <span class="buff">[Souvenirs d'hiver]</span> est activé.<br></p><div class="detail-box"><h4><span class="buff">[Mode Pingqueen normale]</span></h4><p>Chaque fois que les compétences <strong>Claque montante</strong> ou <strong>Balayage de lame</strong> touchent leur cible, elles remplissent la jauge de <span class="buff">[Boost de Pingqueen]</span>.<br>L'utilisation de la compétence <strong>Élan glacial</strong> supprime l'effet <span class="buff">[Mode Pingqueen normale]</span> et active l'effet <span class="buff">[Mode Pingqueen boostée]</span>.<br>Durée : illimitée</p></div><div class="detail-box"><h4><span class="buff">[Mode Pingqueen boostée]</span></h4><p>La compétence <strong>Balayage de lame</strong> devient <strong>Balayage enragé</strong>, et son temps de recharge est réinitialisé.<br>L'utilisatrice peut bouger lors de l'utilisation de la compétence <strong>Balayage enragé</strong>.<br>Augmente les dégâts infligés par les compétences <strong>Balayage de lame</strong> et <strong>Élan glacial</strong> aux cibles affectées par <span class="buff">[Froid hivernal]</span> de 25%.<br>Augmente l'effet d' <span class="buff">[Accumulation élémentaire]</span> d'Eau de 5%.<br>Confère <span class="buff">[Super armure]</span> à l'utilisatrice jusqu'à la fin de l'activation.<br>Active l'effet <span class="buff">[Mode Pingqueen normale]</span> à la fin de l'activation.<br>Durée : 10 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Souvenirs d'hiver]</span></h4><p>Augmente les dégâts d'eau de 15%.<br>Augmente les dégâts des compétences <strong>Balayage de lame</strong> et <strong>Balayage enragé</strong> de 15%.<br>Durée : 30 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Froid hivernal]</span></h4><p>Inflige des dégâts équivalents à 50% des PV max de Meri Laine toutes les 3 secondes.<br>Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p></div>`,
+        0: `<h3>Passif :</h3><p>L'effet <span class="buff">[Mode Pingqueen normale]</span> s'active au début du niveau.<br>La jauge de puissance de l'utilisatrice ne peut pas se remplir, mais si la jauge de <span class="buff">[Boost de Pingqueen]</span> atteint 100%, l'utilisatrice récupère 100% de sa jauge de puissance, et le temps de recharge d'<strong>Élan glacial</strong> est réinitialisé.<br>Lorsque <strong>Ruade grinçante</strong> touche sa cible, elle lui applique 1 cumuls de l'effet <span class="buff">[Froid hivernal]</span>.<br>Lorsque la compétence <strong>Claque montante</strong> touche une cible affectée par <span class="buff">[Froid hivernal]</span>, l'effet <span class="buff">[Souvenirs d'hiver]</span> est activé.<br></p><div class="detail-box"><h4><span class="buff">[Mode Pingqueen normale]</span></h4><p>Chaque fois que les compétences <strong>Claque montante</strong> ou <strong>Balayage de lame</strong> touchent leur cible, elles remplissent la jauge de <span class="buff">[Boost de Pingqueen]</span>.<br>L'utilisation de la compétence <strong>Élan glacial</strong> supprime l'effet <span class="buff">[Mode Pingqueen normale]</span> et active l'effet <span class="buff">[Mode Pingqueen boostée]</span>.<br>Durée : illimitée</p></div><div class="detail-box"><h4><span class="buff">[Mode Pingqueen boostée]</span></h4><p>La compétence <strong>Balayage de lame</strong> devient <strong>Balayage enragé</strong>, et son temps de recharge est réinitialisé.<br>L'utilisatrice peut bouger lors de l'utilisation de la compétence <strong>Balayage enragé</strong>.<br>Augmente les dégâts infligés par les compétences <strong>Balayage de lame</strong> et <strong>Élan glacial</strong> aux cibles affectées par <span class="buff">[Froid hivernal]</span> de 25%.<br>Augmente l'effet d' <span class="buff">[Accumulation élémentaire]</span> d'<span class="element-eau">Eau</span> de 5%.<br>Confère <span class="buff">[Super armure]</span> à l'utilisatrice jusqu'à la fin de l'activation.<br>Active l'effet <span class="buff">[Mode Pingqueen normale]</span> à la fin de l'activation.<br>Durée : 10 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Souvenirs d'hiver]</span></h4><p>Augmente les dégâts d'eau de 15%.<br>Augmente les dégâts des compétences <strong>Balayage de lame</strong> et <strong>Balayage enragé</strong> de 15%.<br>Durée : 30 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Froid hivernal]</span></h4><p>Inflige des dégâts équivalents à 50% des PV max de Meri Laine toutes les 3 secondes.<br>Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p></div>`,
         1: `<h3>1 étoile :</h3><p>Lorsque la compétence <strong>Ruade grinçante</strong> touche une cible, elle lui applique 2 cumuls de <span class="buff">[Froid hivernal]</span>.<br>Chaque fois que les compétences <strong>Balayage de lame</strong> ou <strong>Balayage enragé</strong> touchent une cible affectée par <span class="buff">[Froid hivernal]</span>, l'effet <span class="buff">[Gel du sang]</span> est activé.<br>Augmente considérablement la Vitesse d'attaque des compétences <strong>Balayage de lame</strong> et <strong>Balayage enragé</strong>.<br>Augmente de 25% le nombre d'utilisations possibles de la compétence <strong>Balayage enragé</strong>.<br></p><div class="detail-box"><h4><span class="buff">[Gel de sang]</span></h4><p>Augmente les dégâts d'eau subis de 0.6%.<br>Augmente les dégâts de Surcharge d'eau subis de 0.6%.<br>Durée : 30 seconde(s) (cumulable jusqu'à 70 fois).</p></div>`,
         2: `<h3>2 étoiles :</h3><p>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> d'eau de 20%.</p>`,
-        3: `<h3>3 étoiles :</h3><p>L'effet <span class="buff">[Souvenirs d'hiver]</span> est amélioré.<br>L'utilisation de la compétence <strong>Élan glacial</strong> active l'effet <span class="buff">[Glace façon Pingqueen]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Souvenirs d'hiver] (Amélioré)</span></h4><p>Augmente les dégâts d'eau de 30%.<br>Augmente les dégâts des compétences <strong>Balayage de lame</strong> et <strong>Balayage enragé</strong> de 30%.<br>Durée : 30 seconde(s).</p></div><div class="detail-box"><h4><span class="buff">[Glace façon Pingqueen]</span></h4><p>Augmente les dégâts infligés aux cibles affectées par <span class="buff">[Froid hivernal]</span> de 20%.<br>Augmente les dégâts de Surcharge d'eau de 10%.<br>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> d'Eau de 10%.<br>Durée : 30 seconde(s).</p></div>`,
-        4: `<h3>4 étoiles :</h3><p>La Pénétration de défense des membres de l'équipe de l'élément Eau augmente de 5% par membre de l'élément Eau présent dans le groupe.</p>`,
-        5: `<h3>5 étoiles :</h3><p>L'effet <span class="buff">[Mode Pingqueen boostée]</span> est amélioré.<br>L'effet <span class="buff">[Gel de sang]</span> est amélioré.<br>Lorsque la compétence <strong>Balayage enragé</strong> touche sa cible, elle lui applique 3 cumuls de <span class="buff">[Froid hivernal]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Mode Pingqueen boostée] (Amélioré)</span></h4><p>Balayage de lame devient Balayage enragé et le temps de recharge est réinitialisé.<br>L'utilisatrice peut bouger pendant l'utilisation de la compétence Balayage enragé.<br>Les dégâts des compétences Balayage de lame et Balayage enragé infligés aux cibles affectées par <span class="buff">[Froid hivernal]</span> augmentent de 50%.<br>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> d'Eau de 10%.<br>Confère à l'utilisatrice <span class="buff">[Super armure]</span> tant que l'effet est actif.<br>Active l'effet <span class="buff">[Mode Pingqueen normale]</span> à la fin de l'effet.<br>Durée : 10 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Gel de sang] (Amélioré)</span></h4><p>Augmente les dégâts d'eau subis de 1%.<br>Augmente les dégâts de Surcharge d'eau subis de 1%.<br>Durée : 45 seconde(s) (cumulable jusqu'à 70 fois)</p></div><div class="detail-box"><h4><span class="buff">[Froid hivernal]</span></h4><p>Inflige des dégâts équivalents à 50% des PV max de l'utilisatrice toutes les 3 secondes.<br>Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p></div>`
+        3: `<h3>3 étoiles :</h3><p>L'effet <span class="buff">[Souvenirs d'hiver]</span> est amélioré.<br>L'utilisation de la compétence <strong>Élan glacial</strong> active l'effet <span class="buff">[Glace façon Pingqueen]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Souvenirs d'hiver] (Amélioré)</span></h4><p>Augmente les dégâts d'eau de 30%.<br>Augmente les dégâts des compétences <strong>Balayage de lame</strong> et <strong>Balayage enragé</strong> de 30%.<br>Durée : 30 seconde(s).</p></div><div class="detail-box"><h4><span class="buff">[Glace façon Pingqueen]</span></h4><p>Augmente les dégâts infligés aux cibles affectées par <span class="buff">[Froid hivernal]</span> de 20%.<br>Augmente les dégâts de Surcharge d'eau de 10%.<br>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> d'<span class="element-eau">Eau</span> de 10%.<br>Durée : 30 seconde(s).</p></div>`,
+        4: `<h3>4 étoiles :</h3><p>La Pénétration de défense des membres de l'équipe de l'élément <span class="element-eau">Eau</span> augmente de 5% par membre de l'élément <span class="element-eau">Eau</span> présent dans le groupe.</p>`,
+        5: `<h3>5 étoiles :</h3><p>L'effet <span class="buff">[Mode Pingqueen boostée]</span> est amélioré.<br>L'effet <span class="buff">[Gel de sang]</span> est amélioré.<br>Lorsque la compétence <strong>Balayage enragé</strong> touche sa cible, elle lui applique 3 cumuls de <span class="buff">[Froid hivernal]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Mode Pingqueen boostée] (Amélioré)</span></h4><p>Balayage de lame devient Balayage enragé et le temps de recharge est réinitialisé.<br>L'utilisatrice peut bouger pendant l'utilisation de la compétence Balayage enragé.<br>Les dégâts des compétences Balayage de lame et Balayage enragé infligés aux cibles affectées par <span class="buff">[Froid hivernal]</span> augmentent de 50%.<br>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> d'<span class="element-eau">Eau</span> de 10%.<br>Confère à l'utilisatrice <span class="buff">[Super armure]</span> tant que l'effet est actif.<br>Active l'effet <span class="buff">[Mode Pingqueen normale]</span> à la fin de l'effet.<br>Durée : 10 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Gel de sang] (Amélioré)</span></h4><p>Augmente les dégâts d'eau subis de 1%.<br>Augmente les dégâts de Surcharge d'eau subis de 1%.<br>Durée : 45 seconde(s) (cumulable jusqu'à 70 fois)</p></div><div class="detail-box"><h4><span class="buff">[Froid hivernal]</span></h4><p>Inflige des dégâts équivalents à 50% des PV max de l'utilisatrice toutes les 3 secondes.<br>Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p></div>`
     },
     summaryData: {
         0: `<h3>Passif : Mode Pingqueen</h3><p>Mécanique de jauge [Boost] pour reset l'Ultime. Applique [Froid hivernal] (DoT PV max) et [Souvenirs d'hiver].</p>`,
-        1: `<h3>1 étoile</h3><p>Plus de cumuls de Froid. Active [Gel du sang] (Dégâts Eau subis +0.6%). Boost Balayage enragé.</p>`,
-        2: `<h3>2 étoiles</h3><p>Accumulation élémentaire Eau +20%.</p>`,
+        1: `<h3>1 étoile</h3><p>Plus de cumuls de Froid. Active [Gel du sang] (Dégâts <span class="element-eau">Eau</span> subis +0.6%). Boost Balayage enragé.</p>`,
+        2: `<h3>2 étoiles</h3><p>Accumulation élémentaire <span class="element-eau">Eau</span> +20%.</p>`,
         3: `<h3>3 étoiles</h3><p>Buff Souvenirs d'hiver (30%). Ajoute [Glace façon Pingqueen] (Dégâts vs Froid +20%).</p>`,
-        4: `<h3>4 étoiles</h3><p>Pénétration de Défense équipe Eau +5% par membre Eau.</p>`,
+        4: `<h3>4 étoiles</h3><p>Pénétration de Défense équipe <span class="element-eau">Eau</span> +5% par membre <span class="element-eau">Eau</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Modes Boostée et Gel de sang améliorés (1% par cumul). Balayage enragé applique 3 cumuls de Froid.</p>`
     },
     weaponData: {
@@ -480,15 +528,15 @@ huntersData["seo-lin"] = {
         1: `<h3>1 étoile :</h3><p>La compétence <strong>Tornade glaçante</strong> permet désormais de tirer 4 missile(s).<br>Lorsque l'utilisatrice rejoint le niveau, l'effet <span class="buff">[Surpassement]</span> s'active.<br>Lorsque Seo Lin ou un allié parvient à mettre un ennemi en état de <span class="buff">[Bris]</span>, l'effet <span class="buff">[Bris limité]</span> s'active (temps de rechargement : 120 seconde(s)).<br></p><div class="detail-box"><h4><span class="buff">[Surpassement]</span></h4><p>Augmente l'efficacité de <span class="buff">[Bris]</span> de <span class="stat-boost">50%</span>.<br>Réduit les dégâts infligés (reçus) de <span class="stat-boost">30%</span>.</p></div><div class="detail-box"><h4><span class="buff">[Bris limité]</span></h4><p>Réinitialise le temps de rechargement de toutes les compétences et restaure les jauges à 100%.<br>Supprime l'effet <span class="buff">[Surpassement]</span>.<br>Réduit l'efficacité de <span class="buff">[Bris]</span> de <span class="stat-boost">50%</span>.<br>Augmente les dégâts infligés, les dégâts des missiles et les Dégâts Critiques de <span class="stat-boost">30%</span>.<br>Durée : 15 seconde(s) (30s dans l'Atelier de la lumière brillante).<br>À la fin de l'effet, <span class="buff">[Surpassement]</span> se réactive.</p></div>`,
         2: `<h3>2 étoiles :</h3><p><strong>Énorme éclat de glace</strong> ou <strong>Tornade congelante</strong> permettent désormais de tirer 4 missile(s) à la fois.<br></p>`,
         3: `<h3>3 étoiles :</h3><p>Lorsque l'utilisatrice rejoint le niveau, l'effet <span class="buff">[Thé noir ?]</span> s'applique à toute l'équipe.<br></p><div class="detail-box"><h4><span class="buff">[Thé noir ?]</span></h4><p>Augmente la Défense de <span class="stat-boost">20%</span>.<br>Augmente les PV max de <span class="stat-boost">20%</span>.<br>Restaure 1.5% de PM toutes les 5 seconde(s).<br>Durée : illimitée.</p></div>`,
-        4: `<h3>4 étoiles :</h3><p>Les dégâts d'eau des membres de l'équipe de l'élément Eau augmentent de <span class="stat-boost">10%</span> (cumulable jusqu'à 3 fois) par membre de l'équipe de l'élément Eau présent dans la formation.<br></p>`,
+        4: `<h3>4 étoiles :</h3><p>Les dégâts d'eau des membres de l'équipe de l'élément <span class="element-eau">Eau</span> augmentent de <span class="stat-boost">10%</span> (cumulable jusqu'à 3 fois) par membre de l'équipe de l'élément <span class="element-eau">Eau</span> présent dans la formation.<br></p>`,
         5: `<h3>5 étoiles :</h3><p>Le Taux de coup critique des missiles augmente de <span class="stat-boost">100%</span> et les Dégâts de coup critique des missiles augmentent de <span class="stat-boost">30%</span>.<br>Améliore les effets <span class="buff">[En dessous de zéro]</span> et <span class="buff">[Bris limité]</span>.<br></p><div class="detail-box"><h4>Amélioration <span class="buff">[En dessous de zéro]</span></h4><p>Augmente les dégâts d'eau subis de <span class="stat-boost">2%</span> (au lieu de 1%).<br>Durée : 30 seconde(s) (cumulable jusqu'à 10 fois).</p></div><div class="detail-box"><h4>Amélioration <span class="buff">[Bris limité]</span></h4><p>Réduit l'efficacité de <span class="buff">[Bris]</span> de <span class="stat-boost">30%</span>.<br>Augmente les dégâts infligés, les dégâts des missiles et les Dégâts Critiques de <span class="stat-boost">50%</span>.</p></div>`
     },
     summaryData: {
-        0: `<h3>Passif : Missiles Guidés</h3><p>Bris (Seo/Allié) = Durée Bris +3s.<br>Compétences tirent des <span class="buff">[Missiles]</span> (Dégâts Eau basés sur PV Max).<br>Missiles appliquent <span class="buff">[En dessous de zéro]</span> (Debuff Dégâts Eau).</p>`,
+        0: `<h3>Passif : Missiles Guidés</h3><p>Bris (Seo/Allié) = Durée Bris +3s.<br>Compétences tirent des <span class="buff">[Missiles]</span> (Dégâts <span class="element-eau">Eau</span> basés sur PV Max).<br>Missiles appliquent <span class="buff">[En dessous de zéro]</span> (Debuff Dégâts <span class="element-eau">Eau</span>).</p>`,
         1: `<h3>1 étoile</h3><p>Entrée : <span class="buff">[Surpassement]</span> (Efficacité Bris <span class="stat-boost">+50%</span>, Tankiness).<br>Sur Bris : Active <span class="buff">[Bris limité]</span> (Reset CD, Full Jauge, Dégâts/Crit <span class="stat-boost">+30%</span>).</p>`,
         2: `<h3>2 étoiles</h3><p>Énorme éclat de glace et Tornade congelante tirent 4 missiles (au lieu de 2).<br></p>`,
         3: `<h3>3 étoiles</h3><p>Buff Équipe <span class="buff">[Thé noir ?]</span> : Déf/PV <span class="stat-boost">+20%</span> + Regen PM.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>Dégâts Eau équipe <span class="stat-boost">+10%</span> par allié Eau (Max 30%).<br></p>`,
+        4: `<h3>4 étoiles</h3><p>Dégâts <span class="element-eau">Eau</span> équipe <span class="stat-boost">+10%</span> par allié <span class="element-eau">Eau</span> (Max 30%).<br></p>`,
         5: `<h3>5 étoiles</h3><p>Missiles : Taux Crit <span class="stat-boost">+100%</span>, Dégâts Crit <span class="stat-boost">+30%</span>.<br>Améliore <span class="buff">[Bris limité]</span> : Bonus Dégâts passent à <span class="stat-boost">50%</span>.<br>Améliore <span class="buff">[En dessous de zéro]</span> : Debuff <span class="stat-boost">2%</span>/stack.</p>`
     },
     weaponData: {
@@ -508,11 +556,11 @@ huntersData["Cha-hae-in-la-princesse-epeiste-immaculee"] = {
     weaponImage: "Chasseurs_SSR/eau/Cha_hae_in_la_princesse_epeiste_immaculee/serment_de_la_valkyrie/Relic_ChaHaeIn_MM_PortraitBig.png", 
     weaponName: "Serment de la Valkyrie",
     fullData: {
-        0: `<h3>Passif :</h3><p>Lorsque les compétences <strong>Danse de la princesse épéiste</strong> ou <strong>Frappe céleste</strong> touchent leur cible, l'effet <span class="buff">[Épées célestes]</span> s'active (temps de rechargement : 0,5 seconde(s)).<br>Lorsque ces compétences touchent leur cible, la jauge de <span class="buff">[Volonté de l'épée]</span> se remplit.<br></p><div class="detail-box"><h4><span class="buff">[Épées célestes]</span></h4><p>Le nombre de lames dérivées augmente en fonction de la charge de <span class="buff">[Volonté de l'épée]</span>.<br>Inflige des dégâts d'eau équivalents à <span class="stat-boost">175 %</span> de la défense par épée.<br>Considérée comme une compétence de base.</p></div><div class="detail-box"><h4><span class="buff">[Volonté de l'épée]</span></h4><p>Effets par niveau de charge :<br>Augmente la Défense de <span class="stat-boost">5 %</span> et le Taux de coup critique de <span class="stat-boost">2 %</span>.<br>Augmente les Dégâts de coup critique de <span class="stat-boost">2 %</span>.<br>Durée : 15 seconde(s) (cumulable jusqu'à 6 fois).</p></div>`,
-        1: `<h3>1 étoile :</h3><p><strong>Tempête d'épées</strong> devient <strong>Attaque rapide : Tempête d'épées</strong> et ses dégâts augmentent de <span class="stat-boost">60 %</span>.<br>Lors de l'utilisation de <strong>Frappe céleste</strong>, l'effet <span class="buff">[Maîtrise de la lame]</span> s'active et améliore l'effet <span class="buff">[Volonté de l'épée]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Maîtrise de la lame]</span></h4><p>L'attaque de noyau devient <strong>Danse des lames éparses</strong>.<br>Accorde l'effet <span class="buff">[Super armure]</span> pendant l'utilisation.<br>Si activée pendant le lancer, la jauge de noyau n'est pas utilisée.<br>Durée : 5 seconde(s).</p></div><div class="detail-box"><h4>Amélioration <span class="buff">[Volonté de l'épée]</span></h4><p>Augmente la Défense de <span class="stat-boost">10 %</span> et le Taux de Coup Critique de <span class="stat-boost">2 %</span>.<br>Augmente les Dégâts de Coup Critique de <span class="stat-boost">2 %</span>.<br>Durée : 15 seconde(s) (cumulable jusqu'à 6 fois).</p></div>`,
+        0: `<h3>Passif :</h3><p>Lorsque les compétences <strong>Danse de la princesse épéiste</strong> ou <strong>Frappe céleste</strong> touchent leur cible, l'effet <span class="buff">[Épées célestes]</span> s'active (temps de rechargement : 0,5 seconde(s)).<br>Lorsque ces compétences touchent leur cible, la jauge de <span class="buff">[Volonté de l'épée]</span> se remplit.<br></p><div class="detail-box"><h4><span class="buff">[Épées célestes]</span></h4><p>Le nombre de lames dérivées augmente en fonction de la charge de <span class="buff">[Volonté de l'épée]</span>.<br>Inflige des dégâts d'eau équivalents à <span class="stat-boost">175 %</span> de la défense par épée.<br>Considérée comme une <span class="keyword-orange">compétence de base</span>.</p></div><div class="detail-box"><h4><span class="buff">[Volonté de l'épée]</span></h4><p>Effets par niveau de charge :<br>Augmente la Défense de <span class="stat-boost">5 %</span> et le Taux de coup critique de <span class="stat-boost">2 %</span>.<br>Augmente les Dégâts de coup critique de <span class="stat-boost">2 %</span>.<br>Durée : 15 seconde(s) (cumulable jusqu'à 6 fois).</p></div>`,
+        1: `<h3>1 étoile :</h3><p><strong>Tempête d'épées</strong> devient <strong>Attaque rapide : Tempête d'épées</strong> et ses dégâts augmentent de <span class="stat-boost">60 %</span>.<br>Lors de l'utilisation de <strong>Frappe céleste</strong>, l'effet <span class="buff">[Maîtrise de la lame]</span> s'active et améliore l'effet <span class="buff">[Volonté de l'épée]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Maîtrise de la lame]</span></h4><p>L'<span class="keyword-orange">attaque de noyau</span> devient <strong>Danse des lames éparses</strong>.<br>Accorde l'effet <span class="buff">[Super armure]</span> pendant l'utilisation.<br>Si activée pendant le lancer, la jauge de noyau n'est pas utilisée.<br>Durée : 5 seconde(s).</p></div><div class="detail-box"><h4>Amélioration <span class="buff">[Volonté de l'épée]</span></h4><p>Augmente la Défense de <span class="stat-boost">10 %</span> et le Taux de Coup Critique de <span class="stat-boost">2 %</span>.<br>Augmente les Dégâts de Coup Critique de <span class="stat-boost">2 %</span>.<br>Durée : 15 seconde(s) (cumulable jusqu'à 6 fois).</p></div>`,
         2: `<h3>2 étoiles :</h3><p>Lorsque la <strong>Frappe céleste</strong> touche sa cible, l'effet <span class="buff">[Irrémédiable]</span> s'active.<br>Lorsque la compétence <strong>Épée de la destinée</strong> touche sa cible, elle la <span class="buff">[Paralyse]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Irrémédiable]</span></h4><p>Les cibles ne peuvent pas récupérer de PV.<br>Durée : 30 seconde(s).</p></div><div class="detail-box"><h4><span class="buff">[Paralysie]</span></h4><p>Interrompt la cible.<br>Durée : 3 seconde(s).</p></div>`,
         3: `<h3>3 étoiles :</h3><p>Lorsque la jauge de <span class="buff">[Volonté de l'épée]</span> se recharge à 100 %, l'effet <span class="buff">[Détermination de l'épée]</span> s'active.<br></p><div class="detail-box"><h4><span class="buff">[Détermination de l'épée]</span></h4><p><strong>Frappe céleste</strong> devient <strong>Attaque lourde : Frappe céleste</strong> (Dégâts <span class="stat-boost">+60 %</span>).<br>Consomme toute la jauge de <span class="buff">[Volonté de l'épée]</span> à la fin.<br>Durée : 6 seconde(s).</p></div>`,
-        4: `<h3>4 étoiles :</h3><p>Le Taux de coup critique de Cha Hae-In augmente de <span class="stat-boost">7 %</span> par allié de l'élément Eau présent dans le groupe.<br>Ses Dégâts de coup critique augmentent de <span class="stat-boost">7 %</span> par allié Eau (cumulables jusqu'à 3 fois).</p>`,
+        4: `<h3>4 étoiles :</h3><p>Le Taux de coup critique de Cha Hae-In augmente de <span class="stat-boost">7 %</span> par allié de l'élément <span class="element-eau">Eau</span> présent dans le groupe.<br>Ses Dégâts de coup critique augmentent de <span class="stat-boost">7 %</span> par allié <span class="element-eau">Eau</span> (cumulables jusqu'à 3 fois).</p>`,
         5: `<h3>5 étoiles :</h3><p>L'effet <span class="buff">[Volonté de l'épée]</span> est amélioré.<br>Lorsque l'utilisatrice rejoint le niveau, l'effet <span class="buff">[Princesse épéiste immaculée]</span> s'active.<br></p><div class="detail-box"><h4>Amélioration <span class="buff">[Volonté de l'épée]</span></h4><p>Augmente la Défense de <span class="stat-boost">10 %</span> et le Taux de Coup Critique de <span class="stat-boost">4 %</span>.<br>Augmente les Dégâts de Coup Critique de <span class="stat-boost">4 %</span>.<br>Durée : 15 seconde(s) (cumulable jusqu'à 6 fois).</p></div><div class="detail-box"><h4><span class="buff">[Princesse épéiste immaculée]</span></h4><p>Augmente les dégâts de <strong>Épée de la destinée</strong> de <span class="stat-boost">60 %</span>.<br>Augmente les dégâts de <strong>Frappe céleste</strong> et <strong>Attaque lourde : Frappe céleste</strong> de <span class="stat-boost">60 %</span>.<br>Durée : illimitée.</p></div>`
     },
     summaryData: {
@@ -520,7 +568,7 @@ huntersData["Cha-hae-in-la-princesse-epeiste-immaculee"] = {
         1: `<h3>1 étoile</h3><p>Attaque Noyau = <strong>Danse des lames éparses</strong> (<span class="buff">Super armure</span>, gratuit).<br>Améliore <span class="buff">[Volonté]</span> : Déf <span class="stat-boost">+10%</span>, Crit <span class="stat-boost">+2%</span>/stack.</p>`,
         2: `<h3>2 étoiles</h3><p>Frappe céleste applique <span class="buff">[Irrémédiable]</span> (Anti-heal).<br>Ultime applique <span class="buff">[Paralysie]</span> (3 sec).</p>`,
         3: `<h3>3 étoiles</h3><p>Jauge pleine = <span class="buff">[Détermination]</span>.<br>Frappe céleste devient <strong>Attaque Lourde</strong> (Dégâts <span class="stat-boost">+60%</span>).</p>`,
-        4: `<h3>4 étoiles</h3><p>Par allié Eau : Taux/Dégâts Crit <span class="stat-boost">+7%</span> (Max 3 alliés).</p>`,
+        4: `<h3>4 étoiles</h3><p>Par allié <span class="element-eau">Eau</span> : Taux/Dégâts Crit <span class="stat-boost">+7%</span> (Max 3 alliés).</p>`,
         5: `<h3>5 étoiles</h3><p>Améliore <span class="buff">[Volonté]</span> : Déf <span class="stat-boost">+10%</span>, Crit <span class="stat-boost">+4%</span>/stack.<br>Dégâts Ultime et Frappe céleste <span class="stat-boost">+60%</span>.</p>`
     },
     weaponData: {
@@ -541,6 +589,7 @@ huntersData["frieren"] = {
     weaponName: "Bâton de Frieren",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Les Niveaux 1, 2 et 3 de la compétence <strong>Magie d'attaque normale (Zoltraak) - Coups multiples</strong> s'activent à la suite.<br>
         Le Niveau 3 de la compétence <strong>Magie d'attaque normale (Zoltraak) - Coups multiples</strong> active <strong>Magie d'attaque normale (Zoltraak) - Concentration</strong> une fois.<br>
@@ -568,8 +617,10 @@ huntersData["frieren"] = {
             <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">20 %</span> de la Défense de Frieren.<br>
             Réduit les dégâts subis de <span class="stat-boost">5 %</span>. Durée : 30 seconde(s)</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>Lorsque la compétence <strong>Magie d'attaque normale (Zoltraak) - Ultime</strong> touche sa cible, son <span class="buff">[Bouclier]</span> est supprimé.<br>
         Lorsque l'effet <span class="buff">[Magie défensive]</span> de Frieren est activé, toute l'équipe récupère des PV équivalents à <span class="stat-boost">20 %</span> de la Défense de Frieren (temps de rechargement : 10 seconde(s)).<br>
@@ -589,12 +640,16 @@ huntersData["frieren"] = {
             Augmente les dégâts infligés par Frieren de <span class="stat-boost">35 %</span>.<br>
             Durée : 20 seconde(s)</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p>L'Attaque, la Défense et les PV de toute l'équipe augmentent de <span class="stat-boost">9 %</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Améliore les effets <span class="buff">[Contrôle de l'énergie de mana]</span> et <span class="buff">[Magie défensive]</span>.<br></p>
 
@@ -611,12 +666,16 @@ huntersData["frieren"] = {
             <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">30 %</span> de la Défense de Frieren.<br>
             Réduit les dégâts subis de <span class="stat-boost">10 %</span>. Durée : 60 seconde(s)</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>Les Dégâts de coup critique de toute l'équipe augmentent de <span class="stat-boost">20 %</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>Améliore les effets <span class="buff">[Vollzanbel]</span>.<br>
         L'utilisation de la compétence <strong>Magie de foudre destructrice (Judradjim)</strong> remplit <span class="stat-boost">80 %</span> de la jauge de puissance de l'utilisatrice.<br></p>
@@ -626,6 +685,7 @@ huntersData["frieren"] = {
             <p>Diminue la Défense de <span class="stat-boost">10 %</span>. Augmente le risque de subir des Dégâts de coup critique de <span class="stat-boost">15 %</span>.<br>
             Augmente les Dégâts de coup critique subis de <span class="stat-boost">15 %</span>. Augmente les dégâts infligés par Frieren de <span class="stat-boost">70 %</span>.<br>
             Durée : 30 seconde(s)</p>
+        </div>
         </div>
     `
     },
@@ -640,7 +700,7 @@ huntersData["frieren"] = {
         <h3>1 étoile</h3>
         <p>Ultime brise les Boucliers ennemis.<br>
         Si Bouclier actif : Soin équipe (<span class="stat-boost">20%</span> Déf).<br>
-        Foudre = <span class="buff">[Paralysie]</span>. Feu = <span class="buff">[Vollzanbel]</span> (Debuff Déf/Crit, Frieren Dmg +35%).</p>
+        Foudre = <span class="buff">[Paralysie]</span>. <span class="element-feu">Feu</span> = <span class="buff">[Vollzanbel]</span> (Debuff Déf/Crit, Frieren Dmg +35%).</p>
     `,
         2: `
         <h3>2 étoiles</h3>
@@ -665,12 +725,12 @@ huntersData["frieren"] = {
         0: `
         <h3>Avancement 0 :</h3>
         <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">5 %</span>.<br>
-        Les dégats de compétence de base et de la compétence ultime de tous les membres de l'équipe augmentent de <span class="stat-boost">5 %</span>.</p>
+        Les dégats de <span class="keyword-orange">compétence de base</span> et de la <span class="keyword-orange">compétence ultime</span> de tous les membres de l'équipe augmentent de <span class="stat-boost">5 %</span>.</p>
     `,
         1: `
         <h3>Avancement 5 étoiles :</h3>
         <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">50 %</span>.<br>
-        Les dégats de compétence de base et de la compétence ultime de tous les membres de l'équipe augmentent de <span class="stat-boost">30 %</span>.</p>
+        Les dégats de <span class="keyword-orange">compétence de base</span> et de la <span class="keyword-orange">compétence ultime</span> de tous les membres de l'équipe augmentent de <span class="stat-boost">30 %</span>.</p>
     `,
         2: `
         <h3>Avancement 10 étoiles :</h3>
@@ -690,6 +750,7 @@ huntersData["shuhua"] = {
     weaponName: "Sous le clair de lune",
     fullData: {
         0: `
+        <div class="passif-content passif-block">
         <h3>Passif :</h3>
         <p>Tout l'équipe reçoit l'effet <span class="buff">[FOREVER]</span> en arrivant dans les modes Mission Rappel et Donjon éphémère.<br>
         L'utilisation de la compétence <strong>Atterrissage de pop-star</strong> active l'effet <span class="buff">[Sur scène]</span>.<br>
@@ -709,16 +770,16 @@ huntersData["shuhua"] = {
 
         <div class="detail-box">
             <h4><span class="buff">[Représentation]</span></h4>
-            <p>Augmente les dégâts de l'attaque de noyau de l'utilisatrice de <span class="stat-boost">50 %</span>.<br>
+            <p>Augmente les dégâts de l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice de <span class="stat-boost">50 %</span>.<br>
             Confère un <span class="buff">[Bouclier]</span>. Durée : 3 seconde(s)</p>
         </div>
 
         <div class="detail-box">
             <h4><span class="buff">[Intensité]</span></h4>
             <p><strong>Tempo double</strong> devient <strong>Rythme intense</strong> et augmente les dégâts de la compétence de <span class="stat-boost">50 %</span>.<br>
-            Lorsque l'attaque de noyau de l'utilisatrice s'active et qu'elle utilise <strong>Rythme intense</strong>, sa jauge de noyau ne se consume pas.<br>
-            Lorsque l'attaque de noyau de l'utilisatrice touche sa cible, le temps de rechargement des compétences <strong>Atterrissage de pop-star</strong>, <strong>Grognement aux étoiles</strong> et <strong>Hurlement aux étoiles</strong> est réduit de 3 seconde(s) (temps de rechargement : 1 seconde(s)).<br>
-            L'effet <span class="buff">[Intensité]</span> est appliqué au moyen d'une [attaque de noyau], 6 fois de suite au maximum.<br>
+            Lorsque l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice s'active et qu'elle utilise <strong>Rythme intense</strong>, sa jauge de noyau ne se consume pas.<br>
+            Lorsque l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice touche sa cible, le temps de rechargement des compétences <strong>Atterrissage de pop-star</strong>, <strong>Grognement aux étoiles</strong> et <strong>Hurlement aux étoiles</strong> est réduit de 3 seconde(s) (temps de rechargement : 1 seconde(s)).<br>
+            L'effet <span class="buff">[Intensité]</span> est appliqué au moyen d'une [<span class="keyword-orange">attaque de noyau</span>], 6 fois de suite au maximum.<br>
             Durée : 3.5 seconde(s)</p>
         </div>
 
@@ -727,8 +788,10 @@ huntersData["shuhua"] = {
             <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">10 %</span> de l'Attaque de l'utilisatrice.<br>
             Durée : 3 seconde(s)</p>
         </div>
+        </div>
     `,
         1: `
+        <div class="passif-content star-block">
         <h3>1 étoile :</h3>
         <p>L'effet <span class="buff">[Intensité]</span> est amélioré.<br>
         Chaque fois que <strong>Rythme intense</strong> touche sa cible, l'effet <span class="buff">[Chute de tension]</span> est appliqué.<br></p>
@@ -736,9 +799,9 @@ huntersData["shuhua"] = {
         <div class="detail-box">
             <h4><span class="buff">[Intensité]</span> (Amélioré)</h4>
             <p><strong>Tempo double</strong> devient <strong>Rythme intense</strong>, ce qui augmente les dégâts de l'utilisatrice de <span class="stat-boost">100 %</span>.<br>
-            Lorsque l'attaque de noyau de l'utilisatrice s'active et qu'elle utilise <strong>Rythme intense</strong>, aucune charge de sa jauge de noyau n'est consumée.<br>
-            Lorsque l'attaque de noyau de l'utilisatrice touche sa cible, le temps de rechargement des compétences <strong>Atterrissage de pop-star</strong>, <strong>Grognement aux étoiles</strong> et <strong>Hurlement aux étoiles</strong> diminue de 5 seconde(s) (temps de rechargement : 1 seconde(s)).<br>
-            L'effet <span class="buff">[Intensité]</span> est appliqué au moyen d'une [attaque de noyau], 6 fois de suite au maximum.<br>
+            Lorsque l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice s'active et qu'elle utilise <strong>Rythme intense</strong>, aucune charge de sa jauge de noyau n'est consumée.<br>
+            Lorsque l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice touche sa cible, le temps de rechargement des compétences <strong>Atterrissage de pop-star</strong>, <strong>Grognement aux étoiles</strong> et <strong>Hurlement aux étoiles</strong> diminue de 5 seconde(s) (temps de rechargement : 1 seconde(s)).<br>
+            L'effet <span class="buff">[Intensité]</span> est appliqué au moyen d'une [<span class="keyword-orange">attaque de noyau</span>], 6 fois de suite au maximum.<br>
             Durée : 3.5 seconde(s)</p>
         </div>
 
@@ -747,18 +810,22 @@ huntersData["shuhua"] = {
             <p>Augmente les dégâts d'eau infligés par SHUHUA de <span class="stat-boost">1 %</span>.<br>
             Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p>
         </div>
+        </div>
     `,
         2: `
+        <div class="passif-content star-block">
         <h3>2 étoiles :</h3>
         <p><strong>Grognement aux étoiles</strong> devient <strong>Hurlement aux étoiles</strong>, ce qui augmente les dégâts de l'utilisatrice de <span class="stat-boost">100 %</span>.<br></p>
+        </div>
     `,
         3: `
+        <div class="passif-content star-block">
         <h3>3 étoiles :</h3>
         <p>Améliore <span class="buff">[Représentation]</span>.<br></p>
 
         <div class="detail-box">
             <h4><span class="buff">[Représentation]</span> (Amélioré)</h4>
-            <p>Augmente les dégâts de l'attaque de noyau de l'utilisatrice de <span class="stat-boost">55 %</span>.<br>
+            <p>Augmente les dégâts de l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice de <span class="stat-boost">55 %</span>.<br>
             Confère un <span class="buff">[Bouclier]</span>. Remplit la jauge de puissance de <span class="stat-boost">10 %</span>. Active l'effet <span class="buff">[Hausse de tension]</span>.<br>
             Durée : 3 seconde(s)</p>
         </div>
@@ -774,12 +841,16 @@ huntersData["shuhua"] = {
             <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">15 %</span> de l'Attaque de l'utilisatrice.<br>
             Durée : 3 seconde(s)</p>
         </div>
+        </div>
     `,
         4: `
+        <div class="passif-content star-block">
         <h3>4 étoiles :</h3>
         <p>L'Attaque augmente de <span class="stat-boost">16 %</span>.<br></p>
+        </div>
     `,
         5: `
+        <div class="passif-content star-block">
         <h3>5 étoiles :</h3>
         <p>L'utilisation de <strong>Hurlement aux étoiles</strong> active l'effet <span class="buff">[Plus fort !]</span>.<br>
         La Vitesse d'attaque de <strong>Rythme intense</strong> augmente considérablement.<br></p>
@@ -788,6 +859,7 @@ huntersData["shuhua"] = {
             <h4><span class="buff">[Plus fort !]</span></h4>
             <p>Augmente les dégâts infligés par l'utilisatrice de <span class="stat-boost">30 %</span>.<br>
             Augmente le Taux de coup critique de l'utilisatrice de <span class="stat-boost">30 %</span>. Durée : 10 seconde(s)</p>
+        </div>
         </div>
     `
     },
@@ -800,7 +872,7 @@ huntersData["shuhua"] = {
     `,
         1: `
         <h3>1 étoile</h3>
-        <p>Rythme intense applique <span class="buff">[Chute de tension]</span> (Dégâts Eau +1%/stack).<br>
+        <p>Rythme intense applique <span class="buff">[Chute de tension]</span> (Dégâts <span class="element-eau">Eau</span> +1%/stack).<br>
         Améliore <span class="buff">[Intensité]</span> : Dégâts +100%, Reset CD, Pas de coût Jauge.</p>
     `,
         2: `
@@ -809,7 +881,7 @@ huntersData["shuhua"] = {
     `,
         3: `
         <h3>3 étoiles</h3>
-        <p>Améliore <span class="buff">[Représentation]</span> : Dégâts Noyau +55%, Jauge Puissance +10%, <span class="buff">[Hausse de tension]</span> (Dégâts Eau +20%).<br>
+        <p>Améliore <span class="buff">[Représentation]</span> : Dégâts Noyau +55%, Jauge Puissance +10%, <span class="buff">[Hausse de tension]</span> (Dégâts <span class="element-eau">Eau</span> +20%).<br>
         Bouclier renforcé (15% Atk).</p>
     `,
         4: `
