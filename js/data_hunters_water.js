@@ -2,6 +2,190 @@ if (typeof huntersData === 'undefined') {
     var huntersData = {}; 
 }
 
+// --- ELENA RENAULT ---
+huntersData["elena-renault"] = {
+    name: "Elena Renault",
+    rarity: "SSR",
+    element: "Eau",
+    gradient: "linear-gradient(90deg, #2980b9, #000)",
+    image: "Chasseurs_SSR/eau/Elena_renault/ElenaRenaud_Portrait_Body.png",
+    weaponImage: "Chasseurs_SSR/eau/Elena_renault/l_incarnation_de_l_obsession/Relic_ElenaRenaud_PortraitBig.png",
+    weaponName: "L'incarnation de l'obsession",
+    fullData: {
+        0: `
+        <div class="passif-content passif-block">
+        <h3>Passif :</h3>
+        <p>L'utilisation de <strong>Piège de mercure</strong> active <strong>Trahison de mercure</strong> 1 fois.<br>
+        Lorsque <strong>Piège de mercure</strong> touche sa cible, il inflige 1 cumul(s) de <span class="buff">[Froid hivernal]</span>.<br>
+        L'utilisation de <strong>Furie de mercure</strong> confère à toute l'équipe l'effet <span class="buff">[Marée argentée]</span>.<br>
+        L'utilisation d'<strong>Éclat de folie</strong> confère à toute l'équipe l'effet <span class="buff">[Emprise de l'obsession]</span>.<br></p>
+
+        <div class="detail-box">
+            <h4><span class="buff">[Marée argentée]</span></h4>
+            <p>Augmente les dégâts d'eau de <span class="stat-boost">10 %</span>.<br>
+            Augmente les dégâts de Surcharge d'eau de <span class="stat-boost">15 %</span>.<br>
+            Durée : 40 seconde(s)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Emprise de l'obsession]</span></h4>
+            <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">15 %</span> de la Défense d'Elena Renault.<br>
+            Restaure en continu des PV équivalents à <span class="stat-boost">2 %</span> de la Défense d'Elena Renault toutes les 3 secondes.<br>
+            15 PM sont restaurés toutes les 3 secondes.<br>
+            Durée : 40 seconde(s)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Froid hivernal]</span></h4>
+            <p>Inflige des dégâts équivalents à <span class="stat-boost">100 %</span> de la Défense de l'utilisatrice toutes les 3 secondes.<br>
+            Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p>
+        </div>
+        </div>
+        `,
+        1: `
+        <div class="passif-content star-block">
+        <h3>1 étoile :</h3>
+        <p>Toute l'équipe bénéficie de l'effet <span class="buff">[Regard sauvage]</span> au début du niveau.<br>
+        Lorsqu'un allié inflige avec succès des dégâts de Surcharge d'eau, les dégâts de Surcharge d'eau de tous les membres de l'équipe de l'élément Eau augmentent de <span class="stat-boost">15 %</span> pendant 40 seconde(s).<br>
+        L'utilisation de <strong>Prison de mercure</strong> restaure la jauge de puissance de toute l'équipe de <span class="stat-boost">10 %</span>.<br>
+        Lorsque <strong>Furie de mercure</strong> touche une cible affectée par <span class="buff">[Froid hivernal]</span>, elle lui applique l'effet <span class="buff">[Goutte de mercure]</span>.<br></p>
+
+        <div class="detail-box">
+            <h4><span class="buff">[Regard sauvage]</span></h4>
+            <p>Augmente le Taux de coup critique de <span class="stat-boost">5 %</span>.<br>
+            Augmente les Dégâts de coup critique de <span class="stat-boost">10 %</span>.<br>
+            Durée : illimitée</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Goutte de mercure]</span></h4>
+            <p>Augmente les dégâts d'eau subis par la cible de <span class="stat-boost">10 %</span>.<br>
+            Augmente les dégâts de Surcharge d'eau subis par la cible de <span class="stat-boost">15 %</span>.<br>
+            Durée : 40 seconde(s)</p>
+        </div>
+        </div>
+        `,
+        2: `
+        <div class="passif-content star-block">
+        <h3>2 étoiles :</h3>
+        <p>L'Attaque, la Défense et les PV max de toute l'équipe augmentent de <span class="stat-boost">9 %</span>.<br></p>
+        </div>
+        `,
+        3: `
+        <div class="passif-content star-block">
+        <h3>3 étoiles :</h3>
+        <p>Les effets <span class="buff">[Marée argentée]</span> et <span class="buff">[Emprise de l'obsession]</span> sont améliorés.<br>
+        Lorsque <strong>Piège de mercure</strong> touche sa cible, les effets changent et infligent 2 cumul(s) de <span class="buff">[Froid hivernal]</span>.<br>
+        Lorsque l'utilisatrice ou un membre de l'équipe de l'élément Eau utilise son <span class="keyword-orange">attaque de noyau</span> ou sa <span class="keyword-orange">compétence de base</span>, cela restaure <span class="stat-boost">10 %</span> de la jauge de puissance d'Elena Renault. (Temps de rechargement : 1 seconde(s))<br></p>
+
+        <div class="detail-box">
+            <h4><span class="buff">[Marée argentée]</span> (améliorée)</h4>
+            <p>Augmente les dégâts d'eau de <span class="stat-boost">20 %</span>.<br>
+            Augmente les dégâts de Surcharge d'eau de <span class="stat-boost">30 %</span>.<br>
+            Durée : 40 seconde(s)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Emprise de l'obsession]</span> (améliorée)</h4>
+            <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">30 %</span> de la Défense d'Elena Renault.<br>
+            Restaure en continu des PV équivalents à <span class="stat-boost">5 %</span> de la Défense d'Elena Renault toutes les 3 secondes.<br>
+            30 PM sont restaurés toutes les 3 secondes.<br>
+            Durée : 40 seconde(s)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Froid hivernal]</span></h4>
+            <p>Inflige des dégâts équivalents à <span class="stat-boost">100 %</span> de la Défense toutes les 3 secondes.<br>
+            Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p>
+        </div>
+        </div>
+        `,
+        4: `
+        <div class="passif-content star-block">
+        <h3>4 étoiles :</h3>
+        <p>Les dégâts de Surcharge d'eau de toute l'équipe augmentent de <span class="stat-boost">20 %</span>.<br></p>
+        </div>
+        `,
+        5: `
+        <div class="passif-content star-block">
+        <h3>5 étoiles :</h3>
+        <p>Les effets <span class="buff">[Regard sauvage]</span> et <span class="buff">[Goutte de mercure]</span> sont améliorés.<br>
+        Lorsqu'un allié inflige avec succès des dégâts de Surcharge d'eau, les dégâts de Surcharge d'eau de tous les membres de l'équipe de l'élément Eau augmentent de <span class="stat-boost">30 %</span> pendant 40 seconde(s).<br>
+        La jauge de puissance de l'utilisatrice est chargée à hauteur de <span class="stat-boost">80 %</span> au début du niveau.<br>
+        Lorsque <strong>Prison de mercure</strong> touche sa cible, elle lui inflige 3 cumul(s) de <span class="buff">[Froid hivernal]</span>.<br></p>
+
+        <div class="detail-box">
+            <h4><span class="buff">[Regard sauvage]</span> (amélioré)</h4>
+            <p>Augmente le Taux de coup critique de <span class="stat-boost">25 %</span>.<br>
+            Augmente les Dégâts de coup critique de <span class="stat-boost">32 %</span>.<br>
+            Durée : illimitée</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Goutte de mercure]</span> (améliorée)</h4>
+            <p>Augmente les dégâts d'eau de <span class="stat-boost">15 %</span>.<br>
+            Augmente les dégâts de Surcharge d'eau subis par la cible de <span class="stat-boost">20 %</span>.<br>
+            Durée : 40 seconde(s)</p>
+        </div>
+        <div class="detail-box">
+            <h4><span class="buff">[Froid hivernal]</span></h4>
+            <p>Inflige des dégâts équivalents à <span class="stat-boost">100 %</span> de la Défense toutes les 3 secondes.<br>
+            Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p>
+        </div>
+        </div>
+        `
+    },
+    summaryData: {
+        0: `
+        <h3>Passif : Mercure & Obsession</h3>
+        <p>Piège de mercure = Trahison de mercure + <span class="buff">[Froid hivernal]</span> (x1).<br>
+        Furie de mercure = <span class="buff">[Marée argentée]</span> : Dégâts eau <span class="stat-boost">+10%</span>, Surcharge eau <span class="stat-boost">+15%</span> (40s).<br>
+        Éclat de folie = <span class="buff">[Emprise de l'obsession]</span> : Bouclier <span class="stat-boost">15%</span> Déf + Soin <span class="stat-boost">2%</span> Déf/3s + 15 PM/3s (40s).</p>
+        `,
+        1: `
+        <h3>1 étoile</h3>
+        <p>Entrée niveau : <span class="buff">[Regard sauvage]</span> (Taux Crit <span class="stat-boost">+5%</span>, Dégâts Crit <span class="stat-boost">+10%</span>, illimité).<br>
+        Surcharge eau alliés : Dégâts Surcharge eau équipe Eau <span class="stat-boost">+15%</span> (40s).<br>
+        Prison de mercure : Jauge Puissance équipe <span class="stat-boost">+10%</span>.<br>
+        Furie sur cible <span class="buff">[Froid hivernal]</span> = <span class="buff">[Goutte de mercure]</span> : Dégâts eau cible <span class="stat-boost">+10%</span>, Surcharge <span class="stat-boost">+15%</span>.</p>
+        `,
+        2: `
+        <h3>2 étoiles</h3>
+        <p>ATK/DEF/PV équipe <span class="stat-boost">+9%</span>.</p>
+        `,
+        3: `
+        <h3>3 étoiles</h3>
+        <p><span class="buff">[Marée argentée]</span> améliorée : eau <span class="stat-boost">+20%</span>, Surcharge <span class="stat-boost">+30%</span>.<br>
+        <span class="buff">[Emprise]</span> améliorée : Bouclier <span class="stat-boost">30%</span> Déf, Soin <span class="stat-boost">5%</span>/3s, 30 PM/3s.<br>
+        Piège = x2 <span class="buff">[Froid hivernal]</span>.<br>
+        Attaque Noyau/Base équipe Eau = Jauge Puissance Elena <span class="stat-boost">+10%</span> (CD 1s).</p>
+        `,
+        4: `
+        <h3>4 étoiles</h3>
+        <p>Dégâts Surcharge eau équipe <span class="stat-boost">+20%</span>.</p>
+        `,
+        5: `
+        <h3>5 étoiles</h3>
+        <p>Entrée niveau : Jauge Puissance <span class="stat-boost">80%</span>.<br>
+        Surcharge eau alliés : Dégâts Surcharge eau équipe Eau <span class="stat-boost">+30%</span> (40s).<br>
+        Prison de mercure : x3 <span class="buff">[Froid hivernal]</span>.<br>
+        <span class="buff">[Regard sauvage]</span> amélioré : Taux Crit <span class="stat-boost">+25%</span>, Dégâts Crit <span class="stat-boost">+32%</span>.<br>
+        <span class="buff">[Goutte de mercure]</span> améliorée : eau <span class="stat-boost">+15%</span>, Surcharge <span class="stat-boost">+20%</span>.</p>
+        `
+    },
+    weaponData: {
+        0: `
+        <h3>Avancement 0 :</h3>
+        <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">5 %</span>.<br>
+        L'utilisation de <strong>Piège de mercure</strong> augmente les dégâts de Surcharge des membres de l'équipe de l'élément de <span class="stat-boost">5 %</span> pendant 60 seconde(s).<br></p>
+        `,
+        1: `
+        <h3>Avancement 5 étoiles :</h3>
+        <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">50 %</span>.<br>
+        L'utilisation de <strong>Piège de mercure</strong> augmente les dégâts de Surcharge des membres de l'équipe de l'élément de <span class="stat-boost">30 %</span> pendant 60 seconde(s).<br>
+        L'utilisation de <strong>Furie de mercure</strong> augmente les dégâts des membres de l'équipe de l'élément de <span class="stat-boost">30 %</span> pendant 60 seconde(s).<br></p>
+        `,
+        2: `
+        <h3>Avancement 10 étoiles :</h3>
+        <p>Augmente l'Attaque, la Défense et les PV de <span class="stat-boost">15 %</span>.<br></p>
+        `
+    }
+};
+
 // --- NAM CHAE-YOUNG ---
 huntersData["nam-chae-young"] = {
     name: "Nam Chae-young",
