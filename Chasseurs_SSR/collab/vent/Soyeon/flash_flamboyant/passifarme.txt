@@ -1,0 +1,18 @@
+passif :
+L'Attaque de l'utilisatrice augmente de 5 %.
+L'utilisation des compétences Lâcher de micro,
+Crochet et chaine, Lâcher de micro v2 ou Crochet
+et chaine v2 augmente les dégats de compétence
+de base des membres de L'équipe de 5 % pendant
+30 seconde(s).
+
+passif 5 star :
+L'Attaque de l'utilisatrice augmente de 12 %.
+L'utilisation des compétences Lâcher de micro,
+Crochet et chaine, Lâcher de micro v2 ou Crochet
+et chaine v2 augmente les dégats de compétence
+de base des membres de L'équipe de 30 %
+pendant 30 seconde(s).
+
+passif 10 star:
+Augmente L'attaque, la Défense et les PV de 15 %.

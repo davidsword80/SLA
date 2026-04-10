@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente les dégâts de Compétence ultime de l'utilisatrice de 5%.<br>Lors de l'utilisation de la compétence ultime, les dégâts de Compétence ultime du membre de son équipe ayant la Puissance totale la plus élevée augmentent de 5% pendant 20 seconde(s).
+
+5 étoiles :<br>Augmente les dégâts de Compétence ultime de l'utilisatrice de 20%.<br>Lors de l'utilisation de la compétence ultime, les dégâts de Compétence ultime du membre de son équipe ayant la Puissance totale la plus élevée augmentent de 20% pendant 20 seconde(s).
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15%.

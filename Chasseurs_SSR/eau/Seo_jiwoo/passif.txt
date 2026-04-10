@@ -1,0 +1,11 @@
+Passif :<br>Lors de l'utilisation des compétences Frappe du dragon jumeau, Ruade du dragon d'eau, Coup de pied foudroyant ou de Coup de poing éclatant, l'effet [Entraînement] se cumule 1 fois. Lorsque l'effet [Entraînement] se cumule 3 fois, l'effet [Entraînement du dragon d'eau] s'applique.<br>Lorsque l'effet [Entraînement du dragon d'eau] est actif, le temps de rechargement de Ruade du dragon d'eau et Coup de pied foudroyant se réinitialise, et ces compétences deviennent respectivement Attaque lourde : Ruade du dragon d'eau et Attaque lourde: Coup de pied foudroyant.<br>[Entraînement]<br>Durée: infinie (cumulable jusqu'à 3 fois)<br>[Entraînement du dragon d'eau]<br>Lors de l'utilisation des compétences Attaque lourde: Ruade du dragon d'eau ou Attaque lourde: Coup de pied foudroyant, l'effet se dissipe. Durée: infinie
+
+1 étoile :<br>Les dégâts des compétences Attaque lourde: Ruade du dragon d'eau et Attaque lourde: Coup de pied foudroyant augmentent de 150%.
+
+2 étoiles :<br>Augmente l'efficacité de Bris de l'utilisateur de 15%.<br>Augmente l'efficacité de Bris de la compétence Attaque lourde: Coup de pied foudroyant de l'utilisateur de 50%.
+
+3 étoiles :<br>L'utilisateur récupère 50 PM en appliquant [Entraînement du dragon d'eau].
+
+4 étoiles :<br>Les PV max de l'utilisatrice augmentent à hauteur de 15% de ses Dégâts de coup critique supplémentaires.
+
+5 étoiles :<br>Le Taux de coup critique et les Dégâts de compétence de Attaque lourde : Ruade du dragon d'eau, Attaque lourde: Coup de pied foudroyant et Coup létal: Frappe de transformation du dragon d'eau augmentent de 32%.

@@ -1,0 +1,28 @@
+
+Passif : L'effet Posture de combat est activé lorsque l'utilisateur arrive dans le niveau. Lorsqu'une attaque touche une cible avec une jauge de Bris, elle active l'effet Posture de garde. Si Son Kihoon ou un allié parvient à mettre la cible en état de Bris, la durée de Bris augmente de 3 secondes, les jauges de noyau et de puissance de Kihoon se remplissent à 100 % et l'effet Posture de combat est activé.
+
+Posture de combat : Supprime Posture de garde. Augmente les dégâts de ténèbres de 20 %. Augmente les dégâts de Charge féroce de 50 %. Durée : illimitée.
+
+Posture de garde : Supprime Posture de combat. Augmente les dégâts infligés de 10 %. Augmente l'efficacité de Bris de 10 %. Durée : illimitée.
+
+1 étoile : L'utilisation des compétences Drapeau d'autorité ou Charge féroce active l'effet Bouclier robuste. L'utilisation des compétences Drapeau d'autorité ou Charge féroce transforme Motivation en Esprit combatif : Motivation et l'active. L'utilisation de la compétence Esprit combatif : Motivation remplit 35 % de la jauge de puissance de l'utilisateur. Lorsque l'utilisateur quitte le combat, il applique l'effet Esprit vertueux aux membres de l'équipe de la classe Attaquant et de l'élément Ténèbres.
+
+Bouclier robuste : Confère un Bouclier équivalent à 30 % des PV de Son Kihoon. Durée : 30 seconde(s).
+
+Esprit vertueux : Lorsqu'une compétence de base touche sa cible, elle inflige des dégâts de Bris faibles. L'utilisateur reçoit Super armure tant que l'effet est actif. Lorsque l'effet Esprit vertueux prend fin, il restaure 25 % des PM de l'utilisateur. Durée : 25 seconde(s) (temps de rechargement : 30 seconde(s)).
+
+2 étoiles : L'efficacité de Bris de l'utilisateur augmente de 10 %.
+
+3 étoiles : Inflige des dégâts de Bris lourds lorsque la compétence Esprit combatif : Motivation touche sa cible. Inflige des dégâts de Bris tout-puissants lorsque la compétence Charge féroce touche sa cible. Améliore l'effet Esprit combatif affaibli.
+
+Esprit combatif affaibli (Amélioré) : Les effets suivants sont appliqués aux cibles qui entrent dans la zone. Diminue l'Attaque de 12.5 %. Augmente les dégâts de ténèbres subis de 10 %. L'effet Irrémédiable est activé.
+
+4 étoiles : L'Attaque et les PV de toute l'équipe augmentent de 10 %.
+
+5 étoiles : L'effet Chef de l'escadron d'attaque est appliqué à toute l'équipe lorsque l'utilisateur arrive dans le niveau. Lorsque la compétence Esprit combatif palpitant touche une cible sans jauge de Bris, elle active l'effet Esprit brisé et applique l'effet Frappe de Berserker à toute l'équipe.
+
+Chef de l'escadron d'attaque : Augmente l'Attaque de 10 %. Augmente les PV de 10 %. Augmente les dégâts infligés de 10 %. Durée : illimitée.
+
+Esprit brisé : Diminue l'Attaque de 12.5 %. Augmente les chances de recevoir des Dégâts de coup critique de 15 %. Durée : 60 seconde(s).
+
+Frappe de Berserker : Augmente les Dégâts de coup critique de 30 %. Augmente les dégâts de ténèbres de 15 %. Durée : 60 seconde(s).

@@ -1,0 +1,9 @@
+Passif :
+Réduit les dégats infligés par les boss de 1.5 %.
+
+passif 5star :
+Réduit les dégats infligés par les boss de 9 %.
+
+Passif 10 star :
+Augmente L'attaque, la Défense et les PV de
+l'utilisateur de 10 %.

@@ -1,0 +1,9 @@
+Expert
+
+[Effet de la panoplie 2]
+
+Lorsqu'un Coup critique est porté, l'utilisateur a 25% de chances d'augmenter l'Attaque de 0.8% (cumulable jusqu'à 100 fois) (temps de rechargement: 1 seconde(s)).
+
+[Effet de la panoplie 4]
+
+Fait passer le Taux d'activation à 50% et l'Attaque à 1.6%.

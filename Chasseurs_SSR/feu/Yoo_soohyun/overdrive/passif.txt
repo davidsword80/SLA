@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente la Pénétration de défense de l'utilisatrice de 4%.<br>Augmente les dégâts de Tir mortel, Attaque de noyau et Feu de l'enfer de 8%.
+
+5 étoiles :<br>Augmente la Pénétration de défense de l'utilisatrice de 12%.<br>Augmente les dégâts de Tir mortel, Attaque de noyau et Feu de l'enfer de 24%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15%.

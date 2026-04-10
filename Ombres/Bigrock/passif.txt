@@ -1,0 +1,3 @@
+Rang : Commun<br>Les dégâts de compétence infligés par tous les membres de l'équipe augmentent de 8%.
+
+Rang : Général<br>Les dégâts de compétence infligés par tous les membres de l'équipe augmentent de 12%.

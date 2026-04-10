@@ -1,0 +1,4 @@
+Passif :<br>
+La meilleure défense, c'est l'attaque. 
+Lorsque votre attaque de base touche sa cible, vous bénéficiez d'un [Bouclier] équivalent à 0.2% de vos PV max pendant 10 seconde(s) (cumulable jusqu'à 10 fois).
+Temps de rechargement : 1 seconde(s)

@@ -1,0 +1,8 @@
+Rockpasa : Annihilation palier 1
+Compétence de soutien / Rupture
+Rockpasa saute haut dans les airs, accumule de l'énergie de mana dans son poing et assène un puissant coup vers le bas.
+Dégâts : 5000 % de l'Attaque de Rockpasa
+Délai d'attente préalable : 30 seconde(s)
+Utilisations disponibles : 1
+Inflige des dégâts de Bris moyens.
+Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air].

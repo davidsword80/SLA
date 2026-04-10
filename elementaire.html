@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling Arise - Entraînement Élémentaire</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="shortcut icon" href="img/Icon/20x20.png" />
+    <style>
+        .elemental-page-bg {
+            background: radial-gradient(circle at center, #1a2a4a 0%, #050a14 100%);
+            min-height: 100vh;
+            color: white;
+            padding-bottom: 50px;
+        }
+
+        .elemental-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 40px 10px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        /* Sidebar Eléments */
+        .element-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding-right: 15px;
+            border-right: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .element-btn {
+            width: 40px; height: 40px; border-radius: 50%; border: 2px solid #333;
+            cursor: pointer; opacity: 0.6; display: flex; align-items: center; justify-content: center;
+            background: rgba(0,0,0,0.5); transition: 0.3s;
+        }
+        .element-btn img { width: 22px; height: 22px; }
+        .element-btn.active { opacity: 1; border-color: #ffd700; box-shadow: 0 0 10px #ffd700; }
+
+        /* Style des Colonnes (Classes) avec contour */
+        .talent-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid rgba(90, 135, 218, 0.3); /* Contour pour chaque classe */
+            border-radius: 8px;
+            padding: 10px 5px;
+            background: linear-gradient(to bottom, rgba(90, 135, 218, 0.05), transparent);
+        }
+
+        .column-header h3 {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #a0c4ff;
+            margin-bottom: 25px;
+            height: 35px;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+
+        /* Grille 4 rangées décalées */
+        .nodes-grid { width: 100%; display: flex; flex-direction: column; gap: 5px; }
+        .row { height: 85px; width: 100%; position: relative; }
+
+        .skill-node {
+            position: absolute;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: 0.2s;
+        }
+        .skill-node:hover { transform: scale(1.05); }
+
+        /* Alignement en quinconce */
+        .pos-left { left: 10%; }
+        .pos-right { right: 10%; }
+        .pos-center { left: 50%; transform: translateX(-50%); }
+
+        .node-circle {
+            width: 50px; height: 50px; border-radius: 50%;
+            border: 2px solid #5a87da;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex; align-items: center; justify-content: center;
+            overflow: hidden;
+        }
+        .node-circle img { width: 32px; height: 32px; object-fit: contain; }
+        .node-counter { font-size: 10px; margin-top: 4px; color: #aaa; font-weight: bold; }
+
+        /* Pop-up Modale */
+        .skill-modal {
+            display: none; position: fixed; z-index: 3000;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); align-items: center; justify-content: center;
+        }
+        .modal-content {
+            background: #101828; border: 2px solid #ffd700; padding: 25px;
+            border-radius: 12px; width: 340px; text-align: center; color: white; position: relative;
+        }
+        .close-modal { position: absolute; top: 8px; right: 12px; font-size: 24px; cursor: pointer; }
+        #modal-img { width: 55px; height: 55px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+      <h1>Solo Leveling Arise - Liste des Chasseurs</h1>
+      <p>Liste de tous les chasseurs disponibles dans le jeu, leurs caractéristiques, et leurs élévations.</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="armes.html">Armes</a></li>
+          <li><a href="Runes.html">Runes</a></li>
+          <li><a href="noyaux.html">Noyaux</a></li>
+          <li><a href="chasseurs.html">Chasseurs</a></li>
+          <li><a href="armes_chasseur.html">Armes Chasseur</a></li>
+          <li><a href="ombre.html">Ombre</a></li>
+          <li><a href="puissance_remanante.html">Puissance rémanante</a></li>          
+        </ul>
+      </nav>
+    </header>
+
+    <main class="elemental-page-bg">
+        <div class="elemental-container">
+            
+            <div class="element-sidebar">
+                <div class="element-btn" onclick="selectElem(this)"><img src="img/feu.png" alt="Feu"></div>
+                <div class="element-btn" onclick="selectElem(this)"><img src="img/eau.png" alt="Eau"></div>
+                <div class="element-btn" onclick="selectElem(this)"><img src="img/vent.png" alt="Vent"></div>
+                <div class="element-btn active" onclick="selectElem(this)"><img src="img/lumiere.png" alt="Lumière"></div>
+                <div class="element-btn" onclick="selectElem(this)"><img src="img/tenebre.png" alt="Ténèbre"></div>
+            </div>
+
+            <div class="talent-column">
+                <div class="column-header"><h3>Partagé</h3></div>
+                <div class="nodes-grid">
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/p1.png','Passif 1','Détails...')"><div class="node-circle"><img src="img/p1.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/p2.png','Passif 2','Détails...')"><div class="node-circle"><img src="img/p2.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/p3.png','Passif 3','Détails...')"><div class="node-circle"><img src="img/p3.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/p4.png','Passif 4','Détails...')"><div class="node-circle"><img src="img/p4.png"></div><div class="node-counter">1/3</div></div></div>
+                </div>
+            </div>
+
+            <div class="talent-column">
+                <div class="column-header"><h3>Attaquant</h3></div>
+                <div class="nodes-grid">
+                    <div class="row"><div class="skill-node pos-center" onclick="showP('img/a1.png','Force brute','Passif...')"><div class="node-circle"><img src="img/a1.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/a2.png','Dégâts++','Passif...')"><div class="node-circle"><img src="img/a2.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/a3.png','Pénétration','Passif...')"><div class="node-circle"><img src="img/a3.png"></div><div class="node-counter">0/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/a4.png','Explosion Ultime','Passif...')"><div class="node-circle"><img src="img/a4.png"></div><div class="node-counter">3/3</div></div></div>
+                </div>
+            </div>
+
+            <div class="talent-column">
+                <div class="column-header"><h3>Briseur</h3></div>
+                <div class="nodes-grid">
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/b1.png','Break','Passif...')"><div class="node-circle"><img src="img/b1.png"></div><div class="node-counter">0/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/b2.png','Impact','Passif...')"><div class="node-circle"><img src="img/b2.png"></div><div class="node-counter">0/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/b3.png','Vitesse','Passif...')"><div class="node-circle"><img src="img/b3.png"></div><div class="node-counter">0/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/b4.png','Agilité','Passif...')"><div class="node-circle"><img src="img/b4.png"></div><div class="node-counter">3/3</div></div></div>
+                </div>
+            </div>
+
+            <div class="talent-column">
+                <div class="column-header"><h3>Soutien</h3></div>
+                <div class="nodes-grid">
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/s1.png','Heal','Passif...')"><div class="node-circle"><img src="img/s1.png"></div><div class="node-counter">0/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/s2.png','Mana','Passif...')"><div class="node-circle"><img src="img/s2.png"></div><div class="node-counter">0/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/s3.png','Shield','Passif...')"><div class="node-circle"><img src="img/s3.png"></div><div class="node-counter">0/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/s4.png','Cooldown','Passif...')"><div class="node-circle"><img src="img/s4.png"></div><div class="node-counter">3/3</div></div></div>
+                </div>
+            </div>
+
+            <div class="talent-column">
+                <div class="column-header"><h3>Cumulateur élémentaire</h3></div>
+                <div class="nodes-grid">
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/c1.png','Or','Passif...')"><div class="node-circle"><img src="img/c1.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/c2.png','Bonus Boss','Passif...')"><div class="node-circle"><img src="img/c2.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-left" onclick="showP('img/c3.png','Cristal','Passif...')"><div class="node-circle"><img src="img/c3.png"></div><div class="node-counter">3/3</div></div></div>
+                    <div class="row"><div class="skill-node pos-right" onclick="showP('img/c4.png','Maîtrise','Passif...')"><div class="node-circle"><img src="img/c4.png"></div><div class="node-counter">3/3</div></div></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="skill-modal" class="skill-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeM()">&times;</span>
+            <img id="modal-img" src="" alt="icon">
+            <h2 id="modal-title" style="color: #ffd700; margin: 10px 0;"></h2>
+            <div id="modal-text" style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; font-size: 0.9em; line-height: 1.4;"></div>
+            <button style="margin-top: 20px; width: 100%; padding: 10px; background: #ffd700; border: none; font-weight: bold; cursor: pointer; border-radius: 4px;">S'entraîner</button>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById('skill-modal');
+        function showP(img, title, text) {
+            document.getElementById('modal-img').src = img;
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-text').innerText = text;
+            modal.style.display = 'flex';
+        }
+        function closeM() { modal.style.display = 'none'; }
+        function selectElem(btn) {
+            document.querySelectorAll('.element-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+        window.onclick = function(e) { if (e.target == modal) closeM(); }
+    </script>
+
+</body>
+</html>

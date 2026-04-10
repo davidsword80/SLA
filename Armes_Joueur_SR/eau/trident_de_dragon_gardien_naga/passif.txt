@@ -1,0 +1,21 @@
+Passif :<br>Lorsque qu'une attaque de base est portée, elle a 75% de chances de créer des explosions d'eau supplémentaires devant l'utilisateur.
+
+1 étoile :<br>Lorsque la compétence Tsunami naga est utilisée, elle projette 3 déferlements d'eau supplémentaires.<br>Inflige des dégâts équivalents à 120% de l'Attaque de l'utilisateur à chaque explosion.
+
+2 étoiles :<br>Vos dégâts d'eau augmentent de 8%.
+
+3 étoiles :<br>Lorsqu'une Attaque de noyau est utilisée, elle projette 3 déferlements d'eau supplémentaires.<br> Inflige des dégâts équivalents à 120% de l'Attaque de l'utilisateur à chaque explosion.
+
+4 étoiles :<br>Le temps de rechargement de Tsunami naga diminue de 15%.
+
+5 étoiles :<br>Lors de l'utilisation de la compétence Tsunami naga, l'utilisateur applique l'effet [Gardien naga]. <br>[Gardien naga]<br>Augmente les dégâts d'eau de l'utilisateur de 15%.<br>Augmente la Vitesse d'attaque de l'utilisateur de 12%.<br>Durée: 15 seconde(s)
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

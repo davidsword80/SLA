@@ -1,0 +1,10 @@
+passif :
+L'Attaque de l'utilisatrice augmente de 5%.
+L'utilisation des compétences Escorte d'entreprise ou Administratrice en chef augmente les dégâts de lumière de toute l'équipe de 5% pendant 30 seconde(s).
+
+passif 5 star :
+L'Attaque de l'utilisatrice augmente de 12 %.
+L'utilisation des compétences Escorte d'entreprise ou Administratrice en chef augmente les dégâts de lumière de toute l'équipe de 30% pendant 30 seconde(s).
+
+passif 10 star :
+Augmente l'Attaque, la Défense et les PV de 15%.

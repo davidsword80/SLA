@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling Arise - Armes</title>
+    <link rel="stylesheet" href="css/fusion.css" />
+    <link rel="shortcut icon" href="img/Icon/20x20.png" />
+    <script src="js/components.js"></script>
+  </head>
+  <body>
+    <section>
+      <input type="text" id="search" placeholder="Rechercher une arme..." />
+      <button class="filter-button" onclick="toggleFilters()">
+        Afficher les filtres
+      </button>
+      <div class="filter-section" id="filters">
+        <div class="buttons">
+          <strong>Filtre principal :</strong>
+          <button class="filter-btn" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="SSR">SSR</button>
+          <button class="filter-btn" data-filter="SR">SR</button>
+          <button class="filter-btn" data-filter="R">R</button>
+        </div>
+
+        <div class="buttons">
+          <strong>Sous-filtre :</strong>
+          <button class="sub-filter-btn" data-sub-filter="all">Tous</button>
+          <button class="sub-filter-btn" data-sub-filter="feu">Feu</button>
+          <button class="sub-filter-btn" data-sub-filter="eau">Eau</button>
+          <button class="sub-filter-btn" data-sub-filter="lumiere">Lumière</button>
+          <button class="sub-filter-btn" data-sub-filter="tenebre">Ténèbre</button>
+          <button class="sub-filter-btn" data-sub-filter="vent">Vent</button>
+        </div>
+      </div>
+    </section>
+    <main>
+      <div class="item-list">
+        
+        <div class="item weapon-card R tenebre">
+          <a href="default_weapons.html?id=arbalete-d-arachnide">
+            <img src="Armes_Joueur_R/tenebre/arbalete_d_arachnide/GSWeapon_GiantArachne_01_PortraitBig.png" alt="Arbalète d'arachnide" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Arbalète d'arachnide</h4></div>
+          </a>
+        </div>	 
+        <div class="item weapon-card R eau">
+          <a href="default_weapons.html?id=arc-d-elfe-des-glaces">
+            <img src="Armes_Joueur_R/eau/arc_d_elfe_des_glaces/GSWeapon_IceElfBow_PortraitBig.png" alt="Arc d'elfe des glaces" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Arc d'elfe des glaces</h4></div>
+          </a>
+        </div>	
+        <div class="item weapon-card R lumiere">
+          <a href="default_weapons.html?id=chasseur-de-lycans">
+            <img src="Armes_Joueur_R/lumiere/chasseur_de_lycans/GSWeapon_LycanSlayer_01_PortraitBig.png" alt="Chasseurs de lycans" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Chasseurs de lycans</h4></div>
+          </a>
+        </div>	
+        <div class="item weapon-card R lumiere">
+          <a href="default_weapons.html?id=cube-de-tempete-de-sable">
+            <img src="Armes_Joueur_R/lumiere/cube_de_tempete_de_sable/GSWeapon_SandCentipedeCube_PortraitBig.png" alt="Cube de tempête de sable" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Cube tempête de sable</h4></div>
+          </a>
+        </div>	
+        <div class="item weapon-card R vent">
+          <a href="default_weapons.html?id=epee-de-kim-sangshink">
+            <img src="Armes_Joueur_R/vent/epee_de_kim_sangshink/GSWeapon_KimSangShik_01_PortraitBig.png" alt="Epee de kim sangshink" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Epée de Kim Sangshink</h4></div>
+          </a>
+        </div>	
+        <div class="item weapon-card R vent">
+          <a href="default_weapons.html?id=epee-du-chevalier">
+            <img src="Armes_Joueur_R/vent/epee_du_chevalier/GSWeapon_KnightSword_PortraitBig.png" alt="Epée du chevalier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Epée du chevalier</h4></div>
+          </a>
+        </div>	
+        <div class="item weapon-card R tenebre">
+          <a href="default_weapons.html?id=faux-du-gardien-du-tombeau">
+            <img src="Armes_Joueur_R/tenebre/faux_du_gardien_du_tombeau/GSWeapon_GravekeeperScythe_PortraitBig.png" alt="Faux du gardien du tombeau" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Faux du gardien du tombeau</h4></div>
+          </a>
+        </div>	
+        <div class="item weapon-card R eau">
+          <a href="default_weapons.html?id=glaive-de-lezard">
+            <img src="Armes_Joueur_R/eau/glaive_de_lezard/GSWeapon_LizardGlaive_PortraitBig.png" alt="Glaive de lezard" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Glaive de lézard</h4></div>
+          </a>
+        </div>	
+        <div class="item weapon-card R feu">
+          <a href="default_weapons.html?id=lame-de-razan">
+            <img src="Armes_Joueur_R/feu/lame_de_razan/GSWeapon_RazanBlade_PortraitBig.png" alt="Lame de razan" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Lame de Razan</h4></div>
+          </a>
+        </div>	
+
+        <div class="item weapon-card SSR vent">
+          <a href="default_weapons.html?id=dagues-du-roi-des-demons">
+            <img src="Armes_Joueur_SSR/vent/dagues_du_roi_des_demons/GSWeapon_DemonKingDagger_PortraitBig.png" alt="Dagues du roi des démons" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Dagues du roi des démons</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR vent">
+          <a href="default_weapons.html?id=glaive-du-roi-des-demons">
+            <img src="Armes_Joueur_SSR/vent/glaive_du_roi_des_demons/GSWeapon_DemonKing_01_PortraitBig.png" alt="Glaive du roi des démons" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Glaive du roi des démons</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR vent">
+          <a href="default_weapons.html?id=citrouille-effrayante">
+            <img src="Armes_Joueur_SSR/vent/citrouille_effrayante/GSWeapon_SpookyPumpkin_PortraitBig.png" alt="Citrouille éffrayante" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Citrouille effrayante</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR vent">
+          <a href="default_weapons.html?id=vent-d-ouest">
+            <img src="Armes_Joueur_SR/vent/vent_d_ouest/GSWeapon_Zephyr_PortraitBig.png" alt="Vent d'ouest" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Vent d'ouest</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR vent">
+          <a href="default_weapons.html?id=surine-de-baruka">
+            <img src="Armes_Joueur_SR/vent/surin_de_baruka/GSWeapon_Baruka_01_PortraitBig.png" alt="Surine de baruka" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Surine de Baruka</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR vent">
+          <a href="default_weapons.html?id=marteau-de-golem-de-roche">
+            <img src="Armes_Joueur_SR/vent/marteau_de_golem_de_roche/GSWeapon_StoneGolemHammer_PortraitBig.png" alt="Marteau de golem de roche" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Marteau de golem de roche</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR vent">
+          <a href="default_weapons.html?id=voeu-de-fores">
+            <img src="Armes_Joueur_SSR/vent/voeu_de_fores/GSWeapon_ForresWishes_PortraitBig.png" alt="Voeu de fores" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Voeu de Fores</h4></div>
+          </a>
+        </div>	
+		
+        <div class="item weapon-card SSR vent">
+          <a href="default_weapons.html?id=porte-tempete">
+            <img src="Armes_Joueur_SSR/vent/porte_tempete/GSWeapon_Stormbringer_PortraitBig.png" alt="Porte tempête" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Porte tempête</h4></div>
+          </a>
+        </div>	
+
+        <div class="item weapon-card SSR tenebre">
+          <a href="default_weapons.html?id=fleur-de-prunier">
+            <img src="Armes_Joueur_SSR/tenebre/epee_demoniaque _fleur_de_prunier/GSWeapon_PlumBlossom_PortraitBig.png" alt="Epée démoniaque : fleur de prunier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Épée démoniaque : Fleur de prunier</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR tenebre">
+          <a href="default_weapons.html?id=ombre-selene">
+            <img src="Armes_Joueur_SSR/tenebre/ombre_selene/GSWeapon_MoonShadow_PortraitBig.png" alt="Ombre sélène" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Ombre sélène</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR tenebre">
+          <a href="default_weapons.html?id=fragment-de-zeke">
+            <img src="Armes_Joueur_SSR/tenebre/fragment_de_zeke/GSWeapon_SSR_PieceOfSieg_PortraitBig.png" alt="Fragment de zeke" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Fragment de Zeke</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR tenebre">
+          <a href="default_weapons.html?id=faux-de-l-ombre">
+            <img src="Armes_Joueur_SSR/tenebre/faux_de_l_ombre/GSWeapon_LordScythe_PortraitBig.png" alt="Faux de l'ombre" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Faux de l'ombre</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR tenebre">
+          <a href="default_weapons.html?id=faucon-noir">
+            <img src="Armes_Joueur_SR/tenebre/faucon_noir/GSWeapon_DarkHawk_PortraitBig.png" alt="Faucon noir" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Faucon noir</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR tenebre">
+          <a href="default_weapons.html?id=epee-longue-d-orc">
+            <img src="Armes_Joueur_SR/tenebre/epee_longue_d_orc/GSWeapon_OrcGreatSword_PortraitBig.png" alt="Epee longue d'orc" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Epee longue d'orc</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR tenebre">
+          <a href="default_weapons.html?id=cle-de-transfiguration">
+            <img src="Armes_Joueur_SSR/tenebre/cle_de_transfiguration/GSWeapon_KeyOfTrans_PortraitBig.png" alt="Clé de transfiguration" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Clé de transfiguration</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR tenebre">
+          <a href="default_weapons.html?id=winchester-roke">
+            <img src="Armes_Joueur_SSR/tenebre/winchester_roke/GSWeapon_WinchesterLock_PortraitBig.png" alt="Winchester roke" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Winchester Roke</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR eau">
+          <a href="default_weapons.html?id=skadi">
+            <img src="Armes_Joueur_SSR/eau/skadi/GSWeapon_Skadi_PortraitBig.png" alt="Skadi" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Skadi</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR eau">
+          <a href="default_weapons.html?id=grimoire-de-thetis">
+            <img src="Armes_Joueur_SSR/eau/grimoire_de_thetis/GSWeapon_Tethis_01_PortraitBig.png" alt="Grimoire de thétis" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Grimoire de thétis</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR eau">
+          <a href="default_weapons.html?id=planche-de-surf-marlin">
+            <img src="Armes_Joueur_SSR/eau/planche_de_surf_de_marlin_gele/GSWeapon_IceStripedMarlinSurfboard_PortraitBig.png" alt="Planche de surf de marlin gèle" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Planche de surf de marlin gelé</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR eau">
+          <a href="default_weapons.html?id=crochet-venimeux-de-kasaka">
+            <img src="Armes_Joueur_SSR/eau/crochet_venimeux_de_kasaka/GSWeapon_SSR_Kasaka_Venom_Fang_PortraitBig.png" alt="Crochet vénimeux de kasaka" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Crochet de Kasaka</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR eau">
+          <a href="default_weapons.html?id=fauchon-gele">
+            <img src="Armes_Joueur_SR/eau/fauchon_gele/GSWeapon_FrostIceSword_PortraitBig.png" alt="Faucon gelé" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Fauchon gelé</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR eau">
+          <a href="default_weapons.html?id=trident-de-dragon-gardien-naga">
+            <img src="Armes_Joueur_SR/eau/trident_de_dragon_gardien_naga/GSWeapon_NagaGDTrident_PortraitBig.png" alt="Trident de dragon guardien naga" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Trident de dragon gardien naga</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR eau">
+          <a href="default_weapons.html?id=crochet-venimeux">
+            <img src="Armes_Joueur_SR/eau/crochet_venimeux/GSWeapon_KasakaVenomFang_PortraitBig.png" alt="Crochet venimeux" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Crochet venimeux</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR eau">
+          <a href="default_weapons.html?id=croc-du-frimas">
+            <img src="Armes_Joueur_SSR/eau/croc_du_frimas/GSWeapon_WinterFang_PortraitBig.png" alt="Croc du frimas" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Croc du frimas</h4></div>
+          </a>
+        </div>		
+
+        <div class="item weapon-card SSR eau">
+          <a href="default_weapons.html?id=orbe-d-allon">
+            <img src="Armes_Joueur_SSR/eau/orbe_d_allon/GSWeapon_AlonOrb_PortraitBig.png" alt="Orbe d'allon" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Orbe d'Allon</h4></div>
+          </a>
+        </div>        
+
+        <div class="item weapon-card SSR lumiere">
+          <a href="default_weapons.html?id=baton-de-combat-divin">
+            <img src="Armes_Joueur_SSR/lumiere/baton_de_combat_divin/GSWeapon_ManaPole_PortraitBig.png" alt="Bâtton de combat divin" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bâton de combat divin</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR lumiere">
+          <a href="default_weapons.html?id=verite-lance-de-chevalier-demoniaque">
+            <img src="Armes_Joueur_SSR/lumiere/verite_lance_de_chevalier_demoniaque/GSWeapon_SSR_Demon_Knight_Spear_PortraitBig.png" alt="Vérité de lance du chevalier démoniaque" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Vérité Lance du chevalier démoniaque</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR lumiere">
+          <a href="default_weapons.html?id=le-chasseur">
+            <img src="Armes_Joueur_SSR/lumiere/le_chasseur/GSWeapon_KillWolf_PortraitBig.png" alt="Le chasseur" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Le chasseur</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR lumiere">
+          <a href="default_weapons.html?id=renard-a-queue-doree">
+            <img src="Armes_Joueur_SSR/lumiere/renard_a_queue_doree/GSWeapon_GoldTaleFox_PortraitBig.png" alt="Renard à queue dorée" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Renard à queue dorée</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR lumiere">
+          <a href="default_weapons.html?id=lance-de-chevalier-demoniaque">
+            <img src="Armes_Joueur_SR/lumiere/lance_de_chevalier_demoniaque/GSWeapon_DemonKnightSpear_PortraitBig.png" alt="Lance de chevalier démoniaque" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Lance de chevalier démoniaque</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR lumiere">
+          <a href="default_weapons.html?id=epee-de-dragon-etincelante">
+            <img src="Armes_Joueur_SR/lumiere/epee_de_dragon_etincelante/GSWeapon_LightningDragonBlade_PortraitBig.png" alt="Epee de dragon etincelante" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Épée de dragon étincelante</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR lumiere">
+          <a href="default_weapons.html?id=arc-long-de-la-famille-radir">
+            <img src="Armes_Joueur_SR/lumiere/arc_long_de_la_famille_radir/GSWeapon_RadiruGreatBow_01_PortraitBig.png" alt="Arc long de la famille de radir" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Arc long de la famille Radir</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR lumiere">
+          <a href="default_weapons.html?id=lame-fantome">
+            <img src="Armes_Joueur_SSR/lumiere/lame_fantome/GSWeapon_PhantomBlade_PortraitBig.png" alt="Lame fantôme" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Lame fantôme</h4></div>
+          </a>
+        </div>       
+        
+        <div class="item weapon-card SSR lumiere">
+          <a href="default_weapons.html?id=epee-du-heros">
+            <img src="Armes_Joueur_SSR/lumiere/epee_du_heros/GSWeapon_HimmelSword_PortraitBig.png" alt="Epée du Héros" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Epée du Héros</h4></div>
+          </a>
+        </div>           
+
+        <div class="item weapon-card SSR feu">
+          <a href="default_weapons.html?id=ame-de-phenix">
+            <img src="Armes_Joueur_SSR/feu/ame_de_phenix/GSWeapon_PhoenixSoul_PortraitBig.png" alt="Ame de phénix" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Ame de phénix</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR feu">
+          <a href="default_weapons.html?id=brochette-grillee-juteuse">
+            <img src="Armes_Joueur_SSR/feu/brochette_grillee_juteuse/GSWeapon_JuicyGrilledSkewers_PortraitBig.png" alt="Brochette grillée juteuse" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Brochette grillée juteuse</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR feu">
+          <a href="default_weapons.html?id=rage-de-vulcan">
+            <img src="Armes_Joueur_SSR/feu/rage_de_vulcan/GSWeapon_Vulcan_PortraitBig.png" alt="Rage de vulcan" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Rage de Vulcan</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR feu">
+          <a href="default_weapons.html?id=eventail-du-demon-de-feu">
+            <img src="Armes_Joueur_SSR/feu/eventail_du_demon_de_feu/GSWeapon_FlamesFan_PortraitBig.png" alt="Eventail du démon de feu" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Éventail du démon de feu</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR feu">
+          <a href="default_weapons.html?id=epee-longue-en-ecailles-de-dragon">
+            <img src="Armes_Joueur_SR/feu/epee_longue_en_ecailles_de_dragon/GSWeapon_DragnScaleGreatBlade_PortraitBig.png" alt="Epee longue en ecailles de dragon" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Épée longue en écailles de dragon</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR feu">
+          <a href="default_weapons.html?id=orbe-d-avarice">
+            <img src="Armes_Joueur_SR/feu/orbe_d_avarice/GSWeapon_OrbGreed_PortraitBig.png" alt="Orbe d'avarice" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Orbe d'avarice</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR feu">
+          <a href="default_weapons.html?id=tueuse-de-chevalier">
+            <img src="Armes_Joueur_SR/feu/tueuse_de_chevalier/GSWeapon_KnightKiller_PortraitBig.png" alt="Tueuse de chevalier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Tueuse de chevalier</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SR feu">
+          <a href="default_weapons.html?id=grimoire-de-demon-ardent">
+            <img src="Armes_Joueur_SR/feu/grimoire_de_demon_ardent/GSWeapon_BurningDevilGrimoire_PortraitBig.png" alt="Grimoire de demon ardent" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Grimoire de démon ardent</h4></div>
+          </a>
+        </div>
+
+        <div class="item weapon-card SSR feu">
+          <a href="default_weapons.html?id=lance_a_double_lame_du_clan_radir">
+            <img src="Armes_Joueur_SSR/feu/lance_a_double_lame_du_clan_radir/GSWeapon_EsilsDoubleEdge_PortraitBig.png" alt="Lance à double lame du clan Radir" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Lance à double lame du clan Radir</h4></div>
+          </a>
+        </div>		
+        
+        <div class="item weapon-card SSR feu">
+          <a href="default_weapons.html?id=rugissement-d-ennio">
+            <img src="Armes_Joueur_SSR/feu/rugissement_d_ennio/GSWeapon_RoarOfEnnio_PortraitBig.png" alt="Rugissement d'ennio" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Rugissement d'Ennio</h4></div>
+          </a>
+        </div>	 
+
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

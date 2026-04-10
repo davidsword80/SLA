@@ -1,0 +1,3 @@
+Rang : Commun<br>Les dégâts d'Attaque de noyau de tous les membres de l'équipe augmentent de 20 %.
+
+Rang : Général<br>Les dégâts d'Attaque de noyau de tous les membres de l'équipe augmentent de 40 %.

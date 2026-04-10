@@ -1,0 +1,5 @@
+Rang 5 :
+Rang 4 : 200
+Rang 3 : 140
+Rang 2 : 120
+Rang 1 :

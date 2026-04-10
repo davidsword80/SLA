@@ -1,0 +1,21 @@
+Passif :<br>Si Évasion s'active pendant une glissade de l'utilisateur, l'effet [Évasion extrême] se déclenche.<br>L'activation de l'effet [Évasion extrême] applique l'effet [Partie de chasse].<br>[Partie de chasse]<br>Augmente l'Attaque de l'utilisateur de 7% (cumulable jusqu'à 3 fois). <br>Durée: 30 seconde(s)
+
+1 étoile :<br>Lors de l'utilisation de la compétence Faucon chasseur, le temps de rechargement des compétences Foulée de l'ombre, Mort ou Effondrement est réinitialisé et activé.<br>Taux de réinitialisation: 20% pour Foulée de l'ombre, 40% pour Mort, 40% pour Effondrement
+
+2 étoiles <br>Vos dégâts de ténèbres augmentent de 8 %.
+
+3 étoiles :<br>Modification des effets de la compétence Faucon chasseur:<br>La compétence peut être utilisée jusqu'à 2 fois.
+
+4 étoiles :<br>Le temps de rechargement de Faucon chasseur diminue de 15%.
+
+5 étoiles :<br>Lorsque la compétence Faucon chasseur est utilisée, elle applique l'effet [Œil de faucon]. <br>[Œil de faucon]<br>Augmente les dégâts des compétences Effondrement, Mort et Foulée de l'ombre de 30%.<br>Durée: 3 seconde(s)
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

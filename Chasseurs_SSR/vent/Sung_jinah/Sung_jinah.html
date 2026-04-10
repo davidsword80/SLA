@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sung Jinah - SLA Style</title>
+    <link rel="stylesheet" href="../../../css/all.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>Statistiques de Sung Jinah</h1>
+      <nav>
+        <ul>
+            <li><a href="../../../index.html">Accueil</a></li>
+            <li><a href="../../../chasseurs.html">Chasseurs</a></li>
+            <li><a href="mousson_bleue/mousson_bleue.html">Armes</a></li>
+        </ul>
+      </nav>  
+    </header> 
+    <main>  
+      <div class="sla-card">
+          <div class="card-header-bar">
+              <div class="card-title">Sung Jinah</div>
+              <div class="card-rarity">SSR</div>
+          </div>
+          <div class="card-body">
+              <div class="card-visual">
+                  <img src="sung_art.png" alt="Sung Jinah" />
+              </div>
+              <div class="card-info">
+                  <div class="stars-container" id="char-stars-container">
+                      <span class="stars-label">Évolution :</span>
+                      <div class="stars">
+                        <span class="star" data-value="1">★</span><span class="star" data-value="2">★</span><span class="star" data-value="3">★</span><span class="star" data-value="4">★</span><span class="star" data-value="5">★</span>
+                      </div>
+                  </div>
+                  <div class="skill-box">
+                      <div class="skill-header">
+                          <span class="skill-title">Compétence Passive</span>
+                          <button id="toggleBtn" class="system-btn">Mode Résumé</button>
+                      </div>
+                      <div id="char-message" class="skill-content"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div style="height: 40px;"></div>
+
+      <div class="sla-card">
+          <div class="card-header-bar" style="background: linear-gradient(90deg, #27ae60, #000);">
+              <div class="card-title">Arme : Mousson bleue</div>
+              <div class="card-rarity">SSR</div>
+          </div>
+          <div class="card-body">
+              <div class="card-visual">
+                  <img src="Mousson_bleue/Relic_SungJinah_PortraitBig.png" alt="Mousson bleue" />
+              </div>
+              <div class="card-info">
+                  <div class="stars-container" id="weapon-stars-container">
+                      <span class="stars-label">Avancement :</span>
+                      <div class="stars">
+                        <span class="star" data-value="1">★</span><span class="star" data-value="2">★</span>
+                      </div>
+                  </div>
+                  <div class="skill-box">
+                      <div class="skill-header">
+                          <span class="skill-title">Effet de l'arme</span>
+                      </div>
+                      <div id="weapon-message" class="skill-content"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Solo Leveling Arise Database</p>
+      <script src="Sung_jinah.js"></script>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+Coup de pied azur
+Légendaire
+
+Dégâts : 668 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de lumière. Inflige des dégâts de [Bris tout-puissants]. Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air]. Lors de l'utilisation de cette compétence, Jinwoo devient [invincible]. L'utilisation de cette compétence augmente les dégâts de lumière de 22 % pendant 12 seconde(s).
+
+Coup de pied de l'eau circulante
+Légendaire
+
+Dégâts : 1679 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires d'eau. Lorsque la dernière attaque touche sa cible, elle la [renverse]. Chaque fois que cette compétence touche sa cible, elle lui applique l'effet [Au fil de l'eau].
+
+[Au fil de l'eau]
+
+Augmente les dégâts de Coup de pied de l'eau circulante de 90 %.
+
+Augmente les dégâts élémentaires d'eau de Coup de pied de l'eau circulante de 22 %.
+
+Durée : 3 seconde(s) (cumulable jusqu'à 3 fois).
+
+Coup de pied de la bourrasque
+Légendaire
+
+Dégâts : 1560 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de vent. Inflige des dégâts de Bris lourds. Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air]. Lorsque cette compétence est utilisée, un [Bouclier] est appliqué. Chaque fois que cette compétence touche sa cible, les dégâts infligés par l'utilisateur augmentent de 1 % pendant 8 seconde(s) (cumulable jusqu'à 20 fois).
+
+[Bouclier]
+
+Crée un [Bouclier] équivalent à 20 % des PV max de l'utilisateur.
+
+Durée : 5 seconde(s)
+
+Coup de pied de la tempête de feu
+Légendaire
+
+Dégâts : 1407 % de l'Attaque de Jinwoo Temps de rechargement : 20 s Consommation de PM : 200 Inflige des dégâts élémentaires de feu. Lorsque la dernière attaque touche sa cible, elle lui applique l'effet [En l'air]. Lorsque cette compétence touche sa cible, elle lui applique l'effet [Brûlure]. Augmente les dégâts de la compétence Coup de pied de la tempête de feu sur les ennemis affectés par [Brûlure] de 180 %.
+
+[Brûlure]
+
+Inflige des dégâts équivalents à 500 % de l'Attaque toutes les 3 seconde(s) (cumulable jusqu'à 1 fois).
+
+Durée : 30 seconde(s)

@@ -1,0 +1,21 @@
+Passif :<br>S'il n'y a aucune cible dans un rayon de 5 m, les dégâts de la compétence Balle secrète lancée par l'utilisateur augmentent de 75%.
+
+1 étoile :<br>Modification des effets de la compétence Balle secrète.<br>Il s'agit désormais d'une compétence à effet de charge.<br>Les dégâts augmentent de 130 % maximum suivant le temps passé à la charger.
+
+2 étoiles :<br>Vos dégâts de vent augmentent de 8 %.
+
+3 étoiles :<br>Lorsque Balle secrète touche sa cible, elle applique l'effet [Vent d'ouest]. <br>[Vent d'ouest]<br>Augmente les dégâts de la compétence Balle secrète de 30% (cumulable jusqu'à 5 fois).<br>Si la compétence Balle secrète manque sa cible, tous les cumuls sont annulés.<br>Durée: 30 seconde(s) (Temps de rechargement: 10 seconde(s))
+
+4 étoiles :<br>Le temps de rechargement de Balle secrète diminue de 15%.
+
+5 étoiles :<br>Lorsque Balle secrète inflige un Coup critique, le temps de rechargement diminue de 9 seconde(s) (Temps de rechargement: 10 seconde(s)).
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

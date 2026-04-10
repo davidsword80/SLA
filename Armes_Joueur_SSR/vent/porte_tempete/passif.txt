@@ -1,0 +1,67 @@
+Passif :<br>
+[Pouvoir scellé] s'active en début de niveau.
+
+[Pouvoir scellé]
+Lorsque Jinwoo utilise Tempête de grêle, aucun coup critique ne se déclenche, mais ses dégâts augmentent de 120%.
+La Précision de Sung Jinwoo diminue de 24%.
+L'Attaque et la Précision de Jinwoo augmentent de 0.8% par tranche de 10 point(s) de Force (jusqu'à 24%).
+Si la Force de Sung Jinwoo est de 300 ou plus, l'effet devient [Tempête éveillée].
+
+[Tempête éveillée]
+Lorsque Tempête de grêle touche sa cible, le tourbillon créé déclenche un effet qui attire les ennemis.
+Lorsque Jinwoo utilise Tempête de grêle, il bénéficie de [Super armure] pendant 3 seconde(s).
+Lorsque Jinwoo utilise Tempête de grêle, aucun coup critique ne se déclenche, mais ses dégâts augmentent de 200%.
+Son Attaque augmente de 30%.
+Sa Précision augmente de 5%.
+La Vitesse d'attaque de Tempête de grêle, de l'attaque de base et de l'attaque de noyau de Porte-tempête augmente significativement.
+Durée: illimitée
+
+
+1 étoile :<br>
+Lorsque Tempête de grêle touche sa cible, [Tempête menaçante] s'active.
+
+[Tempête menaçante]
+Lorsque la compétence de base de vent de l'utilisateur touche sa cible, elle lui applique l'effet [Frappe tempête].
+Durée: 4 seconde(s)
+
+[Frappe tempête]
+L'utilisateur inflige des dégâts équivalents à 1600% de l'Attaque
+(temps de rechargement: 0.5 seconde(s)).
+Lorsque cet effet s'active, il déclenche [Marque de la tempête] sur la cible.
+
+[Marque de la tempête]
+Augmente les dégâts subis de 5%.
+Augmente les dégâts de vent subis de 5%.
+Durée: 10 seconde(s) (cumulable jusqu'à 2 fois)
+
+
+2 étoiles :<br>
+Les dégâts élémentaires de vent de l'utilisateur augmentent de 10%.
+
+
+3 étoiles: <br>
+L'utilisation de Tempête de grêle diminue les dégâts subis par l'utilisateur de 50% pendant 3 seconde(s).
+Améliore l'effet [Marque de la tempête].
+
+[Marque de la tempête]
+Augmente les dégâts subis de 10%.
+Augmente les dégâts de vent subis de 15%.
+Durée: 20 seconde(s) (cumulable jusqu'à 2 fois)
+
+
+4 étoiles :<br>
+Le temps de rechargement de la compétence Tempête de grêle diminue de 20%.
+
+
+5 étoiles :<br>
+L'effet [Frappe tempête] est amélioré.
+
+[Frappe tempête]
+Inflige des dégâts équivalents à 3200 % de l'Attaque de l'utilisateur (temps de rechargement: 0.5 seconde(s)).
+Lorsque cet effet s'active, il déclenche [Marque de la tempête] sur la cible.
+Lorsque cet effet s'active, Jinwoo récupère 25 PM.
+
+[Marque de la tempête]
+Augmente les dégâts subis de 10%.
+Augmente les dégâts de vent subis de 15%.
+Durée: 20 seconde(s) (cumulable jusqu'à 2 fois)

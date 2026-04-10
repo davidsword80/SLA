@@ -1,0 +1,21 @@
+Passif :<br>Lors de l'utilisation de la compétence Destruction terrestre, l'effet [Protection terrestre] est appliqué.<br>[Protection terrestre]<br>Crée un [Bouclier] équivalent à 40% de la Défense de l'utilisateur. <br>Durée: 4 seconde(s)
+
+1 étoile :<br>Modification de l'effet [Protection terrestre]<br>L'effet de [Bouclier] bénéficie d'une augmentation équivalente à 80% de la Défense.<br>Augmente sa durée à 6 seconde(s).
+
+2 étoiles :<br>Vos dégâts de vent augmentent de 8 %.
+
+3 étoiles :<br>Lorsque l'effet [Protection terrestre] est actif, il applique aussi l'effet [Tempête terrestre).<br>[Tempête terrestre]<br>L'utilisateur invoque un rocher qui inflige des dégâts équivalents à 200% de sa Défense dans un rayon de 5 m toutes les secondes.<br>Durée: 10 seconde(s)
+
+4 étoiles :<br>Le temps de rechargement de Destruction terrestre diminue de 15%.
+
+5 étoiles :<br>Pendant que l'effet [Bouclier] est actif, l'Attaque augmente de 10% et la Défense de 10%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

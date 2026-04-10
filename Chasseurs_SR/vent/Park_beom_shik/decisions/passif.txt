@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente la Défense de l'utilisateur de 2%.<br>Lorsque l'effet [Détermination du père] s'active, un [Bouclier] supplémentaire équivalent à 2% de la Défense de l'utilisateur est créé, et les dégâts de ses Compétences de base augmentent de 10%.
+
+5 étoiles :<br>Augmente la Défense de l'utilisateur de 8%.<br>Lorsque l'effet [Détermination du père] s'active, un [Bouclier] supplémentaire équivalent à 8% de la Défense de l'utilisateur est créé, et les dégâts de ses Compétences de base augmentent de 35%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

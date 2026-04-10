@@ -1,0 +1,21 @@
+Passif :<br>Lors de l'utilisation de la compétence Furie de chevalier sacré, l'utilisateur applique l'effet[Règles corrompues].<br>[Règles corrompues]<br>Supprime le temps de rechargement de la compétence Furie de chevalier sacré. <br>(temps de rechargement: 20 seconde(s)) <br>Augmente les dégâts élémentaires de lumière de 10%. <br>Durée: 4 seconde(s)
+
+1 étoile :<br>Augmente la Vitesse d'attaque de l'utilisateur de 15% et les dégâts de Furie de chevalier sacré de 15% tant que l'effet Règles corrompues reste actif.<br>Lorsque Furie de chevalier sacré touche une cible, l'utilisateur récupère 1% de PM.
+
+2 étoiles :<br>Augmente les dégâts de lumière de 10%.
+
+3 étoiles :<br>Lorsque Furie de chevalier sacré touche une cible, elle lui inflige l'effet Rage du chevalier sacré corrompu.<br>[Rage du chevalier sacré corrompu]<br>Augmente les dégâts de Furie de chevalier sacré de 2% (cumulable jusqu'à 50 fois).<br>Durée: illimitée
+
+4 étoiles :<br>Le temps de rechargement de la compétence Furie de chevalier sacré diminue de 20 %.
+
+5 étoiles :<br>Lorsque Furie de chevalier sacré touche une cible, elle lui inflige l'effet [Malédiction du chevalier sacré].<br>[Malédiction du chevalier sacré]<br>Au bout de 3 cumuls, elle inflige des dégâts supplémentaires équivalents à 2000 % de l'Attaque de l'utilisateur.<br>Lorsque les dégâts supplémentaires sont subis, l'effet se dissipe.<br>Durée: 60 seconde(s)
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

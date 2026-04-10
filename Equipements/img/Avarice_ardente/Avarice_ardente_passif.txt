@@ -1,0 +1,5 @@
+[Effet de la panoplie 2] : <br>Lorsque l'utilisateur touche une cible avec une attaque infligeant des dégâts de [Bris], l'effet [Avarice] s'applique.<br>Augmente le Taux de coup critique de l'utilisateur de 1% (cumulable jusqu'à 10 fois).<br>Temps de rechargement: 1.5 seconde(s)<br>Durée: permanent
+
+[Effet de la panoplie 4] :<br>Lorsque l'effet [Avarice] se cumule 10 fois, il devient [Avarice ardente].<br>[Cupidité ardente]<br>Augmente le Taux de coup critique de l'utilisateur et de ses alliés de 10%, et leurs Dégâts de coup critique de 15%.<br>L'effet [Avarice] ne peut pas être activé si l'effet<br>[Avarice ardente] est actif.<br>Durée: permanent
+
+[Effet de la panoplie 8] :<br>Augmente l'effet de [Bris] de 30% en attaquant des ennemis dotés d'une faiblesse élémentaire.<br>L'effet [Avarice améliorée] devient [Avarice ardente].<br>[Avarice brûlante<br>Augmente le Taux de coup critique de l'utilisateur et de ses alliés de 15% et leurs Dégâts de coup critique de 30 %.<br>L'effet [Avarice] est indisponible une fois que l'effet [Avarice ardente] a été activé.<br>L'effet [Avarice améliorée] devient indisponible.<br>Durée: permanent

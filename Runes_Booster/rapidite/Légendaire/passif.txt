@@ -1,0 +1,4 @@
+Passif :<br>
+Vous vous déplacez rapidement.<br>
+Le nombre maximal de Ruées augmente de 1. <br>
+Il y a 30% de chances de réinitialiser le temps de rechargement lorsque la compétence Ruée est utilisée.

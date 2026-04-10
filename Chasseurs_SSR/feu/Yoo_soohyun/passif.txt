@@ -1,0 +1,11 @@
+Passif :<br>Lors de l'utilisation de Tir astucieux ou Nuée embrasée, l'effet [Projecteur] s'applique à l'utilisatrice.<br>Lors de l'utilisation de Nuée embrasée ou Souffle de précision, l'effet [Arme à feu magique] s'applique à l'utilisatrice.<br>[Projecteur]<br>Augmente la Pénétration de défense de l'utilisatrice de 24%.<br>l'utilisatrice à hauteur de 24% de sa Pénétration de défense. de<br>Durée: 24 seconde(s)<br>[Arme à feu magique]<br>Les Armes à feu magiques apparaissent autour de Soohyun et infligent des dégâts à hauteur de 160% de son Attaque.<br>Quand ces attaques touchent leur cible, elle leur inflige l'effet [Réaction magique].<br>Durée: 5 seconde(s)<br>[Réaction magique]<br>Augmente les dégâts de feu subis de 1%. Réduit le Taux de récupération de la cible de 4%.<br>Durée: 60 seconde(s) (cumulable jusqu'à 20 fois)
+
+1 étoile :<br>Lorsque la compétence Tir mortel est utilisée, elle active l'Attaque de noyau de l'utilisatrice et augmente les dégâts de ses Attaques de noyau de 40% pendant 6 seconde(s) (temps de rechargement: 16 seconde(s)).<br>Lorsque l'Attaque de noyau est utilisée, elle octroie l'effet [Folie] (temps de rechargement: 16 seconde(s)).<br>[Folie]<br>Réinitialise le temps de rechargement de Tir mortel.<br>Tir mortel devient Feu de l'enfer et augmente les dégâts de l'utilisatrice de 40%.<br>Lors de l'utilisation de Feu de l'enfer, l'effet [Super Super armure] est appliqué. Lors de l'utilisation de Feu de l'enfer,<br>l'effet [Arme à feu magique] est appliqué.<br>Lors de l'utilisation de Feu de l'enfer, l'effet [Folie] s'annule.<br>Durée: 6 seconde(s)
+
+2 étoiles :<br>La Pénétration de défense de l'utilisatrice augmente de 12%.
+
+3 étoiles :<br>Lorsque la compétence Tir astucieux est utilisée, l'effet Attaque augmentée s'applique.<br>[Attaque augmentée]<br>Augmente l'Attaque de l'utilisatrice de 24%. Durée: 12 seconde(s)
+
+4 étoiles :<br>Augmente l'Attaque de l'utilisatrice de 12%.
+
+5 étoiles :<br>Augmente les dégâts des compétences Tir mortel et Feu de l'enfer de 6% par cumul de [Reaction magique] face aux cibles affectées par l'effet [Réaction magique] (jusqu'à 120 %).

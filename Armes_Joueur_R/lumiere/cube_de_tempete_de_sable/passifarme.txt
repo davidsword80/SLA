@@ -1,0 +1,25 @@
+Passif :
+Lorsque la compétence Yeux luisants touche sa cible, elle lui inflige l'effet [Écran de fumée]. 
+[Écran de fumée]
+
+Réduit la Précision de 5 % (cumulable jusqu'à 3 fois). Durée : 20 seconde(s) 
+
+1 étoile :
+Lorsqu'une cible affectée par [Écran de fumée] est attaquée, la Précision augmente de 5 %. 
+
+2 étoiles :
+Vos dégâts de lumière augmentent de 6 %. 
+
+3 étoiles :
+Lors de l'utilisation de la compétence Yeux luisants, si l'utilisateur subit une attaque ou si son Attaque de noyau touche sa cible dans les 10 seconde(s), ce dernier inflige à la cible des dégâts supplémentaires équivalents à 150 % de son Attaque et lui applique l'effet [Écran de fumée]. 
+
+4 étoiles :
+Réduit les temps de rechargement de la compétence Yeux luisants de 10 %.
+
+5 étoiles :
+Lorsque l'effet [Écran de fumée] se cumule 3 fois, il se transforme en effet [Écran de fumée amélioré]. 
+
+[Écran de fumée amélioré]
+Réduit la Précision de 50 %. [Écran de fumée] ne peut pas s'activer. 
+
+Durée : 20 seconde(s)

@@ -1,0 +1,1 @@
+Passif :<br>Lorsque l'utilisateur est touché, sa stat de réduction des dégats augmente de 6% pendant 10 secondes (temps de rechargement : 25 secondes ).

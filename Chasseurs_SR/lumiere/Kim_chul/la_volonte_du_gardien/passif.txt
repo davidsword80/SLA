@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente la Défense de l'utilisateur de 2.5%.<br>Lors de l'utilisation de la compétence Saut de bouclier, les dégâts subis par l'équipe diminuent de 2% pendant 20 seconde(s).
+
+5 étoiles :<br>Augmente la Défense de l'utilisateur de 10%.<br>Lors de l'utilisation de la compétence Saut de bouclier, les dégâts subis par l'équipe diminuent de 12% pendant 20 seconde(s).
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.
