@@ -24,8 +24,8 @@ const footerHTML = `
 <footer style="position: relative;">
     <p>&copy; 2026 Solo Leveling Arise</p>
     <div style="margin-top: 10px; opacity: 0.8; pointer-events: none;">
-        <a href="http://www.mon-compteur.fr">
-            <img src="http://www.mon-compteur.fr/html_c01genv2-246480-1" alt="Compteur" border="0" />
+        <a href="https://www.mon-compteur.fr">
+            <img src="https://www.mon-compteur.fr/html_c01genv2-246480-1" alt="Compteur" border="0" />
         </a>
     </div>
     
