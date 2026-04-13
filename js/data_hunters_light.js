@@ -7,58 +7,24 @@ huntersData["cho-gyuhwan"] = {
     name: "Cho GyuHwan",
     rarity: "SR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)", // Dégradé jaune/or pour la lumière
+    gradient: "linear-gradient(90deg, #fac700, #000)", // Dégradé jaune/or pour la lumière
     image: "Chasseurs_SR/lumiere/Cho_gyu_hwan/ChoGyuHwan_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/lumiere/Cho_gyu_hwan/la_belle_vie/Relic_ChoGyuHwan_PortraitBig.png",
     weaponName: "La belle vie",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Augmente l'Attaque de l'utilisateur face aux cibles affectées par <span class="buff">[Brûlure]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Attaque augmentée]</span></h4>
-            <p>Augmente l'Attaque de <span class="stat-boost">25%</span>.<br>
-            Durée: 10 seconde(s)<br>
-            Temps de rechargement: 20 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>L'effet passif de Kyuhwan s'applique même s'il touche une cible affectée par <span class="buff">[Brûlure]</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les Points de mana de Kyuhwan augmentent de <span class="stat-boost">30%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>La consommation de PM des compétences de lumière augmente de <span class="stat-boost">25%</span>, mais leur portée et leurs dégâts augmentent de <span class="stat-boost">50%</span>.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente le Taux de récupération naturel du mana de <span class="stat-boost">50%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Augment la portée de la compétence <strong>Rayon irradiant</strong> de <span class="stat-boost">20%</span> et lorsque la première attaque touche sa cible, elle lui applique l'effet <span class="buff">[étourdissement]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[étourdissement]</span></h4>
-            <p>La cible est immobilisée.<br>
-            Durée: 1 seconde(s)</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Augmente l'Attaque de l'utilisateur face aux cibles affectées par [Brûlure].`, [
+        { title: `[Attaque augmentée]`, content: `Augmente l'Attaque de 25%.
+            Durée: 10 seconde(s)
+            Temps de rechargement: 20 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `L'effet passif de Kyuhwan s'applique même s'il touche une cible affectée par [Brûlure].`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Les Points de mana de Kyuhwan augmentent de 30%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `La consommation de PM des compétences de lumière augmente de 25%, mais leur portée et leurs dégâts augmentent de 50%.`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Augmente le Taux de récupération naturel du mana de 50%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Augment la portée de la compétence **Rayon irradiant** de 20% et lorsque la première attaque touche sa cible, elle lui applique l'effet [étourdissement].`, [
+        { title: `[étourdissement]`, content: `La cible est immobilisée.
+            Durée: 1 seconde(s)` }
+    ], "Lumière")
     },
     summaryData: {
         0: `
@@ -88,20 +54,13 @@ huntersData["cho-gyuhwan"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">2%</span>.<br>
-        Si les PM de l'utilisateur sont à <span class="stat-boost">50%</span> ou au-dessus, les dégâts de son <span class="keyword-orange">attaque de noyau</span>, de sa <span class="keyword-orange">compétence de base</span> et de sa Compétence QTE augmentent de <span class="stat-boost">10%</span>.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">8%</span>.<br>
-        Si les PM de l'utilisateur sont à <span class="stat-boost">50%</span> ou au-dessus, les dégâts de son <span class="keyword-orange">attaque de noyau</span>, de sa <span class="keyword-orange">compétence de base</span> et de sa Compétence QTE augmentent de <span class="stat-boost">40 %</span>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente l'Attaque de l'utilisateur de 2%.
+
+        Si les PM de l'utilisateur sont à 50% ou au-dessus, les dégâts de son attaque de noyau, de sa compétence de base et de sa Compétence QTE augmentent de 10%.`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente l'Attaque de l'utilisateur de 8%.
+
+        Si les PM de l'utilisateur sont à 50% ou au-dessus, les dégâts de son attaque de noyau, de sa compétence de base et de sa Compétence QTE augmentent de 40 %.`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -110,66 +69,32 @@ huntersData["kim-chul"] = {
     name: "Kim Chul",
     rarity: "SR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SR/lumiere/Kim_chul/KimChul_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/lumiere/Kim_chul/la_volonte_du_gardien/Relic_KimChul_PortraitBig.png",
     weaponName: "La volonté du gardien",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Saut de bouclier</strong> ou <strong>Rugissement féroce</strong>, l'effet <span class="buff">[Impénétrable]</span> est appliqué.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Impénétrable]</span></h4>
-            <p>Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">2.5 %</span> de la Défense de l'utilisateur.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Modification des effets de la compétence <strong>Saut de bouclier</strong><br>
-        Peut être utilisée jusqu'à 2 fois.<br>
-        Réduit le temps de rechargement de 2 secondes.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">6%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lorsqu'un personnage <span class="buff">[quitte le combat]</span>, l'effet <span class="buff">[Impénétrable]</span> est appliqué à toute l'équipe.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Impénétrable]</span></h4>
-            <p>Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">8%</span> de la<br>
-            Défense de l'utilisateur.<br>
-            Durée: 10 seconde(s)<br>
-            Temps de rechargement: 30 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">8%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'effet <span class="buff">[Défense réduite]</span> s'applique pendant <strong>Saut de bouclier</strong>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Défense réduite]</span></h4>
-            <p>Réduit la Défense de <span class="stat-boost">16%</span>.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation des compétences **Saut de bouclier** ou **Rugissement féroce**, l'effet [Impénétrable] est appliqué.`, [
+        { title: `[Impénétrable]`, content: `Crée un [Bouclier] équivalent à 2.5 % de la Défense de l'utilisateur.
+            Durée: 10 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Modification des effets de la compétence **Saut de bouclier**
+
+        Peut être utilisée jusqu'à 2 fois.
+
+        Réduit le temps de rechargement de 2 secondes.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente la Défense de l'utilisateur de 6%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lorsqu'un personnage [quitte le combat], l'effet [Impénétrable] est appliqué à toute l'équipe.`, [
+        { title: `[Impénétrable]`, content: `Crée un [Bouclier] équivalent à 8% de la
+            Défense de l'utilisateur.
+            Durée: 10 seconde(s)
+            Temps de rechargement: 30 seconde(s)` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Les PV de l'utilisateur augmentent de 8%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `L'effet [Défense réduite] s'applique pendant **Saut de bouclier**.`, [
+        { title: `[Défense réduite]`, content: `Réduit la Défense de 16%.
+            Durée: 10 seconde(s)` }
+    ], "Lumière")
     },
     summaryData: {
         0: `
@@ -200,20 +125,13 @@ huntersData["kim-chul"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">2.5%</span>.<br>
-        Lors de l'utilisation de la compétence <strong>Saut de bouclier</strong>, les dégâts subis par l'équipe diminuent de <span class="stat-boost">2%</span> pendant 20 seconde(s).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">10%</span>.<br>
-        Lors de l'utilisation de la compétence <strong>Saut de bouclier</strong>, les dégâts subis par l'équipe diminuent de <span class="stat-boost">12%</span> pendant 20 seconde(s).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Défense de l'utilisateur de 2.5%.
+
+        Lors de l'utilisation de la compétence **Saut de bouclier**, les dégâts subis par l'équipe diminuent de 2% pendant 20 seconde(s).`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Défense de l'utilisateur de 10%.
+
+        Lors de l'utilisation de la compétence **Saut de bouclier**, les dégâts subis par l'équipe diminuent de 12% pendant 20 seconde(s).`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -222,70 +140,34 @@ huntersData["yoo-jinho"] = {
     name: "Yoo Jinho",
     rarity: "SR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SR/lumiere/Yoo_jinho/YooJinHo_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/lumiere/Yoo_jinho/enchante/Relic_YooJinHo_PortraitBig.png",
     weaponName: "Enchanté",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque <strong>[À mon tour!, Fais-moi confiance! ou Je vais te protéger!]</strong> touche sa cible, une potion est créée près de l'utilisateur.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Potion]</span></h4>
-            <p>En obtenant une potion, les PV sont restaurés à hauteur de <span class="stat-boost">8%</span> des PV max de Yoo Jinho.<br>
-            Temps de rechargement: 20 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Fais-moi confiance!</strong>, l'utilisateur crée une aura qui inflige toutes les secondes des dégâts équivalents à <span class="stat-boost">70%</span> de sa Défense pendant la durée d'application du buff de Fais-moi confiance !.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">8%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Fais-moi confiance!</strong>, un <span class="buff">[Bouclier]</span> est appliqué.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Bouclier]</span></h4>
-            <p>Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">20%</span> des PV de l'utilisateur.<br>
-            Durée: 8 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">6 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Tous les effets ci-dessous s'appliquent à l'obtention d'une <span class="buff">[Potion]</span>.<br>
-        Restauration de <span class="stat-boost">12%</span> des PV max de Yoo Jinho.<br>
-        Applique l'effet <span class="buff">[Attaque augmentée]</span>.<br>
-        Applique un <span class="buff">[Bouclier]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Attaque augmentée]</span></h4>
-            <p>Augmente l'Attaque de <span class="stat-boost">12%</span>.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Bouclier]</span></h4>
-            <p>Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">12%</span> des PV max de Yoo Jinho.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lorsque **[À mon tour!, Fais-moi confiance! ou Je vais te protéger!]** touche sa cible, une potion est créée près de l'utilisateur.`, [
+        { title: `[Potion]`, content: `En obtenant une potion, les PV sont restaurés à hauteur de 8% des PV max de Yoo Jinho.
+            Temps de rechargement: 20 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation de la compétence **Fais-moi confiance!**, l'utilisateur crée une aura qui inflige toutes les secondes des dégâts équivalents à 70% de sa Défense pendant la durée d'application du buff de Fais-moi confiance !.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Les PV de l'utilisateur augmentent de 8%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation de la compétence **Fais-moi confiance!**, un [Bouclier] est appliqué.`, [
+        { title: `[Bouclier]`, content: `Crée un [Bouclier] équivalent à 20% des PV de l'utilisateur.
+            Durée: 8 seconde(s)` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Augmente la Défense de l'utilisateur de 6 %.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Tous les effets ci-dessous s'appliquent à l'obtention d'une [Potion].
+
+        Restauration de 12% des PV max de Yoo Jinho.
+
+        Applique l'effet [Attaque augmentée].
+
+        Applique un [Bouclier].`, [
+        { title: `[Attaque augmentée]`, content: `Augmente l'Attaque de 12%.
+            Durée: 10 seconde(s)` },
+        { title: `[Bouclier]`, content: `Crée un [Bouclier] équivalent à 12% des PV max de Yoo Jinho.
+            Durée: 10 seconde(s)` }
+    ], "Lumière")
     },
     summaryData: {
         0: `
@@ -319,20 +201,13 @@ huntersData["yoo-jinho"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">2%</span>.<br>
-        Lorsque l'utilisateur obtient une <span class="buff">[Potion]</span> de Yoo Jinho, l'Attaque, la Défense et les PV des membres de l'équipe augmentent de <span class="stat-boost">1.5%</span> supplémentaires pendant 10 seconde(s).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">5%</span>.<br>
-        Lorsque l'utilisateur obtient une <span class="buff">[Potion]</span> de Yoo Jinho, l'Attaque, la Défense et les PV des membres de l'équipe augmentent de <span class="stat-boost">3%</span> supplémentaires pendant 10 seconde(s).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+        Lorsque l'utilisateur obtient une [Potion] de Yoo Jinho, l'Attaque, la Défense et les PV des membres de l'équipe augmentent de 1.5% supplémentaires pendant 10 seconde(s).`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 5%.
+
+        Lorsque l'utilisateur obtient une [Potion] de Yoo Jinho, l'Attaque, la Défense et les PV des membres de l'équipe augmentent de 3% supplémentaires pendant 10 seconde(s).`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -341,64 +216,28 @@ huntersData["baek-yunho"] = {
     name: "Baek Yunho",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/lumiere/Baek_yunho/baek_art.png",
     weaponImage: "Chasseurs_SSR/lumiere/Baek_yunho/ame_de_tigre_blanc_reprimee/Relic_BaekYoonHo_Human_PortraitBig.png",
     weaponName: "Âme de tigre blanc réprimée",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Le dernier coup de toutes les compétences, à l'exception des attaques de base, applique l'effet <span class="buff">[Flammes blanches]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Flammes blanches]</span></h4>
-            <p>Lorsque l'effet atteint 2 cumuls, il active l'effet <span class="buff">[Violente explosion]</span> qui inflige des dégâts équivalents à <span class="stat-boost">600%</span> de la Défense de l'utilisateur et applique <span class="buff">[Défense réduite]</span> à la cible.<br>
-            Lorsque l'effet Violente explosion est utilisé sur la cible, sa Défense est réduite de <span class="stat-boost">5%</span> supplémentaires.<br>
-            Durée: illimitée (jusqu'à 1 cumul)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Défense réduite]</span></h4>
-            <p>Réduit la Défense de <span class="stat-boost">20%</span>.<br>
-            Durée: 12 secondes</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Augmente les dégâts de <strong>Coup de pied perçant de la flamme blanche</strong> de <span class="stat-boost">150%</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente l'efficacité de [Bris] de l'utilisateur de <span class="stat-boost">20%</span></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Vérité: Frappe de la flamme blanche</strong>, l'effet <span class="buff">[Bris lourd]</span> est appliqué.<br>
-        Lors de l'utilisation des compétences <strong>Fosse sans fond</strong> ou <strong>Coup de pied perçant de la flamme blanche</strong>, l'effet <span class="buff">[Flammes blanches débloquées]</span> s'applique.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Débloquer Flammes blanches]</span></h4>
-            <p>Augmente les dégâts de lumière de l'utilisateur de <span class="stat-boost">40%</span> et octroie <span class="buff">[Super armure]</span>.<br>
-            Durée: 15 secondes</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Le Taux de coup critique de l'utilisatrice augmente de <span class="stat-boost">16%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lorsque l'utilisateur rejoint le niveau, il récupère <span class="stat-boost">100 %</span> de sa jauge de puissance et les dégâts de <strong>Violente explosion</strong> augmentent de <span class="stat-boost">200%</span>.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Le dernier coup de toutes les compétences, à l'exception des attaques de base, applique l'effet [Flammes blanches].`, [
+        { title: `[Flammes blanches]`, content: `Lorsque l'effet atteint 2 cumuls, il active l'effet [Violente explosion] qui inflige des dégâts équivalents à 600% de la Défense de l'utilisateur et applique [Défense réduite] à la cible.
+            Lorsque l'effet Violente explosion est utilisé sur la cible, sa Défense est réduite de 5% supplémentaires.
+            Durée: illimitée (jusqu'à 1 cumul)` },
+        { title: `[Défense réduite]`, content: `Réduit la Défense de 20%.
+            Durée: 12 secondes` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Augmente les dégâts de **Coup de pied perçant de la flamme blanche** de 150%.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente l'efficacité de [Bris] de l'utilisateur de 20%`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation de la compétence **Vérité: Frappe de la flamme blanche**, l'effet [Bris lourd] est appliqué.
+
+        Lors de l'utilisation des compétences **Fosse sans fond** ou **Coup de pied perçant de la flamme blanche**, l'effet [Flammes blanches débloquées] s'applique.`, [
+        { title: `[Débloquer Flammes blanches]`, content: `Augmente les dégâts de lumière de l'utilisateur de 40% et octroie [Super armure].
+            Durée: 15 secondes` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le Taux de coup critique de l'utilisatrice augmente de 16%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'utilisateur rejoint le niveau, il récupère 100 % de sa jauge de puissance et les dégâts de **Violente explosion** augmentent de 200%.`, [], "Lumière")
     },
     summaryData: {
         0: `
@@ -434,22 +273,17 @@ huntersData["baek-yunho"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les dégâts de lumière de l'utilisateur de <span class="stat-boost">4%</span>.<br>
-        Face à des cibles affectées par l'effet <span class="buff">[Flammes blanches]</span>, la Défense de l'utilisateur augmente de <span class="stat-boost">5%</span> pendant 20 seconde(s).<br>
-        (Temps de rechargement: 30 seconde(s))</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les dégâts de lumière de l'utilisateur de <span class="stat-boost">12%</span>.<br>
-        Face à des cibles affectées par l'effet <span class="buff">[Flammes blanches]</span>, la Défense de l'utilisateur augmente de <span class="stat-boost">20%</span> pendant 20 seconde(s).<br>
-        (Temps de rechargement: 30 seconde(s))</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les dégâts de lumière de l'utilisateur de 4%.
+
+        Face à des cibles affectées par l'effet [Flammes blanches], la Défense de l'utilisateur augmente de 5% pendant 20 seconde(s).
+
+        (Temps de rechargement: 30 seconde(s))`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les dégâts de lumière de l'utilisateur de 12%.
+
+        Face à des cibles affectées par l'effet [Flammes blanches], la Défense de l'utilisateur augmente de 20% pendant 20 seconde(s).
+
+        (Temps de rechargement: 30 seconde(s))`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -458,53 +292,22 @@ huntersData["cha-hae-in"] = {
     name: "Cha Hae-in",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/lumiere/Cha_hae_in/cha_art.png",
     weaponImage: "Chasseurs_SSR/lumiere/Cha_hae_in/epee_de_lumiere/Relic_ChaHaeIn_PortraitBig.png",
     weaponName: "Épée de lumière",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque la compétence La danseuse touche sa cible, l'utilisateur a <span class="stat-boost">66%</span> de chances de la <span class="buff">[marquer]</span>.<br>
-        <div class="detail-box">
-            <h4><span class="buff">[Marquage]</span></h4>
-            <p>Le Taux de coup critique et les Dégâts de coup critique de la cible touchée augmentent de <span class="stat-boost">12%</span>.<br>
-            Durée: 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>L'effet <span class="buff">[La danseuse]</span> peut se cumuler jusqu'à 5 fois.<br>
-        Confère <span class="buff">[Super armure]</span> tant que l'effet <span class="buff">[Valse de l'épée]</span> est actif.</p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Le Taux de coup critique de l'utilisatrice augmente de <span class="stat-boost">16%</span>.</p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Face à une cible affectée par l'effet <span class="buff">[Marquage]</span>, les dégâts des compétences La danseuse et Épée de lumière augmentent de <span class="stat-boost">50%</span>.</p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts de coup critique de l'utilisatrice augmentent de <span class="stat-boost">16%</span>.</p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les dégâts et le Taux de coup critique de <span class="element-lumiere">Lumière</span> finale augmentent de <span class="stat-boost">20%</span> et <span class="stat-boost">2%</span> respectivement, en fonction du nombre de fois où l'utilisatrice applique l'effet de <span class="buff">[La danseuse]</span> (cumulable jusqu'à 5 fois).</p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `<p>Lorsque la compétence La danseuse touche sa cible, l'utilisateur a 66% de chances de la [marquer].`, [
+        { title: `[Marquage]`, content: `Le Taux de coup critique et les Dégâts de coup critique de la cible touchée augmentent de 12%.
+            Durée: 15 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `L'effet [La danseuse] peut se cumuler jusqu'à 5 fois.
+
+        Confère [Super armure] tant que l'effet [Valse de l'épée] est actif.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Le Taux de coup critique de l'utilisatrice augmente de 16%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Face à une cible affectée par l'effet [Marquage], les dégâts des compétences La danseuse et Épée de lumière augmentent de 50%.`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts de coup critique de l'utilisatrice augmentent de 16%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Les dégâts et le Taux de coup critique de Lumière finale augmentent de 20% et 2% respectivement, en fonction du nombre de fois où l'utilisatrice applique l'effet de [La danseuse] (cumulable jusqu'à 5 fois).`, [], "Lumière")
     },
     summaryData: {
         0: `
@@ -535,20 +338,13 @@ huntersData["cha-hae-in"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les dégâts de <span class="keyword-orange">compétence de base</span> de l'utilisateur de <span class="stat-boost">5%</span>.<br>
-        Lors de l'utilisation d'une <span class="keyword-orange">compétence de base</span>, les Dégâts de coup critique de l'utilisateur augmentent de <span class="stat-boost">2%</span> pendant 12 seconde(s) (cumulable jusqu'à 6 fois).</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les dégâts de <span class="keyword-orange">compétence de base</span> de l'utilisateur de <span class="stat-boost">20 %</span>.<br>
-        Lors de l'utilisation d'une <span class="keyword-orange">compétence de base</span>, les Dégâts de coup critique de l'utilisateur augmentent de <span class="stat-boost">8%</span> pendant 12 seconde(s) (cumulable jusqu'à 6 fois).</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les dégâts de compétence de base de l'utilisateur de 5%.
+
+        Lors de l'utilisation d'une compétence de base, les Dégâts de coup critique de l'utilisateur augmentent de 2% pendant 12 seconde(s) (cumulable jusqu'à 6 fois).`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les dégâts de compétence de base de l'utilisateur de 20 %.
+
+        Lors de l'utilisation d'une compétence de base, les Dégâts de coup critique de l'utilisateur augmentent de 8% pendant 12 seconde(s) (cumulable jusqu'à 6 fois).`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -557,87 +353,49 @@ huntersData["go-gunhee"] = {
     name: "Go Gunhee",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/lumiere/Go_gunhee/go_art.png",
     weaponImage: "Chasseurs_SSR/lumiere/Go_gunhee/une_conviction_et_une_vocation/Relic_GoGunHee_PortraitBig.png",
     weaponName: "Une conviction et une vocation",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>L'effet <span class="buff">[Vaisseau brisé]</span> est appliqué lorsque l'utilisateur arrive dans le niveau.<br>
-        Lorsqu'il utilise les compétences <strong>Balayage</strong> ou <strong>Esprit combatif</strong>, l'effet <span class="buff">[Aura de dirigeant]</span> est appliqué.<br>
-        Lors de l'utilisation de la compétence <strong>Pouvoir de la lumière brillante</strong>, l'effet <span class="buff">[Fragment de lumière brillante]</span> est appliqué.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Vaisseau brisé]</span></h4>
-            <p>Diminue le taux de récupération de PV de <span class="stat-boost">50%</span>.<br>
-            Durée: illimitée<br></p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Aura de dirigeant]</span></h4>
-            <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">30%</span>.<br>
-            L'utilisateur bénéficie d'un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">20%</span> de la Défense de Go Gunhee.<br>
-            Durée: 10 seconde(s)<br></p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Fragment de lumière brillante]</span></h4>
-            <p>Active l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur 1 fois.<br>
-            L'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur devient <strong>Attaque lourde: Écrasement abdominal</strong> et ses dégâts augmentent de <span class="stat-boost">60%</span>.<br>
-            Esprit combatif devient <strong>Attaque lourde: Esprit combatif</strong> et les dégâts infligés par l'utilisateur augmentent de <span class="stat-boost">60%</span>.<br>
-            Durée: 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Esprit combatif</strong> ou <strong>Attaque lourde: Esprit combatif</strong>, l'<span class="keyword-orange">attaque de noyau</span> s'active.<br>
-        Lors de l'utilisation des compétences <strong>Esprit combatif</strong> ou <strong>Attaque lourde: Esprit combatif</strong>, l'<span class="keyword-orange">attaque de noyau</span> devient <strong>Attaque lourde: Écrasement abdominal</strong> pendant 15 seconde(s).<br>
-        Lors de l'utilisation de la compétence <strong>Pouvoir de la lumière brillante</strong>, l'effet <span class="buff">[Volonté de lumière brillante]</span> est appliqué à tous les membres de l'équipe.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Volonté de lumière brillante]</span></h4>
-            <p>Pour chaque membre de l'équipe de l'élément <span class="element-lumiere">Lumière</span> présent, les dégâts élémentaires de lumière infligés par l'utilisateur augmentent de <span class="stat-boost">8%</span>, et ses Dégâts de coup critique augmentent de <span class="stat-boost">8%</span>.<br></p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>L'efficacité de <span class="buff">[Bris]</span> est augmentée de <span class="stat-boost">20%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'utilisation de la compétence <strong>Supernova</strong> inflige des dégâts de Bris tout-puissants.<br>
-        L'effet <span class="buff">[Aura de dirigeant]</span> est amélioré.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Aura de dirigeant]</span> (Amélioré)</h4>
-            <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">50%</span>.<br>
-            L'utilisateur bénéficie d'un Bouclier équivalent à <span class="stat-boost">20%</span> de la Défense de Go Gunhee.<br>
-            Les dégâts subis par l'utilisateur diminuent de <span class="stat-boost">20%</span>.<br>
-            Durée: 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">12%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les dégâts de la compétence <strong>Supernova</strong> augmentent de <span class="stat-boost">60%</span> lors d'une utilisation contre des cibles disposant d'une jauge de bris.<br>
-        Lorsque la compétence Supernova touche une cible ne disposant pas de jauge de bris, l'effet <span class="buff">[Volonté du fragment]</span> est appliqué à tous les membres de l'équipe.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Volonté du fragment]</span></h4>
-            <p>Augmente les Dégâts de coup critique de <span class="stat-boost">30%</span> et les dégâts de la Compétence QTE de <span class="stat-boost">150%</span>.<br>
-            Durée: 20 seconde(s)</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `L'effet [Vaisseau brisé] est appliqué lorsque l'utilisateur arrive dans le niveau.
+
+        Lorsqu'il utilise les compétences **Balayage** ou **Esprit combatif**, l'effet [Aura de dirigeant] est appliqué.
+
+        Lors de l'utilisation de la compétence **Pouvoir de la lumière brillante**, l'effet [Fragment de lumière brillante] est appliqué.`, [
+        { title: `[Vaisseau brisé]`, content: `Diminue le taux de récupération de PV de 50%.
+            Durée: illimitée` },
+        { title: `[Aura de dirigeant]`, content: `Augmente la Défense de l'utilisateur de 30%.
+            L'utilisateur bénéficie d'un [Bouclier] équivalent à 20% de la Défense de Go Gunhee.
+            Durée: 10 seconde(s)` },
+        { title: `[Fragment de lumière brillante]`, content: `Active l'attaque de noyau de l'utilisateur 1 fois.
+            L'attaque de noyau de l'utilisateur devient **Attaque lourde: Écrasement abdominal** et ses dégâts augmentent de 60%.
+            Esprit combatif devient **Attaque lourde: Esprit combatif** et les dégâts infligés par l'utilisateur augmentent de 60%.
+            Durée: 15 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation des compétences **Esprit combatif** ou **Attaque lourde: Esprit combatif**, l'attaque de noyau s'active.
+
+        Lors de l'utilisation des compétences **Esprit combatif** ou **Attaque lourde: Esprit combatif**, l'attaque de noyau devient **Attaque lourde: Écrasement abdominal** pendant 15 seconde(s).
+
+        Lors de l'utilisation de la compétence **Pouvoir de la lumière brillante**, l'effet [Volonté de lumière brillante] est appliqué à tous les membres de l'équipe.`, [
+        { title: `[Volonté de lumière brillante]`, content: `Pour chaque membre de l'équipe de l'élément Lumière présent, les dégâts élémentaires de lumière infligés par l'utilisateur augmentent de 8%, et ses Dégâts de coup critique augmentent de 8%.` }
+    ], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `L'efficacité de [Bris] est augmentée de 20%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `L'utilisation de la compétence **Supernova** inflige des dégâts de Bris tout-puissants.
+
+        L'effet [Aura de dirigeant] est amélioré.`, [
+        { title: `[Aura de dirigeant] (Amélioré)`, content: `Augmente la Défense de l'utilisateur de 50%.
+            L'utilisateur bénéficie d'un Bouclier équivalent à 20% de la Défense de Go Gunhee.
+            Les dégâts subis par l'utilisateur diminuent de 20%.
+            Durée: 15 seconde(s)` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Augmente la Défense de l'utilisateur de 12%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Les dégâts de la compétence **Supernova** augmentent de 60% lors d'une utilisation contre des cibles disposant d'une jauge de bris.
+
+        Lorsque la compétence Supernova touche une cible ne disposant pas de jauge de bris, l'effet [Volonté du fragment] est appliqué à tous les membres de l'équipe.`, [
+        { title: `[Volonté du fragment]`, content: `Augmente les Dégâts de coup critique de 30% et les dégâts de la Compétence QTE de 150%.
+            Durée: 20 seconde(s)` }
+    ], "Lumière")
     },
     summaryData: {
         0: `
@@ -671,20 +429,13 @@ huntersData["go-gunhee"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>La Défense de l'utilisateur augmente de <span class="stat-boost">4%</span>.<br>
-        Lorsque les compétences <strong>Esprit combatif</strong> ou <strong>Attaque lourde: Esprit combatif</strong> touchent leur cible, les dégâts élémentaires de lumière infligés à la cible augmentent de <span class="stat-boost">4%</span> pendant 15 seconde(s).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>La Défense de l'utilisateur augmente de <span class="stat-boost">12%</span>.<br>
-        Lorsque les compétences <strong>Esprit combatif</strong> ou <strong>Attaque lourde: Esprit combatif</strong> touchent leur cible, les dégâts élémentaires de lumière infligés à la cible augmentent de <span class="stat-boost">12%</span> pendant 15 seconde(s).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `La Défense de l'utilisateur augmente de 4%.
+
+        Lorsque les compétences **Esprit combatif** ou **Attaque lourde: Esprit combatif** touchent leur cible, les dégâts élémentaires de lumière infligés à la cible augmentent de 4% pendant 15 seconde(s).`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `La Défense de l'utilisateur augmente de 12%.
+
+        Lorsque les compétences **Esprit combatif** ou **Attaque lourde: Esprit combatif** touchent leur cible, les dégâts élémentaires de lumière infligés à la cible augmentent de 12% pendant 15 seconde(s).`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -693,127 +444,59 @@ huntersData["laura-walker"] = {
     name: "Laura Walker",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/lumiere/Laura_walker/laura_art.png",
     weaponImage: "Chasseurs_SSR/lumiere/Laura_walker/eclair_dechire_nuit/Relic_LauraWalker_PortraitBig.png",
     weaponName: "Éclair déchire-nuit",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>L'utilisation de la compétence <strong>Point de contrôle</strong> active l'effet <span class="buff">[Échéance]</span> 1 fois.<br>
-        L'utilisation des compétences <strong>Escorte d'entreprise</strong> ou <strong>Administratrice en chef</strong> lorsque l'équipe est composée de chasseurs de l'élément <span class="element-lumiere">Lumière</span> applique l'effet <span class="buff">[Élan]</span> à toute l'équipe.<br>
-        L'utilisation de la compétence <strong>Boucle de tâche</strong> applique l'effet <span class="buff">[Éclaireuse]</span> à tous les membres de l'équipe de l'élément <span class="element-lumiere">Lumière</span>.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Élan]</span></h4>
-            <p>Augmente la Pénétration de défense de <span class="stat-boost">10 %</span>. Réduit les dégâts subis de <span class="stat-boost">10 %</span>.<br>
-            Durée : 60 seconde(s).</p>
-        </div>
+        0: fmtPassif(`Passif :`, `L'utilisation de la compétence **Point de contrôle** active l'effet [Échéance] 1 fois.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Éclaireuse]</span></h4>
-            <p>Restaure en continu les PV à hauteur de <span class="stat-boost">2 %</span> de l'Attaque de Laura Walker toutes les 3 seconde(s).<br>
-            Confère un Bouclier équivalent à <span class="stat-boost">3 %</span> de l'Attaque de Laura Walker toutes les 3 seconde(s).<br>
-            Lorsque le Bouclier est actif, il active l'effet <span class="buff">[Secrétaire]</span>. Durée : 60 seconde(s).</p>
-        </div>
+        L'utilisation des compétences **Escorte d'entreprise** ou **Administratrice en chef** lorsque l'équipe est composée de chasseurs de l'élément Lumière applique l'effet [Élan] à toute l'équipe.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Secrétaire]</span></h4>
-            <p>L'Attaque et la Défense augmentent de <span class="stat-boost">1 %</span>. Durée : 10 seconde(s) (cumulable jusqu'à 10 fois).</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>L'Attaque et la Défense de tous les membres de l'équipe augmentent de <span class="stat-boost">9 %</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Lorsque l'utilisatrice quitte le combat, l'effet <span class="buff">[Entreprise]</span> est appliqué à tous les membres de l'équipe de l'élément <span class="element-lumiere">Lumière</span>, sauf Laura Walker, au bout de 3.5 seconde(s).<br>
-        Chaque fois que les compétences <strong>Échéance</strong>, <strong>Boucle de tâche</strong> ou <strong>Officieusement</strong> touchent leur cible, elles leur appliquent l'effet <span class="buff">[Date butoir]</span>.<br>
-        L'utilisation de la compétence <strong>Escorte d'entreprise</strong> améliore l'effet <span class="buff">[Développement]</span>.<br></p>
+        L'utilisation de la compétence **Boucle de tâche** applique l'effet [Éclaireuse] à tous les membres de l'équipe de l'élément Lumière.`, [
+        { title: `[Élan]`, content: `Augmente la Pénétration de défense de 10 %. Réduit les dégâts subis de 10 %.
+            Durée : 60 seconde(s).` },
+        { title: `[Éclaireuse]`, content: `Restaure en continu les PV à hauteur de 2 % de l'Attaque de Laura Walker toutes les 3 seconde(s).
+            Confère un Bouclier équivalent à 3 % de l'Attaque de Laura Walker toutes les 3 seconde(s).
+            Lorsque le Bouclier est actif, il active l'effet [Secrétaire]. Durée : 60 seconde(s).` },
+        { title: `[Secrétaire]`, content: `L'Attaque et la Défense augmentent de 1 %. Durée : 10 seconde(s) (cumulable jusqu'à 10 fois).` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `L'Attaque et la Défense de tous les membres de l'équipe augmentent de 9 %.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Lorsque l'utilisatrice quitte le combat, l'effet [Entreprise] est appliqué à tous les membres de l'équipe de l'élément Lumière, sauf Laura Walker, au bout de 3.5 seconde(s).
 
-        <div class="detail-box">
-            <h4><span class="buff">[Officieusement]</span></h4>
-            <p>Laura Walker apparaît et fait claquer son fouet.<br>
-            Elle inflige des dégâts élémentaires de lumière équivalents à <span class="stat-boost">1000 %</span> de son Attaque.<br>
-            L'utilisation de cette compétence supprime les débuffs sur toute l'équipe. Compte comme une <span class="keyword-orange">compétence de base</span>.</p>
-        </div>
+        Chaque fois que les compétences **Échéance**, **Boucle de tâche** ou **Officieusement** touchent leur cible, elles leur appliquent l'effet [Date butoir].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Entreprise]</span></h4>
-            <p>Lorsqu'une attaque de lumière touche sa cible, elle lui applique l'effet <span class="buff">[Officieusement]</span> (temps de rechargement : 5 seconde(s)).<br>
-            Durée : 60 seconde(s).</p>
-        </div>
+        L'utilisation de la compétence **Escorte d'entreprise** améliore l'effet [Développement].`, [
+        { title: `[Officieusement]`, content: `Laura Walker apparaît et fait claquer son fouet.
+            Elle inflige des dégâts élémentaires de lumière équivalents à 1000 % de son Attaque.
+            L'utilisation de cette compétence supprime les débuffs sur toute l'équipe. Compte comme une compétence de base.` },
+        { title: `[Entreprise]`, content: `Lorsqu'une attaque de lumière touche sa cible, elle lui applique l'effet [Officieusement] (temps de rechargement : 5 seconde(s)).
+            Durée : 60 seconde(s).` },
+        { title: `[Date butoir]`, content: `Augmente les dégâts subis de lumière de 1 %.
+            Durée : 60 seconde(s) (cumulable jusqu'à 20 fois).` },
+        { title: `[Développement]`, content: `Augmente les dégâts infligés de 30 %. Supprime les débuffs.
+            Durée : 30 seconde(s).` }
+    ], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Les effets [Éclaireuse] et [Secrétaire] sont améliorés.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Date butoir]</span></h4>
-            <p>Augmente les dégâts subis de lumière de <span class="stat-boost">1 %</span>.<br>
-            Durée : 60 seconde(s) (cumulable jusqu'à 20 fois).</p>
-        </div>
+        L'utilisation de **Point de contrôle** remplit la jauge de puissance de l'utilisatrice de 50 %.`, [
+        { title: `Amélioration [Éclaireuse]`, content: `Restaure en continu les PV à hauteur de 4 % de l'Attaque de Laura Walker toutes les 3 seconde(s).
+            Confère un Bouclier équivalent à 6 % de l'Attaque de Laura Walker toutes les 3 seconde(s).
+            Lorsque le Bouclier est actif, il active l'effet [Secrétaire]. Durée : 60 seconde(s).` },
+        { title: `Amélioration [Secrétaire]`, content: `Augmente l'Attaque et la Défense de 1.7 %. Durée : 10 seconde(s) (cumulable jusqu'à 10 fois).` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts infligés par les membres de l'équipe de l'élément Lumière augmentent de 30 %.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `L'effet [Professionnelle] est activé lorsque l'utilisatrice arrive dans le niveau.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Développement]</span></h4>
-            <p>Augmente les dégâts infligés de <span class="stat-boost">30 %</span>. Supprime les débuffs.<br>
-            Durée : 30 seconde(s).</p>
-        </div>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Les effets <span class="buff">[Éclaireuse]</span> et <span class="buff">[Secrétaire]</span> sont améliorés.<br>
-        L'utilisation de <strong>Point de contrôle</strong> remplit la jauge de puissance de l'utilisatrice de <span class="stat-boost">50 %</span>.<br></p>
-
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Éclaireuse]</span></h4>
-            <p>Restaure en continu les PV à hauteur de <span class="stat-boost">4 %</span> de l'Attaque de Laura Walker toutes les 3 seconde(s).<br>
-            Confère un Bouclier équivalent à <span class="stat-boost">6 %</span> de l'Attaque de Laura Walker toutes les 3 seconde(s).<br>
-            Lorsque le Bouclier est actif, il active l'effet <span class="buff">[Secrétaire]</span>. Durée : 60 seconde(s).</p>
-        </div>
-
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Secrétaire]</span></h4>
-            <p>Augmente l'Attaque et la Défense de <span class="stat-boost">1.7 %</span>. Durée : 10 seconde(s) (cumulable jusqu'à 10 fois).</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts infligés par les membres de l'équipe de l'élément <span class="element-lumiere">Lumière</span> augmentent de <span class="stat-boost">30 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'effet <span class="buff">[Professionnelle]</span> est activé lorsque l'utilisatrice arrive dans le niveau.<br>
-        Les effets <span class="buff">[Date butoir]</span> et <span class="buff">[Élan]</span> sont améliorés.<br></p>
-
-        <div class="detail-box">
-            <h4><span class="buff">[Professionnelle]</span></h4>
-            <p>Augmente les dégâts de <strong>Boucle de tâche</strong> de <span class="stat-boost">250 %</span>.<br>
-            Augmente les dégâts infligés de <span class="stat-boost">200 %</span>. L'utilisation de la compétence <strong>Boucle de tâche</strong> confère à l'utilisatrice un Bouclier équivalent à <span class="stat-boost">10 %</span> de l'Attaque de Laura Walker pendant 3 seconde(s).<br>
-            Durée : illimitée.</p>
-        </div>
-
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Date butoir]</span></h4>
-            <p>Augmente les dégâts de lumière subis par la cible de <span class="stat-boost">1.5 %</span>.<br>
-            Durée : 60 seconde(s) (cumulable jusqu'à 20 fois).</p>
-        </div>
-
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Élan]</span></h4>
-            <p>Augmente la Pénétration de défense de <span class="stat-boost">20 %</span>.<br>
-            Réduit les dégâts subis de <span class="stat-boost">20 %</span>. Durée : 60 seconde(s).</p>
-        </div>
-        </div>
-    `
+        Les effets [Date butoir] et [Élan] sont améliorés.`, [
+        { title: `[Professionnelle]`, content: `Augmente les dégâts de **Boucle de tâche** de 250 %.
+            Augmente les dégâts infligés de 200 %. L'utilisation de la compétence **Boucle de tâche** confère à l'utilisatrice un Bouclier équivalent à 10 % de l'Attaque de Laura Walker pendant 3 seconde(s).
+            Durée : illimitée.` },
+        { title: `Amélioration [Date butoir]`, content: `Augmente les dégâts de lumière subis par la cible de 1.5 %.
+            Durée : 60 seconde(s) (cumulable jusqu'à 20 fois).` },
+        { title: `Amélioration [Élan]`, content: `Augmente la Pénétration de défense de 20 %.
+            Réduit les dégâts subis de 20 %. Durée : 60 seconde(s).` }
+    ], "Lumière")
     },
     summaryData: {
         0: `
@@ -847,20 +530,13 @@ huntersData["laura-walker"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>L'Attaque de l'utilisatrice augmente de <span class="stat-boost">5%</span>.<br>
-        L'utilisation des compétences <strong>Escorte d'entreprise</strong> ou <strong>Administratrice en chef</strong> augmente les dégâts de lumière de toute l'équipe de <span class="stat-boost">5%</span> pendant 30 seconde(s).</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>L'Attaque de l'utilisatrice augmente de <span class="stat-boost">12 %</span>.<br>
-        L'utilisation des compétences <strong>Escorte d'entreprise</strong> ou <strong>Administratrice en chef</strong> augmente les dégâts de lumière de toute l'équipe de <span class="stat-boost">30%</span> pendant 30 seconde(s).</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de <span class="stat-boost">15%</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `L'Attaque de l'utilisatrice augmente de 5%.
+
+        L'utilisation des compétences **Escorte d'entreprise** ou **Administratrice en chef** augmente les dégâts de lumière de toute l'équipe de 5% pendant 30 seconde(s).`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `L'Attaque de l'utilisatrice augmente de 12 %.
+
+        L'utilisation des compétences **Escorte d'entreprise** ou **Administratrice en chef** augmente les dégâts de lumière de toute l'équipe de 30% pendant 30 seconde(s).`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de 15%.`, "Lumière")
     }
 };
 
@@ -869,54 +545,22 @@ huntersData["min-byeonggu"] = {
     name: "Min Byeonggu",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/lumiere/Min_byeonggu/min_art.png",
     weaponImage: "Chasseurs_SSR/lumiere/Min_byeonggu/sommeil_eternel/Relic_MinByungGu_PortraitBig.png",
     weaponName: "Sommeil éternel",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'appel d'un chasseur ou de l'utilisation de <strong>Châtiment divin</strong>, l'effet <span class="buff">[Dissimulation]</span>s'applique.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Dissimulation]</span></h4>
-            <p>Réduit les dégâts subis de <span class="stat-boost">50%</span>.<br>
-            Améliore un effet de compétence spécifique.<br>
-            Si l'utilisateur est touché, l'effet [Dissimulation] se dissipe.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Le Taux de coup critique et les Dégâts de coup critique de tous les membres de l'équipe augmentent de <span class="stat-boost">12%</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">8%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation de <strong>Lueur vive</strong>, toute l'équipe récupère instantanément des PV à hauteur de <span class="stat-boost">2%</span> des PV max de Min Byeonggu.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Le Taux de remplissage de la jauge de puissance de Min Byeonggu augmente de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lors de l'utilisation de <strong>Bénédiction céleste</strong>, les dégâts de la prochaine <span class="keyword-orange">compétence ultime</span> du membre de l'équipe ayant la Puissance totale la plus élevée augmentent de <span class="stat-boost">50%</span>.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'appel d'un chasseur ou de l'utilisation de **Châtiment divin**, l'effet [Dissimulation]s'applique.`, [
+        { title: `[Dissimulation]`, content: `Réduit les dégâts subis de 50%.
+            Améliore un effet de compétence spécifique.
+            Si l'utilisateur est touché, l'effet [Dissimulation] se dissipe.
+            Durée: 10 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Le Taux de coup critique et les Dégâts de coup critique de tous les membres de l'équipe augmentent de 12%.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Les PV de l'utilisateur augmentent de 8%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation de **Lueur vive**, toute l'équipe récupère instantanément des PV à hauteur de 2% des PV max de Min Byeonggu.`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le Taux de remplissage de la jauge de puissance de Min Byeonggu augmente de 10%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lors de l'utilisation de **Bénédiction céleste**, les dégâts de la prochaine compétence ultime du membre de l'équipe ayant la Puissance totale la plus élevée augmentent de 50%.`, [], "Lumière")
     },
     summaryData: {
         0: `
@@ -947,20 +591,13 @@ huntersData["min-byeonggu"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les PV de l'utilisateur de <span class="stat-boost">2.5%</span>.<br>
-        Lorsque l'utilisateur lance <strong>Bénédiction céleste</strong>, les dégâts infligés par l'utilisateur et les membres de l'équipe augmentent de <span class="stat-boost">4%</span> pendant 16 seconde(s)</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les PV de l'utilisateur de <span class="stat-boost">10%</span>.<br>
-        Lorsque l'utilisateur lance <strong>Bénédiction céleste</strong>, les dégâts infligés par l'utilisateur et les membres de l'équipe augmentent de <span class="stat-boost">16%</span> pendant 16 seconde(s)</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les PV de l'utilisateur de 2.5%.
+
+        Lorsque l'utilisateur lance **Bénédiction céleste**, les dégâts infligés par l'utilisateur et les membres de l'équipe augmentent de 4% pendant 16 seconde(s)`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les PV de l'utilisateur de 10%.
+
+        Lorsque l'utilisateur lance **Bénédiction céleste**, les dégâts infligés par l'utilisateur et les membres de l'équipe augmentent de 16% pendant 16 seconde(s)`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -969,17 +606,47 @@ huntersData["shimizu-akari"] = {
     name: "Shimizu Akari",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/lumiere/Shimizu_akari/shimizu_art.png",
     weaponImage: "Chasseurs_SSR/lumiere/Shimizu_akari/le_prix_d_une_promesse/Relic_ShimizuAkari_PortraitBig.png",
     weaponName: "Le prix d'une promesse",
     fullData: {
-        0: `<h3>Passif :</h3>Au début du combat, l'effet <span class="buff">[Investigatrice de la flamme divine]</span> est activé.<br> Lorsque la compétence <strong><span class="element-lumiere">Lumière</span> de l'aube</strong> est utilisée, Dévastation devient <strong>Attaque lourde: Dévastation</strong>, qui augmente les dégâts infligés par l'utilisatrice de <span class="stat-boost">100%</span>.<br> Si l'utilisatrice est touchée lors d'une <strong>Ruée</strong>, <strong>Évasion extrême</strong> est activée, les ennemis proches subissent des dégâts, et ces derniers sont <span class="buff">[étourdis]</span>.<br> <br><div class="detail-box"><h4><span class="buff">[Investigatrice de la flamme divine]</span></h4>Lorsque les compétences <span class="element-lumiere">Lumière</span> de l'aube ou Attaque lourde: Dévastation touchent leur cible, elles leur appliquent l'effet <span class="buff">[Flamme divine]</span> 1 fois.<br> Durée: illimitée</div><div class="detail-box"><h4><span class="buff">[Flamme divine]</span></h4>Augmente les dégâts de lumière subis par la cible de <span class="stat-boost">1%</span> (cumulable jusqu'à 10 fois).<br> Durée: 24 seconde(s)</div><div class="detail-box"><h4><span class="buff">[étourdissement]</span></h4>Immobilise la cible.<br> Durée: 2 seconde(s)</div>`,
-        1: `<h3>1 étoile :</h3>Améliore l'effet <span class="buff">[Investigatrice de la flamme divin]</span>.<br> Améliore l'effet <span class="buff">[<span class="element-feu">Feu</span> sacré]</span>.<br> <br><div class="detail-box"><h4><span class="buff">[Investigatrice de la flamme divine]</span></h4>Lorsque les compétences <span class="element-lumiere">Lumière</span> de l'aube ou Attaque lourde: Dévastation touchent leur cible, elles lui appliquent 2 cumuls de l'effet <span class="buff">[Flamme divine]</span>.<br> Quand l'attaque d'un membre de l'équipe de type <span class="element-lumiere">Lumière</span> touche sa cible, elle active l'effet <span class="buff">[Echo de lumière]</span> (temps de rechargement: 20 seconde(s)).<br> Durée: illimitée</div><div class="detail-box"><h4><span class="buff">[<span class="element-feu">Feu</span> sacré]</span></h4>Active l'effet <span class="buff">[Écho de lumière]</span>.<br> Charge la jauge de puissance de l'utilisatrice de <span class="stat-boost">1.6%</span> toutes les 1 seconde(s).<br> Réduit les dégâts subis de <span class="stat-boost">12%</span>.<br> Durée: 24 Seconde(s)</div>`,
-        2: `<h3>2 étoiles :</h3>Augmente les PV de l'utilisatrice de <span class="stat-boost">5%</span>.<br> Améliore le bouclier obtenu par les coéquipiers de type <span class="element-lumiere">Lumière</span> de <span class="stat-boost">5%</span>.<br>`,
-        3: `<h3>3 étoiles :</h3>Améliore l'effet <span class="buff">[Flamme divine]</span>.<br> Améliore l'effet <span class="buff">[Anneau de feu]</span>.<br> <br><div class="detail-box"><h4><span class="buff">[Flamme divine]</span></h4>Augmente les dégâts de lumière subis de <span class="stat-boost">1.6%</span> (cumulable jusqu'à 10 fois).<br> Lorsque le maximum de cumuls est atteint, l'effet <span class="buff">[Anneau de feu]</span> s'active.<br> Durée: 24 seconde(s)</div><div class="detail-box"><h4><span class="buff">[Anneau de feu]</span></h4>Augmente les dégâts de lumière subis de <span class="stat-boost">20%</span>.<br> Lorsque cet effet est appliqué, il dissipe tous les effets [Flamme divine] qui ne peuvent plus être réactivés.<br> Lorsque cet effet se dissipe, l'utilisatrice récupère 5 cumuls de l'effet [Flamme divine].<br> Durée: 24 seconde(s)</div>`,
-        4: `<h3>4 étoiles :</h3>Augmente les dégâts de lumière des coéquipiers de type <span class="element-lumiere">Lumière</span> de <span class="stat-boost">3%</span> par coéquipier de type <span class="element-lumiere">Lumière</span> présent dans le groupe.<br> Augmente la défense du coéquipier doté de la défense la plus élevée de <span class="stat-boost">3%</span>.<br>`,
-        5: `<h3>5 étoiles :</h3>Améliore l'effet <span class="buff">[Brillance]</span>.<br> <br><div class="detail-box"><h4><span class="buff">[Brillance]</span></h4>Augmente les dégâts infligés par l'utilisatrice de <span class="stat-boost">16%</span>.<br> Augmente le Taux de coup critique de la <span class="keyword-orange">compétence de base</span> et de la <span class="keyword-orange">compétence ultime</span> de l'utilisatrice de <span class="stat-boost">16%</span>.<br> Redonne instantanément des PV équivalents à <span class="stat-boost">16%</span> des PV max de Shimizu Akari.<br> Durée: 24 seconde(s)</div>`
+        0: fmtPassif(`Passif :`, `Au début du combat, l'effet [Investigatrice de la flamme divine] est activé.
+ Lorsque la compétence **Lumière de l'aube** est utilisée, Dévastation devient **Attaque lourde: Dévastation**, qui augmente les dégâts infligés par l'utilisatrice de 100%.
+ Si l'utilisatrice est touchée lors d'une **Ruée**, **Évasion extrême** est activée, les ennemis proches subissent des dégâts, et ces derniers sont [étourdis].
+ 
+<div class="detail-box"><h4>[Investigatrice de la flamme divine]</h4>Lorsque les compétences Lumière de l'aube ou Attaque lourde: Dévastation touchent leur cible, elles leur appliquent l'effet [Flamme divine] 1 fois.
+ Durée: illimitée<div class="detail-box"><h4>[Flamme divine]</h4>Augmente les dégâts de lumière subis par la cible de 1% (cumulable jusqu'à 10 fois).
+ Durée: 24 seconde(s)<div class="detail-box"><h4>[étourdissement]</h4>Immobilise la cible.
+ Durée: 2 seconde(s)`, [], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Améliore l'effet [Investigatrice de la flamme divin].
+ Améliore l'effet [Feu sacré].
+ 
+<div class="detail-box"><h4>[Investigatrice de la flamme divine]</h4>Lorsque les compétences Lumière de l'aube ou Attaque lourde: Dévastation touchent leur cible, elles lui appliquent 2 cumuls de l'effet [Flamme divine].
+ Quand l'attaque d'un membre de l'équipe de type Lumière touche sa cible, elle active l'effet [Echo de lumière] (temps de rechargement: 20 seconde(s)).
+ Durée: illimitée<div class="detail-box"><h4>[Feu sacré]</h4>Active l'effet [Écho de lumière].
+ Charge la jauge de puissance de l'utilisatrice de 1.6% toutes les 1 seconde(s).
+ Réduit les dégâts subis de 12%.
+ Durée: 24 Seconde(s)`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les PV de l'utilisatrice de 5%.
+ Améliore le bouclier obtenu par les coéquipiers de type Lumière de 5%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Améliore l'effet [Flamme divine].
+ Améliore l'effet [Anneau de feu].
+ 
+<div class="detail-box"><h4>[Flamme divine]</h4>Augmente les dégâts de lumière subis de 1.6% (cumulable jusqu'à 10 fois).
+ Lorsque le maximum de cumuls est atteint, l'effet [Anneau de feu] s'active.
+ Durée: 24 seconde(s)<div class="detail-box"><h4>[Anneau de feu]</h4>Augmente les dégâts de lumière subis de 20%.
+ Lorsque cet effet est appliqué, il dissipe tous les effets [Flamme divine] qui ne peuvent plus être réactivés.
+ Lorsque cet effet se dissipe, l'utilisatrice récupère 5 cumuls de l'effet [Flamme divine].
+ Durée: 24 seconde(s)`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Augmente les dégâts de lumière des coéquipiers de type Lumière de 3% par coéquipier de type Lumière présent dans le groupe.
+ Augmente la défense du coéquipier doté de la défense la plus élevée de 3%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Améliore l'effet [Brillance].
+ 
+<div class="detail-box"><h4>[Brillance]</h4>Augmente les dégâts infligés par l'utilisatrice de 16%.
+ Augmente le Taux de coup critique de la compétence de base et de la compétence ultime de l'utilisatrice de 16%.
+ Redonne instantanément des PV équivalents à 16% des PV max de Shimizu Akari.
+ Durée: 24 seconde(s)`, [], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Prêtresse de la Flamme</h3>Début combat : [Investigatrice].<br> <span class="element-lumiere">Lumière</span> de l'aube = Attaque Lourde (+100% dégâts).<br> Ruée touchée = Évasion + [Étourdis].<br> [Flamme divine] : Dégâts <span class="element-lumiere">Lumière</span> subis +1% (Max 10).`,
@@ -990,9 +657,11 @@ huntersData["shimizu-akari"] = {
         5: `<h3>5 étoiles</h3>[Brillance] améliorée : Dégâts +16%, Crit +16%, Soin 16%.`
     },
     weaponData: {
-        0: `<h3>0 étoile :</h3>Augmente les PV de l'utilisatrice de <span class="stat-boost">4%</span>.<br> Lorsque l'effet <span class="buff">[Écho de lumière]</span> est activé sur les coéquipiers de type <span class="element-lumiere">Lumière</span>, augmente les dégâts de lumière de tous les membres de l'équipe de <span class="stat-boost">2%</span> pendant 8 seconde(s).<br>`,
-        1: `<h3>5 étoiles :</h3>Augmente les PV de l'utilisatrice de <span class="stat-boost">12%</span>.<br> Lorsque l'effet <span class="buff">[Écho de lumière]</span> est activé sur les coéquipiers de type <span class="element-lumiere">Lumière</span>, augmente les dégâts de lumière de tous les membres de l'équipe de <span class="stat-boost">8%</span> pendant 8 seconde(s).<br>`,
-        2: `<h3>10 étoiles :</h3>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.<br>`
+        0: fmtWeapon(`0 étoile :`, `Augmente les PV de l'utilisatrice de 4%.
+ Lorsque l'effet [Écho de lumière] est activé sur les coéquipiers de type Lumière, augmente les dégâts de lumière de tous les membres de l'équipe de 2% pendant 8 seconde(s).`, "Lumière"),
+        1: fmtWeapon(`5 étoiles :`, `Augmente les PV de l'utilisatrice de 12%.
+ Lorsque l'effet [Écho de lumière] est activé sur les coéquipiers de type Lumière, augmente les dégâts de lumière de tous les membres de l'équipe de 8% pendant 8 seconde(s).`, "Lumière"),
+        2: fmtWeapon(`10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -1001,64 +670,36 @@ huntersData["thomas-andre"] = {
     name: "Thomas André",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/lumiere/Thomas_andre/thomas_art.png",
     weaponImage: "Chasseurs_SSR/lumiere/Thomas_andre/le_veritable_roi/Relic_ThomasAndre_PortraitBig.png",
     weaponName: "Le véritable roi",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque les compétences <strong>Démolition absolue</strong>, <strong>Écrasement colossal</strong>, <strong>Coup de marteau géant</strong> ou <strong>Coup à la volée</strong> sont utilisées, elles activent l'effet <span class="buff">[Puissance écrasante]</span>.<br>
-        La jauge de puissance de l'utilisateur ne se remplira pas et il n'y aura plus de temps de rechargement.<br>
-        À la place, <strong>Jugement du chef</strong> sera disponible au bout de 5 cumuls de [Puissance écrasante] (temps de rechargement: 36 seconde(s)).<br>
-        En mode [Combat d'équipe], les dégâts infligés par l'utilisateur augmentent de <span class="stat-boost">24 %</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Puissance écrasante]</span></h4>
-            <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">10%</span>.<br>
-            Augmente les probabilités d'acquisition de bouclier de l'utilisateur de <span class="stat-boost">2%</span>.<br>
-            Durée: 25 seconde(s) (cumulable jusqu'à 5 fois)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque l'utilisateur bénéficie d'un effet <span class="buff">[Bouclier]</span>, l'effet <span class="buff">[Puissance écrasante]</span> est activé.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente les probabilités d'acquisition de bouclier de <span class="stat-boost">8%</span>.<br>
-        Lorsqu'un effet <span class="buff">[Bouclier]</span> est actif, les Dégâts de coup critique et le Taux de coup critique de l'utilisateur augmentent de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'effet <span class="buff">[Surcroissance]</span> est appliqué lorsqu'un effet [Bouclier] est actif.<br>
-        (temps de rechargement: 0,5 seconde)<br>
-        Si le dernier coup de la compétence <strong>Écrasement colossal</strong> touche sa cible pendant que l'effet <span class="buff">[Tyran d'acier]</span> est actif, l'effet <span class="buff">[Surcroissance]</span> est activé.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Surcroissance]</span></h4>
-            <p>Le Bouclier de l'utilisateur vole en éclats de mana qui infligent des dégâts de zone de lumière équivalents à <span class="stat-boost">200 %</span> de la Défense de Thomas André.<br>
-            Pour chaque tranche de 1.000 points d'effet de [Bouclier] appliqués, les dégâts de Surcroissance augmentent de <span class="stat-boost">100%</span> (cumulable jusqu'à 1000%).<br></p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente la Défense de <span class="stat-boost">16%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lorsque l'effet <span class="buff">[Tyran d'acier]</span> est actif, il augmente les dégâts de <strong>Collision de trou noir</strong> de <span class="stat-boost">125%</span>.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lorsque les compétences **Démolition absolue**, **Écrasement colossal**, **Coup de marteau géant** ou **Coup à la volée** sont utilisées, elles activent l'effet [Puissance écrasante].
+
+        La jauge de puissance de l'utilisateur ne se remplira pas et il n'y aura plus de temps de rechargement.
+
+        À la place, **Jugement du chef** sera disponible au bout de 5 cumuls de [Puissance écrasante] (temps de rechargement: 36 seconde(s)).
+
+        En mode [Combat d'équipe], les dégâts infligés par l'utilisateur augmentent de 24 %.`, [
+        { title: `[Puissance écrasante]`, content: `Augmente la Défense de l'utilisateur de 10%.
+            Augmente les probabilités d'acquisition de bouclier de l'utilisateur de 2%.
+            Durée: 25 seconde(s) (cumulable jusqu'à 5 fois)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque l'utilisateur bénéficie d'un effet [Bouclier], l'effet [Puissance écrasante] est activé.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les probabilités d'acquisition de bouclier de 8%.
+
+        Lorsqu'un effet [Bouclier] est actif, les Dégâts de coup critique et le Taux de coup critique de l'utilisateur augmentent de 10%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `L'effet [Surcroissance] est appliqué lorsqu'un effet [Bouclier] est actif.
+
+        (temps de rechargement: 0,5 seconde)
+
+        Si le dernier coup de la compétence **Écrasement colossal** touche sa cible pendant que l'effet [Tyran d'acier] est actif, l'effet [Surcroissance] est activé.`, [
+        { title: `[Surcroissance]`, content: `Le Bouclier de l'utilisateur vole en éclats de mana qui infligent des dégâts de zone de lumière équivalents à 200 % de la Défense de Thomas André.
+            Pour chaque tranche de 1.000 points d'effet de [Bouclier] appliqués, les dégâts de Surcroissance augmentent de 100% (cumulable jusqu'à 1000%).` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Augmente la Défense de 16%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'effet [Tyran d'acier] est actif, il augmente les dégâts de **Collision de trou noir** de 125%.`, [], "Lumière")
     },
     summaryData: {
         0: `
@@ -1091,20 +732,13 @@ huntersData["thomas-andre"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Défense de <span class="stat-boost">4%</span>.<br>
-        Augmente les probabilités d'acquisition de bouclier de <span class="stat-boost">6%</span>.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Défense de <span class="stat-boost">16%</span>.<br>
-        Augmente les probabilités d'acquisition de bouclier de <span class="stat-boost">24%</span>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Défense de 4%.
+
+        Augmente les probabilités d'acquisition de bouclier de 6%.`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Défense de 16%.
+
+        Augmente les probabilités d'acquisition de bouclier de 24%.`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Lumière")
     }
 };
 
@@ -1113,70 +747,33 @@ huntersData["miyeon"] = {
     name: "Miyeon",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Chasseurs_SSR/collab/lumiere/Miyeon/miyeon_art.png",
     weaponImage: "Chasseurs_SSR/collab/lumiere/Miyeon/l_etoile_guide_du_champ_de_bataille/Relic_Miyeon_PortraitBig.png",
     weaponName: "L'étoile guide du champ de bataille",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Tout l'équipe reçoit l'effet <span class="buff">[FOREVER]</span> en arrivant dans les modes Mission Rappel et Donjon éphémère.<br>
-        Lors de l'utilisation de la compétence <strong>Tête d'affiche</strong>, l'effet <span class="buff">[Coup de projecteur]</span> s'active.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[FOREVER]</span></h4>
-            <p>Augmente les dégâts infligés de <span class="stat-boost">5 %</span>.<br>
-            Durée : illimitée (cumulable jusqu'à 3 fois)</p>
-        </div>
+        0: fmtPassif(`Passif :`, `Tout l'équipe reçoit l'effet [FOREVER] en arrivant dans les modes Mission Rappel et Donjon éphémère.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Coup de projecteur]</span></h4>
-            <p>Lors de l'utilisation de son <span class="keyword-orange">attaque de noyau</span>, l'utilisatrice place un <span class="buff">[Cristal d'énergie de mana noir]</span>.<br>
-            Augmente les dégâts de lumière de l'utilisatrice de <span class="stat-boost">15 %</span>.<br>
-            Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">5 %</span> des PV max de MIYEON. Augmente la Défense de l'utilisatrice de <span class="stat-boost">30 %</span>.<br>
-            Durée : 15 seconde(s)</p>
-        </div>
+        Lors de l'utilisation de la compétence **Tête d'affiche**, l'effet [Coup de projecteur] s'active.`, [
+        { title: `[FOREVER]`, content: `Augmente les dégâts infligés de 5 %.
+            Durée : illimitée (cumulable jusqu'à 3 fois)` },
+        { title: `[Coup de projecteur]`, content: `Lors de l'utilisation de son attaque de noyau, l'utilisatrice place un [Cristal d'énergie de mana noir].
+            Augmente les dégâts de lumière de l'utilisatrice de 15 %.
+            Confère un [Bouclier] équivalent à 5 % des PV max de MIYEON. Augmente la Défense de l'utilisatrice de 30 %.
+            Durée : 15 seconde(s)` },
+        { title: `[Cristal d'énergie de mana noir]`, content: `Dégâts : inflige des dégâts équivalents à 250 % des dégâts de l'attaque de noyau de l'utilisatrice.` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque l'utilisatrice rejoint un niveau, sa jauge de puissance se remplit de 50 %.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Cristal d'énergie de mana noir]</span></h4>
-            <p>Dégâts : inflige des dégâts équivalents à <span class="stat-boost">250 %</span> des dégâts de l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice.</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque l'utilisatrice rejoint un niveau, sa jauge de puissance se remplit de <span class="stat-boost">50 %</span>.<br>
-        Lors de l'utilisation de <strong>Tête d'affiche</strong>, l'<span class="keyword-orange">attaque de noyau</span> de l'utilisatrice s'active et elle récupère ses PM à hauteur de 600.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente les dégâts de lumière de <span class="stat-boost">15 %</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'utilisation des compétences <strong>Glissando decrescendo</strong>, <strong>Fente en deux temps</strong> ou <strong>Entaille critique</strong> confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">5 %</span> des PV max de MIYEON pendant 15 seconde(s) (cumulable jusqu'à 10 fois).<br>
-        Tant que le <span class="buff">[Bouclier]</span> est actif, la Défense de l'utilisatrice augmente de <span class="stat-boost">6 %</span> pendant 30 seconde(s) (cumulable jusqu'à 10 fois).<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>La Défense des membres de l'équipe de l'élément <span class="element-lumiere">Lumière</span> augmente de <span class="stat-boost">3 %</span> par allié de l'élément <span class="element-lumiere">Lumière</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'utilisation de la compétence <strong>Tête d'affiche</strong> augmente le Taux de coup critique de l'utilisatrice de <span class="stat-boost">10 %</span> et ses Dégâts de coup critique de <span class="stat-boost">20 %</span> pendant 15 seconde(s).<br>
-        Lors de l'utilisation des compétences <strong>Glissando decrescendo</strong>, <strong>Fente en deux temps</strong> ou <strong>Entaille critique</strong>, la jauge de puissance de MIYEON se remplit de <span class="stat-boost">3 %</span> et le temps de rechargement de <strong>Tête d'affiche</strong> de 4.5 seconde(s).<br></p>
-        </div>
-    `
+        Lors de l'utilisation de **Tête d'affiche**, l'attaque de noyau de l'utilisatrice s'active et elle récupère ses PM à hauteur de 600.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de lumière de 15 %.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `L'utilisation des compétences **Glissando decrescendo**, **Fente en deux temps** ou **Entaille critique** confère un [Bouclier] équivalent à 5 % des PV max de MIYEON pendant 15 seconde(s) (cumulable jusqu'à 10 fois).
+
+        Tant que le [Bouclier] est actif, la Défense de l'utilisatrice augmente de 6 % pendant 30 seconde(s) (cumulable jusqu'à 10 fois).`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `La Défense des membres de l'équipe de l'élément Lumière augmente de 3 % par allié de l'élément Lumière.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `L'utilisation de la compétence **Tête d'affiche** augmente le Taux de coup critique de l'utilisatrice de 10 % et ses Dégâts de coup critique de 20 % pendant 15 seconde(s).
+
+        Lors de l'utilisation des compétences **Glissando decrescendo**, **Fente en deux temps** ou **Entaille critique**, la jauge de puissance de MIYEON se remplit de 3 % et le temps de rechargement de **Tête d'affiche** de 4.5 seconde(s).`, [], "Lumière")
     },
     summaryData: {
         0: `
@@ -1210,19 +807,12 @@ huntersData["miyeon"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">2 %</span>.<br>
-        L'utilisation de l'<span class="keyword-orange">attaque de noyau</span> applique aux ennemis se trouvant dans un rayon de 20 m un effet d'augmentation des dégats infligés par MIYEON de <span class="stat-boost">5 %</span> pendant 5 seconde(s) (temps de rechargement: 20 seconde(s)).</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">12 %</span>.<br>
-        L'utilisation de l'<span class="keyword-orange">attaque de noyau</span> applique aux ennemis se trouvant dans un rayon de 20 m un effet d'augmentation des dégats infligés par MIYEON de <span class="stat-boost">30 %</span> pendant 30 seconde(s) (temps de rechargement: 20 seconde(s)).</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `La Défense de l'utilisatrice augmente de 2 %.
+
+        L'utilisation de l'attaque de noyau applique aux ennemis se trouvant dans un rayon de 20 m un effet d'augmentation des dégats infligés par MIYEON de 5 % pendant 5 seconde(s) (temps de rechargement: 20 seconde(s)).`, "Lumière"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `La Défense de l'utilisatrice augmente de 12 %.
+
+        L'utilisation de l'attaque de noyau applique aux ennemis se trouvant dans un rayon de 20 m un effet d'augmentation des dégats infligés par MIYEON de 30 % pendant 30 seconde(s) (temps de rechargement: 20 seconde(s)).`, "Lumière"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15 %.`, "Lumière")
     }
 };

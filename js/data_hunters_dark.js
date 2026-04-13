@@ -7,60 +7,29 @@ huntersData["hwang-dongsuk"] = {
     name: "Hwang Dongsuk",
     rarity: "SR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)", // Dégradé violet/noir pour les ténèbres
+    gradient: "linear-gradient(90deg, #af63af, #000)", // Dégradé violet/noir pour les ténèbres
     image: "Chasseurs_SR/tenebre/Hwang_dongsuk/HwangDongSuk_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/tenebre/Hwang_dongsuk/pilleur_d_ame/Relic_HwangDongSuk_PortraitBig.png",
     weaponName: "Pilleur d'âme",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Si les PV de l'utilisateur sont à 75% ou au-dessus, les dégâts de compétence augmentent de <span class="stat-boost">16%</span>.<br>
-        Si les PV de l'utilisateur sont inférieurs à 50%, applique l'effet <span class="buff">[Vitalité du lézard]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Vitalité du lézard]</span></h4>
-            <p>Récupère <span class="stat-boost">2.5%</span> de ses PV toutes les 1 seconde(s) (s'active une fois par niveau).<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Amélioration</strong>, le temps de rechargement de la compétence <strong>Bouclier ardent</strong> se réinitialise.<br>
-        Tant que la compétence <span class="buff">[Amélioration]</span> reste activé, le temps de rechargement de la compétence <strong>Bouclier ardent</strong> diminue de <span class="stat-boost">50%</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">8%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Amélioration</strong>, un <span class="buff">[Bouclier]</span> est appliqué.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Bouclier]</span></h4>
-            <p>Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">20%</span> des PV max de l'utilisateur.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Le temps de rechargement de <strong>Attaque redoutable</strong> diminue de <span class="stat-boost">25%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lors de l'utilisation de <strong>Attaque redoutable</strong>, l'utilisateur a <span class="stat-boost">50%</span> de chances de réinitialiser le temps de rechargement de la compétence <strong>Attaque redoutable</strong>.<br>
-        (Temps de rechargement: 30 seconde(s))</p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Si les PV de l'utilisateur sont à 75% ou au-dessus, les dégâts de compétence augmentent de 16%.
+
+        Si les PV de l'utilisateur sont inférieurs à 50%, applique l'effet [Vitalité du lézard].`, [
+        { title: `[Vitalité du lézard]`, content: `Récupère 2.5% de ses PV toutes les 1 seconde(s) (s'active une fois par niveau).
+            Durée: 10 seconde(s)` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation de la compétence **Amélioration**, le temps de rechargement de la compétence **Bouclier ardent** se réinitialise.
+
+        Tant que la compétence [Amélioration] reste activé, le temps de rechargement de la compétence **Bouclier ardent** diminue de 50%.`, [], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Les PV de l'utilisateur augmentent de 8%.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation de la compétence **Amélioration**, un [Bouclier] est appliqué.`, [
+        { title: `[Bouclier]`, content: `Crée un [Bouclier] équivalent à 20% des PV max de l'utilisateur.
+            Durée: 10 seconde(s)` }
+    ], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Attaque redoutable** diminue de 25%.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `Lors de l'utilisation de **Attaque redoutable**, l'utilisateur a 50% de chances de réinitialiser le temps de rechargement de la compétence **Attaque redoutable**.
+
+        (Temps de rechargement: 30 seconde(s))`, [], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -91,22 +60,17 @@ huntersData["hwang-dongsuk"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les PV de l'utilisateur de <span class="stat-boost">2%</span>.<br>
-        Lorsque l'utilisateur arrive dans un niveau, sa jauge de puissance se remplit de <span class="stat-boost">25%</span>.<br>
-        Lorsqu'<strong>Attaque redoutable</strong> touche sa cible, les dégâts de ténèbres subis par la cible augmentent de <span class="stat-boost">1%</span> pendant 15 seconde(s) (cumulable jusqu'à 2 fois).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les PV de l'utilisateur de <span class="stat-boost">8 %</span>.<br>
-        Lorsque l'utilisateur arrive dans un niveau, sa jauge de puissance se remplit de <span class="stat-boost">100%</span>.<br>
-        Lorsqu'<strong>Attaque redoutable</strong> touche sa cible, les dégâts de ténèbres subis par la cible augmentent de <span class="stat-boost">6 %</span> pendant 15 seconde(s) (cumulable jusqu'à 2 fois).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les PV de l'utilisateur de 2%.
+
+        Lorsque l'utilisateur arrive dans un niveau, sa jauge de puissance se remplit de 25%.
+
+        Lorsqu'**Attaque redoutable** touche sa cible, les dégâts de ténèbres subis par la cible augmentent de 1% pendant 15 seconde(s) (cumulable jusqu'à 2 fois).`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les PV de l'utilisateur de 8 %.
+
+        Lorsque l'utilisateur arrive dans un niveau, sa jauge de puissance se remplit de 100%.
+
+        Lorsqu'**Attaque redoutable** touche sa cible, les dégâts de ténèbres subis par la cible augmentent de 6 % pendant 15 seconde(s) (cumulable jusqu'à 2 fois).`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -115,62 +79,26 @@ huntersData["kang-taeshik"] = {
     name: "Kang Taeshik",
     rarity: "SR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SR/tenebre/Kang_taeshik/KangTaeShik_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/tenebre/Kang_taeshik/frenesie_inarretable/Relic_KangTaeShik_PortraitBig.png",
     weaponName: "Frénésie Inarrêtable",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque les compétences <strong>Lancer de dague</strong>, <strong>Recherche</strong> ou <strong>Assaut</strong> touchent leurs cibles, elles leur appliquent l'effet <span class="buff">[Hémorragie]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Hémorragie]</span></h4>
-            <p>L'utilisateur inflige des dégâts équivalents à <span class="stat-boost">0.6%</span> des PV actuels de la cible toutes les 3 seconde(s).<br>
-            Durée: 30 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Augmente l'Attaque face aux cibles affectées par <span class="buff">[Hémorragie]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Attaque augmentée]</span></h4>
-            <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">15%</span>.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">5%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lorsque la compétence <strong>Recherche</strong> touche une cible affectée par <span class="buff">[Hémorragie]</span>, elle lui applique l'effet Augmentation des dégâts subis.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Dégâts subis augmentés]</span></h4>
-            <p>Les dégâts subis par la cible augmentent de <span class="stat-boost">15%</span>.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Le temps de rechargement des compétences de Taeshik diminue de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lorsque Taeshik utilise <strong>Camouflage</strong> face à une cible affectée par <span class="buff">[Hémorragie]</span>, les dégâts augmentent de <span class="stat-boost">100%</span>.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lorsque les compétences **Lancer de dague**, **Recherche** ou **Assaut** touchent leurs cibles, elles leur appliquent l'effet [Hémorragie].`, [
+        { title: `[Hémorragie]`, content: `L'utilisateur inflige des dégâts équivalents à 0.6% des PV actuels de la cible toutes les 3 seconde(s).
+            Durée: 30 seconde(s)` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Augmente l'Attaque face aux cibles affectées par [Hémorragie].`, [
+        { title: `[Attaque augmentée]`, content: `Augmente l'Attaque de l'utilisateur de 15%.
+            Durée: 10 seconde(s)` }
+    ], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Augmente l'Attaque de l'utilisateur de 5%.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque la compétence **Recherche** touche une cible affectée par [Hémorragie], elle lui applique l'effet Augmentation des dégâts subis.`, [
+        { title: `[Dégâts subis augmentés]`, content: `Les dégâts subis par la cible augmentent de 15%.
+            Durée: 10 seconde(s)` }
+    ], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement des compétences de Taeshik diminue de 10%.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque Taeshik utilise **Camouflage** face à une cible affectée par [Hémorragie], les dégâts augmentent de 100%.`, [], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -200,20 +128,13 @@ huntersData["kang-taeshik"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les dégâts des attaques dans le dos de l'utilisateur de <span class="stat-boost">2.5 %</span>.<br>
-        Les dégâts de Kang Taeshik face aux cibles affectées par <span class="buff">[Hémorragie]</span> augmentent de <span class="stat-boost">2.5%</span>.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les dégâts des attaques dans le dos de l'utilisateur de <span class="stat-boost">10%</span>.<br>
-        Les dégâts de Kang Taeshik face aux cibles affectées par <span class="buff">[Hémorragie]</span> augmentent de <span class="stat-boost">10%</span>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les dégâts des attaques dans le dos de l'utilisateur de 2.5 %.
+
+        Les dégâts de Kang Taeshik face aux cibles affectées par [Hémorragie] augmentent de 2.5%.`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les dégâts des attaques dans le dos de l'utilisateur de 10%.
+
+        Les dégâts de Kang Taeshik face aux cibles affectées par [Hémorragie] augmentent de 10%.`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -222,65 +143,38 @@ huntersData["baek_yunho_a_criniere_argentee"] = {
     name: "Baek Yunho (Crinière argentée)",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Baek_yunho_a_criniere_argentee/baek_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Baek_yunho_a_criniere_argentee/ame_d_un_tigre_blanc_hurlant/Relic_BaekYoonHo_PortraitBig.png",
     weaponName: "Âme d'un tigre blanc hurlant",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Les dégâts de compétence de l'utilisateur augmentent proportionnellement à hauteur de <span class="stat-boost">50%</span> du ratio de PV perdus par l'utilisateur.<br>
-        Lorsque les compétences <strong>Massacre</strong> ou <strong>Approche violente</strong> touchent leur cible, elles lui appliquent l'effet <span class="buff">[Hémorragie]</span>.<br>
-        Applique l'effet <span class="buff">[Malédiction de la bête magique]</span> aux cibles immunisées contre l'effet <span class="buff">[Hémorragie]</span>.<br>
-        Les dégâts des compétences <strong>Griffes de bête magique</strong> et <strong>Massacre</strong> augmentent de <span class="stat-boost">60%</span> face à des cibles affectées par les effets <span class="buff">[Hémorragie ou Malédiction de la bête magique]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Hémorragie]</span></h4>
-            <p>Inflige des dégâts équivalents à <span class="stat-boost">1%</span> des PV actuels de l'utilisateur toutes les 3 secondes.<br>
-            Durée: 30 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Malédiction de la bête magique]</span></h4>
-            <p>Inflige des dégâts équivalents à <span class="stat-boost">200 %</span> des PV max de Baek Yunho à crinière argentée toutes les 3 secondes.<br>
-            Durée: 30 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Attaque extrême: Forme animale</strong>, le Taux de coup critique et les Dégâts de coup critique augmentent de <span class="stat-boost">3%</span> toutes les 1 seconde(s) pendant 12 seconde(s).<br>
-        Lors de l'utilisation de la compétence <strong>Attaque extrême: Forme animale</strong>, les dégâts subis augmentent à hauteur de <span class="stat-boost">10%</span> des PV actuels de l'utilisateur, mais il profite d'un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">20%</span> de ses PV max.<br>
-        <strong>Attaque extrême: Forme animale</strong> ignore l'effet de <span class="buff">[Bouclier]</span> de l'utilisateur et inflige des dégâts à l'utilisateur.<br>
-        Lorsque les PV de l'utilisateur sont à <span class="stat-boost">30%</span> ou moins, les dégâts subis par l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">16%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'utilisateur débute le combat avec <span class="stat-boost">50%</span> de PV en moins.<br>
-        Au début du combat, l'utilisateur bénéficie d'un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">60%</span> de ses PV max.<br>
-        Durée: illimitée</p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts de l'Attaque de base de l'utilisateur augmentent de <span class="stat-boost">80%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'augmentation des dégâts de compétence de l'utilisateur passent à <span class="stat-boost">120%</span> du ratio de PV perdus.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Les dégâts de compétence de l'utilisateur augmentent proportionnellement à hauteur de 50% du ratio de PV perdus par l'utilisateur.
+
+        Lorsque les compétences **Massacre** ou **Approche violente** touchent leur cible, elles lui appliquent l'effet [Hémorragie].
+
+        Applique l'effet [Malédiction de la bête magique] aux cibles immunisées contre l'effet [Hémorragie].
+
+        Les dégâts des compétences **Griffes de bête magique** et **Massacre** augmentent de 60% face à des cibles affectées par les effets [Hémorragie ou Malédiction de la bête magique].`, [
+        { title: `[Hémorragie]`, content: `Inflige des dégâts équivalents à 1% des PV actuels de l'utilisateur toutes les 3 secondes.
+            Durée: 30 seconde(s)` },
+        { title: `[Malédiction de la bête magique]`, content: `Inflige des dégâts équivalents à 200 % des PV max de Baek Yunho à crinière argentée toutes les 3 secondes.
+            Durée: 30 seconde(s)` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation de la compétence **Attaque extrême: Forme animale**, le Taux de coup critique et les Dégâts de coup critique augmentent de 3% toutes les 1 seconde(s) pendant 12 seconde(s).
+
+        Lors de l'utilisation de la compétence **Attaque extrême: Forme animale**, les dégâts subis augmentent à hauteur de 10% des PV actuels de l'utilisateur, mais il profite d'un [Bouclier] équivalent à 20% de ses PV max.
+
+        **Attaque extrême: Forme animale** ignore l'effet de [Bouclier] de l'utilisateur et inflige des dégâts à l'utilisateur.
+
+        Lorsque les PV de l'utilisateur sont à 30% ou moins, les dégâts subis par l'utilisateur de 15%.`, [], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Les PV de l'utilisateur augmentent de 16%.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `L'utilisateur débute le combat avec 50% de PV en moins.
+
+        Au début du combat, l'utilisateur bénéficie d'un [Bouclier] équivalent à 60% de ses PV max.
+
+        Durée: illimitée`, [], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts de l'Attaque de base de l'utilisateur augmentent de 80%.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `L'augmentation des dégâts de compétence de l'utilisateur passent à 120% du ratio de PV perdus.`, [], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -313,22 +207,17 @@ huntersData["baek_yunho_a_criniere_argentee"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les dégâts de lumière de l'utilisateur de <span class="stat-boost">4%</span>.<br>
-        Face à des cibles affectées par l'effet <span class="buff">[Flammes blanches]</span>, la Défense de l'utilisateur augmente de <span class="stat-boost">5%</span> pendant 20 seconde(s).<br>
-        (Temps de rechargement: 30 seconde(s))</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les dégâts de lumière de l'utilisateur de <span class="stat-boost">12%</span>.<br>
-        Face à des cibles affectées par l'effet <span class="buff">[Flammes blanches]</span>, la Défense de l'utilisateur augmente de <span class="stat-boost">20 %</span> pendant 20 seconde(s).<br>
-        (Temps de rechargement: 30 seconde(s))</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les dégâts de lumière de l'utilisateur de 4%.
+
+        Face à des cibles affectées par l'effet [Flammes blanches], la Défense de l'utilisateur augmente de 5% pendant 20 seconde(s).
+
+        (Temps de rechargement: 30 seconde(s))`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les dégâts de lumière de l'utilisateur de 12%.
+
+        Face à des cibles affectées par l'effet [Flammes blanches], la Défense de l'utilisateur augmente de 20 % pendant 20 seconde(s).
+
+        (Temps de rechargement: 30 seconde(s))`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -337,61 +226,38 @@ huntersData["charlotte"] = {
     name: "Charlotte",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Charlotte/charlotte_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Charlotte/farceuse/Relic_Charlotte_PortraitBig.png",
     weaponName: "Farceuse",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation de <strong>Ruée</strong>, cette dernière devient une compétence à effet de charge dont la trajectoire peut être contrôlée.<br>
-        Lorsque le mode d'attaque de cette Ruée est actif, Charlotte obtient un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">20%</span> de sa défense tant que la Ruée est activée.<br>
-        <strong>Prends ça !</strong> devient disponible après avoir utilisé 2 fois des attaques de base de palier 3, contrairement à la règle habituelle qui demande de charger la jauge de puissance en utilisant des compétences et supprime le temps de rechargement.<br>
-        (Temps de rechargement: 40 seconde(s))<br>
-        Lors de <strong>Prends ça !</strong>, la compétence augmente les dégâts de <strong>Harper! À l'aide !</strong> de <span class="stat-boost">50 %</span> pendant 10 seconde(s)<br>
-        La stat de Dégâts de coup critique de l'utilisatrice augmente à hauteur de <span class="stat-boost">10%</span> de la stat de dégâts augmentés.<br></p>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Après avoir utilisé une attaque de base de palier 3 1 fois, <strong>Prends ça !</strong> devient disponible.<br>
-        (Temps de rechargement: 20 seconde(s)).<br>
-        Lors de <strong>Danse disla</strong>, cette compétence augmente les dégâts de ténèbres de <span class="stat-boost">15%</span> pendant 20 seconde(s).<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisatrice de <span class="stat-boost">12%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p><strong>Prends ça!</strong> devient <strong>Harper! Nous ne faisons qu'un!</strong> <br>
-        lorsque Harper prête assistance.<br>
-        Les dégâts de l'utilisatrice augmentent aussi de <span class="stat-boost">70%</span></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les attaques de base sont plus rapides et leurs dégâts augmentent de <span class="stat-boost">60%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lors d'une attaque de base,, l'utilisatrice active l'effet <span class="buff">[Reconnaissance de la poupée]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Reconnaissance de la poupée]</span></h4>
-            <p>Augmente les dégâts de <strong>Harper ! Nous ne faisons qu'un!</strong> et <strong>Harper! A l'aide !</strong> de <span class="stat-boost">8%</span>.<br>
-            Durée: illimitée Cumulable jusqu'à 15 fois.)</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation de **Ruée**, cette dernière devient une compétence à effet de charge dont la trajectoire peut être contrôlée.
+
+        Lorsque le mode d'attaque de cette Ruée est actif, Charlotte obtient un [Bouclier] équivalent à 20% de sa défense tant que la Ruée est activée.
+
+        **Prends ça !** devient disponible après avoir utilisé 2 fois des attaques de base de palier 3, contrairement à la règle habituelle qui demande de charger la jauge de puissance en utilisant des compétences et supprime le temps de rechargement.
+
+        (Temps de rechargement: 40 seconde(s))
+
+        Lors de **Prends ça !**, la compétence augmente les dégâts de **Harper! À l'aide !** de 50 % pendant 10 seconde(s)
+
+        La stat de Dégâts de coup critique de l'utilisatrice augmente à hauteur de 10% de la stat de dégâts augmentés.`, [], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Après avoir utilisé une attaque de base de palier 3 1 fois, **Prends ça !** devient disponible.
+
+        (Temps de rechargement: 20 seconde(s)).
+
+        Lors de **Danse disla**, cette compétence augmente les dégâts de ténèbres de 15% pendant 20 seconde(s).`, [], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Augmente la Défense de l'utilisatrice de 12%.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `**Prends ça!** devient **Harper! Nous ne faisons qu'un!** 
+
+        lorsque Harper prête assistance.
+
+        Les dégâts de l'utilisatrice augmentent aussi de 70%`, [], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Les attaques de base sont plus rapides et leurs dégâts augmentent de 60%.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `Lors d'une attaque de base,, l'utilisatrice active l'effet [Reconnaissance de la poupée].`, [
+        { title: `[Reconnaissance de la poupée]`, content: `Augmente les dégâts de **Harper ! Nous ne faisons qu'un!** et **Harper! A l'aide !** de 8%.
+            Durée: illimitée Cumulable jusqu'à 15 fois.)` }
+    ], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -426,20 +292,13 @@ huntersData["charlotte"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Défense de l'utilisatrice de <span class="stat-boost">2%</span>.<br>
-        Augmente le Taux de coup critique et les Dégâts de coup critique de <strong>Prends ça !</strong>, <strong>Harper ! Nous ne faisons qu'un!</strong> et <strong>Harper ! À l'aide !</strong> de <span class="stat-boost">4%</span>.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisatrice de <span class="stat-boost">12%</span>.<br>
-        Augmente le Taux de coup critique et les Dégâts de coup critique de <strong>Prends ça !</strong>, <strong>Harper! Nous ne faisons qu'un!</strong> et <strong>Harper! À l'aide !</strong> de <span class="stat-boost">24%</span>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Défense de l'utilisatrice de 2%.
+
+        Augmente le Taux de coup critique et les Dégâts de coup critique de **Prends ça !**, **Harper ! Nous ne faisons qu'un!** et **Harper ! À l'aide !** de 4%.`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Défense de l'utilisatrice de 12%.
+
+        Augmente le Taux de coup critique et les Dégâts de coup critique de **Prends ça !**, **Harper! Nous ne faisons qu'un!** et **Harper! À l'aide !** de 24%.`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -448,81 +307,45 @@ huntersData["harper"] = {
     name: "Harper",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Harper/harper_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Harper/espiegle/Relic_Harper_PortraitBig.png",
     weaponName: "Espiègle",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>L'effet <span class="buff">[Super boost magique]</span> est activé au début du combat.<br>
-        Lors de <strong>Dérapage au marteau!</strong>, cette compétence active l'effet <span class="buff">[London Drift]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Super boost magique]</span></h4>
-            <p>Lors de <strong>Dérapage au marteau!</strong>, cette compétence augmente le Taux de coup critique et les Dégâts de coup critique de <span class="stat-boost">5%</span>.<br>
-            (Cumulable jusqu'à 4 fois.)<br>
-            Durée: illimitée</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[La dérive de Londres]</span></h4>
-            <p>Augmente les dégâts infligés de <span class="stat-boost">20 %</span>.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>L'utilisation de <strong>L'attendrisseur!</strong> octroie un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">50%</span> des PV de l'utilisatrice.<br>
-        Le nombre max de coups de <strong>L'attendrisseur!</strong> augmente de 4 et les dégâts de compétence augmentent de <span class="stat-boost">120%</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>L'efficacité de <span class="buff">[Bris]</span> augmente de <span class="stat-boost">20%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de <strong>Dérapage au marteau !</strong>, l'utilisatrice attaque instantanément les ennemis dans un rayon de 5 m.<br>
-        <span class="buff">[London Drift]</span> est amélioré.<br>
-        <strong>Mjöllnir de Harper</strong> devient <strong>Mjöllnir de Harper et Charlotte</strong>.<br>
-        Les dégâts de <span class="keyword-orange">compétence ultime</span> de l'utilisatrice augmentent de <span class="stat-boost">70%</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[La dérive de Londres]</span></h4>
-            <p>Augmente les dégâts infligés de <span class="stat-boost">60%</span>.<br>
-            Durée: 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>La Défense et les PV de tous les membres de l'équipe augmentent de <span class="stat-boost">8%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p><strong>Petits morceaux</strong> est amélioré.<br>
-        <span class="buff">[Super boost magique]</span> devient <span class="buff">[Super boost magique des jumelles]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Petits morceaux]</span></h4>
-            <p>Les dégâts de <span class="keyword-orange">compétence ultime</span> subis par les chasseurs d'élément <span class="element-tenebre">Ténèbres</span> augmentent de <span class="stat-boost">2%</span>.<br>
-            (Cumulable jusqu'à 16 fois.)<br>
-            Durée: 30 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Super boost magique des jumelles]</span></h4>
-            <p>Lors de <strong>Dérapage au marteau !</strong>, la compétence augmente le Taux de coup critique et les Dégâts de coup critique de l'utilisatrice de <span class="stat-boost">6%</span>.<br>
-            (Cumulable jusqu'à 7 fois.)<br>
-            Durée: illimitée</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `L'effet [Super boost magique] est activé au début du combat.
+
+        Lors de **Dérapage au marteau!**, cette compétence active l'effet [London Drift].`, [
+        { title: `[Super boost magique]`, content: `Lors de **Dérapage au marteau!**, cette compétence augmente le Taux de coup critique et les Dégâts de coup critique de 5%.
+            (Cumulable jusqu'à 4 fois.)
+            Durée: illimitée` },
+        { title: `[La dérive de Londres]`, content: `Augmente les dégâts infligés de 20 %.
+            Durée: 10 seconde(s)` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `L'utilisation de **L'attendrisseur!** octroie un [Bouclier] équivalent à 50% des PV de l'utilisatrice.
+
+        Le nombre max de coups de **L'attendrisseur!** augmente de 4 et les dégâts de compétence augmentent de 120%.`, [], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `L'efficacité de [Bris] augmente de 20%.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Lors de **Dérapage au marteau !**, l'utilisatrice attaque instantanément les ennemis dans un rayon de 5 m.
+
+        [London Drift] est amélioré.
+
+        **Mjöllnir de Harper** devient **Mjöllnir de Harper et Charlotte**.
+
+        Les dégâts de compétence ultime de l'utilisatrice augmentent de 70%.`, [
+        { title: `[La dérive de Londres]`, content: `Augmente les dégâts infligés de 60%.
+            Durée: 15 seconde(s)` }
+    ], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `La Défense et les PV de tous les membres de l'équipe augmentent de 8%.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `**Petits morceaux** est amélioré.
+
+        [Super boost magique] devient [Super boost magique des jumelles].`, [
+        { title: `[Petits morceaux]`, content: `Les dégâts de compétence ultime subis par les chasseurs d'élément Ténèbres augmentent de 2%.
+            (Cumulable jusqu'à 16 fois.)
+            Durée: 30 seconde(s)` },
+        { title: `[Super boost magique des jumelles]`, content: `Lors de **Dérapage au marteau !**, la compétence augmente le Taux de coup critique et les Dégâts de coup critique de l'utilisatrice de 6%.
+            (Cumulable jusqu'à 7 fois.)
+            Durée: illimitée` }
+    ], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -558,20 +381,13 @@ huntersData["harper"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Les PV de l'utilisatrice augmentent de <span class="stat-boost">4%</span>.<br>
-        Lors de l'utilisation de la <span class="keyword-orange">compétence ultime</span>, les dégâts de ténèbres des membres de son équipe augmentent de <span class="stat-boost">4%</span> pendant 30 seconde(s).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Les PV de l'utilisatrice augmentent de <span class="stat-boost">12%</span>.<br>
-        Lors de l'utilisation de la <span class="keyword-orange">compétence ultime</span>, les dégâts de ténèbres des membres de son équipe augmentent de <span class="stat-boost">12%</span> pendant 30 seconde(s).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Les PV de l'utilisatrice augmentent de 4%.
+
+        Lors de l'utilisation de la compétence ultime, les dégâts de ténèbres des membres de son équipe augmentent de 4% pendant 30 seconde(s).`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Les PV de l'utilisatrice augmentent de 12%.
+
+        Lors de l'utilisation de la compétence ultime, les dégâts de ténèbres des membres de son équipe augmentent de 12% pendant 30 seconde(s).`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -580,74 +396,38 @@ huntersData["isla-wright"] = {
     name: "Isla Wright",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Isla_wright/isla_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Isla_wright/chance_impromptue/Relic_IslaWright_PortraitBig.png",
     weaponName: "Chance impromptue",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation du Stade 3 de son attaque de base, l'utilisatrice charge sa jauge de puissance de <span class="stat-boost">100%</span>.<br>
-        Lors de l'utilisation de <strong>Nova de la Mort</strong>, la compétence <strong>Arcane: le Monde</strong> devient <strong>Arcane : la Mort</strong>.<br>
-        Lors de l'utilisation de la compétence <strong>Urgence cosmique</strong>, la compétence <strong>Arcane : la Mort</strong> devient <strong>Arcane: le Monde</strong>.<br></p>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Nova de la Mort</strong>, l'utilisatrice charge la jauge de puissance du deuxième personnage de l'équipe de <span class="stat-boost">60%</span> et réduit le temps de rechargement de sa <span class="keyword-orange">compétence ultime</span> de 20 seconde(s).<br>
-        Améliore l'effet <span class="buff">[La Tour]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[La Tour]</span></h4>
-            <p>Augmente les dégâts élémentaires de ténèbres infligés par les membres de type <span class="element-tenebre">Ténèbres</span> de <span class="stat-boost">10%</span>.<br>
-            Durée: 16 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente la Vitesse de toute l'équipe de <span class="stat-boost">10%</span> et l'immunise contre l'effet <span class="buff">[Ralenti]</span>.<br>
-        Augmente la Défense de toute l'équipe de <span class="stat-boost">5%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Horoscope, Étoiles contraires</strong>, les effets <span class="buff">[La Force, Le Magicien et La Roue de la Fortune]</span> s'activent.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts élémentaires de ténèbres des membres de type <span class="element-tenebre">Ténèbres</span> augmentent de <span class="stat-boost">3%</span> et les dégâts qu'ils subissent diminuent de <span class="stat-boost">3%</span> (cumulable jusqu'à 3 fois) par chasseur de l'élément <span class="element-tenebre">Ténèbres</span> présent dans l'équipe.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les effets <span class="buff">[Le Monde et La Mort]</span> sont améliorés.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Le Monde]</span></h4>
-            <p>Des PV équivalents à <span class="stat-boost">25%</span> de la Défense d'Isla Wright sont instantanément restaurés pour toute l'équipe.<br>
-            Octroie à toute l'équipe un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">25%</span> de la Défense d'Isla Wright.<br>
-            Durée: 8 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[La Mort]</span></h4>
-            <p>Augmente la stat d'augmentation des dégâts de toute l'équipe de <span class="stat-boost">12%</span> de la stat d'augmentation des dégâts d'Isla Wright.<br>
-            Si un chasseur de l'élément <span class="element-tenebre">Ténèbres</span> est présent dans le groupe, les dégâts de <span class="keyword-orange">compétence ultime</span> de toute l'équipe augmentent de <span class="stat-boost">32%</span>.<br>
-            L'effet <span class="buff">[Guide de la Mort]</span> est appliqué à toute l'équipe.<br>
-            Durée: 16 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Guide de la Mort]</span></h4>
-            <p>Augmente les dégâts de <span class="stat-boost">0.2%</span> chaque fois que les PV de la cible baissent de 1% (cumulable jusqu'à 16 %).<br>
-            Durée: 16 seconde(s)</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation du Stade 3 de son attaque de base, l'utilisatrice charge sa jauge de puissance de 100%.
+
+        Lors de l'utilisation de **Nova de la Mort**, la compétence **Arcane: le Monde** devient **Arcane : la Mort**.
+
+        Lors de l'utilisation de la compétence **Urgence cosmique**, la compétence **Arcane : la Mort** devient **Arcane: le Monde**.`, [], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation de la compétence **Nova de la Mort**, l'utilisatrice charge la jauge de puissance du deuxième personnage de l'équipe de 60% et réduit le temps de rechargement de sa compétence ultime de 20 seconde(s).
+
+        Améliore l'effet [La Tour].`, [
+        { title: `[La Tour]`, content: `Augmente les dégâts élémentaires de ténèbres infligés par les membres de type Ténèbres de 10%.
+            Durée: 16 seconde(s)` }
+    ], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Augmente la Vitesse de toute l'équipe de 10% et l'immunise contre l'effet [Ralenti].
+
+        Augmente la Défense de toute l'équipe de 5%.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation de la compétence **Horoscope, Étoiles contraires**, les effets [La Force, Le Magicien et La Roue de la Fortune] s'activent.`, [], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts élémentaires de ténèbres des membres de type Ténèbres augmentent de 3% et les dégâts qu'ils subissent diminuent de 3% (cumulable jusqu'à 3 fois) par chasseur de l'élément Ténèbres présent dans l'équipe.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `Les effets [Le Monde et La Mort] sont améliorés.`, [
+        { title: `[Le Monde]`, content: `Des PV équivalents à 25% de la Défense d'Isla Wright sont instantanément restaurés pour toute l'équipe.
+            Octroie à toute l'équipe un [Bouclier] équivalent à 25% de la Défense d'Isla Wright.
+            Durée: 8 seconde(s)` },
+        { title: `[La Mort]`, content: `Augmente la stat d'augmentation des dégâts de toute l'équipe de 12% de la stat d'augmentation des dégâts d'Isla Wright.
+            Si un chasseur de l'élément Ténèbres est présent dans le groupe, les dégâts de compétence ultime de toute l'équipe augmentent de 32%.
+            L'effet [Guide de la Mort] est appliqué à toute l'équipe.
+            Durée: 16 seconde(s)` },
+        { title: `[Guide de la Mort]`, content: `Augmente les dégâts de 0.2% chaque fois que les PV de la cible baissent de 1% (cumulable jusqu'à 16 %).
+            Durée: 16 seconde(s)` }
+    ], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -681,22 +461,17 @@ huntersData["isla-wright"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Défense de l'utilisatrice de <span class="stat-boost">0.5%</span>.<br>
-        La Défense de toute l'équipe augmente de <span class="stat-boost">0.5%</span> par chasseur de l'élément <span class="element-tenebre">Ténèbres</span> présent dans l'équipe.<br>
-        Réduit le temps de rechargement de la <span class="keyword-orange">compétence ultime</span> d'Isla Wright de 4 seconde(s).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisatrice de <span class="stat-boost">4%</span>.<br>
-        La Défense de toute l'équipe augmente de <span class="stat-boost">4%</span> par chasseur de l'élément <span class="element-tenebre">Ténèbres</span> présent dans l'équipe.<br>
-        Réduit le temps de rechargement de la <span class="keyword-orange">compétence ultime</span> d'Isla Wright de 20 seconde(s).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Défense de l'utilisatrice de 0.5%.
+
+        La Défense de toute l'équipe augmente de 0.5% par chasseur de l'élément Ténèbres présent dans l'équipe.
+
+        Réduit le temps de rechargement de la compétence ultime d'Isla Wright de 4 seconde(s).`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Défense de l'utilisatrice de 4%.
+
+        La Défense de toute l'équipe augmente de 4% par chasseur de l'élément Ténèbres présent dans l'équipe.
+
+        Réduit le temps de rechargement de la compétence ultime d'Isla Wright de 20 seconde(s).`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -705,54 +480,24 @@ huntersData["lee-bora"] = {
     name: "Lee Bora",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Lee_bora/lee_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Lee_bora/logique_imparable/Relic_LeeBoRa_PortraitBig.png",
     weaponName: "Logique Imparable",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque l'<span class="keyword-orange">attaque de noyau</span> ou la compétence <strong>Tempête</strong> touchent leur cible, l'effet <span class="buff">[Talisman]</span> est infligé à la cible.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Talisman]</span></h4>
-            <p>Les dégâts subis par la cible augmentent de <span class="stat-boost">15%</span>.<br>
-            Durée: 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Modification des effets de la compétence <strong>Talisman d'invocation: Renard fantomatique</strong> Lors de l'utilisation de <span class="buff">[Renards fantomatiques]</span>, 3 renards sont invoqués.<br>
-        Augmente les dégâts de chaque Renard fantomatique de <span class="stat-boost">50%</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les dégâts de coup critique et le Taux de coup critique de l'utilisatrice augmentent de <span class="stat-boost">6 %</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Modification des effets de la compétence <strong>Talisman de renforcement</strong> Peut être utilisée jusqu'à 2 fois.<br>
-        La portée et les dégâts de la compétence augmentent de <span class="stat-boost">40%</span>.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Réduit le temps de rechargement de <strong>Talisman de ténèbres: Meg</strong> de <span class="stat-boost">25%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les dégâts de base des petits Meg de <strong>Talisman de ténèbres: Meg</strong> augmentent de <span class="stat-boost">75%</span>.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lorsque l'attaque de noyau ou la compétence **Tempête** touchent leur cible, l'effet [Talisman] est infligé à la cible.`, [
+        { title: `[Talisman]`, content: `Les dégâts subis par la cible augmentent de 15%.
+            Durée: 15 seconde(s)` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Modification des effets de la compétence **Talisman d'invocation: Renard fantomatique** Lors de l'utilisation de [Renards fantomatiques], 3 renards sont invoqués.
+
+        Augmente les dégâts de chaque Renard fantomatique de 50%.`, [], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Les dégâts de coup critique et le Taux de coup critique de l'utilisatrice augmentent de 6 %.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Modification des effets de la compétence **Talisman de renforcement** Peut être utilisée jusqu'à 2 fois.
+
+        La portée et les dégâts de la compétence augmentent de 40%.`, [], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Réduit le temps de rechargement de **Talisman de ténèbres: Meg** de 25%.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `Les dégâts de base des petits Meg de **Talisman de ténèbres: Meg** augmentent de 75%.`, [], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -784,20 +529,13 @@ huntersData["lee-bora"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">2.5%</span>.<br>
-        Lorsque l'utilisateur touche des cibles avec <strong>Talisman de renforcement</strong>, ses Dégâts de coup critique et son Taux de coup critique augmentent de <span class="stat-boost">2.5%</span> pendant 10 seconde(s) face à celles-ci.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">10%</span>.<br>
-        Les Dégâts de coup critique et le Taux de coup critique augmentent de <span class="stat-boost">10%</span> pendant 10 seconde(s) face aux cibles touchées par <strong>Talisman de renforcement</strong>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente l'Attaque de l'utilisateur de 2.5%.
+
+        Lorsque l'utilisateur touche des cibles avec **Talisman de renforcement**, ses Dégâts de coup critique et son Taux de coup critique augmentent de 2.5% pendant 10 seconde(s) face à celles-ci.`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente l'Attaque de l'utilisateur de 10%.
+
+        Les Dégâts de coup critique et le Taux de coup critique augmentent de 10% pendant 10 seconde(s) face aux cibles touchées par **Talisman de renforcement**.`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -806,58 +544,29 @@ huntersData["lim-taegyu"] = {
     name: "Lim Taegyu",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Lim_taegyu/LimTaeGyu_Portrait_Body.png",
     weaponImage: "Chasseurs_SSR/tenebre/Lim_taegyu/interception/Relic_LimTaeGyu_PortraitBig.png",
     weaponName: "Interception",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation d'<strong>Explosion aérienne</strong>, l'utilisateur applique l'effet <span class="buff">[Boost magique]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Boost magique]</span></h4>
-            <p>Lorsque la compétence touche sa cible, l'utilisateur tire 3 flèches magiques.<br>
-            Lorsque l'Attaque de base de l'utilisateur touche sa cible, 2 flèches magiques sont tirées.<br>
-            Dégâts: inflige des dégâts équivalents à <span class="stat-boost">120 %</span> de l'Attaque de l'utilisateur par flèche.<br>
-            Les dégâts des <span class="keyword-orange">attaques de noyau</span>, de <strong>Typhon ardent</strong> et d'<strong>Attaque rapide : Typhon ardent</strong> augmentent de <span class="stat-boost">30%</span>.<br>
-            Durée: 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Améliore l'effet de compétence <strong>Manœuvre de tir</strong>.<br>
-        La vitesse et les dégâts de compétence de l'utilisateur augmentent de <span class="stat-boost">25%</span>, et l'effet est utilisable jusqu'à 3 fois.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente l'efficacité de <span class="buff">[Bris]</span> de l'utilisateur de <span class="stat-boost">20%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lorsque l'effet <span class="buff">[Boost magique]</span> est actif, les effets des <span class="keyword-orange">attaques de noyau</span>, de <strong>Typhon ardent</strong> et d'<strong>Attaque rapide: Typhon ardent</strong> augmentent de <span class="stat-boost">50%</span>.<br>
-        Lors de l'utilisation de <strong>Manœuvre de tir</strong>, l'effet <span class="buff">[Boost magique]</span> s'applique (temps de rechargement: 20 seconde(s)).<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">12%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Chaque fois que l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur touche sa cible, l'Attaque augmente de <span class="stat-boost">4%</span> (cumulable jusqu'à 10 fois).<br>
-        Durée: infinie</p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation d'**Explosion aérienne**, l'utilisateur applique l'effet [Boost magique].`, [
+        { title: `[Boost magique]`, content: `Lorsque la compétence touche sa cible, l'utilisateur tire 3 flèches magiques.
+            Lorsque l'Attaque de base de l'utilisateur touche sa cible, 2 flèches magiques sont tirées.
+            Dégâts: inflige des dégâts équivalents à 120 % de l'Attaque de l'utilisateur par flèche.
+            Les dégâts des attaques de noyau, de **Typhon ardent** et d'**Attaque rapide : Typhon ardent** augmentent de 30%.
+            Durée: 15 seconde(s)` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Améliore l'effet de compétence **Manœuvre de tir**.
+
+        La vitesse et les dégâts de compétence de l'utilisateur augmentent de 25%, et l'effet est utilisable jusqu'à 3 fois.`, [], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Augmente l'efficacité de [Bris] de l'utilisateur de 20%.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque l'effet [Boost magique] est actif, les effets des attaques de noyau, de **Typhon ardent** et d'**Attaque rapide: Typhon ardent** augmentent de 50%.
+
+        Lors de l'utilisation de **Manœuvre de tir**, l'effet [Boost magique] s'applique (temps de rechargement: 20 seconde(s)).`, [], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Augmente l'Attaque de l'utilisateur de 12%.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `Chaque fois que l'attaque de noyau de l'utilisateur touche sa cible, l'Attaque augmente de 4% (cumulable jusqu'à 10 fois).
+
+        Durée: infinie`, [], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -888,20 +597,13 @@ huntersData["lim-taegyu"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les dégâts de ténèbres de l'utilisateur de <span class="stat-boost">4%</span>.<br>
-        Lors de l'utilisation d'une Attaque de base moins de 10 seconde(s) après l'utilisation de <strong>Attaque rapide: Typhon ardent</strong>, l'Attaque de l'utilisateur augmente de <span class="stat-boost">8%</span> pendant 30 seconde(s) (cumulable jusqu'à 2 fois).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les dégâts de ténèbres de l'utilisateur de <span class="stat-boost">12%</span>.<br>
-        Lors de l'utilisation d'une Attaque de base moins de 10 seconde(s) après l'utilisation de <strong>Attaque rapide: Typhon ardent</strong>, l'Attaque de l'utilisateur augmente de <span class="stat-boost">8%</span> pendant 30 seconde(s) (cumulable jusqu'à 8 fois).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les dégâts de ténèbres de l'utilisateur de 4%.
+
+        Lors de l'utilisation d'une Attaque de base moins de 10 seconde(s) après l'utilisation de **Attaque rapide: Typhon ardent**, l'Attaque de l'utilisateur augmente de 8% pendant 30 seconde(s) (cumulable jusqu'à 2 fois).`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les dégâts de ténèbres de l'utilisateur de 12%.
+
+        Lors de l'utilisation d'une Attaque de base moins de 10 seconde(s) après l'utilisation de **Attaque rapide: Typhon ardent**, l'Attaque de l'utilisateur augmente de 8% pendant 30 seconde(s) (cumulable jusqu'à 8 fois).`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Ténèbres")
     }
 };
 
@@ -910,116 +612,69 @@ huntersData["sian-halat"] = {
     name: "Sian Halat",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Sian_halat/sian_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Sian_halat/ombre_pourpre/Relic_SianHalat_PortraitBig.png",
     weaponName: "Ombre pourpre",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Chaque fois que les compétences <strong>Épéiste royal : Jugement</strong>, <strong>Épéiste royal : Flash noir</strong> ou <strong>Épéiste royal : Ruade</strong> touchent leur cible, elles remplissent la jauge de <span class="buff">[Maîtrise impeccable de l'épée]</span>.<br>
-        Lorsque la jauge de <span class="buff">[Maîtrise impeccable de l'épée]</span> atteint 50 % ou plus, l'effet <span class="buff">[Danse de l'épée pourpre]</span> est activé.<br>
-        Lorsque les compétences <strong>Épéiste royal : Flash noir</strong> ou <strong>Épéiste royal : Ruade</strong> touchent leur cible, l'effet <span class="buff">[Furie pourpre]</span> est activé.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Danse de l'épée pourpre]</span></h4>
-            <p>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> de ténèbres de <span class="stat-boost">10 %</span>.<br>
-            Augmente les dégâts de ténèbres de <span class="stat-boost">5 %</span>. Augmente l'Attaque de <span class="stat-boost">5 %</span>. Durée : 15 seconde(s).</p>
-        </div>
+        0: fmtPassif(`Passif :`, `Chaque fois que les compétences **Épéiste royal : Jugement**, **Épéiste royal : Flash noir** ou **Épéiste royal : Ruade** touchent leur cible, elles remplissent la jauge de [Maîtrise impeccable de l'épée].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Furie pourpre]</span></h4>
-            <p>Restaure instantanément les PV à hauteur de <span class="stat-boost">5 %</span> de l'Attaque de Sian Halat.<br>
-            Augmente le Taux de récupération de PV de <span class="stat-boost">5 %</span>. Durée : 5 seconde(s).</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque la jauge de <span class="buff">[Maîtrise impeccable de l'épée]</span> atteint 50 % ou plus, les compétences <strong>Épéiste royal : Flash noir</strong> et <strong>Épéiste royal : Ruade</strong> deviennent <strong>Épéiste royal : Pleine lune</strong> et <strong>Épéiste royal : Tempête de sang</strong>, ce qui augmente leurs dégâts de <span class="stat-boost">100 %</span>.<br>
-        L'utilisation des compétences <strong>Épéiste royal : Pleine lune</strong> ou <strong>Épéiste royal : Tempête de sang</strong> consomme 50 % de la jauge de <span class="buff">[Maîtrise impeccable de l'épée]</span>.<br>
-        Lorsque les compétences <strong>Épéiste royal : Flash noir</strong>, <strong>Épéiste royal : Ruade</strong>, <strong>Épéiste royal : Pleine lune</strong> ou <strong>Épéiste royal : Tempête de sang</strong> touchent leur cible, elles lui appliquent l'effet <span class="buff">[Domination écarlate]</span>.<br>
-        L'effet <span class="buff">[Furie pourpre]</span> qui est activé lorsque les compétences <strong>Épéiste royal : Flash noir</strong> ou <strong>Épéiste royal : Ruade</strong> touchent leur cible devient <span class="buff">[Furie insatiable]</span>.<br>
-        Lorsque les compétences <strong>Épéiste royal : Pleine lune</strong> ou <strong>Épéiste royal : Tempête de sang</strong> touchent leur cible, elles appliquent l'effet <span class="buff">[Furie insatiable]</span>.<br>
-        Lorsque les PV de Sian Halat atteignent 1 ou moins, il devient <span class="buff">[Immortel]</span> pendant 2 seconde(s).<br>
-        Lorsque l'effet <span class="buff">[Immortel]</span> prend fin, il récupère des PV équivalents à <span class="stat-boost">50 %</span> de son Attaque.<br>
-        Cet effet ne s'active qu'une fois pendant le combat.<br></p>
+        Lorsque la jauge de [Maîtrise impeccable de l'épée] atteint 50 % ou plus, l'effet [Danse de l'épée pourpre] est activé.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Domination écarlate]</span></h4>
-            <p>Augmente les dégâts de ténèbres subis de <span class="stat-boost">5 %</span>.<br>
-            Augmente les dégâts de <span class="buff">[Surcharge]</span> de ténèbres subis de <span class="stat-boost">5 %</span>. Durée : 10 seconde(s) (cumulable jusqu'à 2 fois).</p>
-        </div>
+        Lorsque les compétences **Épéiste royal : Flash noir** ou **Épéiste royal : Ruade** touchent leur cible, l'effet [Furie pourpre] est activé.`, [
+        { title: `[Danse de l'épée pourpre]`, content: `Augmente l'effet d'[Accumulation élémentaire] de ténèbres de 10 %.
+            Augmente les dégâts de ténèbres de 5 %. Augmente l'Attaque de 5 %. Durée : 15 seconde(s).` },
+        { title: `[Furie pourpre]`, content: `Restaure instantanément les PV à hauteur de 5 % de l'Attaque de Sian Halat.
+            Augmente le Taux de récupération de PV de 5 %. Durée : 5 seconde(s).` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Lorsque la jauge de [Maîtrise impeccable de l'épée] atteint 50 % ou plus, les compétences **Épéiste royal : Flash noir** et **Épéiste royal : Ruade** deviennent **Épéiste royal : Pleine lune** et **Épéiste royal : Tempête de sang**, ce qui augmente leurs dégâts de 100 %.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Furie insatiable]</span></h4>
-            <p>Restaure instantanément des PV équivalents à <span class="stat-boost">10 %</span> de l'Attaque de Sian Halat.<br>
-            Augmente le Taux de récupération de PV de <span class="stat-boost">10 %</span>. Durée : 5 seconde(s).</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Applique l'effet <span class="buff">[Serment de la victoire]</span> à toute l'équipe au début du niveau.<br>
-        Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> de ténèbres de <span class="stat-boost">20 %</span>.<br></p>
+        L'utilisation des compétences **Épéiste royal : Pleine lune** ou **Épéiste royal : Tempête de sang** consomme 50 % de la jauge de [Maîtrise impeccable de l'épée].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Serment de la victoire]</span></h4>
-            <p>Augmente les dégâts de <span class="buff">[Surcharge]</span> de ténèbres subis par les cibles affectées de <span class="stat-boost">20 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Améliore l'effet <span class="buff">[Danse de l'épée pourpre]</span>.<br>
-        Lorsque les compétences <strong>Épéiste royal : Flash noir</strong>, <strong>Épéiste royal : Ruade</strong>, <strong>Épéiste royal : Pleine lune</strong> ou <strong>Épéiste royal : Tempête de sang</strong> touchent leur cible, elles activent l'effet <span class="buff">[Résolution du gardien]</span>.<br></p>
+        Lorsque les compétences **Épéiste royal : Flash noir**, **Épéiste royal : Ruade**, **Épéiste royal : Pleine lune** ou **Épéiste royal : Tempête de sang** touchent leur cible, elles lui appliquent l'effet [Domination écarlate].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Danse de l'épée pourpre]</span> (Amélioré)</h4>
-            <p>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> de ténèbres de <span class="stat-boost">20 %</span>.<br>
-            Augmente les dégâts de ténèbres de <span class="stat-boost">10 %</span>. Augmente l'Attaque de <span class="stat-boost">10 %</span>. Durée : 30 seconde(s).</p>
-        </div>
+        L'effet [Furie pourpre] qui est activé lorsque les compétences **Épéiste royal : Flash noir** ou **Épéiste royal : Ruade** touchent leur cible devient [Furie insatiable].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Résolution du gardien]</span></h4>
-            <p>Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> de ténèbres de <span class="stat-boost">1 %</span>.<br>
-            Augmente les dégâts de ténèbres de <span class="stat-boost">1.6 %</span>. Augmente l'Attaque de <span class="stat-boost">1 %</span>. Durée : illimitée (cumulable jusqu'à 20 fois).</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>La Pénétration de défense des membres de l'équipe de l'élément <span class="element-tenebre">Ténèbres</span> augmente de <span class="stat-boost">3 %</span> par membre de l'élément <span class="element-tenebre">Ténèbres</span> présent dans le groupe.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les effets <span class="buff">[Domination écarlate]</span> et <span class="buff">[Furie insatiable]</span> sont améliorés.<br>
-        Le taux de remplissage de la jauge de <span class="buff">[Maîtrise impeccable de l'épée]</span> augmente de <span class="stat-boost">100 %</span>.<br>
-        Lorsque les compétences <strong>Épéiste royal : Flash noir</strong>, <strong>Épéiste royal : Ruade</strong>, <strong>Épéiste royal : Pleine lune</strong> ou <strong>Épéiste royal : Tempête de sang</strong> touchent leur cible, elles restaurent <span class="stat-boost">20 %</span> de la jauge de puissance de l'utilisateur et réduisent le temps de rechargement de <strong>Fierté du chevalier</strong> de 3 seconde(s) (temps de rechargement : 0.5 seconde(s)).<br>
-        Lorsque <strong>Fierté du chevalier</strong> touche sa cible, elle applique l'effet <span class="buff">[Épée du zénith]</span> aux membres de l'équipe de l'élément <span class="element-tenebre">Ténèbres</span>.<br></p>
+        Lorsque les compétences **Épéiste royal : Pleine lune** ou **Épéiste royal : Tempête de sang** touchent leur cible, elles appliquent l'effet [Furie insatiable].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Domination écarlate]</span> (Amélioré)</h4>
-            <p>Augmente les dégâts de ténèbres subis de <span class="stat-boost">10 %</span>.<br>
-            Augmente les dégâts de <span class="buff">[Surcharge]</span> de ténèbres subis de <span class="stat-boost">10 %</span>. Durée : 20 seconde(s) (cumulable jusqu'à 4 fois).</p>
-        </div>
+        Lorsque les PV de Sian Halat atteignent 1 ou moins, il devient [Immortel] pendant 2 seconde(s).
 
-        <div class="detail-box">
-            <h4><span class="buff">[Furie insatiable]</span> (Amélioré)</h4>
-            <p>Restaure instantanément des PV équivalents à <span class="stat-boost">20 %</span> de l'Attaque de Sian Halat.<br>
-            Augmente le Taux de récupération de PV de <span class="stat-boost">20 %</span>. Augmente les dégâts de <span class="buff">[Surcharge]</span> de ténèbres de <span class="stat-boost">30 %</span>.<br>
-            Augmente la Pénétration de défense de <span class="stat-boost">10 %</span>. Augmente l'Attaque de <span class="stat-boost">15 %</span>. Durée : 30 seconde(s).</p>
-        </div>
-        </div>
-    `
+        Lorsque l'effet [Immortel] prend fin, il récupère des PV équivalents à 50 % de son Attaque.
+
+        Cet effet ne s'active qu'une fois pendant le combat.`, [
+        { title: `[Domination écarlate]`, content: `Augmente les dégâts de ténèbres subis de 5 %.
+            Augmente les dégâts de [Surcharge] de ténèbres subis de 5 %. Durée : 10 seconde(s) (cumulable jusqu'à 2 fois).` },
+        { title: `[Furie insatiable]`, content: `Restaure instantanément des PV équivalents à 10 % de l'Attaque de Sian Halat.
+            Augmente le Taux de récupération de PV de 10 %. Durée : 5 seconde(s).` }
+    ], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Applique l'effet [Serment de la victoire] à toute l'équipe au début du niveau.
+
+        Augmente l'effet d'[Accumulation élémentaire] de ténèbres de 20 %.`, [
+        { title: `[Serment de la victoire]`, content: `Augmente les dégâts de [Surcharge] de ténèbres subis par les cibles affectées de 20 %.
+            Durée : illimitée.` }
+    ], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Améliore l'effet [Danse de l'épée pourpre].
+
+        Lorsque les compétences **Épéiste royal : Flash noir**, **Épéiste royal : Ruade**, **Épéiste royal : Pleine lune** ou **Épéiste royal : Tempête de sang** touchent leur cible, elles activent l'effet [Résolution du gardien].`, [
+        { title: `[Danse de l'épée pourpre] (Amélioré)`, content: `Augmente l'effet d'[Accumulation élémentaire] de ténèbres de 20 %.
+            Augmente les dégâts de ténèbres de 10 %. Augmente l'Attaque de 10 %. Durée : 30 seconde(s).` },
+        { title: `[Résolution du gardien]`, content: `Augmente l'effet d'[Accumulation élémentaire] de ténèbres de 1 %.
+            Augmente les dégâts de ténèbres de 1.6 %. Augmente l'Attaque de 1 %. Durée : illimitée (cumulable jusqu'à 20 fois).` }
+    ], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `La Pénétration de défense des membres de l'équipe de l'élément Ténèbres augmente de 3 % par membre de l'élément Ténèbres présent dans le groupe.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `Les effets [Domination écarlate] et [Furie insatiable] sont améliorés.
+
+        Le taux de remplissage de la jauge de [Maîtrise impeccable de l'épée] augmente de 100 %.
+
+        Lorsque les compétences **Épéiste royal : Flash noir**, **Épéiste royal : Ruade**, **Épéiste royal : Pleine lune** ou **Épéiste royal : Tempête de sang** touchent leur cible, elles restaurent 20 % de la jauge de puissance de l'utilisateur et réduisent le temps de rechargement de **Fierté du chevalier** de 3 seconde(s) (temps de rechargement : 0.5 seconde(s)).
+
+        Lorsque **Fierté du chevalier** touche sa cible, elle applique l'effet [Épée du zénith] aux membres de l'équipe de l'élément Ténèbres.`, [
+        { title: `[Domination écarlate] (Amélioré)`, content: `Augmente les dégâts de ténèbres subis de 10 %.
+            Augmente les dégâts de [Surcharge] de ténèbres subis de 10 %. Durée : 20 seconde(s) (cumulable jusqu'à 4 fois).` },
+        { title: `[Furie insatiable] (Amélioré)`, content: `Restaure instantanément des PV équivalents à 20 % de l'Attaque de Sian Halat.
+            Augmente le Taux de récupération de PV de 20 %. Augmente les dégâts de [Surcharge] de ténèbres de 30 %.
+            Augmente la Pénétration de défense de 10 %. Augmente l'Attaque de 15 %. Durée : 30 seconde(s).` }
+    ], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -1057,22 +712,17 @@ huntersData["sian-halat"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Pénétration de défense de <span class="stat-boost">2 %</span>.<br>
-        Lorsqu'un ennemi est affecté par une <span class="buff">[Surcharge]</span> de ténèbres, un effet qui augmente les dégats de ténèbres de toute l'équipe de <span class="stat-boost">2 %</span> est activé (cumulable jusqu'a 4 fois).<br>
-        Durée: illimitée</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Pénétration de défense de <span class="stat-boost">15 %</span>.<br>
-        Lorsqu'un ennemi est affecté par une <span class="buff">[Surcharge]</span> de ténèbres, un effet qui augmente les dégats de ténèbres de toute l'équipe de <span class="stat-boost">12 %</span> est activé (cumulable jusqu'a 4 fois).<br>
-        Durée: illimitée</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Pénétration de défense de 2 %.
+
+        Lorsqu'un ennemi est affecté par une [Surcharge] de ténèbres, un effet qui augmente les dégats de ténèbres de toute l'équipe de 2 % est activé (cumulable jusqu'a 4 fois).
+
+        Durée: illimitée`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Pénétration de défense de 15 %.
+
+        Lorsqu'un ennemi est affecté par une [Surcharge] de ténèbres, un effet qui augmente les dégats de ténèbres de toute l'équipe de 12 % est activé (cumulable jusqu'a 4 fois).
+
+        Durée: illimitée`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de 15 %.`, "Ténèbres")
     }
 };
 
@@ -1081,115 +731,65 @@ huntersData["son-kihoon"] = {
     name: "Son Kihoon",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Son_kihoon/son_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Son_kihoon/determination_de_fer/Relic_SonKiHoon_PC_PortraitBig.png",
     weaponName: "Détermination de fer",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>L'effet <span class="buff">[Posture de combat]</span> est activé lorsque l'utilisateur arrive dans le niveau.<br>
-        Lorsqu'une attaque touche une cible avec une jauge de Bris, elle active l'effet <span class="buff">[Posture de garde]</span>.<br>
-        Si Son Kihoon ou un allié parvient à mettre la cible en état de <span class="buff">[Bris]</span>, la durée de Bris augmente de 3 secondes, les jauges de noyau et de puissance de Kihoon se remplissent à 100 % et l'effet <span class="buff">[Posture de combat]</span> est activé.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Posture de combat]</span></h4>
-            <p>Supprime <span class="buff">[Posture de garde]</span>.<br>
-            Augmente les dégâts de ténèbres de <span class="stat-boost">20 %</span>.<br>
-            Augmente les dégâts de <strong>Charge féroce</strong> de <span class="stat-boost">50 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
+        0: fmtPassif(`Passif :`, `L'effet [Posture de combat] est activé lorsque l'utilisateur arrive dans le niveau.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Posture de garde]</span></h4>
-            <p>Supprime <span class="buff">[Posture de combat]</span>.<br>
-            Augmente les dégâts infligés de <span class="stat-boost">10 %</span>.<br>
-            Augmente l'efficacité de Bris de <span class="stat-boost">10 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>L'utilisation des compétences <strong>Drapeau d'autorité</strong> ou <strong>Charge féroce</strong> active l'effet <span class="buff">[Bouclier robuste]</span>.<br>
-        L'utilisation des compétences <strong>Drapeau d'autorité</strong> ou <strong>Charge féroce</strong> transforme <strong>Motivation</strong> en <strong>Esprit combatif : Motivation</strong> et l'active.<br>
-        L'utilisation de la compétence <strong>Esprit combatif : Motivation</strong> remplit <span class="stat-boost">35 %</span> de la jauge de puissance de l'utilisateur.<br>
-        Lorsque l'utilisateur quitte le combat, il applique l'effet <span class="buff">[Esprit vertueux]</span> aux membres de l'équipe de la classe Attaquant et de l'élément <span class="element-tenebre">Ténèbres</span>.<br></p>
+        Lorsqu'une attaque touche une cible avec une jauge de Bris, elle active l'effet [Posture de garde].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Bouclier robuste]</span></h4>
-            <p>Confère un Bouclier équivalent à <span class="stat-boost">30 %</span> des PV de Son Kihoon.<br>
-            Durée : 30 seconde(s).</p>
-        </div>
+        Si Son Kihoon ou un allié parvient à mettre la cible en état de [Bris], la durée de Bris augmente de 3 secondes, les jauges de noyau et de puissance de Kihoon se remplissent à 100 % et l'effet [Posture de combat] est activé.`, [
+        { title: `[Posture de combat]`, content: `Supprime [Posture de garde].
+            Augmente les dégâts de ténèbres de 20 %.
+            Augmente les dégâts de **Charge féroce** de 50 %.
+            Durée : illimitée.` },
+        { title: `[Posture de garde]`, content: `Supprime [Posture de combat].
+            Augmente les dégâts infligés de 10 %.
+            Augmente l'efficacité de Bris de 10 %.
+            Durée : illimitée.` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `L'utilisation des compétences **Drapeau d'autorité** ou **Charge féroce** active l'effet [Bouclier robuste].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Esprit vertueux]</span></h4>
-            <p>Lorsqu'une <span class="keyword-orange">compétence de base</span> touche sa cible, elle inflige des dégâts de Bris faibles.<br>
-            L'utilisateur reçoit <span class="buff">[Super armure]</span> tant que l'effet est actif.<br>
-            Lorsque l'effet <span class="buff">[Esprit vertueux]</span> prend fin, il restaure <span class="stat-boost">25 %</span> des PM de l'utilisateur.<br>
-            Durée : 25 seconde(s) (temps de rechargement : 30 seconde(s)).</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>L'efficacité de Bris de l'utilisateur augmente de <span class="stat-boost">10 %</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Inflige des dégâts de Bris lourds lorsque la compétence <strong>Esprit combatif : Motivation</strong> touche sa cible.<br>
-        Inflige des dégâts de Bris tout-puissants lorsque la compétence <strong>Charge féroce</strong> touche sa cible.<br>
-        Améliore l'effet <span class="buff">[Esprit combatif affaibli]</span>.<br></p>
+        L'utilisation des compétences **Drapeau d'autorité** ou **Charge féroce** transforme **Motivation** en **Esprit combatif : Motivation** et l'active.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Esprit combatif affaibli]</span> (Amélioré)</h4>
-            <p>Les effets suivants sont appliqués aux cibles qui entrent dans la zone :<br>
-            Diminue l'Attaque de <span class="stat-boost">12.5 %</span>.<br>
-            Augmente les dégâts de ténèbres subis de <span class="stat-boost">10 %</span>.<br>
-            L'effet <span class="buff">[Irrémédiable]</span> est activé.</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>L'Attaque et les PV de toute l'équipe augmentent de <span class="stat-boost">10 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'effet <span class="buff">[Chef de l'escadron d'attaque]</span> est appliqué à toute l'équipe lorsque l'utilisateur arrive dans le niveau.<br>
-        Lorsque la compétence <strong>Esprit combatif palpitant</strong> touche une cible sans jauge de Bris, elle active l'effet <span class="buff">[Esprit brisé]</span> et applique l'effet <span class="buff">[Frappe de Berserker]</span> à toute l'équipe.<br></p>
+        L'utilisation de la compétence **Esprit combatif : Motivation** remplit 35 % de la jauge de puissance de l'utilisateur.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Chef de l'escadron d'attaque]</span></h4>
-            <p>Augmente l'Attaque de <span class="stat-boost">10 %</span>.<br>
-            Augmente les PV de <span class="stat-boost">10 %</span>.<br>
-            Augmente les dégâts infligés de <span class="stat-boost">10 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
+        Lorsque l'utilisateur quitte le combat, il applique l'effet [Esprit vertueux] aux membres de l'équipe de la classe Attaquant et de l'élément Ténèbres.`, [
+        { title: `[Bouclier robuste]`, content: `Confère un Bouclier équivalent à 30 % des PV de Son Kihoon.
+            Durée : 30 seconde(s).` },
+        { title: `[Esprit vertueux]`, content: `Lorsqu'une compétence de base touche sa cible, elle inflige des dégâts de Bris faibles.
+            L'utilisateur reçoit [Super armure] tant que l'effet est actif.
+            Lorsque l'effet [Esprit vertueux] prend fin, il restaure 25 % des PM de l'utilisateur.
+            Durée : 25 seconde(s) (temps de rechargement : 30 seconde(s)).` }
+    ], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `L'efficacité de Bris de l'utilisateur augmente de 10 %.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Inflige des dégâts de Bris lourds lorsque la compétence **Esprit combatif : Motivation** touche sa cible.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Esprit brisé]</span></h4>
-            <p>Diminue l'Attaque de <span class="stat-boost">12.5 %</span>.<br>
-            Augmente les chances de recevoir des Dégâts de coup critique de <span class="stat-boost">15 %</span>.<br>
-            Durée : 60 seconde(s).</p>
-        </div>
+        Inflige des dégâts de Bris tout-puissants lorsque la compétence **Charge féroce** touche sa cible.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Frappe de Berserker]</span></h4>
-            <p>Augmente les Dégâts de coup critique de <span class="stat-boost">30 %</span>.<br>
-            Augmente les dégâts de ténèbres de <span class="stat-boost">15 %</span>.<br>
-            Durée : 60 seconde(s).</p>
-        </div>
-        </div>
-    `
+        Améliore l'effet [Esprit combatif affaibli].`, [
+        { title: `[Esprit combatif affaibli] (Amélioré)`, content: `Les effets suivants sont appliqués aux cibles qui entrent dans la zone :
+            Diminue l'Attaque de 12.5 %.
+            Augmente les dégâts de ténèbres subis de 10 %.
+            L'effet [Irrémédiable] est activé.` }
+    ], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `L'Attaque et les PV de toute l'équipe augmentent de 10 %.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `L'effet [Chef de l'escadron d'attaque] est appliqué à toute l'équipe lorsque l'utilisateur arrive dans le niveau.
+
+        Lorsque la compétence **Esprit combatif palpitant** touche une cible sans jauge de Bris, elle active l'effet [Esprit brisé] et applique l'effet [Frappe de Berserker] à toute l'équipe.`, [
+        { title: `[Chef de l'escadron d'attaque]`, content: `Augmente l'Attaque de 10 %.
+            Augmente les PV de 10 %.
+            Augmente les dégâts infligés de 10 %.
+            Durée : illimitée.` },
+        { title: `[Esprit brisé]`, content: `Diminue l'Attaque de 12.5 %.
+            Augmente les chances de recevoir des Dégâts de coup critique de 15 %.
+            Durée : 60 seconde(s).` },
+        { title: `[Frappe de Berserker]`, content: `Augmente les Dégâts de coup critique de 30 %.
+            Augmente les dégâts de ténèbres de 15 %.
+            Durée : 60 seconde(s).` }
+    ], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -1224,22 +824,17 @@ huntersData["son-kihoon"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Les PV de Kihoon augmentent de <span class="stat-boost">5 %</span>.<br>
-        Lorsque Kihoon ou un membre de l'équipe parvient à mettre la cible en état de <span class="buff">[Bris]</span>, les dégâts de ténèbres de toute l'équipe augmentent de <span class="stat-boost">2.5 %</span>.<br>
-        Durée: illimitée</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Les PV de Kihoon augmentent de <span class="stat-boost">12 %</span>.<br>
-        Lorsque Kihoon ou un membre de l'équipe parvient à mettre la cible en état de <span class="buff">[Bris]</span>, les dégâts de ténèbres de toute l'équipe augmentent de <span class="stat-boost">15 %</span>.<br>
-        Durée: illimitée</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>L'Attaque, la Défense et les PV de l'utilisateur augmentent de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Les PV de Kihoon augmentent de 5 %.
+
+        Lorsque Kihoon ou un membre de l'équipe parvient à mettre la cible en état de [Bris], les dégâts de ténèbres de toute l'équipe augmentent de 2.5 %.
+
+        Durée: illimitée`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Les PV de Kihoon augmentent de 12 %.
+
+        Lorsque Kihoon ou un membre de l'équipe parvient à mettre la cible en état de [Bris], les dégâts de ténèbres de toute l'équipe augmentent de 15 %.
+
+        Durée: illimitée`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `L'Attaque, la Défense et les PV de l'utilisateur augmentent de 15 %.`, "Ténèbres")
     }
 };
 
@@ -1248,94 +843,60 @@ huntersData["sung-ilhwan"] = {
     name: "Sung Ilhwan",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/tenebre/Sung_ilhwan/sung_art.png",
     weaponImage: "Chasseurs_SSR/tenebre/Sung_ilhwan/volonte_implacable/Relic_SungIlHwan_PC_PortraitBig.png",
     weaponName: "Volonté implacable",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque la compétence <strong>Entaille fantôme</strong> touche sa cible, l'effet <span class="buff">[Balance du Dominateur]</span> est activé.<br>
-        Les PM ne se régénèrent ni naturellement, ni avec une attaque de base ou une <span class="keyword-orange">attaque de noyau</span>.<br>
-        L'utilisation de la compétence <strong>Puissance apocalyptique</strong> restaure <span class="stat-boost">14 %</span> des PM actuels de l'utilisateur, proportionnellement au nombre de cumuls de l'effet <span class="buff">[Amélioration du Dominateur]</span> appliqués, à la suite de quoi les cumuls sont supprimés.<br>
-        L'utilisation des compétences <strong>Entaille fantôme</strong> ou <strong>Courroux de la condamnation</strong> applique l'effet <span class="buff">[Amélioration du Dominateur]</span>.<br>
-        Lorsque les membres de l'équipe, à l'exception de Sung Ilhwan, utilisent leur <span class="keyword-orange">compétence de base</span>, ce dernier récupère <span class="stat-boost">2 %</span> de ses PM et sa jauge de puissance se remplit de <span class="stat-boost">1 %</span>.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Amélioration du Dominateur]</span></h4>
-            <p>Augmente les dégâts de la <span class="keyword-orange">compétence de base</span> de <span class="stat-boost">5 %</span>.<br>
-            Augmente les dégâts de la <span class="keyword-orange">compétence ultime</span> de <span class="stat-boost">25 %</span>.<br>
-            Durée : illimitée (cumulable jusqu'à 7 fois).</p>
-        </div>
+        0: fmtPassif(`Passif :`, `Lorsque la compétence **Entaille fantôme** touche sa cible, l'effet [Balance du Dominateur] est activé.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Balance du Dominateur]</span></h4>
-            <p>Augmente les dégâts de la compétence <strong>Courroux de la condamnation</strong> de <span class="stat-boost">1 %</span>.<br>
-            Lors de l'utilisation de <strong>Courroux de la condamnation</strong>, l'effet <span class="buff">[Balance du Dominateur]</span> est supprimé.<br>
-            Durée : illimitée (cumulable jusqu'à 160 fois).</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>L'utilisation de l'attaque de base ou de l'<span class="keyword-orange">attaque de noyau</span> diminue le temps de rechargement de la compétence <strong>Entaille fantôme</strong> de 1 seconde(s).<br>
-        L'utilisation de la compétence <strong>Puissance apocalyptique</strong> réinitialise la durée des buffs actifs sur l'utilisateur (temps de rechargement : 30 seconde(s)).<br>
-        Les dégâts de ténèbres augmentent de <span class="stat-boost">150 %</span> pendant 15 seconde(s) lorsque l'utilisateur arrive sur le champ de bataille en <span class="buff">[Mode Chasseur]</span>.<br>
-        (Lorsque le chasseur arrive sur le champ de bataille en <span class="buff">[Mode Chasseur]</span>, il est impossible d'utiliser automatiquement les compétences QTE des alliés pendant 15 seconde(s)).<br>
-        Lorsque les compétences <strong>Grand final ténébreux</strong> ou <strong>Puissance apocalyptique</strong> touchent leur cible, elles lui appliquent l'effet <span class="buff">[Marqué]</span>.<br>
-        Lorsque la compétence <strong>Puissance apocalyptique</strong> touche une cible sous l'effet <span class="buff">[Réprimé]</span>, la durée de l'effet <span class="buff">[Réprimé]</span> est réinitialisée.<br></p>
+        Les PM ne se régénèrent ni naturellement, ni avec une attaque de base ou une attaque de noyau.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Marqué]</span></h4>
-            <p>Augmente les dégâts infligés par Sung Ilhwan de <span class="stat-boost">35 %</span>.<br>
-            Si la cible est mise en état de <span class="buff">[Bris]</span>, l'effet devient l'effet <span class="buff">[Réprimé]</span>.<br>
-            Durée : 30 seconde(s).</p>
-        </div>
+        L'utilisation de la compétence **Puissance apocalyptique** restaure 14 % des PM actuels de l'utilisateur, proportionnellement au nombre de cumuls de l'effet [Amélioration du Dominateur] appliqués, à la suite de quoi les cumuls sont supprimés.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Réprimé]</span></h4>
-            <p>Augmente les dégâts infligés par Sung Ilhwan de <span class="stat-boost">50 %</span>.<br>
-            Augmente les dégâts des <span class="keyword-orange">compétences ultime</span>s de l'élément <span class="element-tenebre">Ténèbres</span> de <span class="stat-boost">20 %</span>.<br>
-            Durée : 30 seconde(s).</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les dégâts de ténèbres de l'utilisateur augmentent de <span class="stat-boost">30 %</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Le nombre d'attaques pour les compétences <strong>Entaille fantôme</strong>, <strong>Courroux de la condamnation</strong> et <strong>Puissance apocalyptique</strong> est doublé.<br>
-        Lors de l'utilisation de la compétence <strong>Transperce-ciel</strong>, s'il y a un ennemi dans un rayon de 5 m, l'utilisateur attaque instantanément.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>L'Attaque des coéquipiers de l'élément <span class="element-tenebre">Ténèbres</span> augmente de <span class="stat-boost">10 %</span> par membre de l'élément <span class="element-tenebre">Ténèbres</span> présent dans le groupe.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'utilisation de l'attaque de base ou de l'<span class="keyword-orange">attaque de noyau</span> diminue le temps de rechargement de la compétence <strong>Entaille fantôme</strong> de 1.7 seconde(s).<br>
-        L'utilisation de la compétence <strong>Courroux de la condamnation</strong> active l'effet <span class="buff">[Protection du Dominateur]</span>.<br>
-        L'utilisateur reçoit un <span class="buff">[Bouclier]</span>, et l'Attaque ainsi que le Taux de coup critique augmentent de <span class="stat-boost">12 %</span> pendant 30 seconde(s) (cumulable jusqu'à 3 fois).<br>
-        Lorsqu'un membre du groupe de l'élément <span class="element-tenebre">Ténèbres</span>, hormis Sung Ilhwan, utilise sa <span class="keyword-orange">compétence de base</span>, Sung Ilhwan récupère <span class="stat-boost">8 %</span> de ses PM et remplit sa jauge de puissance de <span class="stat-boost">4 %</span>.<br></p>
+        L'utilisation des compétences **Entaille fantôme** ou **Courroux de la condamnation** applique l'effet [Amélioration du Dominateur].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Protection du Dominateur]</span></h4>
-            <p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">100 %</span> de l'Attaque de Sung Ilhwan.<br>
-            Durée : 20 seconde(s).</p>
-        </div>
-        </div>
-    `
+        Lorsque les membres de l'équipe, à l'exception de Sung Ilhwan, utilisent leur compétence de base, ce dernier récupère 2 % de ses PM et sa jauge de puissance se remplit de 1 %.`, [
+        { title: `[Amélioration du Dominateur]`, content: `Augmente les dégâts de la compétence de base de 5 %.
+            Augmente les dégâts de la compétence ultime de 25 %.
+            Durée : illimitée (cumulable jusqu'à 7 fois).` },
+        { title: `[Balance du Dominateur]`, content: `Augmente les dégâts de la compétence **Courroux de la condamnation** de 1 %.
+            Lors de l'utilisation de **Courroux de la condamnation**, l'effet [Balance du Dominateur] est supprimé.
+            Durée : illimitée (cumulable jusqu'à 160 fois).` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `L'utilisation de l'attaque de base ou de l'attaque de noyau diminue le temps de rechargement de la compétence **Entaille fantôme** de 1 seconde(s).
+
+        L'utilisation de la compétence **Puissance apocalyptique** réinitialise la durée des buffs actifs sur l'utilisateur (temps de rechargement : 30 seconde(s)).
+
+        Les dégâts de ténèbres augmentent de 150 % pendant 15 seconde(s) lorsque l'utilisateur arrive sur le champ de bataille en [Mode Chasseur].
+
+        (Lorsque le chasseur arrive sur le champ de bataille en [Mode Chasseur], il est impossible d'utiliser automatiquement les compétences QTE des alliés pendant 15 seconde(s)).
+
+        Lorsque les compétences **Grand final ténébreux** ou **Puissance apocalyptique** touchent leur cible, elles lui appliquent l'effet [Marqué].
+
+        Lorsque la compétence **Puissance apocalyptique** touche une cible sous l'effet [Réprimé], la durée de l'effet [Réprimé] est réinitialisée.`, [
+        { title: `[Marqué]`, content: `Augmente les dégâts infligés par Sung Ilhwan de 35 %.
+            Si la cible est mise en état de [Bris], l'effet devient l'effet [Réprimé].
+            Durée : 30 seconde(s).` },
+        { title: `[Réprimé]`, content: `Augmente les dégâts infligés par Sung Ilhwan de 50 %.
+            Augmente les dégâts des compétences ultimes de l'élément Ténèbres de 20 %.
+            Durée : 30 seconde(s).` }
+    ], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `Les dégâts de ténèbres de l'utilisateur augmentent de 30 %.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `Le nombre d'attaques pour les compétences **Entaille fantôme**, **Courroux de la condamnation** et **Puissance apocalyptique** est doublé.
+
+        Lors de l'utilisation de la compétence **Transperce-ciel**, s'il y a un ennemi dans un rayon de 5 m, l'utilisateur attaque instantanément.`, [], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `L'Attaque des coéquipiers de l'élément Ténèbres augmente de 10 % par membre de l'élément Ténèbres présent dans le groupe.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `L'utilisation de l'attaque de base ou de l'attaque de noyau diminue le temps de rechargement de la compétence **Entaille fantôme** de 1.7 seconde(s).
+
+        L'utilisation de la compétence **Courroux de la condamnation** active l'effet [Protection du Dominateur].
+
+        L'utilisateur reçoit un [Bouclier], et l'Attaque ainsi que le Taux de coup critique augmentent de 12 % pendant 30 seconde(s) (cumulable jusqu'à 3 fois).
+
+        Lorsqu'un membre du groupe de l'élément Ténèbres, hormis Sung Ilhwan, utilise sa compétence de base, Sung Ilhwan récupère 8 % de ses PM et remplit sa jauge de puissance de 4 %.`, [
+        { title: `[Protection du Dominateur]`, content: `Confère un [Bouclier] équivalent à 100 % de l'Attaque de Sung Ilhwan.
+            Durée : 20 seconde(s).` }
+    ], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -1371,20 +932,13 @@ huntersData["sung-ilhwan"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">5 %</span>.<br>
-        Augmente les Dégâts de coup critique de l'utilisateur de <span class="stat-boost">5 %</span>.</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">30 %</span>.<br>
-        Augmente les Dégâts de coup critique de l'utilisateur de <span class="stat-boost">30 %</span>.</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente l'Attaque de l'utilisateur de 5 %.
+
+        Augmente les Dégâts de coup critique de l'utilisateur de 5 %.`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente l'Attaque de l'utilisateur de 30 %.
+
+        Augmente les Dégâts de coup critique de l'utilisateur de 30 %.`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15 %.`, "Ténèbres")
     }
 };
 
@@ -1393,115 +947,60 @@ huntersData["minnie"] = {
     name: "Minnie",
     rarity: "SSR",
     element: "Ténèbres",
-    gradient: "linear-gradient(90deg, #8e44ad, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Chasseurs_SSR/collab/tenebre/Minnie/minnie_art.png",
     weaponImage: "Chasseurs_SSR/collab/tenebre/Minnie/reve_du_papillon_mauve/Relic_Minnie_PortraitBig.png",
     weaponName: "Rêve du papillon mauve",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Tout l'équipe reçoit l'effet <span class="buff">[FOREVER]</span> en arrivant dans les modes Mission Rappel et Donjon éphémère.<br>
-        L'utilisation de la compétence <strong>Iris</strong> réduit le temps de rechargement de la compétence <strong>Edelweiss</strong> de 25 seconde(s) et remplit la jauge de puissance de l'utilisatrice de 100 % (temps de rechargement : 20 seconde(s)).<br>
-        Lorsque la compétence <strong>Iris</strong> touche sa cible, elle applique l'effet <span class="buff">[Lis araignée rouge]</span>.<br>
-        L'utilisation de la compétence <strong>Edelweiss</strong> active l'effet <span class="buff">[Papillon mauve]</span> et confère 3 <span class="buff">[Pétales fanés]</span>.<br>
-        Lorsque l'utilisatrice quitte le combat, l'effet <span class="buff">[Papillon mauve]</span> est supprimé.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[FOREVER]</span></h4>
-            <p>Augmente les dégâts infligés de <span class="stat-boost">5 %</span>.<br>
-            Durée : illimitée (cumulable jusqu'à 3 fois)</p>
-        </div>
+        0: fmtPassif(`Passif :`, `Tout l'équipe reçoit l'effet [FOREVER] en arrivant dans les modes Mission Rappel et Donjon éphémère.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Lis araignée rouge]</span></h4>
-            <p>Augmente les dégâts de ténèbres infligés par MINNIE de <span class="stat-boost">30 %</span>.<br>
-            Durée : 20 seconde(s)</p>
-        </div>
+        L'utilisation de la compétence **Iris** réduit le temps de rechargement de la compétence **Edelweiss** de 25 seconde(s) et remplit la jauge de puissance de l'utilisatrice de 100 % (temps de rechargement : 20 seconde(s)).
 
-        <div class="detail-box">
-            <h4><span class="buff">[Papillon mauve]</span></h4>
-            <p>Active l'<span class="keyword-orange">attaque de noyau</span> 1 fois.<br>
-            Lorsque les compétences <strong>Iris</strong>, <strong>Acacia</strong> ou <strong>Allium</strong> touchent leur cible, elles infligent des dégâts supplémentaires équivalents à <span class="stat-boost">50 %</span> des dégâts de base.<br>
-            L'utilisation des compétences <strong>Iris</strong>, <strong>Acacia</strong> ou <strong>Allium</strong> supprime 1 cumul de <span class="buff">[Pétales fanés]</span>.<br>
-            Confère <span class="buff">[Super armure]</span> lors de l'utilisation des compétences <strong>Iris</strong>, <strong>Acacia</strong> ou <strong>Allium</strong>.<br>
-            Lorsque l'effet est supprimé, les effets <span class="buff">[Papillon mauve]</span>, <span class="buff">[Pétales fanés]</span>, <span class="buff">[Floraison]</span> et <span class="buff">[Floraison totale]</span> sont supprimés.<br>
-            Durée : 20 seconde(s)</p>
-        </div>
+        Lorsque la compétence **Iris** touche sa cible, elle applique l'effet [Lis araignée rouge].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Pétales fanés]</span></h4>
-            <p>Lorsque les effets sont supprimés, les temps de rechargement des compétences <strong>Acacia</strong> et <strong>Allium</strong> sont réinitialisés.<br>
-            Durée : illimitée (cumulable jusqu'à 5 fois)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque l'utilisatrice rejoint le niveau, sa jauge de puissance se remplit de 100 % de sa charge maximale.<br>
-        L'effet <span class="buff">[Pétales fanés]</span> est amélioré.<br></p>
+        L'utilisation de la compétence **Edelweiss** active l'effet [Papillon mauve] et confère 3 [Pétales fanés].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Pétales fanés]</span></h4>
-            <p>Lorsque cet effet est supprimé, il réinitialise le temps de rechargement des compétences <strong>Acacia</strong> et <strong>Allium</strong>.<br>
-            Lorsque cet effet est supprimé, il active l'effet <span class="buff">[Message des fleurs : Fragment de souvenirs]</span>.<br>
-            Durée : illimitée (cumulable jusqu'à 5 fois)</p>
-        </div>
+        Lorsque l'utilisatrice quitte le combat, l'effet [Papillon mauve] est supprimé.`, [
+        { title: `[FOREVER]`, content: `Augmente les dégâts infligés de 5 %.
+            Durée : illimitée (cumulable jusqu'à 3 fois)` },
+        { title: `[Lis araignée rouge]`, content: `Augmente les dégâts de ténèbres infligés par MINNIE de 30 %.
+            Durée : 20 seconde(s)` },
+        { title: `[Papillon mauve]`, content: `Active l'attaque de noyau 1 fois.
+            Lorsque les compétences **Iris**, **Acacia** ou **Allium** touchent leur cible, elles infligent des dégâts supplémentaires équivalents à 50 % des dégâts de base.
+            L'utilisation des compétences **Iris**, **Acacia** ou **Allium** supprime 1 cumul de [Pétales fanés].
+            Confère [Super armure] lors de l'utilisation des compétences **Iris**, **Acacia** ou **Allium**.
+            Lorsque l'effet est supprimé, les effets [Papillon mauve], [Pétales fanés], [Floraison] et [Floraison totale] sont supprimés.
+            Durée : 20 seconde(s)` },
+        { title: `[Pétales fanés]`, content: `Lorsque les effets sont supprimés, les temps de rechargement des compétences **Acacia** et **Allium** sont réinitialisés.
+            Durée : illimitée (cumulable jusqu'à 5 fois)` }
+    ], "Ténèbres"),
+        1: fmtPassif(`1 étoile :`, `Lorsque l'utilisatrice rejoint le niveau, sa jauge de puissance se remplit de 100 % de sa charge maximale.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Message des fleurs : Fragment de souvenirs]</span></h4>
-            <p>Augmente la Défense de <span class="stat-boost">10 %</span>.<br>
-            Augmente les Dégâts de coup critique de <span class="stat-boost">10 %</span>.<br>
-            Durée : 20 seconde(s) (cumulable jusqu'à 3 fois)</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">15 %</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'effet <span class="buff">[Lis araignée rouge]</span> est amélioré.<br>
-        L'utilisation de la compétence <strong>Acacia</strong> active l'effet <span class="buff">[Taux de coup critique augmenté]</span>, que l'utilisatrice réussisse ou non une Contre-attaque.<br></p>
+        L'effet [Pétales fanés] est amélioré.`, [
+        { title: `[Pétales fanés]`, content: `Lorsque cet effet est supprimé, il réinitialise le temps de rechargement des compétences **Acacia** et **Allium**.
+            Lorsque cet effet est supprimé, il active l'effet [Message des fleurs : Fragment de souvenirs].
+            Durée : illimitée (cumulable jusqu'à 5 fois)` },
+        { title: `[Message des fleurs : Fragment de souvenirs]`, content: `Augmente la Défense de 10 %.
+            Augmente les Dégâts de coup critique de 10 %.
+            Durée : 20 seconde(s) (cumulable jusqu'à 3 fois)` }
+    ], "Ténèbres"),
+        2: fmtPassif(`2 étoiles :`, `La Défense de l'utilisatrice augmente de 15 %.`, [], "Ténèbres"),
+        3: fmtPassif(`3 étoiles :`, `L'effet [Lis araignée rouge] est amélioré.
 
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Lis araignée rouge]</span></h4>
-            <p>Augmente les dégâts de ténèbres infligés par MINNIE de <span class="stat-boost">50 %</span>.<br>
-            Durée : 20 seconde(s)</p>
-        </div>
+        L'utilisation de la compétence **Acacia** active l'effet [Taux de coup critique augmenté], que l'utilisatrice réussisse ou non une Contre-attaque.`, [
+        { title: `Amélioration [Lis araignée rouge]`, content: `Augmente les dégâts de ténèbres infligés par MINNIE de 50 %.
+            Durée : 20 seconde(s)` },
+        { title: `[Taux de coup critique augmenté]`, content: `Augmente le taux de coup critique de 30 %.
+            Durée : 20 seconde(s)` }
+    ], "Ténèbres"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts de compétence de base de l'utilisatrice augmentent de 20 %.`, [], "Ténèbres"),
+        5: fmtPassif(`5 étoiles :`, `L'utilisation de la compétence **Edelweiss** confère désormais 5 [Pétales fanés].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Taux de coup critique augmenté]</span></h4>
-            <p>Augmente le taux de coup critique de <span class="stat-boost">30 %</span>.<br>
-            Durée : 20 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts de <span class="keyword-orange">compétence de base</span> de l'utilisatrice augmentent de <span class="stat-boost">20 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'utilisation de la compétence <strong>Edelweiss</strong> confère désormais 5 <span class="buff">[Pétales fanés]</span>.<br>
-        L'effet <span class="buff">[Message des fleurs : Fragment de souvenirs]</span> est amélioré.<br></p>
-
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Message des fleurs : Fragment de souvenirs]</span></h4>
-            <p>Augmente la Défense de <span class="stat-boost">20 %</span>.<br>
-            Augmente les Dégâts de coup critique de <span class="stat-boost">20 %</span>.<br>
-            Durée : 20 seconde(s) (cumulable jusqu'à 3 fois)</p>
-        </div>
-        </div>
-    `
+        L'effet [Message des fleurs : Fragment de souvenirs] est amélioré.`, [
+        { title: `Amélioration [Message des fleurs : Fragment de souvenirs]`, content: `Augmente la Défense de 20 %.
+            Augmente les Dégâts de coup critique de 20 %.
+            Durée : 20 seconde(s) (cumulable jusqu'à 3 fois)` }
+    ], "Ténèbres")
     },
     summaryData: {
         0: `
@@ -1535,17 +1034,8 @@ huntersData["minnie"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">5 %</span>, et son Taux de coup critique ainsi que ses Dégâts de coup critique augmentent de <span class="stat-boost">2.5 %</span>.</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>La Défense de l'utilisatrice augmente de <span class="stat-boost">12 %</span>, et son Taux de coup critique ainsi que ses Dégâts de coup critique augmentent de <span class="stat-boost">15 %</span>.</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `La Défense de l'utilisatrice augmente de 5 %, et son Taux de coup critique ainsi que ses Dégâts de coup critique augmentent de 2.5 %.`, "Ténèbres"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `La Défense de l'utilisatrice augmente de 12 %, et son Taux de coup critique ainsi que ses Dégâts de coup critique augmentent de 15 %.`, "Ténèbres"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de 15 %.`, "Ténèbres")
     }
 };

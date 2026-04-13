@@ -8,15 +8,19 @@ weaponsData["arbalete-d-arachnide"] = {
     name: "Arbalète d'Arachnide",
     rarity: "R",
     element: "Ténèbre",
-    gradient: "linear-gradient(90deg, #4a235a, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Armes_Joueur_R/tenebre/arbalete_d_arachnide/GSWeapon_GiantArachne_01_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque <strong>Barrage d'aiguilles empoisonnées</strong> touche sa cible, l'utilisateur lui inflige l'effet <span class="buff">[Empoisonnement]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Empoisonnement]</span></h4><p>L'utilisateur inflige des dégâts équivalents à <span class="stat-boost">50%</span> de son Attaque toutes les 3 seconde(s).<br>Réduit le Taux de récupération des PV de <span class="stat-boost">70%</span>.<br>Durée: 30 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque la compétence <strong>Barrage d'aiguilles empoisonnées</strong> est utilisée, <strong>Ruée</strong> gagne 1 charge.<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de ténèbres augmentent de <span class="stat-boost">6%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Les dégâts de <span class="buff">[Poison]</span> de la compétence <strong>Barrage d'aiguilles empoisonnées</strong> augmentent de <span class="stat-boost">50%</span>.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de <strong>Barrage d'aiguilles empoisonnées</strong> diminue de <span class="stat-boost">10%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Si Jinwoo est touché dans les airs pendant qu'il utilise <strong>Barrage d'aiguilles empoisonnées</strong>, <strong>Évasion extrême</strong> s'active.<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lorsque **Barrage d'aiguilles empoisonnées** touche sa cible, l'utilisateur lui inflige l'effet [Empoisonnement].`, [
+        { title: `[Empoisonnement]`, content: `L'utilisateur inflige des dégâts équivalents à 50% de son Attaque toutes les 3 seconde(s).
+Réduit le Taux de récupération des PV de 70%.
+Durée: 30 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Lorsque la compétence **Barrage d'aiguilles empoisonnées** est utilisée, **Ruée** gagne 1 charge.`, [], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de ténèbres augmentent de 6%.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `Les dégâts de [Poison] de la compétence **Barrage d'aiguilles empoisonnées** augmentent de 50%.`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Barrage d'aiguilles empoisonnées** diminue de 10%.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Si Jinwoo est touché dans les airs pendant qu'il utilise **Barrage d'aiguilles empoisonnées**, **Évasion extrême** s'active.`, [], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Venin d'Arachnide</h3><p>Barrage d'aiguilles = <span class="buff">[Empoisonnement]</span>.<br>50% Atk/3s & Récup. PV <span class="stat-boost">-70%</span>.</p>`,
@@ -33,15 +37,18 @@ weaponsData["faux-du-gardien-du-tombeau"] = {
     name: "Faux du gardien du tombeau",
     rarity: "R",
     element: "Ténèbre",
-    gradient: "linear-gradient(90deg, #4a235a, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Armes_Joueur_R/tenebre/faux_du_gardien_du_tombeau/GSWeapon_GravekeeperScythe_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque l'utilisateur terrasse un ennemi, applique l'effet <span class="buff">[Sanctuaire]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Sanctuaire]</span></h4><p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">2 %</span> (cumulable jusqu'à 10 fois).<br>Durée : 20 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Les dégâts infligés aux monstres non-boss avec <strong>Lame de retour</strong> augmentent de <span class="stat-boost">30 %</span>.<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Augmente les dégâts de ténèbres de l'utilisateur de <span class="stat-boost">6 %</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Les dégâts de la lame qui revient pendant <strong>Lame de retour</strong> augmentent de <span class="stat-boost">100 %</span>.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Réduit le temps de rechargement de <strong>Lame de retour</strong> de <span class="stat-boost">10 %</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque l'utilisateur terrasse un ennemi, réduit le temps de rechargement de <strong>Lame de retour</strong> de <span class="stat-boost">3</span> seconde(s).<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lorsque l'utilisateur terrasse un ennemi, applique l'effet [Sanctuaire].`, [
+        { title: `[Sanctuaire]`, content: `Augmente l'Attaque de l'utilisateur de 2 % (cumulable jusqu'à 10 fois).
+Durée : 20 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Les dégâts infligés aux monstres non-boss avec **Lame de retour** augmentent de 30 %.`, [], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de ténèbres de l'utilisateur de 6 %.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `Les dégâts de la lame qui revient pendant **Lame de retour** augmentent de 100 %.`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Réduit le temps de rechargement de **Lame de retour** de 10 %.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'utilisateur terrasse un ennemi, réduit le temps de rechargement de **Lame de retour** de 3 seconde(s).`, [], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Sanctuaire</h3><p>Ennemi terrassé = <span class="buff">[Sanctuaire]</span>.<br>Attaque <span class="stat-boost">+2 %</span> par pile (max 10).</p>`,
@@ -58,15 +65,28 @@ weaponsData["epee-longue-d-orc"] = {
     name: "Épée longue d'orc",
     rarity: "SR",
     element: "Ténèbre",
-    gradient: "linear-gradient(90deg, #4a235a, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Armes_Joueur_SR/tenebre/epee_longue_d_orc/GSWeapon_OrcGreatSword_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque l'utilisateur tue un ennemi avec <strong>Épée longue d'orc</strong>, l'effet <span class="buff">[Force d'orc]</span> s'applique.<br></p><div class="detail-box"><h4><span class="buff">[Force d'orc]</span></h4><p>Augmente les dégâts d'<strong>Épée longue d'orc</strong> de <span class="stat-boost">40%</span>.<br>Réduit le temps de rechargement de 8 seconde(s).<br>Durée: 20 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lors de l'utilisation de la compétence <strong>Épée longue d'orc</strong>, l'effet <span class="buff">[Armure d'orc]</span> est appliqué.<br></p><div class="detail-box"><h4><span class="buff">[Armure d'orc]</span></h4><p>Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">12%</span> des PV max de l'utilisateur.<br>Durée: 3 seconde(s)</p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Les dégâts élémentaires de ténèbres augmentent de <span class="stat-boost">8%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>L'effet <span class="buff">[Force d'orc]</span> s'applique également en cas de Coup critique réussi.<br>Augmente les chance qu'<strong>Épée longue d'orc</strong> inflige un Coup critique de <span class="stat-boost">40 %</span>.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Réduit le temps de rechargement de la compétence de l'<strong>Épée longue d'orc</strong> de <span class="stat-boost">15%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque l'effet <span class="buff">[Armure d'orc]</span> est appliqué pendant que l'effet <span class="buff">[Force d'orc]</span> est actif, les deux effets se combinent pour devenir <span class="buff">[Prestige de haut orc]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Prestige de haut orc]</span></h4><p>L'utilisateur crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">25%</span> de ses PV max.<br>Lorsque l'effet est appliqué pour la première fois, le temps de rechargement d'<strong>Épée longue d'orc</strong> se réinitialise, puis il est réduit de <span class="stat-boost">40%</span>.<br>Augmente les dégâts d'<strong>Épée longue d'orc</strong> de <span class="stat-boost">75%</span>.<br>Durée: 15 seconde(s)</p></div></div>`
+        0: fmtPassif(`Passif :`, `Lorsque l'utilisateur tue un ennemi avec **Épée longue d'orc**, l'effet [Force d'orc] s'applique.`, [
+        { title: `[Force d'orc]`, content: `Augmente les dégâts d'**Épée longue d'orc** de 40%.
+Réduit le temps de rechargement de 8 seconde(s).
+Durée: 20 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation de la compétence **Épée longue d'orc**, l'effet [Armure d'orc] est appliqué.`, [
+        { title: `[Armure d'orc]`, content: `Crée un [Bouclier] équivalent à 12% des PV max de l'utilisateur.
+Durée: 3 seconde(s)` }
+    ], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Les dégâts élémentaires de ténèbres augmentent de 8%.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `L'effet [Force d'orc] s'applique également en cas de Coup critique réussi.
+Augmente les chance qu'**Épée longue d'orc** inflige un Coup critique de 40 %.`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Réduit le temps de rechargement de la compétence de l'**Épée longue d'orc** de 15%.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'effet [Armure d'orc] est appliqué pendant que l'effet [Force d'orc] est actif, les deux effets se combinent pour devenir [Prestige de haut orc].`, [
+        { title: `[Prestige de haut orc]`, content: `L'utilisateur crée un [Bouclier] équivalent à 25% de ses PV max.
+Lorsque l'effet est appliqué pour la première fois, le temps de rechargement d'**Épée longue d'orc** se réinitialise, puis il est réduit de 40%.
+Augmente les dégâts d'**Épée longue d'orc** de 75%.
+Durée: 15 seconde(s)` }
+    ], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Guerrier Orc</h3><p>Kill = <span class="buff">[Force d'orc]</span>.<br>[Force] : Dégâts arme <span class="stat-boost">+40%</span>, CD -8s (20s).</p>`,
@@ -83,15 +103,24 @@ weaponsData["faucon-noir"] = {
     name: "Faucon noir",
     rarity: "SR",
     element: "Ténèbre",
-    gradient: "linear-gradient(90deg, #4a235a, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Armes_Joueur_SR/tenebre/faucon_noir/GSWeapon_DarkHawk_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Si <strong>Évasion</strong> s'active pendant une glissade de l'utilisateur, l'effet <span class="buff">[Évasion extrême]</span> se déclenche.<br>L'activation de l'effet <span class="buff">[Évasion extrême]</span> applique l'effet <span class="buff">[Partie de chasse]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Partie de chasse]</span></h4><p>Augmente l'Attaque de l'utilisateur de <span class="stat-boost">7%</span> (cumulable jusqu'à 3 fois).<br>Durée: 30 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lors de l'utilisation de la compétence <strong>Faucon chasseur</strong>, le temps de rechargement des compétences <strong>Foulée de l'ombre</strong>, <strong>Mort</strong> ou <strong>Effondrement</strong> est réinitialisé et activé.<br>Taux de réinitialisation: <span class="stat-boost">20%</span> pour <strong>Foulée de l'ombre</strong>, <span class="stat-boost">40%</span> pour <strong>Mort</strong>, <span class="stat-boost">40%</span> pour <strong>Effondrement</strong></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de ténèbres augmentent de <span class="stat-boost">8 %</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Modification des effets de la compétence <strong>Faucon chasseur</strong>:<br>La compétence peut être utilisée jusqu'à 2 fois.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de <strong>Faucon chasseur</strong> diminue de <span class="stat-boost">15%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque la compétence <strong>Faucon chasseur</strong> est utilisée, elle applique l'effet <span class="buff">[Œil de faucon]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Œil de faucon]</span></h4><p>Augmente les dégâts des compétences <strong>Effondrement</strong>, <strong>Mort</strong> et <strong>Foulée de l'ombre</strong> de <span class="stat-boost">30%</span>.<br>Durée: 3 seconde(s)</p></div></div>`
+        0: fmtPassif(`Passif :`, `Si **Évasion** s'active pendant une glissade de l'utilisateur, l'effet [Évasion extrême] se déclenche.
+L'activation de l'effet [Évasion extrême] applique l'effet [Partie de chasse].`, [
+        { title: `[Partie de chasse]`, content: `Augmente l'Attaque de l'utilisateur de 7% (cumulable jusqu'à 3 fois).
+Durée: 30 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation de la compétence **Faucon chasseur**, le temps de rechargement des compétences **Foulée de l'ombre**, **Mort** ou **Effondrement** est réinitialisé et activé.
+Taux de réinitialisation: 20% pour **Foulée de l'ombre**, 40% pour **Mort**, 40% pour **Effondrement**`, [], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de ténèbres augmentent de 8 %.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `Modification des effets de la compétence **Faucon chasseur**:
+La compétence peut être utilisée jusqu'à 2 fois.`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Faucon chasseur** diminue de 15%.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque la compétence **Faucon chasseur** est utilisée, elle applique l'effet [Œil de faucon].`, [
+        { title: `[Œil de faucon]`, content: `Augmente les dégâts des compétences **Effondrement**, **Mort** et **Foulée de l'ombre** de 30%.
+Durée: 3 seconde(s)` }
+    ], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Prédateur Silencieux</h3><p>Évasion (glissade) -> <span class="buff">[Évasion extrême]</span> -> <span class="buff">[Partie de chasse]</span>.<br>[Partie de chasse] : Attaque <span class="stat-boost">+7%</span> (Max 3 stacks, 30s).</p>`,
@@ -108,15 +137,40 @@ weaponsData["winchester-roke"] = {
     name: "Winchester Roke",
     rarity: "SSR",
     element: "Ténèbre",
-    gradient: "linear-gradient(90deg, #4a235a, #000)",
+    gradient: "linear-gradient(90deg, #af63af, #000)",
     image: "Armes_Joueur_SSR/tenebre/winchester_roke/GSWeapon_WinchesterLock_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>L'utilisation de la compétence <strong>[Apocalypse]</strong> active <span class="buff">[Rechargement rotatif]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Rechargement rotatif]</span></h4><p>Active l'attaque de noyau de l'utilisateur.<br>Transforme l'attaque de noyau de Winchester Roke en Condamnation et augmente ses dégâts de <span class="stat-boost">20 %</span>.<br>L'effet <strong>[Rechargement rotatif]</strong> ne peut être appliqué qu' avec un maximum de 2 utilisations de Condamnation.<br>Durée : 4 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Augmente les dégâts de la compétence <strong>[Apocalypse]</strong> de l'utilisateur de <span class="stat-boost">100 %</span> face aux cibles se trouvant à une portée de 5 m.<br>Améliore l'effet <span class="buff">[Rechargement rotatif]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Rechargement rotatif]</span></h4><p>Active l'attaque de noyau de l'utilisateur.<br>Transforme l'attaque de noyau de Winchester Roke en Condamnation et augmente ses dégâts de <span class="stat-boost">40 %</span>.<br>L'effet <strong>[Rechargement rotatif]</strong> ne peut être appliqué qu' avec un maximum de 3 utilisations de Condamnation.<br>Durée : 5 seconde(s)</p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Les dégâts de ténèbres infligés par l'utilisateur augmentent de <span class="stat-boost">10 %</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>L'utilisation de la compétence <strong>[Apocalypse]</strong> active <span class="buff">[Prêt ou non]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Prêt ou non]</span></h4><p>Augmente les dégâts de ténèbres de la compétence Condamnation de <span class="stat-boost">15 %</span>.<br>Augmente les Dégâts de coup critique de la compétence Condamnation de <span class="stat-boost">30 %</span>.<br>Confère à l'utilisateur [Super armure].<br>Durée : 6 seconde(s)</p></div></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de la compétence <strong>[Apocalypse]</strong> diminue de <span class="stat-boost">20 %</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Les compétences <span class="buff">[Rechargement rotatif et Prêt ou non]</span> sont améliorées.<br></p><div class="detail-box"><h4><span class="buff">[Rechargement rotatif]</span></h4><p>Active l'attaque de noyau de l'utilisateur.<br>Transforme l'attaque de noyau de Winchester Roke en Condamnation, et ses dégâts augmentent de <span class="stat-boost">80 %</span>.<br>Augmente les dégâts de Surcharge de Condamnation de <span class="stat-boost">70 %</span>.<br>L'effet <strong>[Rechargement rotatif]</strong> ne peut être appliqué qu' avec un maximum de 4 utilisations de Condamnation.<br>Durée : 6 seconde(s)</p><h4><span class="buff">[Prêt ou non]</span></h4><p>Augmente les dégâts de ténèbres de Condamnation de <span class="stat-boost">30 %</span>.<br>Augmente les Dégâts de coup critique de la compétence Condamnation de <span class="stat-boost">60 %</span>.<br>Confère à l'utilisateur [Super armure].<br>Durée : 6 seconde(s)</p></div></div>`
+        0: fmtPassif(`Passif :`, `L'utilisation de la compétence **[Apocalypse]** active [Rechargement rotatif].`, [
+        { title: `[Rechargement rotatif]`, content: `Active l'attaque de noyau de l'utilisateur.
+Transforme l'attaque de noyau de Winchester Roke en Condamnation et augmente ses dégâts de 20 %.
+L'effet **[Rechargement rotatif]** ne peut être appliqué qu' avec un maximum de 2 utilisations de Condamnation.
+Durée : 4 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Augmente les dégâts de la compétence **[Apocalypse]** de l'utilisateur de 100 % face aux cibles se trouvant à une portée de 5 m.
+Améliore l'effet [Rechargement rotatif].`, [
+        { title: `[Rechargement rotatif]`, content: `Active l'attaque de noyau de l'utilisateur.
+Transforme l'attaque de noyau de Winchester Roke en Condamnation et augmente ses dégâts de 40 %.
+L'effet **[Rechargement rotatif]** ne peut être appliqué qu' avec un maximum de 3 utilisations de Condamnation.
+Durée : 5 seconde(s)` }
+    ], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Les dégâts de ténèbres infligés par l'utilisateur augmentent de 10 %.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `L'utilisation de la compétence **[Apocalypse]** active [Prêt ou non].`, [
+        { title: `[Prêt ou non]`, content: `Augmente les dégâts de ténèbres de la compétence Condamnation de 15 %.
+Augmente les Dégâts de coup critique de la compétence Condamnation de 30 %.
+Confère à l'utilisateur [Super armure].
+Durée : 6 seconde(s)` }
+    ], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de la compétence **[Apocalypse]** diminue de 20 %.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Les compétences [Rechargement rotatif et Prêt ou non] sont améliorées.`, [
+        { title: `[Rechargement rotatif]`, content: `Active l'attaque de noyau de l'utilisateur.
+Transforme l'attaque de noyau de Winchester Roke en Condamnation, et ses dégâts augmentent de 80 %.
+Augmente les dégâts de Surcharge de Condamnation de 70 %.
+L'effet **[Rechargement rotatif]** ne peut être appliqué qu' avec un maximum de 4 utilisations de Condamnation.
+Durée : 6 seconde(s)</p><h4>[Prêt ou non]</h4><p>Augmente les dégâts de ténèbres de Condamnation de 30 %.
+Augmente les Dégâts de coup critique de la compétence Condamnation de 60 %.
+Confère à l'utilisateur [Super armure].
+Durée : 6 seconde(s)` }
+    ], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif</h3><p>[Apocalypse] active <span class="buff">[Rechargement]</span>.<br>Noyau devient Condamnation (Dégâts <span class="stat-boost">+20 %</span>, 2 tirs max).</p>`,
@@ -136,12 +190,33 @@ weaponsData["cle-de-transfiguration"] = {
     gradient: "linear-gradient(90deg, #5b2c6f, #000)",
     image: "Armes_Joueur_SSR/tenebre/cle_de_transfiguration/GSWeapon_KeyOfTrans_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>L'utilisation de <strong>Frappe de morphobête</strong> restaure <span class="stat-boost">100 %</span> de la jauge de noyau de l'utilisateur et active l'effet <span class="buff">[Regard de morphobête]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Regard de morphobête]</span></h4><p>L'utilisation d'une attaque de noyau de ténèbres active <span class="stat-boost">[Flux instable de morphobête]</span> devant l'utilisateur (temps de rechargement : 2 seconde(s)).<br>Durée : 15 seconde(s)</p><h4><span class="stat-boost">[Flux instable de morphobête]</span></h4><p>Inflige des dégâts élémentaires de <strong>ténèbres</strong> équivalents à <span class="stat-boost">900 %</span> de l'Attaque de Sung Jinwoo.<br>Compte comme une <strong>attaque de noyau</strong>.</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque toutes les armes dont l'utilisateur est équipé sont de l'élément Ténèbres, l'effet <span class="buff">[Esprit de morphobête]</span> est activé.<br></p><div class="detail-box"><h4><span class="buff">[Esprit de morphobête]</span></h4><p>Augmente les dégâts de Surcharge de ténèbres de <span class="stat-boost">10 %</span>.<br>Augmente l'effet d'[Accumulation élémentaire] de [Ténèbres] de <span class="stat-boost">20 %</span>.<br>Durée : illimitée</p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Les dégâts de ténèbres infligés par l'utilisateur augmentent de <span class="stat-boost">10 %</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>L'activation de <strong>[Flux instable de morphobête]</strong> active <span class="buff">[Énergie de la transfiguration]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Énergie de la transfiguration]</span></h4><p>Augmente les dégâts de l'attaque de noyau et de la compétence d'arme de ténèbres de <span class="stat-boost">15 %</span>.<br>Augmente le Taux de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de <span class="stat-boost">3 %</span>.<br>Augmente les Dégâts de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de <span class="stat-boost">10 %</span>.<br>Durée : 10 seconde(s) (cumulable jusqu'à 2 fois)</p></div></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Diminue le temps de rechargement de <strong>Frappe de morphobête</strong> de <span class="stat-boost">20 %</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Les effets <span class="buff">[Esprit de morphobête et Énergie de la transfiguration]</span> sont améliorés.<br></p><div class="detail-box"><h4><span class="buff">[Esprit de morphobête]</span></h4><p>Augmente les dégâts de Surcharge de ténèbres de <span class="stat-boost">20 %</span>.<br>Augmente l'effet d'[Accumulation élémentaire] de [Ténèbres] de <span class="stat-boost">40 %</span>.<br>Lorsque l'effet [Surcharge] de [Ténèbres] est activé, les dégâts de compétence d'arme de ténèbres augmentent de <span class="stat-boost">100 %</span> pendant 3 seconde(s), et le nombre de cumuls d'Énergie de la transfiguration passe à 5 (temps de rechargement : 15 seconde(s)).<br>Durée : illimitée</p><h4><span class="buff">[Énergie de la transfiguration]</span></h4><p>Augmente les dégâts de l'attaque de noyau et de la compétence d'arme de ténèbres de <span class="stat-boost">15 %</span>.<br>Augmente le Taux de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de <span class="stat-boost">3 %</span>.<br>Augmente les Dégâts de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de <span class="stat-boost">10 %</span>.<br>Durée : <span class="stat-boost">15 seconde(s)</span> (cumulable jusqu'à 5 fois)</p></div></div>`
+        0: fmtPassif(`Passif :`, `L'utilisation de **Frappe de morphobête** restaure 100 % de la jauge de noyau de l'utilisateur et active l'effet [Regard de morphobête].`, [
+        { title: `[Regard de morphobête]`, content: `L'utilisation d'une attaque de noyau de ténèbres active [Flux instable de morphobête] devant l'utilisateur (temps de rechargement : 2 seconde(s)).
+Durée : 15 seconde(s)</p><h4>[Flux instable de morphobête]</h4><p>Inflige des dégâts élémentaires de **ténèbres** équivalents à 900 % de l'Attaque de Sung Jinwoo.
+Compte comme une **attaque de noyau**.` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Lorsque toutes les armes dont l'utilisateur est équipé sont de l'élément Ténèbres, l'effet [Esprit de morphobête] est activé.`, [
+        { title: `[Esprit de morphobête]`, content: `Augmente les dégâts de Surcharge de ténèbres de 10 %.
+Augmente l'effet d'[Accumulation élémentaire] de [Ténèbres] de 20 %.
+Durée : illimitée` }
+    ], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Les dégâts de ténèbres infligés par l'utilisateur augmentent de 10 %.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `L'activation de **[Flux instable de morphobête]** active [Énergie de la transfiguration].`, [
+        { title: `[Énergie de la transfiguration]`, content: `Augmente les dégâts de l'attaque de noyau et de la compétence d'arme de ténèbres de 15 %.
+Augmente le Taux de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 3 %.
+Augmente les Dégâts de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 10 %.
+Durée : 10 seconde(s) (cumulable jusqu'à 2 fois)` }
+    ], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Diminue le temps de rechargement de **Frappe de morphobête** de 20 %.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Les effets [Esprit de morphobête et Énergie de la transfiguration] sont améliorés.`, [
+        { title: `[Esprit de morphobête]`, content: `Augmente les dégâts de Surcharge de ténèbres de 20 %.
+Augmente l'effet d'[Accumulation élémentaire] de [Ténèbres] de 40 %.
+Lorsque l'effet [Surcharge] de [Ténèbres] est activé, les dégâts de compétence d'arme de ténèbres augmentent de 100 % pendant 3 seconde(s), et le nombre de cumuls d'Énergie de la transfiguration passe à 5 (temps de rechargement : 15 seconde(s)).
+Durée : illimitée</p><h4>[Énergie de la transfiguration]</h4><p>Augmente les dégâts de l'attaque de noyau et de la compétence d'arme de ténèbres de 15 %.
+Augmente le Taux de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 3 %.
+Augmente les Dégâts de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 10 %.
+Durée : 15 seconde(s) (cumulable jusqu'à 5 fois)` }
+    ], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif</h3><p>Frappe de morphobête : Jauge de noyau <span class="stat-boost">+100 %</span> + <span class="buff">[Regard]</span>.<br>[Regard] : Noyau Ténèbres déclenche <span class="stat-boost">[Flux instable]</span> (900 % Attaque).</p>`,
@@ -161,12 +236,26 @@ weaponsData["fleur-de-prunier"] = {
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Armes_Joueur_SSR/tenebre/epee_demoniaque _fleur_de_prunier/GSWeapon_PlumBlossom_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Après l'utilisation de <strong>Fleur de prunier : Vol prompt</strong>, l'effet <span class="buff">[Fleur de prunier]</span> s'applique.<br>Lorsque l'utilisateur réussit une <strong>Ruée</strong> suivie de <strong>Fleur de prunier: Vol prompt</strong>, l'effet <span class="buff">[Éclosion]</span> s'applique.<br></p><div class="detail-box"><h4><span class="buff">[Fleur de prunier]</span></h4><p>Augmente les dégâts de coup critique de <span class="stat-boost">12%</span> (cumulable jusqu'à 3 fois).<br>Durée: illimitée</p></div><div class="detail-box"><h4><span class="buff">[Éclosion]</span></h4><p>Augmente également la vitesse d'utilisation de <strong>Fleur de prunier : Vol prompt</strong> de <span class="stat-boost">20%</span>.<br>L'Attaque de l'utilisateur augmente de <span class="stat-boost">4%</span>.<br>Le Taux de coup critique de l'utilisateur augmente de <span class="stat-boost">4%</span>.<br>Durée: 8 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque l'utilisateur rengaine après avoir utilisé la compétence <strong>Fleur de prunier: Vol prompt</strong>, l'effet <span class="buff">[Tirage amplificateur]</span> s'applique.<br></p><div class="detail-box"><h4><span class="buff">[Tirage amplificateur]</span></h4><p>Augmente les chances de l'utilisateur de porter un coup critique à la prochaine attaque de <span class="stat-boost">32 %</span>.<br>Augmente les dégâts de compétence de <span class="stat-boost">32%</span>.<br>Durée: 3 seconde(s)</p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de ténèbres augmentent de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lors de l'utilisation de <strong>Ruée</strong>, <span class="buff">[Tirage amplificateur]</span> dure 5 seconde(s) et les Dégâts de coup critique augmentent de <span class="stat-boost">32%</span>.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de <strong>Fleur de prunier: Vol prompt</strong> est réduit de <span class="stat-boost">20%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Ajoute l'effet <span class="buff">[Fleur de prunier]</span>.<br>Les dégâts de ténèbres de l'utilisateur augmentent de <span class="stat-boost">5%</span>.<br>Applique 2 cumuls de <span class="buff">[Fleur De Prunier]</span> au début du niveau (cumulable jusqu'à 5 fois).<br></p></div>`
+        0: fmtPassif(`Passif :`, `Après l'utilisation de **Fleur de prunier : Vol prompt**, l'effet [Fleur de prunier] s'applique.
+Lorsque l'utilisateur réussit une **Ruée** suivie de **Fleur de prunier: Vol prompt**, l'effet [Éclosion] s'applique.`, [
+        { title: `[Fleur de prunier]`, content: `Augmente les dégâts de coup critique de 12% (cumulable jusqu'à 3 fois).
+Durée: illimitée` },
+        { title: `[Éclosion]`, content: `Augmente également la vitesse d'utilisation de **Fleur de prunier : Vol prompt** de 20%.
+L'Attaque de l'utilisateur augmente de 4%.
+Le Taux de coup critique de l'utilisateur augmente de 4%.
+Durée: 8 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Lorsque l'utilisateur rengaine après avoir utilisé la compétence **Fleur de prunier: Vol prompt**, l'effet [Tirage amplificateur] s'applique.`, [
+        { title: `[Tirage amplificateur]`, content: `Augmente les chances de l'utilisateur de porter un coup critique à la prochaine attaque de 32 %.
+Augmente les dégâts de compétence de 32%.
+Durée: 3 seconde(s)` }
+    ], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de ténèbres augmentent de 10%.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation de **Ruée**, [Tirage amplificateur] dure 5 seconde(s) et les Dégâts de coup critique augmentent de 32%.`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Fleur de prunier: Vol prompt** est réduit de 20%.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Ajoute l'effet [Fleur de prunier].
+Les dégâts de ténèbres de l'utilisateur augmentent de 5%.
+Applique 2 cumuls de [Fleur De Prunier] au début du niveau (cumulable jusqu'à 5 fois).`, [], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Lame du Prunier</h3><p>Vol prompt = <span class="buff">[Fleur de prunier]</span> (Dégâts Crit <span class="stat-boost">+12%</span>, max 3).<br>Ruée + Vol prompt = <span class="buff">[Éclosion]</span> (Vitesse skill +20%, Atk/Crit <span class="stat-boost">+4%</span>, 8s).</p>`,
@@ -186,12 +275,14 @@ weaponsData["faux-de-l-ombre"] = {
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Armes_Joueur_SSR/tenebre/faux_de_l_ombre/GSWeapon_LordScythe_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque la compétence <strong>Récolte d'esprits</strong> est utilisée, elle consomme <span class="stat-boost">5%</span> des PV actuels et augmente les dégâts de compétence de <span class="stat-boost">100%</span>.<br></p></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque les PV actuels de l'utilisateur sont inférieurs à 70%, l'effet <span class="buff">[Tranchant des ténèbres]</span> s'applique.<br></p><div class="detail-box"><h4><span class="buff">[Tranchant des ténèbres]</span></h4><p>Augmente le Taux de coup critique de l'utilisateur de <span class="stat-boost">25%</span>.<br></p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de ténèbres augmentent de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lorsque les PV actuels de l'utilisateur sont à 60% ou en dessous, <span class="stat-boost">0.4%</span> des PV actuels sont restaurés dès que la compétence touche sa cible.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de la compétence <strong>Récolte d'esprits</strong> diminue de <span class="stat-boost">20 %</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Les dégâts subis augmentent de <span class="stat-boost">15%</span>, mais l'Attaque augmente de <span class="stat-boost">15%</span>.<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lorsque la compétence **Récolte d'esprits** est utilisée, elle consomme 5% des PV actuels et augmente les dégâts de compétence de 100%.`, [], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Lorsque les PV actuels de l'utilisateur sont inférieurs à 70%, l'effet [Tranchant des ténèbres] s'applique.`, [
+        { title: `[Tranchant des ténèbres]`, content: `Augmente le Taux de coup critique de l'utilisateur de 25%.` }
+    ], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de ténèbres augmentent de 10%.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque les PV actuels de l'utilisateur sont à 60% ou en dessous, 0.4% des PV actuels sont restaurés dès que la compétence touche sa cible.`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de la compétence **Récolte d'esprits** diminue de 20 %.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Les dégâts subis augmentent de 15%, mais l'Attaque augmente de 15%.`, [], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Moissonneur d'Âmes</h3><p>Récolte d'esprits : Coût 5% PV = Dégâts <span class="stat-boost">+100%</span>.<br></p>`,
@@ -211,12 +302,29 @@ weaponsData["fragment-de-zeke"] = {
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Armes_Joueur_SSR/tenebre/fragment_de_zeke/GSWeapon_SSR_PieceOfSieg_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lors d'une nouvelle utilisation de l'<strong>Avènement de Zeke</strong> après une <strong>Attaque au javelot</strong>, l'utilisateur réalise immédiatement une <strong>Attaque tombante</strong>.<br>Lors de l'utilisation d'<strong>Attaque au javelot</strong>, l'effet <span class="buff">[Récupération de fragment]</span> est appliqué.<br>Après l'utilisation d'<strong>Attaque tombante</strong>, l'utilisateur obtient <span class="buff">[Super armure]</span> et les dégâts qu'il subit diminuent de <span class="stat-boost">50%</span> pendant 5 seconde(s).<br></p><div class="detail-box"><h4><span class="buff">[Récupération de fragment]</span></h4><p>Lorsque l'effet se dissipe, l'effet <span class="buff">[Fragment amélioré]</span> est appliqué.<br>Durée: 3 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Fragment amélioré]</span></h4><p>Augmente les dégâts d'<strong>Avènement de Zeke</strong> et de <strong>Retour de Zeke</strong> de <span class="stat-boost">50%</span>.<br>Durée: 3 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p><strong>Retour de Zeke</strong> s'active après l'utilisation d'une <strong>Attaque tombante</strong>.<br></p><div class="detail-box"><h4><span class="buff">[Renvoyez le Zeke]</span></h4><p>Dégâts et consommation de PM: identiques à ceux d'<strong>Attaque tombante</strong><br>L'utilisateur réalise une puissante attaque de taille vers l'avant et crée un tonnerre noir.<br>Lors de l'utilisation de <strong>Retour de Zeke</strong> à la suite d'<strong>Attaque tombante</strong>, les dégâts d'attaque augmentent de <span class="stat-boost">50%</span>.<br></p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de ténèbres augmentent de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>L'utilisation d'<strong>Attaque tombante</strong> peut se faire plus rapidement.<br>Lors de l'utilisation d'<strong>Attaque tombante</strong>, l'effet <span class="buff">[Fragment amélioré]</span> est appliqué immédiatement.<br>Lors de l'utilisation à la suite d'<strong>Attaque tombante</strong> puis de <strong>Retour de Zeke</strong>, le temps de rechargement d'<strong>Avènement de Zeke</strong> diminue de 2 seconde(s).<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement d'<strong>Avènement de Zeke</strong> diminue de <span class="stat-boost">20%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lors de l'utilisation à la suite d'<strong>Attaque tombante</strong> puis de <strong>Retour de Zeke</strong>, l'effet <span class="buff">[Fragment amélioré]</span> est amélioré et l'effet <span class="buff">[Fragment de foudre noire]</span> est appliqué.<br></p><div class="detail-box"><h4><span class="buff">[Fragment de foudre noire]</span></h4><p>Augmente les dégâts d'<strong>Avènement de Zeke</strong> et de <strong>Retour de Zeke</strong> de <span class="stat-boost">80%</span>.<br>Augmente le Taux de coup critique d'<strong>Avènement de Zeke</strong> et de <strong>Retour de Zeke</strong> de <span class="stat-boost">20%</span>.<br>Durée: 3 seconde(s)</p></div></div>`
+        0: fmtPassif(`Passif :`, `Lors d'une nouvelle utilisation de l'**Avènement de Zeke** après une **Attaque au javelot**, l'utilisateur réalise immédiatement une **Attaque tombante**.
+Lors de l'utilisation d'**Attaque au javelot**, l'effet [Récupération de fragment] est appliqué.
+Après l'utilisation d'**Attaque tombante**, l'utilisateur obtient [Super armure] et les dégâts qu'il subit diminuent de 50% pendant 5 seconde(s).`, [
+        { title: `[Récupération de fragment]`, content: `Lorsque l'effet se dissipe, l'effet [Fragment amélioré] est appliqué.
+Durée: 3 seconde(s)` },
+        { title: `[Fragment amélioré]`, content: `Augmente les dégâts d'**Avènement de Zeke** et de **Retour de Zeke** de 50%.
+Durée: 3 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `**Retour de Zeke** s'active après l'utilisation d'une **Attaque tombante**.`, [
+        { title: `[Renvoyez le Zeke]`, content: `Dégâts et consommation de PM: identiques à ceux d'**Attaque tombante**
+L'utilisateur réalise une puissante attaque de taille vers l'avant et crée un tonnerre noir.
+Lors de l'utilisation de **Retour de Zeke** à la suite d'**Attaque tombante**, les dégâts d'attaque augmentent de 50%.` }
+    ], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de ténèbres augmentent de 10%.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `L'utilisation d'**Attaque tombante** peut se faire plus rapidement.
+Lors de l'utilisation d'**Attaque tombante**, l'effet [Fragment amélioré] est appliqué immédiatement.
+Lors de l'utilisation à la suite d'**Attaque tombante** puis de **Retour de Zeke**, le temps de rechargement d'**Avènement de Zeke** diminue de 2 seconde(s).`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement d'**Avènement de Zeke** diminue de 20%.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Lors de l'utilisation à la suite d'**Attaque tombante** puis de **Retour de Zeke**, l'effet [Fragment amélioré] est amélioré et l'effet [Fragment de foudre noire] est appliqué.`, [
+        { title: `[Fragment de foudre noire]`, content: `Augmente les dégâts d'**Avènement de Zeke** et de **Retour de Zeke** de 80%.
+Augmente le Taux de coup critique d'**Avènement de Zeke** et de **Retour de Zeke** de 20%.
+Durée: 3 seconde(s)` }
+    ], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Héritage de Zeke</h3><p>Avènement après Javelot = <strong>Attaque tombante</strong> auto.<br>Javelot = <span class="buff">[Récupération]</span> -> <span class="buff">[Amélioré]</span> (3s).<br>Attaque tombante = <span class="buff">[Super armure]</span> + Réduc Dégâts <span class="stat-boost">50%</span>.<br>[Amélioré] : Dégâts Zeke <span class="stat-boost">+50%</span>.</p>`,
@@ -236,12 +344,23 @@ weaponsData["ombre-selene"] = {
     gradient: "linear-gradient(90deg, #8e44ad, #000)",
     image: "Armes_Joueur_SSR/tenebre/ombre_selene/GSWeapon_MoonShadow_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lors de l'utilisation de la compétence <strong>Éclat lunaire dans la nuit</strong>, l'effet <span class="buff">[Pleine lune]</span> est appliqué aux cibles sur la lune.<br>Lorsque la dernière attaque d'<strong>Éclat lunaire dans la nuit</strong> touche sa cible, le temps ralentit pendant 3 seconds et 1 cumul d'<span class="buff">[Éclipse lunaire]</span> est appliqué à la cible par cumul de <span class="buff">[Pleine lune]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Pleine lune]</span></h4><p>Durée: illimitée (cumulable jusqu'à 1 fois)</p></div><div class="detail-box"><h4><span class="buff">[Éclipse lunaire]</span></h4><p>Augmente les dégâts subis de <span class="stat-boost">10%</span>.<br>Augmente les dégâts de ténèbres de l'utilisateur de <span class="stat-boost">10%</span>.<br>Durée: 3 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Améliore les effets de <span class="buff">[Pleine lune et Éclipse lunaire]</span><br></p><div class="detail-box"><h4><span class="buff">[Pleine lune]</span></h4><p>Durée: infinie (cumulable jusqu'à 3 fois).<br></p></div><div class="detail-box"><h4><span class="buff">[Éclipse lunaire]</span></h4><p>Les dégâts subis par la cible augmentent de <span class="stat-boost">15%</span>.<br>Les dégâts de ténèbres subis par la cible augmentent de <span class="stat-boost">15%</span>.<br>Durée: 3 seconde(s)</p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de ténèbres augmentent de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lorsque la compétence <strong>Foulée de l'ombre</strong> touche sa cible, elle lui applique 1 instance d'<span class="buff">[Éclipse lunaire]</span> par instance de <span class="buff">[Pleine lune]</span>.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Réduit le temps de rechargement de la compétence <strong>Éclat lunaire dans la nuit</strong> de <span class="stat-boost">20%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Les dégâts de l'utilisateur et des membres de son équipe augmentent de <span class="stat-boost">15%</span> lorsque l'effet de ralentissement du temps est actif.<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation de la compétence **Éclat lunaire dans la nuit**, l'effet [Pleine lune] est appliqué aux cibles sur la lune.
+Lorsque la dernière attaque d'**Éclat lunaire dans la nuit** touche sa cible, le temps ralentit pendant 3 seconds et 1 cumul d'[Éclipse lunaire] est appliqué à la cible par cumul de [Pleine lune].`, [
+        { title: `[Pleine lune]`, content: `Durée: illimitée (cumulable jusqu'à 1 fois)` },
+        { title: `[Éclipse lunaire]`, content: `Augmente les dégâts subis de 10%.
+Augmente les dégâts de ténèbres de l'utilisateur de 10%.
+Durée: 3 seconde(s)` }
+    ], "Ténèbre"),
+        1: fmtPassif(`1 étoile :`, `Améliore les effets de [Pleine lune et Éclipse lunaire]`, [
+        { title: `[Pleine lune]`, content: `Durée: infinie (cumulable jusqu'à 3 fois).` },
+        { title: `[Éclipse lunaire]`, content: `Les dégâts subis par la cible augmentent de 15%.
+Les dégâts de ténèbres subis par la cible augmentent de 15%.
+Durée: 3 seconde(s)` }
+    ], "Ténèbre"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de ténèbres augmentent de 10%.`, [], "Ténèbre"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque la compétence **Foulée de l'ombre** touche sa cible, elle lui applique 1 instance d'[Éclipse lunaire] par instance de [Pleine lune].`, [], "Ténèbre"),
+        4: fmtPassif(`4 étoiles :`, `Réduit le temps de rechargement de la compétence **Éclat lunaire dans la nuit** de 20%.`, [], "Ténèbre"),
+        5: fmtPassif(`5 étoiles :`, `Les dégâts de l'utilisateur et des membres de son équipe augmentent de 15% lorsque l'effet de ralentissement du temps est actif.`, [], "Ténèbre")
     },
     summaryData: {
         0: `<h3>Passif : Lune Noire</h3><p>Éclat lunaire = <span class="buff">[Pleine lune]</span> (1 stack max).<br>Touche finale = Ralenti (3s) + <span class="buff">[Éclipse lunaire]</span>.<br>[Éclipse] : Dégâts subis/Ténèbres <span class="stat-boost">+10%</span> (3s).</p>`,

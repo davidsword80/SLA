@@ -8,15 +8,18 @@ weaponsData["chasseur-de-lycans"] = {
     name: "Chasseur de lycans",
     rarity: "R",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_R/lumiere/chasseur_de_lycans/GSWeapon_LycanSlayer_01_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque l'Attaque de noyau de l'utilisateur touche sa cible, elle lui applique l'effet <span class="buff">[Cible]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Cible]</span></h4><p>Les dégâts infligés avec <strong>Chasse aux lycans</strong> augmentent de <span class="stat-boost">50 %</span>.<br>Durée : 8 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>L'utilisateur inflige des dégâts supplémentaires équivalents à <span class="stat-boost">100 %</span> de l'Attaque tous les 10 coup(s).<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de lumière augmentent de <span class="stat-boost">6 %</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Les dégâts des attaques de noyau de Jinwoo augmentent de <span class="stat-boost">40 %</span>.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de <strong>Chasse aux lycans</strong> diminue de <span class="stat-boost">10 %</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque <strong>Chasse aux lycans</strong> est utilisée sur des cibles affectées par l'effet <span class="buff">[Cible]</span>, l'effet Dégâts subis augmentés passe à <span class="stat-boost">200 %</span>.<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lorsque l'Attaque de noyau de l'utilisateur touche sa cible, elle lui applique l'effet [Cible].`, [
+        { title: `[Cible]`, content: `Les dégâts infligés avec **Chasse aux lycans** augmentent de 50 %.
+Durée : 8 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `L'utilisateur inflige des dégâts supplémentaires équivalents à 100 % de l'Attaque tous les 10 coup(s).`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de lumière augmentent de 6 %.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Les dégâts des attaques de noyau de Jinwoo augmentent de 40 %.`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Chasse aux lycans** diminue de 10 %.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque **Chasse aux lycans** est utilisée sur des cibles affectées par l'effet [Cible], l'effet Dégâts subis augmentés passe à 200 %.`, [], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Marquage</h3><p>Atk de noyau = <span class="buff">[Cible]</span>.<br>Dégâts Chasse aux lycans <span class="stat-boost">+50 %</span>.</p>`,
@@ -33,15 +36,21 @@ weaponsData["cube-de-tempete-de-sable"] = {
     name: "Cube de tempête de sable",
     rarity: "R",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_R/lumiere/cube_de_tempete_de_sable/GSWeapon_SandCentipedeCube_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque la compétence <strong>Yeux luisants</strong> touche sa cible, elle lui inflige l'effet <span class="buff">[Écran de fumée]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Écran de fumée]</span></h4><p>Réduit la Précision de <span class="stat-boost">5 %</span> (cumulable jusqu'à 3 fois).<br>Durée : 20 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsqu'une cible affectée par <span class="buff">[Écran de fumée]</span> est attaquée, la Précision augmente de <span class="stat-boost">5 %</span>.<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de lumière augmentent de <span class="stat-boost">6 %</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lors de l'utilisation de la compétence <strong>Yeux luisants</strong>, si l'utilisateur subit une attaque ou si son Attaque de noyau touche sa cible dans les 10 seconde(s), ce dernier inflige à la cible des dégâts supplémentaires équivalents à <span class="stat-boost">150 %</span> de son Attaque et lui applique l'effet <span class="buff">[Écran de fumée]</span>.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Réduit les temps de rechargement de la compétence <strong>Yeux luisants</strong> de <span class="stat-boost">10 %</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque l'effet <span class="buff">[Écran de fumée]</span> se cumule 3 fois, il se transforme en effet <span class="buff">[Écran de fumée amélioré]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Écran de fumée amélioré]</span></h4><p>Réduit la Précision de <span class="stat-boost">50 %</span>. <span class="buff">[Écran de fumée]</span> ne peut pas s'activer.<br>Durée : 20 seconde(s)</p></div></div>`
+        0: fmtPassif(`Passif :`, `Lorsque la compétence **Yeux luisants** touche sa cible, elle lui inflige l'effet [Écran de fumée].`, [
+        { title: `[Écran de fumée]`, content: `Réduit la Précision de 5 % (cumulable jusqu'à 3 fois).
+Durée : 20 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsqu'une cible affectée par [Écran de fumée] est attaquée, la Précision augmente de 5 %.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de lumière augmentent de 6 %.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation de la compétence **Yeux luisants**, si l'utilisateur subit une attaque ou si son Attaque de noyau touche sa cible dans les 10 seconde(s), ce dernier inflige à la cible des dégâts supplémentaires équivalents à 150 % de son Attaque et lui applique l'effet [Écran de fumée].`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Réduit les temps de rechargement de la compétence **Yeux luisants** de 10 %.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'effet [Écran de fumée] se cumule 3 fois, il se transforme en effet [Écran de fumée amélioré].`, [
+        { title: `[Écran de fumée amélioré]`, content: `Réduit la Précision de 50 %. [Écran de fumée] ne peut pas s'activer.
+Durée : 20 seconde(s)` }
+    ], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Brouillard</h3><p>Yeux luisants = <span class="buff">[Écran de fumée]</span>.<br>Précision <span class="stat-boost">-5 %</span> (max 3 piles).</p>`,
@@ -58,15 +67,19 @@ weaponsData["arc-long-de-la-famille-radir"] = {
     name: "Arc long de la famille Radir",
     rarity: "SR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SR/lumiere/arc_long_de_la_famille_radir/GSWeapon_RadiruGreatBow_01_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Chaque fois que la flèche d'<strong>Éclat de lumière</strong> pénètre une cible, les dégâts infligés par l'utilisateur augmentent de <span class="stat-boost">4%</span> (cumulable jusqu'à 20 fois).<br></p></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque la compétence <strong>Éclat de lumière</strong> est utilisée, la Défense de la cible est ignorée à hauteur de <span class="stat-boost">50%</span>.<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de lumière augmentent de <span class="stat-boost">8%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Modification des effets de la compétence <strong>Éclat de lumière</strong>:<br>Lorsque les cibles sont touchées par l'onde de choc d'<strong>Éclat de lumière</strong>, elles sont repoussées de 3m et subissent l'effet <span class="buff">[Étourdissement]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Étourdissement]</span></h4><p>Cet effet immobilise la cible.<br>Durée: 2 seconde(s)</p></div></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement d'<strong>Éclat de lumière</strong> diminue de <span class="stat-boost">15%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Augmente les dégâts de toutes les attaques de <span class="stat-boost">25%</span> sur les cibles <span class="buff">[étourdies]</span>.<br></p></div>`
+        0: fmtPassif(`Passif :`, `Chaque fois que la flèche d'**Éclat de lumière** pénètre une cible, les dégâts infligés par l'utilisateur augmentent de 4% (cumulable jusqu'à 20 fois).`, [], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque la compétence **Éclat de lumière** est utilisée, la Défense de la cible est ignorée à hauteur de 50%.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de lumière augmentent de 8%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Modification des effets de la compétence **Éclat de lumière**:
+Lorsque les cibles sont touchées par l'onde de choc d'**Éclat de lumière**, elles sont repoussées de 3m et subissent l'effet [Étourdissement].`, [
+        { title: `[Étourdissement]`, content: `Cet effet immobilise la cible.
+Durée: 2 seconde(s)` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement d'**Éclat de lumière** diminue de 15%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Augmente les dégâts de toutes les attaques de 25% sur les cibles [étourdies].`, [], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Tir Perçant</h3><p>Flèche pénètre = Dégâts <span class="stat-boost">+4%</span> (max 20 stacks).<br></p>`,
@@ -83,15 +96,18 @@ weaponsData["epee-de-dragon-etincelante"] = {
     name: "Épée de dragon étincelante",
     rarity: "SR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SR/lumiere/epee_de_dragon_etincelante/GSWeapon_LightningDragonBlade_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque les PV de l'utilisateur sont supérieurs à <span class="stat-boost">80%</span>, applique l'effet <span class="buff">[Énergie du dragon de lumière]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Énergie du dragon de lumière]</span></h4><p>Augmente l'attaque de <span class="stat-boost">8%</span>.<br></p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Applique un effet d'augmentation de <span class="stat-boost">30%</span> des Dégâts de coup critique de la compétence <span class="buff">[Énergie du dragon de lumière]</span>.<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de lumière augmentent de <span class="stat-boost">8%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Modification des effets de la compétence <strong>Éclat du dragon</strong>: Un éclair supplémentaire frappe successivement devant l'utilisateur.<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de la compétence <strong>Éclat du dragon</strong> diminue de <span class="stat-boost">15%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque les PV sont à 60% ou au-dessus, l'effet <span class="buff">[Énergie du dragon de lumière]</span> s'applique.<br>Lorsque la compétence <strong>Éclat du dragon</strong> est utilisée, le Taux de coup critique passe à <span class="stat-boost">100%</span>.<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lorsque les PV de l'utilisateur sont supérieurs à 80%, applique l'effet [Énergie du dragon de lumière].`, [
+        { title: `[Énergie du dragon de lumière]`, content: `Augmente l'attaque de 8%.` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Applique un effet d'augmentation de 30% des Dégâts de coup critique de la compétence [Énergie du dragon de lumière].`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de lumière augmentent de 8%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Modification des effets de la compétence **Éclat du dragon**: Un éclair supplémentaire frappe successivement devant l'utilisateur.`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de la compétence **Éclat du dragon** diminue de 15%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque les PV sont à 60% ou au-dessus, l'effet [Énergie du dragon de lumière] s'applique.
+Lorsque la compétence **Éclat du dragon** est utilisée, le Taux de coup critique passe à 100%.`, [], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Lumière Draconique</h3><p>PV > 80% = <span class="buff">[Énergie du dragon de lumière]</span>.<br>[Énergie] : Attaque <span class="stat-boost">+8%</span>.</p>`,
@@ -108,15 +124,19 @@ weaponsData["lance-de-chevalier-demoniaque"] = {
     name: "Lance de chevalier démoniaque",
     rarity: "SR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SR/lumiere/lance_de_chevalier_demoniaque/GSWeapon_DemonKnightSpear_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lors de l'utilisation de la compétence <strong>Lance sacrée</strong>, l'utilisateur applique l'effet <span class="buff">[Esprit corrompu]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Esprit corrompu]</span></h4><p>Supprime le temps de rechargement de la compétence <strong>Lance sacrée</strong>.<br>Durée: 3 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque <strong>Lance sacrée</strong> touche sa cible, l'utilisateur récupère <span class="stat-boost">1%</span> de ses PM.<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de lumière augmentent de <span class="stat-boost">8%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lorsque la compétence <strong>Lance sacrée</strong> est utilisée, la durée de l'effet <span class="buff">[Esprit corrompu]</span> augmente de 4 seconde(s).<br></p></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de la compétence <strong>Lance sacrée</strong> diminue de <span class="stat-boost">15%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Pendant que l'effet <span class="buff">[Esprit corrompu]</span> est actif, la Vitesse d'attaque de l'utilisateur augmente de <span class="stat-boost">10%</span>.<br>Les dégâts de la compétence <strong>Lance sacrée</strong> augmentent de <span class="stat-boost">10%</span>.<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation de la compétence **Lance sacrée**, l'utilisateur applique l'effet [Esprit corrompu].`, [
+        { title: `[Esprit corrompu]`, content: `Supprime le temps de rechargement de la compétence **Lance sacrée**.
+Durée: 3 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque **Lance sacrée** touche sa cible, l'utilisateur récupère 1% de ses PM.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de lumière augmentent de 8%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque la compétence **Lance sacrée** est utilisée, la durée de l'effet [Esprit corrompu] augmente de 4 seconde(s).`, [], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de la compétence **Lance sacrée** diminue de 15%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Pendant que l'effet [Esprit corrompu] est actif, la Vitesse d'attaque de l'utilisateur augmente de 10%.
+Les dégâts de la compétence **Lance sacrée** augmentent de 10%.`, [], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Lance Corrompue</h3><p>Lance sacrée = <span class="buff">[Esprit corrompu]</span> (Reset CD, 3s).<br></p>`,
@@ -133,15 +153,27 @@ weaponsData["baton-de-combat-divin"] = {
     name: "Bâton de combat divin",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)", // Couleur Lumière
+    gradient: "linear-gradient(90deg, #fac700, #000)", // Couleur Lumière
     image: "Armes_Joueur_SSR/lumiere/baton_de_combat_divin/GSWeapon_ManaPole_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>La compétence <strong>Frappe de l'Ordre céleste</strong> peut être chargée jusqu'au Stade 3, et lorsque chaque stade est chargé, elle active l'effet <span class="buff">[Concentration d'énergie de mana]</span>.<br>En cas d'utilisation de <strong>Ruée</strong> pendant la charge de la compétence, le temps de rechargement de <strong>Frappe de l'Ordre céleste</strong> diminue de 18 seconde(s) et l'effet <span class="buff">[Concentration d'énergie de mana]</span> est supprimé.<br></p><div class="detail-box"><h4><span class="buff">[Concentration d'énergie de mana]</span></h4><p>Augmente les dégâts de <strong>Frappe de l'Ordre céleste</strong> de <span class="stat-boost">100%</span> (cumulable jusqu'à 3 fois).<br>Cet effet est supprimé après une attaque avec <strong>Frappe de l'Ordre céleste</strong>.<br></p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lors de l'utilisation de <strong>Frappe de l'Ordre céleste</strong> avec 3 cumuls de l'effet <span class="buff">[Concentration d'énergie de mana]</span> appliqués, l'effet <span class="buff">[Lâché de Bâton de combat divin]</span> est activé.<br></p><div class="detail-box"><h4><span class="buff">[Lâché de bâton de combat divin]</span></h4><p>Crée un Bâton de combat divin géant qui inflige des dégâts équivalents à <span class="stat-boost">800%</span> de l'Attaque de l'utilisateur.<br></p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Augmente les dégâts de lumière de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>La compétence <strong>Frappe de l'Ordre céleste</strong> peut être chargée jusqu'au Stade 5, et lorsque chaque stade est chargé, elle active l'effet <span class="buff">[Concentration d'énergie de mana]</span>.<br><span class="buff">[Concentration d'énergie de mana]</span> peut désormais se cumuler jusqu'à 5 fois.<br>Un effet <span class="buff">[Bouclier]</span> s'active lors de la charge.<br>Au bout de 5 cumuls, si l'effet <span class="buff">[Concentration d'énergie de mana]</span> s'est activé et si l'utilisateur est touché pendant la charge, la compétence <strong>Frappe de l'Ordre céleste</strong> est instantanément activée.<br></p><div class="detail-box"><h4><span class="buff">[Bouclier]</span></h4><p>Octroie un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">50%</span> des PV max de l'utilisateur.<br>Une fois que <strong>Frappe de l'Ordre céleste</strong> a fini de se charger, cet effet est supprimé.</p></div></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de <strong>Frappe de l'Ordre céleste</strong> diminue de <span class="stat-boost">20%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque l'effet <span class="buff">[Concentration d'énergie de mana]</span> atteint 5 cumuls, les dégâts de l'effet <span class="buff">[Lâché de bâton de combat divin]</span> augmentent de <span class="stat-boost">150%</span>.<br></p></div>`
+        0: fmtPassif(`Passif :`, `La compétence **Frappe de l'Ordre céleste** peut être chargée jusqu'au Stade 3, et lorsque chaque stade est chargé, elle active l'effet [Concentration d'énergie de mana].
+En cas d'utilisation de **Ruée** pendant la charge de la compétence, le temps de rechargement de **Frappe de l'Ordre céleste** diminue de 18 seconde(s) et l'effet [Concentration d'énergie de mana] est supprimé.`, [
+        { title: `[Concentration d'énergie de mana]`, content: `Augmente les dégâts de **Frappe de l'Ordre céleste** de 100% (cumulable jusqu'à 3 fois).
+Cet effet est supprimé après une attaque avec **Frappe de l'Ordre céleste**.` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation de **Frappe de l'Ordre céleste** avec 3 cumuls de l'effet [Concentration d'énergie de mana] appliqués, l'effet [Lâché de Bâton de combat divin] est activé.`, [
+        { title: `[Lâché de bâton de combat divin]`, content: `Crée un Bâton de combat divin géant qui inflige des dégâts équivalents à 800% de l'Attaque de l'utilisateur.` }
+    ], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de lumière de 10%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `La compétence **Frappe de l'Ordre céleste** peut être chargée jusqu'au Stade 5, et lorsque chaque stade est chargé, elle active l'effet [Concentration d'énergie de mana].
+[Concentration d'énergie de mana] peut désormais se cumuler jusqu'à 5 fois.
+Un effet [Bouclier] s'active lors de la charge.
+Au bout de 5 cumuls, si l'effet [Concentration d'énergie de mana] s'est activé et si l'utilisateur est touché pendant la charge, la compétence **Frappe de l'Ordre céleste** est instantanément activée.`, [
+        { title: `[Bouclier]`, content: `Octroie un [Bouclier] équivalent à 50% des PV max de l'utilisateur.
+Une fois que **Frappe de l'Ordre céleste** a fini de se charger, cet effet est supprimé.` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Frappe de l'Ordre céleste** diminue de 20%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'effet [Concentration d'énergie de mana] atteint 5 cumuls, les dégâts de l'effet [Lâché de bâton de combat divin] augmentent de 150%.`, [], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Ordre Céleste</h3><p>Frappe chargée (3 stades) = <span class="buff">[Concentration]</span>.<br>Ruée annule charge = CD -18s.<br>[Concentration] : Dégâts Frappe <span class="stat-boost">+100%</span>/cumul (max 3).</p>`,
@@ -158,15 +190,29 @@ weaponsData["le-chasseur"] = {
     name: "Le Chasseur",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SSR/lumiere/le_chasseur/GSWeapon_KillWolf_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lors de l'utilisation de <strong>Jugement</strong>, l'utilisateur active son Attaque de noyau.<br>Lors de l'utilisation de <strong>Jugement</strong>, l'Attaque de noyau devient <strong>Que la chasse commence</strong> pendant 6 seconde(s) et les dégâts augmentent de <span class="stat-boost">100%</span>.<br>Lorsque l'Attaque de base, l'Attaque de noyau ou la compétence <strong>Que la chasse commence</strong> touchent des cibles dans un rayon de 4 m, les dégâts augmentent de <span class="stat-boost">50%</span>.<br></p></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque la dernière attaque de <strong>Jugement</strong> touche sa cible, elle inflige l'effet <span class="buff">[Cission]</span>.<br>Lorsque la cible entre en état de <span class="buff">[Bris]</span> alors que l'effet <span class="buff">[Cission]</span> est actif, l'effet <span class="buff">[Destruction]</span> s'applique à la cible.<br></p><div class="detail-box"><h4><span class="buff">[Faille]</span></h4><p>Augmente l'effet <span class="buff">[Bris]</span> de <span class="stat-boost">25%</span>.<br>Durée: 3 seconde(s)</p></div><div class="detail-box"><h4><span class="buff">[Destruction]</span></h4><p>Augmente les dégâts subis de <span class="stat-boost">8%</span>.<br>Durée: infinie</p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Vos dégâts de lumière augmentent de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lorsque la première attaque de <strong>Jugement</strong> touche sa cible, elle lui applique l'effet <span class="buff">[Halte]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Prise]</span></h4><p>Interrompt la cible.<br>Durée: 2 seconde(s)</p></div></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de <strong>Jugement</strong> diminue de <span class="stat-boost">20%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Modification de l'effet <span class="buff">[Destruction]</span><br>Augmente les dégâts subis de <span class="stat-boost">16%</span> (cumulable jusqu'à 99 fois).<br>Une fois que <strong>Jugement</strong> touche sa cible et si une a Attaque de noyau suit directement la compétence, l'effet <span class="buff">[Ouverture au jugement]</span> s'applique à la cible.<br>Au bout de 3 cumuls de l'effet <span class="buff">[Ouverture au jugement)</span>, 1 cumul de <span class="buff">[Destruction]</span> est créé (cumulable 1 fois).<br></p></div>`
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation de **Jugement**, l'utilisateur active son Attaque de noyau.
+Lors de l'utilisation de **Jugement**, l'Attaque de noyau devient **Que la chasse commence** pendant 6 seconde(s) et les dégâts augmentent de 100%.
+Lorsque l'Attaque de base, l'Attaque de noyau ou la compétence **Que la chasse commence** touchent des cibles dans un rayon de 4 m, les dégâts augmentent de 50%.`, [], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque la dernière attaque de **Jugement** touche sa cible, elle inflige l'effet [Cission].
+Lorsque la cible entre en état de [Bris] alors que l'effet [Cission] est actif, l'effet [Destruction] s'applique à la cible.`, [
+        { title: `[Faille]`, content: `Augmente l'effet [Bris] de 25%.
+Durée: 3 seconde(s)` },
+        { title: `[Destruction]`, content: `Augmente les dégâts subis de 8%.
+Durée: infinie` }
+    ], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Vos dégâts de lumière augmentent de 10%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque la première attaque de **Jugement** touche sa cible, elle lui applique l'effet [Halte].`, [
+        { title: `[Prise]`, content: `Interrompt la cible.
+Durée: 2 seconde(s)` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Jugement** diminue de 20%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Modification de l'effet [Destruction]
+Augmente les dégâts subis de 16% (cumulable jusqu'à 99 fois).
+Une fois que **Jugement** touche sa cible et si une a Attaque de noyau suit directement la compétence, l'effet [Ouverture au jugement] s'applique à la cible.
+Au bout de 3 cumuls de l'effet [Ouverture au jugement), 1 cumul de [Destruction] est créé (cumulable 1 fois).`, [], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Danseuse à l'Épée</h3><p>Jugement active Attaque noyau (buffée <strong>Que la chasse commence</strong>, Dégâts <span class="stat-boost">+100%</span>).<br>Attaques (4m) = Dégâts <span class="stat-boost">+50%</span>.</p>`,
@@ -183,15 +229,36 @@ weaponsData["renard-a-queue-doree"] = {
     name: "Renard à queue dorée",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SSR/lumiere/renard_a_queue_doree/GSWeapon_GoldTaleFox_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lorsque l'utilisateur rejoint le niveau, il obtient 9 cumuls de l'effet <span class="buff">[Queue de renard]</span>.<br>Lorsque l'utilisateur lance la compétence <strong>Prélude</strong>, il obtient 1 cumul de l'effet <span class="buff">[Queue de renard]</span>.<br>Si l'utilisateur parvient à esquiver pendant la charge de cette compétence, he active l'effet <span class="buff">[Évasion extrême]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Queue de renard]</span></h4><p>Augmente le Taux de coup critique et les Dégâts de coup critique de la compétence de base de lumière de <span class="stat-boost">12.25%</span> (cumulable jusqu'à 1 fois).<br>Cet effet se dissipe lorsque l'utilisateur lance une compétence de base de lumière.<br>Durée: illimitée (cumulable jusqu'à 9 fois)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Lorsque la compétence <strong>Prélude</strong> touche sa cible, elle lui applique l'effet <span class="buff">[Plaie dorée]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Plaie dorée]</span></h4><p>Lorsque l'utilisateur attaque une cible affectée par <span class="buff">[Plaie Dorée]</span>, ses dégâts de lumière augmentent de <span class="stat-boost">99.99%</span>.<br>Lorsque l'utilisateur attaque une cible avec l'effet <span class="buff">[Plaie Dorée]</span>, il récupère <span class="stat-boost">9.99%</span> de ses PV 1 fois.<br>Subir une attaque de lumière dissipe cet effet.<br>Durée: 9.9 seconde(s)</p></div></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Augmente les dégâts de lumière de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lorsqu'<span class="buff">[Évasion extrême]</span> est activée, l'utilisateur obtient 1 cumul de l'effet <span class="buff">[Queue de renard]</span>.<br>Lorsque l'utilisateur lance <strong>Prélude</strong>, il obtient 1 cumul supplémentaire de l'effet <span class="buff">[Queue de renard]</span> et un <span class="buff">[Bouclier]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Bouclier]</span></h4><p>Confère un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">12.25%</span> des PV max de l'utilisateur.<br>Durée: 9.9 seconde(s)</p></div></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de <strong>Prélude</strong> diminue de <span class="stat-boost">20%</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque l'utilisateur lance <strong>Prélude</strong> alors qu'un ennemi se trouve dans un rayon de 5 m, il charge immédiatement.<br>Lorsque seules des armes de type Lumière sont équipées, les dégâts de lumière de l'utilisateur augmentent de <span class="stat-boost">20.24 %</span> et son Attaque augmente de <span class="stat-boost">12.25%</span>.<br>L'effet <span class="buff">[Queue de renard]</span> est amélioré.<br></p><div class="detail-box"><h4><span class="buff">[Queue de renard]</span></h4><p>Augmente le Taux de coup critique et les Dégâts de coup critique de la compétence de base de lumière de l'utilisateur de <span class="stat-boost">20.24 %</span> (cumulable jusqu'à 1 fois).<br>Lorsque l'utilisateur lance une compétence de base de lumière, cet effet est dissipé.<br>Durée: illimitée (cumulable jusqu'à 9 fois)</p></div></div>`
+        0: fmtPassif(`Passif :`, `Lorsque l'utilisateur rejoint le niveau, il obtient 9 cumuls de l'effet [Queue de renard].
+Lorsque l'utilisateur lance la compétence **Prélude**, il obtient 1 cumul de l'effet [Queue de renard].
+Si l'utilisateur parvient à esquiver pendant la charge de cette compétence, he active l'effet [Évasion extrême].`, [
+        { title: `[Queue de renard]`, content: `Augmente le Taux de coup critique et les Dégâts de coup critique de la compétence de base de lumière de 12.25% (cumulable jusqu'à 1 fois).
+Cet effet se dissipe lorsque l'utilisateur lance une compétence de base de lumière.
+Durée: illimitée (cumulable jusqu'à 9 fois)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque la compétence **Prélude** touche sa cible, elle lui applique l'effet [Plaie dorée].`, [
+        { title: `[Plaie dorée]`, content: `Lorsque l'utilisateur attaque une cible affectée par [Plaie Dorée], ses dégâts de lumière augmentent de 99.99%.
+Lorsque l'utilisateur attaque une cible avec l'effet [Plaie Dorée], il récupère 9.99% de ses PV 1 fois.
+Subir une attaque de lumière dissipe cet effet.
+Durée: 9.9 seconde(s)` }
+    ], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de lumière de 10%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lorsqu'[Évasion extrême] est activée, l'utilisateur obtient 1 cumul de l'effet [Queue de renard].
+Lorsque l'utilisateur lance **Prélude**, il obtient 1 cumul supplémentaire de l'effet [Queue de renard] et un [Bouclier].`, [
+        { title: `[Bouclier]`, content: `Confère un [Bouclier] équivalent à 12.25% des PV max de l'utilisateur.
+Durée: 9.9 seconde(s)` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de **Prélude** diminue de 20%.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'utilisateur lance **Prélude** alors qu'un ennemi se trouve dans un rayon de 5 m, il charge immédiatement.
+Lorsque seules des armes de type Lumière sont équipées, les dégâts de lumière de l'utilisateur augmentent de 20.24 % et son Attaque augmente de 12.25%.
+L'effet [Queue de renard] est amélioré.`, [
+        { title: `[Queue de renard]`, content: `Augmente le Taux de coup critique et les Dégâts de coup critique de la compétence de base de lumière de l'utilisateur de 20.24 % (cumulable jusqu'à 1 fois).
+Lorsque l'utilisateur lance une compétence de base de lumière, cet effet est dissipé.
+Durée: illimitée (cumulable jusqu'à 9 fois)` }
+    ], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Esprit du Renard</h3><p>Entrée/Prélude = <span class="buff">[Queue de renard]</span> (max 9).<br>Esquive charge = Évasion extrême.<br>[Queue] : Crit/Crit Dmg skill lumière <span class="stat-boost">+12.25%</span> (conso 1 stack).</p>`,
@@ -208,15 +275,28 @@ weaponsData["verite-lance-de-chevalier-demoniaque"] = {
     name: "Vérité : Lance de chevalier démoniaque",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SSR/lumiere/verite_lance_de_chevalier_demoniaque/GSWeapon_SSR_Demon_Knight_Spear_PortraitBig.png",
     fullData: {
-        0: `<div class="passif-content passif-block"><h3>Passif :</h3><p>Lors de l'utilisation de la compétence <strong>Furie de chevalier sacré</strong>, l'utilisateur applique l'effet <span class="buff">[Règles corrompues]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Règles corrompues]</span></h4><p>Supprime le temps de rechargement de la compétence <strong>Furie de chevalier sacré</strong>.<br>(temps de rechargement: 20 seconde(s))<br>Augmente les dégâts élémentaires de lumière de <span class="stat-boost">10%</span>.<br>Durée: 4 seconde(s)</p></div></div>`,
-        1: `<div class="passif-content star-block"><h3>1 étoile :</h3><p>Augmente la Vitesse d'attaque de l'utilisateur de <span class="stat-boost">15%</span> et les dégâts de <strong>Furie de chevalier sacré</strong> de <span class="stat-boost">15%</span> tant que l'effet <strong>Règles corrompues</strong> reste actif.<br>Lorsque <strong>Furie de chevalier sacré</strong> touche une cible, l'utilisateur récupère <span class="stat-boost">1%</span> de PM.<br></p></div>`,
-        2: `<div class="passif-content star-block"><h3>2 étoiles :</h3><p>Augmente les dégâts de lumière de <span class="stat-boost">10%</span>.<br></p></div>`,
-        3: `<div class="passif-content star-block"><h3>3 étoiles :</h3><p>Lorsque <strong>Furie de chevalier sacré</strong> touche une cible, elle lui inflige l'effet <span class="buff">[Rage du chevalier sacré corrompu]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Rage du chevalier sacré corrompu]</span></h4><p>Augmente les dégâts de <strong>Furie de chevalier sacré</strong> de <span class="stat-boost">2%</span> (cumulable jusqu'à 50 fois).<br>Durée: illimitée</p></div></div>`,
-        4: `<div class="passif-content star-block"><h3>4 étoiles :</h3><p>Le temps de rechargement de la compétence <strong>Furie de chevalier sacré</strong> diminue de <span class="stat-boost">20 %</span>.<br></p></div>`,
-        5: `<div class="passif-content star-block"><h3>5 étoiles :</h3><p>Lorsque <strong>Furie de chevalier sacré</strong> touche une cible, elle lui inflige l'effet <span class="buff">[Malédiction du chevalier sacré]</span>.<br></p><div class="detail-box"><h4><span class="buff">[Malédiction du chevalier sacré]</span></h4><p>Au bout de 3 cumuls, elle inflige des dégâts supplémentaires équivalents à <span class="stat-boost">2000 %</span> de l'Attaque de l'utilisateur.<br>Lorsque les dégâts supplémentaires sont subis, l'effet se dissipe.<br>Durée: 60 seconde(s)</p></div></div>`
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation de la compétence **Furie de chevalier sacré**, l'utilisateur applique l'effet [Règles corrompues].`, [
+        { title: `[Règles corrompues]`, content: `Supprime le temps de rechargement de la compétence **Furie de chevalier sacré**.
+(temps de rechargement: 20 seconde(s))
+Augmente les dégâts élémentaires de lumière de 10%.
+Durée: 4 seconde(s)` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Augmente la Vitesse d'attaque de l'utilisateur de 15% et les dégâts de **Furie de chevalier sacré** de 15% tant que l'effet **Règles corrompues** reste actif.
+Lorsque **Furie de chevalier sacré** touche une cible, l'utilisateur récupère 1% de PM.`, [], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de lumière de 10%.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque **Furie de chevalier sacré** touche une cible, elle lui inflige l'effet [Rage du chevalier sacré corrompu].`, [
+        { title: `[Rage du chevalier sacré corrompu]`, content: `Augmente les dégâts de **Furie de chevalier sacré** de 2% (cumulable jusqu'à 50 fois).
+Durée: illimitée` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de la compétence **Furie de chevalier sacré** diminue de 20 %.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque **Furie de chevalier sacré** touche une cible, elle lui inflige l'effet [Malédiction du chevalier sacré].`, [
+        { title: `[Malédiction du chevalier sacré]`, content: `Au bout de 3 cumuls, elle inflige des dégâts supplémentaires équivalents à 2000 % de l'Attaque de l'utilisateur.
+Lorsque les dégâts supplémentaires sont subis, l'effet se dissipe.
+Durée: 60 seconde(s)` }
+    ], "Lumière")
     },
     summaryData: {
         0: `<h3>Passif : Ordre du Chaos</h3><p>Furie de chevalier sacré = <span class="buff">[Règles corrompues]</span>.<br>[Règles] : Reset CD Furie + Dégâts Lumière <span class="stat-boost">+10%</span> (4s, CD 20s).</p>`,
@@ -233,91 +313,56 @@ weaponsData["lame-fantome"] = {
     name: "Lame fantôme",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SSR/lumiere/lame_fantome/GSWeapon_PhantomBlade_PortraitBig.png",
     fullData: {
-        0: `
-        <h3>Passif :</h3>
-        <p>L'effet <span class="buff">[Projection]</span> est activé lorsque l'utilisateur arrive dans le niveau.<br>
-        L'effet <span class="buff">[Lumina]</span> s'active lorsque l'utilisateur est équipé d'armes de l'élément Lumière.<br>
-        Après l'utilisation de la compétence <strong>Entaille spirituelle fantôme</strong>, celle-ci devient <strong>Entaille enchaînée fantôme</strong>.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Entaille enchaînée fantôme]</span></h4>
-            <p>Lance rapidement une lame d'énergie sur l'ennemi.<br>
-            Dégâts et Consommation de PM : identiques à ceux de la compétence <strong>Entaille spirituelle fantôme</strong>.<br>
-            Lance une lame d'énergie à haute vélocité sur l'ennemi. Peut être utilisée jusqu'à 3 fois.<br>
-            La compétence redevient <strong>Entaille spirituelle fantôme</strong> après un certain temps ou après avoir été utilisée le nombre maximum de fois possible.</p>
-        </div>
+        0: fmtPassif(`Passif :`, `L'effet [Projection] est activé lorsque l'utilisateur arrive dans le niveau.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Projection]</span></h4>
-            <p>Augmente l'Attaque de <span class="stat-boost">5 %</span>.<br>
-            Augmente la Vitesse de <span class="stat-boost">5 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
+        L'effet [Lumina] s'active lorsque l'utilisateur est équipé d'armes de l'élément Lumière.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Lumina]</span></h4>
-            <p>Augmente les dégâts de lumière de <span class="stat-boost">5 %</span>.<br>
-            Augmente les Dégâts de coup critique de <span class="stat-boost">10 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
-    `,
-        1: `
-        <h3>1 étoile :</h3>
-        <p>Lorsque la compétence <strong>Entaille spirituelle fantôme</strong> porte un Coup critique, le nombre d'utilisations de la compétence <strong>Entaille enchaînée fantôme</strong> augmente de 2 (Entaille enchaînée fantôme peut ainsi être utilisée jusqu'à 5 fois).<br>
-        L'utilisation de la compétence <strong>Entaille spirituelle fantôme</strong> active <span class="buff">[Écho de lumière]</span>.<br>
-        L'utilisateur reçoit <span class="buff">[Super armure]</span> lors de l'utilisation de la compétence <strong>Entaille enchaînée fantôme</strong>.<br></p>
+        Après l'utilisation de la compétence **Entaille spirituelle fantôme**, celle-ci devient **Entaille enchaînée fantôme**.`, [
+        { title: `[Entaille enchaînée fantôme]`, content: `Lance rapidement une lame d'énergie sur l'ennemi.
+            Dégâts et Consommation de PM : identiques à ceux de la compétence **Entaille spirituelle fantôme**.
+            Lance une lame d'énergie à haute vélocité sur l'ennemi. Peut être utilisée jusqu'à 3 fois.
+            La compétence redevient **Entaille spirituelle fantôme** après un certain temps ou après avoir été utilisée le nombre maximum de fois possible.` },
+        { title: `[Projection]`, content: `Augmente l'Attaque de 5 %.
+            Augmente la Vitesse de 5 %.
+            Durée : illimitée.` },
+        { title: `[Lumina]`, content: `Augmente les dégâts de lumière de 5 %.
+            Augmente les Dégâts de coup critique de 10 %.
+            Durée : illimitée.` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque la compétence **Entaille spirituelle fantôme** porte un Coup critique, le nombre d'utilisations de la compétence **Entaille enchaînée fantôme** augmente de 2 (Entaille enchaînée fantôme peut ainsi être utilisée jusqu'à 5 fois).
 
-        <div class="detail-box">
-            <h4><span class="buff">[Écho de lumière]</span></h4>
-            <p>Augmente le Taux de coup critique de <span class="stat-boost">5 %</span>.<br>
-            Augmente les Dégâts de coup critique de <span class="stat-boost">10 %</span>.<br>
-            Durée : 7 seconde(s).</p>
-        </div>
-    `,
-        2: `
-        <h3>2 étoiles :</h3>
-        <p>Augmente les dégâts de lumière de <span class="stat-boost">10 %</span>.<br></p>
-    `,
-        3: `
-        <h3>3 étoiles :</h3>
-        <p>L'utilisation de la compétence <strong>Entaille spirituelle fantôme</strong> active l'effet <span class="buff">[Fantôme]</span>.<br>
-        L'effet <span class="buff">[Projection]</span> est amélioré.<br></p>
+        L'utilisation de la compétence **Entaille spirituelle fantôme** active [Écho de lumière].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Fantôme]</span></h4>
-            <p>Augmente les dégâts de la compétence <strong>Entaille enchaînée fantôme</strong> de <span class="stat-boost">100 %</span>.<br>
-            Lorsque les dégâts subis représentent 5 % des PV max de l'utilisateur ou plus, l'effet <span class="buff">[Camouflage]</span> est activé pendant 4.5 seconde(s).<br>
-            Durée : 4.5 seconde(s).</p>
-        </div>
+        L'utilisateur reçoit [Super armure] lors de l'utilisation de la compétence **Entaille enchaînée fantôme**.`, [
+        { title: `[Écho de lumière]`, content: `Augmente le Taux de coup critique de 5 %.
+            Augmente les Dégâts de coup critique de 10 %.
+            Durée : 7 seconde(s).` }
+    ], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de lumière de 10 %.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `L'utilisation de la compétence **Entaille spirituelle fantôme** active l'effet [Fantôme].
 
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Projection]</span></h4>
-            <p>Augmente l'Attaque de <span class="stat-boost">10 %</span>.<br>
-            Augmente la Vitesse de <span class="stat-boost">10 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
-    `,
-        4: `
-        <h3>4 étoiles :</h3>
-        <p>Le temps de rechargement de la compétence <strong>Entaille spirituelle fantôme</strong> diminue de <span class="stat-boost">20 %</span>.<br></p>
-    `,
-        5: `
-        <h3>5 étoiles :</h3>
-        <p>Si les PM de l'utilisateur sont à 50 % ou moins, sa Consommation de PM diminue de <span class="stat-boost">25 %</span>.<br>
-        L'effet <span class="buff">[Écho de lumière]</span> est amélioré.<br>
-        Chaque fois que la compétence <strong>Entaille spirituelle fantôme</strong> est utilisée, les dégâts de la compétence <strong>Entaille enchaînée fantôme</strong> augmentent de <span class="stat-boost">25 %</span> (cumulable jusqu'à 10 fois).<br></p>
+        L'effet [Projection] est amélioré.`, [
+        { title: `[Fantôme]`, content: `Augmente les dégâts de la compétence **Entaille enchaînée fantôme** de 100 %.
+            Lorsque les dégâts subis représentent 5 % des PV max de l'utilisateur ou plus, l'effet [Camouflage] est activé pendant 4.5 seconde(s).
+            Durée : 4.5 seconde(s).` },
+        { title: `Amélioration [Projection]`, content: `Augmente l'Attaque de 10 %.
+            Augmente la Vitesse de 10 %.
+            Durée : illimitée.` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Le temps de rechargement de la compétence **Entaille spirituelle fantôme** diminue de 20 %.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `Si les PM de l'utilisateur sont à 50 % ou moins, sa Consommation de PM diminue de 25 %.
 
-        <div class="detail-box">
-            <h4>Amélioration <span class="buff">[Écho de lumière]</span></h4>
-            <p>Augmente le Taux de coup critique de <span class="stat-boost">10 %</span>.<br>
-            Augmente les Dégâts de coup critique de <span class="stat-boost">20 %</span>.<br>
-            Augmente les dégâts infligés de <span class="stat-boost">10 %</span>.<br>
-            Durée : 7 seconde(s).</p>
-        </div>
-    `
+        L'effet [Écho de lumière] est amélioré.
+
+        Chaque fois que la compétence **Entaille spirituelle fantôme** est utilisée, les dégâts de la compétence **Entaille enchaînée fantôme** augmentent de 25 % (cumulable jusqu'à 10 fois).`, [
+        { title: `Amélioration [Écho de lumière]`, content: `Augmente le Taux de coup critique de 10 %.
+            Augmente les Dégâts de coup critique de 20 %.
+            Augmente les dégâts infligés de 10 %.
+            Durée : 7 seconde(s).` }
+    ], "Lumière")
     },
     summaryData: {
         0: `
@@ -359,62 +404,36 @@ weaponsData["epee-du-heros"] = {
     name: "Epée du Héros",
     rarity: "SSR",
     element: "Lumière",
-    gradient: "linear-gradient(90deg, #f1c40f, #000)",
+    gradient: "linear-gradient(90deg, #fac700, #000)",
     image: "Armes_Joueur_SSR/lumiere/epee_du_heros/GSWeapon_HimmelSword_PortraitBig.png",
     fullData: {
-        0: `
-        <h3>Passif :</h3>
-        <p>L'effet <span class="buff">[Détermination inébranlable]</span> s'active lorsque l'utilisateur arrive dans un niveau.<br>
-        Lorsque la compétence <strong>Épée porte-paix</strong> touche sa cible, les dégâts de compétence d'arme de l'élément Lumière augmentent de <span class="stat-boost">45 %</span> pendant 15 seconde(s).</p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Détermination inébranlable]</span></h4>
-            <p>Augmente les dégâts de lumière de <span class="stat-boost">25 %</span>.<br>
-            Réduit la Consommation de mana pour les compétences de <span class="stat-boost">20 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
-        
-    `,
-        1: `
-        <h3>1 étoile :</h3>
-        <p>Lorsque l'utilisateur arrive dans le niveau, l'effet <span class="buff">[Perception extraordinaire]</span> s'active.</p>
-        <div class="detail-box">
-            <h4><span class="buff">[Perception extraordinaire]</span></h4>
-            <p>Augmente la Précision de <span class="stat-boost">5 %</span>.<br>
-            Augmente le Taux de coup critique de <span class="stat-boost">5 %</span>.</p>
-            <p>Augmente les Dégâts de coup critique de <span class="stat-boost">60 %</span>.<br>
-            Durée : illimitée.</p>
-        </div>
-    `,
-        2: `
-        <h3>2 étoiles :</h3>
-        <p>Augmente les dégâts de lumière de <span class="stat-boost">10 %</span>.</p>
-    `,
-        3: `
-        <h3>3 étoiles :</h3>
-        <p>L'effet <span class="buff">[Volonté du héros]</span> s'active lorsque l'utilisateur arrive dans un niveau.<br>
-        Lorsque la compétence <strong>Épée porte-paix</strong> touche une cible bénéficiant d'un <strong>[Bouclier]</strong>, les dégâts qu'elle inflige augmentent de <span class="stat-boost">20 %</span> pendant 15 seconde(s).</p>
-        <div class="detail-box">
-            <h4><span class="buff">[Volonté du héros]</span></h4>
-            <p>Lorsque la compétence <strong>Épée porte-paix</strong> touche sa cible, elle inflige des dégâts de <strong>Bris lourds</strong>.<br>
-            L'utilisateur bénéficie de <span class="buff">[Super armure]</span> lors de l'utilisation de la compétence.<br>
-            Durée : illimitée.</p>
-        </div>
-    `,
-        4: `
-        <h3>4 étoiles :</h3>
-        <p>Diminue le temps de rechargement de la compétence <strong>Épée porte-paix</strong> de <span class="stat-boost">20 %</span>.</p>
-    `,
-        5: `
-        <h3>5 étoiles :</h3>
-        <p>L'utilisation de la compétence <strong>Épée porte-paix</strong> ralentit le temps pendant 2 seconde(s) et active l'effet <span class="buff">[Épée démono-régicide]</span>.<br>
-        <div class="detail-box">
-            <h4><span class="buff">[Épée démono-régicide]</span></h4>
-            <p>Augmente les dégâts infligés aux boss de <span class="stat-boost">50 %</span>.<br>
-            Augmente les dégâts de lumière de <span class="stat-boost">35 %</span>.</p>
-            Augmente les dégâts de compétence ultime de <span class="stat-boost">50 %</span> pendant 8 seconde(s).</p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `L'effet [Détermination inébranlable] s'active lorsque l'utilisateur arrive dans un niveau.
+
+        Lorsque la compétence **Épée porte-paix** touche sa cible, les dégâts de compétence d'arme de l'élément Lumière augmentent de 45 % pendant 15 seconde(s).`, [
+        { title: `[Détermination inébranlable]`, content: `Augmente les dégâts de lumière de 25 %.
+            Réduit la Consommation de mana pour les compétences de 20 %.
+            Durée : illimitée.` }
+    ], "Lumière"),
+        1: fmtPassif(`1 étoile :`, `Lorsque l'utilisateur arrive dans le niveau, l'effet [Perception extraordinaire] s'active.`, [
+        { title: `[Perception extraordinaire]`, content: `Augmente la Précision de 5 %.
+            Augmente le Taux de coup critique de 5 %.</p>
+            <p>Augmente les Dégâts de coup critique de 60 %.
+            Durée : illimitée.` }
+    ], "Lumière"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de lumière de 10 %.`, [], "Lumière"),
+        3: fmtPassif(`3 étoiles :`, `L'effet [Volonté du héros] s'active lorsque l'utilisateur arrive dans un niveau.
+
+        Lorsque la compétence **Épée porte-paix** touche une cible bénéficiant d'un **[Bouclier]**, les dégâts qu'elle inflige augmentent de 20 % pendant 15 seconde(s).`, [
+        { title: `[Volonté du héros]`, content: `Lorsque la compétence **Épée porte-paix** touche sa cible, elle inflige des dégâts de **Bris lourds**.
+            L'utilisateur bénéficie de [Super armure] lors de l'utilisation de la compétence.
+            Durée : illimitée.` }
+    ], "Lumière"),
+        4: fmtPassif(`4 étoiles :`, `Diminue le temps de rechargement de la compétence **Épée porte-paix** de 20 %.`, [], "Lumière"),
+        5: fmtPassif(`5 étoiles :`, `<p>L'utilisation de la compétence **Épée porte-paix** ralentit le temps pendant 2 seconde(s) et active l'effet [Épée démono-régicide].`, [
+        { title: `[Épée démono-régicide]`, content: `Augmente les dégâts infligés aux boss de 50 %.
+            Augmente les dégâts de lumière de 35 %.</p>
+            Augmente les dégâts de compétence ultime de 50 % pendant 8 seconde(s).` }
+    ], "Lumière")
     },
     summaryData: {
         0: `

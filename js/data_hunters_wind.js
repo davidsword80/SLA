@@ -7,110 +7,62 @@ huntersData["sugimoto-reiji"] = {
     name: "Sugimoto Reiji",
     rarity: "SSR",
     element: "Vent",
-    gradient: "linear-gradient(90deg, #2ecc71, #000)",
+    gradient: "linear-gradient(90deg, #32c732, #000)",
     image: "Chasseurs_SSR/vent/Sugimoto_reiji/SugimotoReiji_Portrait_Body.png",
     weaponImage: "Chasseurs_SSR/vent/Sugimoto_reiji/gravee_dans_la_chair/Relic_SugimotoReiji_PortraitBig.png",
     weaponName: "Gravée dans la chair",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>L'effet <span class="buff">[Combat à l'épée]</span> reste actif et l'état <span class="buff">[Combat à l'épée]</span> se divise en trois phases : <span class="buff">[Initiation, Accélération, Finalité]</span>.<br>
-        <span class="buff">[Initiation]</span> s'active lorsque l'utilisateur entre dans un niveau.<br>
-        L'utilisation des compétences <strong>Éclair d'acier</strong>, <strong>Retour de fil</strong> et <strong>Renvoi de fil</strong> active l'effet <span class="buff">[Dégainage éclair]</span>.<br>
-        L'utilisation de la compétence <strong>Concentration inébranlable</strong> active l'effet <span class="buff">[Danse de l'épée]</span>.<br>
-        Lorsque la compétence <strong>Vengeur</strong> touche sa cible, elle lui applique l'effet <span class="buff">[Fil de l'hiver]</span>.<br>
-        Lorsque les compétences <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> touchent leur cible, elles lui appliquent 2 cumuls de l'effet <span class="buff">[Fil de l'hiver]</span>.<br></p>
+        0: fmtPassif(`Passif :`, `L'effet [Combat à l'épée] reste actif et l'état [Combat à l'épée] se divise en trois phases : [Initiation, Accélération, Finalité].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Dégainage éclair]</span></h4>
-            <p>Les compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> et <strong>Lame d'extinction</strong> deviennent disponibles et suppriment 1 cumul de <span class="buff">[Dégainage éclair]</span> lors de leur utilisation.<br>
-            Durée : illimitée (cumulable jusqu'à 3 fois)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Initiation]</span></h4>
-            <p>L'utilisation de la compétence <strong>Vengeur</strong> supprime l'effet <span class="buff">[Initiation]</span> et fait passer à la phase <span class="buff">[Accélération]</span>.<br>
-            Durée : illimitée</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Accélération]</span></h4>
-            <p>Transforme <strong>Éclair d'acier</strong> en <strong>Retour de fil</strong> et augmente ses dégâts de <span class="stat-boost">50 %</span>.<br>
-            Transforme <strong>Vengeur</strong> en <strong>Entaille éclipse</strong> et augmente ses dégâts de <span class="stat-boost">50 %</span>.<br>
-            L'utilisation de <strong>Entaille éclipse</strong> supprime l'effet <span class="buff">[Accélération]</span> et fait passer à la phase <span class="buff">[Finalité]</span>.<br>
-            Durée : illimitée</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Finalité]</span></h4>
-            <p>Transforme <strong>Retour de fil</strong> en <strong>Renvoi de fil</strong> et augmente ses dégâts de <span class="stat-boost">100 %</span>.<br>
-            Transforme <strong>Entaille éclipse</strong> en <strong>Lame d'extinction</strong> et augmente ses dégâts de <span class="stat-boost">100 %</span>.<br>
-            L'utilisation de <strong>Lame d'extinction</strong> refait passer de la phase <span class="buff">[Finalité]</span> à la phase <span class="buff">[Initiation]</span>.<br>
-            Durée : illimitée</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Danse de l'épée]</span></h4>
-            <p>L'utilisation de <strong>Vivelame - Origine</strong> remplit la jauge de noyau deux fois plus vite.<br>
-            Lorsque la compétence <span class="buff">[Évasion extrême]</span> est activée, l'attaque de noyau est activée.<br>
-            Durée : 15 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Fil de l'hiver]</span></h4>
-            <p>Inflige des dégâts équivalents à <span class="stat-boost">50 %</span> des PV max de l'utilisateur toutes les 3 secondes.<br>
-            Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)</p>
-        </div>
-        </div>
-        `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>L'utilisation des compétences <strong>Concentration inébranlable</strong> ou <strong>Vivelame - Oubli</strong> active l'effet <span class="buff">[Dégainage éclair]</span> ainsi que l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur.<br>
-        La consommation de l'effet <span class="buff">[Dégainage éclair]</span> réduit le temps de rechargement de <strong>Vivelame - Oubli</strong> de <span class="stat-boost">10 seconde(s)</span> et restaure <span class="stat-boost">35 %</span> de la jauge de puissance de l'utilisateur.<br></p>
-        </div>
-        `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>L'efficacité d'<span class="buff">[Accumulation élémentaire]</span> de <span class="element-vent">Vent</span> augmente de <span class="stat-boost">20 %</span>.<br></p>
-        </div>
-        `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lorsque Sugimoto Reiji ou un allié parvient à infliger une Surcharge de vent, l'effet <span class="buff">[Lame tempête]</span> est appliqué à Sung Jinwoo et aux membres de l'équipe de l'élément <span class="element-vent">Vent</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Lame tempête]</span></h4>
-            <p>Augmente la Pénétration de défense de <span class="stat-boost">18 %</span>.<br>
-            Augmente les dégâts de Surcharge de vent de <span class="stat-boost">45 %</span>.<br>
-            Augmente les dégâts de compétence QTE de vent de <span class="stat-boost">100 %</span>.<br>
-            Durée : 15 seconde(s)</p>
-        </div>
-        </div>
-        `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les Dégâts de coup critique des membres de l'équipe de l'élément <span class="element-vent">Vent</span> augmentent de <span class="stat-boost">10 %</span> par allié de l'élément <span class="element-vent">Vent</span> présent dans l'équipe.<br></p>
-        </div>
-        `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'utilisation de la compétence <strong>Vivelame - Oubli</strong> active l'effet <span class="buff">[Éclair tempétueux]</span>.<br>
-        L'effet <span class="buff">[Danse de l'épée]</span> est amélioré.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Danse de l'épée]</span> (amélioré)</h4>
-            <p>L'utilisation de <strong>Vivelame - Origine</strong> recharge la jauge de noyau deux fois plus vite.<br>
-            Lors de l'utilisation des compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> et de l'activation d'<span class="buff">[Évasion extrême]</span>, l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur se déclenche.<br>
-            Les dégâts de l'<span class="keyword-orange">attaque de noyau</span> augmentent de <span class="stat-boost">100 %</span>.<br>
-            Augmente l'effet d'<span class="buff">[Accumulation élémentaire]</span> de <span class="element-vent">Vent</span> de <span class="stat-boost">20 %</span>.<br>
-            Durée : 15 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Éclair tempétueux]</span></h4>
-            <p>Les dégâts des compétences <strong>Lame d'extinction</strong> et <strong>Chute de fleur</strong> augmentent de <span class="stat-boost">300 %</span>.<br>
-            Durée : 30 seconde(s)</p>
-        </div>
-        </div>
-        `
+        [Initiation] s'active lorsque l'utilisateur entre dans un niveau.
+
+        L'utilisation des compétences **Éclair d'acier**, **Retour de fil** et **Renvoi de fil** active l'effet [Dégainage éclair].
+
+        L'utilisation de la compétence **Concentration inébranlable** active l'effet [Danse de l'épée].
+
+        Lorsque la compétence **Vengeur** touche sa cible, elle lui applique l'effet [Fil de l'hiver].
+
+        Lorsque les compétences **Entaille éclipse** ou **Lame d'extinction** touchent leur cible, elles lui appliquent 2 cumuls de l'effet [Fil de l'hiver].`, [
+        { title: `[Dégainage éclair]`, content: `Les compétences **Vengeur**, **Entaille éclipse** et **Lame d'extinction** deviennent disponibles et suppriment 1 cumul de [Dégainage éclair] lors de leur utilisation.
+            Durée : illimitée (cumulable jusqu'à 3 fois)` },
+        { title: `[Initiation]`, content: `L'utilisation de la compétence **Vengeur** supprime l'effet [Initiation] et fait passer à la phase [Accélération].
+            Durée : illimitée` },
+        { title: `[Accélération]`, content: `Transforme **Éclair d'acier** en **Retour de fil** et augmente ses dégâts de 50 %.
+            Transforme **Vengeur** en **Entaille éclipse** et augmente ses dégâts de 50 %.
+            L'utilisation de **Entaille éclipse** supprime l'effet [Accélération] et fait passer à la phase [Finalité].
+            Durée : illimitée` },
+        { title: `[Finalité]`, content: `Transforme **Retour de fil** en **Renvoi de fil** et augmente ses dégâts de 100 %.
+            Transforme **Entaille éclipse** en **Lame d'extinction** et augmente ses dégâts de 100 %.
+            L'utilisation de **Lame d'extinction** refait passer de la phase [Finalité] à la phase [Initiation].
+            Durée : illimitée` },
+        { title: `[Danse de l'épée]`, content: `L'utilisation de **Vivelame - Origine** remplit la jauge de noyau deux fois plus vite.
+            Lorsque la compétence [Évasion extrême] est activée, l'attaque de noyau est activée.
+            Durée : 15 seconde(s)` },
+        { title: `[Fil de l'hiver]`, content: `Inflige des dégâts équivalents à 50 % des PV max de l'utilisateur toutes les 3 secondes.
+            Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `L'utilisation des compétences **Concentration inébranlable** ou **Vivelame - Oubli** active l'effet [Dégainage éclair] ainsi que l'attaque de noyau de l'utilisateur.
+
+        La consommation de l'effet [Dégainage éclair] réduit le temps de rechargement de **Vivelame - Oubli** de 10 seconde(s) et restaure 35 % de la jauge de puissance de l'utilisateur.`, [], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `L'efficacité d'[Accumulation élémentaire] de Vent augmente de 20 %.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque Sugimoto Reiji ou un allié parvient à infliger une Surcharge de vent, l'effet [Lame tempête] est appliqué à Sung Jinwoo et aux membres de l'équipe de l'élément Vent.`, [
+        { title: `[Lame tempête]`, content: `Augmente la Pénétration de défense de 18 %.
+            Augmente les dégâts de Surcharge de vent de 45 %.
+            Augmente les dégâts de compétence QTE de vent de 100 %.
+            Durée : 15 seconde(s)` }
+    ], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Les Dégâts de coup critique des membres de l'équipe de l'élément Vent augmentent de 10 % par allié de l'élément Vent présent dans l'équipe.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `L'utilisation de la compétence **Vivelame - Oubli** active l'effet [Éclair tempétueux].
+
+        L'effet [Danse de l'épée] est amélioré.`, [
+        { title: `[Danse de l'épée] (amélioré)`, content: `L'utilisation de **Vivelame - Origine** recharge la jauge de noyau deux fois plus vite.
+            Lors de l'utilisation des compétences **Vengeur**, **Entaille éclipse** ou **Lame d'extinction** et de l'activation d'[Évasion extrême], l'attaque de noyau de l'utilisateur se déclenche.
+            Les dégâts de l'attaque de noyau augmentent de 100 %.
+            Augmente l'effet d'[Accumulation élémentaire] de Vent de 20 %.
+            Durée : 15 seconde(s)` },
+        { title: `[Éclair tempétueux]`, content: `Les dégâts des compétences **Lame d'extinction** et **Chute de fleur** augmentent de 300 %.
+            Durée : 30 seconde(s)` }
+    ], "Vent")
     },
     summaryData: {
         0: `
@@ -146,22 +98,17 @@ huntersData["sugimoto-reiji"] = {
         `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">5 %</span>.<br>
-        L'utilisation des compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> augmente les dégâts de Surcharge de toute l'équipe de <span class="stat-boost">5 %</span>.<br>
-        Durée : 30 seconde(s) (cumulable jusqu'à 3 fois)</p>
-        `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">12 %</span>.<br>
-        L'utilisation des compétences <strong>Vengeur</strong>, <strong>Entaille éclipse</strong> ou <strong>Lame d'extinction</strong> augmente les dégâts de Surcharge de toute l'équipe de <span class="stat-boost">10 %</span>.<br>
-        Durée : 30 seconde(s) (cumulable jusqu'à 3 fois)</p>
-        `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de <span class="stat-boost">15 %</span>.<br></p>
-        `
+        0: fmtWeapon(`Avancement 0 :`, `Les PV de l'utilisateur augmentent de 5 %.
+
+        L'utilisation des compétences **Vengeur**, **Entaille éclipse** ou **Lame d'extinction** augmente les dégâts de Surcharge de toute l'équipe de 5 %.
+
+        Durée : 30 seconde(s) (cumulable jusqu'à 3 fois)`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Les PV de l'utilisateur augmentent de 12 %.
+
+        L'utilisation des compétences **Vengeur**, **Entaille éclipse** ou **Lame d'extinction** augmente les dégâts de Surcharge de toute l'équipe de 10 %.
+
+        Durée : 30 seconde(s) (cumulable jusqu'à 3 fois)`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de 15 %.`, "Vent")
     }
 };
 
@@ -170,50 +117,23 @@ huntersData["kim-sangshik"] = {
     name: "Kim Sangshik",
     rarity: "SR",
     element: "Vent",
-    gradient: "linear-gradient(90deg, #2ecc71, #000)", // Dégradé vert/noir pour le vent
+    gradient: "linear-gradient(90deg, #32c732, #000)", // Dégradé vert/noir pour le vent
     image: "Chasseurs_SR/vent/Kim_sangshik/KimSangShik_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/vent/Kim_sangshik/la_chute_de_quelqu_un/Relic_KimSangShik_PortraitBig.png",
     weaponName: "La chute de quelqu'un",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Le temps de rechargement de <strong>Choc véloce</strong> diminue de 1 seconde(s) et la jauge de noyau se remplit de <span class="stat-boost">50%</span> lors de l'utilisation de <strong>Tempête tranchante</strong>.<br>
-        Le temps de rechargement de <strong>Tempête tranchante</strong> diminue de 1 seconde(s) et la jauge de noyau se remplit de <span class="stat-boost">50%</span> lors de l'utilisation de <strong>Choc véloce</strong>.<br>
-        Le temps de rechargement de <strong>Tempête tranchante</strong> et <strong>Choc véloce</strong> diminue de 1 seconde(s) lors de l'utilisation de <strong>Bourrasque perçante</strong>.<br></p>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque Sangshik utilise les compétences <strong>Tempête tranchante</strong>, <strong>Choc véloce</strong> ou <strong>Bourrasque perçante</strong>, son effet de Réduction du temps de rechargement fait passer le temps de rechargement à 2 seconde(s).<br>
-        Lorsque Sangshik utilise les compétences <strong>Tempête tranchante</strong> ou <strong>Choc véloce</strong>, <strong>Bourrasque perçante</strong> s'active.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'efficacité de <span class="buff">[Bris]</span> de l'utilisateur augmente de <span class="stat-boost">20%</span>.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">6 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lors de l'utilisation de <strong>Bourrasque perçante</strong>, l'utilisateur récupère 60 des PV de Sangshik.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Le temps de rechargement de **Choc véloce** diminue de 1 seconde(s) et la jauge de noyau se remplit de 50% lors de l'utilisation de **Tempête tranchante**.
+
+        Le temps de rechargement de **Tempête tranchante** diminue de 1 seconde(s) et la jauge de noyau se remplit de 50% lors de l'utilisation de **Choc véloce**.
+
+        Le temps de rechargement de **Tempête tranchante** et **Choc véloce** diminue de 1 seconde(s) lors de l'utilisation de **Bourrasque perçante**.`, [], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Lorsque Sangshik utilise les compétences **Tempête tranchante**, **Choc véloce** ou **Bourrasque perçante**, son effet de Réduction du temps de rechargement fait passer le temps de rechargement à 2 seconde(s).
+
+        Lorsque Sangshik utilise les compétences **Tempête tranchante** ou **Choc véloce**, **Bourrasque perçante** s'active.`, [], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Les PV de l'utilisateur augmentent de 10%.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `L'efficacité de [Bris] de l'utilisateur augmente de 20%.`, [], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Augmente la Défense de l'utilisateur de 6 %.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Lors de l'utilisation de **Bourrasque perçante**, l'utilisateur récupère 60 des PV de Sangshik.`, [], "Vent")
     },
     summaryData: {
         0: `
@@ -243,20 +163,13 @@ huntersData["kim-sangshik"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les dégâts de l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur de <span class="stat-boost">4%</span>.<br>
-        Lors de l'utilisation d'une <span class="keyword-orange">attaque de noyau</span>, les dégâts de la prochaine <span class="keyword-orange">compétence de base</span> de l'utilisateur augmentent de <span class="stat-boost">4%</span>.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les dégâts de l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur de <span class="stat-boost">24%</span>.<br>
-        Lors de l'utilisation d'une <span class="keyword-orange">attaque de noyau</span>, les dégâts de la prochaine <span class="keyword-orange">compétence de base</span> de l'utilisateur augmentent de <span class="stat-boost">24%</span>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les dégâts de l'attaque de noyau de l'utilisateur de 4%.
+
+        Lors de l'utilisation d'une attaque de noyau, les dégâts de la prochaine compétence de base de l'utilisateur augmentent de 4%.`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les dégâts de l'attaque de noyau de l'utilisateur de 24%.
+
+        Lors de l'utilisation d'une attaque de noyau, les dégâts de la prochaine compétence de base de l'utilisateur augmentent de 24%.`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Vent")
     }
 };
 
@@ -265,64 +178,33 @@ huntersData["park-beom-shik"] = {
     name: "Park Beom-shik",
     rarity: "SR",
     element: "Vent",
-    gradient: "linear-gradient(90deg, #2ecc71, #000)",
+    gradient: "linear-gradient(90deg, #32c732, #000)",
     image: "Chasseurs_SR/vent/Park_beom_shik/ParkBeomSik_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/vent/Park_beom_shik/decisions/Relic_ParkBeomsik_PortraitBig.png",
     weaponName: "Décisions",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Frappe tournoyante!</strong>, <strong>Frappe descendante!</strong> ou <strong>Attaque de charge!</strong>, l'utilisateur applique l'effet <span class="buff">[Père de deux enfants]</span>.<br>
-        Si les PV de l'utilisateur sont inférieurs à 30%, l'effet <span class="buff">[Détermination du père]</span> s'applique.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Père de deux enfants]</span></h4>
-            <p>Augmente la Défense de <span class="stat-boost">4%</span> (cumulable jusqu'à 10 fois).<br>
-            Durée: 30 seconde(s)</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Détermination du père]</span></h4>
-            <p>La compétence <strong>Frappe tournoyante!</strong> peut être utilisée indéfiniment.<br>
-            Applique l'effet <span class="buff">[Super armure]</span>.<br>
-            Augmente la Vitesse d'attaque de <span class="stat-boost">8%</span>.<br>
-            Augmente la Défense de l'utilisateur de <span class="stat-boost">8%</span>.<br>
-            Durée: 4 seconde(s) (ne s'active qu'une fois la première fois)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Les dégâts infligés aux cibles ayant moins de PV que l'utilisateur augmentent de <span class="stat-boost">15%</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Votre Défense augmente de <span class="stat-boost">6%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Améliore la compétence <strong>Frappe descendante !</strong>.<br>
-        Réduit le temps de charge de l'utilisateur de <span class="stat-boost">30%</span>.<br>
-        Augmente la portée de la compétence de <span class="stat-boost">30%</span>.<br>
-        Augmente les dégâts de l'utilisateur de <span class="stat-boost">60%</span>.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lors de l'utilisation de la compétence <strong>Une autre ligne temporelle</strong>, l'utilisateur applique l'effet <span class="buff">[Détermination du père]</span>.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation des compétences **Frappe tournoyante!**, **Frappe descendante!** ou **Attaque de charge!**, l'utilisateur applique l'effet [Père de deux enfants].
+
+        Si les PV de l'utilisateur sont inférieurs à 30%, l'effet [Détermination du père] s'applique.`, [
+        { title: `[Père de deux enfants]`, content: `Augmente la Défense de 4% (cumulable jusqu'à 10 fois).
+            Durée: 30 seconde(s)` },
+        { title: `[Détermination du père]`, content: `La compétence **Frappe tournoyante!** peut être utilisée indéfiniment.
+            Applique l'effet [Super armure].
+            Augmente la Vitesse d'attaque de 8%.
+            Augmente la Défense de l'utilisateur de 8%.
+            Durée: 4 seconde(s) (ne s'active qu'une fois la première fois)` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Les dégâts infligés aux cibles ayant moins de PV que l'utilisateur augmentent de 15%.`, [], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Votre Défense augmente de 6%.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Améliore la compétence **Frappe descendante !**.
+
+        Réduit le temps de charge de l'utilisateur de 30%.
+
+        Augmente la portée de la compétence de 30%.
+
+        Augmente les dégâts de l'utilisateur de 60%.`, [], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Les PV de l'utilisateur augmentent de 10%.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Lors de l'utilisation de la compétence **Une autre ligne temporelle**, l'utilisateur applique l'effet [Détermination du père].`, [], "Vent")
     },
     summaryData: {
         0: `
@@ -352,20 +234,13 @@ huntersData["park-beom-shik"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">2%</span>.<br>
-        Lorsque l'effet <span class="buff">[Détermination du père]</span> s'active, un <span class="buff">[Bouclier]</span> supplémentaire équivalent à <span class="stat-boost">2%</span> de la Défense de l'utilisateur est créé, et les dégâts de ses <span class="keyword-orange">compétences de base</span> augmentent de <span class="stat-boost">10%</span>.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">8%</span>.<br>
-        Lorsque l'effet <span class="buff">[Détermination du père]</span> s'active, un <span class="buff">[Bouclier]</span> supplémentaire équivalent à <span class="stat-boost">8%</span> de la Défense de l'utilisateur est créé, et les dégâts de ses <span class="keyword-orange">compétences de base</span> augmentent de <span class="stat-boost">35%</span>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Défense de l'utilisateur de 2%.
+
+        Lorsque l'effet [Détermination du père] s'active, un [Bouclier] supplémentaire équivalent à 2% de la Défense de l'utilisateur est créé, et les dégâts de ses compétences de base augmentent de 10%.`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Défense de l'utilisateur de 8%.
+
+        Lorsque l'effet [Détermination du père] s'active, un [Bouclier] supplémentaire équivalent à 8% de la Défense de l'utilisateur est créé, et les dégâts de ses compétences de base augmentent de 35%.`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Vent")
     }
 };
 
@@ -374,49 +249,21 @@ huntersData["park-heejin"] = {
     name: "Park Heejin",
     rarity: "SR",
     element: "Vent",
-    gradient: "linear-gradient(90deg, #2ecc71, #000)",
+    gradient: "linear-gradient(90deg, #32c732, #000)",
     image: "Chasseurs_SR/vent/Park_heejin/ParkHeeJin_Portrait_Body.png",
     weaponImage: "Chasseurs_SR/vent/Park_heejin/intuition/Relic_ParkHeejin_PortraitBig.png",
     weaponName: "Intuition",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Balle d'air</strong>, <strong>Cisaille venteuse</strong>, <strong>Bourrasque tranchante</strong> ou <strong>Vortex venteux</strong>, la jauge de puissance de l'utilisateur se remplit de <span class="stat-boost">8%</span>.<br>
-        Réduit le temps de rechargement de <strong>Tempête venteuse</strong> de <span class="stat-boost">30%</span>.<br></p>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque Heejin utilise la compétence <strong>Bourrasque tranchante</strong>, elle supprime les <span class="buff">[débuffs]</span> appliqués à elle et son équipe.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Le temps de rechargement de <strong>Tempête venteuse</strong> diminue de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Balle d'air</strong>, <strong>Cisaille venteuse</strong>, <strong>Bourrasque tranchante</strong> ou<br>
-        <strong>Vortex venteux</strong>, la jauge de puissance de l'utilisateur se remplit de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts de la compétence <strong>Tempête venteuse</strong> augmentent de <span class="stat-boost">30%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Au début du combat, la jauge de puissance de Heejin se remplit de <span class="stat-boost">100%</span>.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation des compétences **Balle d'air**, **Cisaille venteuse**, **Bourrasque tranchante** ou **Vortex venteux**, la jauge de puissance de l'utilisateur se remplit de 8%.
+
+        Réduit le temps de rechargement de **Tempête venteuse** de 30%.`, [], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Lorsque Heejin utilise la compétence **Bourrasque tranchante**, elle supprime les [débuffs] appliqués à elle et son équipe.`, [], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Le temps de rechargement de **Tempête venteuse** diminue de 10%.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation des compétences **Balle d'air**, **Cisaille venteuse**, **Bourrasque tranchante** ou
+
+        **Vortex venteux**, la jauge de puissance de l'utilisateur se remplit de 10%.`, [], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts de la compétence **Tempête venteuse** augmentent de 30%.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Au début du combat, la jauge de puissance de Heejin se remplit de 100%.`, [], "Vent")
     },
     summaryData: {
         0: `
@@ -446,20 +293,13 @@ huntersData["park-heejin"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les dégâts de <span class="keyword-orange">compétence ultime</span> de l'utilisatrice de <span class="stat-boost">5%</span>.<br>
-        Lors de l'utilisation de la <span class="keyword-orange">compétence ultime</span>, les dégâts de <span class="keyword-orange">compétence ultime</span> du membre de son équipe ayant la Puissance totale la plus élevée augmentent de <span class="stat-boost">5%</span> pendant 20 seconde(s).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les dégâts de <span class="keyword-orange">compétence ultime</span> de l'utilisatrice de <span class="stat-boost">20%</span>.<br>
-        Lors de l'utilisation de la <span class="keyword-orange">compétence ultime</span>, les dégâts de <span class="keyword-orange">compétence ultime</span> du membre de son équipe ayant la Puissance totale la plus élevée augmentent de <span class="stat-boost">20%</span> pendant 20 seconde(s).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les dégâts de compétence ultime de l'utilisatrice de 5%.
+
+        Lors de l'utilisation de la compétence ultime, les dégâts de compétence ultime du membre de son équipe ayant la Puissance totale la plus élevée augmentent de 5% pendant 20 seconde(s).`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les dégâts de compétence ultime de l'utilisatrice de 20%.
+
+        Lors de l'utilisation de la compétence ultime, les dégâts de compétence ultime du membre de son équipe ayant la Puissance totale la plus élevée augmentent de 20% pendant 20 seconde(s).`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Vent")
     }
 };
 
@@ -473,80 +313,40 @@ huntersData["lennart-niermann"] = {
     weaponImage: "Chasseurs_SSR/vent/Lennart_niermann/le_poid_des_responsabilites/Relic_LennartNiermann_PortraitBig.png",
     weaponName: "Le poid des responsabilités",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque <strong>Todessinfonie</strong> touche sa cible, l'effet <span class="buff">[Marque du chasseur]</span> est activé.<br>
-        Lors de l'utilisation des compétences <strong>Fenriszahn</strong> ou <strong>Kaisers Rache</strong>, l'utilisateur reçoit 6 cumuls de l'effet <span class="buff">[Analyse]</span>.<br>
-        Lors de l'utilisation de <strong>Todessinfonie</strong>, l'utilisateur reçoit 12 cumuls de l'effet <span class="buff">[Analyse]</span>.<br>
-        La Défense de l'utilisateur augmente de <span class="stat-boost">20 %</span> tant que l'effet <span class="buff">[Analyse]</span> est actif.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Marque du chasseur]</span></h4>
-            <p>Lorsque la cible récupère des PV ou est sous l'effet <span class="buff">[Irrémédiable]</span>, l'effet <span class="buff">[Marque du chasseur]</span> devient <span class="buff">[Cage du chasseur]</span>.<br>
-            Durée : 20 seconde(s).</p>
-        </div>
+        0: fmtPassif(`Passif :`, `Lorsque **Todessinfonie** touche sa cible, l'effet [Marque du chasseur] est activé.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Cage du chasseur]</span></h4>
-            <p>Augmente les dégâts infligés par Lennart Niermann de <span class="stat-boost">15 %</span>.<br>
-            Durée : 20 seconde(s).</p>
-        </div>
+        Lors de l'utilisation des compétences **Fenriszahn** ou **Kaisers Rache**, l'utilisateur reçoit 6 cumuls de l'effet [Analyse].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Analyse]</span></h4>
-            <p>Octroie <span class="buff">[Super armure]</span>. Lorsque l'utilisateur est touché par une attaque ennemie, il perd 1 cumul de l'effet <span class="buff">[Analyse]</span>.<br>
-            Durée : illimitée (cumulable jusqu'à 20 fois).</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Fenriszahn</strong>, <strong>Kaisers Rache</strong> ou <strong>Todessinfonie</strong>, la durée d'effet de l'attaque de zone créée augmente de 3 seconde(s).<br>
-        Lorsque les membres de l'équipe de l'élément <span class="element-vent">Vent</span>, y compris l'utilisateur, utilisent leur <span class="keyword-orange">compétence de base</span>, Lennart Niermann récupère <span class="stat-boost">3 %</span> de ses PM et sa jauge de puissance se remplit de <span class="stat-boost">5 %</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les dégâts élémentaires de vent de l'utilisateur augmentent de <span class="stat-boost">30 %</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lorsque l'effet <span class="buff">[Analyse]</span> a 20 cumuls, il active l'effet <span class="buff">[Cercle magique défensif]</span> sur l'ensemble de l'équipe.<br></p>
+        Lors de l'utilisation de **Todessinfonie**, l'utilisateur reçoit 12 cumuls de l'effet [Analyse].
 
-        <div class="detail-box">
-            <h4><span class="buff">[Cercle magique défensif]</span></h4>
-            <p>Empêche de gagner ou de perdre des cumuls de l'effet <span class="buff">[Analyse]</span>. Octroie <span class="buff">[Super armure]</span>.<br>
-            Augmente les Dégâts de coup critique de l'utilisateur de <span class="stat-boost">30 %</span>. Augmente la Défense de l'utilisateur de <span class="stat-boost">30 %</span>.<br>
-            Durée : 20 seconde(s).</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>La Défense des membres de l'équipe de l'élément <span class="element-vent">Vent</span> augmente de <span class="stat-boost">14 %</span> par allié de l'élément <span class="element-vent">Vent</span>.<br>
-        Augmente les PV de l'ensemble de l'équipe de <span class="stat-boost">8 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'effet <span class="buff">[Cage du chasseur]</span> est amélioré.<br>
-        Au début du niveau, l'utilisateur reçoit 100 cumuls de l'effet <span class="buff">[Analyse]</span>.<br>
-        Le temps de rechargement de <strong>Todessinfonie</strong> diminue de 25 seconde(s).<br></p>
+        La Défense de l'utilisateur augmente de 20 % tant que l'effet [Analyse] est actif.`, [
+        { title: `[Marque du chasseur]`, content: `Lorsque la cible récupère des PV ou est sous l'effet [Irrémédiable], l'effet [Marque du chasseur] devient [Cage du chasseur].
+            Durée : 20 seconde(s).` },
+        { title: `[Cage du chasseur]`, content: `Augmente les dégâts infligés par Lennart Niermann de 15 %.
+            Durée : 20 seconde(s).` },
+        { title: `[Analyse]`, content: `Octroie [Super armure]. Lorsque l'utilisateur est touché par une attaque ennemie, il perd 1 cumul de l'effet [Analyse].
+            Durée : illimitée (cumulable jusqu'à 20 fois).` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Lors de l'utilisation des compétences **Fenriszahn**, **Kaisers Rache** ou **Todessinfonie**, la durée d'effet de l'attaque de zone créée augmente de 3 seconde(s).
 
-        <div class="detail-box">
-            <h4><span class="buff">[Cage du chasseur]</span> (Amélioré)</h4>
-            <p>Augmente les dégâts infligés par Lennart Niermann de <span class="stat-boost">30 %</span>.<br>
-            Durée : 40 seconde(s).</p>
-        </div>
-        </div>
-    `
+        Lorsque les membres de l'équipe de l'élément Vent, y compris l'utilisateur, utilisent leur compétence de base, Lennart Niermann récupère 3 % de ses PM et sa jauge de puissance se remplit de 5 %.`, [], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Les dégâts élémentaires de vent de l'utilisateur augmentent de 30 %.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque l'effet [Analyse] a 20 cumuls, il active l'effet [Cercle magique défensif] sur l'ensemble de l'équipe.`, [
+        { title: `[Cercle magique défensif]`, content: `Empêche de gagner ou de perdre des cumuls de l'effet [Analyse]. Octroie [Super armure].
+            Augmente les Dégâts de coup critique de l'utilisateur de 30 %. Augmente la Défense de l'utilisateur de 30 %.
+            Durée : 20 seconde(s).` }
+    ], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `La Défense des membres de l'équipe de l'élément Vent augmente de 14 % par allié de l'élément Vent.
+
+        Augmente les PV de l'ensemble de l'équipe de 8 %.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `L'effet [Cage du chasseur] est amélioré.
+
+        Au début du niveau, l'utilisateur reçoit 100 cumuls de l'effet [Analyse].
+
+        Le temps de rechargement de **Todessinfonie** diminue de 25 seconde(s).`, [
+        { title: `[Cage du chasseur] (Amélioré)`, content: `Augmente les dégâts infligés par Lennart Niermann de 30 %.
+            Durée : 40 seconde(s).` }
+    ], "Vent")
     },
     summaryData: {
         0: `
@@ -582,20 +382,13 @@ huntersData["lennart-niermann"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">5 %</span>.<br>
-        Lors de l'utilisation des compétences <strong>Fenriszahn</strong>, <strong>Kaisers Rache</strong>, <strong>Todessinfonie</strong> ou <strong>Wolfspranke</strong>, l'effet <span class="buff">[Paralysie]</span> est appliqué pendant 0.5 seconde(s) aux ennemis se trouvant à moins de 10 m (temps de rechargement : 20 seconde(s)).</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">50 %</span>.<br>
-        Lors de l'utilisation des compétences <strong>Fenriszahn</strong>, <strong>Kaisers Rache</strong>, <strong>Todessinfonie</strong> ou <strong>Wolfspranke</strong>, l'effet <span class="buff">[Paralysie]</span> est appliqué pendant 5 seconde(s) aux ennemis se trouvant à moins de 10 m (temps de rechargement : 20 seconde(s)).</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Défense de l'utilisateur de 5 %.
+
+        Lors de l'utilisation des compétences **Fenriszahn**, **Kaisers Rache**, **Todessinfonie** ou **Wolfspranke**, l'effet [Paralysie] est appliqué pendant 0.5 seconde(s) aux ennemis se trouvant à moins de 10 m (temps de rechargement : 20 seconde(s)).`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Défense de l'utilisateur de 50 %.
+
+        Lors de l'utilisation des compétences **Fenriszahn**, **Kaisers Rache**, **Todessinfonie** ou **Wolfspranke**, l'effet [Paralysie] est appliqué pendant 5 seconde(s) aux ennemis se trouvant à moins de 10 m (temps de rechargement : 20 seconde(s)).`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15 %.`, "Vent")
     }
 };
 
@@ -609,108 +402,50 @@ huntersData["sung-jinah"] = {
     weaponImage: "Chasseurs_SSR/vent/Sung_jinah/mousson_bleue/Relic_SungJinah_PortraitBig.png",
     weaponName: "Mousson bleue",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Rapière de tempête inversée</strong>, <strong>Tourbillon convergent</strong>, <strong>Torrent</strong>, <strong>Parapluie : Rapière de tempête inversée</strong>, <strong>Parapluie : Tourbillon convergent</strong> ou <strong>Parapluie : Torrent</strong>, l'effet <span class="buff">[Vent]</span> est activé.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Vent]</span></h4>
-            <p>Augmente les dégâts des compétences <strong>Rapière de tempête inversée</strong>, <strong>Tourbillon convergent</strong>, <strong>Parapluie : Rapière de tempête inversée</strong>, <strong>Parapluie : Tourbillon convergent</strong>, <strong>Sérénade tempétueuse</strong> et <strong>Sérénade : Perturbation aéro</strong> de <span class="stat-boost">50 %</span>.<br>
-            À 3 cumuls, octroie à toute l'équipe le maximum de cumuls de l'effet <span class="buff">[Ailes de bourrasque]</span> à l'exception de Sung Jinah.<br>
-            Lorsque l'utilisatrice quitte le combat, cet effet est supprimé. En mode Combat d'équipe, cet effet est supprimé toutes les 15 seconde(s).<br>
-            Durée : 60 seconde(s) (cumulable jusqu'à 3 fois).</p>
-        </div>
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation des compétences **Rapière de tempête inversée**, **Tourbillon convergent**, **Torrent**, **Parapluie : Rapière de tempête inversée**, **Parapluie : Tourbillon convergent** ou **Parapluie : Torrent**, l'effet [Vent] est activé.`, [
+        { title: `[Vent]`, content: `Augmente les dégâts des compétences **Rapière de tempête inversée**, **Tourbillon convergent**, **Parapluie : Rapière de tempête inversée**, **Parapluie : Tourbillon convergent**, **Sérénade tempétueuse** et **Sérénade : Perturbation aéro** de 50 %.
+            À 3 cumuls, octroie à toute l'équipe le maximum de cumuls de l'effet [Ailes de bourrasque] à l'exception de Sung Jinah.
+            Lorsque l'utilisatrice quitte le combat, cet effet est supprimé. En mode Combat d'équipe, cet effet est supprimé toutes les 15 seconde(s).
+            Durée : 60 seconde(s) (cumulable jusqu'à 3 fois).` },
+        { title: `[Ailes de bourrasque]`, content: `Lors de l'utilisation de la compétence de base ou de la compétence ultime, 1 cumul de l'effet [Ailes de bourrasque] est supprimé et l'effet [Ailes de la liberté] est activé.
+            Durée : 60 seconde(s) (cumulable jusqu'à 3 fois).` },
+        { title: `[Ailes de la liberté]`, content: `Augmente les dégâts des compétences de base et ultime de l'utilisatrice de 10 %.
+            Durée : 5 seconde(s) (cumulable jusqu'à 1 fois).` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Lorsque l'effet [Vent] est activé, l'effet [Toucher du vent] est appliqué à toute l'équipe.`, [
+        { title: `[Toucher du vent]`, content: `Augmente l'Attaque de l'utilisatrice de 1 %. Augmente la Défense de 1 %.
+            Augmente les dégâts de la compétence de base de 0.5 %.
+            Augmente en plus l'Attaque des membres de l'équipe de l'élément Vent de 1 %.
+            Augmente en plus la Défense des membres de l'équipe de l'élément Vent de 1 %.
+            Augmente en plus les dégâts de la compétence de base des membres de l'équipe de l'élément Vent de 0.5 %.
+            Durée : illimitée (cumulable jusqu'à 10 fois).` }
+    ], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Lorsque l'effet [Ailes de bourrasque] est activé, toute l'équipe récupère des PM à hauteur de 100 par cumul appliqué.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Ailes de bourrasque]</span></h4>
-            <p>Lors de l'utilisation de la <span class="keyword-orange">compétence de base</span> ou de la <span class="keyword-orange">compétence ultime</span>, 1 cumul de l'effet <span class="buff">[Ailes de bourrasque]</span> est supprimé et l'effet <span class="buff">[Ailes de la liberté]</span> est activé.<br>
-            Durée : 60 seconde(s) (cumulable jusqu'à 3 fois).</p>
-        </div>
+        L'effet [Ailes de la liberté] est amélioré.`, [
+        { title: `[Ailes de la liberté] (Amélioré)`, content: `Les dégâts des compétences de base et ultime de l'utilisatrice augmentent de 20 %.
+            Les dégâts de vent de l'utilisatrice augmentent de 10 %.
+            Durée : 10 seconde(s) (cumulable jusqu'à 1 fois).` }
+    ], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Améliore l'effet [Ailes de la liberté].`, [
+        { title: `[Ailes de la liberté] (Amélioré - 3 Étoiles)`, content: `Augmente les dégâts des compétences de base et ultime de l'utilisatrice de 20 %.
+            Augmente les dégâts de vent de 10 %.
+            Lorsque la compétence ultime de l'utilisatrice touche sa cible, elle lui applique l'effet [Irrémédiable].
+            Durée : 10 seconde(s) (cumulable jusqu'à 1 fois).` },
+        { title: `[Irrémédiable]`, content: `La cible n'est pas en mesure de récupérer des PV.
+            Durée : 30 seconde(s).` }
+    ], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts de vent des membres de l'équipe de l'élément Vent augmentent de 5 % par allié de l'élément Vent.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `L'utilisation des compétences **Perturbation aéro** ou **Sérénade : Perturbation aéro** confère 1 cumul(s) de l'effet [Aéro] à toute l'équipe.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Ailes de la liberté]</span></h4>
-            <p>Augmente les dégâts des <span class="keyword-orange">compétences de base</span> et ultime de l'utilisatrice de <span class="stat-boost">10 %</span>.<br>
-            Durée : 5 seconde(s) (cumulable jusqu'à 1 fois).</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque l'effet <span class="buff">[Vent]</span> est activé, l'effet <span class="buff">[Toucher du vent]</span> est appliqué à toute l'équipe.<br></p>
+        Après l'utilisation de la compétence **Sérénade tempétueuse** en mode Combat d'équipe, la compétence **Sérénade : Perturbation aéro** peut à nouveau être utilisée.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Toucher du vent]</span></h4>
-            <p>Augmente l'Attaque de l'utilisatrice de <span class="stat-boost">1 %</span>. Augmente la Défense de <span class="stat-boost">1 %</span>.<br>
-            Augmente les dégâts de la <span class="keyword-orange">compétence de base</span> de <span class="stat-boost">0.5 %</span>.<br>
-            Augmente en plus l'Attaque des membres de l'équipe de l'élément <span class="element-vent">Vent</span> de <span class="stat-boost">1 %</span>.<br>
-            Augmente en plus la Défense des membres de l'équipe de l'élément <span class="element-vent">Vent</span> de <span class="stat-boost">1 %</span>.<br>
-            Augmente en plus les dégâts de la <span class="keyword-orange">compétence de base</span> des membres de l'équipe de l'élément <span class="element-vent">Vent</span> de <span class="stat-boost">0.5 %</span>.<br>
-            Durée : illimitée (cumulable jusqu'à 10 fois).</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Lorsque l'effet <span class="buff">[Ailes de bourrasque]</span> est activé, toute l'équipe récupère des PM à hauteur de 100 par cumul appliqué.<br>
-        L'effet <span class="buff">[Ailes de la liberté]</span> est amélioré.<br></p>
-
-        <div class="detail-box">
-            <h4><span class="buff">[Ailes de la liberté]</span> (Amélioré)</h4>
-            <p>Les dégâts des <span class="keyword-orange">compétences de base</span> et ultime de l'utilisatrice augmentent de <span class="stat-boost">20 %</span>.<br>
-            Les dégâts de vent de l'utilisatrice augmentent de <span class="stat-boost">10 %</span>.<br>
-            Durée : 10 seconde(s) (cumulable jusqu'à 1 fois).</p>
-        </div>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Améliore l'effet <span class="buff">[Ailes de la liberté]</span>.<br></p>
-
-        <div class="detail-box">
-            <h4><span class="buff">[Ailes de la liberté]</span> (Amélioré - 3 Étoiles)</h4>
-            <p>Augmente les dégâts des <span class="keyword-orange">compétences de base</span> et ultime de l'utilisatrice de <span class="stat-boost">20 %</span>.<br>
-            Augmente les dégâts de vent de <span class="stat-boost">10 %</span>.<br>
-            Lorsque la <span class="keyword-orange">compétence ultime</span> de l'utilisatrice touche sa cible, elle lui applique l'effet <span class="buff">[Irrémédiable]</span>.<br>
-            Durée : 10 seconde(s) (cumulable jusqu'à 1 fois).</p>
-        </div>
-
-        <div class="detail-box">
-            <h4><span class="buff">[Irrémédiable]</span></h4>
-            <p>La cible n'est pas en mesure de récupérer des PV.<br>
-            Durée : 30 seconde(s).</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts de vent des membres de l'équipe de l'élément <span class="element-vent">Vent</span> augmentent de <span class="stat-boost">5 %</span> par allié de l'élément <span class="element-vent">Vent</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>L'utilisation des compétences <strong>Perturbation aéro</strong> ou <strong>Sérénade : Perturbation aéro</strong> confère 1 cumul(s) de l'effet <span class="buff">[Aéro]</span> à toute l'équipe.<br>
-        Après l'utilisation de la compétence <strong>Sérénade tempétueuse</strong> en mode Combat d'équipe, la compétence <strong>Sérénade : Perturbation aéro</strong> peut à nouveau être utilisée.<br>
-        Lorsque Sung Jinah ou un membre de l'équipe quitte le combat, 1 cumuls supplémentaires de l'effet <span class="buff">[Aéro]</span> sont conférés à toute l'équipe.<br></p>
-
-        <div class="detail-box">
-            <h4><span class="buff">[Sérénade : Perturbation aéro]</span></h4>
-            <p>Dégâts : inflige des dégâts équivalents à <span class="stat-boost">300 %</span> de ceux de <strong>Sérénade tempétueuse</strong>.<br>
-            Lors de l'utilisation de cette compétence, le temps de rechargement de la compétence <strong>Sérénade tempétueuse</strong> diminue de <span class="stat-boost">60 %</span> et l'effet <span class="buff">[Averses soudaines]</span> est réactivé sur Sung Jinah.</p>
-        </div>
-
-        <div class="detail-box">
-            <h4><span class="buff">[Aéro]</span></h4>
-            <p>Augmente les dégâts de vent de <span class="stat-boost">2 %</span>.<br>
-            Durée : 60 seconde(s) (cumulable jusqu'à 5 fois).</p>
-        </div>
-        </div>
-    `
+        Lorsque Sung Jinah ou un membre de l'équipe quitte le combat, 1 cumuls supplémentaires de l'effet [Aéro] sont conférés à toute l'équipe.`, [
+        { title: `[Sérénade : Perturbation aéro]`, content: `Dégâts : inflige des dégâts équivalents à 300 % de ceux de **Sérénade tempétueuse**.
+            Lors de l'utilisation de cette compétence, le temps de rechargement de la compétence **Sérénade tempétueuse** diminue de 60 % et l'effet [Averses soudaines] est réactivé sur Sung Jinah.` },
+        { title: `[Aéro]`, content: `Augmente les dégâts de vent de 2 %.
+            Durée : 60 seconde(s) (cumulable jusqu'à 5 fois).` }
+    ], "Vent")
     },
     summaryData: {
         0: `
@@ -745,21 +480,15 @@ huntersData["sung-jinah"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente la Défense de <span class="stat-boost">2 %</span>.<br>
-        Lors de l'utilisation des compétences <strong>Rapière de tempête inversée</strong> ou <strong>Parapluie : Rapière de tempête inversée</strong>, les dégâts de <span class="keyword-orange">compétence de base</span> des membres de l'équipe augmentent de <span class="stat-boost">0.5 %</span>.</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente la Défense de <span class="stat-boost">12 %</span>.<br>
-        Lors de l'utilisation des compétences <strong>Rapière de tempête inversée</strong> ou <strong>Parapluie : Rapière de tempête inversée</strong>, les dégâts de <span class="keyword-orange">compétence de base</span> des membres de l'équipe augmentent de <span class="stat-boost">2 %</span>.<br>
-        Durée : illimitée (cumulable jusqu'à 5 fois)</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente la Défense de 2 %.
+
+        Lors de l'utilisation des compétences **Rapière de tempête inversée** ou **Parapluie : Rapière de tempête inversée**, les dégâts de compétence de base des membres de l'équipe augmentent de 0.5 %.`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente la Défense de 12 %.
+
+        Lors de l'utilisation des compétences **Rapière de tempête inversée** ou **Parapluie : Rapière de tempête inversée**, les dégâts de compétence de base des membres de l'équipe augmentent de 2 %.
+
+        Durée : illimitée (cumulable jusqu'à 5 fois)`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15 %.`, "Vent")
     }
 };
 
@@ -773,51 +502,30 @@ huntersData["woo-jincheol"] = {
     weaponImage: "Chasseurs_SSR/vent/Woo_jincheol/un_autre_niveau/Relic_WooJinChul_PortraitBig.png",
     weaponName: "Un autre niveau",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque la compétence <strong>Ruée</strong> est utilisée, les dégâts des compétences <strong>Suppression</strong>, <strong>Médiation de puissance</strong> et <strong>Poing de fer</strong> augmentent de <span class="stat-boost">30%</span> pendant 6 seconde(s) et l'effet <span class="buff">[Super armure]</span> est appliqué.<br>
-        Le temps de rechargement de <strong>Ruée</strong> est réduit de 1 seconde(s).<br></p>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Modification de l'effet de la compétence<br>
-        <strong>[Médiation de puissance]</strong><br>
-        Augmente l'effet et les dégâts de <span class="buff">[Bris]</span> de <span class="stat-boost">100%</span>.<br>
-        Peut être utilisée jusqu'à 3 fois.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>La Pénétration de défense de l'utilisateur augmente de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Ruée</strong>, <strong>Évasion extrême</strong> ou <strong>Verdict</strong>, le temps de rechargement des compétences <strong>Médiation de puissance</strong> et <strong>Poing de fer</strong> est réduit de 2 seconde(s), et l'<span class="keyword-orange">attaque de noyau</span> de l'utilisateur est activée.<br>
-        Lors de l'utilisation de <strong>Verdict</strong>, la compétence passive de base de l'utilisateur s'active et l'effet est amélioré.<br>
-        L'effet d'augmentation des dégâts de l'utilisateur passe à <span class="stat-boost">35%</span>.<br>
-        Augmente sa durée à 7 seconde(s).<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts de vent infligés par l'utilisateur augmentent de <span class="stat-boost">16%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lorsque l'Attaque de base est utilisée 4 fois, l'utilisateur active sa compétence passive de palier 31.<br>
-        Lors de l'utilisation de la compétence <strong>Médiation de puissance</strong>, la Défense de l'utilisateur augmente de <span class="stat-boost">5%</span> <br>
-        (cumulable jusqu'à 12 fois).<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lorsque la compétence **Ruée** est utilisée, les dégâts des compétences **Suppression**, **Médiation de puissance** et **Poing de fer** augmentent de 30% pendant 6 seconde(s) et l'effet [Super armure] est appliqué.
+
+        Le temps de rechargement de **Ruée** est réduit de 1 seconde(s).`, [], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Modification de l'effet de la compétence
+
+        **[Médiation de puissance]**
+
+        Augmente l'effet et les dégâts de [Bris] de 100%.
+
+        Peut être utilisée jusqu'à 3 fois.`, [], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `La Pénétration de défense de l'utilisateur augmente de 10%.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation des compétences **Ruée**, **Évasion extrême** ou **Verdict**, le temps de rechargement des compétences **Médiation de puissance** et **Poing de fer** est réduit de 2 seconde(s), et l'attaque de noyau de l'utilisateur est activée.
+
+        Lors de l'utilisation de **Verdict**, la compétence passive de base de l'utilisateur s'active et l'effet est amélioré.
+
+        L'effet d'augmentation des dégâts de l'utilisateur passe à 35%.
+
+        Augmente sa durée à 7 seconde(s).`, [], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts de vent infligés par l'utilisateur augmentent de 16%.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'Attaque de base est utilisée 4 fois, l'utilisateur active sa compétence passive de palier 31.
+
+        Lors de l'utilisation de la compétence **Médiation de puissance**, la Défense de l'utilisateur augmente de 5% 
+
+        (cumulable jusqu'à 12 fois).`, [], "Vent")
     },
     summaryData: {
         0: `
@@ -850,24 +558,21 @@ huntersData["woo-jincheol"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>L'utilisateur attaque en ignorant <span class="stat-boost">2 %</span> de la Défense.<br>
-        Lors de l'utilisation de la compétence <strong>Médiation de puissance</strong>, les dégâts infligés par l'utilisateur à la cible augmentent de <span class="stat-boost">5%</span> pendant 5 seconde(s) (cumulable jusqu'à 3 fois).<br>
-        Lorsque l'ennemi entre en état de <span class="buff">[Bris]</span>, les dégâts élémentaires de vent de toute l'équipe augmentent de <span class="stat-boost">4%</span>, à l'exception de l'utilisateur de cette compétence.<br>
-        Durée: infinie<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>L'utilisateur attaque en ignorant <span class="stat-boost">6 %</span> de la Défense.<br>
-        Lors de l'utilisation de la compétence <strong>Médiation de puissance</strong>, les dégâts infligés par l'utilisateur à la cible augmentent de <span class="stat-boost">20%</span> pendant 5 seconde(s) (cumulable jusqu'à 3 fois).<br>
-        Lorsque l'ennemi entre en état de <span class="buff">[Bris]</span>, les dégâts élémentaires de vent de toute l'équipe augmentent de <span class="stat-boost">12%</span>, à l'exception de l'utilisateur de cette compétence.<br>
-        Durée: infinie<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `L'utilisateur attaque en ignorant 2 % de la Défense.
+
+        Lors de l'utilisation de la compétence **Médiation de puissance**, les dégâts infligés par l'utilisateur à la cible augmentent de 5% pendant 5 seconde(s) (cumulable jusqu'à 3 fois).
+
+        Lorsque l'ennemi entre en état de [Bris], les dégâts élémentaires de vent de toute l'équipe augmentent de 4%, à l'exception de l'utilisateur de cette compétence.
+
+        Durée: infinie`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `L'utilisateur attaque en ignorant 6 % de la Défense.
+
+        Lors de l'utilisation de la compétence **Médiation de puissance**, les dégâts infligés par l'utilisateur à la cible augmentent de 20% pendant 5 seconde(s) (cumulable jusqu'à 3 fois).
+
+        Lorsque l'ennemi entre en état de [Bris], les dégâts élémentaires de vent de toute l'équipe augmentent de 12%, à l'exception de l'utilisateur de cette compétence.
+
+        Durée: infinie`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Vent")
     }
 };
 
@@ -881,62 +586,27 @@ huntersData["hwang-dongsoo"] = {
     weaponImage: "Chasseurs_SSR/vent/Hwang_dongsoo/une_touche_de_douceur/Relic_HwangDongSu_PortraitBig.png",
     weaponName: "Une touche de douceur",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Soif de tuer</strong>, <strong>Frappe de fer</strong> ou <strong>Influence de rang S</strong> ou après que l'utilisateur a subi une attaque, l'effet <span class="buff">[Impulsion]</span> s'applique.<br>
-        Lorsque l'effet <span class="buff">[Impulsion]</span> atteint son nombre de cumuls maximum, l'effet <span class="buff">[Vengeance impulsive]</span> s'applique.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Impulsion]</span></h4>
-            <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">3%</span> (cumulable jusqu'à 5 fois).<br>
-            Durée: illimitée</p>
-        </div>
-        <div class="detail-box">
-            <h4><span class="buff">[Vengeance impulsive]</span></h4>
-            <p>Lorsque cet effet est actif, il dissipe l'effet <span class="buff">[Impulsion]</span>.<br>
-            Augmente la Défense de l'utilisateur de <span class="stat-boost">24%</span>.<br>
-            Crée un <span class="buff">[Bouclier]</span> équivalent à <span class="stat-boost">12%</span> de la Défense de l'utilisateur.<br>
-            Lorsque l'effet est appliqué pour la première fois, améliore <strong>Scavenger d'avarice</strong>, double les dégâts et réinitialise le temps de rechargement.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>La compétence <strong>Scavenger d'avarice</strong> peut être chargée jusqu'au palier 2, augmentant ainsi ses dégâts de <span class="stat-boost">150%</span> maximum selon le temps de charge.<br>
-        L'utilisation de <strong>Scavenger d'avarice</strong> applique l'effet <span class="buff">[Super armure]</span>.<br></p>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente la Défense de l'utilisateur de <span class="stat-boost">8%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>À chaque utilisation des compétences <strong>Soif de tuer</strong> ou <strong>Scavenger d'avarice</strong>, l'utilisateur obtient l'effet <span class="buff">[Folie]</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Folie]</span></h4>
-            <p>Augmente la Défense et la Pénétration de défense de l'utilisateur de <span class="stat-boost">4%</span> (cumulable Jusqu'a 3 fois)<br>
-            Durée: 6 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente les dégâts de <strong>Sans pitié</strong> de l'utilisateur de <span class="stat-boost">40 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les dégâts de <strong>Sans pitié</strong> infligés par l'utilisateur augmentent de <span class="stat-boost">80%</span> lorsque <strong>Vengeance Impulsive</strong> est active.<br></p>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation des compétences **Soif de tuer**, **Frappe de fer** ou **Influence de rang S** ou après que l'utilisateur a subi une attaque, l'effet [Impulsion] s'applique.
+
+        Lorsque l'effet [Impulsion] atteint son nombre de cumuls maximum, l'effet [Vengeance impulsive] s'applique.`, [
+        { title: `[Impulsion]`, content: `Augmente la Défense de l'utilisateur de 3% (cumulable jusqu'à 5 fois).
+            Durée: illimitée` },
+        { title: `[Vengeance impulsive]`, content: `Lorsque cet effet est actif, il dissipe l'effet [Impulsion].
+            Augmente la Défense de l'utilisateur de 24%.
+            Crée un [Bouclier] équivalent à 12% de la Défense de l'utilisateur.
+            Lorsque l'effet est appliqué pour la première fois, améliore **Scavenger d'avarice**, double les dégâts et réinitialise le temps de rechargement.
+            Durée: 10 seconde(s)` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `La compétence **Scavenger d'avarice** peut être chargée jusqu'au palier 2, augmentant ainsi ses dégâts de 150% maximum selon le temps de charge.
+
+        L'utilisation de **Scavenger d'avarice** applique l'effet [Super armure].`, [], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Augmente la Défense de l'utilisateur de 8%.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `À chaque utilisation des compétences **Soif de tuer** ou **Scavenger d'avarice**, l'utilisateur obtient l'effet [Folie].`, [
+        { title: `[Folie]`, content: `Augmente la Défense et la Pénétration de défense de l'utilisateur de 4% (cumulable Jusqu'a 3 fois)
+            Durée: 6 seconde(s)` }
+    ], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Augmente les dégâts de **Sans pitié** de l'utilisateur de 40 %.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Les dégâts de **Sans pitié** infligés par l'utilisateur augmentent de 80% lorsque **Vengeance Impulsive** est active.`, [], "Vent")
     },
     summaryData: {
         0: `
@@ -969,20 +639,13 @@ huntersData["hwang-dongsoo"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Les dégâts de vent infligés par l'utilisateur augmentent de <span class="stat-boost">4%</span>.<br>
-        Les dégâts de <span class="keyword-orange">compétence de base</span> de l'utilisateur augmentent de <span class="stat-boost">3%</span> lorsque les effets <span class="buff">[Vengeance impulsive ou Folie]</span> s'activent (cumulable jusqu'à 4 fois).<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Les dégâts de vent infligés par l'utilisateur augmentent de <span class="stat-boost">12%</span>.<br>
-        Les dégâts de <span class="keyword-orange">compétence de base</span> de l'utilisateur augmentent de <span class="stat-boost">3%</span> lorsque les effets <span class="buff">[Vengeance impulsive ou Folie]</span> s'activent (cumulable jusqu'à 15 fois).<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Les dégâts de vent infligés par l'utilisateur augmentent de 4%.
+
+        Les dégâts de compétence de base de l'utilisateur augmentent de 3% lorsque les effets [Vengeance impulsive ou Folie] s'activent (cumulable jusqu'à 4 fois).`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Les dégâts de vent infligés par l'utilisateur augmentent de 12%.
+
+        Les dégâts de compétence de base de l'utilisateur augmentent de 3% lorsque les effets [Vengeance impulsive ou Folie] s'activent (cumulable jusqu'à 15 fois).`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Vent")
     }
 };
 
@@ -996,65 +659,31 @@ huntersData["han-se-mi"] = {
     weaponImage: "Chasseurs_SSR/vent/Han_se_mi/l_age_adulte/Relic_HanSeMi_PortraitBig.png",
     weaponName: "L'âge adulte",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lors de l'utilisation des compétences <strong>Pousses affûtées</strong>, <strong>Prairie dorée</strong> ou <strong>Lianes de vitalité</strong>, le buff <span class="buff">[Souffle]</span> est appliqué à tous les membres de l'équipe (Temps de rechargement: 15 seconde(s)).<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Souffle]</span></h4>
-            <p>Augmente les dégâts de <span class="keyword-orange">compétence de base</span> de l'utilisatrice de <span class="stat-boost">10%</span>.<br>
-            Augmente également les dégâts de <span class="keyword-orange">compétence de base</span> des coéquipiers l'élément <span class="element-vent">Vent</span> de <span class="stat-boost">5%</span>.<br>
-            Durée: 25 seconde(s)<br>
-            (Cumuls max :2).<br></p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Les membres de l'équipe bénéficient de l'effet <span class="buff">[Souffle robuste]</span> lorsqu'ils utilisent leur <span class="keyword-orange">compétence ultime</span>.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Souffle tranchant]</span></h4>
-            <p>Applique l'effet ci-dessous à chaque seconde.<br>
-            Taux de coup critique: <span class="stat-boost">1%</span> (cumulable jusqu'à 10%) <br>
-            Dégâts de coup critique: <span class="stat-boost">1%</span> (cumulable jusqu'à 10%)<br>
-            Charge la jauge de puissance de <span class="stat-boost">1%</span><br>
-            Durée: 20 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Les PV de l'utilisatrice augmentent de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lorsque les PV de l'utilisatrice sont à 1 ou en dessous de la zone de la compétence <strong>Prairie dorée</strong>, elle devient <span class="buff">[immortelle]</span> pendant 2 seconde(s)<br>
-        Lorsque l'effet <span class="buff">[Immortel]</span> se dissipe, elle récupère des PV à hauteur de <span class="stat-boost">30%</span> des PV max de Han Se-Mi.<br>
-        Cet effet ne s'active qu'une fois par combat.<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts de vent infligés par tous les membres de l'équipe augmentent de <span class="stat-boost">10%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lorsque l'utilisatrice quitte le combat ou utilise <strong>Lianes de vitalité</strong>, l'effet <span class="buff">[Unité de la nature]</span> est octroyé à tous les membres de son équipe.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Unité de la nature]</span></h4>
-            <p>Augmente l'Attaque de l'utilisatrice de <span class="stat-boost">10%</span>.<br>
-            Augmente les dégâts de vent de <span class="stat-boost">20%</span>.<br>
-            Durée: 25 seconde(s)</p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lors de l'utilisation des compétences **Pousses affûtées**, **Prairie dorée** ou **Lianes de vitalité**, le buff [Souffle] est appliqué à tous les membres de l'équipe (Temps de rechargement: 15 seconde(s)).`, [
+        { title: `[Souffle]`, content: `Augmente les dégâts de compétence de base de l'utilisatrice de 10%.
+            Augmente également les dégâts de compétence de base des coéquipiers l'élément Vent de 5%.
+            Durée: 25 seconde(s)
+            (Cumuls max :2).` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Les membres de l'équipe bénéficient de l'effet [Souffle robuste] lorsqu'ils utilisent leur compétence ultime.`, [
+        { title: `[Souffle tranchant]`, content: `Applique l'effet ci-dessous à chaque seconde.
+            Taux de coup critique: 1% (cumulable jusqu'à 10%) 
+            Dégâts de coup critique: 1% (cumulable jusqu'à 10%)
+            Charge la jauge de puissance de 1%
+            Durée: 20 seconde(s)` }
+    ], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Les PV de l'utilisatrice augmentent de 10%.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Lorsque les PV de l'utilisatrice sont à 1 ou en dessous de la zone de la compétence **Prairie dorée**, elle devient [immortelle] pendant 2 seconde(s)
+
+        Lorsque l'effet [Immortel] se dissipe, elle récupère des PV à hauteur de 30% des PV max de Han Se-Mi.
+
+        Cet effet ne s'active qu'une fois par combat.`, [], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts de vent infligés par tous les membres de l'équipe augmentent de 10%.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'utilisatrice quitte le combat ou utilise **Lianes de vitalité**, l'effet [Unité de la nature] est octroyé à tous les membres de son équipe.`, [
+        { title: `[Unité de la nature]`, content: `Augmente l'Attaque de l'utilisatrice de 10%.
+            Augmente les dégâts de vent de 20%.
+            Durée: 25 seconde(s)` }
+    ], "Vent")
     },
     summaryData: {
         0: `
@@ -1090,20 +719,13 @@ huntersData["han-se-mi"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente les PV de l'utilisatrice de <span class="stat-boost">4 %</span>.<br>
-        Augmente les dégâts subis de <span class="stat-boost">5%</span> pendant 4 seconde(s) face aux cibles touchées par une compétence de Han Se-Mi.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente les PV de l'utilisatrice de <span class="stat-boost">10%</span>.<br>
-        Augmente les dégâts subis de <span class="stat-boost">5%</span> pendant 10 seconde(s) face aux cibles touchées par une compétence de Han Se-Mi.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente les PV de l'utilisatrice de 4 %.
+
+        Augmente les dégâts subis de 5% pendant 4 seconde(s) face aux cibles touchées par une compétence de Han Se-Mi.`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente les PV de l'utilisatrice de 10%.
+
+        Augmente les dégâts subis de 5% pendant 10 seconde(s) face aux cibles touchées par une compétence de Han Se-Mi.`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Vent")
     }
 };
 
@@ -1117,69 +739,36 @@ huntersData["goto-ryuji"] = {
     weaponImage: "Chasseurs_SSR/vent/Goto_ryuji/reves_distordus/Relic_GotoRyuji_PortraitBig.png",
     weaponName: "Rêves distordus",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque la <span class="keyword-orange">compétence de base</span> de l'utilisateur touche sa cible, ce dernier récupère 50 PM.<br>
-        Le Taux de coup critique de l'utilisateur augmente à hauteur de <span class="stat-boost">20%</span> de ses Dégâts de coup critique.<br>
-        Lorsque l'effet <span class="buff">[Exorcisme]</span> atteint 5 cumuls, il déclenche l'effet <span class="buff">[Arrogance]</span> sur tous les membres de l'équipe de l'élément <span class="buff">[Vent]</span>.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Arrogance]</span></h4>
-            <p>Augmente les Dégâts de coup critique de <span class="stat-boost">20%</span>.<br>
-            Les dégâts de la <span class="keyword-orange">compétence de base</span> de l'utilisateur augmentent de <span class="stat-boost">20 %</span>.<br>
-            La Consommation de mana des compétences de l'utilisateur augmente de <span class="stat-boost">33%</span>.<br>
-            Durée: 20 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Si Goto Ryuji ou un allié parvient à mettre un ennemi en état de <span class="buff">[Bris]</span>, la durée de l'état de <span class="buff">[Bris]</span> augmente de 3 seconde(s).<br>
-        L'effet <span class="buff">[Voie du tyran]</span> est appliqué aux alliés à l'arrivée dans un niveau.<br>
-        Lorsque l'effet <span class="buff">[Exorcisme]</span> atteint 5 cumuls, il déclenche l'effet <span class="buff">[Âme démonique]</span>.<br>
-        Lorsque Goto utilise <strong>Bourrasque mortelle</strong>, les dégâts de vent des compétences <strong>Tempête inversée</strong> et <strong>Lame tempête</strong> augmentent de <span class="stat-boost">10%</span> pendant 10 seconde(s).<br></p>
+        0: fmtPassif(`Passif :`, `Lorsque la compétence de base de l'utilisateur touche sa cible, ce dernier récupère 50 PM.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Voie du tyran]</span></h4>
-            <p>Augmente les dégâts infligés aux cibles en état de <span class="buff">[Bris]</span> de <span class="stat-boost">12%</span>.<br>
-            Durée: illimitée</p>
-        </div>
+        Le Taux de coup critique de l'utilisateur augmente à hauteur de 20% de ses Dégâts de coup critique.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Âme démonique]</span></h4>
-            <p><strong>Tempête inversée</strong> devient <strong>Lame tempête</strong>, ce qui augmente ses dégâts de <span class="stat-boost">50%</span>.<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>L'efficacité de <span class="buff">[Bris]</span> de l'utilisateur augmente de <span class="stat-boost">20%</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'utilisation des compétences <strong><span class="element-vent">Vent</span> divin</strong> et <strong>Dévastation de proie</strong> augmente les Dégâts de coup critique de l'utilisateur de <span class="stat-boost">20%</span> pendant 12 seconde(s).<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Les dégâts du troisième chasseur de l'équipe augmentent de <span class="stat-boost">24%</span>, mais les dégâts qu'il subit augmentent aussi de <span class="stat-boost">12%</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les compétences <strong>Ouragan céleste fantomatique</strong>, <strong>Tempête inversée</strong> et <strong>Lame tempête</strong> peuvent toucher la cible 2 fois de plus, et chaque attaque inflige des dégâts supplémentaires de <span class="stat-boost">10%</span>.<br>
-        Les compétences <strong>Ouragan céleste fantomatique</strong>, <strong>Tempête inversée</strong> et <strong>Lame tempête</strong> peuvent être utilisées 2 fois supplémentaires.<br>
-        Lorsque le ratio de PV de Goto Ryuji est supérieur à celui de l'ennemi, les dégâts de la compétence <strong>Dévastation de proie</strong> et les Dégâts de coup critique augmentent de <span class="stat-boost">60%</span>.<br></p>
-        </div>
-    `
+        Lorsque l'effet [Exorcisme] atteint 5 cumuls, il déclenche l'effet [Arrogance] sur tous les membres de l'équipe de l'élément [Vent].`, [
+        { title: `[Arrogance]`, content: `Augmente les Dégâts de coup critique de 20%.
+            Les dégâts de la compétence de base de l'utilisateur augmentent de 20 %.
+            La Consommation de mana des compétences de l'utilisateur augmente de 33%.
+            Durée: 20 seconde(s)` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Si Goto Ryuji ou un allié parvient à mettre un ennemi en état de [Bris], la durée de l'état de [Bris] augmente de 3 seconde(s).
+
+        L'effet [Voie du tyran] est appliqué aux alliés à l'arrivée dans un niveau.
+
+        Lorsque l'effet [Exorcisme] atteint 5 cumuls, il déclenche l'effet [Âme démonique].
+
+        Lorsque Goto utilise **Bourrasque mortelle**, les dégâts de vent des compétences **Tempête inversée** et **Lame tempête** augmentent de 10% pendant 10 seconde(s).`, [
+        { title: `[Voie du tyran]`, content: `Augmente les dégâts infligés aux cibles en état de [Bris] de 12%.
+            Durée: illimitée` },
+        { title: `[Âme démonique]`, content: `**Tempête inversée** devient **Lame tempête**, ce qui augmente ses dégâts de 50%.
+            Durée: 10 seconde(s)` }
+    ], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `L'efficacité de [Bris] de l'utilisateur augmente de 20%.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `L'utilisation des compétences **Vent divin** et **Dévastation de proie** augmente les Dégâts de coup critique de l'utilisateur de 20% pendant 12 seconde(s).`, [], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Les dégâts du troisième chasseur de l'équipe augmentent de 24%, mais les dégâts qu'il subit augmentent aussi de 12%.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Les compétences **Ouragan céleste fantomatique**, **Tempête inversée** et **Lame tempête** peuvent toucher la cible 2 fois de plus, et chaque attaque inflige des dégâts supplémentaires de 10%.
+
+        Les compétences **Ouragan céleste fantomatique**, **Tempête inversée** et **Lame tempête** peuvent être utilisées 2 fois supplémentaires.
+
+        Lorsque le ratio de PV de Goto Ryuji est supérieur à celui de l'ennemi, les dégâts de la compétence **Dévastation de proie** et les Dégâts de coup critique augmentent de 60%.`, [], "Vent")
     },
     summaryData: {
         0: `
@@ -1214,20 +803,13 @@ huntersData["goto-ryuji"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">5%</span>.<br>
-        L'utilisation des compétences <strong>Tempête inversée</strong> ou <strong>Lame tempête</strong> augmente les Dégâts de coup critique de l'utilisateur de <span class="stat-boost">5%</span> pendant 15 seconde(s).</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Les PV de l'utilisateur augmentent de <span class="stat-boost">12%</span>.<br>
-        L'utilisation des compétences <strong>Tempête inversée</strong> ou <strong>Lame tempête</strong> augmente les Dégâts de coup critique de l'utilisateur de <span class="stat-boost">30%</span> pendant 15 seconde(s).</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>L'Attaque, la Défense et les PV augmentent de <span class="stat-boost">15%</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Les PV de l'utilisateur augmentent de 5%.
+
+        L'utilisation des compétences **Tempête inversée** ou **Lame tempête** augmente les Dégâts de coup critique de l'utilisateur de 5% pendant 15 seconde(s).`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Les PV de l'utilisateur augmentent de 12%.
+
+        L'utilisation des compétences **Tempête inversée** ou **Lame tempête** augmente les Dégâts de coup critique de l'utilisateur de 30% pendant 15 seconde(s).`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `L'Attaque, la Défense et les PV augmentent de 15%.`, "Vent")
     }
 };
 
@@ -1241,59 +823,30 @@ huntersData["amamiya-mirei"] = {
     weaponImage: "Chasseurs_SSR/vent/Amamiya_mirei/lapin_bunbun/Relic_AmamiyaMirei_PortraitBig.png",
     weaponName: "Lapin Bunbun",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque l'utilisatrice a 66% de PM ou au-dessus, l'effet <span class="buff">[Noirceur de Kuroha]</span> s'applique.<br>
-        L'Attaque de l'utilisatrice augmente de <span class="stat-boost">4%</span> par tranche de 150 PM supplémentaires <br>(jusqu'à <span class="stat-boost">40%</span>)..<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Noirceur de Kuroha]</span></h4>
-            <p>Les dégâts des compétences <br><strong>Technique à l'épée de Kuroha type 3: Ailes de la nuit</strong> <br> et <strong>Technique à l'épée de Kuroha type 4: Cri de la corneille</strong> <br> augmentent de <span class="stat-boost">30%</span></p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p><img src='icon mirei.png' > Lorsque l'effet <span class="buff">[Possession]</span> est actif, le Taux de coup critique et les Dégâts de coup critique de l'utilisatrice augmentent de <span class="stat-boost">20%</span>.<br>
-        Lors de l'utilisation de la compétence <strong>Technique à l'épée de Kuroha type 3: Ailes de la nuit</strong> tandis que l'effet <span class="buff">[Possession]</span> est actif, l'effet <span class="buff">[<span class="element-tenebre">Ténèbres</span> profondes]</span> s'applique.<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[<span class="element-tenebre">Ténèbres</span> profondes]</span></h4>
-            <p>L'Attaque et le Taux de coup critique de l'utilisatrice augmentent de <span class="stat-boost">12%</span> <br>
-            (cumulable jusqu'à 2 fois).<br>
-            Durée: 10 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Remplit la jauge de puissance de l'utilisatrice de <span class="stat-boost">40%</span> en accédant au niveau.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>Lors de l'utilisation des Attaques de base ou de noyau, les PM et la jauge de puissance se remplissent de <span class="stat-boost">1%</span>, et le temps de rechargement de la compétence <strong>Technique à l'épée de Kuroha Coup létal : Ouverture spéciale de la nuit sans lune</strong> diminue de 2 seconde(s).<br></p>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Augmente les dégâts de vent d'Amamiya Mirei de <span class="stat-boost">10%</span> pour chaque membre de l'équipe de l'élément vent <br>
-        (cumulable jusqu'à 3 fois).<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Lorsque l'effet <span class="buff">[Possession]</span> est actif, l'effet <span class="buff">[Confession de la corneille]</span> s'applique à l'utilisatrice..<br></p>
-        <div class="detail-box">
-            <h4><span class="buff">[Confession de la corneille]</span></h4>
-            <p>Les dégâts des compétences <strong>Technique à l'épée de Kuroha type 3: Ailes de la nuit</strong> et <strong>Technique à l'épée de Kuroha type 4 : Cri de la corneille</strong> augmentent de <span class="stat-boost">80%</span></p>
-        </div>
-        </div>
-    `
+        0: fmtPassif(`Passif :`, `Lorsque l'utilisatrice a 66% de PM ou au-dessus, l'effet [Noirceur de Kuroha] s'applique.
+
+        L'Attaque de l'utilisatrice augmente de 4% par tranche de 150 PM supplémentaires 
+(jusqu'à 40%)..`, [
+        { title: `[Noirceur de Kuroha]`, content: `Les dégâts des compétences 
+**Technique à l'épée de Kuroha type 3: Ailes de la nuit** 
+ et **Technique à l'épée de Kuroha type 4: Cri de la corneille** 
+ augmentent de 30%` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `<img src='icon mirei.png' > Lorsque l'effet [Possession] est actif, le Taux de coup critique et les Dégâts de coup critique de l'utilisatrice augmentent de 20%.
+
+        Lors de l'utilisation de la compétence **Technique à l'épée de Kuroha type 3: Ailes de la nuit** tandis que l'effet [Possession] est actif, l'effet [Ténèbres profondes] s'applique.`, [
+        { title: `[Ténèbres profondes]`, content: `L'Attaque et le Taux de coup critique de l'utilisatrice augmentent de 12% 
+            (cumulable jusqu'à 2 fois).
+            Durée: 10 seconde(s)` }
+    ], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Remplit la jauge de puissance de l'utilisatrice de 40% en accédant au niveau.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `Lors de l'utilisation des Attaques de base ou de noyau, les PM et la jauge de puissance se remplissent de 1%, et le temps de rechargement de la compétence **Technique à l'épée de Kuroha Coup létal : Ouverture spéciale de la nuit sans lune** diminue de 2 seconde(s).`, [], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Augmente les dégâts de vent d'Amamiya Mirei de 10% pour chaque membre de l'équipe de l'élément vent 
+
+        (cumulable jusqu'à 3 fois).`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Lorsque l'effet [Possession] est actif, l'effet [Confession de la corneille] s'applique à l'utilisatrice..`, [
+        { title: `[Confession de la corneille]`, content: `Les dégâts des compétences **Technique à l'épée de Kuroha type 3: Ailes de la nuit** et **Technique à l'épée de Kuroha type 4 : Cri de la corneille** augmentent de 80%` }
+    ], "Vent")
     },
     summaryData: {
         0: `
@@ -1326,20 +879,13 @@ huntersData["amamiya-mirei"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Lorsque l'utilisatrice entre dans un niveau, sa jauge de puissance se remplit de <span class="stat-boost">10%</span>.<br>
-        Le Taux de coup critique et les Dégâts de coup critique des compétences <strong>Technique à l'épée de Kuroha type 3: Ailes de la nuit</strong> et <strong>Technique à l'épée de Kuroha type 4: Cri de la corneille</strong> augmentent de <span class="stat-boost">5%</span>.<br></p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Lorsque l'utilisatrice entre dans un niveau, sa jauge de puissance se remplit de <span class="stat-boost">60%</span>.<br>
-        Le Taux de coup critique et les Dégâts de coup critique des compétences <strong>Technique à l'épée de Kuroha type 3: Ailes de la nuit</strong> et <strong>Technique à l'épée de Kuroha type 4: Cri de la corneille</strong> augmentent de <span class="stat-boost">30%</span>.<br></p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>Augmente l'Attaque, la Défense et les PV de l'utilisateur de <span class="stat-boost">15%</span>.<br></p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Lorsque l'utilisatrice entre dans un niveau, sa jauge de puissance se remplit de 10%.
+
+        Le Taux de coup critique et les Dégâts de coup critique des compétences **Technique à l'épée de Kuroha type 3: Ailes de la nuit** et **Technique à l'épée de Kuroha type 4: Cri de la corneille** augmentent de 5%.`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Lorsque l'utilisatrice entre dans un niveau, sa jauge de puissance se remplit de 60%.
+
+        Le Taux de coup critique et les Dégâts de coup critique des compétences **Technique à l'épée de Kuroha type 3: Ailes de la nuit** et **Technique à l'épée de Kuroha type 4: Cri de la corneille** augmentent de 30%.`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.`, "Vent")
     }
 };
 
@@ -1348,71 +894,36 @@ huntersData["soyeon"] = {
     name: "Soyeon",
     rarity: "SSR",
     element: "Vent",
-    gradient: "linear-gradient(90deg, #2ecc71, #000)",
+    gradient: "linear-gradient(90deg, #32c732, #000)",
     image: "Chasseurs_SSR/collab/vent/Soyeon/soyeon_art.png",
     weaponImage: "Chasseurs_SSR/collab/vent/Soyeon/flash_flamboyant/Relic_Soyeon_PortraitBig.png",
     weaponName: "Flash flamboyant",
     fullData: {
-        0: `
-        <div class="passif-content passif-block">
-        <h3>Passif :</h3>
-        <p>Lorsque les compétences QTE, ultime ou l'<span class="keyword-orange">attaque de noyau</span> touchent leur cible, la jauge d'<span class="buff">[Énergie du flash]</span> se remplit.<br>
-        Lorsque la jauge d'<span class="buff">[Énergie du flash]</span> est remplie au maximum, l'effet <span class="buff">[Énergie du flash]</span> est activé.<br></p>
-        
-        <div class="detail-box">
-            <h4><span class="buff">[Énergie du flash]</span></h4>
-            <p>Augmente la Vitesse d'attaque, le Taux de coup critique et les Dégâts de coup critique de <span class="stat-boost">10 %</span>.<br>
-            Durée : 20 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        1: `
-        <div class="passif-content star-block">
-        <h3>1 étoile :</h3>
-        <p>Lorsque l'<span class="keyword-orange">attaque de noyau</span> est utilisée alors que la jauge d'<span class="buff">[Énergie du flash]</span> est remplie au maximum, l'effet <span class="buff">[Décharge]</span> est activé et la jauge d'<span class="buff">[Énergie du flash]</span> se vide entièrement.<br>
-        L'effet <span class="buff">[Énergie du flash]</span> est activé lorsque l'utilisatrice arrive dans le niveau.<br>
-        Les compétences <strong>Éclair de brèche</strong> et <strong>Entaille tournoyante</strong> deviennent respectivement <strong>Flash d'acier</strong> et <strong>Entaille tournoyante double</strong>, et leurs dégâts augmentent de <span class="stat-boost">100 %</span>.<br></p>
+        0: fmtPassif(`Passif :`, `Lorsque les compétences QTE, ultime ou l'attaque de noyau touchent leur cible, la jauge d'[Énergie du flash] se remplit.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Décharge]</span></h4>
-            <p>Augmente les dégâts infligés de <span class="stat-boost">30 %</span>.<br>
-            Durée : 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        2: `
-        <div class="passif-content star-block">
-        <h3>2 étoiles :</h3>
-        <p>Augmente les dégâts de vent de l'utilisatrice de <span class="stat-boost">30 %</span>.<br></p>
-        </div>
-    `,
-        3: `
-        <div class="passif-content star-block">
-        <h3>3 étoiles :</h3>
-        <p>L'effet <span class="buff">[Décharge]</span> n'active pas l'effet <span class="buff">[Énergie du flash]</span>, mais active l'effet <span class="buff">[Vitesse maximale]</span> à la place.<br></p>
+        Lorsque la jauge d'[Énergie du flash] est remplie au maximum, l'effet [Énergie du flash] est activé.`, [
+        { title: `[Énergie du flash]`, content: `Augmente la Vitesse d'attaque, le Taux de coup critique et les Dégâts de coup critique de 10 %.
+            Durée : 20 seconde(s)` }
+    ], "Vent"),
+        1: fmtPassif(`1 étoile :`, `Lorsque l'attaque de noyau est utilisée alors que la jauge d'[Énergie du flash] est remplie au maximum, l'effet [Décharge] est activé et la jauge d'[Énergie du flash] se vide entièrement.
 
-        <div class="detail-box">
-            <h4><span class="buff">[Vitesse maximale]</span></h4>
-            <p>Augmente les dégâts infligés de <span class="stat-boost">50 %</span>.<br>
-            Augmente la Vitesse d'attaque de <span class="stat-boost">30 %</span>.<br>
-            Confère l'effet <span class="buff">[Super armure]</span>.<br>
-            Durée : 15 seconde(s)</p>
-        </div>
-        </div>
-    `,
-        4: `
-        <div class="passif-content star-block">
-        <h3>4 étoiles :</h3>
-        <p>Le taux de remplissage de la jauge de puissance des membres de l'équipe de l'élément <span class="element-vent">Vent</span> augmente de <span class="stat-boost">20 %</span>.<br></p>
-        </div>
-    `,
-        5: `
-        <div class="passif-content star-block">
-        <h3>5 étoiles :</h3>
-        <p>Les compétences <strong>Angle mort</strong> et <strong>Entaille tournoyante</strong> deviennent respectivement <strong>Angle mort instantané</strong> et <strong>Entaille tournoyante double</strong>, et leurs dégâts augmentent de <span class="stat-boost">50 %</span>.<br>
-        Lorsque l'effet <span class="buff">[Décharge]</span> est activé, les temps de rechargement des compétences <strong>Angle mort instantané</strong> et <strong>Entaille tournoyante double</strong> sont réinitialisés.<br></p>
-        </div>
-    `
+        L'effet [Énergie du flash] est activé lorsque l'utilisatrice arrive dans le niveau.
+
+        Les compétences **Éclair de brèche** et **Entaille tournoyante** deviennent respectivement **Flash d'acier** et **Entaille tournoyante double**, et leurs dégâts augmentent de 100 %.`, [
+        { title: `[Décharge]`, content: `Augmente les dégâts infligés de 30 %.
+            Durée : 15 seconde(s)` }
+    ], "Vent"),
+        2: fmtPassif(`2 étoiles :`, `Augmente les dégâts de vent de l'utilisatrice de 30 %.`, [], "Vent"),
+        3: fmtPassif(`3 étoiles :`, `L'effet [Décharge] n'active pas l'effet [Énergie du flash], mais active l'effet [Vitesse maximale] à la place.`, [
+        { title: `[Vitesse maximale]`, content: `Augmente les dégâts infligés de 50 %.
+            Augmente la Vitesse d'attaque de 30 %.
+            Confère l'effet [Super armure].
+            Durée : 15 seconde(s)` }
+    ], "Vent"),
+        4: fmtPassif(`4 étoiles :`, `Le taux de remplissage de la jauge de puissance des membres de l'équipe de l'élément Vent augmente de 20 %.`, [], "Vent"),
+        5: fmtPassif(`5 étoiles :`, `Les compétences **Angle mort** et **Entaille tournoyante** deviennent respectivement **Angle mort instantané** et **Entaille tournoyante double**, et leurs dégâts augmentent de 50 %.
+
+        Lorsque l'effet [Décharge] est activé, les temps de rechargement des compétences **Angle mort instantané** et **Entaille tournoyante double** sont réinitialisés.`, [], "Vent")
     },
     summaryData: {
         0: `
@@ -1446,19 +957,12 @@ huntersData["soyeon"] = {
     `
     },
     weaponData: {
-        0: `
-        <h3>Avancement 0 :</h3>
-        <p>Augmente le Taux de coup critique de l'utilisatrice de <span class="stat-boost">4 %</span>.<br>
-        Lorsque l'effet <span class="buff">[Décharge]</span> est activé, les dégâts des <span class="keyword-orange">compétences de base</span> augmentent de <span class="stat-boost">15 %</span> pendant 15 seconde(s).</p>
-    `,
-        1: `
-        <h3>Avancement 5 étoiles :</h3>
-        <p>Augmente le Taux de coup critique de l'utilisatrice de <span class="stat-boost">12 %</span>.<br>
-        Lorsque l'effet <span class="buff">[Décharge]</span> est activé, les dégâts des <span class="keyword-orange">compétences de base</span> augmentent de <span class="stat-boost">50 %</span> pendant 15 seconde(s).</p>
-    `,
-        2: `
-        <h3>Avancement 10 étoiles :</h3>
-        <p>L'Attaque, la Défense et les PV de l'utilisatrice augmentent de <span class="stat-boost">15 %</span>.</p>
-    `
+        0: fmtWeapon(`Avancement 0 :`, `Augmente le Taux de coup critique de l'utilisatrice de 4 %.
+
+        Lorsque l'effet [Décharge] est activé, les dégâts des compétences de base augmentent de 15 % pendant 15 seconde(s).`, "Vent"),
+        1: fmtWeapon(`Avancement 5 étoiles :`, `Augmente le Taux de coup critique de l'utilisatrice de 12 %.
+
+        Lorsque l'effet [Décharge] est activé, les dégâts des compétences de base augmentent de 50 % pendant 15 seconde(s).`, "Vent"),
+        2: fmtWeapon(`Avancement 10 étoiles :`, `L'Attaque, la Défense et les PV de l'utilisatrice augmentent de 15 %.`, "Vent")
     }
 };
