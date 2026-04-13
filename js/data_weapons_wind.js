@@ -24,12 +24,12 @@ Durée : 15 seconde(s)` }
 La durée de [Chevalerie] devient illimitée.`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Chevalerie</h3><p>Compétence = <span class="buff">[Chevalerie]</span>.<br>Défense <span class="stat-boost">+400</span> par pile (max 7).</p>`,
-        1: `<h3>1 étoile</h3><p>À 3 piles : Attaque <span class="stat-boost">+400</span>.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+6 %</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>À 5 piles : Soin <span class="stat-boost">20 PV</span> par ennemi touché.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Épée du jugement <span class="stat-boost">-10 %</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>À 7 piles : <span class="buff">[Purification]</span> (10s) + Durée <span class="buff">[Chevalerie]</span> infinie.<br></p>`
+        0: `<h3>Passif :</h3><p>Compétence = <span class="buff">[Chevalerie]</span>.<br>Défense <span class="stat-boost">+400</span> par pile (max 7).</p>`,
+        1: `<h3>1 étoile</h3><p>À 3 piles : Attaque <span class="stat-boost">+400</span>.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+6 %</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>À 5 piles : Soin <span class="stat-boost">20 PV</span> par ennemi touché.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Épée du jugement <span class="stat-boost">-10 %</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>À 7 piles : <span class="buff">[Purification]</span> (10s) + Durée <span class="buff">[Chevalerie]</span> infinie.</p>`
     }
 };
 
@@ -54,12 +54,12 @@ Durée : 8 seconde(s)` }
         5: fmtPassif(`5 étoiles :`, `Lorsque l'effet [Un nouveau départ] est appliqué, les dégâts des Attaques de base et de noyau augmentent de 50 %.`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Nouveau Départ</h3><p>Compétence = <span class="buff">[Un nouveau départ]</span>.<br>Vitesse Atk et déplacement <span class="stat-boost">+12 %</span>.</p>`,
-        1: `<h3>1 étoile</h3><p>PV > 70 % = Taux de coup critique <span class="stat-boost">+8 %</span>.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+6 %</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p><span class="buff">[Un nouveau départ]</span> = <span class="buff">[Bouclier]</span> (50 % Défense).<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Énergie d'épée <span class="stat-boost">-10 %</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p><span class="buff">[Un nouveau départ]</span> = Dégâts Base/Noyau <span class="stat-boost">+50 %</span>.<br></p>`
+        0: `<h3>Passif :</h3><p>Compétence = <span class="buff">[Un nouveau départ]</span>.<br>Vitesse Atk et déplacement <span class="stat-boost">+12 %</span>.</p>`,
+        1: `<h3>1 étoile</h3><p>PV > 70 % = Taux de coup critique <span class="stat-boost">+8 %</span>.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+6 %</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p><span class="buff">[Un nouveau départ]</span> = <span class="buff">[Bouclier]</span> (50 % Défense).</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Énergie d'épée <span class="stat-boost">-10 %</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p><span class="buff">[Un nouveau départ]</span> = Dégâts Base/Noyau <span class="stat-boost">+50 %</span>.</p>`
     }
 };
 
@@ -85,12 +85,12 @@ Durée: 30 seconde(s) (Temps de rechargement: 10 seconde(s))` }
         5: fmtPassif(`5 étoiles :`, `Lorsque **Balle secrète** inflige un Coup critique, le temps de rechargement diminue de 9 seconde(s) (Temps de rechargement: 10 seconde(s)).`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Tireur d'Élite</h3><p>Si aucune cible < 5m : Dégâts Balle secrète <span class="stat-boost">+75%</span>.<br></p>`,
-        1: `<h3>1 étoile</h3><p>Balle secrète devient Chargée (Max Dégâts <span class="stat-boost">+130%</span>).<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+8%</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Si aucune cible < 5m : Dégâts Balle secrète <span class="stat-boost">+75%</span>.</p>`,
+        1: `<h3>1 étoile</h3><p>Balle secrète devient Chargée (Max Dégâts <span class="stat-boost">+130%</span>).</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+8%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Touche = <span class="buff">[Vent d'ouest]</span> (Dégâts Balle <span class="stat-boost">+30%</span>, max 5).<br>Manqué = Perte cumuls.</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Balle secrète <span class="stat-boost">-15%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Critique Balle secrète : CD -9s (CD effet 10s).<br></p>`
+        4: `<h3>4 étoiles</h3><p>CD Balle secrète <span class="stat-boost">-15%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Critique Balle secrète : CD -9s (CD effet 10s).</p>`
     }
 };
 
@@ -119,11 +119,11 @@ Temps de rechargement: 5 seconde(s)` }
 Lorsque la compétence **Foulée de l'ombre** est utilisée, elle applique les effets [Vivacité et Attaque surprise].`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Assassin du Givre</h3><p>Tueur de marcheurs blancs = <span class="buff">[Vivacité]</span>.<br>[Vivacité] : Dégâts attaque dos <span class="stat-boost">+30%</span> (8s).</p>`,
-        1: `<h3>1 étoile</h3><p>Tueur de marcheurs blancs : Téléporte derrière la cible.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+8%</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Tueur de marcheurs blancs = <span class="buff">[Vivacité]</span>.<br>[Vivacité] : Dégâts attaque dos <span class="stat-boost">+30%</span> (8s).</p>`,
+        1: `<h3>1 étoile</h3><p>Tueur de marcheurs blancs : Téléporte derrière la cible.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+8%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Attaque dos = <span class="buff">[Attaque surprise]</span>.<br>[Attaque surprise] : Crit Rate <span class="stat-boost">+20%</span> (5s, CD 5s).</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Tueur de marcheurs blancs <span class="stat-boost">-15%</span>.<br></p>`,
+        4: `<h3>4 étoiles</h3><p>CD Tueur de marcheurs blancs <span class="stat-boost">-15%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>[Attaque surprise] améliorée : Crit Rate <span class="stat-boost">+40%</span>.<br>Foulée de l'ombre active [Vivacité] + [Attaque surprise].</p>`
     }
 };
@@ -152,12 +152,12 @@ Durée: 10 seconde(s)` }
         5: fmtPassif(`5 étoiles :`, `Pendant que l'effet [Bouclier] est actif, l'Attaque augmente de 10% et la Défense de 10%.`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Gardien de Pierre</h3><p>Destruction terrestre = <span class="buff">[Protection terrestre]</span> (Bouclier <span class="stat-boost">40%</span> Def, 4s).<br></p>`,
-        1: `<h3>1 étoile</h3><p>[Protection] améliorée : Bouclier <span class="stat-boost">80%</span> Def, Durée 6s.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+8%</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Destruction terrestre = <span class="buff">[Protection terrestre]</span> (Bouclier <span class="stat-boost">40%</span> Def, 4s).</p>`,
+        1: `<h3>1 étoile</h3><p>[Protection] améliorée : Bouclier <span class="stat-boost">80%</span> Def, Durée 6s.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+8%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Sous Protection = <span class="buff">[Tempête terrestre]</span>.<br>[Tempête] : Dégâts zone (<span class="stat-boost">200%</span> Def/s, 10s).</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Destruction terrestre <span class="stat-boost">-15%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Sous Bouclier : Attaque/Défense <span class="stat-boost">+10%</span>.<br></p>`
+        4: `<h3>4 étoiles</h3><p>CD Destruction terrestre <span class="stat-boost">-15%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Sous Bouclier : Attaque/Défense <span class="stat-boost">+10%</span>.</p>`
     }
 };
 
@@ -195,12 +195,12 @@ Lorsque l'attaque de base Stade 3 de l'arme **Citrouille effrayante** touche sa 
 Lorsque l'attaque de noyau de l'arme **Citrouille effrayante** touche sa cible, le temps de rechargement de **Farce et attaque** diminue de 2 seconde(s).`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Festival de la Citrouille</h3><p>Attaques -> <span class="buff">[Bonbon citrouille]</span> (Dégâts Vent <span class="stat-boost">+1%</span>, max 10).<br>10 Bonbons = <span class="buff">[Des bonbons ou un sort!]</span>.<br>[Sort!] : Dégâts Vent/Infligés <span class="stat-boost">+10%</span> (10s, reset stacks).</p>`,
-        1: `<h3>1 étoile</h3><p>Farce et attaque : 50% chance activer Attaque noyau.<br>Attaque noyau : +2 cumuls [Bonbon].<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Farce et attaque : +3 cumuls [Bonbon].<br>[Sort!] amélioré : Dégâts Vent/Infligés <span class="stat-boost">+20%</span>.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Farce et attaque <span class="stat-boost">-20%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Farce et attaque : 100% chance activer Attaque noyau.<br>Attaque base 3 / Attaque noyau : CD Farce et attaque -2s.<br></p>`
+        0: `<h3>Passif :</h3><p>Attaques -> <span class="buff">[Bonbon citrouille]</span> (Dégâts Vent <span class="stat-boost">+1%</span>, max 10).<br>10 Bonbons = <span class="buff">[Des bonbons ou un sort!]</span>.<br>[Sort!] : Dégâts Vent/Infligés <span class="stat-boost">+10%</span> (10s, reset stacks).</p>`,
+        1: `<h3>1 étoile</h3><p>Farce et attaque : 50% chance activer Attaque noyau.<br>Attaque noyau : +2 cumuls [Bonbon].</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Farce et attaque : +3 cumuls [Bonbon].<br>[Sort!] amélioré : Dégâts Vent/Infligés <span class="stat-boost">+20%</span>.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Farce et attaque <span class="stat-boost">-20%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Farce et attaque : 100% chance activer Attaque noyau.<br>Attaque base 3 / Attaque noyau : CD Farce et attaque -2s.</p>`
     }
 };
 
@@ -247,11 +247,11 @@ La distance de charge de **Tonnerre Tonitruant** augmente de 50%.
 Les dégâts de **Tonnerre Tonitruant** augmentent de 150%.`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Roi des Démons</h3><p><span class="buff">[Deux en un]</span> : Boost Dégâts Tonnerre (1% / 10 Force, max 50%).<br>Crit/Crit Dmg Tonnerre <span class="stat-boost">+30%</span>.</p>`,
+        0: `<h3>Passif :</h3><p><span class="buff">[Deux en un]</span> : Boost Dégâts Tonnerre (1% / 10 Force, max 50%).<br>Crit/Crit Dmg Tonnerre <span class="stat-boost">+30%</span>.</p>`,
         1: `<h3>1 étoile</h3><p>Double Tonnerre possible.<br><span class="buff">[Éclair concentré]</span> (Stacks) -> <span class="buff">[Ruade foudroyante]</span>.<br>[Ruade] : Boost dégâts Tonnerre <span class="stat-boost">+50%</span>.</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>[Deux en un] : Max <span class="stat-boost">150%</span>.<br>[Éclair] : Max stack réduit à 20.<br>[Ruade] : +2 Stacks, Dégâts Tonnerre <span class="stat-boost">+150%</span>.</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Tonnerre tonitruant <span class="stat-boost">-20%</span>.<br></p>`,
+        4: `<h3>4 étoiles</h3><p>CD Tonnerre tonitruant <span class="stat-boost">-20%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Tonnerre tonitruant amélioré :<br>Dégâts Vent <span class="stat-boost">+30%</span>, Zone <span class="stat-boost">+20%</span>, Charge <span class="stat-boost">+50%</span>, Dégâts <span class="stat-boost">+150%</span>.</p>`
     }
 };
@@ -295,11 +295,11 @@ Durée: 10 seconde(s)` }
     ], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Gardien de l'Orage</h3><p>Foudre = <span class="buff">[Bouclier]</span> (50% PV, 3s) + Contre-attaque.<br>Contre réussi = <span class="buff">[Étourdi]</span> + <span class="buff">[Foudre tonitruante]</span>.<br>[Foudre] : Attaque <span class="stat-boost">+12%</span> + DOT Éclair (200% Atk/s).</p>`,
+        0: `<h3>Passif :</h3><p>Foudre = <span class="buff">[Bouclier]</span> (50% PV, 3s) + Contre-attaque.<br>Contre réussi = <span class="buff">[Étourdi]</span> + <span class="buff">[Foudre tonitruante]</span>.<br>[Foudre] : Attaque <span class="stat-boost">+12%</span> + DOT Éclair (200% Atk/s).</p>`,
         1: `<h3>1 étoile</h3><p>5 attaques = <span class="buff">[Coup de tonnerre]</span>.<br>[Coup] : Dégâts <span class="stat-boost">100%</span> Atk (CD 0.5s).</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Foudre active [Foudre tonitruante] sans condition.<br>Dégâts Foudre tonitruante <span class="stat-boost">+30%</span>.<br>Dégâts Vent <span class="stat-boost">+10%</span> sous Foudre.</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Foudre <span class="stat-boost">-20%</span>.<br></p>`,
+        4: `<h3>4 étoiles</h3><p>CD Foudre <span class="stat-boost">-20%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>3 attaques = [Coup de tonnerre] amélioré (200% Atk, CD 0.3s).<br>Foudre touche = <span class="buff">[Éclair final]</span> (1600% Atk) + <span class="buff">[Bénédiction]</span> (Bouclier + Stun sur coup reçu).</p>`
     }
 };
@@ -352,8 +352,8 @@ Durée: 20 seconde(s) (cumulable jusqu'à 2 fois)` }
     ], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Force Brute</h3><p>Tempête de grêle : Dégâts <span class="stat-boost">+120%</span> (ou <span class="stat-boost">+200%</span> si Force > 300).<br>Pas de critique possible, mais bonus massifs d'Attaque/Précision basés sur la Force.</p>`,
-        1: `<h3>1 étoile : Frappe Tempête</h3><p>Compétences Vent -> Frappe extra (<span class="stat-boost">1600%</span> Atk) + Debuff (<span class="stat-boost">+5%</span> dégâts subis).</p>`,
+        0: `<h3>Passif :</h3><p>Tempête de grêle : Dégâts <span class="stat-boost">+120%</span> (ou <span class="stat-boost">+200%</span> si Force > 300).<br>Pas de critique possible, mais bonus massifs d'Attaque/Précision basés sur la Force.</p>`,
+        1: `<h3>1 étoile</h3><p>Compétences Vent -> Frappe extra (<span class="stat-boost">1600%</span> Atk) + Debuff (<span class="stat-boost">+5%</span> dégâts subis).</p>`,
         2: `<h3>2 étoiles : Vent</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles : Protection & Marque</h3><p>Réduction dégâts <span class="stat-boost">50%</span> après Tempête.<br>Debuff Marque amélioré (<span class="stat-boost">+10%</span> subis, <span class="stat-boost">+15%</span> vent).</p>`,
         4: `<h3>4 étoiles : Rapidité</h3><p>CD Tempête de grêle <span class="stat-boost">-20%</span>.</p>`,
@@ -392,8 +392,8 @@ Diminue le Taux de récupération de la cible de 70%. Durée: 30s` }
 Les dégâts de [Dispersion racinaire] augmentent de 150%.`, [], "Vent")
     },
     summaryData: {
-        0: `<h3>Passif : Vœu</h3><p>Noyau -> <span class="buff">[Vœu]</span> : Dégâts <span class="stat-boost">+20%</span> (20s). Consommé par Chant de l'arbre.</p>`,
-        1: `<h3>1 étoile : Détachement</h3><p>Début niveau : Noyau <span class="stat-boost">100%</span>. Chant de l'arbre -> Active Noyau et réinitialise CD (CD 20s).</p>`,
+        0: `<h3>Passif :</h3><p>Noyau -> <span class="buff">[Vœu]</span> : Dégâts <span class="stat-boost">+20%</span> (20s). Consommé par Chant de l'arbre.</p>`,
+        1: `<h3>1 étoile</h3><p>Début niveau : Noyau <span class="stat-boost">100%</span>. Chant de l'arbre -> Active Noyau et réinitialise CD (CD 20s).</p>`,
         2: `<h3>2 étoiles : Vent</h3><p>Dégâts Vent <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles : Floraison</h3><p><span class="buff">[Vœu]</span> <span class="stat-boost">+40%</span> dégâts. Noyau <span class="stat-boost">+500%</span> Atk. Chant de l'arbre : Dégâts zone et <span class="buff">[Poison]</span>.</p>`,
         4: `<h3>4 étoiles : Rapidité</h3><p>CD Chant de l'arbre <span class="stat-boost">-20%</span>.</p>`,

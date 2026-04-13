@@ -26,11 +26,11 @@ Durée : 30 seconde(s)` }
     ], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Explosion Glacée</h3><p>Touche = <span class="buff">[Gel]</span> (Interruption).<br>Durée : <span class="stat-boost">0,5s</span>.</p>`,
-        1: `<h3>1 étoile</h3><p>Durée <span class="buff">[Gel]</span> <span class="stat-boost">+1s</span>.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+6 %</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Portée Explosion glacée <span class="stat-boost">+25 %</span>.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Explosion glacée <span class="stat-boost">-10 %</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Touche = <span class="buff">[Gel]</span> (Interruption).<br>Durée : <span class="stat-boost">0,5s</span>.</p>`,
+        1: `<h3>1 étoile</h3><p>Durée <span class="buff">[Gel]</span> <span class="stat-boost">+1s</span>.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+6 %</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Portée Explosion glacée <span class="stat-boost">+25 %</span>.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Explosion glacée <span class="stat-boost">-10 %</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Applique <span class="buff">[Engelure]</span> (DoT cumulable).<br>À 5 cumuls = <span class="buff">[Gel]</span> (2s).</p>`
     }
 };
@@ -55,12 +55,12 @@ Réduit le prochain taux de réinitialisation du temps de rechargement en cas de
         5: fmtPassif(`5 étoiles :`, `Les dégâts infligés aux monstres de type Boss avec **Transpercement de lézard** augmentent de 40 %.`, [], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Protection lézard</h3><p>Utilisation compétence = <span class="buff">[Protection de lézard]</span>.<br>Dégâts compétence <span class="stat-boost">+0.3 %</span> (max 999 piles, durée infinie).</p>`,
-        1: `<h3>1 étoile</h3><p>80 % de chances de reset CD sur <strong>Transpercement de lézard</strong> (taux réduit après réussite).<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+6 %</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Activation de <strong>Protection de lézard</strong> doublée (tous les 2 cumuls).<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Transpercement de lézard <span class="stat-boost">-10 %</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Dégâts sur Boss (via compétence) <span class="stat-boost">+40 %</span>.<br></p>`
+        0: `<h3>Passif :</h3><p>Utilisation compétence = <span class="buff">[Protection de lézard]</span>.<br>Dégâts compétence <span class="stat-boost">+0.3 %</span> (max 999 piles, durée infinie).</p>`,
+        1: `<h3>1 étoile</h3><p>80 % de chances de reset CD sur <strong>Transpercement de lézard</strong> (taux réduit après réussite).</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+6 %</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Activation de <strong>Protection de lézard</strong> doublée (tous les 2 cumuls).</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Transpercement de lézard <span class="stat-boost">-10 %</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Dégâts sur Boss (via compétence) <span class="stat-boost">+40 %</span>.</p>`
     }
 };
 
@@ -92,11 +92,11 @@ Durée: 30 seconde(s)` }
     ], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Dent de Vipère</h3><p>Vile attaque sournoise : 30% chance <span class="buff">[Hémorragie]</span>.<br>[Hémorragie] : DOT (<span class="stat-boost">0.8%</span> PV actuels, 30s).</p>`,
-        1: `<h3>1 étoile</h3><p>Noyau / Vile attaque : 30% chance <span class="buff">[Paralysie]</span> (Stun 1s).<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+8%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Vile attaque = Zone <span class="buff">[Poison de Kasaka]</span> (Flaque dégâts 5s).<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Vile attaque sournoise <span class="stat-boost">-15%</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Vile attaque sournoise : 30% chance <span class="buff">[Hémorragie]</span>.<br>[Hémorragie] : DOT (<span class="stat-boost">0.8%</span> PV actuels, 30s).</p>`,
+        1: `<h3>1 étoile</h3><p>Noyau / Vile attaque : 30% chance <span class="buff">[Paralysie]</span> (Stun 1s).</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+8%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Vile attaque = Zone <span class="buff">[Poison de Kasaka]</span> (Flaque dégâts 5s).</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Vile attaque sournoise <span class="stat-boost">-15%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Vile attaque = <span class="buff">[Poison mortel]</span>.<br>[Poison mortel] : DOT (<span class="stat-boost">75%</span> Atk) + Debuff Soin (<span class="stat-boost">-70%</span>).</p>`
     }
 };
@@ -123,12 +123,12 @@ Durée: 15 seconde(s)` }
         5: fmtPassif(`5 étoiles :`, `L'effet [Erosion] peut se cumuler jusqu'à 2 fois.`, [], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Lame de Givre</h3><p>Bourrasque glaciale : 20% chance <span class="buff">[Gel]</span> (Stun 2s).<br></p>`,
+        0: `<h3>Passif :</h3><p>Bourrasque glaciale : 20% chance <span class="buff">[Gel]</span> (Stun 2s).</p>`,
         1: `<h3>1 étoile</h3><p>Bourrasque sur Gel = <span class="buff">[Érosion]</span>.<br>[Érosion] : Dégâts faiblesse élémentaire <span class="stat-boost">+12%</span> (15s).</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+8%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Bourrasque glaciale : 2 charges max, CD <span class="stat-boost">-3s</span>.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Bourrasque glaciale <span class="stat-boost">-15%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>[Érosion] cumulable 2 fois (Max Dégâts faiblesse <span class="stat-boost">+24%</span>).<br></p>`
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+8%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Bourrasque glaciale : 2 charges max, CD <span class="stat-boost">-3s</span>.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Bourrasque glaciale <span class="stat-boost">-15%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>[Érosion] cumulable 2 fois (Max Dégâts faiblesse <span class="stat-boost">+24%</span>).</p>`
     }
 };
 
@@ -154,12 +154,12 @@ Durée: 15 seconde(s)` }
     ], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Océan Furieux</h3><p>Attaque de base : 75% chance explosions d'eau.<br></p>`,
-        1: `<h3>1 étoile</h3><p>Tsunami naga : +3 déferlements (Dégâts <span class="stat-boost">120%</span> Atk chacun).<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+8%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Attaque noyau : +3 déferlements (Dégâts <span class="stat-boost">120%</span> Atk chacun).<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Tsunami naga <span class="stat-boost">-15%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Tsunami naga = <span class="buff">[Gardien naga]</span> (Dégâts Eau <span class="stat-boost">+15%</span>, Vitesse <span class="stat-boost">+12%</span>, 15s).<br></p>`
+        0: `<h3>Passif :</h3><p>Attaque de base : 75% chance explosions d'eau.</p>`,
+        1: `<h3>1 étoile</h3><p>Tsunami naga : +3 déferlements (Dégâts <span class="stat-boost">120%</span> Atk chacun).</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+8%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Attaque noyau : +3 déferlements (Dégâts <span class="stat-boost">120%</span> Atk chacun).</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Tsunami naga <span class="stat-boost">-15%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Tsunami naga = <span class="buff">[Gardien naga]</span> (Dégâts Eau <span class="stat-boost">+15%</span>, Vitesse <span class="stat-boost">+12%</span>, 15s).</p>`
     }
 };
 
@@ -191,8 +191,8 @@ Utiliser **Ombre du loup** ou **Sillage du loup** active l'effet [Crépuscule].`
     ], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Isolement</h3><p>Buff dégâts/crit <span class="stat-boost">+30%</span> permanent avec titre. Mode Sillage activé.</p>`,
-        1: `<h3>1 étoile : Nuit du loup</h3><p>Nouvelle compétence. Charge jauge <span class="stat-boost">+10%</span> (Eau). [Marquage] : Dégâts comp <span class="stat-boost">+55%</span>.</p>`,
+        0: `<h3>Passif :</h3><p>Buff dégâts/crit <span class="stat-boost">+30%</span> permanent avec titre. Mode Sillage activé.</p>`,
+        1: `<h3>1 étoile</h3><p>Nouvelle compétence. Charge jauge <span class="stat-boost">+10%</span> (Eau). [Marquage] : Dégâts comp <span class="stat-boost">+55%</span>.</p>`,
         2: `<h3>2 étoiles : Glace</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles : Crépuscule</h3><p>Charge initiale <span class="stat-boost">50%</span>. Buff Crit Rate/Dmg sur compétences de loup.</p>`,
         4: `<h3>4 étoiles : Rapidité</h3><p>CD Ombre du loup <span class="stat-boost">-20%</span>.</p>`,
@@ -244,12 +244,12 @@ Durée: 20 seconde(s)` }
         5: fmtPassif(`5 étoiles :`, `Les dégâts de la compétence **Ombrin fugace** augmentent de 150%.`, [], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Venin de Kasaka</h3><p>Ombrin fugace = <span class="buff">[Voile de poison]</span> (Zone toxique).<br>[Poison mortel] : DOT (<span class="stat-boost">110%</span> Atk) + Debuff Soin (<span class="stat-boost">-70%</span>).<br>[Spasmes] : Debuff Atk (<span class="stat-boost">-3%</span>/stack) -> [Paralysie] à 5 stacks.</p>`,
+        0: `<h3>Passif :</h3><p>Ombrin fugace = <span class="buff">[Voile de poison]</span> (Zone toxique).<br>[Poison mortel] : DOT (<span class="stat-boost">110%</span> Atk) + Debuff Soin (<span class="stat-boost">-70%</span>).<br>[Spasmes] : Debuff Atk (<span class="stat-boost">-3%</span>/stack) -> [Paralysie] à 5 stacks.</p>`,
         1: `<h3>1 étoile</h3><p>Ombrin fugace = <span class="buff">[Bouclier]</span> (30% PV).<br>Donjon éphémère = Crit/Crit Dmg <span class="stat-boost">+20%</span> + Faiblesse Eau forcée.<br>Avec Titre Massacreur = Bonus Dégâts Boss.</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Ombrin fugace = <span class="buff">[Kasaka majestueux]</span> (Atk <span class="stat-boost">+20%</span>).<br>Poison amélioré : Dégâts <span class="stat-boost">200%</span> Atk.</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Ombrin fugace <span class="stat-boost">-20%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Dégâts Ombrin fugace <span class="stat-boost">+150%</span>.<br></p>`
+        4: `<h3>4 étoiles</h3><p>CD Ombrin fugace <span class="stat-boost">-20%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Dégâts Ombrin fugace <span class="stat-boost">+150%</span>.</p>`
     }
 };
 
@@ -276,12 +276,12 @@ Durée: 15 seconde(s)` }
         5: fmtPassif(`5 étoiles :`, `Les dégâts infligés aux cibles affectées par [Gel] augmentent de 50%.`, [], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Prison de Glace</h3><p>Jet d'eau = <span class="buff">[Glace gelée]</span> (Gel, Interruption).<br>Explosion finale : 10% des dégâts subis pendant l'effet.</p>`,
+        0: `<h3>Passif :</h3><p>Jet d'eau = <span class="buff">[Glace gelée]</span> (Gel, Interruption).<br>Explosion finale : 10% des dégâts subis pendant l'effet.</p>`,
         1: `<h3>1 étoile</h3><p>Glace gelée = <span class="buff">[Érosion profonde]</span>.<br>[Érosion] : Dégâts Faiblesse élémentaire <span class="stat-boost">+24%</span>.</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Dégâts explosion Glace gelée passent à <span class="stat-boost">20%</span>.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Jet d'eau <span class="stat-boost">-20%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Dégâts sur cible Gelée <span class="stat-boost">+50%</span>.<br></p>`
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Dégâts explosion Glace gelée passent à <span class="stat-boost">20%</span>.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Jet d'eau <span class="stat-boost">-20%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Dégâts sur cible Gelée <span class="stat-boost">+50%</span>.</p>`
     }
 };
 
@@ -329,11 +329,11 @@ Durée : illimitée.` }
     ], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Souverain des Marées</h3><p>Dominion = <span class="buff">[Bouclier]</span> (10% PV) + <span class="buff">[Marée roulante]</span> (+10% Dégâts/Eau).<br>Touche = <span class="buff">[Maelstrom]</span> (+8% Eau subis).<br>Bonus Précision via Intelligence.</p>`,
+        0: `<h3>Passif :</h3><p>Dominion = <span class="buff">[Bouclier]</span> (10% PV) + <span class="buff">[Marée roulante]</span> (+10% Dégâts/Eau).<br>Touche = <span class="buff">[Maelstrom]</span> (+8% Eau subis).<br>Bonus Précision via Intelligence.</p>`,
         1: `<h3>1 étoile</h3><p>Dégâts Eau via Intelligence (max 20%).<br>Intelligence >= 200 & PM >= 41% = <span class="buff">[Dérive lunaire]</span> (+20% Eau, +30% Skill Eau).</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10 %</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10 %</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>[Marée] améliorée : +20% Dégâts/Eau.<br>[Maelstrom] amélioré : Cumulable jusqu'à 3 fois.</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Tempête de dominion <span class="stat-boost">-15 %</span>.<br></p>`,
+        4: `<h3>4 étoiles</h3><p>CD Tempête de dominion <span class="stat-boost">-15 %</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+30 %</span>.<br>[Dérive lunaire] UP : +50% Eau, +60% Skill Eau.</p>`
     }
 };
@@ -363,11 +363,11 @@ Durée: infinie (cumulable jusqu'à 20 fois)` }
     ], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Surfeur des Mers</h3><p>Ruée -> Rêve de marlin = <strong>Marlin volant</strong> (Dégâts <span class="stat-boost">+30%</span>).<br>Touche = <span class="buff">[Voie du surfeur]</span> (Dégâts monstres normaux <span class="stat-boost">+1%</span>, max 999).<br>Utilisation = <span class="buff">[Super armure]</span>.</p>`,
-        1: `<h3>1 étoile</h3><p>Combo Ruée -> Rêve de marlin réinitialise le CD (30s).<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Ruée -> Rêve de marlin = <strong>Marlin volant</strong> (Dégâts <span class="stat-boost">+30%</span>).<br>Touche = <span class="buff">[Voie du surfeur]</span> (Dégâts monstres normaux <span class="stat-boost">+1%</span>, max 999).<br>Utilisation = <span class="buff">[Super armure]</span>.</p>`,
+        1: `<h3>1 étoile</h3><p>Combo Ruée -> Rêve de marlin réinitialise le CD (30s).</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Marlin volant recharge Ruée (1 fois).<br>Dégâts Rêve de marlin / Marlin volant <span class="stat-boost">+30%</span>.</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Rêve de marlin / Marlin volant <span class="stat-boost">-20%</span>.<br></p>`,
+        4: `<h3>4 étoiles</h3><p>CD Rêve de marlin / Marlin volant <span class="stat-boost">-20%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Kill avec compétence = <span class="buff">[Shaka]</span>.<br>[Shaka] : Attaque <span class="stat-boost">+1%</span> (infinie, max 20).</p>`
     }
 };
@@ -412,11 +412,11 @@ Durée: 3 seconde(s)` }
     ], "Eau")
     },
     summaryData: {
-        0: `<h3>Passif : Courroux Hivernal</h3><p>Chasse hivernale active <strong>Dernière chasse</strong> + <span class="buff">[Bénédiction]</span>.<br>Touche = <span class="buff">[Malédiction]</span>.<br><strong>Dernière chasse</strong> : Dégâts <span class="stat-boost">200%</span> sur maudit + <span class="buff">[Gel]</span> (2s).<br>[Bénédiction] : Atk/Pene Def <span class="stat-boost">+3%</span> (10s).</p>`,
+        0: `<h3>Passif :</h3><p>Chasse hivernale active <strong>Dernière chasse</strong> + <span class="buff">[Bénédiction]</span>.<br>Touche = <span class="buff">[Malédiction]</span>.<br><strong>Dernière chasse</strong> : Dégâts <span class="stat-boost">200%</span> sur maudit + <span class="buff">[Gel]</span> (2s).<br>[Bénédiction] : Atk/Pene Def <span class="stat-boost">+3%</span> (10s).</p>`,
         1: `<h3>1 étoile</h3><p>Dernière chasse = <span class="buff">[Domaine de Skadi]</span> (7s).<br>Domaine : Dégâts zone (<span class="stat-boost">50%</span>/0.5s) + Buff Eau équipe (<span class="stat-boost">+10%</span>).</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>[Bénédiction de Skadi] améliorée : Durée infinie, cumulable 4 fois (Max Atk/Pene <span class="stat-boost">+12%</span>).<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Chasse hivernale <span class="stat-boost">-20%</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Eau <span class="stat-boost">+10%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>[Bénédiction de Skadi] améliorée : Durée infinie, cumulable 4 fois (Max Atk/Pene <span class="stat-boost">+12%</span>).</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Chasse hivernale <span class="stat-boost">-20%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Dernière chasse améliorée : Dégâts <span class="stat-boost">1000%</span> sur maudit.<br>Durée [Gel] passe à 3s.</p>`
     }
 };

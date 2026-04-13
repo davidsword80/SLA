@@ -22,12 +22,12 @@ Durée : 8 seconde(s)` }
         5: fmtPassif(`5 étoiles :`, `Lorsque **Chasse aux lycans** est utilisée sur des cibles affectées par l'effet [Cible], l'effet Dégâts subis augmentés passe à 200 %.`, [], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Marquage</h3><p>Atk de noyau = <span class="buff">[Cible]</span>.<br>Dégâts Chasse aux lycans <span class="stat-boost">+50 %</span>.</p>`,
-        1: `<h3>1 étoile</h3><p>Dégâts sup. <span class="stat-boost">100 % Atk</span> tous les 10 coups.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+6 %</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Dégâts Atk de noyau <span class="stat-boost">+40 %</span>.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Chasse aux lycans <span class="stat-boost">-10 %</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Chasse aux lycans sur <span class="buff">[Cible]</span> : Dégâts subis <span class="stat-boost">200 %</span>.<br></p>`
+        0: `<h3>Passif :</h3><p>Atk de noyau = <span class="buff">[Cible]</span>.<br>Dégâts Chasse aux lycans <span class="stat-boost">+50 %</span>.</p>`,
+        1: `<h3>1 étoile</h3><p>Dégâts sup. <span class="stat-boost">100 % Atk</span> tous les 10 coups.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+6 %</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Dégâts Atk de noyau <span class="stat-boost">+40 %</span>.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Chasse aux lycans <span class="stat-boost">-10 %</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Chasse aux lycans sur <span class="buff">[Cible]</span> : Dégâts subis <span class="stat-boost">200 %</span>.</p>`
     }
 };
 
@@ -53,11 +53,11 @@ Durée : 20 seconde(s)` }
     ], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Brouillard</h3><p>Yeux luisants = <span class="buff">[Écran de fumée]</span>.<br>Précision <span class="stat-boost">-5 %</span> (max 3 piles).</p>`,
-        1: `<h3>1 étoile</h3><p>Cible sous fumée attaquée : Précision <span class="stat-boost">+5 %</span>.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+6 %</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Contre ou Atk de noyau = <span class="stat-boost">150 %</span> de dégâts sup + <span class="buff">[Écran de fumée]</span>.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Yeux luisants <span class="stat-boost">-10 %</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Yeux luisants = <span class="buff">[Écran de fumée]</span>.<br>Précision <span class="stat-boost">-5 %</span> (max 3 piles).</p>`,
+        1: `<h3>1 étoile</h3><p>Cible sous fumée attaquée : Précision <span class="stat-boost">+5 %</span>.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+6 %</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Contre ou Atk de noyau = <span class="stat-boost">150 %</span> de dégâts sup + <span class="buff">[Écran de fumée]</span>.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Yeux luisants <span class="stat-boost">-10 %</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>3 piles = <span class="buff">[Écran de fumée amélioré]</span>.<br>Précision ennemie <span class="stat-boost">-50 %</span>.</p>`
     }
 };
@@ -82,12 +82,12 @@ Durée: 2 seconde(s)` }
         5: fmtPassif(`5 étoiles :`, `Augmente les dégâts de toutes les attaques de 25% sur les cibles [étourdies].`, [], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Tir Perçant</h3><p>Flèche pénètre = Dégâts <span class="stat-boost">+4%</span> (max 20 stacks).<br></p>`,
-        1: `<h3>1 étoile</h3><p>Éclat de lumière : Ignore <span class="stat-boost">50%</span> Défense.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+8%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Éclat de lumière : Repousse 3m + <span class="buff">[Étourdissement]</span> (2s).<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Éclat de lumière <span class="stat-boost">-15%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Dégâts sur étourdis <span class="stat-boost">+25%</span>.<br></p>`
+        0: `<h3>Passif :</h3><p>Flèche pénètre = Dégâts <span class="stat-boost">+4%</span> (max 20 stacks).</p>`,
+        1: `<h3>1 étoile</h3><p>Éclat de lumière : Ignore <span class="stat-boost">50%</span> Défense.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+8%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Éclat de lumière : Repousse 3m + <span class="buff">[Étourdissement]</span> (2s).</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Éclat de lumière <span class="stat-boost">-15%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Dégâts sur étourdis <span class="stat-boost">+25%</span>.</p>`
     }
 };
 
@@ -110,11 +110,11 @@ weaponsData["epee-de-dragon-etincelante"] = {
 Lorsque la compétence **Éclat du dragon** est utilisée, le Taux de coup critique passe à 100%.`, [], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Lumière Draconique</h3><p>PV > 80% = <span class="buff">[Énergie du dragon de lumière]</span>.<br>[Énergie] : Attaque <span class="stat-boost">+8%</span>.</p>`,
-        1: `<h3>1 étoile</h3><p>[Énergie] : Dégâts Coup critique <span class="stat-boost">+30%</span>.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+8%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Éclat du dragon : +1 éclair supplémentaire.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Éclat du dragon <span class="stat-boost">-15%</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>PV > 80% = <span class="buff">[Énergie du dragon de lumière]</span>.<br>[Énergie] : Attaque <span class="stat-boost">+8%</span>.</p>`,
+        1: `<h3>1 étoile</h3><p>[Énergie] : Dégâts Coup critique <span class="stat-boost">+30%</span>.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+8%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Éclat du dragon : +1 éclair supplémentaire.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Éclat du dragon <span class="stat-boost">-15%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Condition PV [Énergie] réduite à > 60%.<br>Éclat du dragon : Taux critique <span class="stat-boost">100%</span>.</p>`
     }
 };
@@ -139,12 +139,12 @@ Durée: 3 seconde(s)` }
 Les dégâts de la compétence **Lance sacrée** augmentent de 10%.`, [], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Lance Corrompue</h3><p>Lance sacrée = <span class="buff">[Esprit corrompu]</span> (Reset CD, 3s).<br></p>`,
-        1: `<h3>1 étoile</h3><p>Touche = Regen <span class="stat-boost">1%</span> PM.<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+8%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Durée [Esprit corrompu] <span class="stat-boost">+4s</span>.<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Lance sacrée <span class="stat-boost">-15%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>Sous [Esprit] : Vitesse Atk <span class="stat-boost">+10%</span>, Dégâts Lance <span class="stat-boost">+10%</span>.<br></p>`
+        0: `<h3>Passif :</h3><p>Lance sacrée = <span class="buff">[Esprit corrompu]</span> (Reset CD, 3s).</p>`,
+        1: `<h3>1 étoile</h3><p>Touche = Regen <span class="stat-boost">1%</span> PM.</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+8%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Durée [Esprit corrompu] <span class="stat-boost">+4s</span>.</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Lance sacrée <span class="stat-boost">-15%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>Sous [Esprit] : Vitesse Atk <span class="stat-boost">+10%</span>, Dégâts Lance <span class="stat-boost">+10%</span>.</p>`
     }
 };
 
@@ -176,12 +176,12 @@ Une fois que **Frappe de l'Ordre céleste** a fini de se charger, cet effet est 
         5: fmtPassif(`5 étoiles :`, `Lorsque l'effet [Concentration d'énergie de mana] atteint 5 cumuls, les dégâts de l'effet [Lâché de bâton de combat divin] augmentent de 150%.`, [], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Ordre Céleste</h3><p>Frappe chargée (3 stades) = <span class="buff">[Concentration]</span>.<br>Ruée annule charge = CD -18s.<br>[Concentration] : Dégâts Frappe <span class="stat-boost">+100%</span>/cumul (max 3).</p>`,
-        1: `<h3>1 étoile</h3><p>3 cumuls Concentration = <span class="buff">[Lâché de Bâton]</span> (Dégâts <span class="stat-boost">800%</span> Atk).<br></p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.<br></p>`,
+        0: `<h3>Passif :</h3><p>Frappe chargée (3 stades) = <span class="buff">[Concentration]</span>.<br>Ruée annule charge = CD -18s.<br>[Concentration] : Dégâts Frappe <span class="stat-boost">+100%</span>/cumul (max 3).</p>`,
+        1: `<h3>1 étoile</h3><p>3 cumuls Concentration = <span class="buff">[Lâché de Bâton]</span> (Dégâts <span class="stat-boost">800%</span> Atk).</p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Charge max passe à 5 stades (Max 5 Concentr.).<br>Charge = <span class="buff">[Bouclier]</span> (<span class="stat-boost">50%</span> PV).<br>Touché à 5 stacks = Instant Cast.</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Frappe de l'Ordre céleste <span class="stat-boost">-20%</span>.<br></p>`,
-        5: `<h3>5 étoiles</h3><p>À 5 cumuls Concentration : Dégâts [Lâché de Bâton] <span class="stat-boost">+150%</span>.<br></p>`
+        4: `<h3>4 étoiles</h3><p>CD Frappe de l'Ordre céleste <span class="stat-boost">-20%</span>.</p>`,
+        5: `<h3>5 étoiles</h3><p>À 5 cumuls Concentration : Dégâts [Lâché de Bâton] <span class="stat-boost">+150%</span>.</p>`
     }
 };
 
@@ -215,11 +215,11 @@ Une fois que **Jugement** touche sa cible et si une a Attaque de noyau suit dire
 Au bout de 3 cumuls de l'effet [Ouverture au jugement), 1 cumul de [Destruction] est créé (cumulable 1 fois).`, [], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Danseuse à l'Épée</h3><p>Jugement active Attaque noyau (buffée <strong>Que la chasse commence</strong>, Dégâts <span class="stat-boost">+100%</span>).<br>Attaques (4m) = Dégâts <span class="stat-boost">+50%</span>.</p>`,
+        0: `<h3>Passif :</h3><p>Jugement active Attaque noyau (buffée <strong>Que la chasse commence</strong>, Dégâts <span class="stat-boost">+100%</span>).<br>Attaques (4m) = Dégâts <span class="stat-boost">+50%</span>.</p>`,
         1: `<h3>1 étoile</h3><p>Jugement = <span class="buff">[Cission]</span>.<br>Bris sous Cission = <span class="buff">[Destruction]</span> (Dégâts subis <span class="stat-boost">+8%</span>, infini).</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.<br></p>`,
-        3: `<h3>3 étoiles</h3><p>Jugement = <span class="buff">[Halte]</span> (Interruption 2s).<br></p>`,
-        4: `<h3>4 étoiles</h3><p>CD Jugement <span class="stat-boost">-20%</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.</p>`,
+        3: `<h3>3 étoiles</h3><p>Jugement = <span class="buff">[Halte]</span> (Interruption 2s).</p>`,
+        4: `<h3>4 étoiles</h3><p>CD Jugement <span class="stat-boost">-20%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>[Destruction] améliorée : Dégâts subis <span class="stat-boost">+16%</span> (max 99 stacks).<br>Combo Jugement -> Attaque noyau génère [Destruction].</p>`
     }
 };
@@ -261,11 +261,11 @@ Durée: illimitée (cumulable jusqu'à 9 fois)` }
     ], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Esprit du Renard</h3><p>Entrée/Prélude = <span class="buff">[Queue de renard]</span> (max 9).<br>Esquive charge = Évasion extrême.<br>[Queue] : Crit/Crit Dmg skill lumière <span class="stat-boost">+12.25%</span> (conso 1 stack).</p>`,
+        0: `<h3>Passif :</h3><p>Entrée/Prélude = <span class="buff">[Queue de renard]</span> (max 9).<br>Esquive charge = Évasion extrême.<br>[Queue] : Crit/Crit Dmg skill lumière <span class="stat-boost">+12.25%</span> (conso 1 stack).</p>`,
         1: `<h3>1 étoile</h3><p>Prélude touche = <span class="buff">[Plaie dorée]</span>.<br>[Plaie] : Prochaine attaque lumière <span class="stat-boost">+99.99%</span> Dégâts + Soin <span class="stat-boost">9.99%</span> PV.</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Évasion extrême / Prélude = +Stacks Queue.<br>Prélude = <span class="buff">[Bouclier]</span> (<span class="stat-boost">12.25%</span> PV, 9.9s).</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Prélude <span class="stat-boost">-20%</span>.<br></p>`,
+        4: `<h3>4 étoiles</h3><p>CD Prélude <span class="stat-boost">-20%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Prélude charge instantanée (si ennemi < 5m).<br>Full Lumière : Dégâts Lumière <span class="stat-boost">+20.24%</span>, Atk <span class="stat-boost">+12.25%</span>.<br>[Queue] améliorée : Crit/Crit Dmg <span class="stat-boost">+20.24%</span>.</p>`
     }
 };
@@ -299,11 +299,11 @@ Durée: 60 seconde(s)` }
     ], "Lumière")
     },
     summaryData: {
-        0: `<h3>Passif : Ordre du Chaos</h3><p>Furie de chevalier sacré = <span class="buff">[Règles corrompues]</span>.<br>[Règles] : Reset CD Furie + Dégâts Lumière <span class="stat-boost">+10%</span> (4s, CD 20s).</p>`,
+        0: `<h3>Passif :</h3><p>Furie de chevalier sacré = <span class="buff">[Règles corrompues]</span>.<br>[Règles] : Reset CD Furie + Dégâts Lumière <span class="stat-boost">+10%</span> (4s, CD 20s).</p>`,
         1: `<h3>1 étoile</h3><p>Sous Règles corrompues : Vitesse Atk <span class="stat-boost">+15%</span>, Dégâts Furie <span class="stat-boost">+15%</span>.<br>Touche Furie = Regen 1% PM.</p>`,
-        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.<br></p>`,
+        2: `<h3>2 étoiles</h3><p>Dégâts Lumière <span class="stat-boost">+10%</span>.</p>`,
         3: `<h3>3 étoiles</h3><p>Touche Furie = <span class="buff">[Rage du chevalier sacré corrompu]</span>.<br>[Rage] : Dégâts Furie <span class="stat-boost">+2%</span> (max 50, infini).</p>`,
-        4: `<h3>4 étoiles</h3><p>CD Furie de chevalier sacré <span class="stat-boost">-20%</span>.<br></p>`,
+        4: `<h3>4 étoiles</h3><p>CD Furie de chevalier sacré <span class="stat-boost">-20%</span>.</p>`,
         5: `<h3>5 étoiles</h3><p>Touche Furie = <span class="buff">[Malédiction]</span>.<br>3 cumuls = Dégâts <span class="stat-boost">2000%</span> Atk.</p>`
     }
 };
@@ -366,7 +366,7 @@ weaponsData["lame-fantome"] = {
     },
     summaryData: {
         0: `
-        <h3>Passif : Lame Spirituelle</h3>
+        <h3>Passif :</h3>
         <p>Entrée : <span class="buff">[Projection]</span> (Atk/Vitesse +5%).<br>
         Arme Lumière : <span class="buff">[Lumina]</span> (Dégâts Lumière +5%, Crit Dmg +10%).<br>
         Entaille spirituelle -> <strong>Entaille enchaînée</strong> (3 utilisations).</p>
@@ -379,7 +379,7 @@ weaponsData["lame-fantome"] = {
     `,
         2: `
         <h3>2 étoiles</h3>
-        <p>Dégâts Lumière <span class="stat-boost">+10%</span>.<br></p>
+        <p>Dégâts Lumière <span class="stat-boost">+10%</span>.</p>
     `,
         3: `
         <h3>3 étoiles</h3>
@@ -388,7 +388,7 @@ weaponsData["lame-fantome"] = {
     `,
         4: `
         <h3>4 étoiles</h3>
-        <p>CD Entaille spirituelle <span class="stat-boost">-20%</span>.<br></p>
+        <p>CD Entaille spirituelle <span class="stat-boost">-20%</span>.</p>
     `,
         5: `
         <h3>5 étoiles</h3>
@@ -437,7 +437,7 @@ weaponsData["epee-du-heros"] = {
     },
     summaryData: {
         0: `
-        <h3>Passif : Détermination</h3>
+        <h3>Passif :</h3>
         <p>Entrée : <span class="buff">[Détermination]</span> (Dégâts Lumière +25%, Mana -20%).<br>
         Touche Épée porte-paix : Dégâts arme Lumière +45%.<br>
         Permanent : Dégâts Critiques +60%.</p>
