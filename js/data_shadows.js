@@ -39,9 +39,9 @@ shadowsData["beste"] = {
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
         0: fmtPassif(`Passif (Base) :`, `L'Attaque de l'ombre augmente de 4%.
-Les dégâts de la compétence de base de l'ombre augmentent de 2.5%.`, []),
+    Les dégâts de la compétence de base de l'ombre augmentent de 2.5%.`, []),
         1: fmtPassif(`Passif (Élévation cliquée) :`, `L'Attaque de l'ombre augmente de 4%.
-Les dégâts de la compétence de base de l'ombre augmentent de 2.5%.`, [])
+    Les dégâts de la compétence de base de l'ombre augmentent de 2.5%.`, [])
     },
 };
 
@@ -109,9 +109,9 @@ shadowsData["crane"] = {
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
         0: fmtPassif(`Passif (Base) :`, `Lors d'une attaque avec la compétence [Flamme de la mort] de Crâne, les dégâts infligés par l'utilisateur augmentent de 4% pendant 10s.
-<small>Attaque +400 | Précision +500</small>`, []),
+    <small>Attaque +400 | Précision +500</small>`, []),
         1: fmtPassif(`Passif (5 Étoiles) :`, `Lors d'une attaque avec la compétence [Flamme de la mort] de Crâne, les dégâts infligés par l'utilisateur augmentent de 24% pendant 10s.
-<small>Attaque +2400 | Précision +3000</small>`, [])
+    <small>Attaque +2400 | Précision +3000</small>`, [])
     },
 };
 
@@ -267,9 +267,9 @@ shadowsData["tank"] = {
     weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
     weaponFullData: {
         0: fmtPassif(`Passif (Base) :`, `La Pénétration de défense de l'ombre augmente de 2.5%.
-Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de 8%.`, []),
+    Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de 8%.`, []),
         1: fmtPassif(`Passif (Élévation cliquée) :`, `La Pénétration de défense de l'ombre augmente de 2.5%.
-Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de 8%.`, [])
+    Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de 8%.`, [])
     },
 };
 
@@ -289,8 +289,28 @@ shadowsData["uros"] = {
     weaponGradient: "linear-gradient(90deg, #9b59b6, #000)",
     weaponFullData: {
         0: fmtPassif(`Passif (Base) :`, `Armement d'ombre exclusif pour Uros.
-La Pénétration de défense de l'utilisateur augmente de 4%.`, []),
+    La Pénétration de défense de l'utilisateur augmente de 4%.`, []),
         1: fmtPassif(`Passif (5 Étoiles) :`, `Armement d'ombre exclusif pour Uros.
-La Pénétration de défense de l'utilisateur augmente de 24%.`, [])
+    La Pénétration de défense de l'utilisateur augmente de 24%.`, [])
+    },
+};
+
+// --- BRUTE ---
+shadowsData["brut"] = {
+    shadowName: "Ombre : Brut",
+    shadowRarity: "Grand Maréchal",
+    shadowImage: "Ombres/Brut/Brut.png",
+    shadowGradient: "linear-gradient(90deg, #8e44ad, #000)",
+    shadowData: {
+        0: fmtPassif(`Rang : Commun`, `Augmente les dégâts d'eau de tous les membres de l'équipe de 5 %.`, []),
+        1: fmtPassif(`Rang : Général`, `Augmente les dégâts d'eau de tous les membres de l'équipe de 9 %.`, [])
+    },
+    weaponName: "Arme : Epée longue d'orc : réplique",
+    weaponRarity: "Arme d'ombre",
+    weaponImage: "Ombres/Brut/epee_longue_d_orc_replique/epee_longue_d_orc_replique.png",
+    weaponGradient: "linear-gradient(90deg, #8e44ad, #000)",
+    weaponFullData: {
+        0: fmtPassif(`Passif (Base) :`, `Le Taux de coup critique et les Dégâts de coup critique de l'utilisateur augmentent de 3 %.`, []),
+        1: fmtPassif(`Passif (5 Étoiles) :`, `Le Taux de coup critique et les Dégâts de coup critique de l'utilisateur augmentent de 18 %.`, [])
     },
 };

@@ -218,7 +218,7 @@ h4 { color: red; }
 }
 
 /* =========================================
-   4. POP-UP (Thème Dark SLA)
+   4. POP-UP
    ========================================= */
 .popup {
     display: none;
@@ -227,129 +227,67 @@ h4 { color: red; }
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
     align-items: center;
     z-index: 1000;
 }
 
 .popup-content {
-    background-color: #0d1526;
-    color: #ffffff;
-    padding: 25px;
-    border: 2px solid rgba(229, 29, 32, 0.6);
-    border-radius: 12px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
     width: 90%;
     max-width: 500px;
-    box-shadow: 0 8px 32px rgba(229, 29, 32, 0.25), 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.popup-content h2 {
-    color: #fff;
-    margin-top: 0;
-    text-shadow: 0 0 8px rgba(229, 29, 32, 0.6);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 10px;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .close {
     position: absolute;
-    top: 12px;
-    right: 18px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 28px;
-    font-weight: bold;
+    top: 10px;
+    right: 15px;
+    color: #333;
+    font-size: 25px;
     cursor: pointer;
-    transition: color 0.2s, text-shadow 0.2s;
-}
-
-.close:hover {
-    color: #e51d20;
-    text-shadow: 0 0 8px rgba(229, 29, 32, 0.8);
 }
 
 .rarity-selector {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin: 20px 0;
-    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
 }
 
 .rarity-btn {
-    padding: 6px 14px;
-    border: 1px solid #444;
-    border-radius: 6px;
-    background: #111822;
-    color: #aaa;
+    padding: 6px 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: white;
     cursor: pointer;
     font-weight: bold;
     font-size: 0.85rem;
-    transition: all 0.2s;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
 }
 
-.rarity-btn:hover {
-    background: #1a2536;
-    color: #fff;
-}
-
-/* Couleurs des raretés adaptées au fond sombre (Valeurs exactes du jeu) */
-.rarity-btn.rare        { border-color: #1bdffd; color: #1bdffd; }
-.rarity-btn.heroique    { border-color: #f999ff; color: #f999ff; }
-.rarity-btn.legendaire  { border-color: #fdd747; color: #fdd747; }
-.rarity-btn.mythique    { border-color: #ff0000; color: #ff0000; }
-
-/* Force le style sombre pour les boutons qui ont une couleur de fond directement dans le HTML (ex: gemmes R5) */
-.rarity-btn[style*="background-color"] {
-    background-color: #111822 !important;
-    border-color: #fdd747;
-    color: #fdd747;
-}
-
-/* Boutons actifs avec effet néon basé sur les nouvelles couleurs */
-.rarity-btn.rare.active        { background: rgba(27, 223, 253, 0.15); box-shadow: 0 0 10px rgba(27, 223, 253, 0.3); }
-.rarity-btn.heroique.active    { background: rgba(249, 153, 255, 0.15); box-shadow: 0 0 10px rgba(249, 153, 255, 0.3); }
-.rarity-btn.legendaire.active  { background: rgba(253, 215, 71, 0.15); box-shadow: 0 0 10px rgba(253, 215, 71, 0.3); }
-.rarity-btn.mythique.active    { background: rgba(255, 0, 0, 0.15); box-shadow: 0 0 10px rgba(255, 0, 0, 0.3); }
-.rarity-btn[style*="background-color"].active {
-    background: rgba(253, 215, 71, 0.15) !important;
-    box-shadow: 0 0 10px rgba(253, 215, 71, 0.3);
-}
+.rarity-btn.rare        { border-color: #1eff00; color: #1eff00; }
+.rarity-btn.heroique    { border-color: #a335ee; color: #a335ee; }
+.rarity-btn.legendaire  { border-color: #ff8000; color: #ff8000; }
+.rarity-btn.mythique    { border-color: #e6cc80; color: #e6cc80; }
+.rarity-btn.active      { background: #f0f0f0; }
 
 .passive-box {
     margin-top: 15px;
-    padding: 18px;
-    background: rgba(5, 8, 16, 0.6);
-    border: 1px solid rgba(229, 29, 32, 0.3);
-    border-left: 4px solid #e51d20;
-    border-radius: 6px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 5px solid red;
     text-align: left;
     font-size: 0.95rem;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.85);
-}
-
-/* Met en valeur les textes importants dans la boîte (ex: pourcentages) en couleur or */
-.passive-box strong {
-    color: #f39c12;
+    line-height: 1.5;
 }
 
 .passive-content        { display: none; }
-.passive-content.active { display: block; animation: fadeIn 0.3s ease-in-out; }
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(5px); }
-    to { opacity: 1; transform: translateY(0); }
-}
+.passive-content.active { display: block; }
 
 /* =========================================
    5. CARTE PERSONNAGE (SLA Dark)
