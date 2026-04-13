@@ -21,10 +21,6 @@ shadowsData["ber"] = {
         0: fmtPassif(`Passif (Base) :`, `Les soins prodigués à l'ombre augmentent de 15% et sa Pénétration de défense de 2.5%.`, []),
         1: fmtPassif(`Passif (Max) :`, `Les soins prodigués à l'ombre augmentent de 30% et sa Pénétration de défense de 5%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Passif : Armement Ombre</h3><p>Soins <span class="stat-boost">+15%</span>, Pén. Déf <span class="stat-boost">+2.5%</span>.</p>`,
-        1: `<h3>Passif : Max</h3><p>Soins <span class="stat-boost">+30%</span>, Pén. Déf <span class="stat-boost">+5%</span>.</p>`
-    }
 };
 
 // --- BESTE ---
@@ -47,10 +43,6 @@ Les dégâts de la compétence de base de l'ombre augmentent de 2.5%.`, []),
         1: fmtPassif(`Passif (Élévation cliquée) :`, `L'Attaque de l'ombre augmente de 4%.
 Les dégâts de la compétence de base de l'ombre augmentent de 2.5%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Atk ombre <span class="stat-boost">+4%</span>, Dégâts Compétence base <span class="stat-boost">+2.5%</span>.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>Atk ombre <span class="stat-boost">+4%</span>, Dégâts Compétence base <span class="stat-boost">+2.5%</span>.</p>`
-    }
 };
 
 // --- BIGROCK ---
@@ -75,10 +67,6 @@ shadowsData["bigrock"] = {
 
     Lorsque l'ombre est touchée, la Défense de l'attaquant diminue de 30% pendant 5 seconde(s).`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Debuff Atk cible (-2.5%) et Def attaquant (-30%) si touché.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>Debuff Atk cible (-2.5%) et Def attaquant (-30%) si touché.</p>`
-    }
 };
 
 // --- CERBIE ---
@@ -99,10 +87,6 @@ shadowsData["cerbie"] = {
         0: fmtPassif(`Passif (Base) :`, `Lorsque Cerbie atteint une cible avec l'effet [Combustion] appliqué, les dégâts de ses compétences augmentent de 8% pendant 10 seconde(s).`, []),
         1: fmtPassif(`Passif (Max) :`, `Lorsque Cerbie atteint une cible avec l'effet [Combustion] appliqué, les dégâts de ses compétences augmentent de 8% pendant 10 seconde(s).`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Cible [Combustion] : Dégâts compétences <span class="stat-boost">+8%</span> (10s).</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>Cible [Combustion] : Dégâts compétences <span class="stat-boost">+8%</span> (10s).</p>`
-    }
 };
 
 // --- CRÂNE ---
@@ -129,10 +113,6 @@ shadowsData["crane"] = {
         1: fmtPassif(`Passif (5 Étoiles) :`, `Lors d'une attaque avec la compétence [Flamme de la mort] de Crâne, les dégâts infligés par l'utilisateur augmentent de 24% pendant 10s.
 <small>Attaque +2400 | Précision +3000</small>`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>[Flamme de la mort] → Dégâts <span class="stat-boost">+4%</span> (10s).</p>`,
-        1: `<h3>Résumé : 5★</h3><p>[Flamme de la mort] → Dégâts <span class="stat-boost">+24%</span> (10s).</p>`
-    }
 };
 
 // --- CROC ---
@@ -153,10 +133,6 @@ shadowsData["croc"] = {
         0: fmtPassif(`Passif (Base) :`, `Les ennemis ayant 50% de PV ou moins subissent 8% de dégâts en plus lorsqu'ils sont touchés par l'ombre.`, []),
         1: fmtPassif(`Passif (Max) :`, `Les ennemis ayant 50% de PV ou moins subissent 8% de dégâts en plus lorsqu'ils sont touchés par l'ombre.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>PV cible < 50% : Dégâts ombre <span class="stat-boost">+8%</span>.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>PV cible < 50% : Dégâts ombre <span class="stat-boost">+8%</span>.</p>`
-    }
 };
 
 // --- IGRIT ---
@@ -177,10 +153,6 @@ shadowsData["igrit"] = {
         0: fmtPassif(`Passif (Base) :`, `Le Taux de coup critique et les Dégâts de coup critique de l'ombre augmentent de 2.5%.`, []),
         1: fmtPassif(`Passif (Élévation cliquée) :`, `Le Taux de coup critique et les Dégâts de coup critique de l'ombre augmentent de 2.5%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Taux Crit / Dégâts Crit ombre <span class="stat-boost">+2.5%</span>.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>Taux Crit / Dégâts Crit ombre <span class="stat-boost">+2.5%</span>.</p>`
-    }
 };
 
 // --- IRON ---
@@ -205,10 +177,6 @@ shadowsData["iron"] = {
 
     Les probabilités d'acquisition de bouclier de l'ombre augmentent de 6%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>PV ombre <span class="stat-boost">+4%</span>, Probabilité bouclier <span class="stat-boost">+6%</span>.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>PV ombre <span class="stat-boost">+4%</span>, Probabilité bouclier <span class="stat-boost">+6%</span>.</p>`
-    }
 };
 
 // --- JIMA ---
@@ -241,10 +209,6 @@ shadowsData["jima"] = {
 
         Durée : 15 seconde(s)`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Effet Bouclier : Atk <span class="stat-boost">+4%</span> (15s).</p>`,
-        1: `<h3>Résumé : 5★</h3><p>Effet Bouclier : Atk <span class="stat-boost">+24%</span> (15s).</p>`
-    }
 };
 
 // --- KAISEL ---
@@ -265,10 +229,6 @@ shadowsData["kaisel"] = {
         0: fmtPassif(`Passif (Base) :`, `Les Dégâts de coup critique de l'ombre augmentent de 4% et les dégâts qu'elle inflige aux boss augmentent de 5%.`, []),
         1: fmtPassif(`Passif (Élévation cliquée) :`, `Les Dégâts de coup critique de l'ombre augmentent de 4% et les dégâts qu'elle inflige aux boss augmentent de 5%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Dégâts Crit ombre <span class="stat-boost">+4%</span>, Dégâts Boss <span class="stat-boost">+5%</span>.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>Dégâts Crit ombre <span class="stat-boost">+4%</span>, Dégâts Boss <span class="stat-boost">+5%</span>.</p>`
-    }
 };
 
 // --- LAMES ---
@@ -289,10 +249,6 @@ shadowsData["lames"] = {
         0: fmtPassif(`Passif (Base) :`, `L'Attaque de l'ombre augmente de 2.5% et sa Pénétration de défense de 2.5%.`, []),
         1: fmtPassif(`Passif (Élévation cliquée) :`, `L'Attaque de l'ombre augmente de 2.5% et sa Pénétration de défense de 2.5%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Atk ombre <span class="stat-boost">+2.5%</span>, Pén. Déf <span class="stat-boost">+2.5%</span>.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>Atk ombre <span class="stat-boost">+2.5%</span>, Pén. Déf <span class="stat-boost">+2.5%</span>.</p>`
-    }
 };
 
 // --- TANK ---
@@ -315,10 +271,6 @@ Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de 8%.
         1: fmtPassif(`Passif (Élévation cliquée) :`, `La Pénétration de défense de l'ombre augmente de 2.5%.
 Les dégâts infligés par l'ombre aux monstres de type Normal augmentent de 8%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Pén. Déf ombre <span class="stat-boost">+2.5%</span>, Dégâts Monstres Normaux <span class="stat-boost">+8%</span>.</p>`,
-        1: `<h3>Résumé : Étoile</h3><p>Pén. Déf ombre <span class="stat-boost">+2.5%</span>, Dégâts Monstres Normaux <span class="stat-boost">+8%</span>.</p>`
-    }
 };
 
 // --- UROS ---
@@ -341,8 +293,4 @@ La Pénétration de défense de l'utilisateur augmente de 4%.`, []),
         1: fmtPassif(`Passif (5 Étoiles) :`, `Armement d'ombre exclusif pour Uros.
 La Pénétration de défense de l'utilisateur augmente de 24%.`, [])
     },
-    weaponSummaryData: {
-        0: `<h3>Résumé : Base</h3><p>Pénétration de défense <span class="stat-boost">+4%</span>.</p>`,
-        1: `<h3>Résumé : 5★</h3><p>Pénétration de défense <span class="stat-boost">+24%</span>.</p>`
-    }
 };

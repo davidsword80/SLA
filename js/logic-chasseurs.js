@@ -20,7 +20,6 @@ if (hunter) {
     };
 
     // Mapping des raretés vers leurs images respectives (SSR, SR, R...)
-    // Assure-toi que ces fichiers existent bien dans img/rarete/
     const rarityImages = {
         "SSR": "SSR.png",
         "SR": "SR.png",
@@ -73,12 +72,17 @@ if (hunter) {
     // 2. LOGIQUE DES ÉTOILES DU CHASSEUR (0 à 5)
     // ==========================================
     let charLevel = 0;
+    let isSummaryChar = false; // Gestion du mode résumé pour le chasseur
+
     // On cible UNIQUEMENT les étoiles dans #char-stars-container
     const charStars = document.querySelectorAll('#char-stars-container .star');
     const charMsg = document.getElementById('char-message');
+    const toggleCharBtn = document.getElementById('toggleCharBtn'); // Récupération du bouton
 
     function updateChar(level) {
-        charMsg.innerHTML = hunter.fullData[level] || hunter.fullData[0];
+        // Choix des données en fonction de l'état du bouton
+        const dataToUse = (isSummaryChar && hunter.summaryData) ? hunter.summaryData : hunter.fullData;
+        charMsg.innerHTML = dataToUse[level] || dataToUse[0];
         
         charStars.forEach(star => {
             const starValue = parseInt(star.getAttribute('data-value'));
@@ -94,6 +98,15 @@ if (hunter) {
             updateChar(charLevel);
         });
     });
+
+    // Action lors du clic sur le bouton "Mode Résumé"
+    if (toggleCharBtn) {
+        toggleCharBtn.addEventListener('click', () => {
+            isSummaryChar = !isSummaryChar;
+            toggleCharBtn.textContent = isSummaryChar ? 'Mode Complet' : 'Mode Résumé';
+            updateChar(charLevel);
+        });
+    }
 
 
     // ==========================================
