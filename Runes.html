@@ -11,13 +11,9 @@
   <body>
     <section>
       <input type="text" id="search" placeholder="Rechercher une rune..." oninput="applyFilters()" />
-      <button class="filter-button" onclick="toggleFilters()">
-        Afficher les filtres
-      </button>
       <div class="filter-section" id="filters">
         <div class="buttons">
           <strong>Type :</strong>
-          <button class="filter-btn active" onclick="filterItems('all', this)">Tous</button>
           <button class="filter-btn" onclick="filterItems('booster', this)">Booster</button>
           <button class="filter-btn" onclick="filterItems('survie', this)">Survie</button>
         </div>

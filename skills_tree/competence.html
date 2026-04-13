@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Solo Leveling Arise – Compétences de Sung Jinwoo</title>
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600;700;900&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="css/fusion.css"/>
-<script src="js/components.js"></script>
-<script src="js/text-formatter.js"></script>
 <style>
 :root {
   --bg: #0a0f1e;
@@ -19,11 +16,16 @@
   --green: #22c55e;
   --hex: 82px;
 }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
 body {
   background: var(--bg);
   color: #fff;
   font-family: 'Exo 2', sans-serif;
-  text-align: left;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 body::before {
   content: '';
@@ -33,7 +35,23 @@ body::before {
     radial-gradient(ellipse 80% 60% at 50% 50%, rgba(10,20,50,1) 0%, rgba(5,8,18,1) 100%);
 }
 
-
+/* HEADER */
+header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 20px;
+  background: rgba(6,10,22,0.95);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0; z-index: 50;
+}
+.hdr-left { display: flex; align-items: center; gap: 10px; }
+.hdr-icon {
+  width: 34px; height: 34px;
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center; font-size: 16px;
+}
+.hdr-title { font-family:'Rajdhani',sans-serif; font-size:1.15rem; font-weight:700; letter-spacing:2px; text-transform:uppercase; }
+.hdr-title span { color: var(--blue); }
 #search {
   background: rgba(255,255,255,0.05); border: 1px solid rgba(77,217,232,0.25);
   color: #fff; border-radius: 16px; padding: 6px 14px;
@@ -66,10 +84,7 @@ body::before {
 .main-layout {
   display: grid;
   grid-template-columns: 380px 1fr 420px;
-  flex: 1;
-  overflow: hidden;
-  min-height: 0;
-  height: calc(100vh - 380px);
+  flex: 1; overflow: hidden; min-height: 0;
 }
 
 /* LEFT */
@@ -159,7 +174,7 @@ body::before {
 
 /* CENTER */
 .col-center {
-  display:flex; flex-direction:column; align-items:center; justify-content:flex-start;
+  display:flex; flex-direction:column; align-items:center; justify-content:flex-end;
   position:relative; overflow:hidden;
   background:radial-gradient(ellipse 70% 80% at 50% 90%, rgba(80,40,160,0.18) 0%, transparent 70%);
 }
@@ -171,7 +186,7 @@ body::before {
 }
 .char-img {
   width:100%; height:100%;
-  object-fit:contain; object-position:center top;
+  object-fit:contain; object-position:center bottom;
   display:block;
   filter:drop-shadow(0 0 40px rgba(120,60,220,0.3));
 }
@@ -480,7 +495,13 @@ body::before {
 </head>
 <body>
 
-<!-- Le header et footer sont injectés automatiquement par components.js -->
+<header>
+  <div class="hdr-left">
+    <div class="hdr-icon">⚔</div>
+    <div class="hdr-title">Sung <span>Jin-Woo</span></div>
+  </div>
+  <input type="text" id="search" placeholder="Rechercher…" oninput="applyFilters()"/>
+</header>
 
 <div class="filter-bar">
   <span class="f-label">Catégorie</span>
@@ -488,7 +509,6 @@ body::before {
   <button class="fbtn fb" onclick="filterItems('basique',this)">Basiques</button>
   <button class="fbtn fu" onclick="filterItems('ultime',this)">Ultimes</button>
   <button class="fbtn fq" onclick="filterItems('qte',this)">QTE</button>
-  <input type="text" id="search" placeholder="Rechercher…" oninput="applyFilters()" style="margin-left:auto;"/>
 </div>
 
 <div class="main-layout">

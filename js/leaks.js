@@ -422,11 +422,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // On a simplement enveloppé l'image dans une balise <a>
             const itemHTML = `
-                <div class="item">
-                    <a href="${imagePath}" target="_blank">
-                        <img src="${imagePath}" alt="${nomImage}">
-                    </a>
-                    <h4 style="font-size: 0.8rem; word-break: break-all;">${nomImage}</h4>
+                <div class="leak-card">
+                    <img src="${imagePath}" alt="${nomImage}">
+                    <p class="leak-label">${nomImage}</p>
                 </div>
             `;
             gridSection.insertAdjacentHTML('beforeend', itemHTML);

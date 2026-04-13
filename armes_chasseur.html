@@ -15,28 +15,31 @@
         id="search"
         placeholder="Rechercher une arme de chasseur..."
       />
-      <button class="filter-button" onclick="toggleFilters()">
-        Afficher les filtres
-      </button>
       <div class="filter-section" id="filters">
         <div class="buttons">
-          <strong>Filtre principal :</strong>
-          <button class="filter-btn" data-filter="all">Tous</button>
-          <button class="filter-btn" data-filter="SSR">SSR</button>
-          <button class="filter-btn" data-filter="SR">SR</button>
-          <button class="filter-btn" data-filter="R">R</button>
+          <strong>Rareté :</strong>
+          <button class="filter-btn img-btn" data-filter="SSR"><img src="img/rarete/SSR.png" alt="SSR" title="SSR" /></button>
+          <button class="filter-btn img-btn" data-filter="SR"><img src="img/rarete/SR.png" alt="SR" title="SR" /></button>
+          <button class="filter-btn img-btn" data-filter="R"><img src="img/rarete/R.png" alt="R" title="R" /></button>
         </div>
 
         <div class="buttons">
-          <strong>Sous-filtre :</strong>
-          <button class="sub-filter-btn" data-sub-filter="all">Tous</button>
-          <button class="sub-filter-btn" data-sub-filter="feu">Feu</button>
-          <button class="sub-filter-btn" data-sub-filter="eau">Eau</button>
-          <button class="sub-filter-btn" data-sub-filter="lumiere">Lumière</button>
-          <button class="sub-filter-btn" data-sub-filter="tenebre">Ténèbre</button>
-          <button class="sub-filter-btn" data-sub-filter="vent">Vent</button>
-          <button class="sub-filter-btn" data-sub-filter="collab">Collab</button>
-          <button class="sub-filter-btn" data-sub-filter="event">Event</button>
+          <strong>Élément :</strong>
+          <button class="sub-filter-btn img-btn" data-sub-filter="feu"><img src="img/Element/Fire_Element.png" alt="Feu" title="Feu" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="eau"><img src="img/Element/Water_Element.png" alt="Eau" title="Eau" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="lumiere"><img src="img/Element/Light_Element.png" alt="Lumière" title="Lumière" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="tenebre"><img src="img/Element/Dark_Element.png" alt="Ténèbre" title="Ténèbre" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="vent"><img src="img/Element/Wind_Element.png" alt="Vent" title="Vent" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="collab">Collab</button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="event">Event</button>
+        </div>
+
+        <div class="buttons">
+          <strong>Classe :</strong>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="attaquant"><img src="img/class/Striker_Class.png" alt="Attaquant" title="Attaquant" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="briseur"><img src="img/class/Breaker_Class.png" alt="Briseur" title="Briseur" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="soutien"><img src="img/class/Supporter_Class.png" alt="Soutien" title="Soutien" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="cumulateur"><img src="img/class/Elemental_Stacker_Class.png" alt="Cumulateur élémentaire" title="Cumulateur élémentaire" /></button>
         </div>
       </div>
     </section>
@@ -52,7 +55,7 @@
             <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
             <div class="card-name-container">
               <h4 class="card-name">Sugimoto Reiji</h4>
-              <p class="arme-subtitle">gravee_dans_la_chair</p>
+              <p class="arme-subtitle">Gravée dans la chair</p>
             </div>
           </a>
         </div>
@@ -65,11 +68,25 @@
             </div>
             <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
             <div class="card-name-container">
-              <h4 class="card-name">Elena renault</h4>
-              <p class="arme-subtitle">l_incarnation_de_l_obsession</p>
+              <h4 class="card-name">Elena Renault</h4>
+              <p class="arme-subtitle">L'incarnation de l'obsession</p>
             </div>
           </a>
         </div>        
+
+        <div class="item arme-chasseur-card SSR eau cumulateur">
+          <a href="default_hunters.html?id=meri-laine">
+            <img src="Chasseurs_SSR/eau/Meri_laine/brise_hiver/Relic_Relic_MeriLaine_PortraitBig.png" alt="Meri Laine" class="portrait" />
+            <div class="element-bg">
+              <img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" />
+            </div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Meri Laine</h4>
+              <p class="arme-subtitle">Brise hiver</p>
+            </div>
+          </a>
+        </div>  
 
         <div class="item arme-chasseur-card SSR vent attaquant">
           <a href="default_hunters.html?id=amamiya-mirei">

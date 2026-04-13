@@ -1,146 +1,94 @@
-/* main.js - Version Universelle & Insensible aux accents */
+/* main.js - Filtres multi-sélection par toggle, sans bouton "Tous" */
 
-// --- Variables d'état des filtres ---
-let selectedFilter = "all";       // Filtre Principal (Chasseurs)
-let selectedSubFilter = "all";    // Sous-filtre (Chasseurs)
-let selectedSubSubFilter = "all"; // Sous-sous-filtre (Chasseurs & Ombres)
-let selectedSimpleFilter = "all"; // Filtre Simple (Runes)
+// --- État des filtres : ensembles de valeurs actives ---
+let activeFilters       = new Set(); // .filter-btn
+let activeSubFilters    = new Set(); // .sub-filter-btn
+let activeSubSubFilters = new Set(); // .sub-sub-filter-btn
+let activeSimpleFilters = new Set(); // filterItems()
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Initialisation : Active visuellement les boutons "Tous"
-    setActiveButton('.filter-btn', 'all');
-    setActiveButton('.sub-filter-btn', 'all');
-    setActiveButton('.sub-sub-filter-btn', 'all');
-
-    // Masquer les filtres au démarrage si nécessaire
-    const filtersContainer = document.getElementById('filters');
-    // filtersContainer.style.display = 'none'; // Décommenter si besoin
-    
-    // Application initiale
-    applyFilters();
-});
-
-// --- Gestion des Événements (Click) ---
-
-document.querySelectorAll('.filter-btn').forEach(function (button) {
-    if (!button.hasAttribute('onclick')) {
-        button.addEventListener('click', function () {
-            selectedFilter = this.getAttribute('data-filter');
-            updateActiveState('.filter-btn', this);
-            applyFilters();
-        });
-    }
-});
-
-document.querySelectorAll('.sub-filter-btn').forEach(function (button) {
-    button.addEventListener('click', function () {
-        selectedSubFilter = this.getAttribute('data-sub-filter');
-        updateActiveState('.sub-filter-btn', this);
-        applyFilters();
-    });
-});
-
-document.querySelectorAll('.sub-sub-filter-btn').forEach(function (button) {
-    button.addEventListener('click', function () {
-        selectedSubSubFilter = this.getAttribute('data-sub-sub-filter');
-        updateActiveState('.sub-sub-filter-btn', this);
-        applyFilters();
-    });
-});
-
-// Barre de recherche
-const searchInput = document.getElementById('search');
-if (searchInput) {
-    searchInput.addEventListener('input', function () {
-        applyFilters();
-    });
-}
-
-// --- Fonctions Utilitaires ---
-
-/**
- * Nettoie le texte : met en minuscule et retire les accents
- * Exemple : "Héroïque" devient "heroique"
- */
 function normalizeText(text) {
     if (!text) return "";
     return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
 
-function updateActiveState(selector, activeButton) {
-    document.querySelectorAll(selector).forEach(btn => btn.classList.remove('active'));
-    activeButton.classList.add('active');
-}
+document.addEventListener('DOMContentLoaded', function () {
+    // Supprimer le bouton "Afficher les filtres"
+    document.querySelectorAll('.filter-button[onclick="toggleFilters()"]').forEach(btn => btn.remove());
 
-function setActiveButton(selector, value) {
-    const btn = document.querySelector(`${selector}[data-filter="${value}"]`) || 
-                document.querySelector(`${selector}[data-sub-filter="${value}"]`) || 
-                document.querySelector(`${selector}[data-sub-sub-filter="${value}"]`);
-    if (btn) btn.classList.add('active');
-}
+    // Rendre les filtres visibles
+    const filtersSection = document.getElementById('filters') || document.querySelector('.filter-section');
+    if (filtersSection) filtersSection.style.display = '';
 
-function toggleFilters() {
-    var filters = document.getElementById('filters');
-    if (!filters) filters = document.querySelector('.filter-section');
+    // Supprimer les boutons "Tous"
+    document.querySelectorAll('[data-filter="all"],[data-sub-filter="all"],[data-sub-sub-filter="all"]').forEach(btn => btn.remove());
 
-    if (filters) {
-        if (filters.style.display === 'none' || filters.style.display === '') {
-            filters.style.display = 'flex';
-            filters.style.justifyContent = 'center';
-            filters.style.flexWrap = 'wrap';
-        } else {
-            filters.style.display = 'none';
-        }
-    }
-}
-
-// --- Fonctions de Filtrage ---
-
-function filterItems(category, button) {
-    selectedSimpleFilter = category;
-    if (button) {
-        const parent = button.parentElement;
-        if (parent) {
-            parent.querySelectorAll('.filter-btn, .filter-button').forEach(btn => {
-                btn.classList.remove('active');
+    // Filtres principaux
+    document.querySelectorAll('.filter-btn').forEach(function (button) {
+        if (!button.hasAttribute('onclick')) {
+            button.addEventListener('click', function () {
+                toggleSetFilter(activeFilters, this.getAttribute('data-filter'), this);
+                applyFilters();
             });
         }
+    });
+
+    // Sous-filtres
+    document.querySelectorAll('.sub-filter-btn').forEach(function (button) {
+        button.addEventListener('click', function () {
+            toggleSetFilter(activeSubFilters, this.getAttribute('data-sub-filter'), this);
+            applyFilters();
+        });
+    });
+
+    // Sous-sous-filtres
+    document.querySelectorAll('.sub-sub-filter-btn').forEach(function (button) {
+        button.addEventListener('click', function () {
+            toggleSetFilter(activeSubSubFilters, this.getAttribute('data-sub-sub-filter'), this);
+            applyFilters();
+        });
+    });
+
+    // Barre de recherche
+    const searchInput = document.getElementById('search');
+    if (searchInput) searchInput.addEventListener('input', applyFilters);
+
+    applyFilters();
+});
+
+function toggleSetFilter(set, value, button) {
+    if (set.has(value)) {
+        set.delete(value);
+        button.classList.remove('active');
+    } else {
+        set.add(value);
         button.classList.add('active');
     }
+}
+
+// Pour Runes / Noyaux / Gemmes (onclick="filterItems(...)")
+function filterItems(category, button) {
+    toggleSetFilter(activeSimpleFilters, category, button);
     applyFilters();
 }
 
 function applyFilters() {
-    // 1. Récupération et nettoyage de la recherche
-    let searchInputVal = document.getElementById('search') ? document.getElementById('search').value : "";
-    let searchTerm = normalizeText(searchInputVal); // On retire les accents de la recherche
+    const searchInputEl = document.getElementById('search');
+    const searchTerm = normalizeText(searchInputEl ? searchInputEl.value : "");
 
-    let items = document.querySelectorAll('.item');
+    document.querySelectorAll('.item').forEach(function (item) {
+        const rawText = item.querySelector('h4') ? item.querySelector('h4').textContent : item.textContent;
+        const itemText = normalizeText(rawText);
 
-    items.forEach(function (item) {
-        // 2. Récupération et nettoyage du nom de l'item
-        let rawText = item.querySelector('h4') ? item.querySelector('h4').textContent : item.textContent;
-        let itemText = normalizeText(rawText); // On retire les accents du nom de l'item
+        const matchesSearch   = !searchTerm || itemText.includes(searchTerm);
+        const matchesSimple   = activeSimpleFilters.size === 0 || [...activeSimpleFilters].some(f => item.classList.contains(f));
+        const matchesMain     = activeFilters.size === 0       || [...activeFilters].some(f => item.classList.contains(f));
+        const matchesSub      = activeSubFilters.size === 0    || [...activeSubFilters].some(f => item.classList.contains(f));
+        const matchesSubSub   = activeSubSubFilters.size === 0 || [...activeSubSubFilters].some(f => item.classList.contains(f));
 
-        // Vérification correspondance texte
-        let matchesSearch = !searchTerm || itemText.includes(searchTerm);
-
-        // Vérification des catégories
-        let matchesSimple = (selectedSimpleFilter === "all" || item.classList.contains(selectedSimpleFilter));
-        let matchesMain = (selectedFilter === "all" || item.classList.contains(selectedFilter));
-        let matchesSub = (selectedSubFilter === "all" || item.classList.contains(selectedSubFilter));
-        let matchesSubSub = (selectedSubSubFilter === "all" || item.classList.contains(selectedSubSubFilter));
-
-        // Affichage
-        if (matchesSearch && matchesSimple && matchesMain && matchesSub && matchesSubSub) {
-            item.style.display = 'block';
-        } else {
-            item.style.display = 'none';
-        }
+        item.style.display = (matchesSearch && matchesSimple && matchesMain && matchesSub && matchesSubSub) ? 'block' : 'none';
     });
 }
 
-// --- Pop-ups ---
 function openPopup(id) {
     const popup = document.getElementById(id);
     if (popup) popup.style.display = "flex";
@@ -154,20 +102,15 @@ function closePopup(id) {
 function showRarity(button, rarityClass) {
     const container = button.closest('.popup-content');
     if (!container) return;
-
     container.querySelectorAll('.rarity-btn').forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
-
-    container.querySelectorAll('.passive-content').forEach(content => {
-        content.classList.remove('active');
-    });
-
-    const targetContent = container.querySelector('.passive-content.' + rarityClass);
-    if (targetContent) targetContent.classList.add('active');
+    container.querySelectorAll('.passive-content').forEach(c => c.classList.remove('active'));
+    const target = container.querySelector('.passive-content.' + rarityClass);
+    if (target) target.classList.add('active');
 }
 
 window.onclick = function(event) {
-    if (event.target.classList.contains('popup')) {
-        event.target.style.display = "none";
-    }
+    if (event.target.classList.contains('popup')) event.target.style.display = "none";
 };
+
+function toggleFilters() {} // conservé pour compatibilité

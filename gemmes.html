@@ -11,13 +11,9 @@
   <body>
     <section>
       <input type="text" id="search" placeholder="Rechercher une gemme..." oninput="applyFilters()" />
-      <button class="filter-button" onclick="toggleFilters()">
-        Afficher les filtres
-      </button>
       <div class="filter-section" id="filters">
         <div class="buttons">
           <strong>Couleur :</strong>
-          <button class="filter-btn active" onclick="filterItems('all', this)">Tous</button>
           <button class="filter-btn" onclick="filterItems('jaune', this)">Jaune</button>
           <button class="filter-btn" onclick="filterItems('violet', this)">Violet</button>
           <button class="filter-btn" onclick="filterItems('vert', this)">Vert</button>

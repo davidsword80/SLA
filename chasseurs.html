@@ -16,36 +16,29 @@
         id="search"
         placeholder="Rechercher un chasseur..."
       />
-      <button class="filter-button" onclick="toggleFilters()">
-        Afficher les filtres
-      </button>
       <div class="filter-section" id="filters">
         <div class="buttons">
-          <strong>Filtre principal :</strong>
-          <button class="filter-btn" data-filter="all">Tous</button>
-          <button class="filter-btn" data-filter="SSR">SSR</button>
-          <button class="filter-btn" data-filter="SR">SR</button>
-          <button class="filter-btn" data-filter="R">R</button>
+          <strong>Rareté :</strong>
+          <button class="filter-btn img-btn" data-filter="SSR"><img src="img/rarete/SSR.png" alt="SSR" title="SSR" /></button>
+          <button class="filter-btn img-btn" data-filter="SR"><img src="img/rarete/SR.png" alt="SR" title="SR" /></button>
         </div>
 
         <div class="buttons">
-          <strong>Sous-filtre :</strong>
-          <button class="sub-filter-btn" data-sub-filter="all">Tous</button>
-          <button class="sub-filter-btn" data-sub-filter="feu">Feu</button>
-          <button class="sub-filter-btn" data-sub-filter="eau">Eau</button>
-          <button class="sub-filter-btn" data-sub-filter="lumiere">Lumière</button>
-          <button class="sub-filter-btn" data-sub-filter="tenebre">Ténèbre</button>
-          <button class="sub-filter-btn" data-sub-filter="vent">Vent</button>
+          <strong>Élément :</strong>
+          <button class="sub-filter-btn img-btn" data-sub-filter="feu"><img src="img/Element/Fire_Element.png" alt="Feu" title="Feu" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="eau"><img src="img/Element/Water_Element.png" alt="Eau" title="Eau" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="lumiere"><img src="img/Element/Light_Element.png" alt="Lumière" title="Lumière" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="tenebre"><img src="img/Element/Dark_Element.png" alt="Ténèbre" title="Ténèbre" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="vent"><img src="img/Element/Wind_Element.png" alt="Vent" title="Vent" /></button>
         </div>
 
         <div class="buttons">
-          <strong>Sous-sous-filtre :</strong>
-          <button class="sub-sub-filter-btn" data-sub-sub-filter="all">Tous</button>
-          <button class="sub-sub-filter-btn" data-sub-sub-filter="attaquant">Attaquant</button>
-          <button class="sub-sub-filter-btn" data-sub-sub-filter="briseur">Briseur</button>
-          <button class="sub-sub-filter-btn" data-sub-sub-filter="soutien">Soutien</button>
-          <button class="sub-sub-filter-btn" data-sub-sub-filter="cumulateur">Cumulateur élémentaire</button>
-          <button class="sub-sub-filter-btn" data-sub-sub-filter="collab">Collab</button>
+          <strong>Classe :</strong>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="attaquant"><img src="img/class/Striker_Class.png" alt="Attaquant" title="Attaquant" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="briseur"><img src="img/class/Breaker_Class.png" alt="Briseur" title="Briseur" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="soutien"><img src="img/class/Supporter_Class.png" alt="Soutien" title="Soutien" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="cumulateur"><img src="img/class/Elemental_Stacker_Class.png" alt="Cumulateur élémentaire" title="Cumulateur élémentaire" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="collab">Collab</button>
         </div>
       </div>
     </section>

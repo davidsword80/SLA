@@ -11,14 +11,9 @@
   <body>
     <section>
       <input type="text" id="search" placeholder="Rechercher un noyau..." oninput="applyFilters()" />
-      <button class="filter-button" onclick="toggleFilters()">
-        Afficher les filtres
-      </button>
-      
       <div class="filter-section" id="filters">
         <div class="buttons">
           <strong>Type :</strong>
-          <button class="filter-btn active" onclick="filterItems('all', this)">Tous</button>
           <button class="filter-btn" onclick="filterItems('esprit', this)">Esprit</button>
           <button class="filter-btn" onclick="filterItems('ame', this)">Âme</button>
           <button class="filter-btn" onclick="filterItems('corps', this)">Corps</button>

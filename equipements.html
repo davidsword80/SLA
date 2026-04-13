@@ -11,13 +11,9 @@
   <body>
     <section>
       <input type="text" id="search" placeholder="Rechercher un équipement..." oninput="applyFilters()" />
-      <button class="filter-button" onclick="toggleFilters()">
-        Afficher les filtres
-      </button>
       <div class="filter-section" id="filters">
         <div class="buttons">
           <strong>Type :</strong>
-          <button class="filter-btn active" data-filter="all">Tous</button>
           <button class="filter-btn" data-filter="set_armure">Sets d'Armure</button>
           <button class="filter-btn" data-filter="set_bijoux">Sets de Bijoux</button>
           <button class="filter-btn" data-filter="set_combine">Sets Combinés</button>
@@ -25,7 +21,6 @@
 
         <div class="buttons">
           <strong>Autres :</strong>
-          <button class="sub-filter-btn active" data-sub-filter="all">Tous</button>
           <button class="sub-filter-btn" data-sub-filter="set_event">Événementiel</button>
         </div>
       </div>
