@@ -1,6 +1,0 @@
-Foulée de l'ombre
-Niv. 10 Compétences QTE
-
-Jinwoo trouve une ouverture et se place derrière l'ennemi pour lui tendre un piège.
-
-Dégâts : 327.42 % de l'Attaque de Jinwoo Temps de rechargement : 15 s Condition d'utilisation : réussir une [Évasion extrême], déclencher l'état [Bris] ou utiliser une [Compétence d'ombre] Active [Foulée de l'ombre] après utilisation. Ralentit grandement l'ennemi pendant 3 secondes. Réduit la défense de l'ennemi de 60 % pendant 15 seconde(s).

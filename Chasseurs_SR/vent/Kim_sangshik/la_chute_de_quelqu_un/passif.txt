@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les dégâts de l'Attaque de noyau de l'utilisateur de 4%.<br>Lors de l'utilisation d'une Attaque de noyau, les dégâts de la prochaine compétence de base de l'utilisateur augmentent de 4%.
-
-5 étoiles :<br>Augmente les dégâts de l'Attaque de noyau de l'utilisateur de 24%.<br>Lors de l'utilisation d'une Attaque de noyau, les dégâts de la prochaine compétence de base de l'utilisateur augmentent de 24%.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

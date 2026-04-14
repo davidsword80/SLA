@@ -1,9 +1,0 @@
-Passif :<br>
-[Effet de la panoplie 2]
-Lorsque l'utilisateur ou un allié arrive sur le champ de bataille, son Attaque augmente de 12 %
-(temps de rechargement: 20 seconde(s)).
--Durée: 10 seconde(s)
-
-
-[Effet de la panoplie 4]
-Fait passer l'effet d'augmentation de l'Attaque à 28% et la durée à 15 seconde(s).

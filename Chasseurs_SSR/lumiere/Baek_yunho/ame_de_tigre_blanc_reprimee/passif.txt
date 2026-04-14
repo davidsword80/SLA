@@ -1,5 +1,0 @@
-0 étoiles :<br>Augmente les dégâts de lumière de l'utilisateur de 4%.<br>Face à des cibles affectées par l'effet [Flammes blanches], la Défense de l'utilisateur augmente de 5% pendant 20 seconde(s). (Temps de rechargement: 30 seconde(s))
-
-5 étoiles :<br>Augmente les dégâts de lumière de l'utilisateur de 12%.<br>Face à des cibles affectées par l'effet [Flammes blanches], la Défense de l'utilisateur augmente de 20% pendant 20 seconde(s). (Temps de rechargement: 30 seconde(s))
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

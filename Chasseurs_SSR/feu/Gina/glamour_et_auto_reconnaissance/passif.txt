@@ -1,5 +1,0 @@
-0 étoile :<br>L'Attaque de l'utilisatrice augmente de 2%.<br>Lorsque [Circulation de mana] est activé, tous les membres de l'équipe récupèrent 50 PM.<br>Lorsque [Circulation de mana] est activé, l'Attaque de tous les membres de l'équipe augmente et les dégâts de feu augmentent de 1% (cumulable jusqu'à 4 fois).<br>Durée: illimitée
-
-5 étoiles :<br>L'Attaque de l'utilisatrice augmente de 12%.<br>Lorsque [Circulation de mana] est activé, tous les membres de l'équipe récupèrent 250 PM.<br>Lorsque [Circulation de mana] est activé, l'Attaque de tous les membres de l'équipe augmente et les dégâts de feu augmentent de 1% (cumulable jusqu'à 10 fois).<br>Durée: illimitée
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de 15%.

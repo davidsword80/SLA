@@ -1,4 +1,0 @@
-Passif :<br>
-Vos compétences changent en présence de chasseurs de soutien du même élément. 
-Si vous avez dans l'équipe 2 chasseurs de soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de 3.5%. 
-Si vous avez dans l'équipe 3 chasseurs en soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de 3.5% supplémentaires.

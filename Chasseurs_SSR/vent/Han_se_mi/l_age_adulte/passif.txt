@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente les PV de l'utilisatrice de 4 %.<br>Augmente les dégâts subis de 5% pendant 4 seconde(s) face aux cibles touchées par une compétence de Han Se-Mi.
-
-5 étoiles :<br>Augmente les PV de l'utilisatrice de 10%.<br>Augmente les dégâts subis de 5% pendant 10 seconde(s) face aux cibles touchées par une compétence de Han Se-Mi.
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15%.

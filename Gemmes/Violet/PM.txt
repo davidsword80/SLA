@@ -1,5 +1,0 @@
-Rang 5 :
-Rang 4 : 60
-Rang 3 : 45
-Rang 2 : 40
-Rang 1 :

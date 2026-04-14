@@ -1,5 +1,0 @@
-0 étoile :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.<br>Lorsque l'utilisateur obtient une [Potion] de Yoo Jinho, l'Attaque, la Défense et les PV des membres de l'équipe augmentent de 1.5% supplémentaires pendant 10 seconde(s).
-
-5 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 5%.<br>Lorsque l'utilisateur obtient une [Potion] de Yoo Jinho, l'Attaque, la Défense et les PV des membres de l'équipe augmentent de 3% supplémentaires pendant 10 seconde(s).
-
-10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15%.

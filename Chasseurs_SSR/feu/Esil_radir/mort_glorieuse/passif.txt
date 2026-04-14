@@ -1,5 +1,0 @@
-0 étoile :<br>L'Attaque de l'utilisatrice augmente de 4%.<br>Augmente l'Attaque supplémentaire du membre de l'équipe au Taux de coup critique le plus élevé de 300 point(s) par tranche de 1000 point(s) d'Attaque supplémentaire d'Esil Radir (Le maximum d'Attaque supplémentaire s'élève à 600).
-
-5 étoiles :<br>L'Attaque de l'utilisatrice augmente de 12%.<br>Augmente l'Attaque supplémentaire du membre de l'équipe au Taux de coup critique le plus élevé de 300 point(s) par tranche de 1000 point(s) d'Attaque supplémentaire d'Esil Radir (Le maximum d'Attaque supplémentaire s'élève à 2400).
-
-10 étoiles :<br>L'Attaque, la Défense et les PV de l'utilisatrice augmentent de 15%.

@@ -1,2 +1,0 @@
-[Effet de la panoplie 2] :<br>Les PV de l'utilisateur augmentent de 8%.
-<br>[Effet de la panoplie 4] : <br>Augmente les soins reçus par l'utilisateur de 8%.<br>Augmente les dégâts du membre de l'équipe ayant la Puissance totale la plus élevée de 8%.

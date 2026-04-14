@@ -1,4 +1,0 @@
-
-Passif : Le Taux de coup critique et les Dégâts de coup critique de l'utilisateur augmentent de 3 %.
-
-5 étoiles : Le Taux de coup critique et les Dégâts de coup critique de l'utilisateur augmentent de 18 %.

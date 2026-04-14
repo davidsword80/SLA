@@ -1,4 +1,0 @@
-Passif :<br>
-Votre puissante hostilité affaiblit les capacités de la cible.<br>
-Lorsque vous subissez une attaque, l'Attaque de la cible diminue de 12% pendant 6 seconde(s).<br>
-Lorsque vous attaquez, la Défense de la cible diminue de 12% pendant 6 seconde(s).

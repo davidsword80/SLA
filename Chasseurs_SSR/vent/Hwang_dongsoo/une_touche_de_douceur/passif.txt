@@ -1,5 +1,0 @@
-0 étoile :<br>Les dégâts de vent infligés par l'utilisateur augmentent de 4%.<br>Les dégâts de compétence de base de l'utilisateur augmentent de 3% lorsque les effets [Vengeance impulsive ou Folie] s'activent (cumulable jusqu'à 4 fois).
-
-5 étoiles :<br>Les dégâts de vent infligés par l'utilisateur augmentent de 12%.<br>Les dégâts de compétence de base de l'utilisateur augmentent de 3% lorsque les effets [Vengeance impulsive ou Folie] s'activent (cumulable jusqu'à 15 fois).
-
-10 étoiles :<br>L'Attaque, la Défense et les PV de l'utilisateur augmentent de 15%.
