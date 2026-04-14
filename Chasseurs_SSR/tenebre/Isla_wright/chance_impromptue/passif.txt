@@ -1,0 +1,5 @@
+0 étoile :<br>Augmente la Défense de l'utilisatrice de 0.5%.<br>La Défense de toute l'équipe augmente de 0.5% par chasseur de l'élément Ténèbres présent dans l'équipe.<br>Réduit le temps de rechargement de la compétence ultime d'Isla Wright de 4 seconde(s).
+
+5 étoiles :<br>Augmente la Défense de l'utilisatrice de 4%.<br>La Défense de toute l'équipe augmente de 4% par chasseur de l'élément Ténèbres présent dans l'équipe.<br>Réduit le temps de rechargement de la compétence ultime d'Isla Wright de 20 seconde(s).
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisatrice de 15%.

@@ -1,0 +1,1 @@
+Passif : <br>Augmente les dégats de coup critiques des attaques de noyau de 6%

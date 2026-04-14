@@ -1,0 +1,81 @@
+Passif :<br>
+Lorsque les compétences Danse de la princesse épéiste ou Frappe céleste touchent leur cible, l'effet Épées célestes s'active (temps de rechargement : 0,5 seconde(s)).
+Lorsque les compétences Danse de la princesse épéiste ou Frappe céleste touchent leur cible, la jauge de [Volonté de l'épée] se remplit.
+
+[Épées célestes]
+Le nombre de lames pouvant être dérivées de la compétence Épées célestes augmente en fonction du niveau de charge de la jauge de [Volonté de l'épée].
+L'utilisatrice inflige des dégâts élémentaires d'eau équivalents à 175 % de sa défense par épée dérivée de la compétence Épées célestes.
+Cette attaque est considérée comme une compétence de base
+
+[Volonté de l'épée]
+Appliquez les effets ci-dessous à chaque niveau de charge de la jauge de [Volonté de l'épée].
+Augmentez la défense de l'utilisatrice de 5 %.
+Augmentez le taux de coup critique de 2 %.
+Augmentez les dégâts de coup critique de 2 %.
+Durée : 15 seconde(s) (cumulable jusqu'à 6 fois)
+
+
+1 étoile :<br>
+Tempête d'épées devient Attaque rapide :
+Tempête d'épées et ses dégâts augmentent de 60 %.
+Lors de l'utilisation de la compétence Frappe céleste, l'effet [Maîtrise de la lame] s'active. Améliore l'effet [Volonté de l'épée].
+
+[Maîtrise de la lame]
+L'attaque de noyau de l'utilisatrice devient Danse des lames éparses.
+Lors de l'utilisation de Danse des lames éparses, l'utilisatrice reçoit l'effet [Super armure].
+Si l'attaque de noyau s'active pendant que l'utilisatrice lance Danse des lames éparses, la jauge de noyau n'est pas utilisée.
+Durée : 5 seconde(s)
+
+[Volonté de l'épée]
+Appliquez les effets ci-dessous à chaque niveau de charge de la jauge de [Volonté de l'épée].
+Augmentez la Défense de 10 %.
+Augmentez le Taux de Coup Critique de 2 %.
+Augmentez les Dégâts de Coup Critique de 2 %.
+Durée : 15 seconde(s) (cumulable jusqu'à 6 fois)
+
+
+2 étoiles :<br>
+Lorsque la frappe céleste touche sa cible, l'effet [Irrémédiable] s'active.
+Lorsque la compétence Épée de la destinée touche sa cible, elle la [paralyse].
+
+[Irrémédiable]
+Les cibles ne peuvent pas récupérer de PV. 
+Durée : 30 seconde(s)
+
+[Paralysie]
+Interrompre la cible. 
+Durée : 3 seconde(s)
+
+
+3 étoiles :<br>
+Lorsque la jauge de [Volonté de l'épée] se recharge à 100 %, l'effet [Détermination de l'épée] s'active.
+
+[Détermination de l'épée]
+Frappe céleste devient Attaque lourde :
+Frappe céleste, ce qui augmente ses dégâts de 60 %.
+Consomme toute la jauge de [Volonté de l'épée] à la fin de la durée de l'effet.
+Durée : 6 seconde(s)
+
+
+4 étoiles :<br>
+Le Taux de coup critique de Cha Hae-In augmenté de 7% par allié de l'élément Eau présent dans le groupe, et ses Dégâts de coup critique de 7% (cumulables jusqu'à 3 fois).
+
+
+5 étoiles :<br>
+L'effet [Volonté de l'épée] est amélioré.
+Lorsque l'utilisatrice rejoint le niveau, l'effet [Princesse épéiste immaculée] s'active.
+
+[Volonté de l'épée]
+Appliquez les effets ci-dessous à chaque niveau de charge de la jauge de [Volonté de l'épée].
+Augmentez la Défense de l'utilisatrice de 10 %.
+Augmentez le Taux de Coup Critique de l'utilisatrice de 4 %.
+Augmentez les Dégâts de Coup Critique de 4 %.
+Durée : 15 seconde(s) (cumulable jusqu'à 6 fois)
+
+[Princesse épéiste immaculée]
+Augmente les dégâts de la compétence
+Épée de la destinée de 60 %.
+Augmente les dégâts des compétences
+Frappe céleste et Attaque lourde :
+Frappe céleste de 60 %.
+Durée : illimitée

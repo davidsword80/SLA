@@ -1,0 +1,11 @@
+Passif :<br>Lorsqu'elles sont lancées, les compétences Givre éternel, Tempête hivernale ou Aiguille de glace appliquent l'effet [Gel] à l'utilisateur, ce qui active la modification de son<br>[Givre]<br>Attaque de noyau.<br>L'Attaque de noyau de l'utilisateur devient Lance de froid glacial. L'utilisation de Lance de froid glacial consomme des instances de [Givre] (jusqu'à 3 instances à la fois).<br>Les dégâts de Lance de froid glacial augmentent de 60% par instance de [Givre] consommée (augmentant jusqu'à 180%).<br>Durée: permanent (cumulable jusqu'à 5 fois)
+
+1 étoile :<br>Lorsque [Bouclier] est actif, les Dégâts de coup critique et le Taux de coup critique de l'utilisateur augmentent de 20%.
+
+2 étoiles :<br>Lors de l'utilisation des compétences Givre éternel, Tempête hivernale ou Aiguille de glace, 1 effet [Givre] supplémentaire est appliqué.
+
+3 étoiles :<br>Les dégâts infligés aux cibles affectées par T'effet [Gel] augmentent de 30%.
+
+4 étoiles :<br>Les dégâts d'eau de l'utilisateur augmentent de 16%.
+
+5 étoiles :<br>Augmente les dégâts de Lance de froid glacial de 50%. Lorsque la Lance de froid glacial touche sa cible, elle lui applique l'effet [Gel].<br>[Gel]<br>Interrompt la cible. Durée: 3 seconde(s)

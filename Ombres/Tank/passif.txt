@@ -1,0 +1,3 @@
+Rang : Commun<br>La Défense de tous les membres de l'équipe augmente de 6%.
+
+Rang : Général<br>La Défense de tous les membres de l'équipe augmente de 12%.

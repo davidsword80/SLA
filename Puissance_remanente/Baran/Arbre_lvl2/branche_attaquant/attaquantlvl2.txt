@@ -1,0 +1,23 @@
+Niv. 2
+Pénétration de défense de la classe Attaquante augmentée
+La Pénétration de défense des chasseurs de la classe Attaquante augmente de 1000 lorsque [Puissance rémanente : Baran] est dans la formation.
+
+Niv. 2
+PM de la classe Attaquante augmentés
+Les PM des chasseurs de la classe Attaquante augmentent de 120 lorsque [Puissance rémanente : Baran] est dans la formation.
+
+Niv. 2
+Précision de la classe Attaquante augmentée
+La Précision des chasseurs de la classe Attaquante augmente de 2000 lorsque [Puissance rémanente : Baran] est dans la formation.
+
+Niv. 2
+PV de la classe Attaquante augmentés
+Les PV des chasseurs de la classe Attaquante augmentent de 1500 lorsque [Puissance rémanente : Baran] est dans la formation.
+
+Niv. 2
+Attaque de la classe Attaquante augmentée
+L'Attaque des chasseurs de la classe Attaquante augmente de 1500 lorsque [Puissance rémanente : Baran] est dans la formation.
+
+Niv. 2
+Défense de la classe Attaquante augmentée
+La Défense des chasseurs de la classe Attaquante augmente de 1500 lorsque [Puissance rémanente : Baran] est dans la formation.

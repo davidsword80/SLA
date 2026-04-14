@@ -1,0 +1,21 @@
+Passif : Lorsque la compétence Entaille fantôme touche sa cible, l'effet Balance du Dominateur est activé. Les PM ne se régénèrent ni naturellement, ni avec une attaque de base ou une attaque de noyau. L'utilisation de la compétence Puissance apocalyptique restaure 14 % des PM actuels de l'utilisateur, proportionnellement au nombre de cumuls de l'effet Amélioration du Dominateur appliqués, à la suite de quoi les cumuls sont supprimés. L'utilisation des compétences Entaille fantôme ou Courroux de la condamnation applique l'effet Amélioration du Dominateur. Lorsque les membres de l'équipe, à l'exception de Sung Ilhwan, utilisent leur compétence de base, ce dernier récupère 2 % de ses PM et sa jauge de puissance se remplit de 1 %.
+
+Amélioration du Dominateur : Augmente les dégâts de la compétence de base de 5 %. Augmente les dégâts de la compétence ultime de 25 %. Durée : illimitée (cumulable jusqu'à 7 fois).
+
+Balance du Dominateur : Augmente les dégâts de la compétence Courroux de la condamnation de 1 %. Lors de l'utilisation de Courroux de la condamnation, l'effet Balance du Dominateur est supprimé. Durée : illimitée (cumulable jusqu'à 160 fois).
+
+1 étoile : L'utilisation de l'attaque de base ou de l'attaque de noyau diminue le temps de rechargement de la compétence Entaille fantôme de 1 seconde(s). L'utilisation de la compétence Puissance apocalyptique réinitialise la durée des buffs actifs sur l'utilisateur (temps de rechargement : 30 seconde(s)). Les dégâts de ténèbres augmentent de 150 % pendant 15 seconde(s) lorsque l'utilisateur arrive sur le champ de bataille en mode Chasseur. (Lorsque le chasseur arrive sur le champ de bataille en mode Chasseur, il est impossible d'utiliser automatiquement les compétences QTE des alliés pendant 15 seconde(s)). Lorsque les compétences Grand final ténébreux ou Puissance apocalyptique touchent leur cible, elles lui appliquent l'effet Marqué. Lorsque la compétence Puissance apocalyptique touche une cible sous l'effet Réprimé, la durée de l'effet Réprimé est réinitialisée.
+
+Marqué : Augmente les dégâts infligés par Sung Ilhwan de 35 %. Si la cible est mise en état de Bris, l'effet devient l'effet Réprimé. Durée : 30 seconde(s).
+
+Réprimé : Augmente les dégâts infligés par Sung Ilhwan de 50 %. Augmente les dégâts des compétences ultimes de l'élément Ténèbres de 20 %. Durée : 30 seconde(s).
+
+2 étoiles : Les dégâts de ténèbres de l'utilisateur augmentent de 30 %.
+
+3 étoiles : Le nombre d'attaques pour les compétences Entaille fantôme, Courroux de la condamnation et Puissance apocalyptique est doublé. Lors de l'utilisation de la compétence Transperce-ciel, s'il y a un ennemi dans un rayon de 5 m, l'utilisateur attaque instantanément.
+
+4 étoiles : L'Attaque des coéquipiers de l'élément Ténèbres augmente de 10 % par membre de l'élément Ténèbres présent dans le groupe.
+
+5 étoiles : L'utilisation de l'attaque de base ou de l'attaque de noyau diminue le temps de rechargement de la compétence Entaille fantôme de 1.7 seconde(s). L'utilisation de la compétence Courroux de la condamnation active l'effet Protection du Dominateur. L'utilisateur reçoit un Bouclier, et l'Attaque ainsi que le Taux de coup critique augmentent de 12 % pendant 30 seconde(s) (cumulable jusqu'à 3 fois). Lorsqu'un membre du groupe de l'élément Ténèbres, hormis Sung Ilhwan, utilise sa compétence de base, Sung Ilhwan récupère 8 % de ses PM et remplit sa jauge de puissance de 4 %.
+
+Protection du Dominateur : Confère un Bouclier équivalent à 100 % de l'Attaque de Sung Ilhwan. Durée : 20 seconde(s).

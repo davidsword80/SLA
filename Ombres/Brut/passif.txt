@@ -1,0 +1,3 @@
+Rang : Commun<br>Augmente les dégâts d'eau de tous les membres de L'équipe de 5 %.
+
+Rang : Général<br>Augmente les dégâts d'eau de tous les membres de L'équipe de 9 %.

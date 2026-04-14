@@ -1,0 +1,21 @@
+Passif :<br>Lorsque l'une des compétences d'Anna touche sa cible, a 6% de chances d'infliger [Poison corrosif].<br>[Poison corrosif]<br>Inflige 100 dégâts de Bris toutes les 3 seconde(s).<br>Inflige des dégâts équivalents à 30% de l'Attaque toutes les 3 seconde(s) (cumulable jusqu'à 10 fois).<br>Durée: 30 seconde(s)
+
+1 étoile :<br>Les ennemis se trouvant dans la [Zone toxique] se voient infliger l'effet [Entrave] 1 fois.<br>[Entrave]<br>Immobilise la cible.<br>Durée: 1.5 seconde(s)
+
+2 étoiles :<br>Augmente les dégâts de Bris de l'utilisateur de 10%.
+
+3 étoiles :<br>Applique [Poison corrosif amélioré] et réduit la Défense de la cible.<br>[Poison corrosif amélioré]<br>Inflige 100 dégâts de Bris toutes les3 seconde(s).<br>Inflige des dégâts équivalents à 30% de l'Attaque toutes les 3 seconde(s).<br>Réduit la défense de 1% (cumulable jusqu'à 10 fois).<br>Durée: 30 seconde(s)
+
+4 étoiles :<br>Augmente l'Attaque de l'utilisateur de 10%.
+
+5 étoiles :<br>Augmente les dégâts de Vague venimeuse de • 100%.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

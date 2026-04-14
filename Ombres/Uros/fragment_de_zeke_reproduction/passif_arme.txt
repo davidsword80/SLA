@@ -1,0 +1,13 @@
+passif :
+Fragment de Zeke : Reproduction (Ombre - Niveau inférieur)
+Attaque supplémentaire : 400 Précision : 500
+Effet
+Armement d'ombre exclusif pour Uros
+La Pénétration de défense de l'utilisateur augmente de 4 %.
+
+passif 5 star :
+Fragment de Zeke : Reproduction (Ombre)
+Attaque supplémentaire : 2400 Précision : 3000
+Effet
+Armement d'ombre exclusif pour Uros
+La Pénétration de défense de l'utilisateur augmente de 24 %.

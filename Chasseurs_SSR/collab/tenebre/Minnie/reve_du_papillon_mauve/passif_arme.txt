@@ -1,0 +1,12 @@
+passif :
+La Défense de I'utilisatrice augmente de 5 %, et
+son Taux de coup critique ainsi que ses Dégats de
+coup critique augmentent de 2.5 %.
+
+passif 5 star:
+La Défense de l'utilisatrice augmente de 12 %, et
+son Taux de coup critique ainsi que ses Dégats de
+coup critique augmentent de 15 %.
+
+passif 10star : 
+Augmente I'Attaque, la Défense et les PV de 15 %.

@@ -1,0 +1,21 @@
+Passif :<br>Lorsque la compétence Bourrasque glaciale touche sa cible, elle a 20% de chances de lui appliquer l'effet [Gel]. <br>[Gel]<br>Cette compétence interrompt la cible. <br>Durée: 2 seconde(s)
+
+1 étoile :<br>Lorsque la compétence Bourrasque glaciale est utilisée sur des cibles affectées par [Gel], l'effet [Érosion] s'applique.<br>[Érosion]<br>Augmente les dégâts infligés aux cibles dotées d'une faiblesse élémentaire de 12%.<br>Durée: 15 seconde(s)
+
+2 étoiles :<br>Vos dégâts d'eau augmentent de 8%.
+
+3 étoiles :<br>Modification des effets de la compétence [Bourrasque glaciale]: Peut être utilisée jusqu'à 2 fois Réduit le temps de rechargement de 3 seconde(s).
+
+4 étoiles :<br>Le temps de rechargement de [Bourrasque glaciale] diminue de 15 %.
+
+5 étoiles :<br>L'effet [Erosion] peut se cumuler jusqu'à 2 fois.
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 2%.

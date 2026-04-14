@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling Arise - Runes</title>
+    <link rel="stylesheet" href="css/fusion.css" />
+    <link rel="shortcut icon" href="img/Icon/20x20.png" />
+	<script src="js/components.js"></script>
+  </head>
+  <body>
+    <section>
+      <input type="text" id="search" placeholder="Rechercher une rune..." oninput="applyFilters()" />
+      <div class="filter-section" id="filters">
+        <div class="buttons">
+          <strong>Type :</strong>
+          <button class="filter-btn" onclick="filterItems('booster', this)">Booster</button>
+          <button class="filter-btn" onclick="filterItems('survie', this)">Survie</button>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="item-list">
+		
+        <div class="item rune-card survie" onclick="openPopup('pop_accomplissement')">
+			<img src="Runes_Survie/accomplissement_de_quete_journaliere/accomplissement_de_quete_journaliere.png" alt="Accomplissement de quête journalière" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Accomplissement de quête journalière</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_benediction')">
+			<img src="Runes_Survie/benediction_de_kandiaru/benediction_de_kandiaru.png" alt="Bénédiction de Kandiaru" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Bénédiction de Kandiaru</h4></div>
+		</div>
+
+        <div class="item rune-card booster" onclick="openPopup('pop_carnage')">
+          <img src="Runes_Booster/carnage_de_mana/carnage_de_mana.png" alt="Carnage de mana" class="portrait" />
+          <div class="card-name-container"><h4 class="card-name">Carnage de mana</h4></div>
+        </div>
+
+        <div class="item rune-card booster" onclick="openPopup('pop_chaines')">
+          <img src="Runes_Booster/chaine_ensanglantees/chaine_ensanglantees.png" alt="Chaînes ensanglantées" class="portrait" />
+          <div class="card-name-container"><h4 class="card-name">Chaînes ensanglantées</h4></div>
+        </div>
+		
+		<div class="item rune-card survie" onclick="openPopup('pop_camouflage')">
+			<img src="Runes_Survie/camouflage/camouflage.png" alt="Camouflage" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Camouflage</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_catastrophe')">
+			<img src="Runes_Survie/catastrophe_naturelle/catastrophe_naturelle.png" alt="Catastrophe naturelle" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Catastrophe naturelle</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_defense')">
+			<img src="Runes_Survie/defense_agressive/defense_agressive.png" alt="Défense agressive" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Défense agressive</h4></div>
+		</div>	
+
+		<div class="item rune-card survie" onclick="openPopup('pop_kasaka')">
+			<img src="Runes_Survie/ecailles_d_acier_de_kasaka/ecailles_d_acier_de_kasaka.png" alt="Écailles d'acier de Kasaka" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Écailles d'acier de Kasaka</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_extraction')">
+			<img src="Runes_Survie/extraction_de_pv/extraction_de_pv.png" alt="Extraction de PV" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Extraction de PV</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_mission')">
+			<img src="Runes_Survie/mission_de_la_sanction/mission_de_la_sanction.png" alt="Mission de la sanction" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Mission de la sanction</h4></div>
+		</div>	
+		
+		<div class="item rune-card survie" onclick="openPopup('pop_solidification')">
+			<img src="Runes_Survie/solidification/solidification.png" alt="Solidification" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Solidification</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_tenacite')">
+			<img src="Runes_Survie/tenacite/tenacite.png" alt="Ténacité" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Ténacité</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_vie')">
+			<img src="Runes_Survie/vie/vie.png" alt="Vie" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Vie</h4></div>
+		</div>	
+		
+		<div class="item rune-card booster" onclick="openPopup('pop_devastatrice')">
+			<img src="Runes_Booster/attaque_devastatrice/attaque_devastatrice.png" alt="Attaque dévastatrice" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Attaque dévastatrice</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_attaquer_defendre')">
+			<img src="Runes_Survie/attaquer_pour_mieux_defendre/attaquer_pour_mieux_defendre.png" alt="Attaquer pour mieux défendre" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Attaquer pour mieux défendre</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_barrage')">
+			<img src="Runes_Booster/barrage_initial/barrage_initial.png" alt="Barrage initial" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Barrage initial</h4></div>
+		</div>		
+		
+		<div class="item rune-card booster" onclick="openPopup('pop_chasseur_boss')">
+			<img src="Runes_Booster/chasseur_de_boss/chasseur_de_boss.png" alt="Chasseur de boss" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Chasseur de boss</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_chasseur_demons')">
+			<img src="Runes_Booster/chasseur_de_demons/chasseur_de_demons.png" alt="Chasseur de démons" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Chasseur de démons</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_desir')">
+			<img src="Runes_Booster/desir/desir.png" alt="Désir" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Désir</h4></div>
+		</div>		
+		
+		<div class="item rune-card booster" onclick="openPopup('pop_detection')">
+			<img src="Runes_Booster/detection_de_faiblesse/detection_de_faiblesse.png" alt="Détection de faiblesse" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Détection de faiblesse</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_domaine')">
+			<img src="Runes_Booster/domaine_du_monarque/domaine_du_monarque.png" alt="Domaine du monarque" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Domaine du monarque</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_economie')">
+			<img src="Runes_Booster/economie_des_forces/economie_des_forces.png" alt="Économie des forces" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Économie des forces</h4></div>
+		</div>	
+
+		<div class="item rune-card booster" onclick="openPopup('pop_epee_tranchant')">
+			<img src="Runes_Booster/epee_a_double_tranchant/epee_a_double_tranchant.png" alt="Épée à double tranchant" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Épée à double tranchant</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_force_irresistible')">
+			<img src="Runes_Booster/force_irresistible/force_irresistible.png" alt="Force irrésistible" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Force irrésistible</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_frappe_fatale')">
+			<img src="Runes_Booster/frappe_fatale/frappe_fatale.png" alt="Frappe fatale" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Frappe fatale</h4></div>
+		</div>	
+
+		<div class="item rune-card booster" onclick="openPopup('pop_veloce')">
+			<img src="Runes_Booster/frappe_veloce/frappe_veloce.png" alt="Frappe véloce" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Frappe véloce</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_hostilite')">
+			<img src="Runes_Booster/hostilite/hostilite.png" alt="Hostilité" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Hostilité</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_instinct')">
+			<img src="Runes_Survie/instinct_primaire/instinct_primaire.png" alt="Instinct primaire" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Instinct primaire</h4></div>
+		</div>	
+
+		<div class="item rune-card booster" onclick="openPopup('pop_intuition')">
+			<img src="Runes_Booster/intuition/intuition.png" alt="Intuition" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Intuition</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_maitrise_assassinat')">
+			<img src="Runes_Booster/maitrise_de_l_assassinat/maitrise_de_l_assassinat.png" alt="Maîtrise de l'assassinat" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Maîtrise de l'assassinat</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_massacreur_lycans')">
+			<img src="Runes_Booster/massacreur_de_lycans/massacreur_de_lycans.png" alt="Massacreur de lycans" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Massacreur de lycans</h4></div>
+		</div>	
+
+		<div class="item rune-card booster" onclick="openPopup('pop_nous_ne_faisons_qu_un')">
+			<img src="Runes_Booster/nous_ne_faisons_qu_un/nous_ne_faisons_qu_un.png" alt="Nous ne faisons qu'un" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Nous ne faisons qu'un</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_perception_affutee')">
+			<img src="Runes_Booster/perception_affutee/perception_affutee.png" alt="Perception affûtée" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Perception affûtée</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_pulverisation')">
+			<img src="Runes_Booster/pulverisation/pulverisation.png" alt="Pulvérisation" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Pulvérisation</h4></div>
+		</div>		
+
+		<div class="item rune-card booster" onclick="openPopup('pop_re_eveil')">
+			<img src="Runes_Booster/re_eveil/re_eveil.png" alt="Ré-éveil" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Ré-éveil</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_recup_rapide')">
+			<img src="Runes_Survie/recuperation_rapide/recuperation_rapide.png" alt="Récupération rapide" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Récupération rapide</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_bouclier_mana')">
+			<img src="Runes_Survie/bouclier_d_energie_de_mana/bouclier_d_energie_de_mana.png" alt="Bouclier d'énergie de mana" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Bouclier d'énergie de mana</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_sans_retour')">
+			<img src="Runes_Survie/sans_retour/sans_retour.png" alt="Sans retour" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Sans retour</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_technique_dague')">
+			<img src="Runes_Booster/technique_avancee_de_la_dague/technique_avancee_de_la_dague.png" alt="Technique avancée de la dague" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Technique avancée de la dague</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_vaillant')">
+			<img src="Runes_Booster/vaillant_dans_l_adversite/vaillant_dans_l_adversite.png" alt="Vaillant dans l'adversité" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Vaillant dans l'adversité</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_rapidite')">
+			<img src="Runes_Booster/rapidite/rapidite.png" alt="Rapidité" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Rapidité</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_vitesse_eclair')">
+			<img src="Runes_Booster/vitesse_de_l_eclair/vitesse_de_l_eclair.png" alt="Vitesse de l'éclair" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Vitesse de l'éclair</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_vitesse')">
+			<img src="Runes_Booster/vitesse/vitesse.png" alt="Vitesse" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Vitesse</h4></div>
+		</div>	
+		
+		<div class="item rune-card booster" onclick="openPopup('pop_acrobate')">
+			<img src="Runes_Booster/acrobate/acrobate.png" alt="Acrobate" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Acrobate</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_garde_double')">
+			<img src="Runes_Survie/garde_double/garde_double.png" alt="Garde double" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Garde double</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_jugement_ultime')">
+			<img src="Runes_Booster/jugement_ultime/jugement_ultime.png" alt="Jugement ultime" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Jugement ultime</h4></div>
+		</div>	
+
+		<div class="item rune-card survie" onclick="openPopup('pop_vie_en_marche')">
+			<img src="Runes_Survie/la_vie_en_marche/la_vie_en_marche.png" alt="La vie en marche" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">La vie en marche</h4></div>
+		</div>
+
+		<div class="item rune-card survie" onclick="openPopup('pop_resonance_arme')">
+			<img src="Runes_Survie/resonance_d_arme/resonance_d_arme.png" alt="Résonance d'arme" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Résonance d'arme</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_ricochet')">
+			<img src="Runes_Booster/ricochet/ricochet.png" alt="Ricochet" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Ricochet</h4></div>
+		</div>	
+
+		<div class="item rune-card survie" onclick="openPopup('pop_soutien_mutuel')">
+			<img src="Runes_Survie/soutien_mutuel/soutien_mutuel.png" alt="Soutien mutuel" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Soutien mutuel</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_surcharge_puissance')">
+			<img src="Runes_Booster/surcharge_de_puissance/surcharge_de_puissance.png" alt="Surcharge de puissance" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Surcharge de puissance</h4></div>
+		</div>
+
+		<div class="item rune-card booster" onclick="openPopup('pop_toucher_executeur')">
+			<img src="Runes_Booster/toucher_de_l_executeur/toucher_de_l_executeur.png" alt="Toucher de l'exécuteur" class="portrait" />
+			<div class="card-name-container"><h4 class="card-name">Toucher de l'exécuteur</h4></div>
+		</div>		
+      </div>
+    </main>
+
+    <div id="pop_carnage" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup('pop_carnage')">&times;</span>
+        <h2>Carnage de mana</h2>
+        <div class="rarity-selector">
+          <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+          <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+          <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          <button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+        </div>
+        <div class="passive-box">
+          <div class="passive-content rare active">
+            Vous avez appris à gagner en puissance en canalisant une plus grande quantité de mana. <br>
+            · La consommation de mana de vos compétences augmente de <strong>8 %</strong> et votre Attaque augmente de <strong>6 %</strong>.
+          </div>
+          <div class="passive-content heroique">
+            Vous avez appris à gagner en puissance en canalisant une plus grande quantité de mana. <br>
+            · La consommation de mana de vos compétences augmente de <strong>12 %</strong> et votre Attaque augmente de <strong>9 %</strong>.
+          </div>
+          <div class="passive-content legendaire">
+            Vous avez appris à gagner en puissance en canalisant une plus grande quantité de mana. <br>
+            · La consommation de mana de vos compétences augmente de <strong>12 %</strong> et votre Attaque augmente de <strong>16 %</strong>.
+          </div>
+          <div class="passive-content mythique">
+            Vous avez appris à gagner en puissance en canalisant une plus grande quantité de mana. <br>
+            · La consommation de mana de vos compétences augmente de <strong>15 %</strong> et votre Attaque augmente de <strong>22 %</strong>.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pop_chaines" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup('pop_chaines')">&times;</span>
+        <h2>Chaînes ensanglantées</h2>
+        <div class="rarity-selector">
+          <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+          <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+          <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          <button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+        </div>
+        <div class="passive-box">
+          <div class="passive-content rare active">
+            Des chaînes ensanglantées vous étreignent. <br>
+            · Les dégâts de vos attaques augmentent à hauteur de <strong>12 %</strong> des PV perdus, mais les dégâts subis augmentent de <strong>10 %</strong>.
+          </div>
+          <div class="passive-content heroique">
+            Des chaînes ensanglantées vous étreignent. <br>
+            · Les dégâts de vos attaques augmentent à hauteur de <strong>18 %</strong> des PV perdus, mais les dégâts subis augmentent de <strong>10 %</strong>.
+          </div>
+          <div class="passive-content legendaire">
+            Des chaînes ensanglantées vous étreignent. <br>
+            · Les dégâts de vos attaques augmentent à hauteur de <strong>30 %</strong> des PV perdus, mais les dégâts subis augmentent de <strong>10 %</strong>.
+          </div>
+          <div class="passive-content mythique">
+            Des chaînes ensanglantées vous étreignent. <br>
+            · Les dégâts de vos attaques augmentent à hauteur de <strong>45 %</strong> des PV perdus, mais les dégâts subis augmentent de <strong>10 %</strong>.
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<div id="pop_camouflage" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_camouflage')">&times;</span>
+			<h2>Camouflage</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Lorsqu'un puissant éclair s'abat sur vous, vous disparaissez et récupérez aussi vite.<br>
+					Lorsque vous subissez des dégâts supérieurs à <strong>5 %</strong> de vos PV max, vous vous camouflez pendant <strong>3 seconde(s)</strong> et récupérez <strong>2 %</strong> de vos PV toutes les <strong>1 seconde(s)</strong>. (Temps de rechargement : <strong>30 seconde(s)</strong>)
+				</div>
+				<div class="passive-content heroique">
+					Lorsqu'un puissant éclair s'abat sur vous, vous disparaissez et récupérez aussi vite.<br>
+					Lorsque vous subissez des dégâts équivalents à au moins <strong>5 %</strong> de vos PV max, vous vous camouflez pendant <strong>3 seconde(s)</strong> et récupérez <strong>3 %</strong> de PV toutes les <strong>1 seconde(s)</strong>. (Temps de rechargement : <strong>30 seconde(s)</strong>)
+				</div>
+				<div class="passive-content legendaire">
+					Lorsqu'un puissant éclair s'abat sur vous, vous disparaissez et récupérez aussi vite.<br>
+					Lorsque vous subissez des dégâts équivalents à au moins <strong>5 %</strong> de vos PV max, vous vous camouflez pendant <strong>3 seconde(s)</strong> et récupérez <strong>5 %</strong> de PV toutes les <strong>1 seconde(s)</strong>. (Temps de rechargement : <strong>30 seconde(s)</strong>)
+				</div>
+				<div class="passive-content mythique">
+					Lorsqu'un puissant éclair s'abat sur vous, vous disparaissez et récupérez aussi vite.<br>
+					Lorsque vous subissez des dégâts équivalents à au moins <strong>5 %</strong> de vos PV max, vous vous camouflez pendant <strong>3 seconde(s)</strong> et récupérez <strong>7 %</strong> de PV toutes les <strong>1 seconde(s)</strong>. (Temps de rechargement : <strong>30 seconde(s)</strong>)
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	<div id="pop_catastrophe" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_catastrophe')">&times;</span>
+			<h2>Catastrophe naturelle</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Les bêtes magiques ne sont pas les seules à troubler la tranquillité du donjon.<br>
+					Dans le mode <strong>[Combat d'équipe]</strong>, les dégâts subis par les coéquipiers diminuent de <strong>3 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Les bêtes magiques ne sont pas les seules à troubler la tranquillité du donjon.<br>
+					Dans le mode <strong>[Combat d'équipe]</strong>, les dégâts subis par les coéquipiers diminuent de <strong>5 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Les bêtes magiques ne sont pas les seules à troubler la tranquillité du donjon.<br>
+					Dans le mode <strong>[Combat d'équipe]</strong>, les dégâts subis par les coéquipiers diminuent de <strong>8 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Les bêtes magiques ne sont pas les seules à troubler la tranquillité du donjon.<br>
+					Dans le mode <strong>[Combat d'équipe]</strong>, les dégâts subis par les coéquipiers diminuent de <strong>12 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="pop_defense" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_defense')">&times;</span>
+			<h2>Défense agressive</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					La meilleure défense, c'est l'attaque. Lorsque votre attaque de base touche sa cible, vous bénéficiez d'un <strong>[Bouclier]</strong> équivalent à <strong>0.2 %</strong> de vos PV max pendant <strong>10 seconde(s)</strong> (cumulable jusqu'à <strong>10 fois</strong>). Temps de rechargement : <strong>1 seconde(s)</strong>
+				</div>
+				<div class="passive-content heroique">
+					La meilleure défense, c'est l'attaque. Lorsque votre attaque de base touche sa cible, vous bénéficiez d'un <strong>[Bouclier]</strong> équivalent à <strong>0.3 %</strong> de vos PV max pendant <strong>10 seconde(s)</strong> (cumulable jusqu'à <strong>10 fois</strong>). Temps de rechargement : <strong>1 seconde(s)</strong>
+				</div>
+				<div class="passive-content legendaire">
+					La meilleure défense, c'est l'attaque. Lorsque votre attaque de base touche sa cible, vous bénéficiez d'un <strong>[Bouclier]</strong> équivalent à <strong>0.5 %</strong> de vos PV max pendant <strong>10 seconde(s)</strong> (cumulable jusqu'à <strong>10 fois</strong>). Temps de rechargement : <strong>1 seconde(s)</strong>
+				</div>
+				<div class="passive-content mythique">
+					La meilleure défense, c'est l'attaque. Lorsque votre attaque de base touche sa cible, vous bénéficiez d'un <strong>[Bouclier]</strong> équivalent à <strong>0.8 %</strong> de vos PV max pendant <strong>10 seconde(s)</strong> (cumulable jusqu'à <strong>10 fois</strong>). Temps de rechargement : <strong>1 seconde(s)</strong>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_kasaka" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_kasaka')">&times;</span>
+			<h2>Écailles d'acier de Kasaka</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					L'effet Écailles de Kasaka rend votre corps dur comme l'acier.<br>
+					Les dégâts subis sont réduits de <strong>6 %</strong>.<br>
+					Augmente l'effet des Boucliers reçus de <strong>6 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					L'effet Écailles de Kasaka rend votre corps dur comme l'acier.<br>
+					Les dégâts subis sont réduits de <strong>9 %</strong>.<br>
+					Augmente l'effet des Boucliers reçus de <strong>9 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					L'effet Écailles de Kasaka rend votre corps dur comme l'acier.<br>
+					Les dégâts subis sont réduits de <strong>15 %</strong>.<br>
+					Augmente l'effet des Boucliers reçus de <strong>15 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					L'effet Écailles de Kasaka rend votre corps dur comme l'acier.<br>
+					Les dégâts subis sont réduits de <strong>20 %</strong>.<br>
+					Augmente l'effet des Boucliers reçus de <strong>20 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_extraction" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_extraction')">&times;</span>
+			<h2>Extraction de PV</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					La capacité Monarque des ombres permet d'utiliser des capacités d'extraction de PV des ennemis.<br>
+					Vous récupérez <strong>0.8 %</strong> de vos PV en vainquant un ennemi.<br>
+					Vous récupérez <strong>2 %</strong> de vos PV en frappant des monstres d'Élite ou supérieurs (temps de rechargement : <strong>30 seconde(s)</strong>).
+				</div>
+				<div class="passive-content heroique">
+					La capacité Monarque des ombres permet d'utiliser des capacités d'extraction de PV des ennemis.<br>
+					Vous récupérez <strong>1.2 %</strong> de vos PV en vainquant un ennemi.<br>
+					Vous récupérez <strong>3 %</strong> de vos PV en frappant des monstres d'Élite ou supérieurs (temps de rechargement : <strong>30 seconde(s)</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					La capacité Monarque des ombres permet d'utiliser des capacités d'extraction de PV des ennemis.<br>
+					Vous récupérez <strong>2 %</strong> de vos PV en vainquant un ennemi.<br>
+					Vous récupérez <strong>5 %</strong> de vos PV en frappant des monstres d'Élite ou supérieurs (temps de rechargement : <strong>30 seconde(s)</strong>).
+				</div>
+				<div class="passive-content mythique">
+					La capacité Monarque des ombres permet d'utiliser des capacités d'extraction de PV des ennemis.<br>
+					Vous récupérez <strong>3 %</strong> de vos PV en vainquant un ennemi.<br>
+					Vous récupérez <strong>8 %</strong> de vos PV en frappant des monstres d'Élite ou supérieurs (temps de rechargement : <strong>30 seconde(s)</strong>).
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_mission" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_mission')">&times;</span>
+			<h2>Mission de la sanction : Survie</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					<strong>Objectif :</strong> rester en vie pendant le temps imparti.<br><br>
+					Lorsque vous utilisez Évasion extrême 5 fois avec succès, votre Défense augmente de <strong>20 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					<strong>Objectif :</strong> rester en vie pendant le temps imparti.<br><br>
+					Lorsque vous utilisez Évasion extrême 5 fois avec succès, votre Défense augmente de <strong>30 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					<strong>Objectif :</strong> rester en vie pendant le temps imparti.<br><br>
+					Lorsque vous utilisez Évasion extrême 5 fois avec succès, votre Défense augmente de <strong>45 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					<strong>Objectif :</strong> rester en vie pendant le temps imparti.<br><br>
+					Lorsque vous utilisez Évasion extrême 5 fois avec succès, votre Défense augmente de <strong>60 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_solidification" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_solidification')">&times;</span>
+			<h2>Solidification</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Votre corps se solidifie pour mieux résister aux chocs.<br>
+					La Défense augmente de <strong>8 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Votre corps se solidifie pour mieux résister aux chocs.<br>
+					La Défense augmente de <strong>12 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Votre corps se solidifie pour mieux résister aux chocs.<br>
+					La Défense augmente de <strong>20 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Votre corps se solidifie pour mieux résister aux chocs.<br>
+					La Défense augmente de <strong>28 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_tenacite" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_tenacite')">&times;</span>
+			<h2>Ténacité</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Votre volonté de fer vous permet de tenir bon.<br>
+					Les PV max augmentent de <strong>6 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Votre volonté de fer vous permet de tenir bon.<br>
+					Les PV max augmentent de <strong>9 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Votre volonté de fer vous permet de tenir bon.<br>
+					Les PV max augmentent de <strong>15 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Votre volonté de fer vous permet de tenir bon.<br>
+					Les PV max augmentent de <strong>22 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_vie" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_vie')">&times;</span>
+			<h2>Vie</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					"Je refuse de mourir dans un endroit pareil !"<br>
+					Quand vous entrez dans un niveau, vous gagnez un <strong>[Bouclier]</strong> équivalent à <strong>15 %</strong> de vos PV max pendant <strong>60 seconde(s)</strong>.
+				</div>
+				<div class="passive-content heroique">
+					"Je refuse de mourir dans un endroit pareil !"<br>
+					Quand vous entrez dans un niveau, vous gagnez un <strong>[Bouclier]</strong> équivalent à <strong>25 %</strong> de vos PV max pendant <strong>60 seconde(s)</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					"Je refuse de mourir dans un endroit pareil !"<br>
+					Quand vous entrez dans un niveau, vous gagnez un <strong>[Bouclier]</strong> équivalent à <strong>35 %</strong> de vos PV max pendant <strong>60 seconde(s)</strong>.
+				</div>
+				<div class="passive-content mythique">
+					"Je refuse de mourir dans un endroit pareil !"<br>
+					Quand vous entrez dans un niveau, vous gagnez un <strong>[Bouclier]</strong> équivalent à <strong>50 %</strong> de vos PV max pendant <strong>60 seconde(s)</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_accomplissement" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_accomplissement')">&times;</span>
+			<h2>Accomplissement de quête journalière</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vous avez terminé la quête journalière. Voici votre récompense.<br><br>
+					Si vos PV sont à <strong>1</strong> ou moins, vous bénéficiez de l'effet <strong>[Immortel]</strong> pendant <strong>4 seconde(s)</strong>. Lorsque l'effet <strong>[Immortel]</strong> se dissipe, vous récupérez <strong>2000</strong> de vos PV, ainsi que <strong>4 %</strong> de vos PV max.<br>
+					Cet effet ne s'activera <strong>qu'une fois</strong> au combat.
+				</div>
+				<div class="passive-content heroique">
+					Vous avez terminé la quête journalière. Voici votre récompense.<br><br>
+					Si vos PV sont à <strong>1</strong> ou moins, vous bénéficiez de l'effet <strong>[Immortel]</strong> pendant <strong>4 seconde(s)</strong>. Lorsque l'effet <strong>[Immortel]</strong> se dissipe, vous récupérez <strong>2000</strong> de vos PV, ainsi que <strong>8 %</strong> de vos PV max.<br>
+					Cet effet ne s'activera <strong>qu'une fois</strong> au combat.
+				</div>
+				<div class="passive-content legendaire">
+					Vous avez terminé la quête journalière. Voici votre récompense.<br><br>
+					Si vos PV sont à <strong>1</strong> ou moins, vous bénéficiez de l'effet <strong>[Immortel]</strong> pendant <strong>4 seconde(s)</strong>. Lorsque l'effet <strong>[Immortel]</strong> se dissipe, vous récupérez <strong>2000</strong> de vos PV, ainsi que <strong>16 %</strong> de vos PV max.<br>
+					Cet effet ne s'activera <strong>qu'une fois</strong> au combat.
+				</div>
+				<div class="passive-content mythique">
+					Vous avez terminé la quête journalière. Voici votre récompense.<br><br>
+					Si vos PV sont à <strong>1</strong> ou moins, vous bénéficiez de l'effet <strong>[Immortel]</strong> pendant <strong>6 seconde(s)</strong>. Lorsque l'effet <strong>[Immortel]</strong> se dissipe, vous récupérez <strong>5000</strong> de vos PV, ainsi que <strong>25 %</strong> de vos PV max.<br>
+					Cet effet ne s'activera <strong>qu'une fois</strong> au combat.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_benediction" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_benediction')">&times;</span>
+			<h2>Bénédiction de Kandiaru</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Le grand enchanteur Kandiaru vous a offert un enchantement spécial.<br><br>
+					Vos PV augmentent de <strong>6 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Le grand enchanteur Kandiaru vous a offert un enchantement spécial.<br><br>
+					Vos PV augmentent de <strong>10 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Le grand enchanteur Kandiaru vous a offert un enchantement spécial.<br><br>
+					Vos PV augmentent de <strong>16 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Le grand enchanteur Kandiaru vous a offert un enchantement spécial.<br><br>
+					Vos PV augmentent de <strong>22 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_devastatrice" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_devastatrice')">&times;</span>
+			<h2>Attaque dévastatrice</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					J'écraserai tout ce qui se dressera sur ma route.<br>
+					Les dégâts des compétences de Jinwoo avec effet de <strong>[Bris]</strong> augmentent de <strong>15 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					J'écraserai tout ce qui se dressera sur ma route.<br>
+					Les dégâts des compétences de Jinwoo avec effet de <strong>[Bris]</strong> augmentent de <strong>25 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					J'écraserai tout ce qui se dressera sur ma route.<br>
+					Les dégâts des compétences de Jinwoo avec effet de <strong>[Bris]</strong> augmentent de <strong>35 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					J'écraserai tout ce qui se dressera sur ma route.<br>
+					Les dégâts des compétences de Jinwoo avec effet de <strong>[Bris]</strong> augmentent de <strong>50 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_attaquer_defendre" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_attaquer_defendre')">&times;</span>
+			<h2>Attaquer pour mieux défendre</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					La meilleure défense consiste à dissuader l'ennemi d'attaquer.<br>
+					Lorsque la <strong>compétence ultime</strong> de Jinwoo est utilisée, il acquiert un <strong>[Bouclier]</strong> équivalent à <strong>10 %</strong> de ses PV max pendant <strong>15 seconde(s)</strong>.
+				</div>
+				<div class="passive-content heroique">
+					La meilleure défense consiste à dissuader l'ennemi d'attaquer.<br>
+					Lorsque la <strong>compétence ultime</strong> de Jinwoo est utilisée, il acquiert un <strong>[Bouclier]</strong> équivalent à <strong>20 %</strong> de ses PV max pendant <strong>15 seconde(s)</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					La meilleure défense consiste à dissuader l'ennemi d'attaquer.<br>
+					Lorsque la <strong>compétence ultime</strong> de Jinwoo est utilisée, il acquiert un <strong>[Bouclier]</strong> équivalent à <strong>30 %</strong> de ses PV max pendant <strong>15 seconde(s)</strong>.
+				</div>
+				<div class="passive-content mythique">
+					La meilleure défense consiste à dissuader l'ennemi d'attaquer.<br>
+					Lorsque la <strong>compétence ultime</strong> de Jinwoo est utilisée, il acquiert un <strong>[Bouclier]</strong> équivalent à <strong>45 %</strong> de ses PV max pendant <strong>15 seconde(s)</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_barrage" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_barrage')">&times;</span>
+			<h2>Barrage initial</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Je ne vole pas comme le papillon et ne pique pas comme l'abeille ; je suis l'essaim.<br>
+					Lorsque Jinwoo réussit à porter <strong>60 attaque(s)</strong>, son Attaque augmente de <strong>1 %</strong> (cumulable jusqu'à <strong>10 fois</strong>).
+				</div>
+				<div class="passive-content heroique">
+					Je ne vole pas comme le papillon et ne pique pas comme l'abeille ; je suis l'essaim.<br>
+					Lorsque Jinwoo réussit à porter <strong>50 attaque(s)</strong>, son Attaque augmente de <strong>1.5 %</strong> (cumulable jusqu'à <strong>10 fois</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					Je ne vole pas comme le papillon et ne pique pas comme l'abeille ; je suis l'essaim.<br>
+					Lorsque Jinwoo réussit à porter <strong>40 attaque(s)</strong>, son Attaque augmente de <strong>2 %</strong> (cumulable jusqu'à <strong>10 fois</strong>).
+				</div>
+				<div class="passive-content mythique">
+					Je ne vole pas comme le papillon et ne pique pas comme l'abeille ; je suis l'essaim.<br>
+					Lorsque Jinwoo réussit à porter <strong>30 attaque(s)</strong>, son Attaque augmente de <strong>3 %</strong> (cumulable jusqu'à <strong>10 fois</strong>).
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_chasseur_boss" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_chasseur_boss')">&times;</span>
+			<h2>Chasseur de boss</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vous vous spécialisez dans la chasse aux boss.<br>
+					· Les dégâts que vous infligez aux boss augmentent de <strong>8 %</strong>, mais le temps de rechargement de <strong>Ruée</strong> augmente de <strong>15 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Vous vous spécialisez dans la chasse aux boss.<br>
+					· Les dégâts que vous infligez aux boss augmentent de <strong>12 %</strong>, mais le temps de rechargement de <strong>Ruée</strong> augmente de <strong>20 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Vous vous spécialisez dans la chasse aux boss.<br>
+					· Les dégâts que vous infligez aux boss augmentent de <strong>20 %</strong>, mais le temps de rechargement de <strong>Ruée</strong> augmente de <strong>20 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Vous vous spécialisez dans la chasse aux boss.<br>
+					· Les dégâts que vous infligez aux boss augmentent de <strong>30 %</strong>, mais le temps de rechargement de <strong>Ruée</strong> augmente de <strong>20 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_chasseur_demons" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_chasseur_demons')">&times;</span>
+			<h2>Titre : Chasseur de démons</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vous avez obtenu le <strong>Titre : Chasseur de démons</strong>.<br>
+					Augmente les PM totaux de <strong>500</strong>.<br>
+					Vous récupérez <strong>3 PM</strong> par seconde.
+				</div>
+				<div class="passive-content heroique">
+					Vous avez obtenu le <strong>Titre : Chasseur de démons</strong>.<br>
+					Augmente les PM totaux de <strong>700</strong>.<br>
+					Vous récupérez <strong>4 PM</strong> par seconde.
+				</div>
+				<div class="passive-content legendaire">
+					Vous avez obtenu le <strong>Titre : Chasseur de démons</strong>.<br>
+					Augmente les PM totaux de <strong>1200</strong>.<br>
+					Vous récupérez <strong>5 PM</strong> par seconde.
+				</div>
+				<div class="passive-content mythique">
+					Vous avez obtenu le <strong>Titre : Chasseur de démons</strong>.<br>
+					Augmente les PM totaux de <strong>1800</strong>. <br>
+					Vous récupérez <strong>7 PM</strong> par seconde.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_desir" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_desir')">&times;</span>
+			<h2>Désir</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Même à bout de forces, votre désir d'atteindre le sommet vous revigore et vous fait avancer.<br>
+					Si vos PM actuels sont à <strong>60 %</strong> ou moins, votre attaque augmente de <strong>12 %</strong>.<br>
+					Vous commencerez le combat avec <strong>60 %</strong> de vos PM actuels.<br>
+					Si vous obtenez l'effet <strong>[Récupération de PM]</strong>, <strong>[Désir]</strong> dissipe l'effet Attaque augmentée pendant <strong>10 seconde(s)</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Même à bout de forces, votre désir d'atteindre le sommet vous revigore et vous fait avancer.<br>
+					Si vos PM actuels sont à <strong>60 %</strong> ou moins, votre attaque augmente de <strong>16 %</strong>.<br>
+					Vous commencerez le combat avec <strong>60 %</strong> de vos PM actuels.<br>
+					Si vous obtenez l'effet <strong>[Récupération de PM]</strong>, <strong>[Désir]</strong> dissipe l'effet Attaque augmentée pendant <strong>10 seconde(s)</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Même à bout de forces, votre désir d'atteindre le sommet vous revigore et vous fait avancer.<br>
+					Si vos PM actuels sont à <strong>60 %</strong> ou moins, votre attaque augmente de <strong>24 %</strong>.<br>
+					Vous commencerez le combat avec <strong>60 %</strong> de vos PM actuels.<br>
+					Si vous obtenez l'effet <strong>[Récupération de PM]</strong>, <strong>[Désir]</strong> dissipe l'effet Attaque augmentée pendant <strong>10 seconde(s)</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Même à bout de forces, votre désir d'atteindre le sommet vous revigore et vous fait avancer.<br>
+					Si vos PM actuels sont à <strong>60 %</strong> ou moins, votre attaque augmente de <strong>35 %</strong>. <br>
+					Vous commencerez le combat avec <strong>60 %</strong> de vos PM actuels. <br>
+					Si vous obtenez l'effet <strong>[Récupération de PM]</strong>, <strong>[Désir]</strong> dissipe l'effet Attaque augmentée pendant <strong>10 seconde(s)</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_detection" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_detection')">&times;</span>
+			<h2>Détection de faiblesse</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vous pouvez distinguer les faiblesses de votre ennemi.<br>
+					Les dégâts que vous infligez aux cibles dotées d'une faiblesse élémentaire augmentent de <strong>8 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Vous pouvez distinguer les faiblesses de votre ennemi.<br>
+					Les dégâts que vous infligez aux cibles dotées d'une faiblesse élémentaire augmentent de <strong>12 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Vous pouvez distinguer les faiblesses de votre ennemi.<br>
+					Les dégâts que vous infligez aux cibles dotées d'une faiblesse élémentaire augmentent de <strong>20 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Vous pouvez distinguer les faiblesses de votre ennemi.<br>
+					Les dégâts que vous infligez aux cibles dotées d'une faiblesse élémentaire augmentent de <strong>30 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_domaine" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_domaine')">&times;</span>
+			<h2>Domaine du monarque</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Lorsque vous invoquez une ombre, l'effet <strong>[Domaine du monarque]</strong> s'active et renforce l'ombre.<br>
+					L'Attaque de l'ombre se trouvant dans la zone augmente de <strong>40 %</strong>.<br>
+					Inflige <strong>toutes les secondes</strong> des dégâts équivalents à <strong>100 %</strong> de votre Attaque aux ennemis se trouvant dans la zone.<br>
+					Durée : <strong>8 secondes</strong>
+				</div>
+				<div class="passive-content heroique">
+					Lorsque vous invoquez une ombre, <strong>[Domaine du monarque]</strong> s'active.<br>
+					L'Attaque de l'ombre dans le domaine augmente de <strong>60 %</strong>.<br>
+					L'ombre inflige également des dégâts équivalents à <strong>100 %</strong> de votre Attaque <strong>toutes les secondes</strong> aux ennemis à l'intérieur du domaine.<br>
+					Durée : <strong>8 secondes</strong>
+				</div>
+				<div class="passive-content legendaire">
+					Lorsque vous invoquez une ombre, <strong>[Domaine du monarque]</strong> s'active.<br>
+					L'Attaque de l'ombre dans le domaine augmente de <strong>100 %</strong>.<br>
+					L'ombre inflige également des dégâts équivalents à <strong>100 %</strong> de votre Attaque <strong>toutes les secondes</strong> aux ennemis à l'intérieur du domaine.<br>
+					Durée : <strong>8 secondes</strong>
+				</div>
+				<div class="passive-content mythique">
+					Lorsque vous invoquez une ombre, <strong>[Domaine du monarque]</strong> s'active.<br>
+					L'Attaque de l'ombre dans le domaine augmente de <strong>150 %</strong>.<br>
+					L'ombre inflige également des dégâts équivalents à <strong>150 %</strong> de votre Attaque <strong>toutes les secondes</strong> aux ennemis à l'intérieur du domaine.<br>
+					Durée : <strong>10 secondes</strong>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_economie" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_economie')">&times;</span>
+			<h2>Économie des forces</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Les difficultés d'aujourd'hui ne sont que des étapes vers les succès de demain.<br>
+					L'Attaque de Jinwoo diminue de <strong>10 %</strong> pendant <strong>180 seconde(s)</strong>.<br>
+					Ensuite, son Attaque augmente de <strong>40 %</strong> pendant <strong>120 seconde(s)</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Les difficultés d'aujourd'hui ne sont que des étapes vers les succès de demain.<br>
+					L'Attaque de Jinwoo diminue de <strong>10 %</strong> pendant <strong>150 seconde(s)</strong>.<br>
+					Ensuite, son Attaque augmente de <strong>40 %</strong> pendant <strong>120 seconde(s)</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Les difficultés d'aujourd'hui ne sont que des étapes vers les succès de demain.<br>
+					L'Attaque de Jinwoo diminue de <strong>10 %</strong> pendant <strong>130 seconde(s)</strong>.<br>
+					Ensuite, son Attaque augmente de <strong>40 %</strong> pendant <strong>120 seconde(s)</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Les difficultés d'aujourd'hui ne sont que des étapes vers les succès de demain.<br>
+					L'Attaque de Jinwoo diminue de <strong>10 %</strong> pendant <strong>100 seconde(s)</strong>.<br>
+					Ensuite, son Attaque augmente de <strong>60 %</strong> pendant <strong>150 seconde(s)</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_epee_tranchant" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_epee_tranchant')">&times;</span>
+			<h2>Épée à double tranchant</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Le danger grandit en même temps que votre Attaque.<br><br>
+					Lorsque vos attaques touchent leur cible, votre Attaque augmente de <strong>2 %</strong> pendant <strong>10 seconde(s)</strong>, mais l'Attaque de la cible augmente également de <strong>2 %</strong> (cumulable jusqu'à <strong>4 fois</strong>).
+				</div>
+				<div class="passive-content heroique">
+					Le danger grandit en même temps que votre Attaque.<br><br>
+					Lorsque vos attaques touchent leur cible, votre Attaque augmente de <strong>3 %</strong> pendant <strong>10 seconde(s)</strong>, mais l'Attaque de la cible augmente également de <strong>3 %</strong> (cumulable jusqu'à <strong>4 fois</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					Le danger grandit en même temps que votre Attaque.<br><br>
+					Lorsque vos attaques touchent leurs cibles, votre Attaque augmente de <strong>4 %</strong> pendant <strong>10 seconde(s)</strong>, mais l'Attaque des cibles augmente également de <strong>3 %</strong> (cumulable jusqu'à <strong>4 fois</strong>).
+				</div>
+				<div class="passive-content mythique">
+					Le danger grandit en même temps que votre Attaque.<br><br>
+					Lorsque vos attaques touchent leurs cibles, votre Attaque augmente de <strong>6 %</strong> pendant <strong>10 seconde(s)</strong>, mais l'Attaque des cibles augmente également de <strong>3 %</strong> (cumulable jusqu'à <strong>4 fois</strong>).
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_force_irresistible" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_force_irresistible')">&times;</span>
+			<h2>Force irrésistible</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Je frapperai sans la moindre hésitation pour avancer.<br><br>
+					Lorsque Jinwoo utilise une compétence avec effet de <strong>[Bris]</strong>, son Attaque augmente de <strong>3 %</strong> pendant <strong>6 seconde(s)</strong> (cumulable jusqu'à <strong>3 fois</strong>).
+				</div>
+				<div class="passive-content heroique">
+					Je frapperai sans la moindre hésitation pour avancer.<br><br>
+					Lorsque Jinwoo utilise une compétence avec effet de <strong>[Bris]</strong>, son Attaque augmente de <strong>5 %</strong> pendant <strong>6 seconde(s)</strong> (cumulable jusqu'à <strong>3 fois</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					Je frapperai sans la moindre hésitation pour avancer.<br><br>
+					Lorsque Jinwoo utilise une compétence avec effet de <strong>[Bris]</strong>, son Attaque augmente de <strong>7 %</strong> pendant <strong>6 seconde(s)</strong> (cumulable jusqu'à <strong>3 fois</strong>).
+				</div>
+				<div class="passive-content mythique">
+					Je frapperai sans la moindre hésitation pour avancer.<br><br>
+					Lorsque Jinwoo utilise une compétence avec effet de <strong>[Bris]</strong>, son Attaque augmente de <strong>10 %</strong> pendant <strong>6 seconde(s)</strong> (cumulable jusqu'à <strong>3 fois</strong>).
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_frappe_fatale" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_frappe_fatale')">&times;</span>
+			<h2>Frappe fatale</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vous pouvez achever rapidement vos ennemis avec un coup fatal.<br><br>
+					La jauge de <strong>[Bris]</strong> diminue instantanément de <strong>2 %</strong> en cas de coup critique réussi (Temps de rechargement : <strong>2 seconde(s)</strong>).
+				</div>
+				<div class="passive-content heroique">
+					Vous pouvez achever rapidement vos ennemis avec un coup fatal.<br><br>
+					La jauge de <strong>[Bris]</strong> diminue instantanément de <strong>3 %</strong> en cas de coup critique réussi (Temps de rechargement : <strong>2 seconde(s)</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					Vous pouvez achever rapidement vos ennemis avec un coup fatal.<br><br>
+					La jauge de <strong>[Bris]</strong> diminue instantanément de <strong>5 %</strong> en cas de coup critique réussi (Temps de rechargement : <strong>2 seconde(s)</strong>).
+				</div>
+				<div class="passive-content mythique">
+					Vous pouvez achever rapidement vos ennemis avec un coup fatal.<br><br>
+					La jauge de <strong>[Bris]</strong> diminue instantanément de <strong>8 %</strong> en cas de coup critique réussi (Temps de rechargement : <strong>2 seconde(s)</strong>).
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_veloce" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_veloce')">&times;</span>
+			<h2>Frappe véloce</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					L'utilisation d'Évasion extrême améliore vos capacités.<br>
+					Lorsque vous réussissez à utiliser Évasion extrême, vos dégâts augmentent de <strong>7 %</strong> pendant <strong>5 seconde(s)</strong> (temps de rechargement : <strong>10 seconde(s)</strong>).
+				</div>
+				<div class="passive-content heroique">
+					L'utilisation d'Évasion extrême améliore vos capacités.<br>
+					Lorsque vous réussissez à utiliser Évasion extrême, vos dégâts augmentent de <strong>11 %</strong> pendant <strong>5 seconde(s)</strong> (temps de rechargement : <strong>10 seconde(s)</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					L'utilisation d'Évasion extrême améliore vos capacités.<br>
+					Lorsque vous réussissez à utiliser Évasion extrême, vos dégâts augmentent de <strong>16 %</strong> pendant <strong>5 seconde(s)</strong> (temps de rechargement : <strong>10 seconde(s)</strong>).
+				</div>
+				<div class="passive-content mythique">
+					L'utilisation d'Évasion extrême améliore vos capacités.<br>
+					Lorsque vous réussissez à utiliser Évasion extrême, vos dégâts augmentent de <strong>22 %</strong> pendant <strong>5 seconde(s)</strong> (temps de rechargement : <strong>10 seconde(s)</strong>).
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_hostilite" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_hostilite')">&times;</span>
+			<h2>Hostilité</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Votre puissante hostilité affaiblit les capacités de la cible.<br>
+					Lorsque vous subissez une attaque, l'Attaque de la cible diminue de <strong>4 %</strong> pendant <strong>6 seconde(s)</strong>.<br>
+					Lorsque vous attaquez, la Défense de la cible diminue de <strong>4 %</strong> pendant <strong>6 seconde(s)</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Votre puissante hostilité affaiblit les capacités de la cible.<br>
+					Lorsque vous subissez une attaque, l'Attaque de la cible diminue de <strong>7 %</strong> pendant <strong>6 seconde(s)</strong>.<br>
+					Lorsque vous attaquez, la Défense de la cible diminue de <strong>7 %</strong> pendant <strong>6 seconde(s)</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Votre puissante hostilité affaiblit les capacités de la cible.<br>
+					Lorsque vous subissez une attaque, l'Attaque de la cible diminue de <strong>12 %</strong> pendant <strong>6 seconde(s)</strong>.<br>
+					Lorsque vous attaquez, la Défense de la cible diminue de <strong>12 %</strong> pendant <strong>6 seconde(s)</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Votre puissante hostilité affaiblit les capacités de la cible.<br>
+					Lorsque vous subissez une attaque, l'Attaque de la cible diminue de <strong>18 %</strong> pendant <strong>6 seconde(s)</strong>.<br>
+					Lorsque vous attaquez, la Défense de la cible diminue de <strong>18 %</strong> pendant <strong>6 seconde(s)</strong>.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_instinct" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_instinct')">&times;</span>
+			<h2>Instinct primaire</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Mon instinct de survie s'éveille à mesure que le danger grandit.<br>
+					Lorsque les PM actuels de Jinwoo sont à <strong>60 %</strong> ou moins, sa Défense augmente de <strong>10 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Mon instinct de survie s'éveille à mesure que le danger grandit.<br>
+					Lorsque les PM actuels de Jinwoo sont à <strong>60 %</strong> ou moins, sa Défense augmente de <strong>26 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Mon instinct de survie s'éveille à mesure que le danger grandit.<br>
+					Lorsque les PM actuels de Jinwoo sont à <strong>60 %</strong> ou moins, sa Défense augmente de <strong>42 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Mon instinct de survie s'éveille à mesure que le danger grandit.<br>
+					Lorsque les PM actuels de Jinwoo sont à <strong>60 %</strong> ou moins, sa Défense augmente de <strong>60 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_intuition" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_intuition')">&times;</span>
+			<h2>Intuition</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Ses mots ont résonné en vous pour vous permettre de comprendre votre destinée et le but de vos pouvoirs.<br>
+					Votre Attaque de base augmente de <strong>2</strong> par tranche de <strong>1 points</strong> d'Intelligence à votre actif (cumulable jusqu'à un maximum de <strong>300</strong>).
+				</div>
+				<div class="passive-content heroique">
+					Ses mots ont résonné en vous pour vous permettre de comprendre votre destinée et le but de vos pouvoirs.<br>
+					Votre Attaque de base augmente de <strong>4</strong> par tranche de <strong>1 points</strong> d'Intelligence à votre actif (cumulable jusqu'à un maximum de <strong>700</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					Ses mots ont résonné en vous pour vous permettre de comprendre votre destinée et le but de vos pouvoirs.<br>
+					Votre Attaque de base augmente de <strong>6</strong> par tranche de <strong>1 points</strong> d'Intelligence à votre actif (cumulable jusqu'à un maximum de <strong>1200</strong>).
+				</div>
+				<div class="passive-content mythique">
+					Ses mots ont résonné en vous pour vous permettre de comprendre votre destinée et le but de vos pouvoirs.<br>
+					Votre Attaque de base augmente de <strong>8</strong> par tranche de <strong>1 points</strong> d'Intelligence à votre actif (cumulable jusqu'à un maximum de <strong>2000</strong>).
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_maitrise_assassinat" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_maitrise_assassinat')">&times;</span>
+			<h2>Maîtrise de l'assassinat</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vos capacités d'Assassin sont améliorées.<br><br>
+					Les dégâts de vos attaques dans le dos augmentent de <strong>7 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Vos capacités d'Assassin sont améliorées.<br><br>
+					Les dégâts de vos attaques dans le dos augmentent de <strong>11 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Vos capacités d'Assassin sont améliorées.<br><br>
+					Les dégâts de vos attaques dans le dos augmentent de <strong>16 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Vos capacités d'Assassin sont améliorées.<br><br>
+					Les dégâts de vos attaques dans le dos augmentent de <strong>22 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_massacreur_lycans" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_massacreur_lycans')">&times;</span>
+			<h2>Titre : Massacreur de lycans</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vous avez obtenu le <strong>Titre : Massacreur de lycans</strong>.<br><br>
+					Les dégâts infligés aux monstres normaux augmentent de <strong>7.5 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Vous avez obtenu le <strong>Titre : Massacreur de lycans</strong>.<br><br>
+					Les dégâts infligés aux monstres normaux augmentent de <strong>12 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Vous avez obtenu le <strong>Titre : Massacreur de lycans</strong>.<br><br>
+					Les dégâts infligés aux monstres normaux augmentent de <strong>20 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Vous avez obtenu le <strong>Titre : Massacreur de lycans</strong>.<br><br>
+					Les dégâts infligés aux monstres normaux augmentent de <strong>30 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_nous_ne_faisons_qu_un" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_nous_ne_faisons_qu_un')">&times;</span>
+			<h2>Nous ne faisons qu'un</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vos compétences changent en présence de chasseurs de soutien du même élément.<br>
+					Si vous avez dans l'équipe 2 chasseurs de soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>2.5 %</strong>.<br>
+					Si vous avez dans l'équipe 3 chasseurs en soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>2.5 %</strong> supplémentaires.
+				</div>
+				<div class="passive-content heroique">
+					Vos compétences changent en présence de chasseurs de soutien du même élément.<br>
+					Si vous avez dans l'équipe 2 chasseurs de soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>3.5 %</strong>.<br>
+					Si vous avez dans l'équipe 3 chasseurs en soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>3.5 %</strong> supplémentaires.
+				</div>
+				<div class="passive-content legendaire">
+					Vos compétences changent en présence de chasseurs de soutien du même élément.<br>
+					Si vous avez dans l'équipe 2 chasseurs de soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>5 %</strong>.<br>
+					Si vous avez dans l'équipe 3 chasseurs en soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>5 %</strong> supplémentaires.
+				</div>
+				<div class="passive-content mythique">
+					Vos compétences changent en présence de chasseurs de soutien du même élément.<br>
+					Si vous avez dans l'équipe 2 chasseurs de soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>7.5 %</strong>.<br>
+					Si vous avez dans l'équipe 3 chasseurs en soutien du même élément, l'Attaque, la Défense et les PV de Sung Jinwoo et des chasseurs de soutien augmentent de <strong>7.5 %</strong> supplémentaires.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_perception_affutee" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_perception_affutee')">&times;</span>
+			<h2>Perception affûtée</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					L'intuition que vous avez développée en tant que chasseur de rang inférieur vous permet de trouver les points faibles de votre adversaire.<br>
+					Votre Taux de coup critique augmente de <strong>1 %</strong> pendant <strong>8 seconde(s)</strong> lorsque vos attaques touchent vos cibles (cumulable <strong>4 fois</strong>).
+				</div>
+				<div class="passive-content heroique">
+					L'intuition que vous avez développée en tant que chasseur de rang inférieur vous permet de trouver les points faibles de votre adversaire.<br>
+					Votre Taux de coup critique augmente de <strong>2 %</strong> pendant <strong>8 seconde(s)</strong> lorsque vos attaques touchent vos cibles (cumulable <strong>5 fois</strong>).
+				</div>
+				<div class="passive-content legendaire">
+					L'intuition que vous avez développée en tant que chasseur de rang inférieur vous permet de trouver les points faibles de votre adversaire.<br>
+					Votre Taux de coup critique augmente de <strong>3 %</strong> pendant <strong>8 seconde(s)</strong> lorsque vos attaques touchent vos cibles (cumulable <strong>6 fois</strong>).
+				</div>
+				<div class="passive-content mythique">
+					L'intuition que vous avez développée en tant que chasseur de rang inférieur vous permet de trouver les points faibles de votre adversaire.<br>
+					Votre Taux de coup critique augmente de <strong>5 %</strong> pendant <strong>8 seconde(s)</strong> lorsque vos attaques touchent vos cibles (cumulable <strong>8 fois</strong>).
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pop_pulverisation" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_pulverisation')">&times;</span>
+			<h2>Pulvérisation</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Vous pulvérisez l'ennemi.<br>
+					Augmente l'effet de <strong>[Bris]</strong> de <strong>12 %</strong>.<br>
+					Augmente les dégâts infligés aux cibles affectées par l'effet <strong>[Bris]</strong> de <strong>12 %</strong>.
+				</div>
+				<div class="passive-content heroique">
+					Vous pulvérisez l'ennemi.<br>
+					Augmente l'effet de <strong>[Bris]</strong> de <strong>18 %</strong>.<br>
+					Augmente les dégâts infligés aux cibles affectées par l'effet <strong>[Bris]</strong> de <strong>18 %</strong>.
+				</div>
+				<div class="passive-content legendaire">
+					Vous pulvérisez l'ennemi.<br>
+					Augmente l'effet de <strong>[Bris]</strong> de <strong>30 %</strong>.<br>
+					Augmente les dégâts infligés aux cibles affectées par l'effet <strong>[Bris]</strong> de <strong>30 %</strong>.
+				</div>
+				<div class="passive-content mythique">
+					Vous pulvérisez l'ennemi.<br>
+					Augmente l'effet de <strong>[Bris]</strong> de <strong>45 %</strong>.<br>
+					Augmente les dégâts infligés aux cibles affectées par l'effet <strong>[Bris]</strong> de <strong>45 %</strong>.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_re_eveil" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_re_eveil')">&times;</span>
+			<h2>Ré-éveil</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Vous avez terminé la Quête secrète : La Bravoure du Faible. <br>
+                    Le temps de rechargement de toutes vos compétences diminue de <strong>8 %</strong>.
+                </div>
+                <div class="passive-content heroique">
+                    Vous avez terminé la Quête secrète : La Bravoure du Faible. <br>
+                    Le temps de rechargement de toutes vos compétences diminue de <strong>12 %</strong>.
+                </div>
+                <div class="passive-content legendaire">
+                    Vous avez terminé la Quête secrète : La Bravoure du Faible. <br>
+                    Le temps de rechargement de toutes vos compétences diminue de <strong>20 %</strong>.
+                </div>
+                <div class="passive-content mythique">
+                    Vous avez terminé la Quête secrète : La Bravoure du Faible. <br>
+                    Le temps de rechargement de toutes vos compétences diminue de <strong>28 %</strong>.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_recup_rapide" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_recup_rapide')">&times;</span>
+			<h2>Récupération rapide</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Les tactiques des ennemis ne sont plus qu'insignifiantes tentatives à présent. <br>
+                    Le Taux de récupération de PV de Jinwoo augmente de <strong>10 %</strong>. <br>
+                    Chaque fois que Jinwoo récupère des PV, il récupère <strong>2 %</strong> de PV supplémentaires (temps de rechargement : 15 seconde(s)).
+                </div>
+                <div class="passive-content heroique">
+                    Les tactiques des ennemis ne sont plus qu'insignifiantes tentatives à présent. <br>
+                    Le Taux de récupération de PV de Jinwoo augmente de <strong>16 %</strong>. <br>
+                    Chaque fois que Jinwoo récupère des PV, il récupère <strong>3 %</strong> de PV supplémentaires (temps de rechargement : 15 seconde(s)).
+                </div>
+                <div class="passive-content legendaire">
+                    Les tactiques des ennemis ne sont plus qu'insignifiantes tentatives à présent. <br>
+                    Le Taux de récupération de PV de Jinwoo augmente de <strong>22 %</strong>. <br>
+                    Chaque fois que Jinwoo récupère des PV, il récupère <strong>4 %</strong> de PV supplémentaires (temps de rechargement : 15 seconde(s)).
+                </div>
+                <div class="passive-content mythique">
+                    Les tactiques des ennemis ne sont plus qu'insignifiantes tentatives à présent. <br>
+                    Le Taux de récupération de PV de Jinwoo augmente de <strong>28 %</strong>. <br>
+                    Chaque fois que Jinwoo récupère des PV, il récupère <strong>5 %</strong> de PV supplémentaires (temps de rechargement : 15 seconde(s)).
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_sans_retour" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_sans_retour')">&times;</span>
+			<h2>Sans retour</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Lorsque les pouvoirs entrent en synergie, ils se renforcent mutuellement. <br>
+                    Votre Défense augmente de <strong>4 %</strong>. <br>
+                    Si les armes dont Jinwoo est équipé sont du même élément, sa Défense augmente de <strong>4 %</strong> supplémentaires.
+                </div>
+                <div class="passive-content heroique">
+                    Lorsque les pouvoirs entrent en synergie, ils se renforcent mutuellement. <br>
+                    Votre Défense augmente de <strong>12 %</strong>. <br>
+                    Si les armes dont Jinwoo est équipé sont du même élément, sa Défense augmente de <strong>12 %</strong> supplémentaires.
+                </div>
+                <div class="passive-content legendaire">
+                    Lorsque les pouvoirs entrent en synergie, ils se renforcent mutuellement. <br>
+                    Votre Défense augmente de <strong>20 %</strong>. <br>
+                    Si les armes dont Jinwoo est équipé sont du même élément, sa Défense augmente de <strong>20 %</strong> supplémentaires.
+                </div>
+                <div class="passive-content mythique">
+                    Lorsque les pouvoirs entrent en synergie, ils se renforcent mutuellement. <br>
+                    Votre Défense augmente de <strong>28 %</strong>. <br>
+                    Si les armes dont Jinwoo est équipé sont du même élément, sa Défense augmente de <strong>28 %</strong> supplémentaires.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_technique_dague" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_technique_dague')">&times;</span>
+			<h2>Technique avancée de la dague</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    L'usage récurrent de dagues vous a permis de les manier plus efficacement. <br>
+                    Lorsque vous attaquez un ennemi dont les PV sont à 70 % ou moins, les dégâts infligés augmentent de <strong>5.6 %</strong>.
+                </div>
+                <div class="passive-content heroique">
+                    L'usage récurrent de dagues vous a permis de les manier plus efficacement. <br>
+                    Lorsque vous attaquez un ennemi dont les PV sont à 70 % ou moins, les dégâts infligés augmentent de <strong>8.4 %</strong>.
+                </div>
+                <div class="passive-content legendaire">
+                    L'usage récurrent de dagues vous a permis de les manier plus efficacement. <br>
+                    Lorsque vous attaquez un ennemi dont les PV sont à 70 % ou moins, les dégâts infligés augmentent de <strong>14 %</strong>.
+                </div>
+                <div class="passive-content mythique">
+                    L'usage récurrent de dagues vous a permis de les manier plus efficacement. <br>
+                    Lorsque vous attaquez un ennemi dont les PV sont à 70 % ou moins, les dégâts infligés augmentent de <strong>19.6 %</strong>.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_vaillant" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_vaillant')">&times;</span>
+			<h2>Titre : Vaillant dans l'adversité</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Vous avez obtenu le Titre : Vaillant dans l'adversité. <br>
+                    Chaque fois que vos PV tombent en dessous de 25 %, votre Attaque, votre Défense et vos PV augmentent de <strong>2 %</strong> (cumulable jusqu'à 3 fois).
+                </div>
+                <div class="passive-content heroique">
+                    Vous avez obtenu le Titre : Vaillant dans l'adversité. <br>
+                    Chaque fois que vos PV tombent en dessous de 25 %, votre Attaque, votre Défense et vos PV augmentent de <strong>3 %</strong> (cumulable jusqu'à 3 fois).
+                </div>
+                <div class="passive-content legendaire">
+                    Vous avez obtenu le Titre : Vaillant dans l'adversité. <br>
+                    Chaque fois que vos PV tombent en dessous de 25 %, votre Attaque, votre Défense et vos PV augmentent de <strong>5 %</strong> (cumulable jusqu'à 3 fois).
+                </div>
+                <div class="passive-content mythique">
+                    Vous avez obtenu le Titre : Vaillant dans l'adversité. <br>
+                    Chaque fois que vos PV tombent en dessous de 25 %, votre Attaque, votre Défense et vos PV augmentent de <strong>7 %</strong> (cumulable jusqu'à 3 fois).
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_rapidite" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_rapidite')">&times;</span>
+			<h2>Rapidité</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Vous vous déplacez rapidement. <br>
+                    Le nombre maximal de Ruées augmente de 1. <br>
+                    Il y a <strong>12 %</strong> de chances de réinitialiser le temps de rechargement lorsque la compétence Ruée est utilisée.
+                </div>
+                <div class="passive-content heroique">
+                    Vous vous déplacez rapidement. <br>
+                    Le nombre maximal de Ruées augmente de 1. <br>
+                    Il y a <strong>18 %</strong> de chances de réinitialiser le temps de rechargement lorsque la compétence Ruée est utilisée.
+                </div>
+                <div class="passive-content legendaire">
+                    Vous vous déplacez rapidement. <br>
+                    Le nombre maximal de Ruées augmente de 1. <br>
+                    Il y a <strong>30 %</strong> de chances de réinitialiser le temps de rechargement lorsque la compétence Ruée est utilisée.
+                </div>
+                <div class="passive-content mythique">
+                    Vous vous déplacez rapidement. <br>
+                    Le nombre maximal de Ruées augmente de 1. <br>
+                    Il y a <strong>42 %</strong> de chances de réinitialiser le temps de rechargement lorsque la compétence Ruée est utilisée.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_vitesse_eclair" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_vitesse_eclair')">&times;</span>
+			<h2>Vitesse de l'éclair</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Le truc, c'est d'asséner un coup de poing plus vif et plus précis. <br>
+                    Votre Attaque augmente de <strong>2</strong> par tranche de 1 points d'Agilité appliqués (pour un buff maximal de 300).
+                </div>
+                <div class="passive-content heroique">
+                    Le truc, c'est d'asséner un coup de poing plus vif et plus précis. <br>
+                    Votre Attaque augmente de <strong>4</strong> par tranche de 1 points d'Agilité appliqués (pour un buff maximal de 700).
+                </div>
+                <div class="passive-content legendaire">
+                    Le truc, c'est d'asséner un coup de poing plus vif et plus précis. <br>
+                    Votre Attaque augmente de <strong>6</strong> par tranche de 1 points d'Agilité appliqués (pour un buff maximal de 1200).
+                </div>
+                <div class="passive-content mythique">
+                    Le truc, c'est d'asséner un coup de poing plus vif et plus précis. <br>
+                    Votre Attaque augmente de <strong>8</strong> par tranche de 1 points d'Agilité appliqués (pour un buff maximal de 1800).
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_vitesse" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_vitesse')">&times;</span>
+			<h2>Vitesse</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    La course à pied a renforcé vos jambes. <br>
+                    Votre Vitesse augmente de <strong>8 %</strong>. <br>
+                    Le temps de rechargement de Ruée est réduit de <strong>8 %</strong>.
+                </div>
+                <div class="passive-content heroique">
+                    La course à pied a renforcé vos jambes. <br>
+                    Votre Vitesse augmente de <strong>12 %</strong>. <br>
+                    Le temps de rechargement de Ruée est réduit de <strong>12 %</strong>.
+                </div>
+                <div class="passive-content legendaire">
+                    La course à pied a renforcé vos jambes. <br>
+                    Votre Vitesse augmente de <strong>20 %</strong>. <br>
+                    Le temps de rechargement de Ruée est réduit de <strong>20 %</strong>.
+                </div>
+                <div class="passive-content mythique">
+                    La course à pied a renforcé vos jambes. <br>
+                    Votre Vitesse augmente de <strong>28 %</strong>. <br>
+                    Le temps de rechargement de Ruée est réduit de <strong>28 %</strong>.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_acrobate" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_acrobate')">&times;</span>
+			<h2>Acrobate</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Vos mouvements sont aussi gracieux que ceux d'une acrobate et reflètent votre maîtrise du combat. <br>
+                    Quand vous entrez dans un niveau, vous obtenez 10 cumuls de [Acrobate]. <br>
+                    [Acrobate] : Votre Attaque augmente de <strong>1 %</strong>. Si une attaque vous touche, cet effet est supprimé (Temps de rechargement : 5 s). Durée : Illimitée (cumulable jusqu'à 10 fois)
+                </div>
+                <div class="passive-content heroique">
+                    Vos mouvements sont aussi gracieux que ceux d'une acrobate et reflètent votre maîtrise du combat. <br>
+                    Quand vous entrez dans un niveau, vous obtenez 10 cumuls de [Acrobate]. <br>
+                    [Acrobate] : Votre Attaque augmente de <strong>2 %</strong>. Si une attaque vous touche, cet effet est supprimé (Temps de rechargement : 5 s). Durée : Illimitée (cumulable jusqu'à 10 fois)
+                </div>
+                <div class="passive-content legendaire">
+                    Vos mouvements sont aussi gracieux que ceux d'une acrobate et reflètent votre maîtrise du combat. <br>
+                    Quand vous entrez dans un niveau, vous obtenez 10 cumuls de [Acrobate]. <br>
+                    [Acrobate] : Votre Attaque augmente de <strong>3 %</strong>. Si une attaque vous touche, cet effet est supprimé (Temps de rechargement : 5 s). Durée : Illimitée (cumulable jusqu'à 10 fois)
+                </div>
+                <div class="passive-content mythique">
+                    Vos mouvements sont aussi gracieux que ceux d'une acrobate et reflètent votre maîtrise du combat. <br>
+                    Quand vous entrez dans un niveau, vous obtenez 10 cumuls de [Acrobate]. <br>
+                    [Acrobate] : Votre Attaque augmente de <strong>4 %</strong>. Si une attaque vous touche, cet effet est supprimé (Temps de rechargement : 5 s). Durée : Illimitée (cumulable jusqu'à 10 fois)
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_garde_double" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_garde_double')">&times;</span>
+			<h2>Garde double</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    « Tu traverseras jamais ça. » <br>
+                    Les [Boucliers] conférés à Jinwoo augmentent de <strong>25 %</strong>. <br>
+                    Lorsqu'un [Bouclier] est actif, sa Défense augmente de <strong>10 %</strong>.
+                </div>
+                <div class="passive-content heroique">
+                    « Tu traverseras jamais ça. » <br>
+                    Les [Boucliers] conférés à Jinwoo augmentent de <strong>25 %</strong>. <br>
+                    Lorsqu'un [Bouclier] est actif, sa Défense augmente de <strong>26 %</strong>.
+                </div>
+                <div class="passive-content legendaire">
+                    « Tu traverseras jamais ça. » <br>
+                    Les [Boucliers] conférés à Jinwoo augmentent de <strong>25 %</strong>. <br>
+                    Lorsqu'un [Bouclier] est actif, sa Défense augmente de <strong>42 %</strong>.
+                </div>
+                <div class="passive-content mythique">
+                    « Tu traverseras jamais ça. » <br>
+                    Les [Boucliers] conférés à Jinwoo augmentent de <strong>25 %</strong>. <br>
+                    Lorsqu'un [Bouclier] est actif, sa Défense augmente de <strong>58 %</strong>.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_jugement_ultime" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_jugement_ultime')">&times;</span>
+			<h2>Jugement ultime</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    La seule option proposée par Jinwoo à ses ennemis, c'est une fin rapide. <br>
+                    Si toutes les armes dont Jinwoo est équipé sont du même élément, deux effets sont activés. <br>
+                    Les dégâts de sa Compétence ultime augmentent de <strong>30 %</strong>. <br>
+                    Le Taux de remplissage de la jauge de puissance augmente de <strong>5 %</strong>.
+                </div>
+                <div class="passive-content heroique">
+                    La seule option proposée par Jinwoo à ses ennemis, c'est une fin rapide. <br>
+                    Si toutes les armes dont Jinwoo est équipé sont du même élément, deux effets sont activés. <br>
+                    Les dégâts de sa Compétence ultime augmentent de <strong>45 %</strong>. <br>
+                    Le Taux de remplissage de la jauge de puissance augmente de <strong>5 %</strong>.
+                </div>
+                <div class="passive-content legendaire">
+                    La seule option proposée par Jinwoo à ses ennemis, c'est une fin rapide. <br>
+                    Si toutes les armes dont Jinwoo est équipé sont du même élément, deux effets sont activés. <br>
+                    Les dégâts de sa Compétence ultime augmentent de <strong>60 %</strong>. <br>
+                    Le Taux de remplissage de la jauge de puissance augmente de <strong>5 %</strong>.
+                </div>
+                <div class="passive-content mythique">
+                    La seule option proposée par Jinwoo à ses ennemis, c'est une fin rapide. <br>
+                    Si toutes les armes dont Jinwoo est équipé sont du même élément, deux effets sont activés. <br>
+                    Les dégâts de sa Compétence ultime augmentent de <strong>75 %</strong>. <br>
+                    Le Taux de remplissage de la jauge de puissance augmente de <strong>5 %</strong>.
+                </div>
+            </div>
+		</div>
+	</div>
+	<div id="pop_vie_en_marche" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_vie_en_marche')">&times;</span>
+			<h2>La vie en marche</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    La vie est un cycle sans fin, le flux éternel de l'existence. <br>
+                    Si vos PV sont égaux ou supérieurs à 51 %, votre Défense augmente de <strong>15 %</strong>. <br>
+                    Si vos PV sont égaux ou inférieurs à 50 %, les soins reçus augmentent de <strong>30 %</strong>.
+                </div>
+                <div class="passive-content heroique">
+                    La vie est un cycle sans fin, le flux éternel de l'existence. <br>
+                    Si vos PV sont égaux ou supérieurs à 51 %, votre Défense augmente de <strong>25 %</strong>. <br>
+                    Si vos PV sont égaux ou inférieurs à 50 %, les soins reçus augmentent de <strong>40 %</strong>.
+                </div>
+                <div class="passive-content legendaire">
+                    La vie est un cycle sans fin, le flux éternel de l'existence. <br>
+                    Si vos PV sont égaux ou supérieurs à 51 %, votre Défense augmente de <strong>35 %</strong>. <br>
+                    Si vos PV sont égaux ou inférieurs à 50 %, les soins reçus augmentent de <strong>50 %</strong>.
+                </div>
+                <div class="passive-content mythique">
+                    La vie est un cycle sans fin, le flux éternel de l'existence. <br>
+                    Si vos PV sont égaux ou supérieurs à 51 %, votre Défense augmente de <strong>45 %</strong>. <br>
+                    Si vos PV sont égaux ou inférieurs à 50 %, les soins reçus augmentent de <strong>60 %</strong>.
+                </div>
+            </div>
+		</div>
+	</div>		
+	<div id="pop_resonance_arme" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_resonance_arme')">&times;</span>
+			<h2>Résonance d'arme</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    La sensation de ne faire qu'un avec une arme est une métamorphose brutale mais magnifique. <br>
+                    Lorsque vous utilisez une compétence d'arme <strong>4 fois</strong>, vous obtenez un [Bouclier] équivalent à <strong>6 %</strong> de vos PV max pendant 10 seconde(s) (temps de rechargement : 20 seconde(s)).
+                </div>
+                <div class="passive-content heroique">
+                    La sensation de ne faire qu'un avec une arme est une métamorphose brutale mais magnifique. <br>
+                    Lorsque vous utilisez une compétence d'arme <strong>4 fois</strong>, vous obtenez un [Bouclier] équivalent à <strong>10 %</strong> de vos PV max pendant 10 seconde(s) (temps de rechargement : 20 seconde(s)).
+                </div>
+                <div class="passive-content legendaire">
+                    La sensation de ne faire qu'un avec une arme est une métamorphose brutale mais magnifique. <br>
+                    Lorsque vous utilisez une compétence d'arme <strong>4 fois</strong>, vous obtenez un [Bouclier] équivalent à <strong>14 %</strong> de vos PV max pendant 10 seconde(s) (temps de rechargement : 20 seconde(s)).
+                </div>
+                <div class="passive-content mythique">
+                    La sensation de ne faire qu'un avec une arme est une métamorphose brutale mais magnifique. <br>
+                    Lorsque vous utilisez une compétence d'arme <strong>4 fois</strong>, vous obtenez un [Bouclier] équivalent à <strong>18 %</strong> de vos PV max pendant 10 seconde(s) (temps de rechargement : 20 seconde(s)).
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_ricochet" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_ricochet')">&times;</span>
+			<h2>Ricochet</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Le mana commence à circuler en boucle pour revenir à son propriétaire. <br>
+                    La stat d'Attaque supplémentaire de Jinwoo augmente de <strong>50 %</strong> de ses PV max lorsqu'il arrive dans un niveau. (Augmente la stat Attaque supplémentaire maximale de 10000.)
+                </div>
+                <div class="passive-content heroique">
+                    Le mana commence à circuler en boucle pour revenir à son propriétaire. <br>
+                    La stat d'Attaque supplémentaire de Jinwoo augmente de <strong>90 %</strong> de ses PV max lorsqu'il arrive dans un niveau. (Augmente la stat Attaque supplémentaire maximale de 10000.)
+                </div>
+                <div class="passive-content legendaire">
+                    Le mana commence à circuler en boucle pour revenir à son propriétaire. <br>
+                    La stat d'Attaque supplémentaire de Jinwoo augmente de <strong>130 %</strong> de ses PV max lorsqu'il arrive dans un niveau. (Augmente la stat Attaque supplémentaire maximale de 10000.)
+                </div>
+                <div class="passive-content mythique">
+                    Le mana commence à circuler en boucle pour revenir à son propriétaire. <br>
+                    La stat d'Attaque supplémentaire de Jinwoo augmente de <strong>150 %</strong> de ses PV max lorsqu'il arrive dans un niveau. (Augmente la stat Attaque supplémentaire maximale de 10000.)
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_soutien_mutuel" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_soutien_mutuel')">&times;</span>
+			<h2>Soutien mutuel</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    En mode [Combat d'équipe], les soins prodigués aux membres de l'équipe augmentent de <strong>5 %</strong>.
+                </div>
+                <div class="passive-content heroique">
+                    En mode [Combat d'équipe], les soins prodigués aux membres de l'équipe augmentent de <strong>15 %</strong>.
+                </div>
+                <div class="passive-content legendaire">
+                    En mode [Combat d'équipe], les soins prodigués aux membres de l'équipe augmentent de <strong>25 %</strong>.
+                </div>
+                <div class="passive-content mythique">
+                    En mode [Combat d'équipe], les soins prodigués aux membres de l'équipe augmentent de <strong>35 %</strong>.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_surcharge_puissance" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_surcharge_puissance')">&times;</span>
+			<h2>Surcharge de puissance</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+                <div class="passive-content rare active">
+                    Lorsque les PV de Jinwoo sont à 100 % ou plus de ses PV max, son Attaque augmente de <strong>10 %</strong>. <br>
+                    Lorsque ses PV sont à 100 % ou moins, l'effet Attaque augmentée est temporairement supprimé.
+                </div>
+                <div class="passive-content heroique">
+                    Lorsque les PV de Jinwoo sont à 100 % ou plus de ses PV max, son Attaque augmente de <strong>18 %</strong>. <br>
+                    Lorsque ses PV sont à 100 % ou moins, l'effet Attaque augmentée est temporairement supprimé.
+                </div>
+                <div class="passive-content legendaire">
+                    Lorsque les PV de Jinwoo sont à 100 % ou plus de ses PV max, son Attaque augmente de <strong>26 %</strong>. <br>
+                    Lorsque ses PV sont à 100 % ou moins, l'effet Attaque augmentée est temporairement supprimé.
+                </div>
+                <div class="passive-content mythique">
+                    Lorsque les PV de Jinwoo sont à 100 % ou plus de ses PV max, son Attaque augmente de <strong>34 %</strong>. <br>
+                    Lorsque ses PV sont à 100 % ou moins, l'effet Attaque augmentée est temporairement supprimé.
+                </div>
+            </div>
+		</div>
+	</div>	
+	<div id="pop_toucher_executeur" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup('pop_toucher_executeur')">&times;</span>
+			<h2>Toucher de l'exécuteur</h2>
+			<div class="rarity-selector">
+				<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+				<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+				<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+				<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+			</div>
+			<div class="passive-box">
+				<div class="passive-content rare active">
+					Si toutes vos armes équipées sont du même élément, les dégâts de compétence de votre arme augmentent de <strong>25 %</strong>. <br>
+					En mode [Combat d'équipe], ils augmentent de <strong>10 %</strong> supplémentaires.
+				</div>
+				<div class="passive-content heroique">
+					Si toutes vos armes équipées sont du même élément, les dégâts de compétence de votre arme augmentent de <strong>45 %</strong>. <br>
+					En mode [Combat d'équipe], ils augmentent de <strong>20 %</strong> supplémentaires.
+				</div>
+				<div class="passive-content legendaire">
+					Si toutes vos armes équipées sont du même élément, les dégâts de compétence de votre arme augmentent de <strong>65 %</strong>. <br>
+					En mode [Combat d'équipe], ils augmentent de <strong>30 %</strong> supplémentaires.
+				</div>
+				<div class="passive-content mythique">
+					Si toutes vos armes équipées sont du même élément, les dégâts de compétence de votre arme augmentent de <strong>85 %</strong>. <br>
+					En mode [Combat d'équipe], ils augmentent de <strong>40 %</strong> supplémentaires.
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="pop_bouclier_mana" class="popup">
+			<div class="popup-content">
+				<span class="close" onclick="closePopup('pop_bouclier_mana')">&times;</span>
+				<h2>Bouclier d'énergie de mana</h2>
+				<div class="rarity-selector">
+					<button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+					<button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+					<button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+					<button class="rarity-btn mythique" onclick="showRarity(this, 'mythique')">MYTHIQUE</button>
+				</div>
+				<div class="passive-box">
+					<div class="passive-content rare active">
+						Les ombres peuvent se régénérer tant qu'elles disposent de mana. <br>
+						Vous absorbez <strong>100 %</strong> des dégâts que vous subissez, mais cela consomme des PM équivalents à <strong>20 %</strong> des dégâts absorbés. <br>
+						Si vos PM actuels ne suffisent pas, les dégâts restants sont répercutés sur vos PV. <br>
+						Temps de rechargement : <strong>10 seconde(s)</strong>
+					</div>
+					<div class="passive-content heroique">
+						Les ombres peuvent se régénérer tant qu'elles disposent de mana. <br>
+						Vous absorbez <strong>100 %</strong> des dégâts que vous subissez, mais cela consomme des PM équivalents à <strong>17 %</strong> des dégâts absorbés. <br>
+						Si vos PM actuels ne suffisent pas, les dégâts restants sont répercutés sur vos PV. <br>
+						Temps de rechargement : <strong>10 seconde(s)</strong>
+					</div>
+					<div class="passive-content legendaire">
+						Les ombres peuvent se régénérer tant qu'elles disposent de mana. <br>
+						Vous absorbez <strong>100 %</strong> des dégâts que vous subissez, mais cela consomme des PM équivalents à <strong>14 %</strong> des dégâts absorbés. <br>
+						Si vos PM actuels ne suffisent pas, les dégâts restants sont répercutés sur vos PV. <br>
+						Temps de rechargement : <strong>10 seconde(s)</strong>
+					</div>
+					<div class="passive-content mythique">
+						Les ombres peuvent se régénérer tant qu'elles disposent de mana. <br>
+						Vous absorbez <strong>100 %</strong> des dégâts que vous subissez, mais cela consomme des PM équivalents à <strong>11 %</strong> des dégâts absorbés. <br>
+						Si vos PM actuels ne suffisent pas, les dégâts restants sont répercutés sur vos PV. <br>
+						Temps de rechargement : <strong>10 seconde(s)</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

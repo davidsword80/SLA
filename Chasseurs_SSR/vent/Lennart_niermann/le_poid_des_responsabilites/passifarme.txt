@@ -1,0 +1,11 @@
+passif : 
+Augmente la Défense de l'utilisateur de 5 %.
+Lors de l'utilisation des compétences Fenriszahn, Kaisers Rache, Todessinfonie ou Wolfspranke, l'effet [Paralysie] est appliqué pendant 0.5 seconde(s) aux ennemis se trouvant à moins de 10 m (temps de rechargement : 20 seconde(s)).
+
+
+passif 5star :
+Augmente la Défense de l'utilisateur de 50 %.
+Lors de l'utilisation des compétences Fenriszahn, Kaisers Rache, Todessinfonie ou Wolfspranke, l'effet [Paralysie] est appliqué pendant 5 seconde(s) aux ennemis se trouvant à moins de 10 m (temps de rechargement : 20 seconde(s)).
+
+passif 10 star :
+Augmente l'Attaque, la Défense et les PV de l'utilisateur de 15 %.

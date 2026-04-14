@@ -1,0 +1,21 @@
+Passif :<br>Lorsque [À mon tour!, Fais-moi confiance! ou Je vais te protéger!] touche sa cible, une potion est créée près de l'utilisateur.<br>[Potion]<br>En obtenant une potion, les PV sont restaurés à hauteur de 8% des PV max de Yoo Jinho.<br>Temps de rechargement: 20 seconde(s)
+
+1 étoile :<br>Lors de l'utilisation de la compétence Fais-moi confiance!, l'utilisateur crée une aura qui inflige toutes les secondes des dégâts équivalents à 70% de sa Défense pendant la durée d'application du buff de Fais-moi confiance !.
+
+2 étoiles :<br>Les PV de l'utilisateur augmentent de 8%.
+
+3 étoiles :<br>Lors de l'utilisation de la compétence Fais-moi confiance!, un [Bouclier] est appliqué.<br>[Bouclier]<br>Crée un [Bouclier] équivalent à 20% des PV de l'utilisateur.<br>Durée: 8 seconde(s)
+
+4 étoiles :<br>Augmente la Défense de l'utilisateur de 6 %.
+
+5 étoiles :<br>Tous les effets ci-dessous s'appliquent à l'obtention d'une [Rotion].<br>Restauration de 12% des PV max de Yoo Jinho. Applique l'effet [Attaque augmentée].<br>Applique un [Bouclier].<br>[Attaque augmentée]<br>Augmente l'Attaque de 12%. Durée: 10 seconde(s)<br>[Bouclier]<br>Crée un [Bouclier] équivalent à 12% des PV max de Yoo Jinho.<br>Durée: 10 seconde(s)
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

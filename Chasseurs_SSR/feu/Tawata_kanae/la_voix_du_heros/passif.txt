@@ -1,0 +1,5 @@
+0 étoile :<br>L'Attaque de l'utilisatrice augmente de 2%.<br>Le Taux de coup critique de l'utilisatrice augmente de 10%.
+
+5 étoiles :<br>L'Attaque de l'utilisatrice augmente de 12%.<br>Le Taux de coup critique de l'utilisatrice augmente de 20 %.
+
+10 étoiles :<br>L'Attaque, la Défense et les PV de l'utilisatrice augmentent de 15%

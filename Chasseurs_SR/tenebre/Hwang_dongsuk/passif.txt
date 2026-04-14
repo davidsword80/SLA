@@ -1,0 +1,21 @@
+Passif :<br>Si les PV de l'utilisateur sont à 75% ou au-dessus, les dégâts de compétence augmentent de 16%. Si les PV de l'utilisateur sont inférieurs à 50%, applique l'effet [Vitalité du lézard].<br>[Vitalité du lézard]<br>Récupère 2.5% de ses PV toutes les 1 seconde(s) (s'active une fois par niveau). Durée: 10 seconde(s)
+
+1 étoile :<br>Lors de l'utilisation de la compétence<br>Amélioration, le temps de rechargement de la compétence Bouclier ardent se réinitialise. Tant que la compétence [Amélioration] reste activé, le temps de rechargement de la compétence Bouclier ardent diminue de 50%.
+
+2 étoiles :<br>Les PV de l'utilisateur augmentent de 8%.
+
+3 étoiles :<br>Lors de l'utilisation de la compétence Amélioration, un [Bouclier] est appliqué. <br>[Bouclier]<br>Crée un [Bouclier] équivalent à 20% des PV max de l'utilisateur. <br>Durée: 10 seconde(s)
+
+4 étoiles :<br>Le temps de rechargement de Attaque redoutable diminue de 25%.
+
+5 étoiles :<br>Lors de l'utilisation de Attaque redoutable, l'utilisateur a 50% de chances de réinitialiser le temps de rechargement de la compétence Attaque redoutable. (Temps de rechargement: 30 seconde(s))
+
+6 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+7 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+8 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+9 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.
+
+10 étoiles :<br>Augmente l'Attaque, la Défense et les PV de l'utilisateur de 3%.

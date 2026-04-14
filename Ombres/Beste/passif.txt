@@ -1,0 +1,5 @@
+Rang commun :<br>
+La Pénétration de défense de toute l'équipe augmente de 4%.
+
+rang general :<br>
+La Pénétration de défense de toute l'équipe augmente de 8%.

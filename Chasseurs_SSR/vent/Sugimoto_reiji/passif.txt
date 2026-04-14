@@ -1,0 +1,63 @@
+Passif :
+Infos sur les caractéristiques passives
+L'effet [Combat à l'épée] reste actif et l'état [Combat à l'épée] se divise en trois phases : [Initiation, Accélération, Finalité].
+[Initiation] s'active lorsque l'utilisateur entre dans un niveau.
+L'utilisation des compétences Éclair d'acier, Retour de fil et Renvoi de fil active l'effet [Dégainage éclair].
+L'utilisation de la compétence Concentration inébranlable active l'effet [Danse de l'épée].
+Lorsque la compétence Vengeur touche sa cible, elle lui applique l'effet [Fil de l'hiver].
+Lorsque les compétences Entaille éclipse ou Lame d'extinction touchent leur cible, elles lui appliquent 2 cumuls de l'effet [Fil de l'hiver].
+[Dégainage éclair]
+Les compétences Vengeur, Entaille éclipse et Lame d'extinction deviennent disponibles et suppriment 1 cumul de [Dégainage éclair] lors de leur utilisation.
+Durée : illimitée (cumulable jusqu'à 3 fois)
+
+[Initiation]
+L'utilisation de la compétence Vengeur supprime l'effet [Initiation] et fait passer à la phase [Accélération].
+Durée : illimitée
+[Accélération]
+Transforme Éclair d'acier en Retour de fil, ce qui augmente les dégâts de la compétence de 50 %.
+Transforme la compétence Vengeur en Entaille éclipse et augmente ses dégâts de 50 %.
+L'utilisation de la compétence Entaille éclipse supprime l'effet [Accélération] et fait passer à la phase [Finalité].
+Durée : illimitée
+[Finalité]
+Transforme la compétence Retour de fil en Renvoi de fil et augmente ses dégâts de 100 %.
+Transforme la compétence Entaille éclipse en Lame d'extinction et augmente ses dégâts de 100 %.
+L'utilisation de la compétence Lame d'extinction refait passer de la phase [Finalité] à la phase [Initiation].
+Durée : illimitée
+[Danse de l'épée]
+L'utilisation de la compétence Vivelame - Origine remplit la jauge de noyau deux fois plus vite.
+Lorsque la compétence [Évasion extrême] est activée, l'attaque de noyau est activée.
+Durée : 15 seconde(s)
+[Fil de l'hiver]
+Inflige des dégâts équivalents à 50 % des PV max de l'utilisateur toutes les 3 secondes.
+Durée : 30 seconde(s) (cumulable jusqu'à 10 fois)
+
+1 étoile :
+L'utilisation des compétences Concentration inébranlable ou Vivelame - Oubli active l'effet [Dégainage éclair] ainsi que l'attaque de noyau de l'utilisateur.
+La consommation de l'effet [Dégainage éclair] réduit le temps de rechargement de Vivelame - Oubli de 10 seconde(s) et restaure 35 % de la jauge de puissance de l'utilisateur.
+
+2 étoile :
+L'efficacité d'[Accumulation élémentaire] de [Vent] augmente de 20 %.
+
+3 étoile :
+Lorsque Sugimoto Reiji ou un allié parvient à infliger une Surcharge de vent, l'effet [Lame tempête] est appliqué à Sung Jinwoo et aux membres de l'équipe de l'élément Vent.
+[Lame tempête]
+Augmente la Pénétration de défense de 18 %.
+Augmente les dégâts de Surcharge de vent de 45 %.
+Augmente les dégâts de compétence QTE de vent de 100 %.
+Durée : 15 seconde(s)
+
+4 étoile :
+Les Dégâts de coup critique des membres de l'équipe de l'élément Vent augmentent de 10 % par allié de l'élément Vent présent dans l'équipe.
+
+5 étoile :
+L'utilisation de la compétence Vivelame - Oubli active l'effet [Éclair tempétueux].
+L'effet [Danse de l'épée] est amélioré.
+[Danse de l'épée]
+L'utilisation de la compétence Vivelame - Origine recharge la jauge de noyau deux fois plus vite.
+Lors de l'utilisation des compétences Vengeur, Entaille éclipse ou Lame d'extinction et de l'activation d'[Évasion extrême], l'attaque de noyau de l'utilisateur se déclenche.
+Les dégâts de l'attaque de noyau augmentent de 100 %.
+Augmente l'effet d'[Accumulation élémentaire] de [Vent] de 20 %.
+Durée : 15 seconde(s)
+[Éclair tempétueux]
+Les dégâts des compétences Lame d'extinction et Chute de fleur augmentent de 300 %.
+Durée : 30 seconde(s)

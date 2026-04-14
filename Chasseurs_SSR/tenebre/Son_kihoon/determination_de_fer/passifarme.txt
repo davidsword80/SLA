@@ -1,0 +1,19 @@
+passif :
+Les PV de Kihoon augmentent de 5 %.
+Lorsque Kihoon ou un membre de I'équipe
+parvient a mettre la cible en état de [Bris], les
+dégats de ténebres de toute I'équipe augmentent
+de 2.5 %.
+Durée: illimitée
+
+passif 5 star :
+Les PV de Kihoon augmentent de 12 %.
+Lorsque Kihoon ou un membre de I'équipe
+parvient a mettre la cible en état de [Bris], les
+dégats de ténehbres de toute I'équipe augmentent
+de 15 %.
+Durée:illimitée
+
+passif 10 star :
+L'Attaque, la Défense et les PV de l'utilisateur
+augmentent de 15 %.

@@ -1,0 +1,18 @@
+SLA a faire : 3/16
+
+-page sur l'arsenal 
+-page sur les stats recommandées pour les chasseurs
+-page sur le power of destruction
+-page sur le bdg
+-page sur le POD
+-page sur la librairie
+-page tier liste des armes et chasseurs
+-page sur les compétences de sung
+-page sur les stats recommandées pour sung en overall
+-page sur les stats de gemmes recommandées
+-faire une page dédié pour les armes des chasseurs 
+-mettre une en tête all pour éviter de la faire sur chaque page /fait
+-mettre a jour le CSS pour faire un site beau avec les couleur de SLA
+-mettre le site en ligne
+-page sur les leaks /fait
+-page sur les devs notes /fait

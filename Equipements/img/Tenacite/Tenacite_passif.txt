@@ -1,0 +1,3 @@
+[Effet de la panoplie 2] :<br>Le Taux de coup critique de l'utilisateur augmente de 8%.
+
+[Effet de la panoplie 4] :<br>Les dégâts de coup critique de l'utilisatrice augmentent de 32%.

@@ -1,0 +1,33 @@
+Passif : L'utilisateur reçoit l'effet Timidité à l'arrivée dans le niveau. Lorsque Stark ou un allié parvient à mettre un ennemi en état de Bris, la durée de l'état de Bris augmente de 3 secondes. La jauge de puissance de l'utilisateur ne peut pas se remplir, mais si l'effet Courage est actif, elle se remplit à 100 %.
+
+Timidité : L'utilisation des compétences Frappe spiralée, Frappe foudroyante, Frappe foudroyante : Attaque lourde ou Frappe foudroyante : Attaque extrême active l'effet Confiance et déclenche Frappe tourbillonnante. L'effet Détermination s'active lors de l'utilisation de la compétence Frappe tourbillonnante. Lorsque l'effet Courage est activé, il supprime l'effet Timidité. Durée : illimitée.
+
+Confiance : Augmente les dégâts de feu de 3 %. Augmente la Pénétration de défense de 3 %. Lorsque l'effet atteint le maximum de cumuls, l'effet Confiance est supprimé et l'effet Courage est activé. Durée : illimitée (cumulable jusqu'à 4 fois).
+
+Détermination : Augmente les dégâts des compétences Frappe foudroyante, Frappe foudroyante : Attaque lourde et Frappe foudroyante : Attaque extrême de 10 %. Augmente le Taux de coup critique de 10 %. Durée : 3 seconde(s).
+
+Courage : Augmente les dégâts de feu de 20 %. Augmente la Pénétration de défense de 20 %. L'effet Confiance ne peut pas être activé tant que cet effet est actif. Active l'effet Timidité lorsque cet effet est supprimé. Durée : 5 seconde(s).
+
+1 étoile : L'effet Esprit combatif s'active lorsque l'utilisateur arrive dans un combat d'histoire. Lorsque la compétence Frappe tourbillonnante touche sa cible, elle lui applique l'effet Aura du guerrier. L'effet Détermination est amélioré.
+
+Esprit combatif : Les dégâts subis diminuent de 20 %. Tant que l'effet reste actif, si les PV de l'utilisateur tombent à 10 % ou moins, il récupère 40 % de ses PV max (temps de rechargement : 60 secondes). Durée : illimitée.
+
+Aura du guerrier : Les dégâts infligés par Stark augmentent de 15 %. Durée : 15 seconde(s).
+
+Détermination (Amélioré) : Les dégâts de la compétence de base augmentent de 15 %. Le Taux de coup critique augmente de 15 %. Durée : 10 seconde(s).
+
+2 étoiles : Les PV de l'utilisateur augmentent de 15 %.
+
+3 étoiles : L'effet Aura du guerrier est amélioré. Augmente la Pénétration de défense de toute l'équipe à hauteur de 20 % de la stat augmentée de Pénétration de défense de Stark.
+
+Aura du guerrier (Amélioré) : Augmente les dégâts infligés par Stark de 30 %. Durée : 15 seconde(s).
+
+4 étoiles : L'efficacité de Bris de l'utilisateur augmente de 36 %.
+
+5 étoiles : Les effets Confiance et Courage sont améliorés. L'utilisation de Frappe spiralée active l'effet Détermination. Lorsque les compétences Frappe tourbillonnante, Frappe foudroyante, Frappe foudroyante : Attaque lourde ou Frappe foudroyante : Attaque extrême touchent leur cible, le temps de rechargement de Frappe foudroyante : Annihilation diminue de 4 seconde(s) (temps de rechargement : 0.5 seconde(s)). Lorsque les compétences Frappe foudroyante, Frappe foudroyante : Attaque lourde ou Frappe foudroyante : Attaque extrême touchent une cible affectée par l'effet Aura du guerrier, elles activent l'effet Talent du guerrier.
+
+Confiance (Amélioré) : Augmente les dégâts de feu de 5 %. Augmente la Pénétration de défense de 5 %. Une fois que cet effet a atteint le maximum de cumuls, si l'effet Confiance est supprimé, il active l'effet Courage. Durée : illimitée (cumulable jusqu'à 4 fois).
+
+Courage (Amélioré) : Augmente les dégâts de feu de 30 %. Augmente la Pénétration de défense de 30 %. Augmente les dégâts de la compétence Frappe foudroyante : Annihilation de 50 %. Il est impossible d'activer l'effet Confiance tant que l'effet est actif. Active l'effet Timidité lorsque l'effet est supprimé. Durée : 5 seconde(s).
+
+Talent du guerrier : Inflige des dégâts équivalents à 1000 % des PV max de l'utilisateur.

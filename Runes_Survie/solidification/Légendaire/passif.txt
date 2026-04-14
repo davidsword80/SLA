@@ -1,0 +1,4 @@
+Passif :<br>
+<< Je me sentais devenir plus fort au fil du temps. >><br>
+Réduit les dégâts que vous subissez de 1% toutes les 6 seconde(s)<br>
+(cumulable jusqu'à 20 fois).

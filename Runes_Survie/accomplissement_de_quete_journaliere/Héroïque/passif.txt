@@ -1,0 +1,5 @@
+Accomplissement de quête journalière :<br>
+
+<br>Vous avez terminé la quête journalière. Voici votre récompense.
+<br>Si vos PV sont à 1 ou moins, vous bénéficiez de l'effet [Immortel] pendant 4 seconde(s). Lorsque l'effet [Immortel] se dissipe, vous récupérez 2000 de vos PV, ainsi que 8% de vos PV max.
+<br>Cet effet ne s'activera qu'une fois au combat.

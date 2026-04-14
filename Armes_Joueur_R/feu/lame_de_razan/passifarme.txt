@@ -1,0 +1,20 @@
+Passif :
+Lorsque la compétence Entaille ardente touche sa cible, elle lui inflige l'effet [Brûlure].
+[Brûlure]
+Inflige des dégâts équivalents à 44 % de l'Attaque toutes les 3 seconde(s) (cumulable jusqu'à 5 fois).
+Durée : 30 seconde(s)
+
+1 étoile :
+Les dégâts de la compétence Entaille ardente augmentent de 44 % lorsque Jinwoo attaque des cibles affectées par [Brûlure].
+
+2 étoiles :
+Vos dégâts de feu augmentent de 6 %.
+
+3 étoiles :
+Augmente les dégâts de brûlure de la compétence Entaille ardente de 44 %.
+
+4 étoiles :
+Le temps de rechargement d'Entaille ardente diminue de 10 %.
+
+5 étoiles :
+Les dégâts infligés aux monstres de type Boss avec Entaille ardente augmentent de 44 %.

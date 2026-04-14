@@ -1,0 +1,49 @@
+Passif
+L'utilisation de Frappe de morphobête restaure 100 % de la jauge de noyau de l'utilisateur et active l'effet [Regard de morphobête].
+
+[Regard de morphobête]
+L'utilisation d'une attaque de noyau de ténèbres active [Flux instable de morphobête] devant l'utilisateur (temps de rechargement : 2 seconde(s)).
+Durée : 15 seconde(s)
+
+[Flux instable de morphobête]
+Inflige des dégâts élémentaires de ténèbres équivalents à 900 % de l'Attaque de Sung Jinwoo.
+Compte comme une attaque de noyau.
+
+Évolution
+1 étoile :
+Lorsque toutes les armes dont l'utilisateur est équipé sont de l'élément Ténèbres, l'effet [Esprit de morphobête] est activé.
+
+[Esprit de morphobête]
+Augmente les dégâts de Surcharge de ténèbres de 10 %.
+Augmente l'effet d'[Accumulation élémentaire] de [Ténèbres] de 20 %.
+Durée : illimitée
+
+2 étoiles :
+Les dégâts de ténèbres infligés par l'utilisateur augmentent de 10 %.
+
+3 étoiles :
+L'activation de [Flux instable de morphobête] active [Énergie de la transfiguration].
+
+[Énergie de la transfiguration]
+Augmente les dégâts de l'attaque de noyau et de la compétence d'arme de ténèbres de 15 %.
+Augmente le Taux de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 3 %.
+Augmente les Dégâts de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 10 %.
+Durée : 10 seconde(s) (cumulable jusqu'à 2 fois)
+
+4 étoiles :
+Diminue le temps de rechargement de Frappe de morphobête de 20 %.
+
+5 étoiles :
+Les effets [Esprit de morphobête et Énergie de la transfiguration] sont améliorés.
+
+[Esprit de morphobête]
+Augmente les dégâts de Surcharge de ténèbres de 20 %.
+Augmente l'effet d'[Accumulation élémentaire] de [Ténèbres] de 40 %.
+Lorsque l'effet [Surcharge] de [Ténèbres] est activé, les dégâts de compétence d'arme de ténèbres augmentent de 100 % pendant 3 seconde(s), et le nombre de cumuls d'Énergie de la transfiguration passe à 5 (temps de rechargement : 15 seconde(s)).
+Durée : illimitée
+
+[Énergie de la transfiguration]
+Augmente les dégâts de l'attaque de noyau et de la compétence d'arme de ténèbres de 15 %.
+Augmente le Taux de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 3 %.
+Augmente les Dégâts de coup critique de l'attaque de noyau et de la compétence d'arme de ténèbres de 10 %.
+Durée : 15 seconde(s) (cumulable jusqu'à 5 fois)

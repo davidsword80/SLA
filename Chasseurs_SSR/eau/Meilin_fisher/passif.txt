@@ -1,0 +1,11 @@
+Passif :<br>Lorsque les compétences Retour de fouet ou Ruade féline touchent leur cible, elles leur infligent l'effet [Étreinte liquide]. Lors de l'utilisation des compétences Fouet latéral ou Au-dessus! ou si l'utilisatrice quitte le combat, l'effet [Salut, miaou!] s'applique à tous les membres de l'équipe.<br>[Étreinte liquide]<br>Augmente les dégâts d'eau subis de 8%. Durée: 16 seconde(s)<br>[Salut, miaou!]<br>L'Attaque augmente de 8%. La Défense augmente de 8%. Durée: 16 seconde(s) (cumulable jusqu'à 3 fois)
+
+1 étoile :<br>Augmente les dégâts de la compétence Au-dessus! de 64%. Lors de l'utilisation de la compétence Au-dessus!, l'effet [Serviteur félin] s'applique à l'allié ayant l'Attaque la plus élevée. Amélioration de l'effet [Trop mignon!]<br>[Serviteur félin]<br>Meilin Fisher encaisse 64% de dégâts lorsque l'utilisateur subit directement des dégâts.<br>Octroie l'effet [Super armure]. Durée: 8 seconde(s)<br>([Serviteur félin] ne peut s'appliquer à Sung Jinwoo et Meilin Fisher ne subit pas de dégâts continus ou de dégâts dus à certains effets d'autres membres de l'équipe.)<br>[Trop mignon!]<br>Augmente les dégâts des Attaques de noyau de 32%. Durée: 8 seconde(s)
+
+2 étoiles :<br>L'Attaque et la Défense de tous les membres de l'équipe augmentent de 8%.<br>L'Attaque et la Défense de tous les membres de l'équipe de l'élément Eau augmentent de 8%.
+
+3 étoiles :<br>Lorsque Retour de fouet touche sa cible, les jauges de puissance de tous les membres de l'équipe se remplissent de 8%.<br>Lorsque Retour de fouet touche un monstre Élite ou supérieur, les jauges de puissance de tous les membres de l'équipe se remplissent de 8%.
+
+4 étoiles :<br>Les PV de l'utilisatrice augmentent de 8%.
+
+5 étoiles :<br>Amélioration des effets de [Remonté à bloc!]<br>[Remonté à bloc !]<br>Augmente l'Attaque de l'utilisatrice de 16%.<br>Augmente la Défense de l'utilisatrice de 16%.<br>Augmente le Taux de coup critique de l'utilisatrice de 16%.<br>Augmente les dégâts des Attaques de noyau de l'utilisatrice de 16%.<br>Réduit les dégâts subis par l'utilisatrice de 16%.<br>Durée: 24 seconde(s).

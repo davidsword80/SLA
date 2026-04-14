@@ -1,0 +1,35 @@
+Passif : L'utilisation de la compétence Point de contrôle active l'effet Échéance 1 fois. L'utilisation des compétences Escorte d'entreprise ou Administratrice en chef lorsque l'équipe est composée de chasseurs de l'élément Lumière applique l'effet Élan à toute l'équipe. L'utilisation de la compétence Boucle de tâche applique l'effet Éclaireuse à tous les membres de l'équipe de l'élément Lumière.
+
+Élan : Augmente la Pénétration de défense de 10 %. Réduit les dégâts subis de 10 %. Durée : 60 seconde(s).
+
+Éclaireuse : Restaure en continu les PV à hauteur de 2 % de l'Attaque de Laura Walker toutes les 3 seconde(s). Confère un Bouclier équivalent à 3 % de l'Attaque de Laura Walker toutes les 3 seconde(s). Lorsque le Bouclier est actif, il active l'effet Secrétaire. Durée : 60 seconde(s).
+
+Secrétaire : L'Attaque et la Défense augmentent de 1 %. Durée : 10 seconde(s) (cumulable jusqu'à 10 fois).
+
+1 étoile : L'Attaque et la Défense de tous les membres de l'équipe augmentent de 9 %.
+
+2 étoiles : Lorsque l'utilisatrice quitte le combat, l'effet Entreprise est appliqué à tous les membres de l'équipe de l'élément Lumière, sauf Laura Walker, au bout de 3.5 seconde(s). Chaque fois que les compétences Échéance, Boucle de tâche ou Officieusement touchent leur cible, elles leur appliquent l'effet Date butoir. L'utilisation de la compétence Escorte d'entreprise améliore l'effet Développement.
+
+Officieusement : Laura Walker apparaît et fait claquer son fouet. Elle inflige des dégâts élémentaires de lumière équivalents à 1000 % de son Attaque. L'utilisation de cette compétence supprime les débuffs sur toute l'équipe. Compte comme une compétence de base.
+
+Entreprise : Lorsqu'une attaque de lumière touche sa cible, elle lui applique l'effet Officieusement (temps de rechargement : 5 seconde(s)). Durée : 60 seconde(s).
+
+Date butoir : Augmente les dégâts subis de lumière de 1 %. Durée : 60 seconde(s) (cumulable jusqu'à 20 fois).
+
+Développement : Augmente les dégâts infligés de 30 %. Supprime les débuffs. Durée : 30 seconde(s).
+
+3 étoiles : Les effets Éclaireuse et Secrétaire sont améliorés. L'utilisation de Point de contrôle remplit la jauge de puissance de l'utilisatrice de 50 %.
+
+Éclaireuse (Amélioré) : Restaure en continu les PV à hauteur de 4 % de l'Attaque de Laura Walker toutes les 3 seconde(s). Confère un Bouclier équivalent à 6 % de l'Attaque de Laura Walker toutes les 3 seconde(s). Lorsque le Bouclier est actif, il active l'effet Secrétaire. Durée : 60 seconde(s).
+
+Secrétaire (Amélioré) : Augmente l'Attaque et la Défense de 1.7 %. Durée : 10 seconde(s) (cumulable jusqu'à 10 fois).
+
+4 étoiles : Les dégâts infligés par les membres de l'équipe de l'élément Lumière augmentent de 30 %.
+
+5 étoiles : L'effet Professionnelle est activé lorsque l'utilisatrice arrive dans le niveau. Les effets Date butoir et Élan sont améliorés.
+
+Professionnelle : Augmente les dégâts de Boucle de tâche de 250 %. Augmente les dégâts infligés de 200 %. L'utilisation de la compétence Boucle de tâche confère à l'utilisatrice un Bouclier équivalent à 10 % de l'Attaque de Laura Walker pendant 3 seconde(s). Durée : illimitée.
+
+Date butoir (Amélioré) : Augmente les dégâts de lumière subis par la cible de 1.5 %. Durée : 60 seconde(s) (cumulable jusqu'à 20 fois).
+
+Élan (Amélioré) : Augmente la Pénétration de défense de 20 %. Réduit les dégâts subis de 20 %. Durée : 60 seconde(s).

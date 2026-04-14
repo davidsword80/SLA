@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling Arise - Noyaux</title>
+    <link rel="stylesheet" href="css/fusion.css" />
+    <link rel="shortcut icon" href="img/Icon/20x20.png" />
+    <script src="js/components.js"></script>
+  </head>
+  <body>
+    <section>
+      <input type="text" id="search" placeholder="Rechercher un noyau..." oninput="applyFilters()" />
+      <div class="filter-section" id="filters">
+        <div class="buttons">
+          <strong>Type :</strong>
+          <button class="filter-btn" onclick="filterItems('esprit', this)">Esprit</button>
+          <button class="filter-btn" onclick="filterItems('ame', this)">Âme</button>
+          <button class="filter-btn" onclick="filterItems('corps', this)">Corps</button>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="item-list">
+        
+        <div class="item noyau-card esprit" onclick="openPopup('pop_appetit_predateur')">
+            <img src="Noyaux/Appetit_du_predateur_ecarlate.png" alt="Appétit du Prédateur écarlate" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Appétit du Prédateur écarlate</h4></div>
+        </div>
+
+        <div class="item noyau-card ame" onclick="openPopup('pop_chatiment')">
+            <img src="Noyaux/Chatiment_du_predateur_ecarlate.png" alt="Châtiment du Prédateur écarlate" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Châtiment du Prédateur écarlate</h4></div>
+        </div>
+
+        <div class="item noyau-card corps" onclick="openPopup('pop_corne')">
+            <img src="Noyaux/Corne_du_demon_anonyme.png" alt="Corne du démon anonyme" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Corne du démon anonyme</h4></div>
+        </div>
+
+        <div class="item noyau-card ame" onclick="openPopup('pop_dents')">
+            <img src="Noyaux/Dents_du_veilleur.png" alt="Dents du Veilleur" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Dents du Veilleur</h4></div>
+        </div>
+
+        <div class="item noyau-card corps" onclick="openPopup('pop_desirs')">
+            <img src="Noyaux/Desir_du_predateur_ecarlate.png" alt="Désirs du Prédateur écarlate" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Désirs du Prédateur écarlate</h4></div>
+        </div>
+
+        <div class="item noyau-card ame" onclick="openPopup('pop_energie')">
+            <img src="Noyaux/Energie_de_mana_du_spectre_antique.png" alt="Énergie de mana du spectre antique" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Énergie de mana du spectre antique</h4></div>
+        </div>
+
+        <div class="item noyau-card ame" onclick="openPopup('pop_magisphere')">
+            <img src="Noyaux/Magisphere_du_demon_anonyme.png" alt="Magisphère du démon anonyme" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Magisphère du démon anonyme</h4></div>
+        </div>
+
+        <div class="item noyau-card corps" onclick="openPopup('pop_main_droite')">
+            <img src="Noyaux/Main_droite_du_spectre_antique.png" alt="Main droite du spectre antique" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Main droite du spectre antique</h4></div>
+        </div>
+
+        <div class="item noyau-card corps" onclick="openPopup('pop_membres')">
+            <img src="Noyaux/Membres_du_veilleur.png" alt="Membres du Veilleur" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Membres du Veilleur</h4></div>
+        </div>
+
+        <div class="item noyau-card esprit" onclick="openPopup('pop_obsession')">
+            <img src="Noyaux/Obsession_du_spectre_antique.png" alt="Obsession du spectre antique" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Obsession du spectre antique</h4></div>
+        </div>
+
+		<div class="item noyau-card esprit" onclick="openPopup('pop_tromperie')">
+            <img src="Noyaux/Tromperie_du_demon_anonyme.png" alt="Tromperie du démon anonyme" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Tromperie du démon anonyme</h4></div>
+        </div>
+
+        <div class="item noyau-card esprit" onclick="openPopup('pop_yeux')">
+            <img src="Noyaux/Yeux_du_veilleur.png" alt="Yeux du Veilleur" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Yeux du Veilleur</h4></div>
+        </div>
+		
+		<div class="item noyau-card corps" onclick="openPopup('pop_armure_protecteur')">
+            <img src="Noyaux/armure_du_protecteur_feroce.png" alt="Armure du Protecteur féroce" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Armure du Protecteur féroce</h4></div>
+        </div>
+
+        <div class="item noyau-card esprit" onclick="openPopup('pop_desir_protecteur')">
+            <img src="Noyaux/desir_du_protecteur_feroce.png" alt="Désir du Protecteur féroce" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Désir du Protecteur féroce</h4></div>
+        </div>
+
+        <div class="item noyau-card ame" onclick="openPopup('pop_griffe_protecteur')">
+            <img src="Noyaux/griffe_du_protecteur_feroce.png" alt="Griffe du Protecteur féroce" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Griffe du Protecteur féroce</h4></div>
+        </div>
+
+        <div class="item noyau-card esprit" onclick="openPopup('pop_reflexion')">
+            <img src="Noyaux/reflexion_du_dominateur_arrogant.png" alt="Réflexion du Dominateur arrogant" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Réflexion du Dominateur arrogant</h4></div>
+        </div>
+
+        <div class="item noyau-card ame" onclick="openPopup('pop_regard')">
+            <img src="Noyaux/regard_du_dominateur_arrogant.png" alt="Regard du Dominateur arrogant" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Regard du Dominateur arrogant</h4></div>
+        </div>
+
+        <div class="item noyau-card corps" onclick="openPopup('pop_volonte')">
+            <img src="Noyaux/volonte_du_dominateur_arrogant.png" alt="Volonté du Dominateur arrogant" class="portrait" />
+            <div class="card-name-container"><h4 class="card-name">Volonté du Dominateur arrogant</h4></div>
+        </div>        
+      </div>
+    </main>
+
+    <div id="pop_appetit_predateur" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup('pop_appetit_predateur')">&times;</span>
+        <h2>Appétit du Prédateur écarlate</h2>
+        <div class="rarity-selector">
+          <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+          <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+          <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+        </div>
+        <div class="passive-box">
+          <div class="passive-content rare active">
+            Augmente les Dégâts de coup critique des <strong>attaques de noyau</strong> de <strong>6 %</strong>.
+          </div>
+          <div class="passive-content heroique">
+            Augmente l'Attaque de <strong>5 %</strong> à <strong>50 %</strong> de PM ou moins.
+          </div>
+          <div class="passive-content legendaire">
+             Augmente l'Attaque de <strong>6 %</strong> à <strong>50 %</strong> de PM ou moins.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pop_chatiment" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_chatiment')">&times;</span>
+          <h2>Châtiment du Prédateur écarlate</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+              Lorsque les PM de l'utilisateur sont à <strong>20 %</strong> ou moins, il récupère l'équivalent de <strong>20 %</strong> de ses PM max. Cet effet ne s'active qu'une fois par combat.
+            </div>
+            <div class="passive-content heroique">
+              Lorsque les PM de l'utilisateur sont à <strong>20 %</strong> ou moins, il récupère l'équivalent de <strong>25 %</strong> de ses PM max. Cet effet ne s'active qu'une fois par combat.
+            </div>
+            <div class="passive-content legendaire">
+              Lorsque les PM de l'utilisateur sont à <strong>20 %</strong> ou moins, il récupère l'équivalent de <strong>30 %</strong> de ses PM max. Cet effet ne s'active qu'une fois par combat.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_corne" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_corne')">&times;</span>
+          <h2>Corne du démon anonyme</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, l'utilisateur bénéficie d'un Bouclier équivalent à <strong>3 %</strong> de ses PV max pendant <strong>8 secondes</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, l'utilisateur bénéficie d'un Bouclier équivalent à <strong>6 %</strong> de ses PV max pendant <strong>8 secondes</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, l'utilisateur bénéficie d'un Bouclier équivalent à <strong>10 %</strong> de ses PV max pendant <strong>8 secondes</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_dents" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_dents')">&times;</span>
+          <h2>Dents du Veilleur</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Diminue le Taux de récupération de PM de <strong>10 %</strong> et la Consommation de PM des compétences de base de <strong>6 %</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Diminue le Taux de récupération de PM de <strong>10 %</strong> et la Consommation de PM des compétences de base de <strong>9 %</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Diminue le Taux de récupération de PM de <strong>10 %</strong> et la Consommation de PM des compétences de base de <strong>12 %</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_desirs" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_desirs')">&times;</span>
+          <h2>Désirs du Prédateur écarlate</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Augmente la Défense de <strong>4 %</strong> à <strong>50 %</strong> de PM ou moins.
+            </div>
+            <div class="passive-content heroique">
+                Augmente la Défense de <strong>5 %</strong> à <strong>50 %</strong> de PM ou moins.
+            </div>
+            <div class="passive-content legendaire">
+                Augmente la Défense de <strong>6 %</strong> à <strong>50 %</strong> de PM ou moins.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_energie" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_energie')">&times;</span>
+          <h2>Énergie de mana du spectre antique</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Lorsque l'<strong>Attaque de base</strong> de l'utilisateur touche sa cible <strong>3 fois</strong>, sa jauge de puissance se remplit de <strong>1 %</strong> (temps de rechargement : <strong>10 secondes</strong>).
+            </div>
+            <div class="passive-content heroique">
+                Lorsque l'<strong>Attaque de base</strong> de l'utilisateur touche sa cible <strong>3 fois</strong>, sa jauge de puissance se remplit de <strong>2 %</strong> (temps de rechargement : <strong>10 secondes</strong>).
+            </div>
+            <div class="passive-content legendaire">
+                Lorsque l'<strong>Attaque de base</strong> de l'utilisateur touche sa cible <strong>3 fois</strong>, sa jauge de puissance se remplit de <strong>3 %</strong> (temps de rechargement : <strong>10 secondes</strong>).
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_magisphere" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_magisphere')">&times;</span>
+          <h2>Magisphère du démon anonyme</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, l'utilisateur récupère des PM équivalents à <strong>2 %</strong> de ses PM max (temps de rechargement : <strong>20 secondes</strong>).
+            </div>
+            <div class="passive-content heroique">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, l'utilisateur récupère des PM équivalents à <strong>3 %</strong> de ses PM max (temps de rechargement : <strong>20 secondes</strong>).
+            </div>
+            <div class="passive-content legendaire">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, l'utilisateur récupère des PM équivalents à <strong>5 %</strong> de ses PM max (temps de rechargement : <strong>20 secondes</strong>).
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_main_droite" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_main_droite')">&times;</span>
+          <h2>Main droite du spectre antique</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Lorsque l'utilisateur est touché, sa stat de réduction des dégâts augmente de <strong>3 %</strong> pendant <strong>10 secondes</strong> (temps de rechargement : <strong>25 secondes</strong>).
+            </div>
+            <div class="passive-content heroique">
+                Lorsque l'utilisateur est touché, sa stat de réduction des dégâts augmente de <strong>6 %</strong> pendant <strong>10 secondes</strong> (temps de rechargement : <strong>25 secondes</strong>).
+            </div>
+            <div class="passive-content legendaire">
+                Lorsque l'utilisateur est touché, sa stat de réduction des dégâts augmente de <strong>10 %</strong> pendant <strong>10 secondes</strong> (temps de rechargement : <strong>25 secondes</strong>).
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_membres" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_membres')">&times;</span>
+          <h2>Membres du Veilleur</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Augmente la Défense de <strong>4 %</strong> à <strong>70 %</strong> de PV ou moins.
+            </div>
+            <div class="passive-content heroique">
+                Augmente la Défense de <strong>5 %</strong> à <strong>70 %</strong> de PV ou moins.
+            </div>
+            <div class="passive-content legendaire">
+                Augmente la Défense de <strong>6 %</strong> à <strong>70 %</strong> de PV ou moins.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_obsession" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_obsession')">&times;</span>
+          <h2>Obsession du spectre antique</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Augmente l'Attaque de l'utilisateur de <strong>2 %</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Augmente l'Attaque de l'utilisateur de <strong>3 %</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Augmente l'Attaque de l'utilisateur de <strong>5 %</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+	    <div id="pop_tromperie" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_tromperie')">&times;</span>
+          <h2>Tromperie du démon anonyme</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, les Dégâts de coup critique de la <strong>Compétence de base</strong> de l'utilisateur augmentent de <strong>6 %</strong> pendant <strong>8 secondes</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, les Dégâts de coup critique de la <strong>Compétence de base</strong> de l'utilisateur augmentent de <strong>12 %</strong> pendant <strong>8 secondes</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Lors de l'utilisation de la <strong>Compétence ultime</strong>, les Dégâts de coup critique de la <strong>Compétence de base</strong> de l'utilisateur augmentent de <strong>20 %</strong> pendant <strong>8 secondes</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_yeux" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_yeux')">&times;</span>
+          <h2>Yeux du Veilleur</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Augmente les Dégâts de coup critique des <strong>attaques de noyau</strong> de <strong>6 %</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Augmente les Dégâts de coup critique des <strong>attaques de noyau</strong> de <strong>12 %</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Augmente les Dégâts de coup critique des <strong>attaques de noyau</strong> de <strong>20 %</strong>.
+            </div>
+          </div>
+        </div>	
+      </div>
+
+      <div id="pop_armure_protecteur" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_armure_protecteur')">&times;</span>
+          <h2>Armure du Protecteur féroce</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Lorsque les PV de l'utilisateur sont à <strong>30 %</strong> ou moins, il récupère <strong>10 %</strong> de ses PV max (temps de rechargement : <strong>60 secondes</strong>).
+            </div>
+            <div class="passive-content heroique">
+                Lorsque les PV de l'utilisateur sont à <strong>30 %</strong> ou moins, il récupère <strong>15 %</strong> de ses PV max (temps de rechargement : <strong>60 secondes</strong>).
+            </div>
+            <div class="passive-content legendaire">
+                Lorsque les PV de l'utilisateur sont à <strong>30 %</strong> ou moins, il récupère <strong>20 %</strong> de ses PV max (temps de rechargement : <strong>60 secondes</strong>).
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_desir_protecteur" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_desir_protecteur')">&times;</span>
+          <h2>Désir du Protecteur féroce</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Le Taux de coup critique de l'utilisateur augmente de <strong>6 %</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Le Taux de coup critique de l'utilisateur augmente de <strong>8 %</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Le Taux de coup critique de l'utilisateur augmente de <strong>10 %</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_griffe_protecteur" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_griffe_protecteur')">&times;</span>
+          <h2>Griffe du Protecteur féroce</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Les soins prodigués par l'utilisateur augmentent de <strong>4 %</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Les soins prodigués par l'utilisateur augmentent de <strong>6 %</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Les soins prodigués par l'utilisateur augmentent de <strong>8 %</strong>.
+            </div>
+          </div>
+        </div>
+      </div>   
+      
+      <div id="pop_reflexion" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_reflexion')">&times;</span>
+          <h2>Réflexion du Dominateur arrogant</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                Les dégâts de compétence ultime de l'utilisateur augmentent de <strong>15 %</strong>.
+            </div>
+            <div class="passive-content heroique">
+                Les dégâts de compétence ultime de l'utilisateur augmentent de <strong>20 %</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                Les dégâts de compétence ultime de l'utilisateur augmentent de <strong>25 %</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_regard" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_regard')">&times;</span>
+          <h2>Regard du Dominateur arrogant</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                L'efficacité de <strong>[Bris]</strong> de l'utilisateur augmente de <strong>6 %</strong>.
+            </div>
+            <div class="passive-content heroique">
+                L'efficacité de <strong>[Bris]</strong> de l'utilisateur augmente de <strong>8 %</strong>.
+            </div>
+            <div class="passive-content legendaire">
+                L'efficacité de <strong>[Bris]</strong> de l'utilisateur augmente de <strong>10 %</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pop_volonte" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('pop_volonte')">&times;</span>
+          <h2>Volonté du Dominateur arrogant</h2>
+          <div class="rarity-selector">
+            <button class="rarity-btn rare active" onclick="showRarity(this, 'rare')">RARE</button>
+            <button class="rarity-btn heroique" onclick="showRarity(this, 'heroique')">HÉROÏQUE</button>
+            <button class="rarity-btn legendaire" onclick="showRarity(this, 'legendaire')">LÉGENDAIRE</button>
+          </div>
+          <div class="passive-box">
+            <div class="passive-content rare active">
+                L'utilisation de la compétence de base confère à l'utilisateur un Bouclier équivalent à <strong>6 %</strong> de son Attaque pendant <strong>10 seconde(s)</strong> (temps de rechargement : <strong>45 seconde(s)</strong>).
+            </div>
+            <div class="passive-content heroique">
+                L'utilisation de la compétence de base confère à l'utilisateur un Bouclier équivalent à <strong>8 %</strong> de son Attaque pendant <strong>10 seconde(s)</strong> (temps de rechargement : <strong>45 seconde(s)</strong>).
+            </div>
+            <div class="passive-content legendaire">
+                L'utilisation de la compétence de base confère à l'utilisateur un Bouclier équivalent à <strong>10 %</strong> de son Attaque pendant <strong>10 seconde(s)</strong> (temps de rechargement : <strong>45 seconde(s)</strong>).
+            </div>
+          </div>
+        </div>
+      </div>      
+    <script src="js/main.js"></script>
+  </body>
+</html>

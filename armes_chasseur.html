@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo Leveling Arise - Armes de Chasseurs</title>
+    <link rel="stylesheet" href="css/fusion.css" />
+    <link rel="shortcut icon" href="img/Icon/20x20.png" />
+    <script src="js/components.js"></script>
+  </head>
+  <body>
+    <section>
+      <input
+        type="text"
+        id="search"
+        placeholder="Rechercher une arme de chasseur..."
+      />
+      <div class="filter-section" id="filters">
+        <div class="buttons">
+          <strong>Rareté :</strong>
+          <button class="filter-btn img-btn" data-filter="SSR"><img src="img/rarete/SSR.png" alt="SSR" title="SSR" /></button>
+          <button class="filter-btn img-btn" data-filter="SR"><img src="img/rarete/SR.png" alt="SR" title="SR" /></button>
+          <button class="filter-btn img-btn" data-filter="R"><img src="img/rarete/R.png" alt="R" title="R" /></button>
+        </div>
+
+        <div class="buttons">
+          <strong>Élément :</strong>
+          <button class="sub-filter-btn img-btn" data-sub-filter="feu"><img src="img/Element/Fire_Element.png" alt="Feu" title="Feu" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="eau"><img src="img/Element/Water_Element.png" alt="Eau" title="Eau" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="lumiere"><img src="img/Element/Light_Element.png" alt="Lumière" title="Lumière" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="tenebre"><img src="img/Element/Dark_Element.png" alt="Ténèbre" title="Ténèbre" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="vent"><img src="img/Element/Wind_Element.png" alt="Vent" title="Vent" /></button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="collab">Collab</button>
+          <button class="sub-filter-btn img-btn" data-sub-filter="event">Event</button>
+        </div>
+
+        <div class="buttons">
+          <strong>Classe :</strong>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="attaquant"><img src="img/class/Striker_Class.png" alt="Attaquant" title="Attaquant" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="briseur"><img src="img/class/Breaker_Class.png" alt="Briseur" title="Briseur" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="soutien"><img src="img/class/Supporter_Class.png" alt="Soutien" title="Soutien" /></button>
+          <button class="sub-sub-filter-btn img-btn" data-sub-sub-filter="cumulateur"><img src="img/class/Elemental_Stacker_Class.png" alt="Cumulateur élémentaire" title="Cumulateur élémentaire" /></button>
+        </div>
+      </div>
+    </section>
+    <main>
+      <div class="item-list">
+
+        <div class="item arme-chasseur-card SSR vent cumulateur">
+          <a href="default_hunters.html?id=sugimoto-reiji">
+            <img src="Chasseurs_SSR/vent/Sugimoto_reiji/gravee_dans_la_chair/Relic_SugimotoReiji_PortraitBig.png" alt="Sugimoto Reiji" class="portrait" />
+            <div class="element-bg">
+              <img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" />
+            </div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Sugimoto Reiji</h4>
+              <p class="arme-subtitle">Gravée dans la chair</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau soutien">
+          <a href="default_hunters.html?id=elena-renault">
+            <img src="Chasseurs_SSR/eau/Elena_renault/l_incarnation_de_l_obsession/Relic_ElenaRenaud_PortraitBig.png" alt="Elena renault" class="portrait" />
+            <div class="element-bg">
+              <img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" />
+            </div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Elena Renault</h4>
+              <p class="arme-subtitle">L'incarnation de l'obsession</p>
+            </div>
+          </a>
+        </div>        
+
+        <div class="item arme-chasseur-card SSR eau cumulateur">
+          <a href="default_hunters.html?id=meri-laine">
+            <img src="Chasseurs_SSR/eau/Meri_laine/brise_hiver/Relic_Relic_MeriLaine_PortraitBig.png" alt="Meri Laine" class="portrait" />
+            <div class="element-bg">
+              <img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" />
+            </div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Meri Laine</h4>
+              <p class="arme-subtitle">Brise hiver</p>
+            </div>
+          </a>
+        </div>  
+
+        <div class="item arme-chasseur-card SSR vent attaquant">
+          <a href="default_hunters.html?id=amamiya-mirei">
+            <img src="Chasseurs_SSR/vent/Amamiya_mirei/lapin_bunbun/Relic_AmamiyaMirei_PortraitBig.png" alt="Amamiya Mirei" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Amamiya Mirei</h4>
+              <p class="arme-subtitle">Lapin bunbun</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR vent soutien">
+          <a href="default_hunters.html?id=han-se-mi">
+            <img src="Chasseurs_SSR/vent/Han_se_mi/l_age_adulte/Relic_HanSeMi_PortraitBig.png" alt="Han Se Mi" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Han Se Mi</h4>
+              <p class="arme-subtitle">L'âge adulte</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR vent attaquant">
+          <a href="default_hunters.html?id=hwang-dongsoo">
+            <img src="Chasseurs_SSR/vent/Hwang_dongsoo/une_touche_de_douceur/Relic_HwangDongSu_PortraitBig.png" alt="Hwang Dongsoo" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Hwang Dongsoo</h4>
+              <p class="arme-subtitle">Une touche de douceur</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR vent briseur">
+          <a href="default_hunters.html?id=kim-sangshik">
+            <img src="Chasseurs_SR/vent/Kim_sangshik/la_chute_de_quelqu_un/Relic_KimSangShik_PortraitBig.png" alt="Kim Sangshik" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Kim Sangshik</h4>
+              <p class="arme-subtitle">La chute de quelqu'un</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR vent attaquant">
+          <a href="default_hunters.html?id=park-beom-shik">
+            <img src="Chasseurs_SR/vent/Park_beom_shik/decisions/Relic_ParkBeomsik_PortraitBig.png" alt="Park Beom-Shik" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Park Beom-Shik</h4>
+              <p class="arme-subtitle">Décisions</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR vent attaquant">
+          <a href="default_hunters.html?id=park-heejin">
+            <img src="Chasseurs_SR/vent/Park_heejin/intuition/Relic_ParkHeejin_PortraitBig.png" alt="Park Heejin" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Park Heejin</h4>
+              <p class="arme-subtitle">Intuition</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR vent briseur">
+          <a href="default_hunters.html?id=woo-jincheol">
+            <img src="Chasseurs_SSR/vent/Woo_jincheol/un_autre_niveau/Relic_WooJinChul_PortraitBig.png" alt="Woo Jincheol" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Woo Jincheol</h4>
+              <p class="arme-subtitle">Un autre niveau</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR vent soutien">
+          <a href="default_hunters.html?id=sung-jinah">
+            <img src="Chasseurs_SSR/vent/Sung_jinah/mousson_bleue/Relic_SungJinah_PortraitBig.png" alt="Sung Jinah" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Sung Jinah</h4>
+              <p class="arme-subtitle">Mousson bleue</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR vent attaquant">
+          <a href="default_hunters.html?id=lennart-niermann">
+            <img src="Chasseurs_SSR/vent/Lennart_niermann/le_poid_des_responsabilites/Relic_LennartNiermann_PortraitBig.png" alt="Lennart Niermann" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Lennart Niermann</h4>
+              <p class="arme-subtitle">Le poids des responsabilités</p>
+            </div>
+          </a>
+        </div>        
+
+        <div class="item arme-chasseur-card SSR vent briseur collab">
+          <a href="default_hunters.html?id=soyeon">
+            <img src="Chasseurs_SSR/collab/vent/Soyeon/flash_flamboyant/Relic_Soyeon_PortraitBig.png" alt="Soyeon" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Soyeon</h4>
+              <p class="arme-subtitle">Flash flamboyant</p>
+            </div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SSR vent briseur">
+          <a href="default_hunters.html?id=goto-ryuji">
+            <img src="Chasseurs_SSR/vent/Goto_ryuji/reves_distordus/Relic_GotoRyuji_PortraitBig.png" alt="Goto Ryuji" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Wind_Element.png" alt="Vent" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Goto Ryuji</h4>
+              <p class="arme-subtitle">Rêves distordus</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre attaquant">
+          <a href="default_hunters.html?id=baek_yunho_a_criniere_argentee">
+            <img src="Chasseurs_SSR/tenebre/Baek_yunho_a_criniere_argentee/ame_d_un_tigre_blanc_hurlant/Relic_BaekYoonHo_PortraitBig.png" alt="Baek Yunho à Crinière Argentée" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Baek Yunho à Crinière Argentée</h4>
+              <p class="arme-subtitle">Âme d'un tigre blanc hurlant</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre briseur">
+          <a href="default_hunters.html?id=harper">
+            <img src="Chasseurs_SSR/tenebre/Harper/espiegle/Relic_Harper_PortraitBig.png" alt="Harper" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Harper</h4>
+              <p class="arme-subtitle">Espiègle</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR tenebre briseur">
+          <a href="default_hunters.html?id=hwang-dongsuk">
+            <img src="Chasseurs_SR/tenebre/Hwang_dongsuk/pilleur_d_ame/Relic_HwangDongSuk_PortraitBig.png" alt="Hwang Dongsuk" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Hwang Dongsuk</h4>
+              <p class="arme-subtitle">Pilleur d'âme</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre soutien">
+          <a href="default_hunters.html?id=isla-wright">
+            <img src="Chasseurs_SSR/tenebre/Isla_wright/chance_impromptue/Relic_IslaWright_PortraitBig.png" alt="Isla Wright" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Isla Wright</h4>
+              <p class="arme-subtitle">Chance impromptue</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR tenebre attaquant">
+          <a href="default_hunters.html?id=kang-taeshik">
+            <img src="Chasseurs_SR/tenebre/Kang_taeshik/frenesie_inarretable/Relic_KangTaeShik_PortraitBig.png" alt="Kang Taeshik" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Kang Taeshik</h4>
+              <p class="arme-subtitle">Frénésie inarrêtable</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre soutien">
+          <a href="default_hunters.html?id=lee-bora">
+            <img src="Chasseurs_SSR/tenebre/Lee_bora/logique_imparable/Relic_LeeBoRa_PortraitBig.png" alt="Lee Bora" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Lee Bora</h4>
+              <p class="arme-subtitle">Logique imparable</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre briseur">
+          <a href="default_hunters.html?id=lim-taegyu">
+            <img src="Chasseurs_SSR/tenebre/Lim_taegyu/interception/Relic_LimTaeGyu_PortraitBig.png" alt="Lim Taegyu" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Lim Taegyu</h4>
+              <p class="arme-subtitle">Interception</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre briseur">
+          <a href="default_hunters.html?id=son-kihoon">
+            <img src="Chasseurs_SSR/tenebre/Son_kihoon/determination_de_fer/Relic_SonKiHoon_PC_PortraitBig.png" alt="Son Kihoon" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Son Kihoon</h4>
+              <p class="arme-subtitle">Détermination de fer</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre attaquant collab">
+          <a href="default_hunters.html?id=minnie">
+            <img src="Chasseurs_SSR/collab/tenebre/Minnie/reve_du_papillon_mauve/Relic_Minnie_PortraitBig.png" alt="Minnie" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Minnie</h4>
+              <p class="arme-subtitle">Rêve du papillon mauve</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre attaquant">
+          <a href="default_hunters.html?id=charlotte">
+            <img src="Chasseurs_SSR/tenebre/Charlotte/farceuse/Relic_Charlotte_PortraitBig.png" alt="Charlotte" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Charlotte</h4>
+              <p class="arme-subtitle">Farceuse</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre attaquant">
+          <a href="default_hunters.html?id=sung-ilhwan">
+            <img src="Chasseurs_SSR/tenebre/Sung_ilhwan/volonte_implacable/Relic_SungIlHwan_PC_PortraitBig.png" alt="Sung Ilhwan" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Sung Ilhwan</h4>
+              <p class="arme-subtitle">Volonté implacable</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR tenebre cumulateur">
+          <a href="default_hunters.html?id=sian-halat">
+            <img src="Chasseurs_SSR/tenebre/Sian_halat/ombre_pourpre/Relic_SianHalat_PortraitBig.png" alt="Sian Halat" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Dark_Element.png" alt="Ténèbres" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Sian Halat</h4>
+              <p class="arme-subtitle">Ombre pourpre</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau briseur">
+          <a href="default_hunters.html?id=seo-lin">
+            <img src="Chasseurs_SSR/eau/Seo_lin/ode_au_fer_et_au_sang/Relic_SeoLin_PC_PortraitBig.png" alt="Seo Lin" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Seo Lin</h4>
+              <p class="arme-subtitle">Ode au fer et au sang</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau soutien">
+          <a href="default_hunters.html?id=meilin-fisher">
+            <img src="Chasseurs_SSR/eau/Meilin_fisher/contre_toute_attente/Relic_MeilinFisher_PortraitBig.png" alt="Meilin Fisher" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Meilin Fisher</h4>
+              <p class="arme-subtitle">Contre toute attente</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau attaquant">
+          <a href="default_hunters.html?id=alicia-blanche">
+            <img src="Chasseurs_SSR/eau/Alicia_blanche/sorciere_des_glaces/Relic_AliciaBlanchet_PortraitBig.png" alt="Alicia Blanche" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Alicia Blanche</h4>
+              <p class="arme-subtitle">Sorcière des glaces</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau attaquant">
+          <a href="default_hunters.html?id=Cha-hae-in-la-princesse-epeiste-immaculee">
+            <img src="Chasseurs_SSR/eau/Cha_hae_in_la_princesse_epeiste_immaculee/serment_de_la_valkyrie/Relic_ChaHaeIn_MM_PortraitBig.png" alt="Cha Hae-In, la Princesse Épeiste Immaculée" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Cha Hae-In (Maillot)</h4>
+              <p class="arme-subtitle">Serment de la valkyrie</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR eau attaquant">
+          <a href="default_hunters.html?id=han-songyi">
+            <img src="Chasseurs_SR/eau/Han_songyi/premieres_fleurs/Relic_HanSongI_PortraitBig.png" alt="Han Songyi" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Han Songyi</h4>
+              <p class="arme-subtitle">Premières fleurs</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR eau soutien">
+          <a href="default_hunters.html?id=lee-juhee">
+            <img src="Chasseurs_SR/eau/Lee_juhee/ce_qui_n_a_jamais_ete/Relic_LeeJuHee_PortraitBig.png" alt="Lee Juhee" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Lee Juhee</h4>
+              <p class="arme-subtitle">Ce qui n'a jamais été</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR eau briseur">
+          <a href="default_hunters.html?id=nam-chae-young">
+            <img src="Chasseurs_SR/eau/Nam_chae_young/misericorde_du_tueur/Relic_NamChaeyeong_PortraitBig.png" alt="Nam Chae-Young" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Nam Chae-Young</h4>
+              <p class="arme-subtitle">Miséricorde du tueur</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau briseur">
+          <a href="default_hunters.html?id=seo-jiwoo">
+            <img src="Chasseurs_SSR/eau/Seo_jiwoo/bravoure_inegalee/Relic_SeoJiwoo_PortraitBig.png" alt="Seo Jiwoo" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Seo Jiwoo</h4>
+              <p class="arme-subtitle">Bravoure inégalée</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau soutien collab">
+          <a href="default_hunters.html?id=frieren">
+            <img src="Chasseurs_SSR/collab/eau/Frieren/baton_de_frieren/Relic_Frieren_PortraitBig.png" alt="Frieren" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Frieren</h4>
+              <p class="arme-subtitle">Bâton de Frieren</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR eau attaquant collab">
+          <a href="default_hunters.html?id=shuhua">
+            <img src="Chasseurs_SSR/collab/eau/Shuhua/sous_le_clair_de_lune/Relic_Shuhua_PortraitBig.png" alt="Shuhua" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Shuhua</h4>
+              <p class="arme-subtitle">Sous le clair de lune</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR eau briseur">
+          <a href="default_hunters.html?id=anna-ruiz">
+            <img src="Chasseurs_SR/eau/Anna_ruiz/vagabon_solitaire/Relic_AnnaRuiz_PortraitBig.png" alt="Anna Ruiz" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Water_Element.png" alt="Eau" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Anna Ruiz</h4>
+              <p class="arme-subtitle">Vagabond solitaire</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR lumiere briseur">
+          <a href="default_hunters.html?id=baek-yunho">
+            <img src="Chasseurs_SSR/lumiere/Baek_yunho/ame_de_tigre_blanc_reprimee/Relic_BaekYoonHo_Human_PortraitBig.png" alt="Baek Yunho" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Baek Yunho</h4>
+              <p class="arme-subtitle">Âme de tigre blanc réprimée</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR lumiere attaquant">
+          <a href="default_hunters.html?id=cha-hae-in">
+            <img src="Chasseurs_SSR/lumiere/Cha_hae_in/epee_de_lumiere/Relic_ChaHaeIn_PortraitBig.png" alt="Cha Hae-In" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Cha Hae-In</h4>
+              <p class="arme-subtitle">Épée de lumière</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR lumiere briseur">
+          <a href="default_hunters.html?id=go-gunhee">
+            <img src="Chasseurs_SSR/lumiere/Go_gunhee/une_conviction_et_une_vocation/Relic_GoGunHee_PortraitBig.png" alt="Go Gunhee" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Go Gunhee</h4>
+              <p class="arme-subtitle">Une conviction et une vocation</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR lumiere briseur">
+          <a href="default_hunters.html?id=kim-chul">
+            <img src="Chasseurs_SR/lumiere/Kim_chul/la_volonte_du_gardien/Relic_KimChul_PortraitBig.png" alt="Kim Chul" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Kim Chul</h4>
+              <p class="arme-subtitle">La volonté du gardien</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR lumiere attaquant">
+          <a href="default_hunters.html?id=cho-gyuhwan">
+            <img src="Chasseurs_SR/lumiere/Cho_gyu_hwan/la_belle_vie/Relic_ChoGyuHwan_PortraitBig.png" alt="Cho GyuHwan" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Cho GyuHwan</h4>
+              <p class="arme-subtitle">La belle vie</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR lumiere soutien">
+          <a href="default_hunters.html?id=min-byeonggu">
+            <img src="Chasseurs_SSR/lumiere/Min_byeonggu/sommeil_eternel/Relic_MinByungGu_PortraitBig.png" alt="Min Byeonggu" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Min Byeonggu</h4>
+              <p class="arme-subtitle">Sommeil éternel</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR lumiere soutien">
+          <a href="default_hunters.html?id=shimizu-akari">
+            <img src="Chasseurs_SSR/lumiere/Shimizu_akari/le_prix_d_une_promesse/Relic_ShimizuAkari_PortraitBig.png" alt="Shimizu Akari" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Shimizu Akari</h4>
+              <p class="arme-subtitle">Le prix d'une promesse</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR lumiere attaquant">
+          <a href="default_hunters.html?id=thomas-andre">
+            <img src="Chasseurs_SSR/lumiere/Thomas_andre/le_veritable_roi/Relic_ThomasAndre_PortraitBig.png" alt="Thomas André" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Thomas André</h4>
+              <p class="arme-subtitle">Le véritable roi</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR lumiere briseur">
+          <a href="default_hunters.html?id=yoo-jinho">
+            <img src="Chasseurs_SR/lumiere/Yoo_jinho/enchante/Relic_YooJinHo_PortraitBig.png" alt="Yoo Jinho" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Yoo Jinho</h4>
+              <p class="arme-subtitle">Enchanté</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR lumiere soutien">
+          <a href="default_hunters.html?id=laura-walker">
+            <img src="Chasseurs_SSR/lumiere/Laura_walker/eclair_dechire_nuit/Relic_LauraWalker_PortraitBig.png" alt="Laura Walker" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Laura Walker</h4>
+              <p class="arme-subtitle">Éclair déchire nuit</p>
+            </div>
+          </a>
+        </div>        
+
+        <div class="item arme-chasseur-card SSR lumiere attaquant collab">
+          <a href="default_hunters.html?id=miyeon">
+            <img src="Chasseurs_SSR/collab/lumiere/Miyeon/l_etoile_guide_du_champ_de_bataille/Relic_Miyeon_PortraitBig.png" alt="Miyeon" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Light_Element.png" alt="Lumière" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Miyeon</h4>
+              <p class="arme-subtitle">L'étoile guide du champ de bataille</p>
+            </div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SSR feu attaquant">
+          <a href="default_hunters.html?id=choi-jongin">
+            <img src="Chasseurs_SSR/feu/Choi_jongin/echange_equivalent/Relic_ChoiJongIn_PortraitBig.png" alt="Choi Jongin" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Choi Jongin</h4>
+              <p class="arme-subtitle">Échange équivalent</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR feu briseur">
+          <a href="default_hunters.html?id=emma-laurent">
+            <img src="Chasseurs_SSR/feu/Emma_laurent/pensees_nocturnes/Relic_EmmaLaurent_PortraitBig.png" alt="Emma Laurent" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Emma Laurent</h4>
+              <p class="arme-subtitle">Pensées nocturnes</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR feu briseur">
+          <a href="default_hunters.html?id=esil-radir">
+            <img src="Chasseurs_SSR/feu/Esil_radir/mort_glorieuse/Relic_EsilRadiru_PortraitBig.png" alt="Esil Radir" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Esil Radir</h4>
+              <p class="arme-subtitle">Mort glorieuse</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR feu soutien">
+          <a href="default_hunters.html?id=gina">
+            <img src="Chasseurs_SSR/feu/Gina/glamour_et_auto_reconnaissance/Relic_Gina_PortraitBig.png" alt="Gina" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Gina</h4>
+              <p class="arme-subtitle">Glamour et auto-reconnaissance</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR feu attaquant">
+          <a href="default_hunters.html?id=song-chiyul">
+            <img src="Chasseurs_SR/feu/Song_chiyul/talent_intact/Relic_SongChiYul_PortraitBig.png" alt="Song Chiyul" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Song Chiyul</h4>
+              <p class="arme-subtitle">Talent intact</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR feu attaquant">
+          <a href="default_hunters.html?id=yoo-soohyun">
+            <img src="Chasseurs_SSR/feu/Yoo_soohyun/overdrive/Relic_YooSooHyun_PortraitBig.png" alt="Yoo Soohyun" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Yoo Soohyun</h4>
+              <p class="arme-subtitle">Overdrive</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR feu attaquant">
+          <a href="default_hunters.html?id=tawata-kanae">
+            <img src="Chasseurs_SSR/feu/Tawata_kanae/la_voix_du_heros/Relic_TawataKanae_PortraitBig.png" alt="Tawata Kanae" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Tawata Kanae</h4>
+              <p class="arme-subtitle">La voix du héros</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SSR feu cumulateur">
+          <a href="default_hunters.html?id=christopher-reed">
+            <img src="Chasseurs_SSR/feu/Christopher_reed/strategie_victorieuse/Relic_ChristopherReed_PortraitBig.png" alt="Christopher Reed" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Christopher Reed</h4>
+              <p class="arme-subtitle">Stratégie victorieuse</p>
+            </div>
+          </a>
+        </div>    
+        
+        <div class="item arme-chasseur-card SSR feu attaquant collab">
+          <a href="default_hunters.html?id=fern">
+            <img src="Chasseurs_SSR/collab/feu/Fern/baton_de_fern/Relic_Fern_PortraitBig.png" alt="Fern" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Fern</h4>
+              <p class="arme-subtitle">Bâton de Fern</p>
+            </div>
+          </a>
+        </div>   
+        
+        <div class="item arme-chasseur-card SSR feu briseur collab">
+          <a href="default_hunters.html?id=stark">
+            <img src="Chasseurs_SSR/collab/feu/Stark/hache_de_stark/Relic_Stark_PortraitBig.png" alt="Stark" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Stark</h4>
+              <p class="arme-subtitle">Hache de Stark</p>
+            </div>
+          </a>
+        </div>   
+        
+        <div class="item arme-chasseur-card SSR feu briseur collab">
+          <a href="default_hunters.html?id=yuqi">
+            <img src="Chasseurs_SSR/collab/feu/Yuqi/soleil_vertueux/Relic_Yuqi_PortraitBig.png" alt="Yuqi" class="portrait" />
+            <div class="element-bg"><img src="img/Element/Fire_Element.png" alt="Feu" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container">
+              <h4 class="card-name">Yuqi</h4>
+              <p class="arme-subtitle">Soleil vertueux</p>
+            </div>
+          </a>
+        </div>
+
+<div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=bonbon-fantome">
+            <img src="Armes_Chasseurs_SSR/bonbon_fantome/Relic_SSR_HWCandy_3_PortraitBig.png" alt="Bonbon Fantôme" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bonbon Fantôme</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>      
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=bonbon-frankenstein">
+            <img src="Armes_Chasseurs_SSR/bonbon_frankenstein/Relic_SSR_HWCandy_2_PortraitBig.png" alt="Bonbon Frankenstein" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bonbon Frankenstein</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>  
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=bonbon-vampire">
+            <img src="Armes_Chasseurs_SSR/bonbon_vampire/Relic_SSR_HWCandy_1_PortraitBig.png" alt="Bonbon Vampire" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bonbon Vampire</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>          
+
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=pistolet-a-eau-requin-a-pointes">
+            <img src="Armes_Chasseurs_SSR/pistolet_a_eau_requin_a_pointes/Relic_SSR_WaterGun_Red_PortraitBig.png" alt="Pistolet à eau requin à pointes" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Pistolet à eau requin à pointes</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>      
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=pistolet-a-eau-requin-robuste">
+            <img src="Armes_Chasseurs_SSR/pistolet_a_eau_requin_robuste/Relic_SSR_WaterGun_Blue_PortraitBig.png" alt="Pistolet à eau requin robuste" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Pistolet à eau requin robuste</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>  
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=pistolet-a-eau-requin-solide">
+            <img src="Armes_Chasseurs_SSR/pistolet_a_eau_requin_solide/Relic_SSR_WaterGun_Yellow_PortraitBig.png" alt="Pistolet à eau requin solide" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Pistolet à eau requin solide</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>  
+
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=porte-cles-porte-bonheur-de-beru">
+            <img src="Armes_Chasseurs_SSR/Porte_cles_porte_bonheur_de_beru/Relic_SSR_Shadowkeyring_Beru_PortraitBig.png" alt="Porte clés porte bonheur de Beru" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Porte clés porte bonheur de Beru</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>      
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=porte-cles-porte-bonheur-de-igris">
+            <img src="Armes_Chasseurs_SSR/Porte_cles_porte_bonheur_de_igris/Relic_SSR_Shadowkeyring_Igris_PortraitBig.png" alt="Porte clés porte bonheur de Igris" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Porte clés porte bonheur de Igris</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>  
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=porte-cles-porte-bonheur-de-tank">
+            <img src="Armes_Chasseurs_SSR/Porte_cles_porte_bonheur_de_tank/Relic_SSR_Shadowkeyring_Tank_PortraitBig.png" alt="Porte clés porte bonheur de Tank" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Porte clés porte bonheur de Tank</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>  
+
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=rosee-du-serpent-azur">
+            <img src="Armes_Chasseurs_SSR/Rosee_du_serpent_azur/Relic_SSR_BlueSnake_Square_PortraitBig.png" alt="Rosée du serpent azur" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Rosée du serpent azur</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>      
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=flamme-du-serpent-azur">
+            <img src="Armes_Chasseurs_SSR/Flamme_du_serpent_azur/Relic_SSR_BlueSnake_Flower_PortraitBig.png" alt="Flamme du serpent azur" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Flamme du serpent azur</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>  
+        
+        <div class="item arme-chasseur-card SSR event">
+          <a href="default_weapons_hunters.html?id=feuille-du-serpent-azur">
+            <img src="Armes_Chasseurs_SSR/Feuille_du_serpent_azur/Relic_SSR_BlueSnake_Circle_PortraitBig.png" alt="Feuille du serpent azur" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SSR.png" alt="SSR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Feuille du serpent azur</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SR">
+          <a href="default_weapons_hunters.html?id=arc-en-acier">
+            <img src="Armes_Chasseurs_SR/arc_en_acier/Relic_SR_Bow_PortraitBig.png" alt="Arc en acier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Arc en acier</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SR">
+          <a href="default_weapons_hunters.html?id=baton-en-acier">
+            <img src="Armes_Chasseurs_SR/baton_en_acier/Relic_SR_Staff_PortraitBig.png" alt="Bâton en acier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bâton en acier</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+
+        <div class="item arme-chasseur-card SR">
+          <a href="default_weapons_hunters.html?id=bouclier-en-acier">
+            <img src="Armes_Chasseurs_SR/bouclier_en_acier/Relic_SR_Shield_PortraitBig.png" alt="Bouclier en acier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bouclier en acier</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SR">
+          <a href="default_weapons_hunters.html?id=dague-en-acier">
+            <img src="Armes_Chasseurs_SR/dague_en_acier/Relic_SR_Dagger_PortraitBig.png" alt="Dague en acier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Dague en acier</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SR">
+          <a href="default_weapons_hunters.html?id=epee-longue-en-acier">
+            <img src="Armes_Chasseurs_SR/epee_longue_en_acier/Relic_SR_Sword_PortraitBig.png" alt="Epée longue en acier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Epée longue en acier</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SR">
+          <a href="default_weapons_hunters.html?id=grimoire-ancien">
+            <img src="Armes_Chasseurs_SR/grimoire_ancien/Relic_SR_MagicBook_PortraitBig.png" alt="Grimoire ancien" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Grimoire ancien</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card SR">
+          <a href="default_weapons_hunters.html?id=hache-en-acier">
+            <img src="Armes_Chasseurs_SR/hache_en_acier/Relic_SR_OneHandAxe_PortraitBig.png" alt="Hache en acier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/SR.png" alt="SR" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Hache en acier</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div> 
+
+        <div class="item arme-chasseur-card R">
+          <a href="default_weapons_hunters.html?id=arc">
+            <img src="Armes_Chasseurs_R/Arc/Relic_R_Pickaxe_PortraitBig.png" alt="Arc" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Arc</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+        
+        <div class="item arme-chasseur-card R">
+          <a href="default_weapons_hunters.html?id=baton">
+            <img src="Armes_Chasseurs_R/Baton/Relic_R_Staff_PortraitBig.png" alt="Bâton" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bâton</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+        
+        <div class="item arme-chasseur-card R">
+          <a href="default_weapons_hunters.html?id=bouclier">
+            <img src="Armes_Chasseurs_R/Bouclier/Relic_R_Shield_PortraitBig.png" alt="Bouclier" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Bouclier</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+        
+        <div class="item arme-chasseur-card R">
+          <a href="default_weapons_hunters.html?id=dague">
+            <img src="Armes_Chasseurs_R/Dague/Relic_R_Dagger_PortraitBig.png" alt="Dague" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Dague</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+        
+        <div class="item arme-chasseur-card R">
+          <a href="default_weapons_hunters.html?id=epee">
+            <img src="Armes_Chasseurs_R/Epee/Relic_R_Sword_PortraitBig.png" alt="Epée" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Epée</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+        
+        <div class="item arme-chasseur-card R">
+          <a href="default_weapons_hunters.html?id=esprit-de-magie">
+            <img src="Armes_Chasseurs_R/Esprit_de_magie/Relic_R_MagicBook_PortraitBig.png" alt="Esprit de magie" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Esprit de magie</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+        
+        <div class="item arme-chasseur-card R">
+          <a href="default_weapons_hunters.html?id=hachette">
+            <img src="Armes_Chasseurs_R/Hachette/Relic_R_OneHandAxe_PortraitBig.png" alt="Hachette" class="portrait" />
+            <div class="element-bg"><img src="img/Element/No_Element.png" alt="Aucun élément" class="icon-element" /></div>
+            <img src="img/rarete/R.png" alt="R" class="icon-rarity" />
+            <div class="card-name-container"><h4 class="card-name">Hachette</h4><p class="arme-subtitle"></p></div>
+          </a>
+        </div>
+
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

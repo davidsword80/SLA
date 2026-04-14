@@ -1,0 +1,11 @@
+Niv. 1
+Dégâts de compétence ultime augmentés
+Les dégâts de la compétence ultime augmentent de 2 % lorsque [Puissance rémanente : Yogmund] est dans la formation.
+
+Niv. 1
+Dégâts de compétence QTE augmentés
+Les dégâts de la compétence QTE augmentent de 2 % lorsque [Puissance rémanente : Yogmund] est dans la formation.
+
+Niv. 1
+Dégâts de compétence de base augmentés
+Les dégâts de la compétence de base augmentent de 2 % lorsque [Puissance rémanente : Yogmund] est dans la formation.

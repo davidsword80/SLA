@@ -1,0 +1,6 @@
+Passif :<br>
+[Effet de la panoplie 2]
+Les dégâts des compétences de [Bris] de l'utilisateur augmentent de 30%.
+
+[Effet de la panoplie 4]
+L'effet Dégâts de compétence augmentés passe à 60%.

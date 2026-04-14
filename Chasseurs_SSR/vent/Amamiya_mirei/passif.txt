@@ -1,0 +1,33 @@
+Infos sur les caractéristiques passives :
+
+0 étoile :
+Lorsque l'utilisatrice a 66% de PM ou au-dessus, 
+l'effet [Noirceur de Kuroha] s'applique.
+L'Attaque de l'utilisatrice augmente de 4% 
+par tranche de 150 PM supplémentaires (jusqu'à 40%)..
+
+[Noirceur de Kuroha]
+Les dégâts des compétences Technique à l'épée de Kuroha type 3: Ailes de la nuit et Technique à l'épée de Kuroha type 4: Cri de la corneille augmentent de 30%
+
+1 étoile :
+Lorsque l'effet [Possession] est actif, le Taux de coup critique et les Dégâts de coup critique de l'utilisatrice augmentent de 20%.
+Lors de l'utilisation de la compétence Technique à l'épée de Kuroha type 3: Ailes de la nuit tandis que l'effet [Possession] est actif, l'effet [Ténèbres profondes] s'applique.
+
+[Ténèbres profondes]
+L'Attaque et le Taux de coup critique de l'utilisatrice augmentent de 12% (cumulable jusqu'à 2 fois).
+Durée: 10 seconde(s)
+
+2 étoile :
+Remplit la jauge de puissance de l'utilisatrice de 40% en accédant au niveau.
+
+3 étoile :
+Lors de l'utilisation des Attaques de base ou de noyau, les PM et la jauge de puissance se remplissent de 1%, et le temps de rechargement de la compétence Technique à l'épée de Kuroha Coup létal : Ouverture spéciale de la nuit sans lune diminue de 2 seconde(s).
+
+4 étoile :
+Augmente les dégâts de vent d'Amamiya Mirei de 10% pour chaque membre de l'équipe de l'élément vent (cumulable jusqu'à 3 fois).
+
+5 étoile :
+Lorsque l'effet [Possession] est actif, l'effet [Confession de la corneille] s'applique à l'utilisatrice..
+
+[Confession de la corneille]
+Les dégâts des compétences Technique à l'épée de Kuroha type 3: Ailes de la nuit et Technique à l'épée de Kuroha type 4 : Cri de la corneille augmentent de 80%
